@@ -1,0 +1,52 @@
+name: CVE Monitor
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Run every hour
+  workflow_dispatch:  # Allow manual trigger
+
+# 添加这个权限块
+permissions:
+  contents: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          
+      - name: Run CVE monitor
+        env:
+          DEBUG: ${{ secrets.DEBUG }}
+          NOTIFY_TYPE: ${{ secrets.NOTIFY_TYPE }}
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+          GPT_SERVER_URL: ${{ secrets.GPT_SERVER_URL }}
+          GPT_API_KEY: ${{ secrets.GPT_API_KEY }}
+          GPT_MODEL: ${{ secrets.GPT_MODEL }}
+          SEARXNG_URL: ${{ secrets.SEARXNG_URL }}
+          GIT_URL: https://github.com/${{ github.repository }}
+        run: python main.py
+        
+      - name: Commit changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "VulnWatchdog[bot]"
+          git add .
+          git commit -m "Update CVE analysis $(date +'%Y-%m-%d %H:%M:%S')" || exit 0
+          
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}

@@ -1,0 +1,17 @@
+{
+  "name": "{gpt.name}",
+  "cve_id": "{gpt.cve_id}",
+  "cve_url": "{gpt.cve_url}",
+  "type": "{gpt.type}",
+  "app": "{gpt.app}",
+  "risk": "{gpt.risk}",
+  "version": "{gpt.version}",
+  "condition": "{gpt.condition}",
+  "poc_available": "{gpt.poc_available}",
+  "poison": "{gpt.poison}",
+  "action_log": "{gpt.action_log}",
+  "repo_full_name": "{repo.full_name}",
+  "repo_url": "{repo.html_url}",
+  "repo_description": "{repo.description}",
+  "git_url": "{gpt.git_url}"
+}
