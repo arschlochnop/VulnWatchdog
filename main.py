@@ -132,7 +132,7 @@ def process_cve(cve_id: str, repo: Dict, engine) -> Dict:
         logger.info(f"开始处理仓库: {repo_full_name}")
 
         # 检查仓库是否已存在
-        repo_data = engine.query(Repository).filter(Repository.github_id == repo['id']).all()
+        repo_data = engine.query(Repository).filter(Repository.github_id == repo['id']).order_by(Repository.id.desc()).first()
         if repo_data:
             logger.info(f"仓库已存在: {repo_link}")
             same_repo_data = engine.query(Repository).filter(
