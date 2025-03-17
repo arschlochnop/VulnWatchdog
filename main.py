@@ -135,6 +135,10 @@ def process_cve(cve_id: str, repo: Dict, engine) -> Dict:
         repo_data = engine.query(Repository).filter(Repository.github_id == repo['id']).order_by(Repository.id.desc()).first()
         if repo_data:
             logger.info(f"仓库已存在: {repo_link}")
+            # 如果仓库已存在,则跳过处理,有的仓库无法判断是否更新
+            # https://github.com/Mukesh-blend/CVE-2025-21333-POC
+            #TODO 每次访问都会给出新的repo_pushed_at，所以无法判断是否更新，先停掉更新判断
+            return result
             same_repo_data = engine.query(Repository).filter(
                 Repository.github_id == repo['id'],
                 Repository.repo_pushed_at == repo_pushed_at
