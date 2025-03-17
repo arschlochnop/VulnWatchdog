@@ -281,19 +281,19 @@ def main():
                 _, cve_items = search_github(cve_id)
                 for item in cve_items:
                     if cve_id == item['cve_id']:
-                        repo_list.append(item['repo'])
+                        process_cve(cve_id, item['repo'], engine)
                 time.sleep(10)
-
-        # 处理每个仓库
-        for repo in repo_list:
-            try:    
-                cve_id = repo['cve_id']
-                logger.info(f"处理CVE: {cve_id}")
-                result = process_cve(cve_id, repo['repo'], engine)
-                time.sleep(10)
-            except Exception as e:
-                logger.error(f"处理CVE异常: {str(e)} {repo}")
-                logger.debug(traceback.format_exc())
+        else:
+            # 处理每个仓库
+            for repo in repo_list:
+                try:    
+                    cve_id = repo['cve_id']
+                    logger.info(f"处理CVE: {cve_id}")
+                    result = process_cve(cve_id, repo['repo'], engine)
+                    time.sleep(10)
+                except Exception as e:
+                    logger.error(f"处理CVE异常: {str(e)} {repo}")
+                    logger.debug(traceback.format_exc())
         logger.info("搜索分析完成")
         
     except Exception as e:

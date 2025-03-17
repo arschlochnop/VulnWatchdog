@@ -25,7 +25,7 @@ GPT_MODEL='gemini-2.0-flash'
 ENABLE_SEARCH=True
 
 # 是否启用扩展搜索功能
-ENABLE_EXTENDED=False
+ENABLE_EXTENDED=True
 
 # 数据库URL
 DB_URL='sqlite:///vulns.db'
