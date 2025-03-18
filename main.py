@@ -1,3 +1,4 @@
+from datetime import datetime, timezone, timedelta
 import json
 import time
 import traceback
@@ -168,22 +169,22 @@ def process_cve(cve_id: str, repo: Dict, engine) -> Dict:
             cve_info = get_cve_info(cve_id)
             if not cve_info:
                 logger.error(f"获取CVE信息失败")
-                return result
+                cve_info = {}
+            else:    
+                try:
+                    cve_data = CVE(
+                        cve_id=cve_id,
+                        title=cve_info.get('title'),
+                        description=cve_info.get('description',{}).get('value'),
+                        cve_data=cve_info
+                    )
+                    engine.add(cve_data)
+                    engine.commit()
+                    logger.info(f"保存CVE信息成功")
+                except Exception as e:
+                    logger.error(f"保存CVE信息失败: {str(e)}")
+                    engine.rollback()
                 
-            try:
-                cve_data = CVE(
-                    cve_id=cve_id,
-                    title=cve_info.get('title'),
-                    description=cve_info.get('description',{}).get('value'),
-                    cve_data=cve_info
-                )
-                engine.add(cve_data)
-                engine.commit()
-                logger.info(f"保存CVE信息成功")
-            except Exception as e:
-                logger.error(f"保存CVE信息失败: {str(e)}")
-                engine.rollback()
-                return result
         else:
             cve_info = cve.cve_data
         result['cve'] = cve_info
@@ -245,8 +246,13 @@ def process_cve(cve_id: str, repo: Dict, engine) -> Dict:
             engine.rollback()
         
 
-                # 发送通知
-        if enable_notify:
+        # 发送通知
+        # 判断仓库push时间是否为今天,统一时区,如果为当天则发送通知，否则只入库
+        tz = timezone(timedelta(hours=8))  # UTC+8 for Asia/Shanghai
+        today = datetime.now(tz).date()
+        repo_date = datetime.strptime(repo_pushed_at, '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=timezone.utc).astimezone(tz).date()
+        push_today = today == repo_date
+        if enable_notify and push_today:
             logger.info("发送通知")
             send_webhook(result)
         return result
