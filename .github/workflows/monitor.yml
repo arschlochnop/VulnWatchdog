@@ -37,7 +37,10 @@ jobs:
           SEARXNG_URL: ${{ secrets.SEARXNG_URL }}
           GIT_URL: https://github.com/${{ github.repository }}
         run: python main.py
-        
+
+      - name: Generate indexes and READMEs
+        run: python scripts/generate_indexes.py
+
       - name: Commit changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"

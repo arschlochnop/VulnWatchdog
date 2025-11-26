@@ -1,5 +1,6 @@
 from datetime import datetime, timezone, timedelta
 import json
+import os
 import time
 import traceback
 from config import get_config
@@ -209,7 +210,17 @@ def process_cve(cve_id: str, repo: Dict, engine) -> Dict:
             logger.info(f"GPT 分析结果长度: {len(gpt_results)}")
 
             if gpt_results:
-                filepath = f"data/markdown/{cve_id}-{repo_full_name.replace('/', '_')}.md"
+                # 使用当前时间作为目录结构 (YYYY/MM/)
+                now = datetime.now()
+                year = now.strftime('%Y')
+                month = now.strftime('%m')
+
+                # 确保目录存在
+                os.makedirs(f"data/{year}/{month}", exist_ok=True)
+
+                # 新的文件路径
+                filepath = f"data/{year}/{month}/{cve_id}-{repo_full_name.replace('/', '_')}.md"
+
                 gpt_results.update({
                     'cve_id': cve_id,
                     'repo_name': repo_full_name,

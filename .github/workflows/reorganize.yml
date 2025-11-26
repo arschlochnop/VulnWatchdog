@@ -1,0 +1,40 @@
+name: Reorganize Directory Structure
+
+on:
+  workflow_dispatch:  # 手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  reorganize:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # 获取完整历史
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run reorganization
+        run: python scripts/reorganize_by_date.py
+
+      - name: Generate all indexes
+        run: python scripts/generate_indexes.py
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "VulnWatchdog[bot]"
+          git add .
+          git commit -m "🗂️ Reorganize: Directory structure by date $(date +'%Y-%m-%d')" || exit 0
+          git push
