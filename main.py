@@ -210,16 +210,21 @@ def process_cve(cve_id: str, repo: Dict, engine) -> Dict:
             logger.info(f"GPT 分析结果长度: {len(gpt_results)}")
 
             if gpt_results:
-                # 使用当前时间作为目录结构 (YYYY/MM/)
-                now = datetime.now()
-                year = now.strftime('%Y')
-                month = now.strftime('%m')
+                # 使用CVE年份作为目录结构 (YYYY/)
+                import re
+                match = re.match(r'CVE-(\d{4})-\d+', cve_id)
+                if match:
+                    cve_year = match.group(1)
+                else:
+                    # 如果无法解析CVE年份，使用当前年份
+                    cve_year = datetime.now().strftime('%Y')
+                    logger.warning(f"无法解析CVE年份: {cve_id}, 使用当前年份: {cve_year}")
 
                 # 确保目录存在
-                os.makedirs(f"data/{year}/{month}", exist_ok=True)
+                os.makedirs(f"data/{cve_year}", exist_ok=True)
 
                 # 新的文件路径
-                filepath = f"data/{year}/{month}/{cve_id}-{repo_full_name.replace('/', '_')}.md"
+                filepath = f"data/{cve_year}/{cve_id}-{repo_full_name.replace('/', '_')}.md"
 
                 gpt_results.update({
                     'cve_id': cve_id,
