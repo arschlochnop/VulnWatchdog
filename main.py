@@ -4,7 +4,7 @@ import os
 import time
 import traceback
 from config import get_config
-from libs.utils import search_github, get_cve_info, ask_gpt, search_searxng, get_github_poc, write_to_markdown
+from libs.utils import search_github, get_cve_info, ask_gpt, search_searxng, get_github_poc, write_to_markdown, get_latest_commit_sha
 from libs.webhook import send_webhook
 from models.models import get_db, CVE, Repository
 import logging
@@ -20,9 +20,10 @@ logger = logging.getLogger(__name__)
 
 # 从配置文件加载功能开关
 enable_gpt = get_config('ENABLE_GPT')
-enable_notify = get_config('ENABLE_NOTIFY') 
+enable_notify = get_config('ENABLE_NOTIFY')
 enable_search = get_config('ENABLE_SEARCH')
 enable_extended = get_config('ENABLE_EXTENDED')
+enable_update_check = get_config('ENABLE_UPDATE_CHECK')
 
 def build_prompt(cve_info: Dict, search_results: List[Dict], poc_results_str: str) -> str:
     """
@@ -135,26 +136,33 @@ def process_cve(cve_id: str, repo: Dict, engine) -> Dict:
 
         # 检查仓库是否已存在
         repo_data = engine.query(Repository).filter(Repository.github_id == repo['id']).order_by(Repository.id.desc()).first()
+
         if repo_data:
             logger.info(f"仓库已存在: {repo_link}")
-            # 如果仓库已存在,则跳过处理,有的仓库无法判断是否更新
-            # https://github.com/Mukesh-blend/CVE-2025-21333-POC
-            #TODO 每次访问都会给出新的repo_pushed_at，所以无法判断是否更新，先停掉更新判断
-            return result
-            same_repo_data = engine.query(Repository).filter(
-                Repository.github_id == repo['id'],
-                Repository.repo_pushed_at == repo_pushed_at
-            ).first()
-            
-            if same_repo_data:
-                logger.info(f"仓库数据未更新,跳过处理: {repo_link}")
-                return
+
+            # 启用更新检测
+            if enable_update_check:
+                # 通过commit SHA判断是否有更新
+                latest_sha = get_latest_commit_sha(repo_link)
+
+                if not latest_sha:
+                    logger.warning(f"无法获取commit SHA,跳过处理: {repo_link}")
+                    return result
+
+                if repo_data.latest_commit_sha == latest_sha:
+                    logger.info(f"仓库无更新 (SHA相同: {latest_sha[:8]}...),跳过处理")
+                    return result
+                else:
+                    logger.info(f"仓库有更新 (旧SHA: {repo_data.latest_commit_sha[:8] if repo_data.latest_commit_sha else 'None'}... → 新SHA: {latest_sha[:8]}...)")
+                    action_log = 'update'
             else:
-                logger.info(f"仓库有更新: {repo_link}")
-                action_log = 'update'
+                # 未启用更新检测,直接跳过已存在的仓库
+                logger.info(f"更新检测未启用,跳过已存在的仓库")
+                return result
         else:
             logger.info(f"发现新仓库: {repo_link}")
             action_log = 'new'
+            latest_sha = None  # 新仓库,稍后获取SHA
 
         # 获取POC代码
         logger.info(f"获取POC代码: {repo_link}")
@@ -241,22 +249,41 @@ def process_cve(cve_id: str, repo: Dict, engine) -> Dict:
                 logger.error(f"GPT分析失败,返回结果: {gpt_results}")
                 
 
-        # 保存仓库信息
+        # 获取最新commit SHA (如果还没有)
+        if latest_sha is None:
+            latest_sha = get_latest_commit_sha(repo_link)
+            if not latest_sha:
+                logger.warning(f"无法获取commit SHA: {repo_link}")
+
+        # 保存或更新仓库信息
         try:
-            repo_data = Repository(
-                github_id=repo['id'],
-                cve_id=cve_id,
-                name=repo_name,
-                description=repo_description,
-                url=repo_link,
-                action_log=action_log,
-                repo_data=repo,
-                repo_pushed_at=repo_pushed_at,
-                gpt_analysis=gpt_results
-            )
-            engine.add(repo_data)
+            if action_log == 'update' and repo_data:
+                # 更新现有记录
+                repo_data.repo_pushed_at = repo_pushed_at
+                repo_data.latest_commit_sha = latest_sha
+                repo_data.gpt_analysis = gpt_results
+                repo_data.action_log = action_log
+                repo_data.repo_data = repo
+                repo_data.updated_at = datetime.now()
+                logger.info(f"更新仓库信息成功 (SHA: {latest_sha[:8] if latest_sha else 'None'}...)")
+            else:
+                # 新增记录
+                new_repo_data = Repository(
+                    github_id=repo['id'],
+                    cve_id=cve_id,
+                    name=repo_name,
+                    description=repo_description,
+                    url=repo_link,
+                    action_log=action_log,
+                    repo_data=repo,
+                    repo_pushed_at=repo_pushed_at,
+                    latest_commit_sha=latest_sha,
+                    gpt_analysis=gpt_results
+                )
+                engine.add(new_repo_data)
+                logger.info(f"新增仓库信息成功 (SHA: {latest_sha[:8] if latest_sha else 'None'}...)")
+
             engine.commit()
-            logger.info("保存仓库信息成功")
         except Exception as e:
             logger.error(f"保存仓库信息失败: {str(e)}")
             engine.rollback()
@@ -328,6 +355,7 @@ if __name__ == "__main__":
     logger.info(f"  GPT 开关: {'启用' if get_config('ENABLE_GPT')==True else '禁用'}")
     logger.info(f"  搜索开关: {'启用' if get_config('ENABLE_SEARCH')==True else '禁用'}")
     logger.info(f"  扩展搜索开关: {'启用' if get_config('ENABLE_EXTENDED')==True else '禁用'}")
+    logger.info(f"  更新检测开关: {'启用' if get_config('ENABLE_UPDATE_CHECK')==True else '禁用'}")
     logger.info(f"  通知开关: {'启用' if get_config('ENABLE_NOTIFY')==True else '禁用'}")
     logger.info(f"  通知类型: {get_config('NOTIFY_TYPE')}")
     main()

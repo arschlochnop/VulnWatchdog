@@ -14,6 +14,52 @@ from libs.files2prompt import process_path
 
 logger = logging.getLogger(__name__)
 
+def get_latest_commit_sha(repo_url: str) -> Optional[str]:
+    """
+    通过GitHub API获取仓库最新commit SHA (无需clone)
+
+    参数:
+        repo_url: GitHub仓库URL (https://github.com/owner/repo)
+
+    返回:
+        最新commit的SHA值,失败返回None
+    """
+    try:
+        # 从URL提取 owner/repo
+        match = re.match(r'https://github\.com/([^/]+)/([^/]+)', repo_url)
+        if not match:
+            logger.error(f"无效的GitHub URL: {repo_url}")
+            return None
+
+        owner, repo = match.groups()
+        api_url = f"https://api.github.com/repos/{owner}/{repo}/commits"
+
+        # 调用GitHub API (只获取最新1个commit)
+        resp = requests.get(
+            api_url,
+            params={'per_page': 1},
+            timeout=10
+        )
+        resp.raise_for_status()
+
+        commits = resp.json()
+        if commits and len(commits) > 0:
+            sha = commits[0]['sha']
+            logger.debug(f"获取到最新commit SHA: {sha[:8]}... (仓库: {owner}/{repo})")
+            return sha
+        else:
+            logger.warning(f"仓库无commit记录: {repo_url}")
+            return None
+
+    except requests.exceptions.RequestException as e:
+        logger.error(f"请求GitHub API失败: {e} (仓库: {repo_url})")
+    except (KeyError, json.JSONDecodeError) as e:
+        logger.error(f"解析API响应失败: {e} (仓库: {repo_url})")
+    except Exception as e:
+        logger.error(f"获取commit SHA异常: {e} (仓库: {repo_url})")
+
+    return None
+
 def search_github(query: str) -> Tuple[set, List[Dict]]:
     """
     搜索GitHub仓库中的CVE信息

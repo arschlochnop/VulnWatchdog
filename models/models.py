@@ -26,7 +26,7 @@ class CVE(Base):
 
 class Repository(Base):
     __tablename__ = 'repositories'
-    
+
     id = Column(Integer, primary_key=True)
     github_id = Column(Integer, nullable=False)
     cve_id = Column(String(20), nullable=False)
@@ -35,6 +35,7 @@ class Repository(Base):
     url = Column(String(255), nullable=False)
     repo_data = Column(JSON, nullable=False)
     repo_pushed_at = Column(String(20), nullable=False)
+    latest_commit_sha = Column(String(40), nullable=True)  # 新增: Git commit SHA
     action_log = Column(String(10), nullable=False)  # new/update
     gpt_analysis = Column(JSON, nullable=True)
     created_at = Column(DateTime(timezone=True), server_default=func.now())

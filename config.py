@@ -27,6 +27,9 @@ ENABLE_SEARCH=True
 # 是否启用扩展搜索功能
 ENABLE_EXTENDED=True
 
+# 是否启用仓库更新检测(基于commit SHA)
+ENABLE_UPDATE_CHECK=True
+
 # 数据库URL
 DB_URL='sqlite:///vulns.db'
 
@@ -52,6 +55,8 @@ def get_config(env: str):
         'DB_URL': DB_URL,
         # 扩展搜索配置
         'ENABLE_EXTENDED': ENABLE_EXTENDED,
+        # 更新检测配置
+        'ENABLE_UPDATE_CHECK': ENABLE_UPDATE_CHECK,
         # 仓库地址
         'GIT_URL': os.environ.get('GIT_URL', ''),
     }
