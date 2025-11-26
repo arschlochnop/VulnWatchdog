@@ -4,6 +4,7 @@ import json
 import logging
 import os
 import re
+import shutil
 import subprocess
 import traceback
 import requests
@@ -186,13 +187,56 @@ def search_searxng(query: str, num_results: int = 5) -> List[Dict]:
         logger.error(f"解析搜索结果失败: {e}")
         raise SearchError(f"无效的搜索响应: {e}")
 
+def __extract_json_from_markdown(content: str) -> Optional[str]:
+    """
+    从markdown格式的GPT响应中提取JSON内容
+
+    支持多种格式:
+    - ```json\n{...}\n```
+    - ```JSON\n{...}\n```
+    - ```\n{...}\n```
+    - 直接JSON: {...}
+
+    参数:
+        content: GPT返回的原始内容
+
+    返回:
+        提取的JSON字符串,失败返回None
+    """
+    # 尝试1: 使用正则提取markdown代码块
+    patterns = [
+        r'```json\s*\n?(.*?)\n?```',  # ```json ... ```
+        r'```JSON\s*\n?(.*?)\n?```',  # ```JSON ... ```
+        r'```\s*\n?(.*?)\n?```',      # ``` ... ```
+    ]
+
+    for pattern in patterns:
+        match = re.search(pattern, content, re.DOTALL | re.IGNORECASE)
+        if match:
+            logger.debug(f"通过正则提取JSON (模式: {pattern})")
+            return match.group(1).strip()
+
+    # 尝试2: 查找第一个 { 到最后一个 } 之间的内容
+    first_brace = content.find('{')
+    last_brace = content.rfind('}')
+
+    if first_brace != -1 and last_brace != -1 and first_brace < last_brace:
+        extracted = content[first_brace:last_brace + 1]
+        logger.debug("通过大括号匹配提取JSON")
+        return extracted
+
+    # 尝试3: 直接返回原内容（可能本身就是JSON）
+    logger.debug("无法提取，尝试直接解析原内容")
+    return content.strip()
+
+
 def ask_gpt(prompt: str) -> Optional[Dict]:
     """
     调用OpenAI API进行分析
-    
+
     参数:
         prompt: 提示文本
-        
+
     返回:
         API响应解析后的字典,失败返回None
     """
@@ -200,7 +244,7 @@ def ask_gpt(prompt: str) -> Optional[Dict]:
         "Authorization": f"Bearer {get_config('GPT_API_KEY')}",
         "Content-Type": "application/json"
     }
-    
+
     data = {
         "model": get_config('GPT_MODEL'),
         "messages": [
@@ -217,63 +261,97 @@ def ask_gpt(prompt: str) -> Optional[Dict]:
             timeout=60
         )
         response.raise_for_status()
-        
+
         content = response.json()["choices"][0]["message"]["content"]
-        content = re.sub(r'\s*\n\s*', ' ', content)
-        logger.debug(f"GPT返回内容: {content}")
+        logger.debug(f"GPT返回内容长度: {len(content)}")
+
         if not content:
             logger.warning(f"GPT返回内容为空 prompt长度: {len(prompt)}")
             return None
-            
-        try:
-            if content.startswith('```json'):
-                content = content[7:-3].strip()
-            return json.loads(content.replace('\n', ''))
-            
-        except json.JSONDecodeError as e:
-            logger.error(f"解析GPT响应JSON失败: {e} prompt长度: {len(prompt)}")
-            logger.error(content)
-            return None
-            
+
+        # 渐进式解析策略
+        json_candidates = []
+
+        # 策略1: 提取JSON（支持多种格式）
+        extracted = __extract_json_from_markdown(content)
+        if extracted:
+            json_candidates.append(extracted)
+
+        # 策略2: 原始内容（删除首尾空白）
+        json_candidates.append(content.strip())
+
+        # 策略3: 移除所有换行后的内容（兼容旧逻辑）
+        json_candidates.append(content.replace('\n', ''))
+
+        # 尝试解析
+        for idx, candidate in enumerate(json_candidates, 1):
+            try:
+                result = json.loads(candidate)
+                logger.info(f"JSON解析成功 (策略{idx})")
+                return result
+            except json.JSONDecodeError as e:
+                logger.debug(f"策略{idx}解析失败: {e}")
+                continue
+
+        # 所有策略都失败
+        logger.error(f"所有解析策略均失败 prompt长度: {len(prompt)}")
+        logger.error(f"原始内容: {content[:500]}...")  # 只记录前500字符
+        return None
+
     except requests.exceptions.RequestException as e:
         logger.error(f"请求GPT API失败: {e} prompt长度: {len(prompt)}")
         traceback.print_exc()
-    except (KeyError, json.JSONDecodeError) as e:
+    except (KeyError, IndexError) as e:
         logger.error(f"处理GPT响应异常: {e} prompt长度: {len(prompt)}")
-        
+    except Exception as e:
+        logger.error(f"未知异常: {e} prompt长度: {len(prompt)}")
+        traceback.print_exc()
+
     return None
 
 def __clone_repo(url: str) -> Optional[str]:
     """
-    克隆Git仓库
-    
+    克隆Git仓库（临时目录，使用后需清理）
+
     参数:
         url: 仓库地址
-        
+
     返回:
         克隆目录路径,失败返回None
+
+    注意:
+        调用者负责清理返回的临时目录
     """
     unique_id = hashlib.md5(url.encode()).hexdigest()
-    clone_path = Path('/tmp') / unique_id
-    
+    clone_path = Path('/tmp') / f'vulnwatchdog_{unique_id}'
+
+    # 如果目录已存在，先删除（确保是最新的）
     if clone_path.exists():
-        logger.debug(f"使用已存在的仓库克隆: {clone_path}")
-        return str(clone_path)
-        
+        logger.debug(f"删除已存在的旧克隆: {clone_path}")
+        try:
+            shutil.rmtree(clone_path)
+        except Exception as e:
+            logger.warning(f"删除旧克隆失败: {e}")
+
     try:
         logger.info(f"克隆仓库: {url}")
         subprocess.run(
-            ['git', 'clone', url, str(clone_path)],
+            ['git', 'clone', '--depth', '1', url, str(clone_path)],  # 浅克隆
             check=True,
-            capture_output=True
+            capture_output=True,
+            timeout=60
         )
-        
+
         if clone_path.exists():
+            logger.debug(f"克隆成功: {clone_path}")
             return str(clone_path)
         else:
             logger.error("克隆成功但目录不存在")
             return None
-            
+
+    except subprocess.TimeoutExpired:
+        logger.error(f"克隆仓库超时: {url}")
+        return None
     except subprocess.CalledProcessError as e:
         logger.error(f"克隆仓库失败: {e.stderr.decode()}")
         return None
@@ -281,19 +359,20 @@ def __clone_repo(url: str) -> Optional[str]:
 def get_github_poc(github_link: str) -> str:
     """
     获取GitHub仓库中的POC代码
-    
+
     参数:
         github_link: GitHub仓库链接
-        
+
     返回:
         POC代码内容
     """
+    clone_path = None
     try:
         clone_path = __clone_repo(github_link)
         if not clone_path:
             logger.error("克隆仓库失败")
             return ''
-            
+
         outputs = process_path(
             path=clone_path,
             extensions=None,
@@ -306,13 +385,22 @@ def get_github_poc(github_link: str) -> str:
             markdown=False,
             line_numbers=False
         )
-        
+
         logger.info(f"成功提取POC代码: {len(outputs)} 行")
         return '\n'.join(outputs)
-        
+
     except Exception as e:
         logger.error(f"获取POC代码异常: {e}")
         return ''
+
+    finally:
+        # 无论成功失败，都清理临时目录
+        if clone_path and Path(clone_path).exists():
+            try:
+                shutil.rmtree(clone_path)
+                logger.debug(f"清理临时目录: {clone_path}")
+            except Exception as e:
+                logger.warning(f"清理临时目录失败: {e}")
 
 
 def get_template():
