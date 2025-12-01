@@ -1,9 +1,9 @@
 # 2021年CVE漏洞情报汇总
 
 > 📅 CVE年份: **2021**
-> 📊 漏洞总数: **572** 个
-> 🔥 高危漏洞: **537** 个 (93.9%)
-> ⚠️ 高投毒风险: **3** 个
+> 📊 漏洞总数: **608** 个
+> 🔥 高危漏洞: **572** 个 (94.1%)
+> ⚠️ 高投毒风险: **4** 个
 
 ---
 
@@ -11,16 +11,16 @@
 
 | 类型 | 数量 | 占比 |
 |------|------|------|
-| 远程代码执行 | 122 | 21.3% |
-| 远程代码执行 (RCE) | 47 | 8.2% |
-| 本地提权 | 36 | 6.3% |
-| 权限提升 | 30 | 5.2% |
-| 目录遍历 | 29 | 5.1% |
-| 路径遍历和远程代码执行 | 20 | 3.5% |
-| 本地权限提升 | 19 | 3.3% |
-| 远程命令执行 | 18 | 3.1% |
-| 服务器端请求伪造 (SSRF) | 13 | 2.3% |
-| Heap-Based Buffer Overflow | 12 | 2.1% |
+| 远程代码执行 | 132 | 21.7% |
+| 远程代码执行 (RCE) | 64 | 10.5% |
+| 本地提权 | 36 | 5.9% |
+| 目录遍历 | 30 | 4.9% |
+| 权限提升 | 30 | 4.9% |
+| 路径遍历和远程代码执行 | 20 | 3.3% |
+| 本地权限提升 | 19 | 3.1% |
+| 远程命令执行 | 18 | 3.0% |
+| 服务器端请求伪造 (SSRF) | 13 | 2.1% |
+| Heap-Based Buffer Overflow | 12 | 2.0% |
 
 ---
 
@@ -67,6 +67,12 @@
 **名称:** CVE-2021-44667-Nacos-XSS
 **类型:** XSS | **POC:** 否 | **投毒风险:** 10%
 **仓库:** [alibaba__nacos_CVE-2021-44667_2-0-3](https://github.com/shoucheng3/alibaba__nacos_CVE-2021-44667_2-0-3)
+
+### [CVE-2021-4462](CVE-2021-4462-Pranjal6955_CVE-2021-4462.md) 🔴
+
+**名称:** CVE-2021-4462 - Employee Records System v1.0 Arbitrary File Upload RCE
+**类型:** 任意文件上传 | **POC:** 是 | **投毒风险:** 5%
+**仓库:** [CVE-2021-4462](https://github.com/Pranjal6955/CVE-2021-4462)
 
 ### [CVE-2021-4449](CVE-2021-4449-0xmoner_CVE-2021-4449.md) 🔴
 
@@ -332,6 +338,12 @@
 **类型:** JNDI 注入 | **POC:** 是 | **投毒风险:** 0%
 **仓库:** [Log4Shell](https://github.com/mgueye3/Log4Shell)
 
+### [CVE-2021-44228](CVE-2021-44228-corelight_cve-2021-44228.md) 🔴
+
+**名称:** CVE-2021-44228-Log4Shell
+**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 0%
+**仓库:** [cve-2021-44228](https://github.com/corelight/cve-2021-44228)
+
 ### [CVE-2021-44142](CVE-2021-44142-WinDyAlphA_CVE-2021-44142-vulnerable-lab.md) 🔴
 
 **名称:** CVE-2021-44142-Samba vfs_fruit 模块堆溢出
@@ -572,6 +584,12 @@
 **类型:** 目录遍历 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [Grafxploit](https://github.com/hxlxmj/Grafxploit)
 
+### [CVE-2021-43798](CVE-2021-43798-f3d0rq_CVE-2021-43798-poc.md) 🔴
+
+**名称:** CVE-2021-43798-Grafana目录遍历
+**类型:** 目录遍历 | **POC:** 是 | **投毒风险:** 0%
+**仓库:** [CVE-2021-43798-poc](https://github.com/f3d0rq/CVE-2021-43798-poc)
+
 ### [CVE-2021-4374](CVE-2021-4374-Pranjal6955_cve-2021-4374-test.md) 🔴
 
 **名称:** CVE-2021-4374-WordPress Automatic Plugin-任意选项更新
@@ -613,6 +631,12 @@
 **名称:** CVE-2021-43008-Adminer-任意文件读取
 **类型:** 任意文件读取 | **POC:** 是 | **投毒风险:** 0%
 **仓库:** [CVE-2021-43008-AdminerRead](https://github.com/p0dalirius/CVE-2021-43008-AdminerRead)
+
+### [CVE-2021-43008](CVE-2021-43008-Bamolitho_adminer_CVE-2021-43008.md) 🔴
+
+**名称:** CVE-2021-43008 - Adminer Arbitrary File Read
+**类型:** 任意文件读取 | **POC:** 是 | **投毒风险:** 10%
+**仓库:** [adminer_CVE-2021-43008](https://github.com/Bamolitho/adminer_CVE-2021-43008)
 
 ### [CVE-2021-42694](CVE-2021-42694-k271266_CVE-2021-42694.md) 🔴
 
@@ -1033,6 +1057,12 @@
 **名称:** CVE-2021-41773 - Apache HTTP Server 2.4.49 Path Traversal & RCE
 **类型:** 路径遍历和远程代码执行 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2021-41773](https://github.com/adrianmafandy/CVE-2021-41773)
+
+### [CVE-2021-41773](CVE-2021-41773-faizdotid_CVE-2021-41773.md) 🔴
+
+**名称:** CVE-2021-41773 - Apache HTTP Server Path Traversal
+**类型:** 路径遍历 (Path Traversal) | **POC:** 是 | **投毒风险:** 0%
+**仓库:** [CVE-2021-41773](https://github.com/faizdotid/CVE-2021-41773)
 
 ### [CVE-2021-41617](CVE-2021-41617-AdnanApriliyansyahh_CVE-2021-41617.md)
 
@@ -2102,6 +2132,162 @@
 **类型:** 堆缓冲区溢出 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [Sudo-CVE-2021-3156](https://github.com/Maalfer/Sudo-CVE-2021-3156)
 
+### [CVE-2021-3129](CVE-2021-3129-joshuavanderpoll_CVE-2021-3129.md) 🔴
+
+**名称:** CVE-2021-3129 - Laravel Ignition 远程代码执行
+**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 1%
+**仓库:** [CVE-2021-3129](https://github.com/joshuavanderpoll/CVE-2021-3129)
+
+### [CVE-2021-3129](CVE-2021-3129-lukwagoasuman_CVE-2021-3129---Laravel-RCE.md)
+
+**名称:** CVE-2021-3129 - Laravel Ignition 远程代码执行
+**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 5%
+**仓库:** [CVE-2021-3129---Laravel-RCE](https://github.com/lukwagoasuman/CVE-2021-3129---Laravel-RCE)
+
+### [CVE-2021-3129](CVE-2021-3129-Prabesh01_hoh4.md) 🔴
+
+**名称:** CVE-2021-3129 - Laravel Ignition Remote Code Execution
+**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 10%
+**仓库:** [hoh4](https://github.com/Prabesh01/hoh4)
+
+### [CVE-2021-3129](CVE-2021-3129-GodOfServer_CVE-2021-3129.md) 🔴
+
+**名称:** CVE-2021-3129 - Laravel Ignition Remote Code Execution
+**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 10%
+**仓库:** [CVE-2021-3129](https://github.com/GodOfServer/CVE-2021-3129)
+
+### [CVE-2021-3129](CVE-2021-3129-0x0d3ad_CVE-2021-3129.md) 🔴
+
+**名称:** CVE-2021-3129 Laravel Ignition 远程代码执行
+**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 5%
+**仓库:** [CVE-2021-3129](https://github.com/0x0d3ad/CVE-2021-3129)
+
+### [CVE-2021-3129](CVE-2021-3129-cc3305_CVE-2021-3129.md) 🔴
+
+**名称:** CVE-2021-3129-Laravel-Ignition-RCE
+**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 1%
+**仓库:** [CVE-2021-3129](https://github.com/cc3305/CVE-2021-3129)
+
+### [CVE-2021-3129](CVE-2021-3129-piperpwn_CVE-2021-3129-piperpwn.md) 🔴
+
+**名称:** CVE-2021-3129 Laravel Ignition 远程代码执行
+**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 0%
+**仓库:** [CVE-2021-3129-piperpwn](https://github.com/piperpwn/CVE-2021-3129-piperpwn)
+
+### [CVE-2021-3129](CVE-2021-3129-MadExploits_Laravel-debug-Checker.md) 🔴
+
+**名称:** CVE-2021-3129 - Laravel Ignition Remote Code Execution
+**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 10%
+**仓库:** [Laravel-debug-Checker](https://github.com/MadExploits/Laravel-debug-Checker)
+
+### [CVE-2021-3129](CVE-2021-3129-Axianke_CVE-2021-3129.md) 🔴
+
+**名称:** CVE-2021-3129 - Laravel Ignition RCE
+**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 5%
+**仓库:** [CVE-2021-3129](https://github.com/Axianke/CVE-2021-3129)
+
+### [CVE-2021-3129](CVE-2021-3129-banyaksepuh_Mass-CVE-2021-3129-Scanner.md) 🔴
+
+**名称:** CVE-2021-3129 Laravel Debug RCE
+**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 10%
+**仓库:** [Mass-CVE-2021-3129-Scanner](https://github.com/banyaksepuh/Mass-CVE-2021-3129-Scanner)
+
+### [CVE-2021-3129](CVE-2021-3129-wmasday_CVE-2021-3129.md)
+
+**名称:** CVE-2021-3129 - Laravel Ignition RCE
+**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 10%
+**仓库:** [CVE-2021-3129](https://github.com/wmasday/CVE-2021-3129)
+
+### [CVE-2021-3129](CVE-2021-3129-miko550_CVE-2021-3129.md) 🔴
+
+**名称:** CVE-2021-3129 - Laravel Ignition RCE
+**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 0%
+**仓库:** [CVE-2021-3129](https://github.com/miko550/CVE-2021-3129)
+
+### [CVE-2021-3129](CVE-2021-3129-Zoo1sondv_CVE-2021-3129.md) 🔴
+
+**名称:** CVE-2021-3129 - Laravel Ignition 远程代码执行
+**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 1%
+**仓库:** [CVE-2021-3129](https://github.com/Zoo1sondv/CVE-2021-3129)
+
+### [CVE-2021-3129](CVE-2021-3129-keyuan15_CVE-2021-3129.md) 🔴
+
+**名称:** CVE-2021-3129-Laravel Ignition-远程代码执行
+**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 10%
+**仓库:** [CVE-2021-3129](https://github.com/keyuan15/CVE-2021-3129)
+
+### [CVE-2021-3129](CVE-2021-3129-ajisai-babu_CVE-2021-3129-exp.md) 🔴
+
+**名称:** CVE-2021-3129 - Laravel Ignition Remote Code Execution
+**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 1%
+**仓库:** [CVE-2021-3129-exp](https://github.com/ajisai-babu/CVE-2021-3129-exp)
+
+### [CVE-2021-3129](CVE-2021-3129-0nion1_CVE-2021-3129.md) 🔴
+
+**名称:** CVE-2021-3129 Laravel Ignition RCE
+**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 10%
+**仓库:** [CVE-2021-3129](https://github.com/0nion1/CVE-2021-3129)
+
+### [CVE-2021-3129](CVE-2021-3129-hupe1980_CVE-2021-3129.md) 🔴
+
+**名称:** CVE-2021-3129 Laravel Ignition RCE
+**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 0%
+**仓库:** [CVE-2021-3129](https://github.com/hupe1980/CVE-2021-3129)
+
+### [CVE-2021-3129](CVE-2021-3129-shadowabi_Laravel-CVE-2021-3129.md) 🔴
+
+**名称:** CVE-2021-3129 Laravel Ignition 远程代码执行
+**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 10%
+**仓库:** [Laravel-CVE-2021-3129](https://github.com/shadowabi/Laravel-CVE-2021-3129)
+
+### [CVE-2021-3129](CVE-2021-3129-JacobEbben_CVE-2021-3129.md) 🔴
+
+**名称:** CVE-2021-3129 - Laravel Ignition Remote Code Execution
+**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 5%
+**仓库:** [CVE-2021-3129](https://github.com/JacobEbben/CVE-2021-3129)
+
+### [CVE-2021-3129](CVE-2021-3129-cuongtop4598_CVE-2021-3129-Script.md) 🔴
+
+**名称:** CVE-2021-3129-Laravel-Ignition-RCE
+**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 5%
+**仓库:** [CVE-2021-3129-Script](https://github.com/cuongtop4598/CVE-2021-3129-Script)
+
+### [CVE-2021-3129](CVE-2021-3129-zhzyker_CVE-2021-3129.md) 🔴
+
+**名称:** CVE-2021-3129-Laravel-Ignition-RCE
+**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 5%
+**仓库:** [CVE-2021-3129](https://github.com/zhzyker/CVE-2021-3129)
+
+### [CVE-2021-3129](CVE-2021-3129-knqyf263_CVE-2021-3129.md) 🔴
+
+**名称:** CVE-2021-3129 - Laravel Ignition RCE
+**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 0%
+**仓库:** [CVE-2021-3129](https://github.com/knqyf263/CVE-2021-3129)
+
+### [CVE-2021-3129](CVE-2021-3129-idea-oss_laravel-CVE-2021-3129-EXP.md) 🔴
+
+**名称:** CVE-2021-3129 Laravel Ignition RCE
+**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 0%
+**仓库:** [laravel-CVE-2021-3129-EXP](https://github.com/idea-oss/laravel-CVE-2021-3129-EXP)
+
+### [CVE-2021-3129](CVE-2021-3129-nth347_CVE-2021-3129_exploit.md) 🔴
+
+**名称:** CVE-2021-3129 - Laravel Ignition 远程代码执行
+**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 0%
+**仓库:** [CVE-2021-3129_exploit](https://github.com/nth347/CVE-2021-3129_exploit)
+
+### [CVE-2021-3129](CVE-2021-3129-Y0s9_CVE-2021-3129.md) 🔴
+
+**名称:** CVE-2021-3129-Laravel Ignition 远程代码执行
+**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 0%
+**仓库:** [CVE-2021-3129](https://github.com/Y0s9/CVE-2021-3129)
+
+### [CVE-2021-3129](CVE-2021-3129-FunPhishing_Laravel-8.4.2-rce-CVE-2021-3129.md) 🔴
+
+**名称:** CVE-2021-3129 Laravel Ignition RCE
+**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 10%
+**仓库:** [Laravel-8.4.2-rce-CVE-2021-3129](https://github.com/FunPhishing/Laravel-8.4.2-rce-CVE-2021-3129)
+
 ### [CVE-2021-31166](CVE-2021-31166-corelight_CVE-2021-31166.md) 🔴
 
 **名称:** CVE-2021-31166
@@ -2690,6 +2876,12 @@
 **类型:** 不当访问控制 | **POC:** 是 | **投毒风险:** 5%
 **仓库:** [CVE-2021-24006-Fortimanager-Exploit](https://github.com/cnetsec/CVE-2021-24006-Fortimanager-Exploit)
 
+### [CVE-2021-23394](CVE-2021-23394-0xnemian_CVE-2021-23394.md) 🔴
+
+**名称:** CVE-2021-23394 - elFinder Remote Code Execution (RCE)
+**类型:** Remote Code Execution (RCE) | **POC:** 是 | **投毒风险:** 0%
+**仓库:** [CVE-2021-23394](https://github.com/0xnemian/CVE-2021-23394)
+
 ### [CVE-2021-23017](CVE-2021-23017-moften_CVE-2021-23017.md)
 
 **名称:** CVE-2021-23017-Nginx Resolver 内存覆盖
@@ -2833,198 +3025,6 @@
 **名称:** CVE-2021-22911-Rocket.Chat-NoSQL注入导致RCE
 **类型:** NoSQL注入 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2021-22911](https://github.com/octodi/CVE-2021-22911)
-
-### [CVE-2021-22911](CVE-2021-22911-yoohhuu_Rocket-Chat-3.12.1-PoC-CVE-2021-22911-.md) 🔴
-
-**名称:** CVE-2021-22911-Rocket.Chat-NoSQL注入
-**类型:** NoSQL注入 | **POC:** 是 | **投毒风险:** 10%
-**仓库:** [Rocket-Chat-3.12.1-PoC-CVE-2021-22911-](https://github.com/yoohhuu/Rocket-Chat-3.12.1-PoC-CVE-2021-22911-)
-
-### [CVE-2021-22911](CVE-2021-22911-overgrowncarrot1_CVE-2021-22911.md) 🔴
-
-**名称:** CVE-2021-22911 Rocket.Chat NoSQL注入导致RCE
-**类型:** NoSQL注入 | **POC:** 是 | **投毒风险:** 0%
-**仓库:** [CVE-2021-22911](https://github.com/overgrowncarrot1/CVE-2021-22911)
-
-### [CVE-2021-22911](CVE-2021-22911-CsEnox_CVE-2021-22911.md) 🔴
-
-**名称:** CVE-2021-22911-Rocket.Chat-NoSQL注入
-**类型:** NoSQL注入 | **POC:** 是 | **投毒风险:** 10%
-**仓库:** [CVE-2021-22911](https://github.com/CsEnox/CVE-2021-22911)
-
-### [CVE-2021-22911](CVE-2021-22911-MrDottt_CVE-2021-22911.md) 🔴
-
-**名称:** CVE-2021-22911-Rocket.Chat-NoSQL注入
-**类型:** NoSQL注入 | **POC:** 是 | **投毒风险:** 1%
-**仓库:** [CVE-2021-22911](https://github.com/MrDottt/CVE-2021-22911)
-
-### [CVE-2021-22911](CVE-2021-22911-ChrisPritchard_CVE-2021-22911-rust.md) 🔴
-
-**名称:** CVE-2021-22911-Rocket.Chat-NoSQL注入
-**类型:** NoSQL注入 | **POC:** 是 | **投毒风险:** 10%
-**仓库:** [CVE-2021-22911-rust](https://github.com/ChrisPritchard/CVE-2021-22911-rust)
-
-### [CVE-2021-22911](CVE-2021-22911-jayngng_CVE-2021-22911.md) 🔴
-
-**名称:** CVE-2021-22911 - Rocket.Chat NoSQL注入导致RCE
-**类型:** NoSQL注入 | **POC:** 是 | **投毒风险:** 10%
-**仓库:** [CVE-2021-22911](https://github.com/jayngng/CVE-2021-22911)
-
-### [CVE-2021-22911](CVE-2021-22911-optionalCTF_Rocket.Chat-Automated-Account-Takeover-RCE-CVE-2021-22911.md) 🔴
-
-**名称:** CVE-2021-22911 - Rocket.Chat NoSQL 注入导致 RCE
-**类型:** NoSQL 注入 | **POC:** 是 | **投毒风险:** 10%
-**仓库:** [Rocket.Chat-Automated-Account-Takeover-RCE-CVE-2021-22911](https://github.com/optionalCTF/Rocket.Chat-Automated-Account-Takeover-RCE-CVE-2021-22911)
-
-### [CVE-2021-22600](CVE-2021-22600-sendINUX_CVE-2021-22600__DirtyPagetable.md) 🔴
-
-**名称:** CVE-2021-22600 Linux Kernel af_packet.c Double Free 权限提升漏洞
-**类型:** Double Free | **POC:** 是 | **投毒风险:** 10%
-**仓库:** [CVE-2021-22600__DirtyPagetable](https://github.com/sendINUX/CVE-2021-22600__DirtyPagetable)
-
-### [CVE-2021-22205](CVE-2021-22205-ccordeiro_CVE-2021-22205.md) 🔴
-
-**名称:** CVE-2021-22205-GitLab-远程命令执行
-**类型:** 远程命令执行 | **POC:** 是 | **投毒风险:** 1%
-**仓库:** [CVE-2021-22205](https://github.com/ccordeiro/CVE-2021-22205)
-
-### [CVE-2021-22205](CVE-2021-22205-cc3305_CVE-2021-22205.md)
-
-**名称:** CVE-2021-22205-GitLab-RCE
-**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 10%
-**仓库:** [CVE-2021-22205](https://github.com/cc3305/CVE-2021-22205)
-
-### [CVE-2021-22205](CVE-2021-22205-devdanqtuan_CVE-2021-22205.md) 🔴
-
-**名称:** CVE-2021-22205-GitLab-远程命令执行
-**类型:** 远程命令执行 (RCE) | **POC:** 是 | **投毒风险:** 1%
-**仓库:** [CVE-2021-22205](https://github.com/devdanqtuan/CVE-2021-22205)
-
-### [CVE-2021-22205](CVE-2021-22205-Hikikan_CVE-2021-22205.md) 🔴
-
-**名称:** CVE-2021-22205-GitLab-远程命令执行
-**类型:** 远程命令执行 | **POC:** 是 | **投毒风险:** 0%
-**仓库:** [CVE-2021-22205](https://github.com/Hikikan/CVE-2021-22205)
-
-### [CVE-2021-22205](CVE-2021-22205-overgrowncarrot1_DejaVu-CVE-2021-22205.md)
-
-**名称:** CVE-2021-22205-GitLab-RCE
-**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 0%
-**仓库:** [DejaVu-CVE-2021-22205](https://github.com/overgrowncarrot1/DejaVu-CVE-2021-22205)
-
-### [CVE-2021-22205](CVE-2021-22205-Al1ex_CVE-2021-22205.md) 🔴
-
-**名称:** CVE-2021-22205-GitLab-远程命令执行
-**类型:** 远程命令执行 | **POC:** 是 | **投毒风险:** 5%
-**仓库:** [CVE-2021-22205](https://github.com/Al1ex/CVE-2021-22205)
-
-### [CVE-2021-22205](CVE-2021-22205-honypot_CVE-2021-22205.md) 🔴
-
-**名称:** CVE-2021-22205-GitLab-RCE
-**类型:** 远程代码执行(RCE) | **POC:** 是 | **投毒风险:** 20%
-**仓库:** [CVE-2021-22205](https://github.com/honypot/CVE-2021-22205)
-
-### [CVE-2021-22205](CVE-2021-22205-osungjinwoo_CVE-2021-22205-gitlab.md)
-
-**名称:** CVE-2021-22205-GitLab-远程代码执行
-**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 5%
-**仓库:** [CVE-2021-22205-gitlab](https://github.com/osungjinwoo/CVE-2021-22205-gitlab)
-
-### [CVE-2021-22205](CVE-2021-22205-inspiringz_CVE-2021-22205.md) 🔴
-
-**名称:** CVE-2021-22205-GitLab-RCE
-**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 10%
-**仓库:** [CVE-2021-22205](https://github.com/inspiringz/CVE-2021-22205)
-
-### [CVE-2021-22205](CVE-2021-22205-w0x68y_Gitlab-CVE-2021-22205.md) 🔴
-
-**名称:** CVE-2021-22205 - GitLab ExifTool 远程命令执行
-**类型:** 远程命令执行 | **POC:** 是 | **投毒风险:** 0%
-**仓库:** [Gitlab-CVE-2021-22205](https://github.com/w0x68y/Gitlab-CVE-2021-22205)
-
-### [CVE-2021-22205](CVE-2021-22205-DIVD-NL_GitLab-cve-2021-22205-nse.md) 🔴
-
-**名称:** CVE-2021-22205-GitLab-远程代码执行
-**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 0%
-**仓库:** [GitLab-cve-2021-22205-nse](https://github.com/DIVD-NL/GitLab-cve-2021-22205-nse)
-
-### [CVE-2021-22205](CVE-2021-22205-NukingDragons_gitlab-cve-2021-22205.md) 🔴
-
-**名称:** CVE-2021-22205-GitLab-远程命令执行
-**类型:** 远程命令执行 | **POC:** 是 | **投毒风险:** 5%
-**仓库:** [gitlab-cve-2021-22205](https://github.com/NukingDragons/gitlab-cve-2021-22205)
-
-### [CVE-2021-22205](CVE-2021-22205-hhhotdrink_CVE-2021-22205.md) 🔴
-
-**名称:** CVE-2021-22205-GitLab-RCE
-**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 10%
-**仓库:** [CVE-2021-22205](https://github.com/hhhotdrink/CVE-2021-22205)
-
-### [CVE-2021-22205](CVE-2021-22205-keven1z_CVE-2021-22205.md)
-
-**名称:** CVE-2021-22205-GitLab-RCE
-**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 10%
-**仓库:** [CVE-2021-22205](https://github.com/keven1z/CVE-2021-22205)
-
-### [CVE-2021-22205](CVE-2021-22205-c0okB_CVE-2021-22205.md) 🔴
-
-**名称:** CVE-2021-22205-GitLab-RCE
-**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 0%
-**仓库:** [CVE-2021-22205](https://github.com/c0okB/CVE-2021-22205)
-
-### [CVE-2021-22205](CVE-2021-22205-pizza-power_Golang-CVE-2021-22205-POC.md) 🔴
-
-**名称:** CVE-2021-22205-GitLab-远程代码执行
-**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 1%
-**仓库:** [Golang-CVE-2021-22205-POC](https://github.com/pizza-power/Golang-CVE-2021-22205-POC)
-
-### [CVE-2021-22205](CVE-2021-22205-faisalfs10x_GitLab-CVE-2021-22205-scanner.md) 🔴
-
-**名称:** CVE-2021-22205-GitLab-RCE
-**类型:** 远程命令执行 | **POC:** 是 | **投毒风险:** 10%
-**仓库:** [GitLab-CVE-2021-22205-scanner](https://github.com/faisalfs10x/GitLab-CVE-2021-22205-scanner)
-
-### [CVE-2021-22205](CVE-2021-22205-hh-hunter_cve-2021-22205.md) 🔴
-
-**名称:** CVE-2021-22205-GitLab-远程命令执行
-**类型:** 远程命令执行 | **POC:** 是 | **投毒风险:** 0%
-**仓库:** [cve-2021-22205](https://github.com/hh-hunter/cve-2021-22205)
-
-### [CVE-2021-22205](CVE-2021-22205-ZZ-SOCMAP_CVE-2021-22205.md)
-
-**名称:** CVE-2021-22205-GitLab-RCE
-**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 10%
-**仓库:** [CVE-2021-22205](https://github.com/ZZ-SOCMAP/CVE-2021-22205)
-
-### [CVE-2021-22205](CVE-2021-22205-mr-r3bot_Gitlab-CVE-2021-22205.md)
-
-**名称:** CVE-2021-22205-GitLab-RCE
-**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 0%
-**仓库:** [Gitlab-CVE-2021-22205](https://github.com/mr-r3bot/Gitlab-CVE-2021-22205)
-
-### [CVE-2021-22205](CVE-2021-22205-shang159_CVE-2021-22205-getshell.md) 🔴
-
-**名称:** CVE-2021-22205-GitLab-远程命令执行
-**类型:** 远程命令执行 | **POC:** 是 | **投毒风险:** 0%
-**仓库:** [CVE-2021-22205-getshell](https://github.com/shang159/CVE-2021-22205-getshell)
-
-### [CVE-2021-22205](CVE-2021-22205-findneo_GitLab-preauth-RCE_CVE-2021-22205.md) 🔴
-
-**名称:** CVE-2021-22205 - GitLab ExifTool 命令注入
-**类型:** 命令注入 | **POC:** 是 | **投毒风险:** 0%
-**仓库:** [GitLab-preauth-RCE_CVE-2021-22205](https://github.com/findneo/GitLab-preauth-RCE_CVE-2021-22205)
-
-### [CVE-2021-22205](CVE-2021-22205-momika233_cve-2021-22205-GitLab-13.10.2---Remote-Code-Execution-RCE-Unauthenticated-.md) 🔴
-
-**名称:** CVE-2021-22205-GitLab-RCE
-**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 0%
-**仓库:** [cve-2021-22205-GitLab-13.10.2---Remote-Code-Execution-RCE-Unauthenticated-](https://github.com/momika233/cve-2021-22205-GitLab-13.10.2---Remote-Code-Execution-RCE-Unauthenticated-)
-
-### [CVE-2021-22205](CVE-2021-22205-runsel_GitLab-CVE-2021-22205-.md)
-
-**名称:** CVE-2021-22205-GitLab-RCE
-**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 0%
-**仓库:** [GitLab-CVE-2021-22205-](https://github.com/runsel/GitLab-CVE-2021-22205-)
 
 
 ---

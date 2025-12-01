@@ -1,9 +1,9 @@
 # 2025年CVE漏洞情报汇总
 
 > 📅 CVE年份: **2025**
-> 📊 漏洞总数: **2432** 个
-> 🔥 高危漏洞: **1971** 个 (81.0%)
-> ⚠️ 高投毒风险: **145** 个
+> 📊 漏洞总数: **2496** 个
+> 🔥 高危漏洞: **2019** 个 (80.9%)
+> ⚠️ 高投毒风险: **147** 个
 
 ---
 
@@ -11,15 +11,15 @@
 
 | 类型 | 数量 | 占比 |
 |------|------|------|
-| 远程代码执行 | 216 | 8.9% |
-| 权限提升 | 133 | 5.5% |
-| 远程代码执行 (RCE) | 124 | 5.1% |
-| SQL注入 | 103 | 4.2% |
-| 身份验证绕过 | 67 | 2.8% |
-| 路径遍历 | 63 | 2.6% |
-| 授权绕过 | 60 | 2.5% |
-| 任意文件上传 | 59 | 2.4% |
-| 本地提权 | 55 | 2.3% |
+| 远程代码执行 | 222 | 8.9% |
+| 权限提升 | 136 | 5.4% |
+| 远程代码执行 (RCE) | 128 | 5.1% |
+| SQL注入 | 105 | 4.2% |
+| 身份验证绕过 | 68 | 2.7% |
+| 路径遍历 | 67 | 2.7% |
+| 任意文件上传 | 62 | 2.5% |
+| 授权绕过 | 60 | 2.4% |
+| 本地提权 | 55 | 2.2% |
 | 权限绕过 | 47 | 1.9% |
 
 ---
@@ -56,6 +56,12 @@
 **类型:** Stored Cross-Site Scripting (XSS) | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-9816](https://github.com/monzaviman/CVE-2025-9816)
 
+### [CVE-2025-9803](CVE-2025-9803-maidilling32_CVE-2025-9803-Exploit.md)
+
+**名称:** CVE-2025-9803-lunary-ai/lunary-不当身份验证
+**类型:** 不当身份验证 | **POC:** 是 | **投毒风险:** 0%
+**仓库:** [CVE-2025-9803-Exploit](https://github.com/maidilling32/CVE-2025-9803-Exploit)
+
 ### [CVE-2025-9784](CVE-2025-9784-drackyjr_CVE-2025-9784.md) 🔴
 
 **名称:** CVE-2025-9784 MadeYouReset HTTP/2 DoS
@@ -91,6 +97,12 @@
 **名称:** CVE-2025-9478-Google Chrome ANGLE Use-After-Free
 **类型:** Use-After-Free | **POC:** 是，但提供的代码仅为修复说明 | **投毒风险:** 0%
 **仓库:** [STIG-Edge-RCE-CVE2025-9478](https://github.com/Kamgreen50/STIG-Edge-RCE-CVE2025-9478)
+
+### [CVE-2025-9435](CVE-2025-9435-passtheticket_CVE-2025-9435.md) 🔴
+
+**名称:** CVE-2025-9435 - ADManager Plus Elevation of Privilege
+**类型:** 权限提升 | **POC:** 是 | **投毒风险:** 5%
+**仓库:** [CVE-2025-9435](https://github.com/passtheticket/CVE-2025-9435)
 
 ### [CVE-2025-9286](CVE-2025-9286-Nxploited_CVE-2025-9286.md) 🔴
 
@@ -590,6 +602,24 @@
 **类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 0%
 **仓库:** [cve-2025-8088](https://github.com/h0melike/cve-2025-8088)
 
+### [CVE-2025-8088](CVE-2025-8088-h4vier_cve-2025-8088.md) 🔴
+
+**名称:** CVE-2025-8088 WinRAR 路径遍历漏洞
+**类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 10%
+**仓库:** [cve-2025-8088](https://github.com/h4vier/cve-2025-8088)
+
+### [CVE-2025-8088](CVE-2025-8088-4daysday_cve-2025-8088.md) 🔴
+
+**名称:** CVE-2025-8088 WinRAR路径遍历漏洞
+**类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 20%
+**仓库:** [cve-2025-8088](https://github.com/4daysday/cve-2025-8088)
+
+### [CVE-2025-8088](CVE-2025-8088-xi0onamdev_WinRAR-CVE-2025-8088-Exploitation-Toolkit.md) 🔴
+
+**名称:** CVE-2025-8088 WinRAR Path Traversal
+**类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 20%
+**仓库:** [WinRAR-CVE-2025-8088-Exploitation-Toolkit](https://github.com/xi0onamdev/WinRAR-CVE-2025-8088-Exploitation-Toolkit)
+
 ### [CVE-2025-8081](CVE-2025-8081-LyesH4ck_CVE-2025-8081-Elementor.md) 🔴
 
 **名称:** CVE-2025-8081 - Elementor Arbitrary File Read Vulnerability
@@ -890,6 +920,24 @@
 **类型:** JNDI注入 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-666666](https://github.com/anderruiz/CVE-2025-666666)
 
+### [CVE-2025-65900](CVE-2025-65900-Noxurge_CVE-2025-65900.md) 🔴
+
+**名称:** CVE-2025-65900: Kalmia CMS v0.2.0 - Incorrect Access Control
+**类型:** Incorrect Access Control | **POC:** 是 | **投毒风险:** 1%
+**仓库:** [CVE-2025-65900](https://github.com/Noxurge/CVE-2025-65900)
+
+### [CVE-2025-65899](CVE-2025-65899-Noxurge_CVE-2025-65899.md)
+
+**名称:** CVE-2025-65899 - Kalmia CMS v0.2.0 用户枚举
+**类型:** 用户枚举 | **POC:** 是 | **投毒风险:** 0%
+**仓库:** [CVE-2025-65899](https://github.com/Noxurge/CVE-2025-65899)
+
+### [CVE-2025-65881](CVE-2025-65881-MMAKINGDOM_CVE-2025-65881.md)
+
+**名称:** CVE-2025-65881-Zoo Management System-XSS
+**类型:** 跨站脚本攻击 (XSS) | **POC:** 是 | **投毒风险:** 10%
+**仓库:** [CVE-2025-65881](https://github.com/MMAKINGDOM/CVE-2025-65881)
+
 ### [CVE-2025-65681](CVE-2025-65681-Rivek619_CVE-2025-65681.md)
 
 **名称:** CVE-2025-65681-tutor-open-edx-信息泄露
@@ -1004,6 +1052,24 @@
 **类型:** 类型混淆 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-6554](https://github.com/jopraveen/CVE-2025-6554)
 
+### [CVE-2025-6554](CVE-2025-6554-aklnjakln_CVE-2025-6554.md) 🔴
+
+**名称:** CVE-2025-6554-Google Chrome-V8 Type Confusion
+**类型:** 类型混淆 | **POC:** 否 | **投毒风险:** 0%
+**仓库:** [CVE-2025-6554](https://github.com/aklnjakln/CVE-2025-6554)
+
+### [CVE-2025-6554](CVE-2025-6554-Muhammednihalmp_Google-chrome-zero-day.md) 🔴
+
+**名称:** CVE-2025-6554-Google Chrome-V8类型混淆
+**类型:** 类型混淆 | **POC:** 否 | **投毒风险:** 0%
+**仓库:** [Google-chrome-zero-day](https://github.com/Muhammednihalmp/Google-chrome-zero-day)
+
+### [CVE-2025-6554](CVE-2025-6554-LordBheem_CVE-2025-6554.md) 🔴
+
+**名称:** CVE-2025-6554-Chrome-V8类型混淆
+**类型:** 类型混淆 | **POC:** 是 | **投毒风险:** 10%
+**仓库:** [CVE-2025-6554](https://github.com/LordBheem/CVE-2025-6554)
+
 ### [CVE-2025-65482](CVE-2025-65482-AT190510-Cuong_CVE-2025-65482-XXE-.md) 🔴
 
 **名称:** CVE-2025-65482 (XXE) - XDocReport
@@ -1028,6 +1094,18 @@
 **类型:** 内存溢出 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-6543_CitrixNetScaler_PoC](https://github.com/abrewer251/CVE-2025-6543_CitrixNetScaler_PoC)
 
+### [CVE-2025-65345](CVE-2025-65345-Theethat-Thamwasin_CVE-2025-65345.md) 🔴
+
+**名称:** CVE-2025-65345 - laravel-file-manager Authenticated Path Traversal
+**类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 10%
+**仓库:** [CVE-2025-65345](https://github.com/Theethat-Thamwasin/CVE-2025-65345)
+
+### [CVE-2025-65320](CVE-2025-65320-Smarttfoxx_CVE-2025-65320.md) 🔴
+
+**名称:** CVE-2025-65320 - Abacre Restaurant Point of Sale (POS) 敏感信息明文存储漏洞
+**类型:** 敏感信息明文存储 | **POC:** 是 | **投毒风险:** 10%
+**仓库:** [CVE-2025-65320](https://github.com/Smarttfoxx/CVE-2025-65320)
+
 ### [CVE-2025-6514](CVE-2025-6514-ChaseHCS_CVE-2025-6514.md) 🔴
 
 **名称:** CVE-2025-6514-mcp-remote-命令注入
@@ -1045,6 +1123,18 @@
 **名称:** 未提供漏洞名称
 **类型:** License文件 | **POC:** 否 | **投毒风险:** 0%
 **仓库:** [CVE-2025-65018-Heap-buffer-overflow-in-libpng-ps4-ps5-](https://github.com/Neo-Neo6/CVE-2025-65018-Heap-buffer-overflow-in-libpng-ps4-ps5-)
+
+### [CVE-2025-64720](CVE-2025-64720-truediogo_CVE-2025-64720-PoC.md) 🔴
+
+**名称:** CVE-2025-64720-libpng-缓冲区溢出
+**类型:** 缓冲区溢出 | **POC:** 是 | **投毒风险:** 0%
+**仓库:** [CVE-2025-64720-PoC](https://github.com/truediogo/CVE-2025-64720-PoC)
+
+### [CVE-2025-64720](CVE-2025-64720-truediogo_CVE-2025-64720-PoC.md) 🔴
+
+**名称:** CVE-2025-64720-libpng-缓冲区溢出
+**类型:** 缓冲区溢出 | **POC:** 是 | **投毒风险:** 1%
+**仓库:** [CVE-2025-64720-PoC](https://github.com/truediogo/CVE-2025-64720-PoC)
 
 ### [CVE-2025-64708](CVE-2025-64708-DylanDavis1_CVE-2025-64708.md) 🔴
 
@@ -1202,6 +1292,12 @@
 **类型:** 任意文件上传 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-6440](https://github.com/Nxploited/CVE-2025-6440)
 
+### [CVE-2025-6440](CVE-2025-6440-m2hcz_CVE-2025-6440-Poc-Exploit.md) 🔴
+
+**名称:** CVE-2025-6440-WooCommerce Designer Pro-未授权任意文件上传
+**类型:** 未授权任意文件上传 | **POC:** 是 | **投毒风险:** 1%
+**仓库:** [CVE-2025-6440-Poc-Exploit](https://github.com/m2hcz/CVE-2025-6440-Poc-Exploit)
+
 ### [CVE-2025-64328](CVE-2025-64328-mcorybillington_CVE-2025-64328_FreePBX-framework-Command-Injection.md) 🔴
 
 **名称:** CVE-2025-64328-FreePBX-Authenticated Command Injection
@@ -1261,6 +1357,12 @@
 **名称:** CVE-2025-63914-Cinnamon/kotaemon-Zip炸弹
 **类型:** Zip炸弹 | **POC:** 是 | **投毒风险:** 5%
 **仓库:** [CVE-2025-63914](https://github.com/WxDou/CVE-2025-63914)
+
+### [CVE-2025-6389](CVE-2025-6389-B1ack4sh_Blackash-CVE-2025-6389.md)
+
+**名称:** CVE-2025-6389-Sneeit Framework-RCE
+**类型:** 远程代码执行 | **POC:** 否 | **投毒风险:** 0%
+**仓库:** [Blackash-CVE-2025-6389](https://github.com/B1ack4sh/Blackash-CVE-2025-6389)
 
 ### [CVE-2025-63888](CVE-2025-63888-AN5I_cve-2025-63888-exploit.md) 🔴
 
@@ -1364,6 +1466,12 @@
 **类型:** 未知 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-63499](https://github.com/xryptoh/CVE-2025-63499)
 
+### [CVE-2025-63498](CVE-2025-63498-xryptoh_CVE-2025-63498.md)
+
+**名称:** CVE-2025-63498-Alinto SOGo-XSS
+**类型:** 跨站脚本攻击 (XSS) | **POC:** 是 | **投毒风险:** 0%
+**仓库:** [CVE-2025-63498](https://github.com/xryptoh/CVE-2025-63498)
+
 ### [CVE-2025-63441](CVE-2025-63441-Kgan0509_CVE-2025-63441.md) 🔴
 
 **名称:** CVE-2025-63441-Open Source Social Network-XSS
@@ -1376,11 +1484,23 @@
 **类型:** 存储型HTML注入 (Stored HTML Injection) | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-63420](https://github.com/MMAKINGDOM/CVE-2025-63420)
 
+### [CVE-2025-63420](CVE-2025-63420-hossainshadat_CVE-2025-63420.md)
+
+**名称:** CVE-2025-63420-CrushFTP11-Stored HTML Injection
+**类型:** Stored HTML Injection (CWE-79) | **POC:** 是 | **投毒风险:** 0%
+**仓库:** [CVE-2025-63420](https://github.com/hossainshadat/CVE-2025-63420)
+
 ### [CVE-2025-63419](CVE-2025-63419-MMAKINGDOM_CVE-2025-63419.md)
 
 **名称:** CVE-2025-63419-CrushFTP-HTML注入
 **类型:** HTML注入 | **POC:** 是 | **投毒风险:** 5%
 **仓库:** [CVE-2025-63419](https://github.com/MMAKINGDOM/CVE-2025-63419)
+
+### [CVE-2025-63419](CVE-2025-63419-hossainshadat_CVE-2025-63419.md)
+
+**名称:** CVE-2025-63419-CrushFTP-HTML注入
+**类型:** HTML注入 | **POC:** 是 | **投毒风险:** 10%
+**仓库:** [CVE-2025-63419](https://github.com/hossainshadat/CVE-2025-63419)
 
 ### [CVE-2025-63406](CVE-2025-63406-WinDyAlphA_CVE-2025-63406-PoC.md) 🔴
 
@@ -1466,6 +1586,12 @@
 **类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 0%
 **仓库:** [cve-2025-62726-poc](https://github.com/baktistr/cve-2025-62726-poc)
 
+### [CVE-2025-62593](CVE-2025-62593-B1ack4sh_Blackash-CVE-2025-62593.md) 🔴
+
+**名称:** CVE-2025-62593-Ray-DNS重绑定RCE
+**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 0%
+**仓库:** [Blackash-CVE-2025-62593](https://github.com/B1ack4sh/Blackash-CVE-2025-62593)
+
 ### [CVE-2025-62507](CVE-2025-62507-Network-Sec_CVE-2025-62507-Buffer-Overflow_PoC.md) 🔴
 
 **名称:** CVE-2025-62507-Redis-栈溢出
@@ -1544,6 +1670,12 @@
 **类型:** 权限提升 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-62215_Windows_Kernel_PE](https://github.com/abrewer251/CVE-2025-62215_Windows_Kernel_PE)
 
+### [CVE-2025-62207](CVE-2025-62207-stankobra853_CVE-2025-62207.md) 🔴 ⚠️
+
+**名称:** CVE-2025-62207-Azure Monitor Elevation of Privilege
+**类型:** SSRF -> RCE | **POC:** 是 | **投毒风险:** 85%
+**仓库:** [CVE-2025-62207](https://github.com/stankobra853/CVE-2025-62207)
+
 ### [CVE-2025-6220](CVE-2025-6220-d0n601_CVE-2025-6220.md) 🔴
 
 **名称:** CVE-2025-6220
@@ -1591,6 +1723,12 @@
 **名称:** CVE-2025-62168-Squid代理信息泄露
 **类型:** 信息泄露 | **POC:** 是 | **投毒风险:** 20%
 **仓库:** [CVE-2025-62168](https://github.com/shahroodcert/CVE-2025-62168)
+
+### [CVE-2025-62168](CVE-2025-62168-nehkark_CVE-2025-62168.md) 🔴
+
+**名称:** CVE-2025-62168 - Squid Proxy 信息泄露
+**类型:** 信息泄露 | **POC:** 是 | **投毒风险:** 5%
+**仓库:** [CVE-2025-62168](https://github.com/nehkark/CVE-2025-62168)
 
 ### [CVE-2025-6202](CVE-2025-6202-demining_Phoenix-Rowhammer-Attack-CVE-2025-6202.md) 🔴
 
@@ -1982,6 +2120,24 @@
 **类型:** 权限提升 | **POC:** 是 | **投毒风险:** 0%
 **仓库:** [CVE-2025-60710](https://github.com/Wh04m1001/CVE-2025-60710)
 
+### [CVE-2025-60656](CVE-2025-60656-DotAdrien_CVE-2025-60656.md)
+
+**名称:** CVE-2025-60656-PrivateXSS
+**类型:** XSS | **POC:** 是 | **投毒风险:** 1%
+**仓库:** [CVE-2025-60656](https://github.com/DotAdrien/CVE-2025-60656)
+
+### [CVE-2025-60655](CVE-2025-60655-DotAdrien_CVE-2025-60655.md) 🔴
+
+**名称:** CVE-2025-60655
+**类型:** RCE | **POC:** 是 | **投毒风险:** 0%
+**仓库:** [CVE-2025-60655](https://github.com/DotAdrien/CVE-2025-60655)
+
+### [CVE-2025-60654](CVE-2025-60654-DotAdrien_CVE-2025-60654.md)
+
+**名称:** CVE-2025-60654-XSS
+**类型:** XSS | **POC:** 是 | **投毒风险:** 10%
+**仓库:** [CVE-2025-60654](https://github.com/DotAdrien/CVE-2025-60654)
+
 ### [CVE-2025-60595](CVE-2025-60595-Clicksafeae_CVE-2025-60595.md) 🔴
 
 **名称:** CVE-2025-60595-SPH Engineering UgCS-Arbitrary Code Execution
@@ -2120,6 +2276,12 @@
 **类型:** 本地提权 (LPE) | **POC:** 是 | **投毒风险:** 0%
 **仓库:** [Blackash-CVE-2025-6018](https://github.com/B1ack4sh/Blackash-CVE-2025-6018)
 
+### [CVE-2025-6018](CVE-2025-6018-euxem_Analyse-faille-de-s-curit-CVE-2025-6018-CVE-2025-6019.md) 🔴
+
+**名称:** CVE-2025-6018-pam-config 本地权限提升
+**类型:** 本地权限提升 | **POC:** 是 | **投毒风险:** 0%
+**仓库:** [Analyse-faille-de-s-curit-CVE-2025-6018-CVE-2025-6019](https://github.com/euxem/Analyse-faille-de-s-curit-CVE-2025-6018-CVE-2025-6019)
+
 ### [CVE-2025-59934](CVE-2025-59934-suriryuk_cve-2025-59934.md)
 
 **名称:** CVE-2025-59934-Formbricks-JWT签名绕过
@@ -2155,6 +2317,12 @@
 **名称:** CVE-2025-59528-Flowise-远程代码执行
 **类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 0%
 **仓库:** [CVE-2025-59528.yaml](https://github.com/zimshk/CVE-2025-59528.yaml)
+
+### [CVE-2025-59528](CVE-2025-59528-B1ack4sh_Blackash-CVE-2025-59528.md)
+
+**名称:** CVE-2025-59528-Flowise-远程代码执行
+**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 5%
+**仓库:** [Blackash-CVE-2025-59528](https://github.com/B1ack4sh/Blackash-CVE-2025-59528)
 
 ### [CVE-2025-59503](CVE-2025-59503-Mpokes_CVE-2025-59503-Poc.md) 🔴 ⚠️
 
@@ -2216,6 +2384,12 @@
 **类型:** 未授权访问/默认配置漏洞 | **POC:** 是 | **投毒风险:** 0%
 **仓库:** [CVE-2025-59396](https://github.com/cyberbyte000/CVE-2025-59396)
 
+### [CVE-2025-59390](CVE-2025-59390-Daeda1usUK_CVE-2025-59390-.md) 🔴
+
+**名称:** CVE-2025-59390-Apache Druid-Kerberos认证绕过
+**类型:** 认证绕过 | **POC:** 是 | **投毒风险:** 0%
+**仓库:** [CVE-2025-59390-](https://github.com/Daeda1usUK/CVE-2025-59390-)
+
 ### [CVE-2025-59367](CVE-2025-59367-B1ack4sh_Blackash-CVE-2025-59367.md) 🔴
 
 **名称:** CVE-2025-59367-ASUS DSL路由器认证绕过
@@ -2233,6 +2407,12 @@
 **名称:** CVE-2025-59342-esm.sh-路径遍历
 **类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-59342](https://github.com/byteReaper77/CVE-2025-59342)
+
+### [CVE-2025-59302](CVE-2025-59302-B1gh0rnn_CVE-2025-59302.md)
+
+**名称:** CVE-2025-59302 - Apache CloudStack Code Injection
+**类型:** 代码注入 | **POC:** 是 | **投毒风险:** 0%
+**仓库:** [CVE-2025-59302](https://github.com/B1gh0rnn/CVE-2025-59302)
 
 ### [CVE-2025-59295](CVE-2025-59295-usjnx72726w_CVE-2025-59295.md) 🔴
 
@@ -2462,6 +2642,18 @@
 **类型:** 文件上传 | **POC:** 是 | **投毒风险:** 1%
 **仓库:** [CVE-2025-5840](https://github.com/haxerr9/CVE-2025-5840)
 
+### [CVE-2025-58360](CVE-2025-58360-B1ack4sh_Blackash-CVE-2025-58360.md) 🔴
+
+**名称:** CVE-2025-58360-GeoServer-XXE
+**类型:** XXE | **POC:** 是 | **投毒风险:** 5%
+**仓库:** [Blackash-CVE-2025-58360](https://github.com/B1ack4sh/Blackash-CVE-2025-58360)
+
+### [CVE-2025-58360](CVE-2025-58360-quyenheu_CVE-2025-58360.md) 🔴
+
+**名称:** CVE-2025-58360-GeoServer-XXE
+**类型:** XXE | **POC:** 是 | **投毒风险:** 0%
+**仓库:** [CVE-2025-58360](https://github.com/quyenheu/CVE-2025-58360)
+
 ### [CVE-2025-58180](CVE-2025-58180-prabhatverma47_CVE-2025-58180-RCE-in-OctoPrint-via-Unsanitized-Filename.md) 🔴
 
 **名称:** CVE-2025-58180 OctoPrint RCE via Unsanitized Filename
@@ -2527,6 +2719,12 @@
 **名称:** CVE-2025-57833-Django-SQL注入
 **类型:** SQL注入 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-57833](https://github.com/sw0rd1ight/CVE-2025-57833)
+
+### [CVE-2025-57833](CVE-2025-57833-Gayang2902_CVE-2025-57833.md) 🔴
+
+**名称:** CVE-2025-57833-Django-SQL注入
+**类型:** SQL注入 | **POC:** 是 | **投毒风险:** 5%
+**仓库:** [CVE-2025-57833](https://github.com/Gayang2902/CVE-2025-57833)
 
 ### [CVE-2025-57819](CVE-2025-57819-rxerium_CVE-2025-57819.md) 🔴
 
@@ -2798,6 +2996,12 @@
 **类型:** Reflected XSS | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-57389](https://github.com/amalcew/CVE-2025-57389)
 
+### [CVE-2025-57310](CVE-2025-57310-hossainshadat_CVE-2025-57310.md) 🔴
+
+**名称:** CVE-2025-57310-Simple-Faucet-Script-CSRF
+**类型:** CSRF | **POC:** 是 | **投毒风险:** 0%
+**仓库:** [CVE-2025-57310](https://github.com/hossainshadat/CVE-2025-57310)
+
 ### [CVE-2025-57176](CVE-2025-57176-semaja22_CVE-2025-57176.md) 🔴
 
 **名称:** CVE-2025-57176 - Siklu EtherHaul Series - Unauthenticated Arbitrary File Upload
@@ -2821,210 +3025,6 @@
 **名称:** CVE-2025-5701 - HyperComments WordPress 权限提升漏洞
 **类型:** 权限提升 | **POC:** 是 | **投毒风险:** 70%
 **仓库:** [CVE-2025-5701-Exploit](https://github.com/Harley21211/CVE-2025-5701-Exploit)
-
-### [CVE-2025-5701](CVE-2025-5701-Nxploited_CVE-2025-5701.md) 🔴
-
-**名称:** CVE-2025-5701 - HyperComments Plugin Unauthenticated Privilege Escalation
-**类型:** 权限提升 | **POC:** 是 | **投毒风险:** 0%
-**仓库:** [CVE-2025-5701](https://github.com/Nxploited/CVE-2025-5701)
-
-### [CVE-2025-5701](CVE-2025-5701-RandomRobbieBF_CVE-2025-5701.md)
-
-**名称:** CVE-2025-5701-HyperComments-权限提升
-**类型:** 权限提升 | **POC:** 是 | **投毒风险:** 0%
-**仓库:** [CVE-2025-5701](https://github.com/RandomRobbieBF/CVE-2025-5701)
-
-### [CVE-2025-56819](CVE-2025-56819-xyyzxc_CVE-2025-56819.md) 🔴
-
-**名称:** CVE-2025-56819-Datart-JDBC注入
-**类型:** JDBC注入 | **POC:** 是 | **投毒风险:** 10%
-**仓库:** [CVE-2025-56819](https://github.com/xyyzxc/CVE-2025-56819)
-
-### [CVE-2025-56807](CVE-2025-56807-aqwainfosec_CVE-2025-56807.md) 🔴
-
-**名称:** CVE-2025-56807 - FairSketch RISE Ultimate Project Manager & CRM Stored XSS
-**类型:** 存储型跨站脚本 (Stored XSS) | **POC:** 是 | **投毒风险:** 0%
-**仓库:** [CVE-2025-56807](https://github.com/aqwainfosec/CVE-2025-56807)
-
-### [CVE-2025-56803](CVE-2025-56803-shinyColumn_CVE-2025-56803.md) 🔴
-
-**名称:** CVE-2025-56803-Figma-命令注入
-**类型:** 命令注入 | **POC:** 是 | **投毒风险:** 0%
-**仓库:** [CVE-2025-56803](https://github.com/shinyColumn/CVE-2025-56803)
-
-### [CVE-2025-56802](CVE-2025-56802-shinyColumn_CVE-2025-56802.md) 🔴
-
-**名称:** CVE-2025-56802-Reolink Desktop Application-AES-CFB Key Generation Vulnerability
-**类型:** AES-CFB密钥生成与管理漏洞 | **POC:** 是 | **投毒风险:** 10%
-**仓库:** [CVE-2025-56802](https://github.com/shinyColumn/CVE-2025-56802)
-
-### [CVE-2025-56801](CVE-2025-56801-shinyColumn_CVE-2025-56801.md)
-
-**名称:** CVE-2025-56801-Reolink Desktop Application-AES-CFB IV Generation Vulnerability
-**类型:** AES-CFB IV Generation Vulnerability | **POC:** 是 | **投毒风险:** 10%
-**仓库:** [CVE-2025-56801](https://github.com/shinyColumn/CVE-2025-56801)
-
-### [CVE-2025-56800](CVE-2025-56800-shinyColumn_CVE-2025-56800.md) 🔴
-
-**名称:** CVE-2025-56800-Reolink Desktop Application-本地认证绕过
-**类型:** 本地认证绕过 | **POC:** 是 | **投毒风险:** 0%
-**仓库:** [CVE-2025-56800](https://github.com/shinyColumn/CVE-2025-56800)
-
-### [CVE-2025-56799](CVE-2025-56799-shinyColumn_CVE-2025-56799.md)
-
-**名称:** CVE-2025-56799-Reolink桌面应用-命令注入
-**类型:** 命令注入 | **POC:** 是 | **投毒风险:** 10%
-**仓库:** [CVE-2025-56799](https://github.com/shinyColumn/CVE-2025-56799)
-
-### [CVE-2025-56795](CVE-2025-56795-B1tBreaker_CVE-2025-56795.md)
-
-**名称:** CVE-2025-56795-Mealie-存储型XSS
-**类型:** 存储型XSS | **POC:** 是 | **投毒风险:** 0%
-**仓库:** [CVE-2025-56795](https://github.com/B1tBreaker/CVE-2025-56795)
-
-### [CVE-2025-56764](CVE-2025-56764-Remenis_CVE-2025-56764-trivision-nc227wf.md) 🔴
-
-**名称:** CVE-2025-56764-Trivision NC-227WF 认证绕过和用户名枚举
-**类型:** 认证绕过/用户名枚举 | **POC:** 是 | **投毒风险:** 10%
-**仓库:** [CVE-2025-56764-trivision-nc227wf](https://github.com/Remenis/CVE-2025-56764-trivision-nc227wf)
-
-### [CVE-2025-56762](CVE-2025-56762-Shaunak-Chatterjee_CVE-2025-56762.md)
-
-**名称:** error.php XSS漏洞
-**类型:** 跨站脚本攻击(XSS) | **POC:** 是 | **投毒风险:** 10%
-**仓库:** [CVE-2025-56762](https://github.com/Shaunak-Chatterjee/CVE-2025-56762)
-
-### [CVE-2025-56708](CVE-2025-56708-xkaneiki_rtty_CVE-2025-56708-CVE-2025-56709.md) 🔴
-
-**名称:** CVE-2025-56709&CVE-2025-56708 - rtty 缓冲区溢出&未授权文件上传
-**类型:** 缓冲区溢出 & 未授权文件上传 | **POC:** 是 | **投毒风险:** 0%
-**仓库:** [rtty_CVE-2025-56708-CVE-2025-56709](https://github.com/xkaneiki/rtty_CVE-2025-56708-CVE-2025-56709)
-
-### [CVE-2025-56643](CVE-2025-56643-0xBS0D27_CVE-2025-56643.md)
-
-**名称:** CVE-2025-56643-Wiki.js-JWT Session Vulnerability
-**类型:** JWT会话管理漏洞 | **POC:** 是 | **投毒风险:** 10%
-**仓库:** [CVE-2025-56643](https://github.com/0xBS0D27/CVE-2025-56643)
-
-### [CVE-2025-56605](CVE-2025-56605-Userr404_CVE-2025-56605.md)
-
-**名称:** CVE-2025-56605 - Event Management System - Reflected XSS
-**类型:** Reflected XSS | **POC:** 是 | **投毒风险:** 10%
-**仓库:** [CVE-2025-56605](https://github.com/Userr404/CVE-2025-56605)
-
-### [CVE-2025-56588](CVE-2025-56588-PhDg1410_CVE-2025-56588.md) 🔴
-
-**名称:** CVE-2025-56588 - Dolibarr ERP & CRM 21.0.1 - Computed Field Remote Code Execution
-**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 10%
-**仓库:** [CVE-2025-56588](https://github.com/PhDg1410/CVE-2025-56588)
-
-### [CVE-2025-56526](CVE-2025-56526-HanTul_Kotaemon-CVE-2025-56526-56527-disclosure.md) 🔴
-
-**名称:** CVE-2025-56526 & CVE-2025-56527 - Kotaemon Stored XSS & 明文凭据存储
-**类型:** 存储型XSS, 明文凭据存储 | **POC:** 是 | **投毒风险:** 10%
-**仓库:** [Kotaemon-CVE-2025-56526-56527-disclosure](https://github.com/HanTul/Kotaemon-CVE-2025-56526-56527-disclosure)
-
-### [CVE-2025-56521](CVE-2025-56521-Dong-hui-li_CVE-2025-56521andCVE-2025-56522.md) 🔴
-
-**名称:** CVE-2025-56521 Clang编译器优化错误和Clang编译崩溃漏洞
-**类型:** 编译器错误/崩溃 | **POC:** 是 | **投毒风险:** 1%
-**仓库:** [CVE-2025-56521andCVE-2025-56522](https://github.com/Dong-hui-li/CVE-2025-56521andCVE-2025-56522)
-
-### [CVE-2025-56515](CVE-2025-56515-Kov404_CVE-2025-56515.md)
-
-**名称:** CVE-2025-56515-Fiora Chat Application-XSS
-**类型:** XSS | **POC:** 是 | **投毒风险:** 0%
-**仓库:** [CVE-2025-56515](https://github.com/Kov404/CVE-2025-56515)
-
-### [CVE-2025-56514](CVE-2025-56514-Kov404_CVE-2025-56514.md)
-
-**名称:** CVE-2025-56514-Fiora Chat Application-XSS
-**类型:** XSS | **POC:** 是 | **投毒风险:** 10%
-**仓库:** [CVE-2025-56514](https://github.com/Kov404/CVE-2025-56514)
-
-### [CVE-2025-56503](CVE-2025-56503-secxplorers_CVE-2025-56503.md) 🔴
-
-**名称:** CVE-2025-56503-Sublime Text 4-权限提升
-**类型:** 权限提升 | **POC:** 是 | **投毒风险:** 未知，需要分析PoC代码
-**仓库:** [CVE-2025-56503](https://github.com/secxplorers/CVE-2025-56503)
-
-### [CVE-2025-56499](CVE-2025-56499-Cherrling_CVE-2025-56499.md)
-
-**名称:** 未知漏洞
-**类型:** 未知 | **POC:** 是 | **投毒风险:** 0%
-**仓库:** [CVE-2025-56499](https://github.com/Cherrling/CVE-2025-56499)
-
-### [CVE-2025-56450](CVE-2025-56450-apboss123_CVE-2025-56450.md) 🔴
-
-**名称:** CVE-2025-56450-Log2Space Subscriber Management Software-SQL注入
-**类型:** SQL注入 | **POC:** 是 | **投毒风险:** 10%
-**仓库:** [CVE-2025-56450](https://github.com/apboss123/CVE-2025-56450)
-
-### [CVE-2025-56435](CVE-2025-56435-Jingyi-u_-CVE-2025-56435.md) 🔴
-
-**名称:** CVE-2025-56435
-**类型:** 目录遍历/SQL注入 | **POC:** 是 | **投毒风险:** 10%
-**仓库:** [-CVE-2025-56435](https://github.com/Jingyi-u/-CVE-2025-56435)
-
-### [CVE-2025-5640](CVE-2025-5640-mbanyamer_PX4-Military-UAV-Autopilot-1.12.3-Stack-Buffer-Overflow-Exploit-CVE-2025-5640-.md)
-
-**名称:** CVE-2025-5640-PX4-Autopilot-Stack-based Buffer Overflow
-**类型:** 栈溢出 | **POC:** 是 | **投毒风险:** 10%
-**仓库:** [PX4-Military-UAV-Autopilot-1.12.3-Stack-Buffer-Overflow-Exploit-CVE-2025-5640-](https://github.com/mbanyamer/PX4-Military-UAV-Autopilot-1.12.3-Stack-Buffer-Overflow-Exploit-CVE-2025-5640-)
-
-### [CVE-2025-56399](CVE-2025-56399-Theethat-Thamwasin_CVE-2025-56399.md) 🔴
-
-**名称:** CVE-2025-56399 - laravel-file-manager Authenticated Remote Code Execution
-**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 5%
-**仓库:** [CVE-2025-56399](https://github.com/Theethat-Thamwasin/CVE-2025-56399)
-
-### [CVE-2025-56383](CVE-2025-56383-zer0t0_CVE-2025-56383-Proof-of-Concept.md) 🔴
-
-**名称:** Notepad++ v8.8.3 DLL劫持漏洞
-**类型:** DLL劫持 | **POC:** 是 | **投毒风险:** 5%
-**仓库:** [CVE-2025-56383-Proof-of-Concept](https://github.com/zer0t0/CVE-2025-56383-Proof-of-Concept)
-
-### [CVE-2025-56383](CVE-2025-56383-NewComrade12211_CVE-2025-56383.md) 🔴
-
-**名称:** CVE-2025-56383-Notepad++-DLL劫持
-**类型:** DLL劫持 | **POC:** 是 | **投毒风险:** 0%
-**仓库:** [CVE-2025-56383](https://github.com/NewComrade12211/CVE-2025-56383)
-
-### [CVE-2025-56381](CVE-2025-56381-MoAlali_CVE-2025-56381.md) 🔴
-
-**名称:** CVE-2025-56381 - ERPNext/Frappe Authenticated SQL Injection
-**类型:** SQL注入 | **POC:** 是 | **投毒风险:** 10%
-**仓库:** [CVE-2025-56381](https://github.com/MoAlali/CVE-2025-56381)
-
-### [CVE-2025-56380](CVE-2025-56380-MoAlali_CVE-2025-56380.md) 🔴
-
-**名称:** CVE-2025-56380 - Frappe/ERPNext 时间型盲注
-**类型:** SQL注入 (时间盲注) | **POC:** 是 | **投毒风险:** 1%
-**仓库:** [CVE-2025-56380](https://github.com/MoAlali/CVE-2025-56380)
-
-### [CVE-2025-56379](CVE-2025-56379-MoAlali_CVE-2025-56379.md) 🔴
-
-**名称:** CVE-2025-56379 - ERPNext/Frappe Stored XSS
-**类型:** Stored Cross-Site Scripting (XSS) | **POC:** 是 | **投毒风险:** 10%
-**仓库:** [CVE-2025-56379](https://github.com/MoAlali/CVE-2025-56379)
-
-### [CVE-2025-56311](CVE-2025-56311-wrathfulDiety_CVE-2025-56311.md)
-
-**名称:** CVE-2025-56311: FD602GW-DX-R410 路由器 CSRF 重启漏洞
-**类型:** 跨站请求伪造 (CSRF) | **POC:** 是 | **投毒风险:** 10%
-**仓库:** [CVE-2025-56311](https://github.com/wrathfulDiety/CVE-2025-56311)
-
-### [CVE-2025-56243](CVE-2025-56243-hafizgemilang_CVE-2025-56243.md)
-
-**名称:** CVE-2025-56243 - Event Management System (v1.0) Reflected XSS
-**类型:** Reflected XSS | **POC:** 否，PoC 已提供给供应商，但未公开 | **投毒风险:** 10%
-**仓库:** [CVE-2025-56243](https://github.com/hafizgemilang/CVE-2025-56243)
-
-### [CVE-2025-56224](CVE-2025-56224-saykino_CVE-2025-56224.md) 🔴
-
-**名称:** CVE-2025-56224 (OTP) verification Bypass
-**类型:** OTP绕过 | **POC:** 是 | **投毒风险:** 10%
-**仓库:** [CVE-2025-56224](https://github.com/saykino/CVE-2025-56224)
 
 
 ---
