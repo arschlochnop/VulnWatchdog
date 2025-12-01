@@ -1828,8 +1828,8 @@
 
 ### [CVE-2017-0144](CVE-2017-0144-B1ack4sh_Blackash-CVE-2017-0144.md) 🔴
 
-**名称:** CVE-2017-0144-Windows SMB Remote Code Execution
-**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 5%
+**名称:** CVE-2017-0144 - EternalBlue: Microsoft Windows SMBv1 远程代码执行漏洞
+**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [Blackash-CVE-2017-0144](https://github.com/B1ack4sh/Blackash-CVE-2017-0144)
 
 ### [CVE-2017-0144](CVE-2017-0144-nivedh-j_EternalBlue-Explained.md) 🔴

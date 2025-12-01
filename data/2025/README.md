@@ -442,7 +442,7 @@
 
 ### [CVE-2025-8088](CVE-2025-8088-hexsecteam_CVE-2025-8088-Winrar-Tool.md) 🔴
 
-**名称:** CVE-2025-8088 WinRAR Path Traversal
+**名称:** CVE-2025-8088 WinRAR 路径遍历漏洞
 **类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-8088-Winrar-Tool](https://github.com/hexsecteam/CVE-2025-8088-Winrar-Tool)
 
