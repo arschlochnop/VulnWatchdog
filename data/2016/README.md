@@ -3,7 +3,7 @@
 > 📅 CVE年份: **2016**
 > 📊 漏洞总数: **99** 个
 > 🔥 高危漏洞: **81** 个 (81.8%)
-> ⚠️ 高投毒风险: **1** 个
+> ⚠️ 高投毒风险: **2** 个
 
 ---
 
@@ -430,14 +430,14 @@
 
 ### [CVE-2016-15042](CVE-2016-15042-ImBIOS_lab-cve-2016-15042.md) 🔴
 
-**名称:** CVE-2016-15042 - WordPress Frontend File Manager & N-Media Post Front-end Form Unauthenticated File Upload
+**名称:** CVE-2016-15042 – WordPress Frontend File Manager & N‑Media Post Front‑end Form Unauthenticated File Upload
 **类型:** 任意文件上传 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [lab-cve-2016-15042](https://github.com/ImBIOS/lab-cve-2016-15042)
 
-### [CVE-2016-15042](CVE-2016-15042-Aditya43621_lab-cve-2016-15042.md) 🔴
+### [CVE-2016-15042](CVE-2016-15042-Aditya43621_lab-cve-2016-15042.md) 🔴 ⚠️
 
-**名称:** CVE-2016-15042 - WordPress Plugin Arbitrary File Upload
-**类型:** 任意文件上传 | **POC:** 是 | **投毒风险:** 10%
+**名称:** CVE-2016-15042-Frontend File Manager & N-Media Post Front-end Form-Arbitrary File Upload
+**类型:** 任意文件上传 | **POC:** 是 | **投毒风险:** 80%
 **仓库:** [lab-cve-2016-15042](https://github.com/Aditya43621/lab-cve-2016-15042)
 
 ### [CVE-2016-10924](CVE-2016-10924-808ale_cve-2016-10924-POC.md)

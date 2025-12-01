@@ -2,7 +2,7 @@
 
 > 🤖 自动化CVE漏洞监控与分析系统
 > 📅 最后更新: 2025-12-01
-> 📊 已收录: **2052** 个CVE | **7818** 个POC仓库
+> 📊 已收录: **2054** 个CVE | **7827** 个POC仓库
 
 ---
 
@@ -10,11 +10,11 @@
 
 ### 浏览方式
 - 📅 **按年份浏览** - 查看特定年份的CVE漏洞
-  - [2025年](2025/README.md) (2496 个)
+  - [2025年](2025/README.md) (2500 个)
   - [2024年](2024/README.md) (1220 个)
   - [2023年](2023/README.md) (983 个)
   - [2022年](2022/README.md) (655 个)
-  - [2021年](2021/README.md) (608 个)
+  - [2021年](2021/README.md) (609 个)
 - 🔍 **按CVE编号查找** - 直接访问 `by-cve/CVE-XXXX-XXXXX.md`
 - 📰 **订阅更新** - 见下方订阅方式
 
@@ -34,20 +34,20 @@
 
 | 年份 | 漏洞数量 | 占比 |
 |------|---------|------|
-| [2025](2025/README.md) | 2496 | 31.9% |
+| [2025](2025/README.md) | 2500 | 31.9% |
 | [2024](2024/README.md) | 1220 | 15.6% |
 | [2023](2023/README.md) | 983 | 12.6% |
 | [2022](2022/README.md) | 655 | 8.4% |
-| [2021](2021/README.md) | 608 | 7.8% |
+| [2021](2021/README.md) | 609 | 7.8% |
 | [2020](2020/README.md) | 377 | 4.8% |
-| [2019](2019/README.md) | 445 | 5.7% |
+| [2019](2019/README.md) | 446 | 5.7% |
 | [2018](2018/README.md) | 361 | 4.6% |
 | [2017](2017/README.md) | 311 | 4.0% |
 | [2016](2016/README.md) | 99 | 1.3% |
 | [2015](2015/README.md) | 68 | 0.9% |
 | [2014](2014/README.md) | 52 | 0.7% |
 | [2013](2013/README.md) | 22 | 0.3% |
-| [2012](2012/README.md) | 19 | 0.2% |
+| [2012](2012/README.md) | 22 | 0.3% |
 | [2011](2011/README.md) | 45 | 0.6% |
 | [2010](2010/README.md) | 8 | 0.1% |
 | [2009](2009/README.md) | 5 | 0.1% |
@@ -61,65 +61,65 @@
 
 ## 🚨 本周新增
 
+### [CVE-2012-2122](2012/CVE-2012-2122-Avinza_CVE-2012-2122-scanner.md) 🔴
+
+**名称:** CVE-2012-2122-MySQL/MariaDB身份验证绕过
+**类型:** 身份验证绕过 | **发现:** 2025-12-01
+**POC:** [CVE-2012-2122-scanner](https://github.com/Avinza/CVE-2012-2122-scanner)
+
+### [CVE-2012-2122](2012/CVE-2012-2122-cyberharsh_Oracle-mysql-CVE-2012-2122.md) 🔴
+
+**名称:** CVE-2012-2122 - MySQL/MariaDB Authentication Bypass
+**类型:** 身份认证绕过 | **发现:** 2025-12-01
+**POC:** [Oracle-mysql-CVE-2012-2122](https://github.com/cyberharsh/Oracle-mysql-CVE-2012-2122)
+
+### [CVE-2012-2122](2012/CVE-2012-2122-netw0rk7_CVE-2012-2122-Home-Lab.md) 🔴
+
+**名称:** CVE-2012-2122-MySQL身份验证绕过
+**类型:** 身份验证绕过 | **发现:** 2025-12-01
+**POC:** [CVE-2012-2122-Home-Lab](https://github.com/netw0rk7/CVE-2012-2122-Home-Lab)
+
+### [CVE-2025-4679](2025/CVE-2025-4679-fevar54_CVE-2025-4679-SecureOAuth-Demo---Enfoque-educativo.md)
+
+**名称:** CVE-2025-4679-Synology Active Backup for Microsoft 365-敏感信息泄露
+**类型:** 敏感信息泄露 | **发现:** 2025-12-01
+**POC:** [CVE-2025-4679-SecureOAuth-Demo---Enfoque-educativo](https://github.com/fevar54/CVE-2025-4679-SecureOAuth-Demo---Enfoque-educativo)
+
+### [CVE-2025-54253](2025/CVE-2025-54253-netmatthew3771_CVE-2025-54253.md) 🔴
+
+**名称:** CVE-2025-54253 - Adobe Experience Manager - Misconfiguration (CWE-16)
+**类型:** Misconfiguration | **发现:** 2025-12-01
+**POC:** [CVE-2025-54253](https://github.com/netmatthew3771/CVE-2025-54253)
+
+### [CVE-2025-65345](2025/CVE-2025-65345-tlekrean_CVE-2025-65345.md) 🔴
+
+**名称:** CVE-2025-65345 – laravel-file-manager 文件系统披露漏洞
+**类型:** 目录遍历/文件系统披露 | **发现:** 2025-12-01
+**POC:** [CVE-2025-65345](https://github.com/tlekrean/CVE-2025-65345)
+
+### [CVE-2021-21980](2021/CVE-2021-21980-pratikjojode_vcenter-cve-2021-21980-lab.md) 🔴
+
+**名称:** CVE-2021-21980 - VMware vCenter Server Web Client 任意文件读取
+**类型:** 任意文件读取 | **发现:** 2025-12-01
+**POC:** [vcenter-cve-2021-21980-lab](https://github.com/pratikjojode/vcenter-cve-2021-21980-lab)
+
+### [CVE-2025-64459](2025/CVE-2025-64459-stanly363_CVE-2025-64459-Poc.md) 🔴
+
+**名称:** CVE-2025-64459-Django-SQL注入
+**类型:** SQL注入 | **发现:** 2025-12-01
+**POC:** [CVE-2025-64459-Poc](https://github.com/stanly363/CVE-2025-64459-Poc)
+
+### [CVE-2019-9193](2019/CVE-2019-9193-Cheryanika_CVE-2019-9193---Postgresql---RCE.md) 🔴
+
+**名称:** CVE-2019-9193 - PostgreSQL 远程代码执行
+**类型:** 远程代码执行 (RCE) | **发现:** 2025-12-01
+**POC:** [CVE-2019-9193---Postgresql---RCE](https://github.com/Cheryanika/CVE-2019-9193---Postgresql---RCE)
+
 ### [CVE-2020-26217](2020/CVE-2020-26217-Kairo-one_CVE-2020-26217-XStream.md) 🔴
 
 **名称:** CVE-2020-26217 XStream 远程代码执行
 **类型:** 远程代码执行 | **发现:** 2025-12-01
 **POC:** [CVE-2020-26217-XStream](https://github.com/Kairo-one/CVE-2020-26217-XStream)
-
-### [CVE-2025-13796](2025/CVE-2025-13796-0xcucumbersalad_CVE-2025-13796-PoC.md)
-
-**名称:** CVE-2025-13796-deco-cx apps SSRF
-**类型:** 服务器端请求伪造 (SSRF) | **发现:** 2025-12-01
-**POC:** [CVE-2025-13796-PoC](https://github.com/0xcucumbersalad/CVE-2025-13796-PoC)
-
-### [CVE-2024-21545](2024/CVE-2024-21545-SpiralBL0CK_CVE-2024-21545-PoC.md) 🔴
-
-**名称:** CVE-2024-21545-Proxmox VE 任意文件读取
-**类型:** 任意文件读取 | **发现:** 2025-11-30
-**POC:** [CVE-2024-21545-PoC](https://github.com/SpiralBL0CK/CVE-2024-21545-PoC)
-
-### [CVE-2025-4658](2025/CVE-2025-4658-stuxbench_dropbear-cve-2025-4658.md) 🔴
-
-**名称:** CVE-2025-4658-OPKSSH-Authentication Bypass
-**类型:** Authentication Bypass | **发现:** 2025-11-30
-**POC:** [dropbear-cve-2025-4658](https://github.com/stuxbench/dropbear-cve-2025-4658)
-
-### [CVE-2025-49132](2025/CVE-2025-49132-f3d0rq_CVE-2025-49132.md)
-
-**名称:** CVE-2025-49132-Pterodactyl Panel-远程代码执行
-**类型:** 远程代码执行 (RCE) | **发现:** 2025-11-30
-**POC:** [CVE-2025-49132](https://github.com/f3d0rq/CVE-2025-49132)
-
-### [CVE-2024-50629](2024/CVE-2024-50629-kiddo-pwn_CVE-2024-50629_50631.md)
-
-**名称:** CVE-2024-50629 - Synology DSM/BSM Improper Encoding/Escaping of Output
-**类型:** 信息泄露 | **发现:** 2025-11-30
-**POC:** [CVE-2024-50629_50631](https://github.com/kiddo-pwn/CVE-2024-50629_50631)
-
-### [CVE-2025-59302](2025/CVE-2025-59302-B1gh0rnn_CVE-2025-59302.md)
-
-**名称:** CVE-2025-59302 - Apache CloudStack Code Injection
-**类型:** 代码注入 | **发现:** 2025-11-30
-**POC:** [CVE-2025-59302](https://github.com/B1gh0rnn/CVE-2025-59302)
-
-### [CVE-2023-35813](2023/CVE-2023-35813-Rezy-Dev_CVE-2023-35813.md) 🔴
-
-**名称:** CVE-2023-35813 - Sitecore RCE
-**类型:** 远程代码执行 (RCE) | **发现:** 2025-11-30
-**POC:** [CVE-2023-35813](https://github.com/Rezy-Dev/CVE-2023-35813)
-
-### [CVE-2025-60655](2025/CVE-2025-60655-DotAdrien_CVE-2025-60655.md) 🔴
-
-**名称:** CVE-2025-60655
-**类型:** RCE | **发现:** 2025-11-30
-**POC:** [CVE-2025-60655](https://github.com/DotAdrien/CVE-2025-60655)
-
-### [CVE-2025-65899](2025/CVE-2025-65899-Noxurge_CVE-2025-65899.md)
-
-**名称:** CVE-2025-65899 - Kalmia CMS v0.2.0 用户枚举
-**类型:** 用户枚举 | **发现:** 2025-11-30
-**POC:** [CVE-2025-65899](https://github.com/Noxurge/CVE-2025-65899)
 
 ---
 

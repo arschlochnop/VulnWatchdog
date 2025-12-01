@@ -1,8 +1,8 @@
 # 2019年CVE漏洞情报汇总
 
 > 📅 CVE年份: **2019**
-> 📊 漏洞总数: **445** 个
-> 🔥 高危漏洞: **409** 个 (91.9%)
+> 📊 漏洞总数: **446** 个
+> 🔥 高危漏洞: **410** 个 (91.9%)
 > ⚠️ 高投毒风险: **5** 个
 
 ---
@@ -11,14 +11,14 @@
 
 | 类型 | 数量 | 占比 |
 |------|------|------|
-| 远程代码执行 | 51 | 11.5% |
+| 远程代码执行 | 49 | 11.0% |
 | 命令注入 | 32 | 7.2% |
 | 容器逃逸 | 27 | 6.1% |
-| 远程代码执行 (RCE) | 25 | 5.6% |
+| 远程代码执行 (RCE) | 26 | 5.8% |
 | Use-After-Free | 24 | 5.4% |
 | SQL注入 | 22 | 4.9% |
 | 目录遍历 | 19 | 4.3% |
-| 远程命令执行 | 18 | 4.0% |
+| 远程命令执行 | 17 | 3.8% |
 | 权限提升 | 14 | 3.1% |
 | 时间盲注SQL注入 | 10 | 2.2% |
 
@@ -106,32 +106,32 @@
 
 ### [CVE-2019-9193](CVE-2019-9193-geniuszly_CVE-2019-9193.md) 🔴
 
-**名称:** CVE-2019-9193 - PostgreSQL 9.3-11.2 远程代码执行
-**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 5%
+**名称:** CVE-2019-9193 - PostgreSQL 9.3-11.2 认证后的任意命令执行
+**类型:** 任意命令执行 | **POC:** 是 | **投毒风险:** 0%
 **仓库:** [CVE-2019-9193](https://github.com/geniuszly/CVE-2019-9193)
 
 ### [CVE-2019-9193](CVE-2019-9193-paulotrindadec_CVE-2019-9193.md) 🔴
 
-**名称:** CVE-2019-9193 - PostgreSQL authenticated remote code execution
+**名称:** CVE-2019-9193 - PostgreSQL Authenticated Remote Code Execution
 **类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 0%
 **仓库:** [CVE-2019-9193](https://github.com/paulotrindadec/CVE-2019-9193)
 
 ### [CVE-2019-9193](CVE-2019-9193-chromanite_CVE-2019-9193-PostgreSQL-9.3-11.7.md) 🔴
 
-**名称:** CVE-2019-9193 - PostgreSQL 9.3-11.7 认证后的远程代码执行
-**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 5%
+**名称:** CVE-2019-9193-PostgreSQL-远程代码执行
+**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 5%
 **仓库:** [CVE-2019-9193-PostgreSQL-9.3-11.7](https://github.com/chromanite/CVE-2019-9193-PostgreSQL-9.3-11.7)
 
 ### [CVE-2019-9193](CVE-2019-9193-b4keSn4ke_CVE-2019-9193.md) 🔴
 
-**名称:** CVE-2019-9193-PostgreSQL-Authenticated-RCE
-**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 1%
+**名称:** CVE-2019-9193 - PostgreSQL Authenticated Remote Code Execution
+**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 0%
 **仓库:** [CVE-2019-9193](https://github.com/b4keSn4ke/CVE-2019-9193)
 
 ### [CVE-2019-9193](CVE-2019-9193-wkjung0624_cve-2019-9193.md) 🔴
 
-**名称:** CVE-2019-9193-PostgreSQL-RCE
-**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 0%
+**名称:** CVE-2019-9193 - PostgreSQL 任意代码执行
+**类型:** 任意代码执行 | **POC:** 是 | **投毒风险:** 0%
 **仓库:** [cve-2019-9193](https://github.com/wkjung0624/cve-2019-9193)
 
 ### [CVE-2019-9193](CVE-2019-9193-corsisechero_CVE-2019-9193byVulHub.md) 🔴
@@ -149,14 +149,20 @@
 ### [CVE-2019-9193](CVE-2019-9193-netw0rk7_CVE-2019-9193-Home-Lab.md) 🔴
 
 **名称:** CVE-2019-9193 - PostgreSQL COPY FROM PROGRAM RCE
-**类型:** 远程命令执行 | **POC:** 是 | **投毒风险:** 0%
+**类型:** 远程命令执行 (RCE) | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2019-9193-Home-Lab](https://github.com/netw0rk7/CVE-2019-9193-Home-Lab)
 
 ### [CVE-2019-9193](CVE-2019-9193-jhnhnck_CVE-2019-9193.md) 🔴
 
 **名称:** CVE-2019-9193 - PostgreSQL 9.3-11.2 任意命令执行
-**类型:** 任意命令执行 | **POC:** 是 | **投毒风险:** 1%
+**类型:** 任意命令执行 | **POC:** 是 | **投毒风险:** 0%
 **仓库:** [CVE-2019-9193](https://github.com/jhnhnck/CVE-2019-9193)
+
+### [CVE-2019-9193](CVE-2019-9193-Cheryanika_CVE-2019-9193---Postgresql---RCE.md) 🔴
+
+**名称:** CVE-2019-9193 - PostgreSQL 远程代码执行
+**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 0%
+**仓库:** [CVE-2019-9193---Postgresql---RCE](https://github.com/Cheryanika/CVE-2019-9193---Postgresql---RCE)
 
 ### [CVE-2019-9053](CVE-2019-9053-so1icitx_CVE-2019-9053.md) 🔴
 

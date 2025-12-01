@@ -3,7 +3,7 @@
 > 📅 CVE年份: **2017**
 > 📊 漏洞总数: **311** 个
 > 🔥 高危漏洞: **274** 个 (88.1%)
-> ⚠️ 高投毒风险: **5** 个
+> ⚠️ 高投毒风险: **6** 个
 
 ---
 
@@ -11,8 +11,8 @@
 
 | 类型 | 数量 | 占比 |
 |------|------|------|
-| 远程代码执行 | 128 | 41.2% |
-| 远程代码执行 (RCE) | 19 | 6.1% |
+| 远程代码执行 | 126 | 40.5% |
+| 远程代码执行 (RCE) | 20 | 6.4% |
 | 缓冲区溢出 | 19 | 6.1% |
 | 整数溢出 | 14 | 4.5% |
 | SQL注入 | 10 | 3.2% |
@@ -1762,68 +1762,68 @@
 
 ### [CVE-2017-0144](CVE-2017-0144-pelagornisandersi_WIndows-7-automated-exploitation-using-metasploit-framework-.md) 🔴
 
-**名称:** CVE-2017-0144-Windows SMB Remote Code Execution
-**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 10%
+**名称:** CVE-2017-0144-Windows SMB 远程代码执行
+**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 0%
 **仓库:** [WIndows-7-automated-exploitation-using-metasploit-framework-](https://github.com/pelagornisandersi/WIndows-7-automated-exploitation-using-metasploit-framework-)
 
 ### [CVE-2017-0144](CVE-2017-0144-MedX267_EternalBlue-Vulnerability-Scanner.md) 🔴
 
-**名称:** CVE-2017-0144-Windows SMB远程代码执行
+**名称:** CVE-2017-0144-EternalBlue
 **类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [EternalBlue-Vulnerability-Scanner](https://github.com/MedX267/EternalBlue-Vulnerability-Scanner)
 
 ### [CVE-2017-0144](CVE-2017-0144-AtithKhawas_autoblue.md) 🔴
 
-**名称:** CVE-2017-0144 - Windows SMB 远程代码执行
-**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 10%
+**名称:** CVE-2017-0144 - EternalBlue
+**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [autoblue](https://github.com/AtithKhawas/autoblue)
 
 ### [CVE-2017-0144](CVE-2017-0144-sethwhy_BlueDoor.md) 🔴
 
-**名称:** CVE-2017-0144 (EternalBlue)
+**名称:** CVE-2017-0144 (EternalBlue) Windows SMB 远程代码执行漏洞
 **类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [BlueDoor](https://github.com/sethwhy/BlueDoor)
 
 ### [CVE-2017-0144](CVE-2017-0144-peterpt_eternal_scanner.md) 🔴
 
-**名称:** CVE-2017-0144 - Windows SMB 远程代码执行漏洞
-**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 5%
+**名称:** CVE-2017-0144 Windows SMB 远程代码执行漏洞 (EternalBlue)
+**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [eternal_scanner](https://github.com/peterpt/eternal_scanner)
 
-### [CVE-2017-0144](CVE-2017-0144-AnugiArrawwala_CVE-Research.md) 🔴
+### [CVE-2017-0144](CVE-2017-0144-AnugiArrawwala_CVE-Research.md) 🔴 ⚠️
 
-**名称:** CVE-2017-0144 Windows SMB 远程代码执行漏洞 (EternalBlue)
-**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 10%
+**名称:** CVE-2017-0144 - Windows SMB Remote Code Execution Vulnerability
+**类型:** Remote Code Execution | **POC:** 是 | **投毒风险:** 95%
 **仓库:** [CVE-Research](https://github.com/AnugiArrawwala/CVE-Research)
 
 ### [CVE-2017-0144](CVE-2017-0144-ducanh2oo3_Vulnerability-Research-CVE-2017-0144.md) 🔴
 
-**名称:** CVE-2017-0144 - Windows SMB Remote Code Execution
-**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 10%
+**名称:** CVE-2017-0144 - Windows SMB 远程代码执行漏洞 (EternalBlue)
+**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 5%
 **仓库:** [Vulnerability-Research-CVE-2017-0144](https://github.com/ducanh2oo3/Vulnerability-Research-CVE-2017-0144)
 
 ### [CVE-2017-0144](CVE-2017-0144-kimocoder_eternalblue.md) 🔴
 
-**名称:** CVE-2017-0144 - Windows SMB 远程代码执行
-**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 20%
+**名称:** CVE-2017-0144 - Windows SMB 远程代码执行漏洞 (EternalBlue)
+**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [eternalblue](https://github.com/kimocoder/eternalblue)
 
 ### [CVE-2017-0144](CVE-2017-0144-quynhold_Detect-CVE-2017-0144-attack.md) 🔴
 
 **名称:** CVE-2017-0144 (EternalBlue)
-**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 10%
+**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 5%
 **仓库:** [Detect-CVE-2017-0144-attack](https://github.com/quynhold/Detect-CVE-2017-0144-attack)
 
 ### [CVE-2017-0144](CVE-2017-0144-EEsshq_CVE-2017-0144---EtneralBlue-MS17-010-Remote-Code-Execution.md) 🔴
 
-**名称:** CVE-2017-0144 - Windows SMB 远程代码执行
+**名称:** CVE-2017-0144 - Windows SMB 远程代码执行漏洞 (EternalBlue)
 **类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2017-0144---EtneralBlue-MS17-010-Remote-Code-Execution](https://github.com/EEsshq/CVE-2017-0144---EtneralBlue-MS17-010-Remote-Code-Execution)
 
 ### [CVE-2017-0144](CVE-2017-0144-luckyman2907_SMB-Protocol-Vulnerability_CVE-2017-0144.md) 🔴
 
-**名称:** CVE-2017-0144 Windows SMB 远程代码执行漏洞 (EternalBlue)
-**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 10%
+**名称:** CVE-2017-0144 Windows SMB Remote Code Execution Vulnerability (EternalBlue)
+**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 0%
 **仓库:** [SMB-Protocol-Vulnerability_CVE-2017-0144](https://github.com/luckyman2907/SMB-Protocol-Vulnerability_CVE-2017-0144)
 
 ### [CVE-2017-0144](CVE-2017-0144-B1ack4sh_Blackash-CVE-2017-0144.md) 🔴
@@ -1841,12 +1841,12 @@
 ### [CVE-2017-0144](CVE-2017-0144-AdityaBhatt3010_VAPT-Report-on-SMB-Exploitation-in-Windows-10-Finance-Endpoint.md) 🔴
 
 **名称:** CVE-2017-0144 (EternalBlue)
-**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 10%
+**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 0%
 **仓库:** [VAPT-Report-on-SMB-Exploitation-in-Windows-10-Finance-Endpoint](https://github.com/AdityaBhatt3010/VAPT-Report-on-SMB-Exploitation-in-Windows-10-Finance-Endpoint)
 
 ### [CVE-2017-0144](CVE-2017-0144-AbbeAlthany_Windows-7_och_CVE-2017-0144_Exploit.md) 🔴
 
-**名称:** CVE-2017-0144 - Windows SMB 远程代码执行漏洞
+**名称:** CVE-2017-0144 - EternalBlue SMBv1 远程代码执行
 **类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [Windows-7_och_CVE-2017-0144_Exploit](https://github.com/AbbeAlthany/Windows-7_och_CVE-2017-0144_Exploit)
 
