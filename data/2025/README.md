@@ -1,8 +1,8 @@
 # 2025年CVE漏洞情报汇总
 
 > 📅 CVE年份: **2025**
-> 📊 漏洞总数: **2500** 个
-> 🔥 高危漏洞: **2023** 个 (80.9%)
+> 📊 漏洞总数: **2502** 个
+> 🔥 高危漏洞: **2026** 个 (81.0%)
 > ⚠️ 高投毒风险: **148** 个
 
 ---
@@ -11,13 +11,13 @@
 
 | 类型 | 数量 | 占比 |
 |------|------|------|
-| 远程代码执行 | 222 | 8.9% |
+| 远程代码执行 | 225 | 9.0% |
 | 权限提升 | 138 | 5.5% |
 | 远程代码执行 (RCE) | 128 | 5.1% |
 | SQL注入 | 107 | 4.3% |
 | 身份验证绕过 | 68 | 2.7% |
 | 路径遍历 | 66 | 2.6% |
-| 任意文件上传 | 62 | 2.5% |
+| 任意文件上传 | 63 | 2.5% |
 | 授权绕过 | 60 | 2.4% |
 | 本地提权 | 54 | 2.2% |
 | 权限绕过 | 47 | 1.9% |
@@ -1310,6 +1310,12 @@
 **类型:** 未授权任意文件上传 | **POC:** 是 | **投毒风险:** 1%
 **仓库:** [CVE-2025-6440-Poc-Exploit](https://github.com/m2hcz/CVE-2025-6440-Poc-Exploit)
 
+### [CVE-2025-6440](CVE-2025-6440-smuft1707_CVE-2025-6440.md) 🔴
+
+**名称:** CVE-2025-6440-WooCommerce Designer Pro-任意文件上传
+**类型:** 任意文件上传 | **POC:** 是 | **投毒风险:** 10%
+**仓库:** [CVE-2025-6440](https://github.com/smuft1707/CVE-2025-6440)
+
 ### [CVE-2025-64328](CVE-2025-64328-mcorybillington_CVE-2025-64328_FreePBX-framework-Command-Injection.md) 🔴
 
 **名称:** CVE-2025-64328-FreePBX-Authenticated Command Injection
@@ -2438,9 +2444,9 @@
 **类型:** 反序列化漏洞 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-59287-hawktrace](https://github.com/keeganparr1/CVE-2025-59287-hawktrace)
 
-### [CVE-2025-59287](CVE-2025-59287-jiansiting_CVE-2025-59287.md)
+### [CVE-2025-59287](CVE-2025-59287-jiansiting_CVE-2025-59287.md) 🔴
 
-**名称:** CVE-2025-59287-Windows Server Update Service (WSUS) 远程代码执行漏洞
+**名称:** CVE-2025-59287-Windows Server Update Service (WSUS) Remote Code Execution Vulnerability
 **类型:** 反序列化漏洞 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-59287](https://github.com/jiansiting/CVE-2025-59287)
 
@@ -2458,8 +2464,8 @@
 
 ### [CVE-2025-59287](CVE-2025-59287-0xBruno_WSUSploit.NET.md) 🔴
 
-**名称:** CVE-2025-59287-Windows Server Update Service (WSUS) Remote Code Execution Vulnerability
-**类型:** 反序列化漏洞 | **POC:** 是 | **投毒风险:** 10%
+**名称:** CVE-2025-59287 - Windows Server Update Service (WSUS) 远程代码执行漏洞
+**类型:** 反序列化漏洞 | **POC:** 是 | **投毒风险:** 5%
 **仓库:** [WSUSploit.NET](https://github.com/0xBruno/WSUSploit.NET)
 
 ### [CVE-2025-59287](CVE-2025-59287-tecxx_CVE-2025-59287-WSUS.md) 🔴
@@ -2468,7 +2474,7 @@
 **类型:** 反序列化漏洞 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-59287-WSUS](https://github.com/tecxx/CVE-2025-59287-WSUS)
 
-### [CVE-2025-59287](CVE-2025-59287-RadzaRr_WSUSResponder.md)
+### [CVE-2025-59287](CVE-2025-59287-RadzaRr_WSUSResponder.md) 🔴
 
 **名称:** CVE-2025-59287-WSUS-RCE
 **类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 10%
@@ -2480,16 +2486,16 @@
 **类型:** 反序列化漏洞 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [Find-WSUS](https://github.com/mubix/Find-WSUS)
 
-### [CVE-2025-59287](CVE-2025-59287-AdityaBhatt3010_CVE-2025-59287-When-your-patch-server-becomes-the-attack-vector.md) 🔴
+### [CVE-2025-59287](CVE-2025-59287-AdityaBhatt3010_CVE-2025-59287-When-your-patch-server-becomes-the-attack-vector.md)
 
-**名称:** CVE-2025-59287-Windows Server Update Service (WSUS) Remote Code Execution Vulnerability
-**类型:** 反序列化漏洞 | **POC:** 是 | **投毒风险:** 10%
+**名称:** CVE-2025-59287 - Windows Server Update Service (WSUS) 远程代码执行漏洞
+**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-59287-When-your-patch-server-becomes-the-attack-vector](https://github.com/AdityaBhatt3010/CVE-2025-59287-When-your-patch-server-becomes-the-attack-vector)
 
 ### [CVE-2025-59287](CVE-2025-59287-mrk336_Breaking-the-Update-Chain-Inside-CVE-2025-59287-and-the-WSUS-RCE-Threat.md) 🔴
 
-**名称:** CVE-2025-59287 - Windows Server Update Service (WSUS) 远程代码执行漏洞
-**类型:** 反序列化漏洞导致远程代码执行 | **POC:** 是 | **投毒风险:** 10%
+**名称:** CVE-2025-59287-Windows Server Update Service (WSUS) Remote Code Execution
+**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 0%
 **仓库:** [Breaking-the-Update-Chain-Inside-CVE-2025-59287-and-the-WSUS-RCE-Threat](https://github.com/mrk336/Breaking-the-Update-Chain-Inside-CVE-2025-59287-and-the-WSUS-RCE-Threat)
 
 ### [CVE-2025-59287](CVE-2025-59287-FurkanKAYAPINAR_CVE-2025-59287.md)
@@ -2498,10 +2504,10 @@
 **类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-59287](https://github.com/FurkanKAYAPINAR/CVE-2025-59287)
 
-### [CVE-2025-59287](CVE-2025-59287-esteban11121_WSUS-RCE-Mitigation-59287.md)
+### [CVE-2025-59287](CVE-2025-59287-esteban11121_WSUS-RCE-Mitigation-59287.md) 🔴
 
 **名称:** CVE-2025-59287-Windows Server Update Service (WSUS) Remote Code Execution
-**类型:** 反序列化漏洞导致远程代码执行 | **POC:** 是 | **投毒风险:** 0%
+**类型:** 反序列化漏洞导致远程代码执行 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [WSUS-RCE-Mitigation-59287](https://github.com/esteban11121/WSUS-RCE-Mitigation-59287)
 
 ### [CVE-2025-59287](CVE-2025-59287-fsanzmoya_wsus_CVE-2025-59287.md) 🔴
@@ -2518,8 +2524,8 @@
 
 ### [CVE-2025-59287](CVE-2025-59287-QurtiDev_WSUS-CVE-2025-59287-RCE.md) 🔴
 
-**名称:** CVE-2025-59287 - Windows Server Update Service (WSUS) Remote Code Execution
-**类型:** 反序列化漏洞导致远程代码执行 | **POC:** 是 | **投毒风险:** 10%
+**名称:** CVE-2025-59287-Windows Server Update Service (WSUS) 远程代码执行漏洞
+**类型:** 反序列化 | **POC:** 是 | **投毒风险:** 5%
 **仓库:** [WSUS-CVE-2025-59287-RCE](https://github.com/QurtiDev/WSUS-CVE-2025-59287-RCE)
 
 ### [CVE-2025-59287](CVE-2025-59287-Sid6Effect_CVE-2025-59287.md) 🔴
@@ -2530,14 +2536,14 @@
 
 ### [CVE-2025-59287](CVE-2025-59287-dexterm300_cve-2025-59287-exploit-poc.md) 🔴
 
-**名称:** CVE-2025-59287-Windows Server Update Service (WSUS) Remote Code Execution
-**类型:** 反序列化漏洞 | **POC:** 是 | **投毒风险:** 0%
+**名称:** CVE-2025-59287-Windows Server Update Service (WSUS) 远程代码执行漏洞
+**类型:** 反序列化漏洞 | **POC:** 是 | **投毒风险:** 1%
 **仓库:** [cve-2025-59287-exploit-poc](https://github.com/dexterm300/cve-2025-59287-exploit-poc)
 
 ### [CVE-2025-59287](CVE-2025-59287-th1n0_CVE-2025-59287.md) 🔴
 
-**名称:** CVE-2025-59287 - Windows Server Update Service (WSUS) 远程代码执行漏洞
-**类型:** 反序列化 | **POC:** 是 | **投毒风险:** 5%
+**名称:** CVE-2025-59287-Windows Server Update Service (WSUS) Remote Code Execution Vulnerability
+**类型:** 反序列化漏洞 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-59287](https://github.com/th1n0/CVE-2025-59287)
 
 ### [CVE-2025-59287](CVE-2025-59287-crondenice_CVE-2025-59287.md) 🔴
@@ -2548,14 +2554,14 @@
 
 ### [CVE-2025-59287](CVE-2025-59287-M507_CVE-2025-59287-PoC.md) 🔴
 
-**名称:** CVE-2025-59287 - Windows Server Update Service (WSUS) 远程代码执行漏洞
-**类型:** 反序列化漏洞导致远程代码执行 | **POC:** 是 | **投毒风险:** 0%
+**名称:** CVE-2025-59287 - Windows Server Update Service (WSUS) Remote Code Execution Vulnerability
+**类型:** Remote Code Execution | **POC:** 是 | **投毒风险:** 0%
 **仓库:** [CVE-2025-59287-PoC](https://github.com/M507/CVE-2025-59287-PoC)
 
 ### [CVE-2025-59287](CVE-2025-59287-Adel-kaka-dz_cve-2025-59287.md) 🔴
 
-**名称:** CVE-2025-59287 - Windows Server Update Service (WSUS) 远程代码执行漏洞
-**类型:** 反序列化漏洞 | **POC:** 是 | **投毒风险:** 10%
+**名称:** CVE-2025-59287-Windows Server Update Service (WSUS) 远程代码执行漏洞
+**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [cve-2025-59287](https://github.com/Adel-kaka-dz/cve-2025-59287)
 
 ### [CVE-2025-59285](CVE-2025-59285-allinsthon_CVE-2025-59285.md) 🔴
@@ -3019,12 +3025,6 @@
 **名称:** CVE-2025-57176 - Siklu EtherHaul Series - Unauthenticated Arbitrary File Upload
 **类型:** 未授权任意文件上传 | **POC:** 是 | **投毒风险:** 0%
 **仓库:** [CVE-2025-57176](https://github.com/semaja22/CVE-2025-57176)
-
-### [CVE-2025-57174](CVE-2025-57174-semaja22_CVE-2025-57174.md) 🔴
-
-**名称:** CVE-2025-57174 - Siklu EtherHaul Series - Unauthenticated Remote Command Execution
-**类型:** 远程命令执行 | **POC:** 是 | **投毒风险:** 0%
-**仓库:** [CVE-2025-57174](https://github.com/semaja22/CVE-2025-57174)
 
 
 ---

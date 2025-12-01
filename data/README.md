@@ -2,7 +2,7 @@
 
 > 🤖 自动化CVE漏洞监控与分析系统
 > 📅 最后更新: 2025-12-01
-> 📊 已收录: **2054** 个CVE | **7827** 个POC仓库
+> 📊 已收录: **2055** 个CVE | **7830** 个POC仓库
 
 ---
 
@@ -10,7 +10,7 @@
 
 ### 浏览方式
 - 📅 **按年份浏览** - 查看特定年份的CVE漏洞
-  - [2025年](2025/README.md) (2500 个)
+  - [2025年](2025/README.md) (2502 个)
   - [2024年](2024/README.md) (1220 个)
   - [2023年](2023/README.md) (983 个)
   - [2022年](2022/README.md) (655 个)
@@ -34,7 +34,7 @@
 
 | 年份 | 漏洞数量 | 占比 |
 |------|---------|------|
-| [2025](2025/README.md) | 2500 | 31.9% |
+| [2025](2025/README.md) | 2502 | 32.0% |
 | [2024](2024/README.md) | 1220 | 15.6% |
 | [2023](2023/README.md) | 983 | 12.6% |
 | [2022](2022/README.md) | 655 | 8.4% |
@@ -47,7 +47,7 @@
 | [2015](2015/README.md) | 68 | 0.9% |
 | [2014](2014/README.md) | 52 | 0.7% |
 | [2013](2013/README.md) | 22 | 0.3% |
-| [2012](2012/README.md) | 22 | 0.3% |
+| [2012](2012/README.md) | 23 | 0.3% |
 | [2011](2011/README.md) | 45 | 0.6% |
 | [2010](2010/README.md) | 8 | 0.1% |
 | [2009](2009/README.md) | 5 | 0.1% |
@@ -61,6 +61,24 @@
 
 ## 🚨 本周新增
 
+### [CVE-2025-6440](2025/CVE-2025-6440-smuft1707_CVE-2025-6440.md) 🔴
+
+**名称:** CVE-2025-6440-WooCommerce Designer Pro-任意文件上传
+**类型:** 任意文件上传 | **发现:** 2025-12-01
+**POC:** [CVE-2025-6440](https://github.com/smuft1707/CVE-2025-6440)
+
+### [CVE-2025-13615](2025/CVE-2025-13615-blossombutt4063_CVE-2025-13615.md) 🔴
+
+**名称:** CVE-2025-13615-StreamTube Core-Unauthenticated Arbitrary User Password Change
+**类型:** Unauthenticated Arbitrary User Password Change | **发现:** 2025-12-01
+**POC:** [CVE-2025-13615](https://github.com/blossombutt4063/CVE-2025-13615)
+
+### [CVE-2012-2122](2012/CVE-2012-2122-zhangkaibin0921_CVE-2012-2122.md) 🔴
+
+**名称:** CVE-2012-2122-MySQL/MariaDB身份验证绕过
+**类型:** 身份验证绕过 | **发现:** 2025-12-01
+**POC:** [CVE-2012-2122](https://github.com/zhangkaibin0921/CVE-2012-2122)
+
 ### [CVE-2012-2122](2012/CVE-2012-2122-Avinza_CVE-2012-2122-scanner.md) 🔴
 
 **名称:** CVE-2012-2122-MySQL/MariaDB身份验证绕过
@@ -69,19 +87,19 @@
 
 ### [CVE-2012-2122](2012/CVE-2012-2122-cyberharsh_Oracle-mysql-CVE-2012-2122.md) 🔴
 
-**名称:** CVE-2012-2122 - MySQL/MariaDB Authentication Bypass
+**名称:** CVE-2012-2122-MySQL/MariaDB身份认证绕过漏洞
 **类型:** 身份认证绕过 | **发现:** 2025-12-01
 **POC:** [Oracle-mysql-CVE-2012-2122](https://github.com/cyberharsh/Oracle-mysql-CVE-2012-2122)
 
 ### [CVE-2012-2122](2012/CVE-2012-2122-netw0rk7_CVE-2012-2122-Home-Lab.md) 🔴
 
-**名称:** CVE-2012-2122-MySQL身份验证绕过
+**名称:** CVE-2012-2122 MySQL Authentication Bypass
 **类型:** 身份验证绕过 | **发现:** 2025-12-01
 **POC:** [CVE-2012-2122-Home-Lab](https://github.com/netw0rk7/CVE-2012-2122-Home-Lab)
 
 ### [CVE-2025-4679](2025/CVE-2025-4679-fevar54_CVE-2025-4679-SecureOAuth-Demo---Enfoque-educativo.md)
 
-**名称:** CVE-2025-4679-Synology Active Backup for Microsoft 365-敏感信息泄露
+**名称:** CVE-2025-4679-ActiveBackupForMicrosoft365-CredentialsExposure
 **类型:** 敏感信息泄露 | **发现:** 2025-12-01
 **POC:** [CVE-2025-4679-SecureOAuth-Demo---Enfoque-educativo](https://github.com/fevar54/CVE-2025-4679-SecureOAuth-Demo---Enfoque-educativo)
 
@@ -102,24 +120,6 @@
 **名称:** CVE-2021-21980 - VMware vCenter Server Web Client 任意文件读取
 **类型:** 任意文件读取 | **发现:** 2025-12-01
 **POC:** [vcenter-cve-2021-21980-lab](https://github.com/pratikjojode/vcenter-cve-2021-21980-lab)
-
-### [CVE-2025-64459](2025/CVE-2025-64459-stanly363_CVE-2025-64459-Poc.md) 🔴
-
-**名称:** CVE-2025-64459-Django-SQL注入
-**类型:** SQL注入 | **发现:** 2025-12-01
-**POC:** [CVE-2025-64459-Poc](https://github.com/stanly363/CVE-2025-64459-Poc)
-
-### [CVE-2019-9193](2019/CVE-2019-9193-Cheryanika_CVE-2019-9193---Postgresql---RCE.md) 🔴
-
-**名称:** CVE-2019-9193 - PostgreSQL 远程代码执行
-**类型:** 远程代码执行 (RCE) | **发现:** 2025-12-01
-**POC:** [CVE-2019-9193---Postgresql---RCE](https://github.com/Cheryanika/CVE-2019-9193---Postgresql---RCE)
-
-### [CVE-2020-26217](2020/CVE-2020-26217-Kairo-one_CVE-2020-26217-XStream.md) 🔴
-
-**名称:** CVE-2020-26217 XStream 远程代码执行
-**类型:** 远程代码执行 | **发现:** 2025-12-01
-**POC:** [CVE-2020-26217-XStream](https://github.com/Kairo-one/CVE-2020-26217-XStream)
 
 ---
 
