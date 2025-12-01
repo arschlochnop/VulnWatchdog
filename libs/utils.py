@@ -35,10 +35,18 @@ def get_latest_commit_sha(repo_url: str) -> Optional[str]:
         owner, repo = match.groups()
         api_url = f"https://api.github.com/repos/{owner}/{repo}/commits"
 
+        # 构建请求头（如果配置了Token则添加认证）
+        headers = {}
+        github_token = get_config('GITHUB_TOKEN')
+        if github_token:
+            headers['Authorization'] = f'token {github_token}'
+            logger.debug("使用GitHub Token认证")
+
         # 调用GitHub API (只获取最新1个commit)
         resp = requests.get(
             api_url,
             params={'per_page': 1},
+            headers=headers,
             timeout=10
         )
         resp.raise_for_status()
@@ -64,19 +72,26 @@ def get_latest_commit_sha(repo_url: str) -> Optional[str]:
 def search_github(query: str) -> Tuple[set, List[Dict]]:
     """
     搜索GitHub仓库中的CVE信息
-    
+
     参数:
         query: 搜索关键词
-        
+
     返回:
         (cve_id集合, 仓库信息列表)
     """
     current_year = datetime.now().year
     re_cve = re.compile(r'(?i)CVE-(\d{3,5})-\d{3,5}')
-    
+
     try:
+        # 构建请求头（如果配置了Token则添加认证）
+        headers = {}
+        github_token = get_config('GITHUB_TOKEN')
+        if github_token:
+            headers['Authorization'] = f'token {github_token}'
+            logger.debug("使用GitHub Token认证（搜索API）")
+
         url = f"https://api.github.com/search/repositories?q={query}&sort=updated"
-        resp = requests.get(url, timeout=10)
+        resp = requests.get(url, headers=headers, timeout=10)
         resp.raise_for_status()
     except requests.exceptions.RequestException as e:
         logger.error(f"访问GitHub API失败: {e}")
@@ -358,7 +373,7 @@ def __clone_repo(url: str) -> Optional[str]:
 
 def get_github_poc(github_link: str) -> str:
     """
-    获取GitHub仓库中的POC代码
+    获取GitHub仓库中的POC代码（智能筛选）
 
     参数:
         github_link: GitHub仓库链接
@@ -373,20 +388,67 @@ def get_github_poc(github_link: str) -> str:
             logger.error("克隆仓库失败")
             return ''
 
+        # 智能忽略模式：跳过常见的无关目录和文件
+        ignore_patterns = [
+            # 依赖目录
+            'node_modules/*',
+            'vendor/*',
+            '.venv/*',
+            'venv/*',
+            '__pycache__/*',
+            '*.egg-info/*',
+
+            # 构建产物
+            'dist/*',
+            'build/*',
+            'target/*',
+            '*.min.js',
+            '*.min.css',
+
+            # 文档和媒体
+            'docs/*',
+            'doc/*',
+            'documentation/*',
+            '*.png',
+            '*.jpg',
+            '*.jpeg',
+            '*.gif',
+            '*.svg',
+            '*.ico',
+            '*.pdf',
+
+            # 配置和元数据
+            '.git/*',
+            '.github/*',
+            '.vscode/*',
+            '.idea/*',
+            '*.lock',
+            'package-lock.json',
+            'yarn.lock',
+            'Cargo.lock',
+
+            # 其他
+            '*.log',
+            '*.tmp',
+            '*.bak',
+            '*.swp',
+            '*.DS_Store',
+        ]
+
         outputs = process_path(
             path=clone_path,
-            extensions=None,
+            extensions=None,  # 不限制扩展名（保留README等）
             include_hidden=False,
             ignore_files_only=False,
-            ignore_gitignore=False,
+            ignore_gitignore=True,  # 启用gitignore（尊重项目配置）
             gitignore_rules=[],
-            ignore_patterns=[],
+            ignore_patterns=ignore_patterns,  # 使用智能忽略模式
             claude_xml=False,
             markdown=False,
             line_numbers=False
         )
 
-        logger.info(f"成功提取POC代码: {len(outputs)} 行")
+        logger.info(f"成功提取POC代码: {len(outputs)} 行 (已过滤无关文件)")
         return '\n'.join(outputs)
 
     except Exception as e:

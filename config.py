@@ -30,6 +30,10 @@ ENABLE_EXTENDED=True
 # 是否启用仓库更新检测(基于commit SHA)
 ENABLE_UPDATE_CHECK=True
 
+# GitHub API Token (可选，提升API限制到5000次/小时)
+# 未配置时使用未认证模式 (60次/小时)
+GITHUB_TOKEN=None
+
 # 数据库URL
 DB_URL='sqlite:///vulns.db'
 
@@ -57,6 +61,8 @@ def get_config(env: str):
         'ENABLE_EXTENDED': ENABLE_EXTENDED,
         # 更新检测配置
         'ENABLE_UPDATE_CHECK': ENABLE_UPDATE_CHECK,
+        # GitHub配置
+        'GITHUB_TOKEN': os.environ.get('GITHUB_TOKEN') if os.environ.get('GITHUB_TOKEN') else GITHUB_TOKEN,
         # 仓库地址
         'GIT_URL': os.environ.get('GIT_URL', ''),
     }
