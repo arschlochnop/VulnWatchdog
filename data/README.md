@@ -63,7 +63,7 @@
 
 ### [CVE-2025-6440](2025/CVE-2025-6440-smuft1707_CVE-2025-6440.md) 🔴
 
-**名称:** CVE-2025-6440-WooCommerce Designer Pro-任意文件上传
+**名称:** CVE-2025-6440 - WooCommerce Designer Pro 未经验证的任意文件上传
 **类型:** 任意文件上传 | **发现:** 2025-12-01
 **POC:** [CVE-2025-6440](https://github.com/smuft1707/CVE-2025-6440)
 
@@ -105,7 +105,7 @@
 
 ### [CVE-2025-54253](2025/CVE-2025-54253-netmatthew3771_CVE-2025-54253.md) 🔴
 
-**名称:** CVE-2025-54253 - Adobe Experience Manager - Misconfiguration (CWE-16)
+**名称:** CVE-2025-54253-Adobe Experience Manager-Misconfiguration
 **类型:** Misconfiguration | **发现:** 2025-12-01
 **POC:** [CVE-2025-54253](https://github.com/netmatthew3771/CVE-2025-54253)
 

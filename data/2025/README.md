@@ -2,7 +2,7 @@
 
 > 📅 CVE年份: **2025**
 > 📊 漏洞总数: **2502** 个
-> 🔥 高危漏洞: **2026** 个 (81.0%)
+> 🔥 高危漏洞: **2028** 个 (81.1%)
 > ⚠️ 高投毒风险: **148** 个
 
 ---
@@ -12,14 +12,14 @@
 | 类型 | 数量 | 占比 |
 |------|------|------|
 | 远程代码执行 | 225 | 9.0% |
-| 权限提升 | 138 | 5.5% |
-| 远程代码执行 (RCE) | 128 | 5.1% |
+| 权限提升 | 139 | 5.6% |
+| 远程代码执行 (RCE) | 129 | 5.2% |
 | SQL注入 | 107 | 4.3% |
 | 身份验证绕过 | 68 | 2.7% |
-| 路径遍历 | 66 | 2.6% |
 | 任意文件上传 | 63 | 2.5% |
+| 路径遍历 | 62 | 2.5% |
 | 授权绕过 | 60 | 2.4% |
-| 本地提权 | 54 | 2.2% |
+| 本地提权 | 53 | 2.1% |
 | 权限绕过 | 47 | 1.9% |
 
 ---
@@ -334,8 +334,8 @@
 
 ### [CVE-2025-8088](CVE-2025-8088-jordan922_CVE-2025-8088.md) 🔴
 
-**名称:** CVE-2025-8088 WinRAR Path Traversal
-**类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 10%
+**名称:** CVE-2025-8088-WinRAR路径遍历
+**类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 5%
 **仓库:** [CVE-2025-8088](https://github.com/jordan922/CVE-2025-8088)
 
 ### [CVE-2025-8088](CVE-2025-8088-travisbgreen_cve-2025-8088.md) 🔴
@@ -347,13 +347,13 @@
 ### [CVE-2025-8088](CVE-2025-8088-knight0x07_WinRAR-CVE-2025-8088-PoC-RAR.md) 🔴
 
 **名称:** CVE-2025-8088-WinRAR-路径遍历
-**类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 10%
+**类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 5%
 **仓库:** [WinRAR-CVE-2025-8088-PoC-RAR](https://github.com/knight0x07/WinRAR-CVE-2025-8088-PoC-RAR)
 
 ### [CVE-2025-8088](CVE-2025-8088-sxyrxyy_CVE-2025-8088-WinRAR-Proof-of-Concept-PoC-Exploit-.md) 🔴
 
-**名称:** CVE-2025-8088 WinRAR 路径遍历漏洞
-**类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 10%
+**名称:** CVE-2025-8088 WinRAR Path Traversal
+**类型:** Path Traversal | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-8088-WinRAR-Proof-of-Concept-PoC-Exploit-](https://github.com/sxyrxyy/CVE-2025-8088-WinRAR-Proof-of-Concept-PoC-Exploit-)
 
 ### [CVE-2025-8088](CVE-2025-8088-onlytoxi_CVE-2025-8088-Winrar-Tool.md) 🔴
@@ -364,8 +364,8 @@
 
 ### [CVE-2025-8088](CVE-2025-8088-0xAbolfazl_CVE-2025-8088-WinRAR-PathTraversal-PoC.md) 🔴
 
-**名称:** CVE-2025-8088 WinRAR 路径遍历漏洞
-**类型:** 路径遍历 | **POC:** 是，但提供的代码不完整 | **投毒风险:** 0%
+**名称:** CVE-2025-8088 WinRAR Path Traversal
+**类型:** Path Traversal | **POC:** 是 | **投毒风险:** 5%
 **仓库:** [CVE-2025-8088-WinRAR-PathTraversal-PoC](https://github.com/0xAbolfazl/CVE-2025-8088-WinRAR-PathTraversal-PoC)
 
 ### [CVE-2025-8088](CVE-2025-8088-pentestfunctions_CVE-2025-8088-Multi-Document.md) 🔴
@@ -376,19 +376,19 @@
 
 ### [CVE-2025-8088](CVE-2025-8088-pexlexity_WinRAR-CVE-2025-8088-Path-Traversal-PoC.md) 🔴
 
-**名称:** CVE-2025-8088-WinRAR路径遍历
-**类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 5%
+**名称:** CVE-2025-8088-WinRAR-Path Traversal
+**类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 1%
 **仓库:** [WinRAR-CVE-2025-8088-Path-Traversal-PoC](https://github.com/pexlexity/WinRAR-CVE-2025-8088-Path-Traversal-PoC)
 
 ### [CVE-2025-8088](CVE-2025-8088-Syrins_CVE-2025-8088-Winrar-Tool-Gui.md) 🔴
 
-**名称:** CVE-2025-8088-WinRAR-Path Traversal
-**类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 10%
+**名称:** CVE-2025-8088 WinRAR Path Traversal
+**类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 60%
 **仓库:** [CVE-2025-8088-Winrar-Tool-Gui](https://github.com/Syrins/CVE-2025-8088-Winrar-Tool-Gui)
 
 ### [CVE-2025-8088](CVE-2025-8088-ghostn4444_CVE-2025-8088.md) 🔴
 
-**名称:** CVE-2025-8088-WinRAR-Path Traversal
+**名称:** CVE-2025-8088-WinRAR-路径遍历
 **类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-8088](https://github.com/ghostn4444/CVE-2025-8088)
 
@@ -412,8 +412,8 @@
 
 ### [CVE-2025-8088](CVE-2025-8088-AdityaBhatt3010_CVE-2025-8088-WinRAR-Zero-Day-Path-Traversal.md) 🔴
 
-**名称:** CVE-2025-8088 WinRAR 路径遍历漏洞
-**类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 5%
+**名称:** CVE-2025-8088 WinRAR Path Traversal
+**类型:** Path Traversal | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-8088-WinRAR-Zero-Day-Path-Traversal](https://github.com/AdityaBhatt3010/CVE-2025-8088-WinRAR-Zero-Day-Path-Traversal)
 
 ### [CVE-2025-8088](CVE-2025-8088-pentestfunctions_best-CVE-2025-8088.md) 🔴
@@ -430,13 +430,13 @@
 
 ### [CVE-2025-8088](CVE-2025-8088-kitsuneshade_WinRAR-Exploit-Tool---Rust-Edition.md) 🔴
 
-**名称:** CVE-2025-8088-WinRAR-路径遍历
-**类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 10%
+**名称:** CVE-2025-8088-WinRAR-Path Traversal
+**类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 5%
 **仓库:** [WinRAR-Exploit-Tool---Rust-Edition](https://github.com/kitsuneshade/WinRAR-Exploit-Tool---Rust-Edition)
 
 ### [CVE-2025-8088](CVE-2025-8088-walidpyh_CVE-2025-8088.md) 🔴
 
-**名称:** CVE-2025-8088-WinRAR路径遍历
+**名称:** CVE-2025-8088-WinRAR路径遍历漏洞
 **类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-8088](https://github.com/walidpyh/CVE-2025-8088)
 
@@ -460,26 +460,26 @@
 
 ### [CVE-2025-8088](CVE-2025-8088-techcorp_CVE-2025-8088-Exploit.md) 🔴
 
-**名称:** CVE-2025-8088-WinRAR-路径遍历
+**名称:** CVE-2025-8088-WinRAR路径遍历漏洞
 **类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-8088-Exploit](https://github.com/techcorp/CVE-2025-8088-Exploit)
 
 ### [CVE-2025-8088](CVE-2025-8088-nhattanhh_CVE-2025-8088.md) 🔴
 
-**名称:** CVE-2025-8088 WinRAR 路径遍历漏洞
-**类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 10%
+**名称:** CVE-2025-8088-WinRAR-Path Traversal
+**类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 1%
 **仓库:** [CVE-2025-8088](https://github.com/nhattanhh/CVE-2025-8088)
 
 ### [CVE-2025-8088](CVE-2025-8088-Shinkirou789_Cve-2025-8088-WinRar-vulnerability.md) 🔴
 
-**名称:** CVE-2025-8088 WinRAR 路径遍历漏洞
-**类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 5%
+**名称:** CVE-2025-8088-WinRAR路径遍历远程代码执行
+**类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [Cve-2025-8088-WinRar-vulnerability](https://github.com/Shinkirou789/Cve-2025-8088-WinRar-vulnerability)
 
 ### [CVE-2025-8088](CVE-2025-8088-hbesljx_CVE-2025-8088-EXP.md) 🔴
 
 **名称:** CVE-2025-8088-WinRAR-路径遍历
-**类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 0%
+**类型:** 路径遍历 | **POC:** 否 | **投毒风险:** 0%
 **仓库:** [CVE-2025-8088-EXP](https://github.com/hbesljx/CVE-2025-8088-EXP)
 
 ### [CVE-2025-8088](CVE-2025-8088-m4nbun_CVE-2025-8088.md) 🔴
@@ -508,7 +508,7 @@
 
 ### [CVE-2025-8088](CVE-2025-8088-lucyna77_winrar-malware-exploit.md) 🔴
 
-**名称:** CVE-2025-8088-WinRAR路径遍历漏洞
+**名称:** CVE-2025-8088-WinRAR-路径遍历漏洞
 **类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [winrar-malware-exploit](https://github.com/lucyna77/winrar-malware-exploit)
 
@@ -550,7 +550,7 @@
 
 ### [CVE-2025-8088](CVE-2025-8088-papcaii2004_CVE-2025-8088-WinRAR-builder.md) 🔴
 
-**名称:** CVE-2025-8088-WinRAR 路径遍历漏洞
+**名称:** CVE-2025-8088-WinRAR路径遍历漏洞
 **类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-8088-WinRAR-builder](https://github.com/papcaii2004/CVE-2025-8088-WinRAR-builder)
 
@@ -574,8 +574,8 @@
 
 ### [CVE-2025-8088](CVE-2025-8088-nuky-alt_CVE-2025-8088.md) 🔴
 
-**名称:** CVE-2025-8088-WinRAR路径遍历漏洞
-**类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 5%
+**名称:** CVE-2025-8088 WinRAR Path Traversal
+**类型:** Path Traversal | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-8088](https://github.com/nuky-alt/CVE-2025-8088)
 
 ### [CVE-2025-8088](CVE-2025-8088-shourout_CVE-2025-8088.md) 🔴
@@ -610,8 +610,8 @@
 
 ### [CVE-2025-8088](CVE-2025-8088-4daysday_cve-2025-8088.md) 🔴
 
-**名称:** CVE-2025-8088 WinRAR路径遍历漏洞
-**类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 20%
+**名称:** CVE-2025-8088 WinRAR 路径遍历漏洞
+**类型:** 路径遍历 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [cve-2025-8088](https://github.com/4daysday/cve-2025-8088)
 
 ### [CVE-2025-8088](CVE-2025-8088-xi0onamdev_WinRAR-CVE-2025-8088-Exploitation-Toolkit.md) 🔴
@@ -1312,7 +1312,7 @@
 
 ### [CVE-2025-6440](CVE-2025-6440-smuft1707_CVE-2025-6440.md) 🔴
 
-**名称:** CVE-2025-6440-WooCommerce Designer Pro-任意文件上传
+**名称:** CVE-2025-6440 - WooCommerce Designer Pro 未经验证的任意文件上传
 **类型:** 任意文件上传 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-6440](https://github.com/smuft1707/CVE-2025-6440)
 
@@ -1828,8 +1828,8 @@
 
 ### [CVE-2025-61882](CVE-2025-61882-Sachinart_CVE-2025-61882.md) 🔴
 
-**名称:** CVE-2025-61882 - Oracle E-Business Suite RCE
-**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 20%
+**名称:** CVE-2025-61882 - Oracle Concurrent Processing RCE
+**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-61882](https://github.com/Sachinart/CVE-2025-61882)
 
 ### [CVE-2025-61882](CVE-2025-61882-watchtowrlabs_watchTowr-vs-Oracle-E-Business-Suite-CVE-2025-61882.md) 🔴
@@ -1904,16 +1904,16 @@
 **类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-61882](https://github.com/godnish/CVE-2025-61882)
 
-### [CVE-2025-61882](CVE-2025-61882-siddu7575_CVE-2025-61882-CVE-2025-61884.md)
+### [CVE-2025-61882](CVE-2025-61882-siddu7575_CVE-2025-61882-CVE-2025-61884.md) ⚠️
 
-**名称:** CVE-2025-61882 - Oracle Concurrent Processing takeover
-**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 5%
+**名称:** CVE-2025-61882 - Oracle Concurrent Processing 远程代码执行
+**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 80%
 **仓库:** [CVE-2025-61882-CVE-2025-61884](https://github.com/siddu7575/CVE-2025-61882-CVE-2025-61884)
 
 ### [CVE-2025-61882](CVE-2025-61882-AshrafZaryouh_CVE-2025-61882-Executive-Summary.md) 🔴
 
-**名称:** CVE-2025-61882-Oracle Concurrent Processing-RCE
-**类型:** 远程代码执行(RCE) | **POC:** 是 | **投毒风险:** 10%
+**名称:** CVE-2025-61882 - Oracle Concurrent Processing RCE
+**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-61882-Executive-Summary](https://github.com/AshrafZaryouh/CVE-2025-61882-Executive-Summary)
 
 ### [CVE-2025-61882](CVE-2025-61882-GhoStZA-debug_CVE-2025-61882.md) 🔴
@@ -1924,8 +1924,8 @@
 
 ### [CVE-2025-61882](CVE-2025-61882-Zhert-lab_CVE-2025-61882-CVE-2025-61884.md) 🔴
 
-**名称:** CVE-2025-61882 - Oracle Concurrent Processing 远程代码执行
-**类型:** 远程代码执行 (RCE) | **POC:** 是 | **投毒风险:** 0%
+**名称:** CVE-2025-61882-Oracle Concurrent Processing-远程代码执行
+**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 5%
 **仓库:** [CVE-2025-61882-CVE-2025-61884](https://github.com/Zhert-lab/CVE-2025-61882-CVE-2025-61884)
 
 ### [CVE-2025-61777](CVE-2025-61777-0x0w1z_CVE-2025-61777.md) 🔴
@@ -2008,7 +2008,7 @@
 
 ### [CVE-2025-61303](CVE-2025-61303-eGkritsis_CVE-2025-61303.md) 🔴
 
-**名称:** CVE-2025-61303 - RecordedFuture Triage: Denial-Of-Analysis via Recursive Process Forking
+**名称:** CVE-2025-61303 - RecordedFuture Triage 沙箱拒绝服务漏洞
 **类型:** 拒绝服务 (Denial-of-Analysis) | **POC:** 是 | **投毒风险:** 0%
 **仓库:** [CVE-2025-61303](https://github.com/eGkritsis/CVE-2025-61303)
 
@@ -2440,8 +2440,8 @@
 
 ### [CVE-2025-59287](CVE-2025-59287-keeganparr1_CVE-2025-59287-hawktrace.md) 🔴
 
-**名称:** CVE-2025-59287-Windows Server Update Service (WSUS) Remote Code Execution Vulnerability
-**类型:** 反序列化漏洞 | **POC:** 是 | **投毒风险:** 10%
+**名称:** CVE-2025-59287 - Windows Server Update Service (WSUS) Remote Code Execution Vulnerability
+**类型:** Remote Code Execution | **POC:** 是 | **投毒风险:** 0%
 **仓库:** [CVE-2025-59287-hawktrace](https://github.com/keeganparr1/CVE-2025-59287-hawktrace)
 
 ### [CVE-2025-59287](CVE-2025-59287-jiansiting_CVE-2025-59287.md) 🔴
@@ -2453,13 +2453,13 @@
 ### [CVE-2025-59287](CVE-2025-59287-garvitv14_CVE-2025-59287.md) 🔴
 
 **名称:** CVE-2025-59287 WSUS RCE
-**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 10%
+**类型:** 反序列化漏洞 | **POC:** 是 | **投毒风险:** 5%
 **仓库:** [CVE-2025-59287](https://github.com/garvitv14/CVE-2025-59287)
 
 ### [CVE-2025-59287](CVE-2025-59287-Lupovis_Honeypot-for-CVE-2025-59287-WSUS.md) 🔴
 
 **名称:** CVE-2025-59287-Windows Server Update Service (WSUS) Remote Code Execution Vulnerability
-**类型:** 反序列化漏洞 | **POC:** 是，但为防御性PoC | **投毒风险:** 10%
+**类型:** 反序列化漏洞导致远程代码执行 | **POC:** 是，但提供的代码为防御性质的Decoy，而非利用代码。 | **投毒风险:** 10%
 **仓库:** [Honeypot-for-CVE-2025-59287-WSUS](https://github.com/Lupovis/Honeypot-for-CVE-2025-59287-WSUS)
 
 ### [CVE-2025-59287](CVE-2025-59287-0xBruno_WSUSploit.NET.md) 🔴
@@ -2470,7 +2470,7 @@
 
 ### [CVE-2025-59287](CVE-2025-59287-tecxx_CVE-2025-59287-WSUS.md) 🔴
 
-**名称:** CVE-2025-59287-WSUS Remote Code Execution
+**名称:** CVE-2025-59287-WSUS 远程代码执行漏洞
 **类型:** 反序列化漏洞 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-59287-WSUS](https://github.com/tecxx/CVE-2025-59287-WSUS)
 
@@ -2498,10 +2498,10 @@
 **类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 0%
 **仓库:** [Breaking-the-Update-Chain-Inside-CVE-2025-59287-and-the-WSUS-RCE-Threat](https://github.com/mrk336/Breaking-the-Update-Chain-Inside-CVE-2025-59287-and-the-WSUS-RCE-Threat)
 
-### [CVE-2025-59287](CVE-2025-59287-FurkanKAYAPINAR_CVE-2025-59287.md)
+### [CVE-2025-59287](CVE-2025-59287-FurkanKAYAPINAR_CVE-2025-59287.md) 🔴
 
-**名称:** CVE-2025-59287 - Windows Server Update Service (WSUS) Remote Code Execution
-**类型:** 远程代码执行 | **POC:** 是 | **投毒风险:** 10%
+**名称:** CVE-2025-59287-Windows Server Update Service (WSUS) 远程代码执行漏洞
+**类型:** 反序列化漏洞 | **POC:** 是 | **投毒风险:** 1%
 **仓库:** [CVE-2025-59287](https://github.com/FurkanKAYAPINAR/CVE-2025-59287)
 
 ### [CVE-2025-59287](CVE-2025-59287-esteban11121_WSUS-RCE-Mitigation-59287.md) 🔴
@@ -2512,14 +2512,14 @@
 
 ### [CVE-2025-59287](CVE-2025-59287-fsanzmoya_wsus_CVE-2025-59287.md) 🔴
 
-**名称:** CVE-2025-59287 - Windows Server Update Service (WSUS) Remote Code Execution Vulnerability
-**类型:** 反序列化漏洞导致远程代码执行 | **POC:** 是 | **投毒风险:** 0%
+**名称:** CVE-2025-59287-WSUS远程代码执行
+**类型:** 反序列化漏洞导致的远程代码执行 | **POC:** 是 | **投毒风险:** 5%
 **仓库:** [wsus_CVE-2025-59287](https://github.com/fsanzmoya/wsus_CVE-2025-59287)
 
 ### [CVE-2025-59287](CVE-2025-59287-0x7556_CVE-2025-59287.md) 🔴
 
-**名称:** CVE-2025-59287 - Windows Server Update Service (WSUS) 远程代码执行漏洞
-**类型:** 反序列化 | **POC:** 是 | **投毒风险:** 10%
+**名称:** CVE-2025-59287 Windows Server Update Service (WSUS) 远程代码执行漏洞
+**类型:** 反序列化漏洞 | **POC:** 是 | **投毒风险:** 10%
 **仓库:** [CVE-2025-59287](https://github.com/0x7556/CVE-2025-59287)
 
 ### [CVE-2025-59287](CVE-2025-59287-QurtiDev_WSUS-CVE-2025-59287-RCE.md) 🔴

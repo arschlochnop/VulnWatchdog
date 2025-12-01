@@ -1024,8 +1024,8 @@
 
 ### [CVE-2018-18441](CVE-2018-18441-AIDENTHOMASboi_CVE-2018-18441-exploit.md) ⚠️
 
-**名称:** CVE-2018-18441-D-Link摄像头信息泄露
-**类型:** 信息泄露 | **POC:** 是 | **投毒风险:** 95%
+**名称:** CVE-2018-18441 D-Link DCS系列摄像头敏感信息泄露
+**类型:** 信息泄露 | **POC:** 是 | **投毒风险:** 80%
 **仓库:** [CVE-2018-18441-exploit](https://github.com/AIDENTHOMASboi/CVE-2018-18441-exploit)
 
 ### [CVE-2018-17297](CVE-2018-17297-shoucheng3_dromara__hutool_CVE-2018-17297_4-1-11.md) 🔴
