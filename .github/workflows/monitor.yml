@@ -26,9 +26,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Migrate database
-        run: python scripts/migrate_db.py
-
       - name: Run CVE monitor
         env:
           DEBUG: ${{ secrets.DEBUG }}
