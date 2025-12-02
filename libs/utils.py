@@ -179,14 +179,20 @@ def search_searxng(query: str, num_results: int = 5) -> List[Dict]:
         SearchError: 搜索失败
     """
     url = get_config('SEARXNG_URL')
+
+    # 检查URL是否配置
+    if not url or url == 'None':
+        logger.warning(f"SEARXNG_URL未配置，跳过搜索")
+        return []
+
     params = {
         "q": query,
         "format": "json",
         "pageno": 1,
-        "engines": "google", 
+        "engines": "google",
         "max_results": num_results
     }
-    
+
     try:
         response = requests.get(url, params=params, verify=True, timeout=10)
         response.raise_for_status()
@@ -197,10 +203,10 @@ def search_searxng(query: str, num_results: int = 5) -> List[Dict]:
         
     except requests.exceptions.RequestException as e:
         logger.error(f"搜索请求失败: {e}")
-        raise SearchError(f"搜索请求失败: {e}")
+        return []  # 搜索失败时返回空列表，不中断流程
     except json.JSONDecodeError as e:
         logger.error(f"解析搜索结果失败: {e}")
-        raise SearchError(f"无效的搜索响应: {e}")
+        return []  # 解析失败时返回空列表，不中断流程
 
 def __extract_json_from_markdown(content: str) -> Optional[str]:
     """
