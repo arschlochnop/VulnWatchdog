@@ -52,6 +52,11 @@ def get_config(env: str):
         'GPT_SERVER_URL': os.environ.get('GPT_SERVER_URL'),
         'GPT_API_KEY': os.environ.get('GPT_API_KEY'),
         'GPT_MODEL': os.environ.get('GPT_MODEL') if os.environ.get('GPT_MODEL') else GPT_MODEL,
+        # Token限制配置 (字符数，约等于tokens * 4)
+        'MAX_CVE_INFO_CHARS': int(os.environ.get('MAX_CVE_INFO_CHARS', '1000')),
+        'MAX_SEARCH_CHARS': int(os.environ.get('MAX_SEARCH_CHARS', '2000')),
+        'MAX_POC_CODE_CHARS': int(os.environ.get('MAX_POC_CODE_CHARS', '3000')),
+        'MAX_PROMPT_CHARS': int(os.environ.get('MAX_PROMPT_CHARS', '24000')),
         # 搜索配置
         'ENABLE_SEARCH': ENABLE_SEARCH,
         'SEARXNG_URL': os.environ.get('SEARXNG_URL'),

@@ -12,11 +12,16 @@ import sys
 from typing import List, Dict, Optional
 
 # 配置日志
+log_level = logging.DEBUG if get_config('DEBUG') == 'DEBUG' else logging.INFO
 logging.basicConfig(
-    level=logging.DEBUG if get_config('DEBUG') else logging.INFO,
+    level=log_level,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
+
+# 设置第三方库的日志级别，避免输出过多DEBUG日志
+logging.getLogger('urllib3').setLevel(logging.WARNING)
+logging.getLogger('urllib3.connectionpool').setLevel(logging.WARNING)
 
 # 从配置文件加载功能开关
 enable_gpt = get_config('ENABLE_GPT')
@@ -27,29 +32,60 @@ enable_update_check = get_config('ENABLE_UPDATE_CHECK')
 
 def build_prompt(cve_info: Dict, search_results: List[Dict], poc_results_str: str) -> str:
     """
-    构建发送给GPT的提示文本
-    
+    构建发送给GPT的提示文本，智能控制总长度
+
     Args:
         cve_info: CVE漏洞信息字典
         search_results: 搜索结果列表
         poc_results_str: POC代码内容
-        
+
     Returns:
         str: 格式化的提示文本
     """
     try:
-        # 格式化搜索结果
+        # Token限制配置 (从配置文件读取)
+        MAX_CVE_INFO = get_config('MAX_CVE_INFO_CHARS')
+        MAX_SEARCH = get_config('MAX_SEARCH_CHARS')
+        MAX_POC_CODE = get_config('MAX_POC_CODE_CHARS')
+        MAX_PROMPT = get_config('MAX_PROMPT_CHARS')
+
+        # 格式化搜索结果并限制长度
         search_results_str = ""
         for i, result in enumerate(search_results):
+            if len(search_results_str) >= MAX_SEARCH:
+                break
             search_results_str += f"[webpage {i} begin] [title] {result.get('title', '')}\n [description] {result.get('content', '')}\n [link] {result.get('url', '')}\n [webpage {i} end]\n"
-        
+
+        # 截断搜索结果
+        if len(search_results_str) > MAX_SEARCH:
+            search_results_str = search_results_str[:MAX_SEARCH] + "\n...(搜索结果已截断)"
+
         if search_results_str:
             search_results_str = f"""
             ## 以下内容是基于此漏洞的搜索结果:
                 {search_results_str}
             """
-        cve_info = json.dumps(cve_info)
+
+        # 限制CVE信息长度
+        cve_info_str = json.dumps(cve_info)
+        if len(cve_info_str) > MAX_CVE_INFO:
+            # 保留关键字段
+            limited_cve = {
+                'id': cve_info.get('id', ''),
+                'summary': cve_info.get('summary', '')[:500] if cve_info.get('summary') else '',
+                'cvss': cve_info.get('cvss', ''),
+            }
+            cve_info_str = json.dumps(limited_cve)
+
+        # 限制POC代码长度
+        if len(poc_results_str) > MAX_POC_CODE:
+            poc_results_str = poc_results_str[:MAX_POC_CODE] + "\n...(POC代码已截断，仅显示前3000字符)"
         
+        # 记录各部分长度
+        logger.info(f"Token控制 - CVE信息: {len(cve_info_str)} 字符")
+        logger.info(f"Token控制 - 搜索结果: {len(search_results_str)} 字符")
+        logger.info(f"Token控制 - POC代码: {len(poc_results_str)} 字符")
+
         # 构建完整提示文本
         prompt = f"""
       请根据以下漏洞信息、搜索结果和漏洞利用代码，评估漏洞利用的有效性、是否存在投毒风险，并分析漏洞利用方式。请注意以下几点：
@@ -58,7 +94,7 @@ def build_prompt(cve_info: Dict, search_results: List[Dict], poc_results_str: st
 
     *   **漏洞库信息：**
         ```
-        {cve_info}
+        {cve_info_str}
         ```
     *   **搜索引擎结果：**
         ```
@@ -95,17 +131,19 @@ def build_prompt(cve_info: Dict, search_results: List[Dict], poc_results_str: st
     }}
         """
         
-        # 记录各部分长度
-        logger.info(f"提示文本总长度: {len(prompt)}")
-        logger.info(f"漏洞信息长度: {len(cve_info)}")
-        logger.info(f"搜索结果长度: {len(search_results_str)}")
-        logger.info(f"POC代码长度: {len(poc_results_str)}")
-        
+        # 记录最终长度
+        prompt_length = len(prompt)
+        logger.info(f"最终提示文本长度: {prompt_length} 字符 (约 {prompt_length//4} tokens)")
+
+        # Token警告
+        if prompt_length > MAX_PROMPT:
+            logger.warning(f"提示文本超出配置限制: {prompt_length}/{MAX_PROMPT} 字符 (约 {prompt_length//4} tokens)")
+
         # 调试日志
         logger.debug("提示文本构建完成")
-        logger.debug(f"漏洞信息: {cve_info}")
-        logger.debug(f"搜索结果: {search_results_str}")
-        logger.debug(f"POC代码: {poc_results_str}")
+        logger.debug(f"漏洞信息: {cve_info_str[:200]}...")
+        logger.debug(f"搜索结果: {search_results_str[:200]}...")
+        logger.debug(f"POC代码: {poc_results_str[:200]}...")
         
         return prompt
         
@@ -208,7 +246,8 @@ def process_cve(cve_id: str, repo: Dict, engine) -> Dict:
                 search_result = search_searxng(f"{cve_id} Vulnerability Analysis")
 
             logger.info("构建GPT提示文本")
-            prompt = build_prompt(cve_info, search_result, code_prompt[:5000])
+            # build_prompt内部会进行智能截断，不需要在这里预先截断
+            prompt = build_prompt(cve_info, search_result, code_prompt)
             if not prompt:
                 logger.error("构建提示文本失败")
                 return result
