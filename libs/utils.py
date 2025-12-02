@@ -426,6 +426,31 @@ def get_github_poc(github_link: str) -> str:
             '*.svg',
             '*.ico',
             '*.pdf',
+            '*.mp4',
+            '*.avi',
+            '*.mov',
+            '*.webm',
+
+            # License和法律文件
+            'LICENSE*',
+            'LICENCE*',
+            'COPYING*',
+            'COPYRIGHT*',
+            'NOTICE*',
+            'PATENTS*',
+
+            # 通用文档文件（保留README）
+            'CHANGELOG*',
+            'CHANGES*',
+            'HISTORY*',
+            'AUTHORS*',
+            'CONTRIBUTORS*',
+            'THANKS*',
+            'ACKNOWLEDGEMENTS*',
+            'CODE_OF_CONDUCT*',
+            'CONTRIBUTING*',
+            'SECURITY*',
+            'SUPPORT*',
 
             # 配置和元数据
             '.git/*',
@@ -436,13 +461,43 @@ def get_github_poc(github_link: str) -> str:
             'package-lock.json',
             'yarn.lock',
             'Cargo.lock',
+            'poetry.lock',
+            'Gemfile.lock',
+            '.gitignore',
+            '.gitattributes',
+            '.dockerignore',
+            '.editorconfig',
+            '.eslintrc*',
+            '.prettierrc*',
+            'tsconfig.json',
 
-            # 其他
+            # 二进制和压缩文件
+            '*.exe',
+            '*.dll',
+            '*.so',
+            '*.dylib',
+            '*.zip',
+            '*.tar',
+            '*.tar.gz',
+            '*.tgz',
+            '*.rar',
+            '*.7z',
+            '*.jar',
+            '*.war',
+            '*.class',
+            '*.o',
+            '*.a',
+            '*.lib',
+            '*.bin',
+            '*.dat',
+
+            # 其他无用文件
             '*.log',
             '*.tmp',
             '*.bak',
             '*.swp',
             '*.DS_Store',
+            'Thumbs.db',
         ]
 
         outputs = process_path(
