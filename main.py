@@ -215,9 +215,9 @@ def process_cve(cve_id: str, repo: Dict, engine) -> Dict:
                 
             logger.info("请求GPT分析")
             gpt_results = ask_gpt(prompt)
-            logger.info(f"GPT 分析结果长度: {len(gpt_results)}")
 
             if gpt_results:
+                logger.info(f"GPT 分析结果长度: {len(gpt_results)}")
                 # 使用CVE年份作为目录结构 (YYYY/)
                 import re
                 match = re.match(r'CVE-(\d{4})-\d+', cve_id)

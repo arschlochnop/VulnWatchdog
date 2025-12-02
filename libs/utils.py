@@ -320,8 +320,12 @@ def ask_gpt(prompt: str) -> Optional[Dict]:
         return None
 
     except requests.exceptions.RequestException as e:
-        logger.error(f"请求GPT API失败: {e} prompt长度: {len(prompt)}")
-        traceback.print_exc()
+        # 特殊处理429限流错误
+        if hasattr(e, 'response') and e.response is not None and e.response.status_code == 429:
+            logger.warning(f"GPT API请求限流 (429)，跳过此POC - prompt长度: {len(prompt)}")
+        else:
+            logger.error(f"请求GPT API失败: {e} prompt长度: {len(prompt)}")
+            traceback.print_exc()
     except (KeyError, IndexError) as e:
         logger.error(f"处理GPT响应异常: {e} prompt长度: {len(prompt)}")
     except Exception as e:
