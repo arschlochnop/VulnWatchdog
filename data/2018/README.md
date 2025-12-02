@@ -3,7 +3,7 @@
 > 📅 CVE年份: **2018**
 > 📊 漏洞总数: **361** 个
 > 🔥 高危漏洞: **287** 个 (79.5%)
-> ⚠️ 高投毒风险: **4** 个
+> ⚠️ 高投毒风险: **3** 个
 
 ---
 
@@ -1022,10 +1022,10 @@
 **类型:** 信息泄露 | **POC:** 是 | **投毒风险:** 0%
 **仓库:** [CVE-2018-18441-exploit](https://github.com/bayazid-bit/CVE-2018-18441-exploit)
 
-### [CVE-2018-18441](CVE-2018-18441-AIDENTHOMASboi_CVE-2018-18441-exploit.md) ⚠️
+### [CVE-2018-18441](CVE-2018-18441-AIDENTHOMASboi_CVE-2018-18441-exploit.md)
 
-**名称:** CVE-2018-18441 D-Link DCS系列摄像头敏感信息泄露
-**类型:** 信息泄露 | **POC:** 是 | **投毒风险:** 80%
+**名称:** CVE-2018-18441
+**类型:** 未知 | **POC:** 未知 | **投毒风险:** 未知
 **仓库:** [CVE-2018-18441-exploit](https://github.com/AIDENTHOMASboi/CVE-2018-18441-exploit)
 
 ### [CVE-2018-17297](CVE-2018-17297-shoucheng3_dromara__hutool_CVE-2018-17297_4-1-11.md) 🔴
