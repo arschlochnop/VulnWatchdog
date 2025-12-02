@@ -1564,8 +1564,8 @@
 
 ### [CVE-2019-1663](CVE-2019-1663-StealYourCode_CVE-2019-1663.md) 🔴
 
-**名称:** CVE-2019-1663 - Cisco RV系列路由器远程命令执行漏洞
-**类型:** 远程命令执行 | **POC:** 是 | **投毒风险:** 10%
+**名称:** CVE-2019-1663 - Cisco RV110W/RV130W/RV215W 远程命令执行漏洞
+**类型:** 远程命令执行 | **POC:** 是 | **投毒风险:** 0%
 **仓库:** [CVE-2019-1663](https://github.com/StealYourCode/CVE-2019-1663)
 
 ### [CVE-2019-1663](CVE-2019-1663-WolffCorentin_CVE-2019-1663-Binary-Analysis.md) 🔴
