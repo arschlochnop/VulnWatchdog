@@ -334,9 +334,13 @@ def process_cve(cve_id: str, repo: Dict, engine) -> Dict:
         today = datetime.now(tz).date()
         repo_date = datetime.strptime(repo_pushed_at, '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=timezone.utc).astimezone(tz).date()
         push_today = today == repo_date
-        if enable_notify and push_today:
+
+        # 只有GPT分析成功且当天推送才发送通知
+        if enable_notify and push_today and gpt_results:
             logger.info("发送通知")
             send_webhook(result)
+        elif enable_notify and push_today and not gpt_results:
+            logger.warning(f"GPT分析失败，跳过通知推送: {repo_link}")
         return result
 
     except Exception as e:
