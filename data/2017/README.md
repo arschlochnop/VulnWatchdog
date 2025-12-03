@@ -9,13 +9,13 @@
 | CVE编号 | 标题 | 严重程度 | POC仓库数 |
 |---------|------|----------|-----------|
 | [CVE-2017-0143](CVE-2017-0143-Cedric-Martz_EthernalBlue_report.md) | CVE-2017-0143 Windows SMB 远程代码执行漏洞 | ⚪ N/A | 0 |
-| [CVE-2017-0143](CVE-2017-0143-Mafiosohack_offensive-security-lab-1.md) | CVE-2017-0143-Windows SMB Remote Code Execution | ⚪ N/A | 0 |
+| [CVE-2017-0143](CVE-2017-0143-Mafiosohack_offensive-security-lab-1.md) | CVE-2017-0143 | ⚪ N/A | 0 |
 | [CVE-2017-0143](CVE-2017-0143-NatteeSetobol_Etern-blue-Windows-7-Checker.md) | CVE-2017-0143 Windows SMB Remote Code Execution Vulnerabilit... | ⚪ N/A | 0 |
 | [CVE-2017-0143](CVE-2017-0143-benguelmas_cve-2017-0143.md) | CVE-2017-0143 - Windows SMB 远程代码执行漏洞（EternalBlue） | ⚪ N/A | 0 |
 | [CVE-2017-0143](CVE-2017-0143-h3x0v3rl0rd_MS17-010.md) | CVE-2017-0143 | ⚪ N/A | 0 |
 | [CVE-2017-0143](CVE-2017-0143-n3rdh4x0r_MS17-010_CVE-2017-0143.md) | CVE-2017-0143 - Windows SMB 远程代码执行漏洞 | ⚪ N/A | 0 |
 | [CVE-2017-0143](CVE-2017-0143-valarauco_wannafind.md) | CVE-2017-0143 Windows SMB Remote Code Execution Vulnerabilit... | ⚪ N/A | 0 |
-| [CVE-2017-0144](CVE-2017-0144-AbbeAlthany_Windows-7_och_CVE-2017-0144_Exploit.md) | CVE-2017-0144 - EternalBlue SMBv1 远程代码执行 | ⚪ N/A | 0 |
+| [CVE-2017-0144](CVE-2017-0144-AbbeAlthany_Windows-7_och_CVE-2017-0144_Exploit.md) | CVE-2017-0144 | ⚪ N/A | 0 |
 | [CVE-2017-0144](CVE-2017-0144-AdityaBhatt3010_VAPT-Report-on-SMB-Exploitation-in-Windows-10-Finance-Endpoint.md) | CVE-2017-0144 (EternalBlue) | ⚪ N/A | 0 |
 | [CVE-2017-0144](CVE-2017-0144-AnugiArrawwala_CVE-Research.md) | CVE-2017-0144 - Windows SMB Remote Code Execution Vulnerabil... | ⚪ N/A | 0 |
 | [CVE-2017-0144](CVE-2017-0144-Ashwesker_Blackash-CVE-2017-0144.md) | CVE-2017-0144 - EternalBlue: Microsoft Windows SMBv1 远程代码执行漏... | ⚪ N/A | 0 |
@@ -60,7 +60,7 @@
 | [CVE-2017-10271](CVE-2017-10271-c0mmand3rOpSec_CVE-2017-10271.md) | CVE-2017-10271-Oracle WebLogic Server-反序列化RCE | ⚪ N/A | 0 |
 | [CVE-2017-10271](CVE-2017-10271-cjjduck_weblogic_wls_wsat_rce.md) | CVE-2017-10271-WebLogic-WLS-WSAT远程命令执行 | ⚪ N/A | 0 |
 | [CVE-2017-10271](CVE-2017-10271-cved-sources_cve-2017-10271.md) | CVE-2017-10271 - Oracle WebLogic Server WLS Security 组件远程代码执... | ⚪ N/A | 0 |
-| [CVE-2017-10271](CVE-2017-10271-ianxtianxt_-CVE-2017-10271-.md) | CVE-2017-10271-WebLogic-Java反序列化 | ⚪ N/A | 0 |
+| [CVE-2017-10271](CVE-2017-10271-ianxtianxt_-CVE-2017-10271-.md) | CVE-2017-10271 | ⚪ N/A | 0 |
 | [CVE-2017-10271](CVE-2017-10271-kbsec_Weblogic_Wsat_RCE.md) | CVE-2017-10271 - Oracle WebLogic Server WLS Security 组件远程代码执... | ⚪ N/A | 0 |
 | [CVE-2017-10271](CVE-2017-10271-kkirsche_CVE-2017-10271.md) | CVE-2017-10271 WebLogic wls-wsat 组件反序列化 RCE | ⚪ N/A | 0 |
 | [CVE-2017-10271](CVE-2017-10271-lonehand_Oracle-WebLogic-CVE-2017-10271-master.md) | CVE-2017-10271 WebLogic WLS-WSAT 远程命令执行漏洞 | ⚪ N/A | 0 |
@@ -72,7 +72,7 @@
 | [CVE-2017-10271](CVE-2017-10271-shack2_javaserializetools.md) | CVE-2017-10271-Oracle WebLogic Server-远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2017-10271](CVE-2017-10271-testwc_CVE-2017-10271.md) | CVE-2017-10271 - Oracle WebLogic Server WLS Security 远程命令执行 | ⚪ N/A | 0 |
 | [CVE-2017-11317](CVE-2017-11317-0xr2r_CVE-2017-11317-auto-exploit-.md) | CVE-2017-11317-Telerik UI for ASP.NET AJAX-任意文件上传/远程代码执行 | ⚪ N/A | 0 |
-| [CVE-2017-11317](CVE-2017-11317-KasunPriyashan_Telerik-UI-ASP.NET-AJAX-Exploitation.md) | CVE-2017-11317 Telerik UI for ASP.NET AJAX Unrestricted File... | ⚪ N/A | 0 |
+| [CVE-2017-11317](CVE-2017-11317-KasunPriyashan_Telerik-UI-ASP.NET-AJAX-Exploitation.md) | CVE-2017-11317 | ⚪ N/A | 0 |
 | [CVE-2017-11317](CVE-2017-11317-bao7uo_RAU_crypto.md) | CVE-2017-11317-Telerik-UI-ASP.NET-AJAX-Unrestricted-File-Upl... | ⚪ N/A | 0 |
 | [CVE-2017-11882](CVE-2017-11882-Abdibimantara_Maldoc-Analysis.md) | CVE-2017-11882 Microsoft Office 内存破坏漏洞 | ⚪ N/A | 0 |
 | [CVE-2017-11882](CVE-2017-11882-ChaitanyaHaritash_CVE-2017-11882.md) | CVE-2017-11882 Microsoft Office 内存破坏漏洞 | ⚪ N/A | 0 |
@@ -90,15 +90,15 @@
 | [CVE-2017-11882](CVE-2017-11882-likekabin_CVE-2017-11882.md) | CVE-2017-11882-Microsoft Office 内存破坏漏洞 | ⚪ N/A | 0 |
 | [CVE-2017-11882](CVE-2017-11882-lisinan988_CVE-2017-11882-exp.md) | CVE-2017-11882-Microsoft Office Memory Corruption Vulnerabil... | ⚪ N/A | 0 |
 | [CVE-2017-11882](CVE-2017-11882-littlebin404_CVE-2017-11882.md) | CVE-2017-11882-Microsoft Office Memory Corruption Vulnerabil... | ⚪ N/A | 0 |
-| [CVE-2017-11882](CVE-2017-11882-n18dcat053-luuvannga_DetectPacket-CVE-2017-11882.md) | CVE-2017-11882 Microsoft Office 内存破坏漏洞 | ⚪ N/A | 0 |
+| [CVE-2017-11882](CVE-2017-11882-n18dcat053-luuvannga_DetectPacket-CVE-2017-11882.md) | CVE-2017-11882 | ⚪ N/A | 0 |
 | [CVE-2017-11882](CVE-2017-11882-rip1s_CVE-2017-11882.md) | CVE-2017-11882-Microsoft Office 内存破坏漏洞 | ⚪ N/A | 0 |
 | [CVE-2017-11882](CVE-2017-11882-starnightcyber_CVE-2017-11882.md) | CVE-2017-11882 Microsoft Office 内存破坏漏洞 | ⚪ N/A | 0 |
 | [CVE-2017-11882](CVE-2017-11882-tzwlhack_CVE-2017-11882.md) | CVE-2017-11882-Microsoft Office Memory Corruption | ⚪ N/A | 0 |
 | [CVE-2017-11882](CVE-2017-11882-xdrake1010_CVE-2017-11882-Preventer.md) | CVE-2017-11882-Microsoft Office 内存破坏漏洞 | ⚪ N/A | 0 |
 | [CVE-2017-12542](CVE-2017-12542-VijayShankar22_CVE-2017-12542.md) | CVE-2017-12542-HP iLO 4-身份验证绕过和代码执行 | ⚪ N/A | 0 |
-| [CVE-2017-12542](CVE-2017-12542-sk1dish_ilo4-rce-vuln-scanner.md) | CVE-2017-12542 - HPE iLO 4 身份验证绕过和代码执行 | ⚪ N/A | 0 |
+| [CVE-2017-12542](CVE-2017-12542-sk1dish_ilo4-rce-vuln-scanner.md) | CVE-2017-12542 | ⚪ N/A | 0 |
 | [CVE-2017-12542](CVE-2017-12542-skelsec_CVE-2017-12542.md) | CVE-2017-12542-HPE iLO 4-认证绕过与代码执行 | ⚪ N/A | 0 |
-| [CVE-2017-12611](CVE-2017-12611-brianwrf_S2-053-CVE-2017-12611.md) | CVE-2017-12611-Apache Struts-远程代码执行 | ⚪ N/A | 0 |
+| [CVE-2017-12611](CVE-2017-12611-brianwrf_S2-053-CVE-2017-12611.md) | CVE-2017-12611 | ⚪ N/A | 0 |
 | [CVE-2017-12611](CVE-2017-12611-tcetin704_CVE-2017-12611.md) | CVE-2017-12611-Apache Struts-远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2017-12611](CVE-2017-12611-zeynepsilao_CVE-2017-12611_Exploit.md) | CVE-2017-12611 - Apache Struts Freemarker RCE | ⚪ N/A | 0 |
 | [CVE-2017-12615](CVE-2017-12615-1337g_CVE-2017-12615.md) | CVE-2017-12615 - Apache Tomcat Remote Code Execution via JSP... | ⚪ N/A | 0 |
@@ -106,7 +106,7 @@
 | [CVE-2017-12615](CVE-2017-12615-Fa1c0n35_CVE-2017-12615.md) | CVE-2017-12615-Apache Tomcat-远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2017-12615](CVE-2017-12615-breaktoprotect_CVE-2017-12615.md) | CVE-2017-12615 - Apache Tomcat JSP上传远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2017-12615](CVE-2017-12615-cved-sources_cve-2017-12615.md) | CVE-2017-12615-Apache Tomcat-RCE | ⚪ N/A | 0 |
-| [CVE-2017-12615](CVE-2017-12615-cyberharsh_Tomcat-CVE-2017-12615.md) | CVE-2017-12615 Apache Tomcat Remote Code Execution | ⚪ N/A | 0 |
+| [CVE-2017-12615](CVE-2017-12615-cyberharsh_Tomcat-CVE-2017-12615.md) | CVE-2017-12615 | ⚪ N/A | 0 |
 | [CVE-2017-12615](CVE-2017-12615-edyekomu_CVE-2017-12615-PoC.md) | CVE-2017-12615-Apache Tomcat Windows RCE | ⚪ N/A | 0 |
 | [CVE-2017-12615](CVE-2017-12615-ianxtianxt_CVE-2017-12615.md) | CVE-2017-12615-Apache Tomcat-远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2017-12615](CVE-2017-12615-lizhianyuguangming_TomcatScanPro.md) | CVE-2017-12615-Apache Tomcat-远程代码执行 | ⚪ N/A | 0 |
@@ -128,14 +128,14 @@
 | [CVE-2017-12617](CVE-2017-12617-qiantu88_CVE-2017-12617.md) | CVE-2017-12617-Apache Tomcat-远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2017-12617](CVE-2017-12617-scirusvulgaris_CVE-2017-12617.md) | CVE-2017-12617-Apache Tomcat-远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2017-12617](CVE-2017-12617-tyranteye666_tomcat-cve-2017-12617.md) | CVE-2017-12617 - Apache Tomcat JSP上传RCE | ⚪ N/A | 0 |
-| [CVE-2017-12617](CVE-2017-12617-yZeetje_CVE-2017-12617.md) | CVE-2017-12617-Apache Tomcat-远程代码执行 | ⚪ N/A | 0 |
+| [CVE-2017-12617](CVE-2017-12617-yZeetje_CVE-2017-12617.md) | CVE-2017-12617 | ⚪ N/A | 0 |
 | [CVE-2017-12617](CVE-2017-12617-ygouzerh_CVE-2017-12617.md) | CVE-2017-12617 - Apache Tomcat 远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2017-12629](CVE-2017-12629-captain-woof_cve-2017-12629.md) | CVE-2017-12629 - Apache Solr XXE/RCE | ⚪ N/A | 0 |
 | [CVE-2017-12637](CVE-2017-12637-abrewer251_CVE-2017-12637_SAP-NetWeaver-URL-Traversal.md) | CVE-2017-12637 SAP NetWeaver 目录遍历 | ⚪ N/A | 0 |
 | [CVE-2017-14735](CVE-2017-14735-shoucheng3_nahsra__antisamy_CVE-2017-14735_1-5-6.md) | CVE-2017-14735-OWASP AntiSamy-XSS | ⚪ N/A | 0 |
 | [CVE-2017-14980](CVE-2017-14980-LipeOzyy_CVE-2017-14980_syncbreeze_10.0.28_bof.md) | CVE-2017-14980-Sync Breeze Enterprise-缓冲区溢出 | ⚪ N/A | 0 |
 | [CVE-2017-14980](CVE-2017-14980-TheDarthMole_CVE-2017-14980.md) | CVE-2017-14980-Sync Breeze Enterprise-缓冲区溢出 | ⚪ N/A | 0 |
-| [CVE-2017-14980](CVE-2017-14980-xn0kkx_Exploit_Sync_Breeze_v10.0.28_CVE-2017-14980.md) | CVE-2017-14980-Sync Breeze Enterprise-缓冲区溢出 | ⚪ N/A | 0 |
+| [CVE-2017-14980](CVE-2017-14980-xn0kkx_Exploit_Sync_Breeze_v10.0.28_CVE-2017-14980.md) | CVE-2017-14980 | ⚪ N/A | 0 |
 | [CVE-2017-16995](CVE-2017-16995-Al1ex_CVE-2017-16995.md) | CVE-2017-16995-Linux Kernel-BPF权限提升 | ⚪ N/A | 0 |
 | [CVE-2017-16995](CVE-2017-16995-C0dak_CVE-2017-16995.md) | CVE-2017-16995 - Linux Kernel eBPF 权限提升 | ⚪ N/A | 0 |
 | [CVE-2017-16995](CVE-2017-16995-Lumindu_CVE-2017-16995-Linux-Kernel---BPF-Sign-Extension-Local-Privilege-Escalation-.md) | CVE-2017-16995-Linux Kernel-BPF 整数溢出 | ⚪ N/A | 0 |
@@ -152,12 +152,12 @@
 | [CVE-2017-17215](CVE-2017-17215-1337g_CVE-2017-17215.md) | CVE-2017-17215 - Huawei HG532 远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2017-17215](CVE-2017-17215-ltfafei_HuaWei_Route_HG532_RCE_CVE-2017-17215.md) | CVE-2017-17215 - Huawei HG532 远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2017-17215](CVE-2017-17215-pespir_Cve-2017-17215.md) | CVE-2017-17215 - Huawei HG532 远程代码执行 | ⚪ N/A | 0 |
-| [CVE-2017-17215](CVE-2017-17215-wilfred-wulbou_HG532d-RCE-Exploit.md) | CVE-2017-17215-Huawei-HG532-RCE | ⚪ N/A | 0 |
+| [CVE-2017-17215](CVE-2017-17215-wilfred-wulbou_HG532d-RCE-Exploit.md) | CVE-2017-17215 | ⚪ N/A | 0 |
 | [CVE-2017-17761](CVE-2017-17761-mirellesilvajs_iot-vuln-lab-cve-2017-17761.md) | CVE-2017-17761 - Ichano AtHome IP Camera 远程命令执行 | ⚪ N/A | 0 |
 | [CVE-2017-18362](CVE-2017-18362-yawningmoney_CVE-2017-18362-LAB.md) | CVE-2017-18362-KaseyaVSA-SQL注入 | ⚪ N/A | 0 |
 | [CVE-2017-5487](CVE-2017-5487-GeunSam2_CVE-2017-5487.md) | CVE-2017-5487-WordPress-信息泄露 | ⚪ N/A | 0 |
 | [CVE-2017-5487](CVE-2017-5487-K3ysTr0K3R_CVE-2017-5487-EXPLOIT.md) | CVE-2017-5487-WordPress-REST API 用户枚举 | ⚪ N/A | 0 |
-| [CVE-2017-5487](CVE-2017-5487-R3K1NG_wpUsersScan.md) | CVE-2017-5487 WordPress REST API 用户枚举 | ⚪ N/A | 0 |
+| [CVE-2017-5487](CVE-2017-5487-R3K1NG_wpUsersScan.md) | CVE-2017-5487 | ⚪ N/A | 0 |
 | [CVE-2017-5487](CVE-2017-5487-Ravindu-Priyankara_CVE-2017-5487-vulnerability-on-NSBM.md) | CVE-2017-5487-WordPress用户枚举漏洞 | ⚪ N/A | 0 |
 | [CVE-2017-5487](CVE-2017-5487-SeasonLeague_CVE-2017-5487.md) | CVE-2017-5487 - WordPress REST API 用户枚举 | ⚪ N/A | 0 |
 | [CVE-2017-5487](CVE-2017-5487-dream434_CVE-2017-5487.md) | CVE-2017-5487-WordPress-REST API 用户枚举 | ⚪ N/A | 0 |
@@ -199,13 +199,13 @@
 | [CVE-2017-5638](CVE-2017-5638-tahmed11_strutsy.md) | CVE-2017-5638 Apache Struts 远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2017-5638](CVE-2017-5638-testpilot031_vulnerability_struts-2.3.31.md) | CVE-2017-5638-Apache Struts2-远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2017-5638](CVE-2017-5638-toothbrushsoapflannelbiscuits_cve-2017-5638.md) | CVE-2017-5638-Apache Struts2-远程代码执行 | ⚪ N/A | 0 |
-| [CVE-2017-5638](CVE-2017-5638-un4ckn0wl3z_CVE-2017-5638.md) | CVE-2017-5638-Apache Struts2-远程代码执行 | ⚪ N/A | 0 |
+| [CVE-2017-5638](CVE-2017-5638-un4ckn0wl3z_CVE-2017-5638.md) | CVE-2017-5638 | ⚪ N/A | 0 |
 | [CVE-2017-5941](CVE-2017-5941-Frivolous-scholar_CVE-2017-5941-NodeJS-RCE.md) | CVE-2017-5941-node-serialize远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2017-5941](CVE-2017-5941-kylew1004_cve-2017-5941-poc-docker-lab.md) | CVE-2017-5941 - node-serialize 反序列化RCE | ⚪ N/A | 0 |
-| [CVE-2017-5941](CVE-2017-5941-turnernator1_Node.js-CVE-2017-5941.md) | CVE-2017-5941-node-serialize-反序列化漏洞 | ⚪ N/A | 0 |
+| [CVE-2017-5941](CVE-2017-5941-turnernator1_Node.js-CVE-2017-5941.md) | CVE-2017-5941 | ⚪ N/A | 0 |
 | [CVE-2017-5941](CVE-2017-5941-uartu0_nodejshell.md) | CVE-2017-5941-node-serialize-远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2017-6074](CVE-2017-6074-34zY_CVE-2017-6074-DOS.md) | CVE-2017-6074 - Linux DCCP Double-Free | ⚪ N/A | 0 |
-| [CVE-2017-6074](CVE-2017-6074-BimsaraMalinda_Linux-Kernel-4.4.0-Ubuntu---DCCP-Double-Free-Privilege-Escalation-CVE-2017-6074.md) | CVE-2017-6074-Linux Kernel DCCP Double-Free | ⚪ N/A | 0 |
+| [CVE-2017-6074](CVE-2017-6074-BimsaraMalinda_Linux-Kernel-4.4.0-Ubuntu---DCCP-Double-Free-Privilege-Escalation-CVE-2017-6074.md) | CVE-2017-6074 | ⚪ N/A | 0 |
 | [CVE-2017-6074](CVE-2017-6074-toanthang1842002_CVE-2017-6074.md) | CVE-2017-6074 - Linux Kernel DCCP Double-Free | ⚪ N/A | 0 |
 | [CVE-2017-7117](CVE-2017-7117-rebelle3_cve-2017-7117.md) | CVE-2017-7117-WebKit-类型混淆和UAF | ⚪ N/A | 0 |
 | [CVE-2017-7184](CVE-2017-7184-b1nhack_CVE-2017-7184.md) | CVE-2017-7184-Linux Kernel-XFRM heap out-of-bounds access | ⚪ N/A | 0 |
@@ -219,7 +219,7 @@
 | [CVE-2017-7269](CVE-2017-7269-geniuszly_CVE-2017-7269.md) | CVE-2017-7269 - Microsoft IIS 6.0 WebDAV 缓冲区溢出 | ⚪ N/A | 0 |
 | [CVE-2017-7269](CVE-2017-7269-h3x0v3rl0rd_CVE-2017-7269.md) | CVE-2017-7269-IIS6-缓冲区溢出 | ⚪ N/A | 0 |
 | [CVE-2017-7269](CVE-2017-7269-homjxi0e_cve-2017-7269.md) | CVE-2017-7269 - Microsoft IIS 6.0 WebDAV 缓冲区溢出 | ⚪ N/A | 0 |
-| [CVE-2017-7269](CVE-2017-7269-lcatro_CVE-2017-7269-Echo-PoC.md) | CVE-2017-7269-IIS 6.0-缓冲区溢出 | ⚪ N/A | 0 |
+| [CVE-2017-7269](CVE-2017-7269-lcatro_CVE-2017-7269-Echo-PoC.md) | CVE-2017-7269 | ⚪ N/A | 0 |
 | [CVE-2017-7269](CVE-2017-7269-nika0x38_CVE-2017-7269.md) | CVE-2017-7269 - Microsoft IIS 6.0 WebDAV 缓冲区溢出 | ⚪ N/A | 0 |
 | [CVE-2017-7269](CVE-2017-7269-slimpagey_IIS_6.0_WebDAV_Ruby.md) | CVE-2017-7269 | ⚪ N/A | 0 |
 | [CVE-2017-7269](CVE-2017-7269-zcgonvh_cve-2017-7269-tool.md) | CVE-2017-7269-Microsoft IIS 6.0 WebDAV Buffer Overflow | ⚪ N/A | 0 |
@@ -240,8 +240,8 @@
 | [CVE-2017-7494](CVE-2017-7494-incredible1yu_CVE-2017-7494.md) | CVE-2017-7494-Samba-远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2017-7494](CVE-2017-7494-john-80_cve-2017-7494.md) | CVE-2017-7494-Samba-远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2017-7494](CVE-2017-7494-joxeankoret_CVE-2017-7494.md) | CVE-2017-7494-Samba-远程代码执行 | ⚪ N/A | 0 |
-| [CVE-2017-7494](CVE-2017-7494-opsxcq_exploit-CVE-2017-7494.md) | CVE-2017-7494-Samba-远程代码执行 | ⚪ N/A | 0 |
-| [CVE-2017-7529](CVE-2017-7529-CalebFIN_EXP-CVE-2017-75.md) | CVE-2017-7529-Nginx-Integer Overflow | ⚪ N/A | 0 |
+| [CVE-2017-7494](CVE-2017-7494-opsxcq_exploit-CVE-2017-7494.md) | CVE-2017-7494 | ⚪ N/A | 0 |
+| [CVE-2017-7529](CVE-2017-7529-CalebFIN_EXP-CVE-2017-75.md) | CVE-2017-7529 | ⚪ N/A | 0 |
 | [CVE-2017-7529](CVE-2017-7529-Fenil2511_CVE-2017-7529-POC.md) | CVE-2017-7529-Nginx Range Filter Integer Overflow | ⚪ N/A | 0 |
 | [CVE-2017-7529](CVE-2017-7529-MaxSecurity_CVE-2017-7529-POC.md) | CVE-2017-7529-Nginx 整数溢出导致信息泄露 | ⚪ N/A | 0 |
 | [CVE-2017-7529](CVE-2017-7529-Shehzadcyber_CVE-2017-7529.md) | CVE-2017-7529-Nginx Range Filter Integer Overflow | ⚪ N/A | 0 |
@@ -263,7 +263,7 @@
 | [CVE-2017-7921](CVE-2017-7921-AnonkiGroup_AnonHik.md) | CVE-2017-7921-Hikvision摄像机-不当身份验证 | ⚪ N/A | 0 |
 | [CVE-2017-7921](CVE-2017-7921-BurnyMcDull_CVE-2017-7921.md) | CVE-2017-7921-Hikvision摄像机未授权访问 | ⚪ N/A | 0 |
 | [CVE-2017-7921](CVE-2017-7921-GabrielAvls_CVE-2017-7921.md) | CVE-2017-7921 Hikvision Camera Improper Authentication | ⚪ N/A | 0 |
-| [CVE-2017-7921](CVE-2017-7921-JrDw0_CVE-2017-7921-EXP.md) | CVE-2017-7921-Hikvision摄像头身份验证绕过 | ⚪ N/A | 0 |
+| [CVE-2017-7921](CVE-2017-7921-JrDw0_CVE-2017-7921-EXP.md) | CVE-2017-7921 | ⚪ N/A | 0 |
 | [CVE-2017-7921](CVE-2017-7921-K3ysTr0K3R_CVE-2017-7921-EXPLOIT.md) | CVE-2017-7921 - Hikvision摄像机未授权访问漏洞 | ⚪ N/A | 0 |
 | [CVE-2017-7921](CVE-2017-7921-MisakaMikato_cve-2017-7921-golang.md) | CVE-2017-7921-Hikvision摄像机身份验证绕过 | ⚪ N/A | 0 |
 | [CVE-2017-7921](CVE-2017-7921-aengussong_hikvision_probe.md) | CVE-2017-7921-Hikvision摄像机-不当身份验证 | ⚪ N/A | 0 |
@@ -278,9 +278,9 @@
 | [CVE-2017-7921](CVE-2017-7921-yousouf-Tasfin_cve-2017-7921-Mass-Exploit.md) | CVE-2017-7921-Hikvision摄像头未授权访问 | ⚪ N/A | 0 |
 | [CVE-2017-8291](CVE-2017-8291-hkcfs_PIL-CVE-2017-8291.md) | CVE-2017-8291-Ghostscript-远程命令执行 | ⚪ N/A | 0 |
 | [CVE-2017-8291](CVE-2017-8291-shun1403_CVE-2017-8291.md) | CVE-2017-8291-Ghostscript远程命令执行 | ⚪ N/A | 0 |
-| [CVE-2017-8291](CVE-2017-8291-shun1403_PIL-CVE-2017-8291-study.md) | CVE-2017-8291-Ghostscript-远程命令执行 | ⚪ N/A | 0 |
+| [CVE-2017-8291](CVE-2017-8291-shun1403_PIL-CVE-2017-8291-study.md) | CVE-2017-8291 | ⚪ N/A | 0 |
 | [CVE-2017-8481](CVE-2017-8481-TamatahYT_CVE-2017-8481.md) | CVE-2017-8481 Windows Kernel Information Disclosure Vulnerab... | ⚪ N/A | 0 |
-| [CVE-2017-8917](CVE-2017-8917-AkuCyberSec_CVE-2017-8917-Joomla-370-SQL-Injection.md) | CVE-2017-8917 - Joomla SQL注入 | ⚪ N/A | 0 |
+| [CVE-2017-8917](CVE-2017-8917-AkuCyberSec_CVE-2017-8917-Joomla-370-SQL-Injection.md) | CVE-2017-8917 | ⚪ N/A | 0 |
 | [CVE-2017-8917](CVE-2017-8917-BaptisteContreras_CVE-2017-8917-Joomla.md) | CVE-2017-8917-Joomla-SQL注入 | ⚪ N/A | 0 |
 | [CVE-2017-8917](CVE-2017-8917-Siopy_CVE-2017-8917.md) | CVE-2017-8917 - Joomla 3.7.0 'com_fields' SQL注入 | ⚪ N/A | 0 |
 | [CVE-2017-8917](CVE-2017-8917-brianwrf_Joomla3.7-SQLi-CVE-2017-8917.md) | CVE-2017-8917-Joomla-SQL注入 | ⚪ N/A | 0 |
@@ -292,18 +292,18 @@
 | [CVE-2017-8917](CVE-2017-8917-xcalts_CVE-2017-8917.md) | CVE-2017-8917 - Joomla! SQL注入 | ⚪ N/A | 0 |
 | [CVE-2017-9248](CVE-2017-9248-0xsharz_telerik-scanner-cve-2017-9248.md) | CVE-2017-9248 - Telerik UI for ASP.NET AJAX 漏洞 | ⚪ N/A | 0 |
 | [CVE-2017-9248](CVE-2017-9248-bao7uo_dp_crypto.md) | CVE-2017-9248 - Telerik UI for ASP.NET AJAX Cryptographic We... | ⚪ N/A | 0 |
-| [CVE-2017-9248](CVE-2017-9248-blacklanternsecurity_dp_cryptomg.md) | CVE-2017-9248 - Telerik UI for ASP.NET AJAX 漏洞 | ⚪ N/A | 0 |
+| [CVE-2017-9248](CVE-2017-9248-blacklanternsecurity_dp_cryptomg.md) | CVE-2017-9248 | ⚪ N/A | 0 |
 | [CVE-2017-9248](CVE-2017-9248-capt-meelo_Telewreck.md) | CVE-2017-9248 - Telerik UI for ASP.NET AJAX Cryptographic We... | ⚪ N/A | 0 |
 | [CVE-2017-9248](CVE-2017-9248-cehamod_UI_CVE-2017-9248.md) | CVE-2017-9248 - Telerik UI for ASP.NET AJAX Cryptographic We... | ⚪ N/A | 0 |
 | [CVE-2017-9248](CVE-2017-9248-ictnamanh_CVE-2017-9248.md) | CVE-2017-9248 - Telerik UI for ASP.NET AJAX Cryptographic We... | ⚪ N/A | 0 |
 | [CVE-2017-9248](CVE-2017-9248-oldboysonnt_dp.md) | CVE-2017-9248 - Telerik UI for ASP.NET AJAX Cryptographic We... | ⚪ N/A | 0 |
 | [CVE-2017-9822](CVE-2017-9822-Tnot123_cve-2017-9822.md) | CVE-2017-9822 DotNetNuke Cookie 反序列化 RCE | ⚪ N/A | 0 |
-| [CVE-2017-9822](CVE-2017-9822-murataydemir_CVE-2017-9822.md) | CVE-2017-9822 DotNetNuke Cookie Deserialization RCE | ⚪ N/A | 0 |
+| [CVE-2017-9822](CVE-2017-9822-murataydemir_CVE-2017-9822.md) | CVE-2017-9822 | ⚪ N/A | 0 |
 | [CVE-2017-9841](CVE-2017-9841-Chocapikk_CVE-2017-9841.md) | CVE-2017-9841-PHPUnit-远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2017-9841](CVE-2017-9841-Habibullah1101_PHPUnit-GoScan.md) | CVE-2017-9841 PHPUnit 远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2017-9841](CVE-2017-9841-K3ysTr0K3R_CVE-2017-9841-EXPLOIT.md) | CVE-2017-9841-PHPUnit远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2017-9841](CVE-2017-9841-MadExploits_PHPunit-Exploit.md) | CVE-2017-9841-PHPUnit-RCE | ⚪ N/A | 0 |
-| [CVE-2017-9841](CVE-2017-9841-MrG3P5_CVE-2017-9841.md) | CVE-2017-9841-PHPUnit-远程代码执行 | ⚪ N/A | 0 |
+| [CVE-2017-9841](CVE-2017-9841-MrG3P5_CVE-2017-9841.md) | CVE-2017-9841 | ⚪ N/A | 0 |
 | [CVE-2017-9841](CVE-2017-9841-Pwdnx1337_CVE-2017-9841.md) | CVE-2017-9841-PHPUnit-远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2017-9841](CVE-2017-9841-RandomRobbieBF_phpunit-brute.md) | CVE-2017-9841-PHPUnit-远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2017-9841](CVE-2017-9841-akr3ch_CVE-2017-9841.md) | CVE-2017-9841-PHPUnit-远程代码执行 | ⚪ N/A | 0 |

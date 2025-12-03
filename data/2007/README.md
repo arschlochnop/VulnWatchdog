@@ -23,7 +23,7 @@
 | [CVE-2007-2447](CVE-2007-2447-MrRoma577_exploit_cve-2007-2447_again.md) | CVE-2007-2447-Samba-远程命令执行 | ⚪ N/A | 0 |
 | [CVE-2007-2447](CVE-2007-2447-Nosferatuvjr_Samba-Usermap-exploit.md) | CVE-2007-2447 - Samba usermap 远程命令注入 | ⚪ N/A | 0 |
 | [CVE-2007-2447](CVE-2007-2447-ShivamDey_Samba-CVE-2007-2447-Exploit.md) | CVE-2007-2447-Samba-远程命令执行 | ⚪ N/A | 0 |
-| [CVE-2007-2447](CVE-2007-2447-WildfootW_CVE-2007-2447_Samba_3.0.25rc3.md) | CVE-2007-2447 - Samba usermap script命令注入 | ⚪ N/A | 0 |
+| [CVE-2007-2447](CVE-2007-2447-WildfootW_CVE-2007-2447_Samba_3.0.25rc3.md) | CVE-2007-2447 | ⚪ N/A | 0 |
 | [CVE-2007-2447](CVE-2007-2447-Ziemni_CVE-2007-2447-in-Python.md) | CVE-2007-2447-Samba-远程命令执行 | ⚪ N/A | 0 |
 | [CVE-2007-2447](CVE-2007-2447-amriunix_CVE-2007-2447.md) | CVE-2007-2447-Samba-远程命令注入 | ⚪ N/A | 0 |
 | [CVE-2007-2447](CVE-2007-2447-b1fair_smb_usermap.md) | CVE-2007-2447-Samba-远程命令执行 | ⚪ N/A | 0 |
@@ -39,12 +39,12 @@
 | [CVE-2007-2447](CVE-2007-2447-xbufu_CVE-2007-2447.md) | CVE-2007-2447 - Samba 命令注入 | ⚪ N/A | 0 |
 | [CVE-2007-2447](CVE-2007-2447-xlcc4096_exploit-CVE-2007-2447.md) | CVE-2007-2447-Samba-远程命令执行 | ⚪ N/A | 0 |
 | [CVE-2007-4559](CVE-2007-4559-Ooscaar_MALW.md) | CVE-2007-4559 - Python tarfile 目录遍历漏洞 | ⚪ N/A | 0 |
-| [CVE-2007-4559](CVE-2007-4559-advanced-threat-research_Creosote.md) | CVE-2007-4559-Python tarfile 目录遍历漏洞 | ⚪ N/A | 0 |
+| [CVE-2007-4559](CVE-2007-4559-advanced-threat-research_Creosote.md) | CVE-2007-4559 | ⚪ N/A | 0 |
 | [CVE-2007-4559](CVE-2007-4559-davidholiday_CVE-2007-4559.md) | CVE-2007-4559 Python tarfile 目录遍历漏洞 | ⚪ N/A | 0 |
 | [CVE-2007-4559](CVE-2007-4559-depers-rus_CVE-2007-4559.md) | CVE-2007-4559-Python tarfile 目录遍历漏洞 | ⚪ N/A | 0 |
 | [CVE-2007-4559](CVE-2007-4559-luigigubello_trellix-tarslip-patch-bypass.md) | CVE-2007-4559 Python tarfile 目录穿越漏洞 | ⚪ N/A | 0 |
 | [CVE-2007-6750](CVE-2007-6750-Jeanpseven_slowl0ris.md) | CVE-2007-6750 - Apache HTTP Server Slowloris DoS | ⚪ N/A | 0 |
-| [CVE-2007-6750](CVE-2007-6750-RhzVenom_CVE-2007-6750.md) | CVE-2007-6750 Slowloris DoS | ⚪ N/A | 0 |
+| [CVE-2007-6750](CVE-2007-6750-RhzVenom_CVE-2007-6750.md) | CVE-2007-6750 | ⚪ N/A | 0 |
 
 ---
 

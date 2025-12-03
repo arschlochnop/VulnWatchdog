@@ -9,7 +9,7 @@
 | CVE编号 | 标题 | 严重程度 | POC仓库数 |
 |---------|------|----------|-----------|
 | [CVE-2010-1240](CVE-2010-1240-12345qwert123456_CVE-2010-1240.md) | CVE-2010-1240-Adobe Reader Launch File 任意代码执行 | ⚪ N/A | 0 |
-| [CVE-2010-1240](CVE-2010-1240-Jasmoon99_Embedded-PDF.md) | CVE-2010-1240 Adobe Reader PDF Embedded Executable Execution | ⚪ N/A | 0 |
+| [CVE-2010-1240](CVE-2010-1240-Jasmoon99_Embedded-PDF.md) | CVE-2010-1240 | ⚪ N/A | 0 |
 | [CVE-2010-1240](CVE-2010-1240-asepsaepdin_CVE-2010-1240.md) | CVE-2010-1240 - Adobe Reader/Acrobat 文件执行漏洞 | ⚪ N/A | 0 |
 | [CVE-2010-1240](CVE-2010-1240-omarothmann_Embedded-Backdoor-Connection.md) | CVE-2010-1240 Adobe Reader PDF 嵌入式可执行文件执行漏洞 | ⚪ N/A | 0 |
 | [CVE-2010-1872](CVE-2010-1872-LipeOzyy_CVE-2010-1872-BlazeDVD-SEH-Exploit.md) | CVE-2010-1872-FlashCard-XSS | ⚪ N/A | 0 |

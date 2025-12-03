@@ -12,7 +12,7 @@
 | [CVE-2018-0114](CVE-2018-0114-Logeirs_CVE-2018-0114.md) | CVE-2018-0114-Node-jose-JWT签名伪造 | ⚪ N/A | 0 |
 | [CVE-2018-0114](CVE-2018-0114-Pandora-research_CVE-2018-0114-Exploit.md) | CVE-2018-0114-Node-jose-JWT 签名伪造 | ⚪ N/A | 0 |
 | [CVE-2018-0114](CVE-2018-0114-Starry-lord_CVE-2018-0114.md) | CVE-2018-0114 - Node-jose Library JWT 签名伪造 | ⚪ N/A | 0 |
-| [CVE-2018-0114](CVE-2018-0114-adityathebe_POC-CVE-2018-0114.md) | CVE-2018-0114-Node-jose-JWT密钥混淆 | ⚪ N/A | 0 |
+| [CVE-2018-0114](CVE-2018-0114-adityathebe_POC-CVE-2018-0114.md) | CVE-2018-0114 | ⚪ N/A | 0 |
 | [CVE-2018-0114](CVE-2018-0114-amr9k8_jwt-spoof-tool.md) | CVE-2018-0114-Node-jose-JWT 签名绕过 | ⚪ N/A | 0 |
 | [CVE-2018-0114](CVE-2018-0114-j4k0m_CVE-2018-0114.md) | CVE-2018-0114 Node-jose JWT 签名伪造 | ⚪ N/A | 0 |
 | [CVE-2018-0114](CVE-2018-0114-mmeza-developer_CVE-2018-0114.md) | CVE-2018-0114 - Node-jose Library JWT 签名伪造 | ⚪ N/A | 0 |
@@ -22,17 +22,17 @@
 | [CVE-2018-0114](CVE-2018-0114-zi0Black_POC-CVE-2018-0114.md) | CVE-2018-0114-Node-jose-JWT 签名绕过 | ⚪ N/A | 0 |
 | [CVE-2018-0239](CVE-2018-0239-mr-won_CVE-2018-0239.md) | CVE-2018-0239 - Cisco StarOS Interface Forwarding Denial of ... | ⚪ N/A | 0 |
 | [CVE-2018-10001](CVE-2018-10001-dsfau_CVE-2018-1000199.md) | CVE-2018-10001 | ⚪ N/A | 0 |
-| [CVE-2018-10001](CVE-2018-10001-s0_rsyslog-librelp-CVE-2018-1000140-fixed.md) | CVE-2018-10001-FFmpeg-Out-of-array-read | ⚪ N/A | 0 |
+| [CVE-2018-10001](CVE-2018-10001-s0_rsyslog-librelp-CVE-2018-1000140-fixed.md) | CVE-2018-10001 | ⚪ N/A | 0 |
 | [CVE-2018-10001](CVE-2018-10001-s0_rsyslog-librelp-CVE-2018-1000140.md) | CVE-2018-10001-FFmpeg-拒绝服务 | ⚪ N/A | 0 |
 | [CVE-2018-10001](CVE-2018-10001-shoucheng3_rhuss__jolokia_CVE-2018-1000129_1-4-0.md) | CVE-2018-10001-FFmpeg-utvideodec.c-拒绝服务 | ⚪ N/A | 0 |
 | [CVE-2018-10001](CVE-2018-10001-u0pattern_CVE-2018-1000117-Exploit.md) | CVE-2018-10001 | ⚪ N/A | 0 |
-| [CVE-2018-10008](CVE-2018-10008-shoucheng3_square__retrofit_CVE-2018-1000850_2-4-0.md) | CVE-2018-10008XXE漏洞分析 | ⚪ N/A | 0 |
+| [CVE-2018-10008](CVE-2018-10008-shoucheng3_square__retrofit_CVE-2018-1000850_2-4-0.md) | CVE-2018-10008 | ⚪ N/A | 0 |
 | [CVE-2018-10008](CVE-2018-10008-smokeintheshell_CVE-2018-1000861.md) | CVE-2018-1000861 - Jenkins 未授权远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2018-10008](CVE-2018-10008-tna0y_CVE-2018-1000802-PoC.md) | CVE-2018-1000802 | ⚪ N/A | 0 |
 | [CVE-2018-10022](CVE-2018-10022-ossf-cve-benchmark_CVE-2018-1002203.md) | CVE-2018-1002204/CVE-2018-1002208-node-unzipper/SharpZipLib目... | ⚪ N/A | 0 |
 | [CVE-2018-10022](CVE-2018-10022-ossf-cve-benchmark_CVE-2018-1002204.md) | CVE-2018-10022 系列漏洞（推测） | ⚪ N/A | 0 |
 | [CVE-2018-10022](CVE-2018-10022-shoucheng3_codehaus-plexus__plexus-archiver_CVE-2018-1002200_3-5.md) | CVE-2018-10022 | ⚪ N/A | 0 |
-| [CVE-2018-10022](CVE-2018-10022-shoucheng3_srikanth-lingala__zip4j_CVE-2018-1002202_1-3-2.md) | CVE-2018-1002202 - zip4j Path Traversal | ⚪ N/A | 0 |
+| [CVE-2018-10022](CVE-2018-10022-shoucheng3_srikanth-lingala__zip4j_CVE-2018-1002202_1-3-2.md) | CVE-2018-10022 | ⚪ N/A | 0 |
 | [CVE-2018-10022](CVE-2018-10022-shoucheng3_zeroturnaround__zt-zip_CVE-2018-1002201_1-12.md) | CVE-2018-1002204 adm-zip 目录遍历漏洞 | ⚪ N/A | 0 |
 | [CVE-2018-1047](CVE-2018-1047-shoucheng3_wildfly__wildfly_CVE-2018-1047_11-0-0-Final.md) | CVE-2018-1047-Wildfly-路径遍历 | ⚪ N/A | 0 |
 | [CVE-2018-1049](CVE-2018-1049-lukehebe_CVE-2018-1049.md) | CVE-2018-1049-Systemd-DoS | ⚪ N/A | 0 |
@@ -57,7 +57,7 @@
 | [CVE-2018-10933](CVE-2018-10933-kristyna-mlcakova_CVE-2018-10933.md) | CVE-2018-10933 - libssh Authentication Bypass | ⚪ N/A | 0 |
 | [CVE-2018-10933](CVE-2018-10933-nikhil1232_LibSSH-Authentication-Bypass.md) | CVE-2018-10933 - libssh Authentication Bypass | ⚪ N/A | 0 |
 | [CVE-2018-10933](CVE-2018-10933-pghook_CVE-2018-10933_Scanner.md) | CVE-2018-10933-libssh身份验证绕过 | ⚪ N/A | 0 |
-| [CVE-2018-10933](CVE-2018-10933-r3dxpl0it_CVE-2018-10933.md) | CVE-2018-10933-libssh-认证绕过 | ⚪ N/A | 0 |
+| [CVE-2018-10933](CVE-2018-10933-r3dxpl0it_CVE-2018-10933.md) | CVE-2018-10933 | ⚪ N/A | 0 |
 | [CVE-2018-10933](CVE-2018-10933-reanimat0r_bpnd-libssh.md) | CVE-2018-10933-libssh-认证绕过 | ⚪ N/A | 0 |
 | [CVE-2018-10933](CVE-2018-10933-sambiyal_CVE-2018-10933-POC.md) | CVE-2018-10933-libssh身份验证绕过 | ⚪ N/A | 0 |
 | [CVE-2018-10933](CVE-2018-10933-shifa123_pythonprojects-CVE-2018-10933.md) | CVE-2018-10933-libssh认证绕过 | ⚪ N/A | 0 |
@@ -71,7 +71,7 @@
 | [CVE-2018-11776](CVE-2018-11776-Ekultek_Strutter.md) | CVE-2018-11776-Apache Struts远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2018-11776](CVE-2018-11776-OzNetNerd_apche-struts-vuln-demo-cve-2018-11776.md) | CVE-2018-11776-Apache Struts远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2018-11776](CVE-2018-11776-arlyone_Apache-Struts-0Day-Exploit.md) | CVE-2018-11776-Apache Struts-远程代码执行 | ⚪ N/A | 0 |
-| [CVE-2018-11776](CVE-2018-11776-bhdresh_CVE-2018-11776.md) | CVE-2018-11776-Apache Struts远程代码执行 | ⚪ N/A | 0 |
+| [CVE-2018-11776](CVE-2018-11776-bhdresh_CVE-2018-11776.md) | CVE-2018-11776 | ⚪ N/A | 0 |
 | [CVE-2018-11776](CVE-2018-11776-brianwrf_S2-057-CVE-2018-11776.md) | CVE-2018-11776 Apache Struts 远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2018-11776](CVE-2018-11776-cucadili_CVE-2018-11776.md) | CVE-2018-11776 Apache Struts2 远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2018-11776](CVE-2018-11776-cved-sources_cve-2018-11776.md) | CVE-2018-11776 Apache Struts 远程代码执行 | ⚪ N/A | 0 |
@@ -85,21 +85,21 @@
 | [CVE-2018-11776](CVE-2018-11776-tuxotron_cve-2018-11776-docker.md) | CVE-2018-11776-Apache Struts2-远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2018-11776](CVE-2018-11776-xfox64x_CVE-2018-11776.md) | CVE-2018-11776 - Apache Struts Remote Code Execution | ⚪ N/A | 0 |
 | [CVE-2018-12036](CVE-2018-12036-shoucheng3_jeremylong__DependencyCheck_CVE-2018-12036_3-1-2.md) | CVE-2018-12036-OWASP Dependency-Check-Zip Slip | ⚪ N/A | 0 |
-| [CVE-2018-1207](CVE-2018-1207-SYNKTeam_CVE-2018-1207.md) | CVE-2018-1207 Dell iDRAC7/iDRAC8 远程代码执行 | ⚪ N/A | 0 |
+| [CVE-2018-1207](CVE-2018-1207-SYNKTeam_CVE-2018-1207.md) | CVE-2018-1207 | ⚪ N/A | 0 |
 | [CVE-2018-1207](CVE-2018-1207-mgargiullo_cve-2018-1207.md) | CVE-2018-1207-Dell iDRAC7/iDRAC8 CGI 注入 | ⚪ N/A | 0 |
 | [CVE-2018-12533](CVE-2018-12533-Pastea_CVE-2018-12533.md) | CVE-2018-12533-JBoss RichFaces-EL表达式注入 | ⚪ N/A | 0 |
 | [CVE-2018-12533](CVE-2018-12533-llamaonsecurity_CVE-2018-12533.md) | CVE-2018-12533-RichFaces-EL表达式注入 | ⚪ N/A | 0 |
-| [CVE-2018-12533](CVE-2018-12533-mhagnumdw_richfaces-vulnerability-cve-2018-12533-rf-14310.md) | CVE-2018-12533-JBoss RichFaces-EL表达式注入 | ⚪ N/A | 0 |
+| [CVE-2018-12533](CVE-2018-12533-mhagnumdw_richfaces-vulnerability-cve-2018-12533-rf-14310.md) | CVE-2018-12533 | ⚪ N/A | 0 |
 | [CVE-2018-12542](CVE-2018-12542-shoucheng3_vert-x3__vertx-web_CVE-2018-12542_3-5-3-CR1.md) | CVE-2018-12542-Eclipse Vert.x-路径遍历 | ⚪ N/A | 0 |
 | [CVE-2018-1260](CVE-2018-1260-shoucheng3_SpringSource__spring-security-oauth_CVE-2018-1260_2-3-2-RELEASE.md) | CVE-2018-1260 - Spring Security OAuth 远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2018-1273](CVE-2018-1273-cved-sources_cve-2018-1273.md) | CVE-2018-1273-Spring Data Commons-远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2018-1273](CVE-2018-1273-hdgokani_CVE-2018-1273.md) | CVE-2018-1273-Spring Data Commons-远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2018-1273](CVE-2018-1273-jas502n_cve-2018-1273.md) | CVE-2018-1273 Spring Data Commons RCE | ⚪ N/A | 0 |
-| [CVE-2018-1273](CVE-2018-1273-knqyf263_CVE-2018-1273.md) | CVE-2018-1273-SpringDataCommons-RCE | ⚪ N/A | 0 |
+| [CVE-2018-1273](CVE-2018-1273-knqyf263_CVE-2018-1273.md) | CVE-2018-1273 | ⚪ N/A | 0 |
 | [CVE-2018-1273](CVE-2018-1273-wearearima_poc-cve-2018-1273.md) | CVE-2018-1273-Spring Data Commons-远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2018-1273](CVE-2018-1273-webr0ck_poc-cve-2018-1273.md) | CVE-2018-1273-Spring Data Commons RCE | ⚪ N/A | 0 |
 | [CVE-2018-13379](CVE-2018-13379-0xHunter_FortiOS-Credentials-Disclosure.md) | CVE-2018-13379 Fortinet FortiOS/FortiProxy SSL VPN 路径遍历漏洞 | ⚪ N/A | 0 |
-| [CVE-2018-13379](CVE-2018-13379-B1anda0_CVE-2018-13379.md) | CVE-2018-13379 - Fortinet FortiOS/FortiProxy 路径遍历漏洞 | ⚪ N/A | 0 |
+| [CVE-2018-13379](CVE-2018-13379-B1anda0_CVE-2018-13379.md) | CVE-2018-13379 | ⚪ N/A | 0 |
 | [CVE-2018-13379](CVE-2018-13379-Blazz3_cve2018-13379-nmap-script.md) | CVE-2018-13379-FortiOS/FortiProxy-路径遍历 | ⚪ N/A | 0 |
 | [CVE-2018-13379](CVE-2018-13379-Zeop-CyberSec_fortios_vpnssl_traversal_leak.md) | CVE-2018-13379 - Fortinet FortiOS/FortiProxy SSL VPN 路径遍历 | ⚪ N/A | 0 |
 | [CVE-2018-13379](CVE-2018-13379-jpiechowka_at-doom-fortigate.md) | CVE-2018-13379 - Fortinet FortiOS/FortiProxy 路径遍历漏洞 | ⚪ N/A | 0 |
@@ -110,10 +110,10 @@
 | [CVE-2018-13379](CVE-2018-13379-pwn3z_CVE-2018-13379-FortinetVPN.md) | CVE-2018-13379-FortinetVPN 路径遍历 | ⚪ N/A | 0 |
 | [CVE-2018-13379](CVE-2018-13379-yukar1z0e_CVE-2018-13379.md) | CVE-2018-13379-Fortinet-Path Traversal | ⚪ N/A | 0 |
 | [CVE-2018-14324](CVE-2018-14324-matejsmycka_CVE-2018-14324-Exploit.md) | CVE-2018-14324 - Oracle GlassFish Open Source Edition JMX RM... | ⚪ N/A | 0 |
-| [CVE-2018-14498](CVE-2018-14498-h31md4llr_libjpeg_cve-2018-14498.md) | CVE-2018-14498-libjpeg-turbo/MozJPEG-堆缓冲区过度读取 | ⚪ N/A | 0 |
+| [CVE-2018-14498](CVE-2018-14498-h31md4llr_libjpeg_cve-2018-14498.md) | CVE-2018-14498 | ⚪ N/A | 0 |
 | [CVE-2018-14498](CVE-2018-14498-h31md4llr_libjpeg_cve-2018-14498_2.md) | CVE-2018-14498-libjpeg-turbo/MozJPEG-堆缓冲区过读 | ⚪ N/A | 0 |
 | [CVE-2018-14714](CVE-2018-14714-BTtea_CVE-2018-14714-RCE-exploit.md) | CVE-2018-14714-ASUS RT-AC3200-命令注入 | ⚪ N/A | 0 |
-| [CVE-2018-14714](CVE-2018-14714-BreadSquad_TimeInjector.md) | CVE-2018-14714-ASUS RT-AC3200-命令注入 | ⚪ N/A | 0 |
+| [CVE-2018-14714](CVE-2018-14714-BreadSquad_TimeInjector.md) | CVE-2018-14714 | ⚪ N/A | 0 |
 | [CVE-2018-14714](CVE-2018-14714-sunn1day_CVE-2018-14714-POC.md) | CVE-2018-14714-ASUS RT-AC3200 命令注入 | ⚪ N/A | 0 |
 | [CVE-2018-14714](CVE-2018-14714-tin-z_CVE-2018-14714-POC.md) | CVE-2018-14714-ASUS RT-AC3200 appGet.cgi 命令注入 | ⚪ N/A | 0 |
 | [CVE-2018-14847](CVE-2018-14847-BasuCert_WinboxPoC.md) | CVE-2018-14847-MikroTik RouterOS-目录遍历 | ⚪ N/A | 0 |
@@ -124,7 +124,7 @@
 | [CVE-2018-14847](CVE-2018-14847-jas502n_CVE-2018-14847.md) | CVE-2018-14847 - MikroTik RouterOS WinBox Directory Traversa... | ⚪ N/A | 0 |
 | [CVE-2018-14847](CVE-2018-14847-mahmoodsabir_mikrotik-beast.md) | CVE-2018-14847 - MikroTik RouterOS WinBox Directory Traversa... | ⚪ N/A | 0 |
 | [CVE-2018-14847](CVE-2018-14847-msterusky_WinboxExploit.md) | CVE-2018-14847-MikroTik RouterOS-目录遍历 | ⚪ N/A | 0 |
-| [CVE-2018-14847](CVE-2018-14847-sinichi449_Python-MikrotikLoginExploit.md) | CVE-2018-14847-MikroTik RouterOS-目录遍历 | ⚪ N/A | 0 |
+| [CVE-2018-14847](CVE-2018-14847-sinichi449_Python-MikrotikLoginExploit.md) | CVE-2018-14847 | ⚪ N/A | 0 |
 | [CVE-2018-14847](CVE-2018-14847-syrex1013_MikroRoot.md) | CVE-2018-14847-MikroTik RouterOS-目录遍历 | ⚪ N/A | 0 |
 | [CVE-2018-14847](CVE-2018-14847-tausifzaman_CVE-2018-14847.md) | CVE-2018-14847 - MikroTik RouterOS WinBox 目录遍历漏洞 | ⚪ N/A | 0 |
 | [CVE-2018-14847](CVE-2018-14847-yukar1z0e_CVE-2018-14847.md) | CVE-2018-14847-MikroTik RouterOS 目录遍历 | ⚪ N/A | 0 |
@@ -139,7 +139,7 @@
 | [CVE-2018-15133](CVE-2018-15133-aljavier_exploit_laravel_cve-2018-15133.md) | CVE-2018-15133-Laravel-反序列化RCE | ⚪ N/A | 0 |
 | [CVE-2018-15133](CVE-2018-15133-bukitbarisan_laravel-rce-cve-2018-15133.md) | CVE-2018-15133 Laravel Framework 反序列化漏洞 | ⚪ N/A | 0 |
 | [CVE-2018-15133](CVE-2018-15133-kozmic_laravel-poc-CVE-2018-15133.md) | CVE-2018-15133 Laravel Framework Token Unserialize RCE | ⚪ N/A | 0 |
-| [CVE-2018-15133](CVE-2018-15133-pwnedshell_Larascript.md) | CVE-2018-15133-Laravel-反序列化RCE | ⚪ N/A | 0 |
+| [CVE-2018-15133](CVE-2018-15133-pwnedshell_Larascript.md) | CVE-2018-15133 | ⚪ N/A | 0 |
 | [CVE-2018-15133](CVE-2018-15133-yeahhbean_Laravel-CVE-2018-15133.md) | CVE-2018-15133-Laravel框架反序列化远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2018-15473](CVE-2018-15473-0xNehru_ssh_Enum_vaild.md) | CVE-2018-15473-OpenSSH用户名枚举 | ⚪ N/A | 0 |
 | [CVE-2018-15473](CVE-2018-15473-0xrobiul_CVE-2018-15473.md) | CVE-2018-15473 OpenSSH 用户名枚举漏洞 | ⚪ N/A | 0 |
@@ -163,7 +163,7 @@
 | [CVE-2018-15473](CVE-2018-15473-coollce_CVE-2018-15473_burte.md) | CVE-2018-15473 OpenSSH 用户名枚举 | ⚪ N/A | 0 |
 | [CVE-2018-15473](CVE-2018-15473-cved-sources_cve-2018-15473.md) | CVE-2018-15473-OpenSSH-用户枚举 | ⚪ N/A | 0 |
 | [CVE-2018-15473](CVE-2018-15473-epi052_cve-2018-15473.md) | CVE-2018-15473 - OpenSSH 用户枚举漏洞 | ⚪ N/A | 0 |
-| [CVE-2018-15473](CVE-2018-15473-jubeenshah_CVE-2018-15473-Exploit.md) | CVE-2018-15473 OpenSSH 用户枚举漏洞 | ⚪ N/A | 0 |
+| [CVE-2018-15473](CVE-2018-15473-jubeenshah_CVE-2018-15473-Exploit.md) | CVE-2018-15473 | ⚪ N/A | 0 |
 | [CVE-2018-15473](CVE-2018-15473-makmour_open-ssh-user-enumeration.md) | CVE-2018-15473 OpenSSH 用户名枚举漏洞 | ⚪ N/A | 0 |
 | [CVE-2018-15473](CVE-2018-15473-mclbn_docker-cve-2018-15473.md) | CVE-2018-15473-OpenSSH用户枚举 | ⚪ N/A | 0 |
 | [CVE-2018-15473](CVE-2018-15473-moften_cve-2018-15473-poc.md) | CVE-2018-15473-OpenSSH用户名枚举 | ⚪ N/A | 0 |
@@ -186,7 +186,7 @@
 | [CVE-2018-16763](CVE-2018-16763-kxisxr_Bash-Script-CVE-2018-16763.md) | CVE-2018-16763-FUEL CMS-远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2018-16763](CVE-2018-16763-n3m1sys_CVE-2018-16763-Exploit-Python3.md) | CVE-2018-16763 - Fuel CMS 1.4.1 远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2018-16763](CVE-2018-16763-n3rdh4x0r_CVE-2018-16763.md) | CVE-2018-16763-FUEL CMS-远程代码执行 | ⚪ N/A | 0 |
-| [CVE-2018-16763](CVE-2018-16763-not1cyyy_CVE-2018-16763.md) | CVE-2018-16763-FuelCMS-远程代码执行 | ⚪ N/A | 0 |
+| [CVE-2018-16763](CVE-2018-16763-not1cyyy_CVE-2018-16763.md) | CVE-2018-16763 | ⚪ N/A | 0 |
 | [CVE-2018-16763](CVE-2018-16763-p0dalirius_CVE-2018-16763-FuelCMS-1.4.1-RCE.md) | CVE-2018-16763 - Fuel CMS 1.4.1 远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2018-16763](CVE-2018-16763-padsalatushal_CVE-2018-16763.md) | CVE-2018-16763-Fuel CMS-RCE | ⚪ N/A | 0 |
 | [CVE-2018-16763](CVE-2018-16763-saccles_CVE_2018_16763_Proof_of_Concept.md) | CVE-2018-16763-Fuel CMS-远程代码执行 | ⚪ N/A | 0 |
@@ -196,22 +196,22 @@
 | [CVE-2018-17179](CVE-2018-17179-CyberQuestor-infosec_CVE-2018-17179-OpenEMR.md) | CVE-2018-17179-OpenEMR-SQL注入 | ⚪ N/A | 0 |
 | [CVE-2018-17229](CVE-2018-17229-zeeshangondal_c-cpp_CVE-2018-17229.md) | CVE-2018-17229-Exiv2-堆缓冲区溢出 | ⚪ N/A | 0 |
 | [CVE-2018-17297](CVE-2018-17297-shoucheng3_dromara__hutool_CVE-2018-17297_4-1-11.md) | CVE-2018-17297-Hutool-目录遍历 | ⚪ N/A | 0 |
-| [CVE-2018-18441](CVE-2018-18441-AIDENTHOMASboi_CVE-2018-18441-exploit.md) | CVE-2018-18441 D-Link DCS系列摄像头敏感信息泄露 | ⚪ N/A | 0 |
+| [CVE-2018-18441](CVE-2018-18441-AIDENTHOMASboi_CVE-2018-18441-exploit.md) | CVE-2018-18441 | ⚪ N/A | 0 |
 | [CVE-2018-18441](CVE-2018-18441-bayazid-bit_CVE-2018-18441-exploit.md) | CVE-2018-18441-D-Link DCS系列摄像头信息泄露 | ⚪ N/A | 0 |
 | [CVE-2018-19207](CVE-2018-19207-Pwdnx1337_CVE-2018-19207.md) | CVE-2018-19207-WP GDPR Compliance-远程代码执行 | ⚪ N/A | 0 |
-| [CVE-2018-19207](CVE-2018-19207-aeroot_WP-GDPR-Compliance-Plugin-Exploit.md) | CVE-2018-19207 - WP GDPR Compliance Plugin - 权限提升/代码执行 | ⚪ N/A | 0 |
+| [CVE-2018-19207](CVE-2018-19207-aeroot_WP-GDPR-Compliance-Plugin-Exploit.md) | CVE-2018-19207 | ⚪ N/A | 0 |
 | [CVE-2018-19207](CVE-2018-19207-cved-sources_cve-2018-19207.md) | CVE-2018-19207-WP GDPR Compliance-远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2018-19323](CVE-2018-19323-blueisbeautiful_CVE-2018-19323.md) | CVE-2018-19323: GIGABYTE GDrv MSR 任意读写导致权限提升 | ⚪ N/A | 0 |
 | [CVE-2018-19422](CVE-2018-19422-Drew-Alleman_CVE-2018-19422.md) | CVE-2018-19422-SubrionCMS-RCE | ⚪ N/A | 0 |
 | [CVE-2018-19422](CVE-2018-19422-Swammers8_SubrionCMS-4.2.1-File-upload-RCE-auth-.md) | CVE-2018-19422-Subrion CMS-RCE | ⚪ N/A | 0 |
-| [CVE-2018-19422](CVE-2018-19422-hev0x_CVE-2018-19422-SubrionCMS-RCE.md) | CVE-2018-19422-SubrionCMS-RCE | ⚪ N/A | 0 |
+| [CVE-2018-19422](CVE-2018-19422-hev0x_CVE-2018-19422-SubrionCMS-RCE.md) | CVE-2018-19422 | ⚪ N/A | 0 |
 | [CVE-2018-19664](CVE-2018-19664-h31md4llr_libjpeg_cve-2018-19664.md) | CVE-2018-19664 - libjpeg-turbo 堆缓冲区过度读取 | ⚪ N/A | 0 |
 | [CVE-2018-25031](CVE-2018-25031-KonEch0_CVE-2018-25031-SG.md) | CVE-2018-25031 - Swagger UI Spoofing | ⚪ N/A | 0 |
 | [CVE-2018-25031](CVE-2018-25031-LUCASRENAA_CVE-2018-25031.md) | CVE-2018-25031-Swagger UI-跨站脚本攻击 | ⚪ N/A | 0 |
 | [CVE-2018-25031](CVE-2018-25031-RelicHunt3r_swagger-ui.md) | CVE-2018-25031-Swagger UI-远程OpenAPI定义欺骗 | ⚪ N/A | 0 |
 | [CVE-2018-25031](CVE-2018-25031-afine-com_CVE-2018-25031.md) | CVE-2018-25031 - Swagger UI Spoofing | ⚪ N/A | 0 |
 | [CVE-2018-25031](CVE-2018-25031-faccimatteo_CVE-2018-25031.md) | CVE-2018-25031-Swagger UI-欺骗攻击/SSRF | ⚪ N/A | 0 |
-| [CVE-2018-25031](CVE-2018-25031-geozin_POC-CVE-2018-25031.md) | CVE-2018-25031-Swagger UI-信息泄露/欺骗 | ⚪ N/A | 0 |
+| [CVE-2018-25031](CVE-2018-25031-geozin_POC-CVE-2018-25031.md) | CVE-2018-25031 | ⚪ N/A | 0 |
 | [CVE-2018-25031](CVE-2018-25031-h2oa_CVE-2018-25031.md) | CVE-2018-25031-Swagger UI-SSRF/Spoofing | ⚪ N/A | 0 |
 | [CVE-2018-25031](CVE-2018-25031-h4ckt0m_CVE-2018-25031-test.md) | CVE-2018-25031-Swagger UI-欺骗攻击 | ⚪ N/A | 0 |
 | [CVE-2018-25031](CVE-2018-25031-hev0x_CVE-2018-25031-PoC.md) | CVE-2018-25031-Swagger UI-远程OpenAPI定义欺骗 | ⚪ N/A | 0 |
@@ -243,7 +243,7 @@
 | [CVE-2018-6389](CVE-2018-6389-rastating_modsecurity-cve-2018-6389.md) | CVE-2018-6389-WordPress-DoS | ⚪ N/A | 0 |
 | [CVE-2018-6389](CVE-2018-6389-s0md3v_Shiva.md) | CVE-2018-6389 - WordPress Denial of Service | ⚪ N/A | 0 |
 | [CVE-2018-6389](CVE-2018-6389-safebuffer_CVE-2018-6389.md) | CVE-2018-6389 WordPress Denial of Service | ⚪ N/A | 0 |
-| [CVE-2018-6389](CVE-2018-6389-thechrono13_PoC---CVE-2018-6389.md) | CVE-2018-6389 - WordPress Denial of Service | ⚪ N/A | 0 |
+| [CVE-2018-6389](CVE-2018-6389-thechrono13_PoC---CVE-2018-6389.md) | CVE-2018-6389 | ⚪ N/A | 0 |
 | [CVE-2018-6389](CVE-2018-6389-vineetkia_Wordpress-DOS-Attack-CVE-2018-6389.md) | CVE-2018-6389 - WordPress DoS | ⚪ N/A | 0 |
 | [CVE-2018-6389](CVE-2018-6389-yolabingo_wordpress-fix-cve-2018-6389.md) | CVE-2018-6389-WordPress-拒绝服务 | ⚪ N/A | 0 |
 | [CVE-2018-6574](CVE-2018-6574-AshrSec_pentesterlab-CVE-2018-6574.md) | CVE-2018-6574-Go远程命令执行 | ⚪ N/A | 0 |
@@ -279,16 +279,16 @@
 | [CVE-2018-6574](CVE-2018-6574-the-valluvarsploit_CVE-2018-6574.md) | CVE-2018-6574 - Go "go get" 远程命令执行 | ⚪ N/A | 0 |
 | [CVE-2018-6574](CVE-2018-6574-tjcim_cve-2018-6574.md) | CVE-2018-6574-Go远程命令执行 | ⚪ N/A | 0 |
 | [CVE-2018-6574](CVE-2018-6574-yavolo_CVE-2018-6574.md) | CVE-2018-6574 - Go "go get" 远程命令执行 | ⚪ N/A | 0 |
-| [CVE-2018-6574](CVE-2018-6574-zerbaliy3v_cve-2018-6574-exploit.md) | CVE-2018-6574-Go-get远程命令执行 | ⚪ N/A | 0 |
+| [CVE-2018-6574](CVE-2018-6574-zerbaliy3v_cve-2018-6574-exploit.md) | CVE-2018-6574 | ⚪ N/A | 0 |
 | [CVE-2018-6789](CVE-2018-6789-beraphin_CVE-2018-6789.md) | CVE-2018-6789 - Exim base64d 缓冲区溢出 | ⚪ N/A | 0 |
-| [CVE-2018-6789](CVE-2018-6789-c0llision_exim-vuln-poc.md) | CVE-2018-6789-Exim-base64d缓冲区溢出 | ⚪ N/A | 0 |
+| [CVE-2018-6789](CVE-2018-6789-c0llision_exim-vuln-poc.md) | CVE-2018-6789 | ⚪ N/A | 0 |
 | [CVE-2018-6789](CVE-2018-6789-martinclauss_exim-rce-cve-2018-6789.md) | CVE-2018-6789 Exim base64d 缓冲区溢出漏洞 | ⚪ N/A | 0 |
 | [CVE-2018-6789](CVE-2018-6789-synacktiv_Exim-CVE-2018-6789.md) | CVE-2018-6789 Exim base64d 缓冲区溢出漏洞 | ⚪ N/A | 0 |
 | [CVE-2018-6789](CVE-2018-6789-thistehneisen_CVE-2018-6789-Python3.md) | CVE-2018-6789 Exim base64d 缓冲区溢出远程代码执行漏洞 | ⚪ N/A | 0 |
 | [CVE-2018-7422](CVE-2018-7422-0x00-0x00_CVE-2018-7422.md) | CVE-2018-7422 Site Editor WordPress Plugin 本地文件包含 | ⚪ N/A | 0 |
-| [CVE-2018-7422](CVE-2018-7422-JacobEbben_CVE-2018-7422.md) | CVE-2018-7422 Site Editor WordPress Plugin Local File Inclus... | ⚪ N/A | 0 |
+| [CVE-2018-7422](CVE-2018-7422-JacobEbben_CVE-2018-7422.md) | CVE-2018-7422 | ⚪ N/A | 0 |
 | [CVE-2018-7422](CVE-2018-7422-ndr-repo_CVE-2018-7422.md) | CVE-2018-7422-Site Editor WordPress Plugin-本地文件包含 | ⚪ N/A | 0 |
-| [CVE-2018-7600](CVE-2018-7600-0xAJ2K_CVE-2018-7600.md) | CVE-2018-7600-Drupal-RCE | ⚪ N/A | 0 |
+| [CVE-2018-7600](CVE-2018-7600-0xAJ2K_CVE-2018-7600.md) | CVE-2018-7600 | ⚪ N/A | 0 |
 | [CVE-2018-7600](CVE-2018-7600-Damian972_drupalgeddon-2.md) | CVE-2018-7600 Drupalgeddon2 | ⚪ N/A | 0 |
 | [CVE-2018-7600](CVE-2018-7600-Dowonkwon_drupal-cve-2018-7600-poc.md) | CVE-2018-7600-Drupalgeddon 2 | ⚪ N/A | 0 |
 | [CVE-2018-7600](CVE-2018-7600-Hestat_drupal-check.md) | CVE-2018-7600-Drupal-RCE | ⚪ N/A | 0 |
@@ -322,19 +322,19 @@
 | [CVE-2018-7600](CVE-2018-7600-xxxTectationxxx_CVE-2018-7600.md) | CVE-2018-7600 - Drupalgeddon2 RCE | ⚪ N/A | 0 |
 | [CVE-2018-7600](CVE-2018-7600-ynsmroztas_drupalhunter.md) | CVE-2018-7600 Drupalgeddon2 RCE | ⚪ N/A | 0 |
 | [CVE-2018-7600](CVE-2018-7600-zhzyker_CVE-2018-7600-Drupal-POC-EXP.md) | CVE-2018-7600-Drupal-RCE | ⚪ N/A | 0 |
-| [CVE-2018-7750](CVE-2018-7750-bidaoui4905_CVE-2018-7750.md) | CVE-2018-7750-Paramiko-认证绕过 | ⚪ N/A | 0 |
+| [CVE-2018-7750](CVE-2018-7750-bidaoui4905_CVE-2018-7750.md) | CVE-2018-7750 | ⚪ N/A | 0 |
 | [CVE-2018-7750](CVE-2018-7750-jm33-m0_CVE-2018-7750.md) | CVE-2018-7750-Paramiko-Authentication Bypass | ⚪ N/A | 0 |
 | [CVE-2018-7750](CVE-2018-7750-tlavi00_CVE-2018-7750.md) | CVE-2018-7750 - Paramiko Authentication Bypass | ⚪ N/A | 0 |
-| [CVE-2018-8097](CVE-2018-8097-SilentVoid13_CVE-2018-8097.md) | CVE-2018-8097-pyeve-代码注入 | ⚪ N/A | 0 |
+| [CVE-2018-8097](CVE-2018-8097-SilentVoid13_CVE-2018-8097.md) | CVE-2018-8097 | ⚪ N/A | 0 |
 | [CVE-2018-8097](CVE-2018-8097-StellarDriftLabs_CVE-2018-8097.md) | CVE-2018-8097 - Eve (pyeve) 代码注入 | ⚪ N/A | 0 |
 | [CVE-2018-9159](CVE-2018-9159-shoucheng3_perwendel__spark_CVE-2018-9159_2-7-1.md) | CVE-2018-9159-spark-core-文件读取 | ⚪ N/A | 0 |
-| [CVE-2018-9159](CVE-2018-9159-shoucheng3_perwendel__spark_CVE-2018-9159_2_7_2_fixed.md) | CVE-2018-9159-spark-core-文件读取 | ⚪ N/A | 0 |
+| [CVE-2018-9159](CVE-2018-9159-shoucheng3_perwendel__spark_CVE-2018-9159_2_7_2_fixed.md) | CVE-2018-9159 | ⚪ N/A | 0 |
 | [CVE-2018-9206](CVE-2018-9206-Den1al_CVE-2018-9206.md) | CVE-2018-9206 - Blueimp jQuery-File-Upload Unauthenticated A... | ⚪ N/A | 0 |
 | [CVE-2018-9206](CVE-2018-9206-MikeyPPPPPPPP_CVE-2018-9206.md) | CVE-2018-9206 - Blueimp jQuery File Upload 未授权任意文件上传 | ⚪ N/A | 0 |
 | [CVE-2018-9206](CVE-2018-9206-Stahlz_JQShell.md) | CVE-2018-9206 - Blueimp jQuery File Upload 未授权任意文件上传 | ⚪ N/A | 0 |
 | [CVE-2018-9206](CVE-2018-9206-cved-sources_cve-2018-9206.md) | CVE-2018-9206 Blueimp jQuery-File-Upload 未授权任意文件上传 | ⚪ N/A | 0 |
 | [CVE-2018-9206](CVE-2018-9206-liemkaka_CVE-2018-9206.md) | CVE-2018-9206-Blueimp jQuery File Upload-任意文件上传 | ⚪ N/A | 0 |
-| [CVE-2018-9206](CVE-2018-9206-mi-hood_CVE-2018-9206.md) | CVE-2018-9206-Blueimp jQuery File Upload-任意文件上传 | ⚪ N/A | 0 |
+| [CVE-2018-9206](CVE-2018-9206-mi-hood_CVE-2018-9206.md) | CVE-2018-9206 | ⚪ N/A | 0 |
 | [CVE-2018-9995](CVE-2018-9995-0xDamian_CVE-2018-9995-rs.md) | CVE-2018-9995-TBK DVR系列设备-认证绕过 | ⚪ N/A | 0 |
 | [CVE-2018-9995](CVE-2018-9995-A-Alabdoo_CVE-DVr.md) | CVE-2018-9995 - TBK DVR身份验证绕过 | ⚪ N/A | 0 |
 | [CVE-2018-9995](CVE-2018-9995-ABIZCHI_CVE-2018-9995_dvr_credentials.md) | CVE-2018-9995 - TBK DVR 身份验证绕过 | ⚪ N/A | 0 |
@@ -347,7 +347,7 @@
 | [CVE-2018-9995](CVE-2018-9995-Saeed22487_CVE-2018-9995.md) | CVE-2018-9995 - TBK DVR认证绕过 | ⚪ N/A | 0 |
 | [CVE-2018-9995](CVE-2018-9995-TateYdq_CVE-2018-9995-ModifiedByGwolfs.md) | CVE-2018-9995 - TBK DVR身份验证绕过 | ⚪ N/A | 0 |
 | [CVE-2018-9995](CVE-2018-9995-X3RX3SSec_DVR_Sploit.md) | CVE-2018-9995 - TBK DVR 身份验证绕过 | ⚪ N/A | 0 |
-| [CVE-2018-9995](CVE-2018-9995-arminarab1999_CVE-2018-9995.md) | CVE-2018-9995 - TBK DVR Authentication Bypass | ⚪ N/A | 0 |
+| [CVE-2018-9995](CVE-2018-9995-arminarab1999_CVE-2018-9995.md) | CVE-2018-9995 | ⚪ N/A | 0 |
 | [CVE-2018-9995](CVE-2018-9995-awesome-consumer-iot_HTC.md) | CVE-2018-9995-TBK DVR-Authentication Bypass | ⚪ N/A | 0 |
 | [CVE-2018-9995](CVE-2018-9995-b510_CVE-2018-9995-POC.md) | CVE-2018-9995 - TBK DVR 认证绕过 | ⚪ N/A | 0 |
 | [CVE-2018-9995](CVE-2018-9995-batmoshka55_CVE-2018-9995_dvr_credentials.md) | CVE-2018-9995 - TBK DVR 身份验证绕过 | ⚪ N/A | 0 |

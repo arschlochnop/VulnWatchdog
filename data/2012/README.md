@@ -24,13 +24,13 @@
 | [CVE-2012-2982](CVE-2012-2982-SieGer05_CVE-2012-2982-Webmin-Exploit.md) | CVE-2012-2982 - Webmin file/show.cgi 命令执行 | ⚪ N/A | 0 |
 | [CVE-2012-2982](CVE-2012-2982-SincIDK_CVE-2012-2982-Exploit-Script.md) | CVE-2012-2982-Webmin-远程命令执行 | ⚪ N/A | 0 |
 | [CVE-2012-2982](CVE-2012-2982-SpoofIMEI_CVE-2012-2982.md) | CVE-2012-2982 - Webmin file/show.cgi 命令执行 | ⚪ N/A | 0 |
-| [CVE-2012-2982](CVE-2012-2982-blu3ming_CVE-2012-2982.md) | CVE-2012-2982-Webmin-命令执行 | ⚪ N/A | 0 |
+| [CVE-2012-2982](CVE-2012-2982-blu3ming_CVE-2012-2982.md) | CVE-2012-2982 | ⚪ N/A | 0 |
 | [CVE-2012-2982](CVE-2012-2982-boritopalito_CVE-2012-2982.md) | CVE-2012-2982-Webmin-命令注入 | ⚪ N/A | 0 |
 | [CVE-2012-2982](CVE-2012-2982-cd6629_CVE-2012-2982-Python-PoC.md) | CVE-2012-2982 - Webmin file/show.cgi 命令执行 | ⚪ N/A | 0 |
 | [CVE-2012-2982](CVE-2012-2982-elliotosama_CVE-2012-2982.md) | CVE-2012-2982-Webmin-命令注入 | ⚪ N/A | 0 |
 | [CVE-2012-2982](CVE-2012-2982-lpuv_CVE-2012-2982.md) | CVE-2012-2982-Webmin-命令注入 | ⚪ N/A | 0 |
 | [CVE-2012-4869](CVE-2012-4869-bitc0de_Elastix-Remote-Code-Execution.md) | CVE-2012-4869-FreePBX-远程命令执行 | ⚪ N/A | 0 |
-| [CVE-2012-4869](CVE-2012-4869-cyberdesu_Elastix-2.2.0-CVE-2012-4869.md) | CVE-2012-4869-FreePBX-远程命令执行 | ⚪ N/A | 0 |
+| [CVE-2012-4869](CVE-2012-4869-cyberdesu_Elastix-2.2.0-CVE-2012-4869.md) | CVE-2012-4869 | ⚪ N/A | 0 |
 
 ---
 

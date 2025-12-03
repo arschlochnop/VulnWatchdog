@@ -10,7 +10,7 @@
 |---------|------|----------|-----------|
 | [CVE-2013-0156](CVE-2013-0156-Jjdt12_kuang_grade_mk11.md) | CVE-2013-0156-Rails-XML参数处理对象注入 | ⚪ N/A | 0 |
 | [CVE-2013-0156](CVE-2013-0156-R3dKn33-zz_CVE-2013-0156.md) | CVE-2013-0156 | ⚪ N/A | 0 |
-| [CVE-2013-0156](CVE-2013-0156-bsodmike_rails-exploit-cve-2013-0156.md) | CVE-2013-0156 - Ruby on Rails 对象注入/远程代码执行 | ⚪ N/A | 0 |
+| [CVE-2013-0156](CVE-2013-0156-bsodmike_rails-exploit-cve-2013-0156.md) | CVE-2013-0156 | ⚪ N/A | 0 |
 | [CVE-2013-0156](CVE-2013-0156-heroku_heroku-CVE-2013-0156.md) | CVE-2013-0156 - Ruby on Rails 对象注入漏洞 | ⚪ N/A | 0 |
 | [CVE-2013-0156](CVE-2013-0156-josal_crack-0.1.8-fixed.md) | CVE-2013-0156 | ⚪ N/A | 0 |
 | [CVE-2013-0156](CVE-2013-0156-oxben10_CVE-2013-0156.md) | CVE-2013-0156-Ruby on Rails-对象注入 | ⚪ N/A | 0 |
@@ -30,7 +30,7 @@
 | [CVE-2013-3900](CVE-2013-3900-oukridrig772_-WinVerifyTrust-Signature-Validation-CVE-2013-3900-Mitigation.md) | CVE-2013-3900 WinVerifyTrust 签名验证漏洞 | ⚪ N/A | 0 |
 | [CVE-2013-3900](CVE-2013-3900-piranhap_CVE-2013-3900_Remediation_PowerShell.md) | CVE-2013-3900 WinVerifyTrust Signature Validation Vulnerabil... | ⚪ N/A | 0 |
 | [CVE-2013-3900](CVE-2013-3900-pkblanks_Remediating-CVE-2013-3900-EnableCertPaddingCheck-.md) | CVE-2013-3900 WinVerifyTrust Signature Validation Vulnerabil... | ⚪ N/A | 0 |
-| [CVE-2013-3900](CVE-2013-3900-snoopopsec_vulnerability-CVE-2013-3900.md) | CVE-2013-3900 WinVerifyTrust Signature Validation Vulnerabil... | ⚪ N/A | 0 |
+| [CVE-2013-3900](CVE-2013-3900-snoopopsec_vulnerability-CVE-2013-3900.md) | CVE-2013-3900 | ⚪ N/A | 0 |
 | [CVE-2013-7285](CVE-2013-7285-shoucheng3_x-stream__xstream_CVE-2013-7285_1-4-6.md) | CVE-2013-7285-XStream-远程代码执行 | ⚪ N/A | 0 |
 
 ---

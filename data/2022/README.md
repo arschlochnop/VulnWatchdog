@@ -16,11 +16,11 @@
 | [CVE-2022-0492](CVE-2022-0492-Perimora_cve_2022_0492.md) | CVE-2022-0492-Linux Kernel-cgroup_release_agent特权提升 | ⚪ N/A | 0 |
 | [CVE-2022-0492](CVE-2022-0492-SofianeHamlaoui_CVE-2022-0492-Checker.md) | CVE-2022-0492-Linux内核cgroup_release_agent权限提升 | ⚪ N/A | 0 |
 | [CVE-2022-0492](CVE-2022-0492-T1erno_CVE-2022-0492-Docker-Breakout-Checker-and-PoC.md) | CVE-2022-0492-Linux Kernel cgroup_release_agent 特权提升/容器逃逸 | ⚪ N/A | 0 |
-| [CVE-2022-0492](CVE-2022-0492-Trinadh465_device_renesas_kernel_AOSP10_r33_CVE-2022-0492.md) | CVE-2022-0492-Linux Kernel-cgroups v1 release_agent权限提升 | ⚪ N/A | 0 |
+| [CVE-2022-0492](CVE-2022-0492-Trinadh465_device_renesas_kernel_AOSP10_r33_CVE-2022-0492.md) | CVE-2022-0492 | ⚪ N/A | 0 |
 | [CVE-2022-0492](CVE-2022-0492-bb33bb_CVE-2022-0492.md) | CVE-2022-0492-Linux Kernel cgroup release_agent权限提升 | ⚪ N/A | 0 |
 | [CVE-2022-0492](CVE-2022-0492-chenaotian_CVE-2022-0492.md) | CVE-2022-0492-Linux Kernel-cgroup release_agent 权限提升/容器逃逸 | ⚪ N/A | 0 |
 | [CVE-2022-0492](CVE-2022-0492-yoeelingBin_CVE-2022-0492-Container-Escape.md) | CVE-2022-0492-Linux内核cgroups v1 release_agent权限提升漏洞 | ⚪ N/A | 0 |
-| [CVE-2022-0543](CVE-2022-0543-0x7eTeam_CVE-2022-0543.md) | CVE-2022-0543 - Redis Lua Sandbox Escape | ⚪ N/A | 0 |
+| [CVE-2022-0543](CVE-2022-0543-0x7eTeam_CVE-2022-0543.md) | CVE-2022-0543 | ⚪ N/A | 0 |
 | [CVE-2022-0543](CVE-2022-0543-JacobEbben_CVE-2022-0543.md) | CVE-2022-0543-Redis-Lua沙箱逃逸 | ⚪ N/A | 0 |
 | [CVE-2022-0543](CVE-2022-0543-SiennaSkies_redisHack.md) | CVE-2022-0543-Redis-Lua沙箱逃逸 | ⚪ N/A | 0 |
 | [CVE-2022-0543](CVE-2022-0543-netw0rk7_CVE-2022-0543-Home-Lab.md) | CVE-2022-0543 - Redis Lua Sandbox Escape | ⚪ N/A | 0 |
@@ -32,10 +32,10 @@
 | [CVE-2022-0739](CVE-2022-0739-Manjen1218_CVE-2022-0739-Exploitation.md) | CVE-2022-0739-BookingPress-SQL注入 | ⚪ N/A | 0 |
 | [CVE-2022-0739](CVE-2022-0739-destr4ct_CVE-2022-0739.md) | CVE-2022-0739-BookingPress-SQL注入 | ⚪ N/A | 0 |
 | [CVE-2022-0739](CVE-2022-0739-hadrian3689_wp_bookingpress_1.0.11.md) | CVE-2022-0739-BookingPress-SQL注入 | ⚪ N/A | 0 |
-| [CVE-2022-0739](CVE-2022-0739-lhamouche_Bash-exploit-for-CVE-2022-0739.md) | CVE-2022-0739 - BookingPress < 1.0.11 - Unauthenticated SQL ... | ⚪ N/A | 0 |
+| [CVE-2022-0739](CVE-2022-0739-lhamouche_Bash-exploit-for-CVE-2022-0739.md) | CVE-2022-0739 | ⚪ N/A | 0 |
 | [CVE-2022-0739](CVE-2022-0739-viardant_CVE-2022-0739.md) | CVE-2022-0739-BookingPress-SQL注入 | ⚪ N/A | 0 |
 | [CVE-2022-0824](CVE-2022-0824-NUDTTAN91_Webmin-CVE-2022-0824-Enhanced-Exploit.md) | CVE-2022-0824-Webmin-RCE | ⚪ N/A | 0 |
-| [CVE-2022-0824](CVE-2022-0824-faisalfs10x_Webmin-CVE-2022-0824-revshell.md) | CVE-2022-0824 - Webmin Improper Access Control to RCE | ⚪ N/A | 0 |
+| [CVE-2022-0824](CVE-2022-0824-faisalfs10x_Webmin-CVE-2022-0824-revshell.md) | CVE-2022-0824 | ⚪ N/A | 0 |
 | [CVE-2022-0824](CVE-2022-0824-gokul-ramesh_WebminRCE-exploit.md) | CVE-2022-0824 - Webmin Improper Access Control Remote Code E... | ⚪ N/A | 0 |
 | [CVE-2022-0824](CVE-2022-0824-honypot_CVE-2022-0824.md) | CVE-2022-0824 - Webmin Improper Access Control RCE | ⚪ N/A | 0 |
 | [CVE-2022-0824](CVE-2022-0824-pizza-power_golang-webmin-CVE-2022-0824-revshell.md) | CVE-2022-0824-Webmin-远程代码执行 | ⚪ N/A | 0 |
@@ -55,7 +55,7 @@
 | [CVE-2022-0847](CVE-2022-0847-byteReaper77_Dirty-Pipe.md) | CVE-2022-0847 - Dirty Pipe | ⚪ N/A | 0 |
 | [CVE-2022-0847](CVE-2022-0847-cypherlobo_DirtyPipe-BSI.md) | CVE-2022-0847 - Dirty Pipe 本地提权漏洞 | ⚪ N/A | 0 |
 | [CVE-2022-0847](CVE-2022-0847-h4ckm310n_CVE-2022-0847-eBPF.md) | CVE-2022-0847 (Dirty Pipe) | ⚪ N/A | 0 |
-| [CVE-2022-0847](CVE-2022-0847-ih3na_debian11-dirty_pipe-patcher.md) | CVE-2022-0847-Dirty Pipe | ⚪ N/A | 0 |
+| [CVE-2022-0847](CVE-2022-0847-ih3na_debian11-dirty_pipe-patcher.md) | CVE-2022-0847 | ⚪ N/A | 0 |
 | [CVE-2022-0847](CVE-2022-0847-joeymeech_CVE-2022-0847-Exploit-Implementation.md) | CVE-2022-0847 Dirty Pipe本地提权 | ⚪ N/A | 0 |
 | [CVE-2022-0847](CVE-2022-0847-jonathanbest7_cve-2022-0847.md) | CVE-2022-0847 | ⚪ N/A | 0 |
 | [CVE-2022-0847](CVE-2022-0847-karanlvm_DirtyPipe-Exploit.md) | CVE-2022-0847 (Dirty Pipe) | ⚪ N/A | 0 |
@@ -72,7 +72,7 @@
 | [CVE-2022-0847](CVE-2022-0847-solomon12354_LockingGirl-----CVE-2022-0847-Dirty_Pipe_virus.md) | CVE-2022-0847 Dirty Pipe 本地提权漏洞 | ⚪ N/A | 0 |
 | [CVE-2022-0847](CVE-2022-0847-xsxtw_CVE-2022-0847.md) | CVE-2022-0847 Dirty Pipe 本地提权漏洞 | ⚪ N/A | 0 |
 | [CVE-2022-0944](CVE-2022-0944-0xDTC_SQLPad-6.10.0-Exploit-CVE-2022-0944.md) | CVE-2022-0944 - SQLPad Template Injection RCE | ⚪ N/A | 0 |
-| [CVE-2022-0944](CVE-2022-0944-0xRoqeeb_sqlpad-rce-exploit-CVE-2022-0944.md) | CVE-2022-0944-sqlpad-模板注入RCE | ⚪ N/A | 0 |
+| [CVE-2022-0944](CVE-2022-0944-0xRoqeeb_sqlpad-rce-exploit-CVE-2022-0944.md) | CVE-2022-0944 | ⚪ N/A | 0 |
 | [CVE-2022-0944](CVE-2022-0944-Artemisxxx37_OverlayFS-PrivEsc-CVE-2022-0944.md) | CVE-2022-0944 - SQLPad Template Injection RCE | ⚪ N/A | 0 |
 | [CVE-2022-0944](CVE-2022-0944-FlojBoj_CVE-2022-0944.md) | CVE-2022-0944-SQLPad-模板注入导致RCE | ⚪ N/A | 0 |
 | [CVE-2022-0944](CVE-2022-0944-LipeOzyy_SQLPad-RCE-Exploit-CVE-2022-0944.md) | CVE-2022-0944-sqlpad-RCE | ⚪ N/A | 0 |
@@ -80,22 +80,22 @@
 | [CVE-2022-0944](CVE-2022-0944-Robocopsita_CVE-2022-0944_RCE_POC.md) | CVE-2022-0944-SQLPad-模板注入导致RCE | ⚪ N/A | 0 |
 | [CVE-2022-0944](CVE-2022-0944-shhrew_CVE-2022-0944.md) | CVE-2022-0944 - SQLPad 模板注入导致RCE | ⚪ N/A | 0 |
 | [CVE-2022-0944](CVE-2022-0944-toneillcodes_CVE-2022-0944.md) | CVE-2022-0944-sqlpad-RCE | ⚪ N/A | 0 |
-| [CVE-2022-0995](CVE-2022-0995-1nzag_CVE-2022-0995.md) | CVE-2022-0995 - Linux kernel watch_queue OOB write | ⚪ N/A | 0 |
+| [CVE-2022-0995](CVE-2022-0995-1nzag_CVE-2022-0995.md) | CVE-2022-0995 | ⚪ N/A | 0 |
 | [CVE-2022-0995](CVE-2022-0995-A1b2rt_cve-2022-0995.md) | CVE-2022-0995 - Linux Kernel watch_queue OOB Write | ⚪ N/A | 0 |
 | [CVE-2022-0995](CVE-2022-0995-AndreevSemen_CVE-2022-0995.md) | CVE-2022-0995-Linux kernel watch_queue OOB write | ⚪ N/A | 0 |
 | [CVE-2022-0995](CVE-2022-0995-Bonfee_CVE-2022-0995.md) | CVE-2022-0995-Linux Kernel watch_queue OOB Write | ⚪ N/A | 0 |
 | [CVE-2022-1257](CVE-2022-1257-kayes817_CVE-2022-1257.md) | CVE-2022-1257-McAfee Agent-敏感信息泄露 | ⚪ N/A | 0 |
 | [CVE-2022-1274](CVE-2022-1274-shoucheng3_keycloak__keycloak_CVE-2022-1274_20-0-3.md) | CVE-2022-1274-Keycloak-HTML注入 | ⚪ N/A | 0 |
 | [CVE-2022-1364](CVE-2022-1364-A1Lin_cve-2022-1364.md) | CVE-2022-1364 - Chrome V8 Turbofan 类型混淆漏洞 | ⚪ N/A | 0 |
-| [CVE-2022-1364](CVE-2022-1364-interruptlabs_uc_browser_poc_CVE-2022-1364.md) | CVE-2022-1364 - Google Chrome V8 Turbofan Type Confusion | ⚪ N/A | 0 |
-| [CVE-2022-1386](CVE-2022-1386-ardzz_CVE-2022-1386.md) | CVE-2022-1386 - Fusion Builder Unauthenticated SSRF | ⚪ N/A | 0 |
+| [CVE-2022-1364](CVE-2022-1364-interruptlabs_uc_browser_poc_CVE-2022-1364.md) | CVE-2022-1364 | ⚪ N/A | 0 |
+| [CVE-2022-1386](CVE-2022-1386-ardzz_CVE-2022-1386.md) | CVE-2022-1386 | ⚪ N/A | 0 |
 | [CVE-2022-1386](CVE-2022-1386-cur1y-dev_CVE-2022-1386.md) | CVE-2022-1386-Fusion Builder-SSRF | ⚪ N/A | 0 |
 | [CVE-2022-1386](CVE-2022-1386-fayassgit_CVE-2022-1386-FusionBuilder-SSRF.md) | CVE-2022-1386 – Fusion Builder < 3.6.2 - Unauthenticated SSR... | ⚪ N/A | 0 |
 | [CVE-2022-1386](CVE-2022-1386-im-hanzou_fubucker.md) | CVE-2022-1386 - Fusion Builder Unauthenticated SSRF | ⚪ N/A | 0 |
 | [CVE-2022-1386](CVE-2022-1386-satyasai1460_CVE-2022-1386.md) | CVE-2022-1386 - Fusion Builder SSRF | ⚪ N/A | 0 |
 | [CVE-2022-1386](CVE-2022-1386-zycoder0day_CVE-2022-1386-Mass_Vulnerability.md) | CVE-2022-1386 - Fusion Builder SSRF | ⚪ N/A | 0 |
 | [CVE-2022-1388](CVE-2022-1388-0xf4n9x_CVE-2022-1388.md) | CVE-2022-1388-F5 BIG-IP iControl REST 身份验证绕过远程代码执行 | ⚪ N/A | 0 |
-| [CVE-2022-1388](CVE-2022-1388-Chocapikk_CVE-2022-1388.md) | CVE-2022-1388 F5 BIG-IP iControl REST 认证绕过远程代码执行漏洞 | ⚪ N/A | 0 |
+| [CVE-2022-1388](CVE-2022-1388-Chocapikk_CVE-2022-1388.md) | CVE-2022-1388 | ⚪ N/A | 0 |
 | [CVE-2022-1388](CVE-2022-1388-EvilLizard666_CVE-2022-1388.md) | CVE-2022-1388 F5 BIG-IP iControl REST 身份验证绕过漏洞 | ⚪ N/A | 0 |
 | [CVE-2022-1388](CVE-2022-1388-Henry4E36_CVE-2022-1388.md) | CVE-2022-1388 F5 BIG-IP iControl REST 身份验证绕过漏洞 | ⚪ N/A | 0 |
 | [CVE-2022-1388](CVE-2022-1388-Luchoane_CVE-2022-1388_refresh.md) | CVE-2022-1388-F5 BIG-IP-iControl REST Authentication Bypass | ⚪ N/A | 0 |
@@ -123,7 +123,7 @@
 | [CVE-2022-1592](CVE-2022-1592-AdnanApriliyansyahh_CVE-2022-1592.md) | CVE-2022-1592 - clinical-genomics/scout SSRF | ⚪ N/A | 0 |
 | [CVE-2022-20223](CVE-2022-20223-xbee9_cve-2022-20223.md) | CVE-2022-20223-Android-权限提升 | ⚪ N/A | 0 |
 | [CVE-2022-20617](CVE-2022-20617-shoucheng3_jenkinsci__docker-commons-plugin_CVE-2022-20617_1-17.md) | CVE-2022-20617 - Jenkins Docker Commons Plugin OS 命令注入 | ⚪ N/A | 0 |
-| [CVE-2022-21449](CVE-2022-21449-AlexanderZinoni_CVE-2022-21449.md) | CVE-2022-21449 - Java ECDSA Psychic Signatures | ⚪ N/A | 0 |
+| [CVE-2022-21449](CVE-2022-21449-AlexanderZinoni_CVE-2022-21449.md) | CVE-2022-21449 | ⚪ N/A | 0 |
 | [CVE-2022-21449](CVE-2022-21449-Damok82_SignChecker.md) | CVE-2022-21449-Java ECDSA 签名绕过 | ⚪ N/A | 0 |
 | [CVE-2022-21449](CVE-2022-21449-HeyMrSalt_AIS3-2024-Project-D5Team.md) | CVE-2022-21449-Java-Psychic Signatures | ⚪ N/A | 0 |
 | [CVE-2022-21449](CVE-2022-21449-Skipper7718_CVE-2022-21449-showcase.md) | CVE-2022-21449 Psychic Signatures Java Vulnerability | ⚪ N/A | 0 |
@@ -135,7 +135,7 @@
 | [CVE-2022-21449](CVE-2022-21449-thack1_CVE-2022-21449.md) | CVE-2022-21449 Psychic Signatures | ⚪ N/A | 0 |
 | [CVE-2022-21449](CVE-2022-21449-volodymyr-hladkyi-symphony_demo-cve-2022-21449.md) | CVE-2022-21449 - Java ECDSA 签名绕过 | ⚪ N/A | 0 |
 | [CVE-2022-21587](CVE-2022-21587-B1ack4sh_Blackash-CVE-2022-21587.md) | CVE-2022-21587 - Oracle E-Business Suite Unauthenticated Fil... | ⚪ N/A | 0 |
-| [CVE-2022-21587](CVE-2022-21587-hieuminhnv_CVE-2022-21587-POC.md) | CVE-2022-21587 Oracle Web Applications Desktop Integrator 未授... | ⚪ N/A | 0 |
+| [CVE-2022-21587](CVE-2022-21587-hieuminhnv_CVE-2022-21587-POC.md) | CVE-2022-21587 | ⚪ N/A | 0 |
 | [CVE-2022-21587](CVE-2022-21587-merlyn-1_CVE-2022-21587-Oracle-EBS.md) | CVE-2022-21587-Oracle Web Applications Desktop Integrator-未授... | ⚪ N/A | 0 |
 | [CVE-2022-21587](CVE-2022-21587-rockmelodies_Oracle-E-BS-CVE-2022-21587-Exploit.md) | CVE-2022-21587 - Oracle E-Business Suite Unauthenticated Arb... | ⚪ N/A | 0 |
 | [CVE-2022-21587](CVE-2022-21587-sahabrifki_CVE-2022-21587-Oracle-EBS-.md) | CVE-2022-21587-Oracle Web Applications Desktop Integrator-任意... | ⚪ N/A | 0 |
@@ -143,7 +143,7 @@
 | [CVE-2022-21661](CVE-2022-21661-CharonDefalt_WordPress--CVE-2022-21661.md) | CVE-2022-21661-WordPress-SQL注入 | ⚪ N/A | 0 |
 | [CVE-2022-21661](CVE-2022-21661-Fauzan-Aldi_CVE-2022-21661.md) | CVE-2022-21661-WordPress-SQL注入 | ⚪ N/A | 0 |
 | [CVE-2022-21661](CVE-2022-21661-TAPESH-TEAM_CVE-2022-21661-WordPress-Core-5.8.2-WP_Query-SQL-Injection.md) | CVE-2022-21661-WordPress-WP_Query-SQL注入 | ⚪ N/A | 0 |
-| [CVE-2022-21661](CVE-2022-21661-WellingtonEspindula_SSI-CVE-2022-21661.md) | CVE-2022-21661 - WordPress SQL 注入 | ⚪ N/A | 0 |
+| [CVE-2022-21661](CVE-2022-21661-WellingtonEspindula_SSI-CVE-2022-21661.md) | CVE-2022-21661 | ⚪ N/A | 0 |
 | [CVE-2022-21661](CVE-2022-21661-daniel616_CVE-2022-21661-Demo.md) | CVE-2022-21661-WordPress-SQL注入 | ⚪ N/A | 0 |
 | [CVE-2022-21661](CVE-2022-21661-guestzz_CVE-2022-21661.md) | CVE-2022-21661-WordPress-SQL注入 | ⚪ N/A | 0 |
 | [CVE-2022-21661](CVE-2022-21661-kittypurrnaz_cve-2022-21661.md) | CVE-2022-21661-WordPress-SQL注入 | ⚪ N/A | 0 |
@@ -157,11 +157,11 @@
 | [CVE-2022-22536](CVE-2022-22536-BecodoExploit-mrCAT_SAPGateBreaker-Exploit.md) | CVE-2022-22536: SAP NetWeaver HTTP Request Smuggling | ⚪ N/A | 0 |
 | [CVE-2022-22536](CVE-2022-22536-ZZ-SOCMAP_CVE-2022-22536.md) | CVE-2022-22536 - SAP NetWeaver Request Smuggling/Concatenati... | ⚪ N/A | 0 |
 | [CVE-2022-22536](CVE-2022-22536-abrewer251_CVE-2022-22536_SAP_Request_Smuggling_Scanner.md) | CVE-2022-22536 SAP Request Smuggling | ⚪ N/A | 0 |
-| [CVE-2022-22536](CVE-2022-22536-tess-ss_SAP-memory-pipes-desynchronization-vulnerability-MPI-CVE-2022-22536.md) | CVE-2022-22536 - SAP NetWeaver Request Smuggling/Concatenati... | ⚪ N/A | 0 |
+| [CVE-2022-22536](CVE-2022-22536-tess-ss_SAP-memory-pipes-desynchronization-vulnerability-MPI-CVE-2022-22536.md) | CVE-2022-22536 | ⚪ N/A | 0 |
 | [CVE-2022-22931](CVE-2022-22931-shoucheng3_asf__james-project_CVE-2022-22931_3-6-0.md) | CVE-2022-22931-Apache James-路径遍历 | ⚪ N/A | 0 |
 | [CVE-2022-22932](CVE-2022-22932-shoucheng3_asf__karaf_CVE-2022-22932_4-3-5.md) | CVE-2022-22932-Apache Karaf-路径遍历 | ⚪ N/A | 0 |
 | [CVE-2022-22947](CVE-2022-22947-0730Nophone_CVE-2022-22947-.md) | CVE-2022-22947-Spring Cloud Gateway-代码注入 | ⚪ N/A | 0 |
-| [CVE-2022-22947](CVE-2022-22947-4nNns_CVE-2022-22947.md) | CVE-2022-22947 - Spring Cloud Gateway 代码注入 | ⚪ N/A | 0 |
+| [CVE-2022-22947](CVE-2022-22947-4nNns_CVE-2022-22947.md) | CVE-2022-22947 | ⚪ N/A | 0 |
 | [CVE-2022-22947](CVE-2022-22947-B0rn2d_Spring-Cloud-Gateway-Nacos.md) | CVE-2022-22947 Spring Cloud Gateway 代码注入 | ⚪ N/A | 0 |
 | [CVE-2022-22947](CVE-2022-22947-Enokiy_cve-2022-22947-spring-cloud-gateway.md) | CVE-2022-22947-Spring Cloud Gateway-代码注入 | ⚪ N/A | 0 |
 | [CVE-2022-22947](CVE-2022-22947-LY613313_CVE-2022-22947.md) | CVE-2022-22947 - Spring Cloud Gateway 代码注入 | ⚪ N/A | 0 |
@@ -186,7 +186,7 @@
 | [CVE-2022-22947](CVE-2022-22947-whwlsfb_cve-2022-22947-godzilla-memshell.md) | CVE-2022-22947-Spring Cloud Gateway-代码注入 | ⚪ N/A | 0 |
 | [CVE-2022-22963](CVE-2022-22963-AayushmanThapaMagar_CVE-2022-22963.md) | CVE-2022-22963-Spring Cloud Function-远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2022-22963](CVE-2022-22963-BearClaw96_CVE-2022-22963-Poc-Bearcules.md) | CVE-2022-22963-Spring Cloud Function-远程代码执行 | ⚪ N/A | 0 |
-| [CVE-2022-22963](CVE-2022-22963-G01d3nW01f_CVE-2022-22963.md) | CVE-2022-22963 - Spring Cloud Function SpEL 表达式注入导致远程代码执行 | ⚪ N/A | 0 |
+| [CVE-2022-22963](CVE-2022-22963-G01d3nW01f_CVE-2022-22963.md) | CVE-2022-22963 | ⚪ N/A | 0 |
 | [CVE-2022-22963](CVE-2022-22963-J0ey17_CVE-2022-22963_Reverse-Shell-Exploit.md) | CVE-2022-22963-Spring Cloud Function-远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2022-22963](CVE-2022-22963-Mustafa1986_CVE-2022-22963.md) | CVE-2022-22963-Spring Cloud Function RCE | ⚪ N/A | 0 |
 | [CVE-2022-22963](CVE-2022-22963-SealPaPaPa_SpringCloudFunction-Research.md) | CVE-2022-22963-Spring Cloud Function-远程代码执行 | ⚪ N/A | 0 |
@@ -210,7 +210,7 @@
 | [CVE-2022-22965](CVE-2022-22965-BKLockly_CVE-2022-22965.md) | CVE-2022-22965-Spring4Shell-RCE | ⚪ N/A | 0 |
 | [CVE-2022-22965](CVE-2022-22965-DDuarte_springshell-rce-poc.md) | CVE-2022-22965-Spring4Shell-RCE | ⚪ N/A | 0 |
 | [CVE-2022-22965](CVE-2022-22965-ESSAFAR_Firewall-Rules.md) | CVE-2022-22965-Spring4Shell-RCE | ⚪ N/A | 0 |
-| [CVE-2022-22965](CVE-2022-22965-LucasPDiniz_CVE-2022-22965.md) | CVE-2022-22965 Spring4Shell RCE | ⚪ N/A | 0 |
+| [CVE-2022-22965](CVE-2022-22965-LucasPDiniz_CVE-2022-22965.md) | CVE-2022-22965 | ⚪ N/A | 0 |
 | [CVE-2022-22965](CVE-2022-22965-Nosie12_fire-wall-server.md) | CVE-2022-22965 Spring4Shell | ⚪ N/A | 0 |
 | [CVE-2022-22965](CVE-2022-22965-ZapcoMan_spring4shell-vulnerable-application.md) | CVE-2022-22965-Spring4Shell | ⚪ N/A | 0 |
 | [CVE-2022-22965](CVE-2022-22965-bL34cHig0_Telstra-Cybersecurity-Virtual-Experience-.md) | CVE-2022-22965 Spring4Shell RCE | ⚪ N/A | 0 |
@@ -233,13 +233,13 @@
 | [CVE-2022-22965](CVE-2022-22965-zangcc_CVE-2022-22965-rexbb.md) | CVE-2022-22965 Spring4Shell RCE | ⚪ N/A | 0 |
 | [CVE-2022-22978](CVE-2022-22978-DeEpinGh0st_CVE-2022-22978.md) | CVE-2022-22978-Spring Security权限绕过 | ⚪ N/A | 0 |
 | [CVE-2022-22978](CVE-2022-22978-Raghvendra1207_CVE-2022-22978.md) | CVE-2022-22978 - Spring Security Authorization Bypass | ⚪ N/A | 0 |
-| [CVE-2022-22978](CVE-2022-22978-aeifkz_CVE-2022-22978.md) | CVE-2022-22978-Spring Security-授权绕过 | ⚪ N/A | 0 |
+| [CVE-2022-22978](CVE-2022-22978-aeifkz_CVE-2022-22978.md) | CVE-2022-22978 | ⚪ N/A | 0 |
 | [CVE-2022-22978](CVE-2022-22978-ducluongtran9121_CVE-2022-22978-PoC.md) | CVE-2022-22978 - Spring Security Authorization Bypass | ⚪ N/A | 0 |
 | [CVE-2022-22978](CVE-2022-22978-he-ewo_CVE-2022-22978.md) | CVE-2022-22978: Spring Security Authorization Bypass | ⚪ N/A | 0 |
 | [CVE-2022-22978](CVE-2022-22978-umakant76705_CVE-2022-22978.md) | CVE-2022-22978: Spring Security RegexRequestMatcher 身份验证绕过 | ⚪ N/A | 0 |
 | [CVE-2022-22978](CVE-2022-22978-wan9xx_CVE-2022-22978-demo.md) | CVE-2022-22978-Spring Security RegexRequestMatcher 身份验证绕过 | ⚪ N/A | 0 |
 | [CVE-2022-23082](CVE-2022-23082-shoucheng3_whitesource__curekit_CVE-2022-23082_1-1-3.md) | CVE-2022-23082-CureKit-路径遍历 | ⚪ N/A | 0 |
-| [CVE-2022-23093](CVE-2022-23093-Symbolexe_DrayTek-Exploit.md) | CVE-2022-23093 FreeBSD ping Stack-Based Overflow | ⚪ N/A | 0 |
+| [CVE-2022-23093](CVE-2022-23093-Symbolexe_DrayTek-Exploit.md) | CVE-2022-23093 | ⚪ N/A | 0 |
 | [CVE-2022-23093](CVE-2022-23093-SystemVll_CVE-2022-23093.md) | CVE-2022-23093-FreeBSD-ping-Stack Overflow | ⚪ N/A | 0 |
 | [CVE-2022-23134](CVE-2022-23134-TheN00bBuilder_cve-2022-23134-poc-and-writeup.md) | CVE-2022-23134-Zabbix Frontend-身份验证绕过 | ⚪ N/A | 0 |
 | [CVE-2022-23457](CVE-2022-23457-shoucheng3_ESAPI__esapi-java-legacy_CVE-2022-23457_2-2-3-1.md) | CVE-2022-23457-ESAPI-路径遍历 | ⚪ N/A | 0 |
@@ -248,13 +248,13 @@
 | [CVE-2022-24086](CVE-2022-24086-Mr-xn_CVE-2022-24086.md) | CVE-2022-24086-Adobe Commerce (Magento)-RCE | ⚪ N/A | 0 |
 | [CVE-2022-24086](CVE-2022-24086-NHPT_CVE-2022-24086-RCE.md) | CVE-2022-24086-Magento-RCE | ⚪ N/A | 0 |
 | [CVE-2022-24086](CVE-2022-24086-akr3ch_CVE-2022-24086.md) | CVE-2022-24086-Magento-RCE | ⚪ N/A | 0 |
-| [CVE-2022-24086](CVE-2022-24086-nanaao_CVE-2022-24086-RCE.md) | CVE-2022-24086-Magento-RCE | ⚪ N/A | 0 |
+| [CVE-2022-24086](CVE-2022-24086-nanaao_CVE-2022-24086-RCE.md) | CVE-2022-24086 | ⚪ N/A | 0 |
 | [CVE-2022-24086](CVE-2022-24086-oK0mo_CVE-2022-24086-RCE-PoC.md) | CVE-2022-24086 Adobe Commerce (Magento) 远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2022-24086](CVE-2022-24086-pescepilota_CVE-2022-24086.md) | CVE-2022-24086-Magento-RCE | ⚪ N/A | 0 |
 | [CVE-2022-24086](CVE-2022-24086-rxerium_CVE-2022-24086.md) | CVE-2022-24086-Magento-RCE | ⚪ N/A | 0 |
 | [CVE-2022-24086](CVE-2022-24086-seymanurmutlu_CVE-2022-24086-CVE-2022-24087.md) | CVE-2022-24086-Adobe Commerce (Magento) 远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2022-24086](CVE-2022-24086-wubinworks_magento2-template-filter-patch.md) | CVE-2022-24086-Magento-RCE | ⚪ N/A | 0 |
-| [CVE-2022-24112](CVE-2022-24112-Acczdy_CVE-2022-24112_POC.md) | CVE-2022-24112 - Apache APISIX 远程代码执行 | ⚪ N/A | 0 |
+| [CVE-2022-24112](CVE-2022-24112-Acczdy_CVE-2022-24112_POC.md) | CVE-2022-24112 | ⚪ N/A | 0 |
 | [CVE-2022-24112](CVE-2022-24112-CrackerCat_CVE-2022-24112.md) | CVE-2022-24112 - Apache APISIX Batch Requests RCE | ⚪ N/A | 0 |
 | [CVE-2022-24112](CVE-2022-24112-M4xSec_Apache-APISIX-CVE-2022-24112.md) | CVE-2022-24112-Apache APISIX-RCE | ⚪ N/A | 0 |
 | [CVE-2022-24112](CVE-2022-24112-Mah1ndra_CVE-2022-24112.md) | CVE-2022-24112: Apache APISIX 远程代码执行漏洞 | ⚪ N/A | 0 |
@@ -268,17 +268,17 @@
 | [CVE-2022-24706](CVE-2022-24706-ahmetsabrimert_Apache-CouchDB-CVE-2022-24706-RCE-Exploits-Blog-post-.md) | CVE-2022-24706-Apache CouchDB远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2022-24706](CVE-2022-24706-becrevex_CVE-2022-24706.md) | CVE-2022-24706-Apache CouchDB-远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2022-24706](CVE-2022-24706-sadshade_CVE-2022-24706-CouchDB-Exploit.md) | CVE-2022-24706 - Apache CouchDB Remote Code Execution | ⚪ N/A | 0 |
-| [CVE-2022-24706](CVE-2022-24706-superzerosec_CVE-2022-24706.md) | CVE-2022-24706 - Apache CouchDB 远程代码执行 | ⚪ N/A | 0 |
+| [CVE-2022-24706](CVE-2022-24706-superzerosec_CVE-2022-24706.md) | CVE-2022-24706 | ⚪ N/A | 0 |
 | [CVE-2022-24707](CVE-2022-24707-Altelus1_CVE-2022-24707.md) | CVE-2022-24707-Anuko Time Tracker-SQL注入 | ⚪ N/A | 0 |
-| [CVE-2022-24707](CVE-2022-24707-thepiyushkumarshukla_CVE-2022-24707_AnukoTimeTracker_Version-1.20.0_POC.md) | CVE-2022-24707-Anuko Time Tracker-SQL注入 | ⚪ N/A | 0 |
+| [CVE-2022-24707](CVE-2022-24707-thepiyushkumarshukla_CVE-2022-24707_AnukoTimeTracker_Version-1.20.0_POC.md) | CVE-2022-24707 | ⚪ N/A | 0 |
 | [CVE-2022-24834](CVE-2022-24834-DukeSec97_CVE-2022-24834-.md) | CVE-2022-24834-Redis-Lua cjson heap overflow | ⚪ N/A | 0 |
-| [CVE-2022-24834](CVE-2022-24834-convisolabs_CVE-2022-24834.md) | CVE-2022-24834 - Redis Lua cjson 库堆溢出 | ⚪ N/A | 0 |
+| [CVE-2022-24834](CVE-2022-24834-convisolabs_CVE-2022-24834.md) | CVE-2022-24834 | ⚪ N/A | 0 |
 | [CVE-2022-24891](CVE-2022-24891-shoucheng3_ESAPI__esapi-java-legacy_CVE-2022-24891_2-2-3-1.md) | CVE-2022-24891-ESAPI-XSS | ⚪ N/A | 0 |
 | [CVE-2022-24897](CVE-2022-24897-shoucheng3_xwiki__xwiki-commons_CVE-2022-24897_12-6-6.md) | CVE-2022-24897-xwiki-commons-文件系统写入 | ⚪ N/A | 0 |
 | [CVE-2022-24992](CVE-2022-24992-esistferry_CVE-2022-24992.md) | CVE-2022-24992-QRCDR-目录遍历 | ⚪ N/A | 0 |
 | [CVE-2022-24999](CVE-2022-24999-n8tz_CVE-2022-24999.md) | CVE-2022-24999-qs-Prototype污染 | ⚪ N/A | 0 |
 | [CVE-2022-25012](CVE-2022-25012-G4sp4rCS_CVE-2022-25012-POC.md) | CVE-2022-25012-Argus Surveillance DVR v4.0 弱密码加密 | ⚪ N/A | 0 |
-| [CVE-2022-25012](CVE-2022-25012-s3l33_CVE-2022-25012.md) | CVE-2022-25012 - Argus Surveillance DVR v4.0 弱密码加密 | ⚪ N/A | 0 |
+| [CVE-2022-25012](CVE-2022-25012-s3l33_CVE-2022-25012.md) | CVE-2022-25012 | ⚪ N/A | 0 |
 | [CVE-2022-25173](CVE-2022-25173-shoucheng3_jenkinsci__workflow-cps-plugin_CVE-2022-25173_2646-v6ed3b5b01ff1.md) | CVE-2022-25173 - Jenkins Pipeline: Groovy Plugin OS 命令注入 | ⚪ N/A | 0 |
 | [CVE-2022-25174](CVE-2022-25174-shoucheng3_jenkinsci__workflow-cps-global-lib-plugin_CVE-2022-25174_544-vff04fa68714d.md) | CVE-2022-25174 - Jenkins Pipeline Shared Groovy Libraries Pl... | ⚪ N/A | 0 |
 | [CVE-2022-25175](CVE-2022-25175-shoucheng3_jenkinsci__workflow-multibranch-plugin_CVE-2022-25175_706-vd43c65dec013.md) | CVE-2022-25175 - Jenkins Pipeline Multibranch Plugin 任意命令执行 | ⚪ N/A | 0 |
@@ -287,7 +287,7 @@
 | [CVE-2022-25765](CVE-2022-25765-LordRNA_CVE-2022-25765.md) | CVE-2022-25765-pdfkit-命令注入 | ⚪ N/A | 0 |
 | [CVE-2022-25765](CVE-2022-25765-PurpleWaveIO_CVE-2022-25765-pdfkit-Exploit-Reverse-Shell.md) | CVE-2022-25765-pdfkit-命令注入 | ⚪ N/A | 0 |
 | [CVE-2022-25765](CVE-2022-25765-UNICORDev_exploit-CVE-2022-25765.md) | CVE-2022-25765-pdfkit-命令注入 | ⚪ N/A | 0 |
-| [CVE-2022-25765](CVE-2022-25765-Wai-Yan-Kyaw_PDFKitExploit.md) | CVE-2022-25765-pdfkit-命令注入 | ⚪ N/A | 0 |
+| [CVE-2022-25765](CVE-2022-25765-Wai-Yan-Kyaw_PDFKitExploit.md) | CVE-2022-25765 | ⚪ N/A | 0 |
 | [CVE-2022-25765](CVE-2022-25765-lekosbelas_PDFkit-CMD-Injection.md) | CVE-2022-25765-pdfkit-命令注入 | ⚪ N/A | 0 |
 | [CVE-2022-25765](CVE-2022-25765-lowercasenumbers_CVE-2022-25765.md) | CVE-2022-25765-pdfkit-命令注入 | ⚪ N/A | 0 |
 | [CVE-2022-25765](CVE-2022-25765-nikn0laty_PDFkit-CMD-Injection-CVE-2022-25765.md) | CVE-2022-25765-pdfkit-命令注入 | ⚪ N/A | 0 |
@@ -297,12 +297,12 @@
 | [CVE-2022-25845](CVE-2022-25845-cuijiung_fastjson-CVE-2022-25845.md) | CVE-2022-25845-Fastjson-反序列化 | ⚪ N/A | 0 |
 | [CVE-2022-25845](CVE-2022-25845-hosch3n_FastjsonVulns.md) | CVE-2022-25845 - Fastjson Deserialization RCE | ⚪ N/A | 0 |
 | [CVE-2022-25845](CVE-2022-25845-luelueking_CVE-2022-25845-In-Spring.md) | CVE-2022-25845-Fastjson-反序列化 | ⚪ N/A | 0 |
-| [CVE-2022-25845](CVE-2022-25845-nerowander_CVE-2022-25845-exploit.md) | CVE-2022-25845-Fastjson-反序列化漏洞 | ⚪ N/A | 0 |
+| [CVE-2022-25845](CVE-2022-25845-nerowander_CVE-2022-25845-exploit.md) | CVE-2022-25845 | ⚪ N/A | 0 |
 | [CVE-2022-25845](CVE-2022-25845-ph0ebus_CVE-2022-25845-In-Spring.md) | CVE-2022-25845-Fastjson-反序列化漏洞 | ⚪ N/A | 0 |
 | [CVE-2022-25845](CVE-2022-25845-scabench_fastjson-tp1fn1.md) | CVE-2022-25845-fastjson-反序列化 | ⚪ N/A | 0 |
 | [CVE-2022-25869](CVE-2022-25869-gkalpak_angularjs-poc-cve-2022-25869.md) | CVE-2022-25869-AngularJS-XSS | ⚪ N/A | 0 |
 | [CVE-2022-2588](CVE-2022-2588-ASkyeye_2022-LPE-UAF.md) | CVE-2022-2588-Linux Kernel Use-After-Free | ⚪ N/A | 0 |
-| [CVE-2022-2588](CVE-2022-2588-BassamGraini_CVE-2022-2588.md) | CVE-2022-2588-Linux Kernel Use-After-Free | ⚪ N/A | 0 |
+| [CVE-2022-2588](CVE-2022-2588-BassamGraini_CVE-2022-2588.md) | CVE-2022-2588 | ⚪ N/A | 0 |
 | [CVE-2022-2588](CVE-2022-2588-Igr1s-red_CVE-2022-2588.md) | CVE-2022-2588 | ⚪ N/A | 0 |
 | [CVE-2022-2588](CVE-2022-2588-Markakd_CVE-2022-2588.md) | CVE-2022-2588-Linux Kernel cls_route filter Use-After-Free | ⚪ N/A | 0 |
 | [CVE-2022-2588](CVE-2022-2588-dom4570_CVE-2022-2588.md) | CVE-2022-2588 Linux Kernel cls_route filter Use-After-Free | ⚪ N/A | 0 |
@@ -320,7 +320,7 @@
 | [CVE-2022-26134](CVE-2022-26134-MaskCyberSecurityTeam_CVE-2022-26134_Behinder_MemShell.md) | CVE-2022-26134-Confluence-OGNL注入 | ⚪ N/A | 0 |
 | [CVE-2022-26134](CVE-2022-26134-Muhammad-Ali007_Atlassian_CVE-2022-26134.md) | CVE-2022-26134 - Atlassian Confluence OGNL 注入 RCE | ⚪ N/A | 0 |
 | [CVE-2022-26134](CVE-2022-26134-W01fh4cker_Serein.md) | CVE-2022-26134-Confluence-OGNL注入 | ⚪ N/A | 0 |
-| [CVE-2022-26134](CVE-2022-26134-XiaomingX_cve-2022-26134-poc.md) | CVE-2022-26134-Confluence-OGNL注入 | ⚪ N/A | 0 |
+| [CVE-2022-26134](CVE-2022-26134-XiaomingX_cve-2022-26134-poc.md) | CVE-2022-26134 | ⚪ N/A | 0 |
 | [CVE-2022-26134](CVE-2022-26134-Yuri08loveElaina_CVE-2022-26134.md) | CVE-2022-26134-Confluence-OGNL注入 | ⚪ N/A | 0 |
 | [CVE-2022-26134](CVE-2022-26134-acfirthh_CVE-2022-26134.md) | CVE-2022-26134 - Atlassian Confluence OGNL 注入远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2022-26134](CVE-2022-26134-b4dboy17_CVE-2022-26134.md) | CVE-2022-26134-Confluence-OGNL注入 | ⚪ N/A | 0 |
@@ -340,7 +340,7 @@
 | [CVE-2022-26134](CVE-2022-26134-yTxZx_CVE-2022-26134.md) | CVE-2022-26134-Confluence-OGNL注入 | ⚪ N/A | 0 |
 | [CVE-2022-26134](CVE-2022-26134-yyqxi_CVE-2022-26134.md) | CVE-2022-26134 - Atlassian Confluence OGNL 注入远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2022-26265](CVE-2022-26265-SystemVll_CVE-2022-26265.md) | CVE-2022-26265-Contao Managed Edition-RCE | ⚪ N/A | 0 |
-| [CVE-2022-26265](CVE-2022-26265-redteamsecurity2023_CVE-2022-26265.md) | CVE-2022-26265-Contao CMS-RCE | ⚪ N/A | 0 |
+| [CVE-2022-26265](CVE-2022-26265-redteamsecurity2023_CVE-2022-26265.md) | CVE-2022-26265 | ⚪ N/A | 0 |
 | [CVE-2022-26671](CVE-2022-26671-DefensiveOrigins_POC-CVE-2022-26671.md) | CVE-2022-26671 - TAIWAN SECOM CO., LTD. Personnel Attendance... | ⚪ N/A | 0 |
 | [CVE-2022-26884](CVE-2022-26884-shoucheng3_apache__dolphinscheduler_CVE-2022-26884_2-0-5.md) | CVE-2022-26884-Apache DolphinScheduler-文件读取 | ⚪ N/A | 0 |
 | [CVE-2022-27913](CVE-2022-27913-CamTechCoaching_Joomla-CVE-Detector-CVE-2022-27913-.md) | CVE-2022-27913-Joomla-RXSS | ⚪ N/A | 0 |
@@ -350,7 +350,7 @@
 | [CVE-2022-27925](CVE-2022-27925-akincibor_CVE-2022-27925.md) | CVE-2022-27925-Zimbra-目录遍历/远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2022-27925](CVE-2022-27925-jam620_Zimbra.md) | CVE-2022-27925 - Zimbra Collaboration Suite 目录遍历和远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2022-27925](CVE-2022-27925-miko550_CVE-2022-27925.md) | CVE-2022-27925-Zimbra-路径遍历 | ⚪ N/A | 0 |
-| [CVE-2022-27925](CVE-2022-27925-mohamedbenchikh_CVE-2022-27925.md) | CVE-2022-27925-Zimbra-路径遍历导致远程代码执行 | ⚪ N/A | 0 |
+| [CVE-2022-27925](CVE-2022-27925-mohamedbenchikh_CVE-2022-27925.md) | CVE-2022-27925 | ⚪ N/A | 0 |
 | [CVE-2022-27925](CVE-2022-27925-navokus_CVE-2022-27925.md) | CVE-2022-27925-Zimbra-目录遍历文件上传 | ⚪ N/A | 0 |
 | [CVE-2022-27925](CVE-2022-27925-onlyHerold22_CVE-2022-27925-PoC.md) | CVE-2022-27925-Zimbra-路径遍历 | ⚪ N/A | 0 |
 | [CVE-2022-27925](CVE-2022-27925-sanan2004_CVE-2022-27925.md) | CVE-2022-27925 Zimbra Collaboration Suite 路径遍历漏洞 | ⚪ N/A | 0 |
@@ -376,7 +376,7 @@
 | [CVE-2022-29464](CVE-2022-29464-hev0x_CVE-2022-29464.md) | CVE-2022-29464-WSO2-任意文件上传导致RCE | ⚪ N/A | 0 |
 | [CVE-2022-29464](CVE-2022-29464-hupe1980_CVE-2022-29464.md) | CVE-2022-29464 - WSO2 任意文件上传导致远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2022-29464](CVE-2022-29464-hxlxmj_Mass-exploit-CVE-2022-29464.md) | CVE-2022-29464-WSO2-任意文件上传导致远程代码执行 | ⚪ N/A | 0 |
-| [CVE-2022-29464](CVE-2022-29464-jimidk_Better-CVE-2022-29464.md) | CVE-2022-29464 - WSO2 Unrestricted File Upload and RCE | ⚪ N/A | 0 |
+| [CVE-2022-29464](CVE-2022-29464-jimidk_Better-CVE-2022-29464.md) | CVE-2022-29464 | ⚪ N/A | 0 |
 | [CVE-2022-29464](CVE-2022-29464-lowkey0808_cve-2022-29464.md) | CVE-2022-29464 - WSO2 Unrestricted File Upload | ⚪ N/A | 0 |
 | [CVE-2022-29464](CVE-2022-29464-mr-r3bot_WSO2-CVE-2022-29464.md) | CVE-2022-29464-WSO2-Unrestricted File Upload | ⚪ N/A | 0 |
 | [CVE-2022-29464](CVE-2022-29464-n3rdh4x0r_CVE-2022-29464.md) | CVE-2022-29464 - WSO2 任意文件上传导致远程代码执行 | ⚪ N/A | 0 |
@@ -418,8 +418,8 @@
 | [CVE-2022-30190](CVE-2022-30190-swaiist_CVE-2022-30190-Fix.md) | CVE-2022-30190-MSDT远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2022-30190](CVE-2022-30190-winstxnhdw_CVE-2022-30190.md) | CVE-2022-30190 (Follina) MSDT 远程代码执行漏洞 | ⚪ N/A | 0 |
 | [CVE-2022-30190](CVE-2022-30190-yeep1115_ICT287_CVE-2022-30190_Exploit.md) | CVE-2022-30190 Microsoft Windows Support Diagnostic Tool (MS... | ⚪ N/A | 0 |
-| [CVE-2022-30190](CVE-2022-30190-yrkuo_CVE-2022-30190.md) | CVE-2022-30190 Microsoft Windows Support Diagnostic Tool (MS... | ⚪ N/A | 0 |
-| [CVE-2022-30333](CVE-2022-30333-J0hnbX_CVE-2022-30333.md) | CVE-2022-30333-UnRAR目录遍历 | ⚪ N/A | 0 |
+| [CVE-2022-30190](CVE-2022-30190-yrkuo_CVE-2022-30190.md) | CVE-2022-30190 | ⚪ N/A | 0 |
+| [CVE-2022-30333](CVE-2022-30333-J0hnbX_CVE-2022-30333.md) | CVE-2022-30333 | ⚪ N/A | 0 |
 | [CVE-2022-30333](CVE-2022-30333-TheL1ghtVn_CVE-2022-30333-PoC.md) | CVE-2022-30333-UnRAR目录穿越漏洞 | ⚪ N/A | 0 |
 | [CVE-2022-30333](CVE-2022-30333-aslitsecurity_Zimbra-CVE-2022-30333.md) | CVE-2022-30333-UnRAR目录遍历 | ⚪ N/A | 0 |
 | [CVE-2022-30333](CVE-2022-30333-paradox0909_cve-2022-30333_online_rar_extracor.md) | CVE-2022-30333-UnRAR路径遍历 | ⚪ N/A | 0 |
@@ -437,30 +437,30 @@
 | [CVE-2022-31813](CVE-2022-31813-dodiorne_cve-2022-31813.md) | CVE-2022-31813-Apache HTTP Server-X-Forwarded-For绕过 | ⚪ N/A | 0 |
 | [CVE-2022-32250](CVE-2022-32250-Kristal-g_CVE-2022-32250.md) | CVE-2022-32250 - Linux Kernel Use-After-Free in Netfilter | ⚪ N/A | 0 |
 | [CVE-2022-32250](CVE-2022-32250-KuanKuanQAQ_cve-testing.md) | CVE-2022-32250-Linux Kernel Netfilter UAF 提权 | ⚪ N/A | 0 |
-| [CVE-2022-32250](CVE-2022-32250-g3un_cve-2022-32250.md) | CVE-2022-32250-Linux Kernel Netfilter Use-After-Free | ⚪ N/A | 0 |
+| [CVE-2022-32250](CVE-2022-32250-g3un_cve-2022-32250.md) | CVE-2022-32250 | ⚪ N/A | 0 |
 | [CVE-2022-32250](CVE-2022-32250-seadragnol_CVE-2022-32250.md) | CVE-2022-32250-Linux Kernel netfilter Use-After-Free | ⚪ N/A | 0 |
 | [CVE-2022-32250](CVE-2022-32250-theori-io_CVE-2022-32250-exploit.md) | CVE-2022-32250-Linux Kernel Privilege Escalation | ⚪ N/A | 0 |
 | [CVE-2022-32250](CVE-2022-32250-ysanatomic_CVE-2022-32250-LPE.md) | CVE-2022-32250-Linux Kernel Netfilter UAF LPE | ⚪ N/A | 0 |
 | [CVE-2022-32287](CVE-2022-32287-shoucheng3_apache__uima-uimaj_CVE-2022-32287_3-3-0.md) | CVE-2022-32287-Apache UIMA-路径遍历 | ⚪ N/A | 0 |
 | [CVE-2022-32532](CVE-2022-32532-Lay0us_CVE-2022-32532.md) | CVE-2022-32532-Apache Shiro 身份验证绕过 | ⚪ N/A | 0 |
-| [CVE-2022-32532](CVE-2022-32532-my0113_shiro-cve-2022-32532.md) | CVE-2022-32532-Apache Shiro-认证绕过 | ⚪ N/A | 0 |
+| [CVE-2022-32532](CVE-2022-32532-my0113_shiro-cve-2022-32532.md) | CVE-2022-32532 | ⚪ N/A | 0 |
 | [CVE-2022-33140](CVE-2022-33140-shoucheng3_apache__nifi_CVE-2022-33140_1-16-2.md) | CVE-2022-33140-Apache NiFi/Registry-命令注入 | ⚪ N/A | 0 |
 | [CVE-2022-33647](CVE-2022-33647-vpxuser_CVE-2022-33647.md) | CVE-2022-33647-Windows Kerberos 提权漏洞 | ⚪ N/A | 0 |
-| [CVE-2022-33679](CVE-2022-33679-Amulab_CVE-2022-33679.md) | CVE-2022-33679 Windows Kerberos 权限提升漏洞 | ⚪ N/A | 0 |
+| [CVE-2022-33679](CVE-2022-33679-Amulab_CVE-2022-33679.md) | CVE-2022-33679 | ⚪ N/A | 0 |
 | [CVE-2022-33679](CVE-2022-33679-Bdenneu_CVE-2022-33679.md) | CVE-2022-33679 Windows Kerberos 权限提升漏洞 | ⚪ N/A | 0 |
 | [CVE-2022-33679](CVE-2022-33679-Blyth0He_CVE-2022-33679.md) | CVE-2022-33679 Windows Kerberos 权限提升漏洞 | ⚪ N/A | 0 |
 | [CVE-2022-33679](CVE-2022-33679-soy-oreocato_CVE-2022-33679_Checker.md) | CVE-2022-33679 Windows Kerberos 权限提升漏洞 | ⚪ N/A | 0 |
 | [CVE-2022-34155](CVE-2022-34155-vanh-88_CVE-2022-34155.md) | CVE-2022-34155 - miniOrange OAuth Single Sign-On Plugin Auth... | ⚪ N/A | 0 |
 | [CVE-2022-34662](CVE-2022-34662-shoucheng3_apache__dolphinscheduler_CVE-2022-34662_2-0-9.md) | CVE-2022-34662 - Apache DolphinScheduler Path Traversal | ⚪ N/A | 0 |
 | [CVE-2022-3552](CVE-2022-3552-0xk4b1r_CVE-2022-3552.md) | CVE-2022-3552 BoxBilling 文件上传漏洞 | ⚪ N/A | 0 |
-| [CVE-2022-3552](CVE-2022-3552-BakalMode_CVE-2022-3552.md) | CVE-2022-3552-boxbilling-文件上传RCE | ⚪ N/A | 0 |
+| [CVE-2022-3552](CVE-2022-3552-BakalMode_CVE-2022-3552.md) | CVE-2022-3552 | ⚪ N/A | 0 |
 | [CVE-2022-35583](CVE-2022-35583-Malayke_CVE-2022-35583-Pandoc-SSRF-POC.md) | CVE-2022-35583 wkhtmlTOpdf SSRF | ⚪ N/A | 0 |
 | [CVE-2022-36007](CVE-2022-36007-shoucheng3_jlangch__venice_CVE-2022-36007_1-10-16.md) | CVE-2022-36007-venice-Partial Path Traversal | ⚪ N/A | 0 |
 | [CVE-2022-36537](CVE-2022-36537-Malwareman007_CVE-2022-36537.md) | CVE-2022-36537-ZK Framework-信息泄露/RCE | ⚪ N/A | 0 |
 | [CVE-2022-36537](CVE-2022-36537-agnihackers_CVE-2022-36537-EXPLOIT.md) | CVE-2022-36537-ZK Framework-信息泄露/RCE | ⚪ N/A | 0 |
-| [CVE-2022-36537](CVE-2022-36537-ethan-repo-lab4b6_CVE-2022-36537.md) | CVE-2022-36537 - ZK Framework AuUploader 信息泄露与RCE | ⚪ N/A | 0 |
+| [CVE-2022-36537](CVE-2022-36537-ethan-repo-lab4b6_CVE-2022-36537.md) | CVE-2022-36537 | ⚪ N/A | 0 |
 | [CVE-2022-36779](CVE-2022-36779-EmadYaY_CVE-2022-36779.md) | CVE-2022-36779 - Proscend 工业路由器未授权OS命令注入 | ⚪ N/A | 0 |
-| [CVE-2022-36779](CVE-2022-36779-rootDR_CVE-2022-36779.md) | CVE-2022-36779-PROSCEND/ADVICE-OS Command Injection | ⚪ N/A | 0 |
+| [CVE-2022-36779](CVE-2022-36779-rootDR_CVE-2022-36779.md) | CVE-2022-36779 | ⚪ N/A | 0 |
 | [CVE-2022-36779](CVE-2022-36779-rootdr-backup_exploit-CVE-2022-36779.md) | CVE-2022-36779 - PROSCEND 工业路由器 未授权OS命令注入 | ⚪ N/A | 0 |
 | [CVE-2022-36804](CVE-2022-36804-0xEleven_CVE-2022-36804-ReverseShell.md) | CVE-2022-36804-Bitbucket-命令注入 | ⚪ N/A | 0 |
 | [CVE-2022-36804](CVE-2022-36804-Chocapikk_CVE-2022-36804-ReverseShell.md) | CVE-2022-36804-Bitbucket-命令注入 | ⚪ N/A | 0 |
@@ -474,7 +474,7 @@
 | [CVE-2022-36804](CVE-2022-36804-imbas007_Atlassian-Bitbucket-CVE-2022-36804.md) | CVE-2022-36804-Bitbucket-命令注入 | ⚪ N/A | 0 |
 | [CVE-2022-36804](CVE-2022-36804-khal4n1_CVE-2022-36804.md) | CVE-2022-36804-Bitbucket命令注入 | ⚪ N/A | 0 |
 | [CVE-2022-36804](CVE-2022-36804-kljunowsky_CVE-2022-36804-POC.md) | CVE-2022-36804-Bitbucket-命令注入 | ⚪ N/A | 0 |
-| [CVE-2022-36804](CVE-2022-36804-notdls_CVE-2022-36804.md) | CVE-2022-36804-Bitbucket-命令注入 | ⚪ N/A | 0 |
+| [CVE-2022-36804](CVE-2022-36804-notdls_CVE-2022-36804.md) | CVE-2022-36804 | ⚪ N/A | 0 |
 | [CVE-2022-36804](CVE-2022-36804-notxesh_CVE-2022-36804-PoC.md) | CVE-2022-36804-Bitbucket-命令注入 | ⚪ N/A | 0 |
 | [CVE-2022-36804](CVE-2022-36804-tahtaciburak_cve-2022-36804.md) | CVE-2022-36804 - Bitbucket 命令注入 | ⚪ N/A | 0 |
 | [CVE-2022-36804](CVE-2022-36804-ui-bootstrap_CVE-2022-36804.md) | CVE-2022-36804-Bitbucket-命令注入 | ⚪ N/A | 0 |
@@ -485,16 +485,16 @@
 | [CVE-2022-37422](CVE-2022-37422-shoucheng3_payara__Payara_CVE-2022-37422_5-2022-2.md) | CVE-2022-37422-Payara-目录穿越 | ⚪ N/A | 0 |
 | [CVE-2022-3782](CVE-2022-3782-shoucheng3_keycloak__keycloak_CVE-2022-3782_20-0-1.md) | CVE-2022-3782-Keycloak-路径遍历 | ⚪ N/A | 0 |
 | [CVE-2022-37932](CVE-2022-37932-Tim-Hoekstra_CVE-2022-37932.md) | CVE-2022-37932-HP OfficeConnect 身份验证绕过 | ⚪ N/A | 0 |
-| [CVE-2022-37969](CVE-2022-37969-NoobCat2000_CVE-2022-37969.md) | CVE-2022-37969 - Windows CLFS 提权漏洞 | ⚪ N/A | 0 |
+| [CVE-2022-37969](CVE-2022-37969-NoobCat2000_CVE-2022-37969.md) | CVE-2022-37969 | ⚪ N/A | 0 |
 | [CVE-2022-37969](CVE-2022-37969-fortra_CVE-2022-37969.md) | CVE-2022-37969 Windows CLFS 驱动程序提权漏洞 | ⚪ N/A | 0 |
 | [CVE-2022-37969](CVE-2022-37969-grass341_CVE-2022-37969.md) | CVE-2022-37969 Windows CLFS 驱动提权漏洞 | ⚪ N/A | 0 |
 | [CVE-2022-38577](CVE-2022-38577-sornram9254_CVE-2022-38577-Processmaker.md) | CVE-2022-38577-ProcessMaker-权限提升 | ⚪ N/A | 0 |
 | [CVE-2022-38691](CVE-2022-38691-TomKing062_CVE-2022-38691_38692.md) | CVE-2022-38691/38692 Unisoc ROM 漏洞利用 | ⚪ N/A | 0 |
-| [CVE-2022-38694](CVE-2022-38694-Seriousattempts_Bootloader_Unlock_Retroid_Pocket_3Plus.md) | CVE-2022-38694-Unisoc BootROM Bootloader Unlocking | ⚪ N/A | 0 |
+| [CVE-2022-38694](CVE-2022-38694-Seriousattempts_Bootloader_Unlock_Retroid_Pocket_3Plus.md) | CVE-2022-38694 | ⚪ N/A | 0 |
 | [CVE-2022-38694](CVE-2022-38694-TheGammaSqueeze_Bootloader_Unlock_Anbernic_T820.md) | CVE-2022-38694 - Unisoc BootROM 漏洞 | ⚪ N/A | 0 |
 | [CVE-2022-38694](CVE-2022-38694-TomKing062_CVE-2022-38694_unlock_bootloader.md) | CVE-2022-38694-Unisoc BootROM Bootloader Unlock | ⚪ N/A | 0 |
 | [CVE-2022-39299](CVE-2022-39299-KaztoRay_CVE-2022-39299-Research.md) | CVE-2022-39299 - passport-saml 签名绕过 | ⚪ N/A | 0 |
-| [CVE-2022-39299](CVE-2022-39299-doyensec_CVE-2022-39299_PoC_Generator.md) | CVE-2022-39299 - Passport-SAML 签名绕过 | ⚪ N/A | 0 |
+| [CVE-2022-39299](CVE-2022-39299-doyensec_CVE-2022-39299_PoC_Generator.md) | CVE-2022-39299 | ⚪ N/A | 0 |
 | [CVE-2022-4065](CVE-2022-4065-shoucheng3_testng-team__testng_CVE-2022-4065_7-5.md) | CVE-2022-4065-testng-路径遍历 | ⚪ N/A | 0 |
 | [CVE-2022-40684](CVE-2022-40684-Anthony1500_CVE-2022-40684.md) | CVE-2022-40684 - Fortinet身份验证绕过 | ⚪ N/A | 0 |
 | [CVE-2022-40684](CVE-2022-40684-Bendalledj_CVE-2022-40684.md) | CVE-2022-40684-Fortinet身份验证绕过远程代码执行 | ⚪ N/A | 0 |
@@ -513,7 +513,7 @@
 | [CVE-2022-40684](CVE-2022-40684-dkstar11q_CVE-2022-40684.md) | CVE-2022-40684-FortiOS/FortiProxy/FortiSwitchManager身份验证绕过 | ⚪ N/A | 0 |
 | [CVE-2022-40684](CVE-2022-40684-gustavorobertux_gotigate.md) | CVE-2022-40684 - FortiOS/FortiProxy/FortiSwitchManager 身份验证绕... | ⚪ N/A | 0 |
 | [CVE-2022-40684](CVE-2022-40684-horizon3ai_CVE-2022-40684.md) | CVE-2022-40684-Fortinet身份验证绕过 | ⚪ N/A | 0 |
-| [CVE-2022-40684](CVE-2022-40684-hughink_CVE-2022-40684.md) | CVE-2022-40684 - Fortinet Authentication Bypass | ⚪ N/A | 0 |
+| [CVE-2022-40684](CVE-2022-40684-hughink_CVE-2022-40684.md) | CVE-2022-40684 | ⚪ N/A | 0 |
 | [CVE-2022-40684](CVE-2022-40684-iveresk_CVE-2022-40684.md) | CVE-2022-40684 - Fortinet Authentication Bypass | ⚪ N/A | 0 |
 | [CVE-2022-40684](CVE-2022-40684-jsongmax_Fortinet-CVE-2022-40684.md) | CVE-2022-40684 - Fortinet Authentication Bypass | ⚪ N/A | 0 |
 | [CVE-2022-40684](CVE-2022-40684-kljunowsky_CVE-2022-40684-POC.md) | CVE-2022-40684-FortiOS/FortiProxy/FortiSwitchManager身份验证绕过 | ⚪ N/A | 0 |
@@ -534,20 +534,20 @@
 | [CVE-2022-41082](CVE-2022-41082-notareaperbutDR34P3r_http-vuln-CVE-2022-41082.md) | CVE-2022-41082-Microsoft Exchange Server Remote Code Executi... | ⚪ N/A | 0 |
 | [CVE-2022-41082](CVE-2022-41082-notareaperbutDR34P3r_vuln-CVE-2022-41082.md) | CVE-2022-41082 Microsoft Exchange Server 远程代码执行漏洞 | ⚪ N/A | 0 |
 | [CVE-2022-41082](CVE-2022-41082-sikkertech_CVE-2022-41082.md) | CVE-2022-41082 - Microsoft Exchange Server 远程代码执行漏洞 | ⚪ N/A | 0 |
-| [CVE-2022-41082](CVE-2022-41082-soltanali0_CVE-2022-41082.md) | CVE-2022-41082-Microsoft Exchange Server Remote Code Executi... | ⚪ N/A | 0 |
+| [CVE-2022-41082](CVE-2022-41082-soltanali0_CVE-2022-41082.md) | CVE-2022-41082 | ⚪ N/A | 0 |
 | [CVE-2022-41352](CVE-2022-41352-Cr4ckC4t_cve-2022-41352-zimbra-rce.md) | CVE-2022-41352-Zimbra RCE | ⚪ N/A | 0 |
-| [CVE-2022-41352](CVE-2022-41352-MuhammadWaseem29_cve-2022-41352.md) | CVE-2022-41352-Zimbra Collaboration Suite Arbitrary File Upl... | ⚪ N/A | 0 |
+| [CVE-2022-41352](CVE-2022-41352-MuhammadWaseem29_cve-2022-41352.md) | CVE-2022-41352 | ⚪ N/A | 0 |
 | [CVE-2022-41352](CVE-2022-41352-qailanet_cve-2022-41352-zimbra-rce.md) | CVE-2022-41352-Zimbra-RCE | ⚪ N/A | 0 |
 | [CVE-2022-41352](CVE-2022-41352-rxerium_CVE-2022-41352.md) | CVE-2022-41352-Zimbra-RCE | ⚪ N/A | 0 |
 | [CVE-2022-41352](CVE-2022-41352-segfault-it_cve-2022-41352.md) | CVE-2022-41352-Zimbra-RCE | ⚪ N/A | 0 |
 | [CVE-2022-4137](CVE-2022-4137-shoucheng3_keycloak__keycloak_CVE-2022-4137_20-0-3.md) | CVE-2022-4137-Keycloak-Reflected XSS | ⚪ N/A | 0 |
 | [CVE-2022-41544](CVE-2022-41544-h3x0v3rl0rd_CVE-2022-41544.md) | CVE-2022-41544-GetSimple CMS-RCE | ⚪ N/A | 0 |
 | [CVE-2022-41544](CVE-2022-41544-nopgadget_CVE-2022-41544.md) | CVE-2022-41544 - GetSimple CMS 远程代码执行 | ⚪ N/A | 0 |
-| [CVE-2022-41544](CVE-2022-41544-yosef0x01_CVE-2022-41544.md) | CVE-2022-41544-GetSimple CMS-远程代码执行 | ⚪ N/A | 0 |
-| [CVE-2022-41678](CVE-2022-41678-URJACK2025_CVE-2022-41678.md) | CVE-2022-41678-Apache ActiveMQ-RCE | ⚪ N/A | 0 |
+| [CVE-2022-41544](CVE-2022-41544-yosef0x01_CVE-2022-41544.md) | CVE-2022-41544 | ⚪ N/A | 0 |
+| [CVE-2022-41678](CVE-2022-41678-URJACK2025_CVE-2022-41678.md) | CVE-2022-41678 | ⚪ N/A | 0 |
 | [CVE-2022-41678](CVE-2022-41678-mbadanoiu_CVE-2022-41678.md) | CVE-2022-41678: Apache ActiveMQ Jolokia API 远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2022-4174](CVE-2022-4174-moften_CVE-2022-4174_CVE-2022-41742.md) | CVE-2022-4174 V8 类型混淆漏洞 | ⚪ N/A | 0 |
-| [CVE-2022-41741](CVE-2022-41741-dumbbutt0_evilMP4.md) | CVE-2022-41741-NGINX-内存损坏 | ⚪ N/A | 0 |
+| [CVE-2022-41741](CVE-2022-41741-dumbbutt0_evilMP4.md) | CVE-2022-41741 | ⚪ N/A | 0 |
 | [CVE-2022-41741](CVE-2022-41741-moften_CVE-2022-41741-742-Nginx-Vulnerability-Scanner.md) | CVE-2022-41741 - Nginx ngx_http_mp4_module 内存损坏漏洞 | ⚪ N/A | 0 |
 | [CVE-2022-42092](CVE-2022-42092-ajdumanhug_CVE-2022-42092.md) | CVE-2022-42092-Backdrop CMS-Unrestricted File Upload | ⚪ N/A | 0 |
 | [CVE-2022-4244](CVE-2022-4244-shoucheng3_codehaus-plexus__plexus-utils_CVE-2022-4244_3-0-23.md) | CVE-2022-4244 - Codehaus-plexus Directory Traversal | ⚪ N/A | 0 |
@@ -571,7 +571,7 @@
 | [CVE-2022-42889](CVE-2022-42889-gokul-ramesh_text4shell-exploit.md) | CVE-2022-42889-Apache Commons Text-RCE | ⚪ N/A | 0 |
 | [CVE-2022-42889](CVE-2022-42889-hotblac_text4shell.md) | CVE-2022-42889 - Apache Commons Text RCE (Text4Shell) | ⚪ N/A | 0 |
 | [CVE-2022-42889](CVE-2022-42889-joshbnewton31080_cve-2022-42889-text4shell.md) | CVE-2022-42889-Apache Commons Text-RCE | ⚪ N/A | 0 |
-| [CVE-2022-42889](CVE-2022-42889-karthikuj_cve-2022-42889-text4shell-docker.md) | CVE-2022-42889-Apache Commons Text-RCE | ⚪ N/A | 0 |
+| [CVE-2022-42889](CVE-2022-42889-karthikuj_cve-2022-42889-text4shell-docker.md) | CVE-2022-42889 | ⚪ N/A | 0 |
 | [CVE-2022-42889](CVE-2022-42889-kljunowsky_CVE-2022-42889-text4shell.md) | CVE-2022-42889 - Apache Commons Text 远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2022-42889](CVE-2022-42889-korteke_CVE-2022-42889-POC.md) | CVE-2022-42889-Apache Commons Text RCE | ⚪ N/A | 0 |
 | [CVE-2022-42889](CVE-2022-42889-necroteddy_CVE-2022-42889.md) | CVE-2022-42889-Apache Commons Text RCE | ⚪ N/A | 0 |
@@ -581,9 +581,9 @@
 | [CVE-2022-42889](CVE-2022-42889-vickyaryan7_Text4shell-exploit.md) | CVE-2022-42889-Apache Commons Text RCE | ⚪ N/A | 0 |
 | [CVE-2022-43110](CVE-2022-43110-ready2disclose_CVE-2022-43110.md) | CVE-2022-43110 Voltronic Viewpower/Pro 权限绕过漏洞 | ⚪ N/A | 0 |
 | [CVE-2022-4361](CVE-2022-4361-faccimatteo_CVE-2022-4361.md) | CVE-2022-4361-Keycloak-XSS | ⚪ N/A | 0 |
-| [CVE-2022-4361](CVE-2022-4361-shoucheng3_keycloak__keycloak_CVE-2022-4361_21-1-1.md) | CVE-2022-4361-Keycloak-XSS | ⚪ N/A | 0 |
+| [CVE-2022-4361](CVE-2022-4361-shoucheng3_keycloak__keycloak_CVE-2022-4361_21-1-1.md) | CVE-2022-4361 | ⚪ N/A | 0 |
 | [CVE-2022-44136](CVE-2022-44136-Ch35h1r3c47_CVE-2022-44136-poc.md) | CVE-2022-44136-Zenar CMS 9.3 Remote Code Execution | ⚪ N/A | 0 |
-| [CVE-2022-44262](CVE-2022-44262-shoucheng3_ff4j__ff4j_CVE-2022-44262_1-8-13.md) | CVE-2022-44262 - ff4j 远程代码执行 | ⚪ N/A | 0 |
+| [CVE-2022-44262](CVE-2022-44262-shoucheng3_ff4j__ff4j_CVE-2022-44262_1-8-13.md) | CVE-2022-44262 | ⚪ N/A | 0 |
 | [CVE-2022-44262](CVE-2022-44262-shoucheng3_ff4j__ff4j_CVE-2022-44262_1_8_13_fixed.md) | CVE-2022-44262-ff4j-RCE | ⚪ N/A | 0 |
 | [CVE-2022-44268](CVE-2022-44268-Ashifcoder_CVE-2022-44268-automated-poc.md) | CVE-2022-44268 ImageMagick Arbitrary File Read | ⚪ N/A | 0 |
 | [CVE-2022-44268](CVE-2022-44268-Baikuya_CVE-2022-44268-PoC.md) | CVE-2022-44268-ImageMagick-任意文件读取 | ⚪ N/A | 0 |
@@ -595,7 +595,7 @@
 | [CVE-2022-44268](CVE-2022-44268-Pog-Frog_cve-2022-44268.md) | CVE-2022-44268-ImageMagick-任意文件读取 | ⚪ N/A | 0 |
 | [CVE-2022-44268](CVE-2022-44268-Sybil-Scan_imagemagick-lfi-poc.md) | CVE-2022-44268-ImageMagick-Arbitrary File Read | ⚪ N/A | 0 |
 | [CVE-2022-44268](CVE-2022-44268-Vagebondcur_IMAGE-MAGICK-CVE-2022-44268.md) | CVE-2022-44268-ImageMagick-任意文件读取 | ⚪ N/A | 0 |
-| [CVE-2022-44268](CVE-2022-44268-Vulnmachines_imagemagick-CVE-2022-44268.md) | CVE-2022-44268-ImageMagick-任意文件读取 | ⚪ N/A | 0 |
+| [CVE-2022-44268](CVE-2022-44268-Vulnmachines_imagemagick-CVE-2022-44268.md) | CVE-2022-44268 | ⚪ N/A | 0 |
 | [CVE-2022-44268](CVE-2022-44268-adhikara13_CVE-2022-44268-MagiLeak.md) | CVE-2022-44268-ImageMagick-任意文件读取 | ⚪ N/A | 0 |
 | [CVE-2022-44268](CVE-2022-44268-agathanon_cve-2022-44268.md) | CVE-2022-44268-ImageMagick-信息泄露 | ⚪ N/A | 0 |
 | [CVE-2022-44268](CVE-2022-44268-atici_Exploit-for-ImageMagick-CVE-2022-44268.md) | CVE-2022-44268-ImageMagick-任意文件读取 | ⚪ N/A | 0 |
@@ -623,7 +623,7 @@
 | [CVE-2022-46169](CVE-2022-46169-FredBrave_CVE-2022-46169-CACTI-1.2.22.md) | CVE-2022-46169-Cacti-命令注入 | ⚪ N/A | 0 |
 | [CVE-2022-46169](CVE-2022-46169-HPT-Intern-Task-Submission_CVE-2022-46169.md) | CVE-2022-46169 - Cacti 未授权远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2022-46169](CVE-2022-46169-Habib0x0_CVE-2022-46169.md) | CVE-2022-46169 - Cacti 未授权命令注入 | ⚪ N/A | 0 |
-| [CVE-2022-46169](CVE-2022-46169-JacobEbben_CVE-2022-46169_unauth_remote_code_execution.md) | CVE-2022-46169 - Cacti Unauthenticated Remote Code Execution | ⚪ N/A | 0 |
+| [CVE-2022-46169](CVE-2022-46169-JacobEbben_CVE-2022-46169_unauth_remote_code_execution.md) | CVE-2022-46169 | ⚪ N/A | 0 |
 | [CVE-2022-46169](CVE-2022-46169-MarkStrendin_CVE-2022-46169.md) | CVE-2022-46169-Cacti-命令注入 | ⚪ N/A | 0 |
 | [CVE-2022-46169](CVE-2022-46169-N1arut_CVE-2022-46169_POC.md) | CVE-2022-46169-Cacti-命令注入 | ⚪ N/A | 0 |
 | [CVE-2022-46169](CVE-2022-46169-RdBBB3_SHELL-POC-CVE-2022-46169.md) | CVE-2022-46169-Cacti-命令注入 | ⚪ N/A | 0 |
@@ -648,12 +648,12 @@
 | [CVE-2022-46169](CVE-2022-46169-ruycr4ft_CVE-2022-46169.md) | CVE-2022-46169-Cacti-命令注入 | ⚪ N/A | 0 |
 | [CVE-2022-46169](CVE-2022-46169-sAsPeCt488_CVE-2022-46169.md) | CVE-2022-46169-Cacti-命令注入 | ⚪ N/A | 0 |
 | [CVE-2022-46169](CVE-2022-46169-yassinebk_CVE-2022-46169.md) | CVE-2022-46169-Cacti-命令注入 | ⚪ N/A | 0 |
-| [CVE-2022-46463](CVE-2022-46463-404tk_CVE-2022-46463.md) | CVE-2022-46463-Harbor-未授权访问 | ⚪ N/A | 0 |
+| [CVE-2022-46463](CVE-2022-46463-404tk_CVE-2022-46463.md) | CVE-2022-46463 | ⚪ N/A | 0 |
 | [CVE-2022-46463](CVE-2022-46463-CodeSecurityTeam_harbor.md) | CVE-2022-46463-Harbor-未授权访问 | ⚪ N/A | 0 |
 | [CVE-2022-46463](CVE-2022-46463-nu0l_CVE-2022-46463.md) | CVE-2022-46463-Harbor-未授权访问 | ⚪ N/A | 0 |
 | [CVE-2022-46604](CVE-2022-46604-CyberQuestor-infosec_CVE-2022-46604-Responsive-File-Manager.md) | CVE-2022-46604 - Responsive FileManager RCE | ⚪ N/A | 0 |
 | [CVE-2022-46604](CVE-2022-46604-SakshiVelampudi_CVE-2022-46604-Responsive-File-Manager.md) | CVE-2022-46604-Responsive FileManager-RCE | ⚪ N/A | 0 |
-| [CVE-2022-46604](CVE-2022-46604-galoget_ResponsiveFileManager-CVE-2022-46604.md) | CVE-2022-46604 - Responsive FileManager 文件上传绕过导致RCE | ⚪ N/A | 0 |
+| [CVE-2022-46604](CVE-2022-46604-galoget_ResponsiveFileManager-CVE-2022-46604.md) | CVE-2022-46604 | ⚪ N/A | 0 |
 | [CVE-2022-46907](CVE-2022-46907-shoucheng3_apache__jspwiki_CVE-2022-46907_2-11-3.md) | CVE-2022-46907 - Apache JSPWiki XSS漏洞 | ⚪ N/A | 0 |
 
 ---

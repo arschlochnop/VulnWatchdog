@@ -10,7 +10,7 @@
 |---------|------|----------|-----------|
 | [CVE-2004-0789](CVE-2004-0789-HimmeL-Byte_CVE-2004-0789-DDOS.md) | CVE-2004-0789-DNS Response Flooding Denial of Service | ⚪ N/A | 0 |
 | [CVE-2004-2687](CVE-2004-2687-h3x0v3rl0rd_distccd_rce_CVE-2004-2687.md) | CVE-2004-2687-distccd-远程命令执行 | ⚪ N/A | 0 |
-| [CVE-2004-2687](CVE-2004-2687-k4miyo_CVE-2004-2687.md) | CVE-2004-2687-distccd-RCE | ⚪ N/A | 0 |
+| [CVE-2004-2687](CVE-2004-2687-k4miyo_CVE-2004-2687.md) | CVE-2004-2687 | ⚪ N/A | 0 |
 | [CVE-2004-2687](CVE-2004-2687-ss0wl_CVE-2004-2687_distcc_v1.md) | CVE-2004-2687-distcc-远程代码执行 | ⚪ N/A | 0 |
 
 ---

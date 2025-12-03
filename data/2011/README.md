@@ -8,14 +8,14 @@
 
 | CVE编号 | 标题 | 严重程度 | POC仓库数 |
 |---------|------|----------|-----------|
-| [CVE-2011-0762](CVE-2011-0762-AndreyFreitass_CVE-2011-0762.md) | CVE-2011-0762-vsftpd-DoS | ⚪ N/A | 0 |
+| [CVE-2011-0762](CVE-2011-0762-AndreyFreitass_CVE-2011-0762.md) | CVE-2011-0762 | ⚪ N/A | 0 |
 | [CVE-2011-0762](CVE-2011-0762-AndreyFreitax_CVE-2011-0762.md) | CVE-2011-0762 - vsftpd STAT 命令拒绝服务 | ⚪ N/A | 0 |
 | [CVE-2011-0762](CVE-2011-0762-Andreyfreis_CVE-2011-0762.md) | CVE-2011-0762-vsftpd-DoS | ⚪ N/A | 0 |
 | [CVE-2011-0762](CVE-2011-0762-Andreyfrtz_CVE-2011-0762.md) | CVE-2011-0762-vsftpd-DoS | ⚪ N/A | 0 |
 | [CVE-2011-0762](CVE-2011-0762-Andreyfts7_CVE-2011-0762.md) | CVE-2011-0762-vsftpd-DoS | ⚪ N/A | 0 |
 | [CVE-2011-0762](CVE-2011-0762-Freitandrey_CVE-2011-0762.md) | CVE-2011-0762-vsftpd-拒绝服务 | ⚪ N/A | 0 |
 | [CVE-2011-0762](CVE-2011-0762-s3mPr1linux_CVE-2011-0762.md) | CVE-2011-0762-vsftpd-DoS | ⚪ N/A | 0 |
-| [CVE-2011-1249](CVE-2011-1249-Madusanka99_OHTS.md) | CVE-2011-1249 - Windows AFD Elevation of Privilege | ⚪ N/A | 0 |
+| [CVE-2011-1249](CVE-2011-1249-Madusanka99_OHTS.md) | CVE-2011-1249 | ⚪ N/A | 0 |
 | [CVE-2011-1249](CVE-2011-1249-h3x0v3rl0rd_CVE-2011-1249.md) | CVE-2011-1249 - Windows AFD权限提升漏洞 | ⚪ N/A | 0 |
 | [CVE-2011-2523](CVE-2011-2523-0xB0y426_CVE-2011-2523-PoC.md) | CVE-2011-2523 - vsftpd 2.3.4 后门 | ⚪ N/A | 0 |
 | [CVE-2011-2523](CVE-2011-2523-0xSojalSec_-CVE-2011-2523.md) | CVE-2011-2523-vsftpd-后门命令执行 | ⚪ N/A | 0 |
@@ -43,7 +43,7 @@
 | [CVE-2011-2523](CVE-2011-2523-lghost256_vsftpd234-exploit.md) | CVE-2011-2523-vsftpd 2.3.4 Backdoor Command Execution | ⚪ N/A | 0 |
 | [CVE-2011-2523](CVE-2011-2523-madanokr001_CVE-2011-2523.md) | CVE-2011-2523-vsftpd-Backdoor | ⚪ N/A | 0 |
 | [CVE-2011-2523](CVE-2011-2523-nobodyatall648_CVE-2011-2523.md) | CVE-2011-2523-vsftpd 2.3.4 Backdoor | ⚪ N/A | 0 |
-| [CVE-2011-2523](CVE-2011-2523-padsalatushal_CVE-2011-2523.md) | CVE-2011-2523 - vsftpd 2.3.4 Backdoor Command Execution | ⚪ N/A | 0 |
+| [CVE-2011-2523](CVE-2011-2523-padsalatushal_CVE-2011-2523.md) | CVE-2011-2523 | ⚪ N/A | 0 |
 | [CVE-2011-2523](CVE-2011-2523-seerat-fatima21_vsftpd-exploit.md) | CVE-2011-2523 - vsftpd 2.3.4 Backdoor Command Execution | ⚪ N/A | 0 |
 | [CVE-2011-2523](CVE-2011-2523-sug4r-wr41th_CVE-2011-2523.md) | CVE-2011-2523-vsftpd-后门 | ⚪ N/A | 0 |
 | [CVE-2011-2523](CVE-2011-2523-vaishnavucv_CVE-2011-2523.md) | CVE-2011-2523-vsftpd-后门 | ⚪ N/A | 0 |

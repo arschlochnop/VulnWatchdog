@@ -13,7 +13,7 @@
 | [CVE-2014-3576](CVE-2014-3576-shoucheng3_apache__activemq_CVE-2014-3576_5-10-1.md) | CVE-2014-3576-Apache ActiveMQ-DoS | ⚪ N/A | 0 |
 | [CVE-2014-3656](CVE-2014-3656-shoucheng3_keycloak__keycloak_CVE-2014-3656_1-0-5-Final.md) | CVE-2014-3656-JBoss KeyCloak-XSS | ⚪ N/A | 0 |
 | [CVE-2014-4688](CVE-2014-4688-andyfeili_CVE-2014-4688.md) | CVE-2014-4688-pfSense-命令注入 | ⚪ N/A | 0 |
-| [CVE-2014-4688](CVE-2014-4688-fenix0499_CVE-2014-4688-NodeJs-Exploit.md) | CVE-2014-4688-pfSense-命令注入 | ⚪ N/A | 0 |
+| [CVE-2014-4688](CVE-2014-4688-fenix0499_CVE-2014-4688-NodeJs-Exploit.md) | CVE-2014-4688 | ⚪ N/A | 0 |
 | [CVE-2014-4725](CVE-2014-4725-Pwdnx1337_MASS-CVE-2014-4725.md) | CVE-2014-4725 MailPoet Newsletters 插件远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2014-6271](CVE-2014-6271-0xN7y_CVE-2014-6271.md) | CVE-2014-6271 ShellShock | ⚪ N/A | 0 |
 | [CVE-2014-6271](CVE-2014-6271-AlissonFaoli_Shellshock.md) | CVE-2014-6271 Shellshock | ⚪ N/A | 0 |
@@ -25,7 +25,7 @@
 | [CVE-2014-6271](CVE-2014-6271-K3ysTr0K3R_CVE-2014-6271-EXPLOIT.md) | CVE-2014-6271-Shellshock | ⚪ N/A | 0 |
 | [CVE-2014-6271](CVE-2014-6271-MuirlandOracle_CVE-2014-6271-IPFire.md) | CVE-2014-6271 IP Fire Shellshock RCE | ⚪ N/A | 0 |
 | [CVE-2014-6271](CVE-2014-6271-RAJMadhusankha_Shellshock-CVE-2014-6271-Exploitation-and-Analysis.md) | CVE-2014-6271 Shellshock漏洞利用 | ⚪ N/A | 0 |
-| [CVE-2014-6271](CVE-2014-6271-RadYio_CVE-2014-6271.md) | CVE-2014-6271 - Shellshock | ⚪ N/A | 0 |
+| [CVE-2014-6271](CVE-2014-6271-RadYio_CVE-2014-6271.md) | CVE-2014-6271 | ⚪ N/A | 0 |
 | [CVE-2014-6271](CVE-2014-6271-TheRealCiscoo_Shellshock-Exploit.md) | CVE-2014-6271 ShellShock | ⚪ N/A | 0 |
 | [CVE-2014-6271](CVE-2014-6271-YunchoHang_CVE-2014-6271-SHELLSHOCK.md) | CVE-2014-6271 Shellshock | ⚪ N/A | 0 |
 | [CVE-2014-6271](CVE-2014-6271-ajansha_shellshock.md) | CVE-2014-6271 Shellshock | ⚪ N/A | 0 |
@@ -51,7 +51,7 @@
 | [CVE-2014-6287](CVE-2014-6287-mrintern_thm_steelmountain_CVE-2014-6287.md) | CVE-2014-6287-Rejetto HTTP File Server-远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2014-6287](CVE-2014-6287-nika0x38_CVE-2014-6287.md) | CVE-2014-6287 Rejetto HFS 2.3x 远程命令执行 | ⚪ N/A | 0 |
 | [CVE-2014-6287](CVE-2014-6287-rahisec_rejetto-http-file-server-2.3.x-RCE-exploit-CVE-2014-6287.md) | CVE-2014-6287-Rejetto HFS-远程命令执行 | ⚪ N/A | 0 |
-| [CVE-2014-6287](CVE-2014-6287-randallbanner_Rejetto-HTTP-File-Server-HFS-2.3.x---Remote-Command-Execution.md) | CVE-2014-6287-Rejetto HFS 2.3.x-远程命令执行 | ⚪ N/A | 0 |
+| [CVE-2014-6287](CVE-2014-6287-randallbanner_Rejetto-HTTP-File-Server-HFS-2.3.x---Remote-Command-Execution.md) | CVE-2014-6287 | ⚪ N/A | 0 |
 | [CVE-2014-6287](CVE-2014-6287-roughiz_cve-2014-6287.py.md) | CVE-2014-6287 - Rejetto HTTP File Server Remote Command Exec... | ⚪ N/A | 0 |
 | [CVE-2014-6287](CVE-2014-6287-wizardy0ga_THM-Steel_Mountain-CVE-2014-6287.md) | CVE-2014-6287 - Rejetto HTTP File Server 远程命令执行 | ⚪ N/A | 0 |
 | [CVE-2014-6287](CVE-2014-6287-zhsh9_CVE-2014-6287.md) | CVE-2014-6287-Rejetto HFS-远程命令执行 | ⚪ N/A | 0 |
