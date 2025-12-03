@@ -25,11 +25,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run reorganization
-        run: python scripts/reorganize_by_date.py
+      # - name: Run reorganization
+      #   run: python scripts/reorganize_by_date.py
 
       - name: Generate all indexes
-        run: python scripts/generate_indexes.py
+        run: python tools/generate_indexes.py
 
       - name: Commit and push
         run: |

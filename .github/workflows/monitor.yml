@@ -39,7 +39,7 @@ jobs:
         run: python main.py
 
       - name: Generate indexes and READMEs
-        run: python scripts/generate_indexes.py
+        run: python tools/generate_indexes.py
 
       - name: Commit changes
         run: |
