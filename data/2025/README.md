@@ -46,7 +46,7 @@
 | [CVE-2025-0411](CVE-2025-0411-betulssahin_CVE-2025-0411-7-Zip-Mark-of-the-Web-Bypass.md) | CVE-2025-0411-7-Zip Mark-of-the-Web Bypass | ⚪ N/A | 0 |
 | [CVE-2025-0411](CVE-2025-0411-cesarbtakeda_7-Zip-CVE-2025-0411-POC.md) | CVE-2025-0411-7-Zip-Mark-of-the-Web Bypass | ⚪ N/A | 0 |
 | [CVE-2025-0411](CVE-2025-0411-dhmosfunk_7-Zip-CVE-2025-0411-POC.md) | CVE-2025-0411-7-Zip Mark-of-the-Web Bypass | ⚪ N/A | 0 |
-| [CVE-2025-0411](CVE-2025-0411-dpextreme_7-Zip-CVE-2025-0411-POC.md) | CVE-2025-0411 - 7-Zip MotW Bypass | ⚪ N/A | 0 |
+| [CVE-2025-0411](CVE-2025-0411-dpextreme_7-Zip-CVE-2025-0411-POC.md) | CVE-2025-0411-7-Zip Mark-of-the-Web 绕过漏洞 | ⚪ N/A | 0 |
 | [CVE-2025-0411](CVE-2025-0411-iSee857_CVE-2025-0411-PoC.md) | CVE-2025-0411 | ⚪ N/A | 0 |
 | [CVE-2025-0411](CVE-2025-0411-ishwardeepp_CVE-2025-0411-MoTW-PoC.md) | CVE-2025-0411 7-Zip Mark-of-the-Web Bypass Vulnerability | ⚪ N/A | 0 |
 | [CVE-2025-0868](CVE-2025-0868-aidana-gift_CVE-2025-0868.md) | CVE-2025-0868-DocsGPT-远程代码执行 | ⚪ N/A | 0 |
