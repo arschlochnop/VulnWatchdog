@@ -450,7 +450,7 @@
 | [CVE-2025-24893](CVE-2025-24893-80Ottanta80_CVE-2025-24893-PoC.md) | CVE-2025-24893-XWiki-Unauthenticated-RCE | ⚪ N/A | 0 |
 | [CVE-2025-24893](CVE-2025-24893-AzureADTrent_CVE-2025-24893-Reverse-Shell.md) | CVE-2025-24893-XWiki-远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2025-24893](CVE-2025-24893-B1ack4sh_Blackash-CVE-2025-24893.md) | CVE-2025-24893-XWiki-RCE | ⚪ N/A | 0 |
-| [CVE-2025-24893](CVE-2025-24893-Bishben_xwiki-15.10.8-reverse-shell-cve-2025-24893.md) | CVE-2025-24893-XWiki-远程代码执行 | ⚪ N/A | 0 |
+| [CVE-2025-24893](CVE-2025-24893-Bishben_xwiki-15.10.8-reverse-shell-cve-2025-24893.md) | CVE-2025-24893 XWiki 远程代码执行漏洞 | ⚪ N/A | 0 |
 | [CVE-2025-24893](CVE-2025-24893-CMassa_CVE-2025-24893.md) | CVE-2025-24893-XWiki-RCE | ⚪ N/A | 0 |
 | [CVE-2025-24893](CVE-2025-24893-D3Ext_CVE-2025-24893.md) | CVE-2025-24893-XWiki-RCE | ⚪ N/A | 0 |
 | [CVE-2025-24893](CVE-2025-24893-Hex00-0x4_CVE-2025-24893-XWiki-RCE.md) | CVE-2025-24893 - XWiki Platform Remote Code Execution | ⚪ N/A | 0 |
