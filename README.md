@@ -18,11 +18,9 @@ VulnWatchdog 是一个自动化的漏洞监控和分析工具。它可以监控 
 
 本项目使用 GitHub Actions 实现自动化监控和分析。配置文件位于 `.github/monitor.yml`。
 
-1. 配置项目action Settings -> Secrets 中添加以下 secrets敏感参数:
+1. 配置项目 Settings → Secrets 中添加以下 secrets 敏感参数:
 
 ```yaml
-
-
 # Webhook配置
 WEBHOOK_URL: "your_webhook_url"
 
@@ -30,10 +28,20 @@ WEBHOOK_URL: "your_webhook_url"
 GPT_SERVER_URL: "your_gpt_server_url"
 GPT_API_KEY: "your_gpt_api_key"
 
-
 # 搜索配置
 SEARXNG_URL: "your_searxng_url"
+
+# GitHub Token配置 (可选，推荐配置以提升API限额)
+GH_TOKEN: "ghp_your_github_token"  # 5000次/小时
+# 不配置时使用 GITHUB_TOKEN (1000次/小时，自动提供)
 ```
+
+**GitHub Token 说明**:
+- 不配置: 60次/小时 (容易触发限制 ❌)
+- GITHUB_TOKEN: 1000次/小时 (自动提供 ✅)
+- GH_TOKEN: 5000次/小时 (推荐配置 ⭐)
+
+生成 Token: https://github.com/settings/tokens (权限: `public_repo`)
 
 2. 配置config.py中功能开关
 
@@ -89,9 +97,10 @@ pip install -r requirements.txt
 
 3. 配置环境变量
 ```bash
-cp .env.copy .env
+cp .env.example .env
 # 编辑 .env 文件,配置必要的敏感参数
-# 编辑config.py文件,配置功能开关
+# 推荐配置 GH_TOKEN 以提升 GitHub API 限额 (5000次/小时)
+# 编辑 config.py 文件,配置功能开关
 ```
 
 4. 运行程序
