@@ -35,6 +35,7 @@ jobs:
           GPT_API_KEY: ${{ secrets.GPT_API_KEY }}
           GPT_MODEL: ${{ secrets.GPT_MODEL }}
           SEARXNG_URL: ${{ secrets.SEARXNG_URL }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GIT_URL: https://github.com/${{ github.repository }}
         run: python main.py
 
