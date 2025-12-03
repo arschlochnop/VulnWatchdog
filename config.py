@@ -30,8 +30,11 @@ ENABLE_EXTENDED=True
 # 是否启用仓库更新检测(基于commit SHA)
 ENABLE_UPDATE_CHECK=True
 
-# GitHub API Token (可选，提升API限制到5000次/小时)
-# 未配置时使用未认证模式 (60次/小时)
+# GitHub API Token 配置说明:
+# 1. GH_TOKEN: 用户手工配置的 Personal Access Token (推荐，5000次/小时)
+# 2. GITHUB_TOKEN: GitHub Actions 自动提供的 Token (1000次/小时)
+# 3. 未配置: 使用未认证模式 (60次/小时)
+# 优先级: GH_TOKEN > GITHUB_TOKEN > None
 GITHUB_TOKEN=None
 
 # 数据库URL
@@ -67,8 +70,8 @@ def get_config(env: str):
         'ENABLE_EXTENDED': ENABLE_EXTENDED,
         # 更新检测配置
         'ENABLE_UPDATE_CHECK': ENABLE_UPDATE_CHECK,
-        # GitHub配置
-        'GITHUB_TOKEN': os.environ.get('GITHUB_TOKEN') if os.environ.get('GITHUB_TOKEN') else GITHUB_TOKEN,
+        # GitHub配置 (优先使用 GH_TOKEN，其次 GITHUB_TOKEN)
+        'GITHUB_TOKEN': os.environ.get('GH_TOKEN') or os.environ.get('GITHUB_TOKEN') or GITHUB_TOKEN,
         # 仓库地址
         'GIT_URL': os.environ.get('GIT_URL', ''),
     }
