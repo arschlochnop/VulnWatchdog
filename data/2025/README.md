@@ -207,7 +207,7 @@
 | [CVE-2025-2005](CVE-2025-2005-Nxploited_CVE-2025-2005.md) | CVE-2025-2005 - WordPress Front End Users Plugin Arbitrary F... | ⚪ N/A | 0 |
 | [CVE-2025-2005](CVE-2025-2005-h4ckxel_CVE-2025-2005.md) | CVE-2025-2005 - WordPress Front End Users Plugin Unauthentic... | ⚪ N/A | 0 |
 | [CVE-2025-2005](CVE-2025-2005-mrmtwoj_CVE-2025-2005.md) | CVE-2025-2005 | ⚪ N/A | 0 |
-| [CVE-2025-2011](CVE-2025-2011-X3RX3SSec_CVE-2025-2011.md) | CVE-2025-2011-Slider & Popup Builder by Depicter-SQL注入 | ⚪ N/A | 0 |
+| [CVE-2025-2011](CVE-2025-2011-X3RX3SSec_CVE-2025-2011.md) | CVE-2025-2011-WordPress Depicter插件-SQL注入 | ⚪ N/A | 0 |
 | [CVE-2025-2011](CVE-2025-2011-datagoboom_CVE-2025-2011.md) | CVE-2025-2011 | ⚪ N/A | 0 |
 | [CVE-2025-20124](CVE-2025-20124-Yuri08loveElaina_CVE-2025-20124_and_CVE-2025-20125.md) | CVE-2025-20124 - Cisco ISE Java Deserialization RCE | ⚪ N/A | 0 |
 | [CVE-2025-20188](CVE-2025-20188-Sratet_CVE-2025-20188.md) | CVE-2025-20188 - Cisco IOS XE 任意文件上传/RCE | ⚪ N/A | 0 |
