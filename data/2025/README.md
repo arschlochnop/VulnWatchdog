@@ -1603,13 +1603,13 @@
 | [CVE-2025-49844](CVE-2025-49844-Network-Sec_CVE-2025-49844-RediShell-AI-made-Revshell.md) | CVE-2025-49844 Redis Lua Use-After-Free / CVE-2025-62507 Red... | ⚪ N/A | 0 |
 | [CVE-2025-49844](CVE-2025-49844-YuanBenSir_CVE-2025-49844_POC.md) | CVE-2025-49844-Redis-Lua Use-After-Free | ⚪ N/A | 0 |
 | [CVE-2025-49844](CVE-2025-49844-Yuri08loveElaina_CVE-2025-49844.md) | CVE-2025-49844 - Redis Lua Interpreter UAF | ⚪ N/A | 0 |
-| [CVE-2025-49844](CVE-2025-49844-Zain3311_CVE-2025-49844.md) | CVE-2025-49844-Redis-Lua-Use-After-Free | ⚪ N/A | 0 |
+| [CVE-2025-49844](CVE-2025-49844-Zain3311_CVE-2025-49844.md) | CVE-2025-49844 Redis Lua UAF 远程代码执行漏洞 (RediShell) | ⚪ N/A | 0 |
 | [CVE-2025-49844](CVE-2025-49844-angelusrivera_CVE-2025-49844.md) | CVE-2025-49844 Redis Lua Use-After-Free 远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2025-49844](CVE-2025-49844-dwisiswant0_CVE-2025-49844.md) | CVE-2025-49844-Redis-Lua Use-After-Free | ⚪ N/A | 0 |
 | [CVE-2025-49844](CVE-2025-49844-elyasbassir_CVE-2025-49844.md) | CVE-2025-49844 - Redis Lua Use-After-Free 导致远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2025-49844](CVE-2025-49844-gopinaath_CVE-2025-49844-discovery.md) | CVE-2025-49844-Redis Lua Use-After-Free | ⚪ N/A | 0 |
 | [CVE-2025-49844](CVE-2025-49844-imbas007_CVE-2025-49844-Vulnerability-Scanner.md) | CVE-2025-49844 | ⚪ N/A | 0 |
-| [CVE-2025-49844](CVE-2025-49844-ksnnd32_redis_exploit.md) | CVE-2025-49844-Redis-Lua Use-After-Free RCE | ⚪ N/A | 0 |
+| [CVE-2025-49844](CVE-2025-49844-ksnnd32_redis_exploit.md) | CVE-2025-49844 Redis Lua UAF 远程代码执行 | ⚪ N/A | 0 |
 | [CVE-2025-49844](CVE-2025-49844-lastvocher_redis-CVE-2025-49844.md) | CVE-2025-49844-Redis-Lua Use-After-Free | ⚪ N/A | 0 |
 | [CVE-2025-49844](CVE-2025-49844-pedrorichil_CVE-2025-49844.md) | CVE-2025-49844 (RediShell) - Redis Lua Use-After-Free | ⚪ N/A | 0 |
 | [CVE-2025-49844](CVE-2025-49844-raminfp_redis_exploit.md) | CVE-2025-49844 (RediShell) - Redis Lua Use-After-Free | ⚪ N/A | 0 |
@@ -2140,7 +2140,7 @@
 | [CVE-2025-61882](CVE-2025-61882-allinsthon_CVE-2025-61882.md) | CVE-2025-61882 - Oracle E-Business Suite RCE | ⚪ N/A | 0 |
 | [CVE-2025-61882](CVE-2025-61882-godnish_CVE-2025-61882.md) | CVE-2025-61882-Oracle Concurrent Processing-RCE | ⚪ N/A | 0 |
 | [CVE-2025-61882](CVE-2025-61882-rxerium_CVE-2025-61882.md) | CVE-2025-61882-Oracle Concurrent Processing-远程代码执行 | ⚪ N/A | 0 |
-| [CVE-2025-61882](CVE-2025-61882-siddu7575_CVE-2025-61882-CVE-2025-61884.md) | CVE-2025-61882/CVE-2025-61884 - Oracle E-Business Suite 远程代码... | ⚪ N/A | 0 |
+| [CVE-2025-61882](CVE-2025-61882-siddu7575_CVE-2025-61882-CVE-2025-61884.md) | CVE-2025-61882 | ⚪ N/A | 0 |
 | [CVE-2025-61882](CVE-2025-61882-watchtowrlabs_watchTowr-vs-Oracle-E-Business-Suite-CVE-2025-61882.md) | CVE-2025-61882 - Oracle Concurrent Processing Pre-Auth RCE | ⚪ N/A | 0 |
 | [CVE-2025-61882](CVE-2025-61882-zerozenxlabs_CVE-2025-61882-Oracle-EBS.md) | CVE-2025-61882-Oracle Concurrent Processing-SSRF/RCE | ⚪ N/A | 0 |
 | [CVE-2025-61884](CVE-2025-61884-AshrafZaryouh_CVE-2025-61884-At-a-Glance.md) | CVE-2025-61884-Oracle Configurator信息泄露 | ⚪ N/A | 0 |
