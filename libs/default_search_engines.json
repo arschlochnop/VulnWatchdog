@@ -1,0 +1,1023 @@
+{
+  "version": "1.1",
+  "description": "VulnWatchdog 扩展搜索引擎配置 - Top 100引擎",
+  "last_updated": "2025-12-03",
+  "source": "searxng_test_results.json",
+  "total_tested": 337,
+  "selection_criteria": "Tier1: 响应<5s且结果>=10 | Tier2: 响应5-10s且结果>=5",
+  "tier1_count": 313,
+  "tier2_count": 14,
+  "engines": [
+    {
+      "name": "49.234.42.194:8888",
+      "url": "http://49.234.42.194:8888/search",
+      "priority": 1,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 100,
+      "description": "响应: 1.15s, 结果: 19"
+    },
+    {
+      "name": "154.217.242.121:18080",
+      "url": "http://154.217.242.121:18080/search",
+      "priority": 2,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 100,
+      "description": "响应: 1.21s, 结果: 20"
+    },
+    {
+      "name": "154.217.242.164:18080",
+      "url": "http://154.217.242.164:18080/search",
+      "priority": 3,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 100,
+      "description": "响应: 1.23s, 结果: 20"
+    },
+    {
+      "name": "154.217.242.196:18080",
+      "url": "http://154.217.242.196:18080/search",
+      "priority": 4,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 100,
+      "description": "响应: 1.24s, 结果: 20"
+    },
+    {
+      "name": "154.217.242.137:18080",
+      "url": "http://154.217.242.137:18080/search",
+      "priority": 5,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 100,
+      "description": "响应: 1.24s, 结果: 20"
+    },
+    {
+      "name": "154.217.242.179:18080",
+      "url": "http://154.217.242.179:18080/search",
+      "priority": 6,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 100,
+      "description": "响应: 1.27s, 结果: 20"
+    },
+    {
+      "name": "154.217.242.183:18080",
+      "url": "http://154.217.242.183:18080/search",
+      "priority": 7,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 100,
+      "description": "响应: 1.31s, 结果: 20"
+    },
+    {
+      "name": "154.217.242.152:18080",
+      "url": "http://154.217.242.152:18080/search",
+      "priority": 8,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 100,
+      "description": "响应: 1.31s, 结果: 20"
+    },
+    {
+      "name": "111.229.143.178:8080",
+      "url": "http://111.229.143.178:8080/search",
+      "priority": 9,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 100,
+      "description": "响应: 1.31s, 结果: 19"
+    },
+    {
+      "name": "47.113.226.244:18080",
+      "url": "http://47.113.226.244:18080/search",
+      "priority": 10,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 100,
+      "description": "响应: 1.31s, 结果: 15"
+    },
+    {
+      "name": "154.217.242.175:18080",
+      "url": "http://154.217.242.175:18080/search",
+      "priority": 11,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 99,
+      "description": "响应: 1.33s, 结果: 20"
+    },
+    {
+      "name": "207.246.104.24:8080",
+      "url": "http://207.246.104.24:8080/search",
+      "priority": 12,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 99,
+      "description": "响应: 1.33s, 结果: 15"
+    },
+    {
+      "name": "156.239.252.235:8080",
+      "url": "http://156.239.252.235:8080/search",
+      "priority": 13,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 99,
+      "description": "响应: 1.34s, 结果: 10"
+    },
+    {
+      "name": "154.217.242.140:18080",
+      "url": "http://154.217.242.140:18080/search",
+      "priority": 14,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 99,
+      "description": "响应: 1.36s, 结果: 29"
+    },
+    {
+      "name": "122.8.149.221:8080",
+      "url": "http://122.8.149.221:8080/search",
+      "priority": 15,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 99,
+      "description": "响应: 1.37s, 结果: 10"
+    },
+    {
+      "name": "154.217.242.8:18080",
+      "url": "http://154.217.242.8:18080/search",
+      "priority": 16,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 99,
+      "description": "响应: 1.38s, 结果: 29"
+    },
+    {
+      "name": "154.217.242.172:18080",
+      "url": "http://154.217.242.172:18080/search",
+      "priority": 17,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 99,
+      "description": "响应: 1.38s, 结果: 20"
+    },
+    {
+      "name": "142.93.87.191:8080",
+      "url": "http://142.93.87.191:8080/search",
+      "priority": 18,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 99,
+      "description": "响应: 1.38s, 结果: 15"
+    },
+    {
+      "name": "43.207.233.65:8080",
+      "url": "http://43.207.233.65:8080/search",
+      "priority": 19,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 99,
+      "description": "响应: 1.38s, 结果: 10"
+    },
+    {
+      "name": "89.117.21.152:8080",
+      "url": "http://89.117.21.152:8080/search",
+      "priority": 20,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 99,
+      "description": "响应: 1.38s, 结果: 15"
+    },
+    {
+      "name": "154.217.242.58:18080",
+      "url": "http://154.217.242.58:18080/search",
+      "priority": 21,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 98,
+      "description": "响应: 1.39s, 结果: 29"
+    },
+    {
+      "name": "159.223.198.31:8080",
+      "url": "http://159.223.198.31:8080/search",
+      "priority": 22,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 98,
+      "description": "响应: 1.40s, 结果: 16"
+    },
+    {
+      "name": "154.217.242.129:18080",
+      "url": "http://154.217.242.129:18080/search",
+      "priority": 23,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 98,
+      "description": "响应: 1.41s, 结果: 29"
+    },
+    {
+      "name": "154.217.242.174:18080",
+      "url": "http://154.217.242.174:18080/search",
+      "priority": 24,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 98,
+      "description": "响应: 1.41s, 结果: 20"
+    },
+    {
+      "name": "154.217.242.153:18080",
+      "url": "http://154.217.242.153:18080/search",
+      "priority": 25,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 98,
+      "description": "响应: 1.41s, 结果: 20"
+    },
+    {
+      "name": "138.2.227.229:8080",
+      "url": "http://138.2.227.229:8080/search",
+      "priority": 26,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 98,
+      "description": "响应: 1.41s, 结果: 15"
+    },
+    {
+      "name": "209.38.69.183:8080",
+      "url": "http://209.38.69.183:8080/search",
+      "priority": 27,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 98,
+      "description": "响应: 1.42s, 结果: 15"
+    },
+    {
+      "name": "154.217.242.17:18080",
+      "url": "http://154.217.242.17:18080/search",
+      "priority": 28,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 98,
+      "description": "响应: 1.42s, 结果: 29"
+    },
+    {
+      "name": "154.217.242.87:18080",
+      "url": "http://154.217.242.87:18080/search",
+      "priority": 29,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 98,
+      "description": "响应: 1.42s, 结果: 20"
+    },
+    {
+      "name": "154.217.242.136:18080",
+      "url": "http://154.217.242.136:18080/search",
+      "priority": 30,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 98,
+      "description": "响应: 1.43s, 结果: 29"
+    },
+    {
+      "name": "47.251.71.67:8080",
+      "url": "http://47.251.71.67:8080/search",
+      "priority": 31,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 97,
+      "description": "响应: 1.43s, 结果: 10"
+    },
+    {
+      "name": "154.217.242.190:18080",
+      "url": "http://154.217.242.190:18080/search",
+      "priority": 32,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 97,
+      "description": "响应: 1.44s, 结果: 29"
+    },
+    {
+      "name": "47.100.251.249:8888",
+      "url": "http://47.100.251.249:8888/search",
+      "priority": 33,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 97,
+      "description": "响应: 1.44s, 结果: 28"
+    },
+    {
+      "name": "154.217.242.193:18080",
+      "url": "http://154.217.242.193:18080/search",
+      "priority": 34,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 97,
+      "description": "响应: 1.44s, 结果: 20"
+    },
+    {
+      "name": "154.217.242.97:18080",
+      "url": "http://154.217.242.97:18080/search",
+      "priority": 35,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 97,
+      "description": "响应: 1.47s, 结果: 20"
+    },
+    {
+      "name": "134.33.245.33",
+      "url": "http://134.33.245.33/search",
+      "priority": 36,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 97,
+      "description": "响应: 1.47s, 结果: 15"
+    },
+    {
+      "name": "23.20.81.95",
+      "url": "http://23.20.81.95/search",
+      "priority": 37,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 97,
+      "description": "响应: 1.48s, 结果: 10"
+    },
+    {
+      "name": "217.216.73.150:8080",
+      "url": "http://217.216.73.150:8080/search",
+      "priority": 38,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 97,
+      "description": "响应: 1.49s, 结果: 25"
+    },
+    {
+      "name": "154.217.242.185:18080",
+      "url": "http://154.217.242.185:18080/search",
+      "priority": 39,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 97,
+      "description": "响应: 1.49s, 结果: 20"
+    },
+    {
+      "name": "154.217.242.56:18080",
+      "url": "http://154.217.242.56:18080/search",
+      "priority": 40,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 97,
+      "description": "响应: 1.50s, 结果: 29"
+    },
+    {
+      "name": "45.129.9.232:8080",
+      "url": "http://45.129.9.232:8080/search",
+      "priority": 41,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 96,
+      "description": "响应: 1.51s, 结果: 25"
+    },
+    {
+      "name": "107.174.232.67:8089",
+      "url": "http://107.174.232.67:8089/search",
+      "priority": 42,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 96,
+      "description": "响应: 1.51s, 结果: 15"
+    },
+    {
+      "name": "154.217.242.10:18080",
+      "url": "http://154.217.242.10:18080/search",
+      "priority": 43,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 96,
+      "description": "响应: 1.51s, 结果: 29"
+    },
+    {
+      "name": "43.159.133.31:8000",
+      "url": "http://43.159.133.31:8000/search",
+      "priority": 44,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 96,
+      "description": "响应: 1.52s, 结果: 11"
+    },
+    {
+      "name": "154.217.242.123:18080",
+      "url": "http://154.217.242.123:18080/search",
+      "priority": 45,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 96,
+      "description": "响应: 1.52s, 结果: 29"
+    },
+    {
+      "name": "45.79.206.220:8080",
+      "url": "http://45.79.206.220:8080/search",
+      "priority": 46,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 96,
+      "description": "响应: 1.53s, 结果: 25"
+    },
+    {
+      "name": "117.72.38.42:8080",
+      "url": "http://117.72.38.42:8080/search",
+      "priority": 47,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 96,
+      "description": "响应: 1.54s, 结果: 33"
+    },
+    {
+      "name": "51.222.30.72:8080",
+      "url": "http://51.222.30.72:8080/search",
+      "priority": 48,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 96,
+      "description": "响应: 1.55s, 结果: 15"
+    },
+    {
+      "name": "154.217.242.132:18080",
+      "url": "http://154.217.242.132:18080/search",
+      "priority": 49,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 96,
+      "description": "响应: 1.55s, 结果: 20"
+    },
+    {
+      "name": "154.217.242.18:18080",
+      "url": "http://154.217.242.18:18080/search",
+      "priority": 50,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 96,
+      "description": "响应: 1.55s, 结果: 20"
+    },
+    {
+      "name": "154.217.242.189:18080",
+      "url": "http://154.217.242.189:18080/search",
+      "priority": 51,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 95,
+      "description": "响应: 1.55s, 结果: 20"
+    },
+    {
+      "name": "154.217.242.84:18080",
+      "url": "http://154.217.242.84:18080/search",
+      "priority": 52,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 95,
+      "description": "响应: 1.56s, 结果: 29"
+    },
+    {
+      "name": "35.238.242.232:8080",
+      "url": "http://35.238.242.232:8080/search",
+      "priority": 53,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 95,
+      "description": "响应: 1.56s, 结果: 15"
+    },
+    {
+      "name": "154.217.242.90:18080",
+      "url": "http://154.217.242.90:18080/search",
+      "priority": 54,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 95,
+      "description": "响应: 1.57s, 结果: 20"
+    },
+    {
+      "name": "4.184.180.202:8080",
+      "url": "http://4.184.180.202:8080/search",
+      "priority": 55,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 95,
+      "description": "响应: 1.57s, 结果: 10"
+    },
+    {
+      "name": "154.217.242.133:18080",
+      "url": "http://154.217.242.133:18080/search",
+      "priority": 56,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 95,
+      "description": "响应: 1.58s, 结果: 20"
+    },
+    {
+      "name": "167.88.164.74:8080",
+      "url": "http://167.88.164.74:8080/search",
+      "priority": 57,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 95,
+      "description": "响应: 1.58s, 结果: 15"
+    },
+    {
+      "name": "154.217.242.149:18080",
+      "url": "http://154.217.242.149:18080/search",
+      "priority": 58,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 95,
+      "description": "响应: 1.58s, 结果: 20"
+    },
+    {
+      "name": "13.250.200.135:8081",
+      "url": "http://13.250.200.135:8081/search",
+      "priority": 59,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 95,
+      "description": "响应: 1.59s, 结果: 10"
+    },
+    {
+      "name": "154.217.242.177:18080",
+      "url": "http://154.217.242.177:18080/search",
+      "priority": 60,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 95,
+      "description": "响应: 1.59s, 结果: 20"
+    },
+    {
+      "name": "157.151.249.125:8080",
+      "url": "http://157.151.249.125:8080/search",
+      "priority": 61,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 94,
+      "description": "响应: 1.61s, 结果: 15"
+    },
+    {
+      "name": "47.251.44.93:8080",
+      "url": "http://47.251.44.93:8080/search",
+      "priority": 62,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 94,
+      "description": "响应: 1.62s, 结果: 15"
+    },
+    {
+      "name": "154.217.242.39:18080",
+      "url": "http://154.217.242.39:18080/search",
+      "priority": 63,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 94,
+      "description": "响应: 1.62s, 结果: 29"
+    },
+    {
+      "name": "154.217.242.176:18080",
+      "url": "http://154.217.242.176:18080/search",
+      "priority": 64,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 94,
+      "description": "响应: 1.62s, 结果: 29"
+    },
+    {
+      "name": "157.245.244.84:8080",
+      "url": "http://157.245.244.84:8080/search",
+      "priority": 65,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 94,
+      "description": "响应: 1.63s, 结果: 25"
+    },
+    {
+      "name": "39.97.239.101:8080",
+      "url": "http://39.97.239.101:8080/search",
+      "priority": 66,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 94,
+      "description": "响应: 1.64s, 结果: 23"
+    },
+    {
+      "name": "23.133.52.84:8080",
+      "url": "http://23.133.52.84:8080/search",
+      "priority": 67,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 94,
+      "description": "响应: 1.64s, 结果: 15"
+    },
+    {
+      "name": "198.12.116.238:18080",
+      "url": "http://198.12.116.238:18080/search",
+      "priority": 68,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 94,
+      "description": "响应: 1.65s, 结果: 25"
+    },
+    {
+      "name": "123.60.104.114:8080",
+      "url": "http://123.60.104.114:8080/search",
+      "priority": 69,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 94,
+      "description": "响应: 1.65s, 结果: 34"
+    },
+    {
+      "name": "204.44.122.244:8080",
+      "url": "http://204.44.122.244:8080/search",
+      "priority": 70,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 94,
+      "description": "响应: 1.65s, 结果: 15"
+    },
+    {
+      "name": "154.217.242.163:18080",
+      "url": "http://154.217.242.163:18080/search",
+      "priority": 71,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 93,
+      "description": "响应: 1.65s, 结果: 29"
+    },
+    {
+      "name": "47.74.44.204:3001",
+      "url": "http://47.74.44.204:3001/search",
+      "priority": 72,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 93,
+      "description": "响应: 1.66s, 结果: 10"
+    },
+    {
+      "name": "8.130.66.239:8082",
+      "url": "http://8.130.66.239:8082/search",
+      "priority": 73,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 93,
+      "description": "响应: 1.67s, 结果: 24"
+    },
+    {
+      "name": "154.217.242.148:18080",
+      "url": "http://154.217.242.148:18080/search",
+      "priority": 74,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 93,
+      "description": "响应: 1.67s, 结果: 20"
+    },
+    {
+      "name": "172.104.88.108:8089",
+      "url": "http://172.104.88.108:8089/search",
+      "priority": 75,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 93,
+      "description": "响应: 1.68s, 结果: 15"
+    },
+    {
+      "name": "154.217.242.59:18080",
+      "url": "http://154.217.242.59:18080/search",
+      "priority": 76,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 93,
+      "description": "响应: 1.68s, 结果: 20"
+    },
+    {
+      "name": "154.217.242.195:18080",
+      "url": "http://154.217.242.195:18080/search",
+      "priority": 77,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 93,
+      "description": "响应: 1.68s, 结果: 29"
+    },
+    {
+      "name": "107.181.236.12:8080",
+      "url": "http://107.181.236.12:8080/search",
+      "priority": 78,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 93,
+      "description": "响应: 1.69s, 结果: 15"
+    },
+    {
+      "name": "154.217.242.69:18080",
+      "url": "http://154.217.242.69:18080/search",
+      "priority": 79,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 93,
+      "description": "响应: 1.69s, 结果: 29"
+    },
+    {
+      "name": "154.217.242.128:18080",
+      "url": "http://154.217.242.128:18080/search",
+      "priority": 80,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 93,
+      "description": "响应: 1.69s, 结果: 20"
+    },
+    {
+      "name": "173.212.221.98:8080",
+      "url": "http://173.212.221.98:8080/search",
+      "priority": 81,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 92,
+      "description": "响应: 1.70s, 结果: 15"
+    },
+    {
+      "name": "8.222.208.130:8080",
+      "url": "http://8.222.208.130:8080/search",
+      "priority": 82,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 92,
+      "description": "响应: 1.71s, 结果: 44"
+    },
+    {
+      "name": "45.144.136.223:18080",
+      "url": "http://45.144.136.223:18080/search",
+      "priority": 83,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 92,
+      "description": "响应: 1.72s, 结果: 10"
+    },
+    {
+      "name": "47.77.202.213:8080",
+      "url": "http://47.77.202.213:8080/search",
+      "priority": 84,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 92,
+      "description": "响应: 1.72s, 结果: 34"
+    },
+    {
+      "name": "154.217.242.146:18080",
+      "url": "http://154.217.242.146:18080/search",
+      "priority": 85,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 92,
+      "description": "响应: 1.73s, 结果: 29"
+    },
+    {
+      "name": "141.140.12.66:8080",
+      "url": "http://141.140.12.66:8080/search",
+      "priority": 86,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 92,
+      "description": "响应: 1.73s, 结果: 15"
+    },
+    {
+      "name": "45.205.26.171:8888",
+      "url": "http://45.205.26.171:8888/search",
+      "priority": 87,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 92,
+      "description": "响应: 1.74s, 结果: 15"
+    },
+    {
+      "name": "74.48.119.253:8080",
+      "url": "http://74.48.119.253:8080/search",
+      "priority": 88,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 92,
+      "description": "响应: 1.74s, 结果: 34"
+    },
+    {
+      "name": "152.53.127.44:8080",
+      "url": "http://152.53.127.44:8080/search",
+      "priority": 89,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 92,
+      "description": "响应: 1.74s, 结果: 15"
+    },
+    {
+      "name": "154.217.242.50:18080",
+      "url": "http://154.217.242.50:18080/search",
+      "priority": 90,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 92,
+      "description": "响应: 1.74s, 结果: 20"
+    },
+    {
+      "name": "107.173.196.21:81",
+      "url": "http://107.173.196.21:81/search",
+      "priority": 91,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 91,
+      "description": "响应: 1.74s, 结果: 15"
+    },
+    {
+      "name": "74.48.65.77:8080",
+      "url": "http://74.48.65.77:8080/search",
+      "priority": 92,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 91,
+      "description": "响应: 1.75s, 结果: 11"
+    },
+    {
+      "name": "search.cpxducky.comsearch",
+      "url": "https://search.cpxducky.comsearch",
+      "priority": 93,
+      "timeout": 15,
+      "ssl_verify": true,
+      "enabled": true,
+      "weight": 91,
+      "description": "响应: 1.76s, 结果: 10"
+    },
+    {
+      "name": "172.206.227.92:8080",
+      "url": "http://172.206.227.92:8080/search",
+      "priority": 94,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 91,
+      "description": "响应: 1.76s, 结果: 25"
+    },
+    {
+      "name": "5.129.195.19:8999",
+      "url": "http://5.129.195.19:8999/search",
+      "priority": 95,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 91,
+      "description": "响应: 1.76s, 结果: 10"
+    },
+    {
+      "name": "47.117.146.16:8080",
+      "url": "http://47.117.146.16:8080/search",
+      "priority": 96,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 91,
+      "description": "响应: 1.76s, 结果: 24"
+    },
+    {
+      "name": "107.174.53.217:8080",
+      "url": "http://107.174.53.217:8080/search",
+      "priority": 97,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 91,
+      "description": "响应: 1.77s, 结果: 10"
+    },
+    {
+      "name": "46.62.143.226:8080",
+      "url": "http://46.62.143.226:8080/search",
+      "priority": 98,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 91,
+      "description": "响应: 1.78s, 结果: 20"
+    },
+    {
+      "name": "35.168.240.99",
+      "url": "http://35.168.240.99/search",
+      "priority": 99,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 91,
+      "description": "响应: 1.80s, 结果: 15"
+    },
+    {
+      "name": "47.74.26.239:8080",
+      "url": "http://47.74.26.239:8080/search",
+      "priority": 100,
+      "timeout": 15,
+      "ssl_verify": false,
+      "enabled": true,
+      "weight": 91,
+      "description": "响应: 1.81s, 结果: 10"
+    }
+  ],
+  "health_check": {
+    "enabled": true,
+    "interval_seconds": 300,
+    "failure_threshold": 3,
+    "recovery_threshold": 2
+  },
+  "retry_policy": {
+    "max_retries": 2,
+    "retry_delay_seconds": 1,
+    "backoff_multiplier": 2
+  }
+}

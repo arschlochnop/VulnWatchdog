@@ -42,3 +42,19 @@ coverage.xml
 .tox/
 .cache/
 *.mo
+
+# Development documentation and scripts (not for public repo)
+scripts/
+docs/
+
+# Test results and temporary files
+searxng_test_results.json
+searxng_test_output.log
+searxng_engines_available.txt
+*.backup
+test_multi_engine.sh
+quick_test.sh
+
+# Local configuration
+.env.test
+.env.copy

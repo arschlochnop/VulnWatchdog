@@ -166,17 +166,49 @@ class SearchError(Exception):
 
 def search_searxng(query: str, num_results: int = 5) -> List[Dict]:
     """
-    使用Searx执行搜索
-    
+    使用SearXNG多引擎池执行搜索 (支持自动故障转移)
+
     参数:
         query: 搜索关键词
         num_results: 返回结果数量
-        
+
     返回:
         搜索结果列表
-        
-    异常:
-        SearchError: 搜索失败
+    """
+    try:
+        # 使用新的多引擎搜索系统
+        from libs.search_engines import search_with_engines
+
+        logger.info(f"使用多引擎搜索: '{query}'")
+        result_data, engine_name = search_with_engines(query, max_results=num_results)
+
+        if result_data:
+            results = result_data.get('results', [])
+            logger.info(f"✓ 搜索成功 (引擎: {engine_name}), 获得 {len(results)} 个结果")
+            return results
+        else:
+            logger.warning(f"所有搜索引擎均失败: '{query}'")
+            return []
+
+    except ImportError as e:
+        # 降级到旧版单引擎模式
+        logger.warning(f"多引擎模块加载失败,降级到单引擎模式: {e}")
+        return _search_searxng_legacy(query, num_results)
+    except Exception as e:
+        logger.error(f"多引擎搜索异常: {e}, 降级到单引擎模式")
+        return _search_searxng_legacy(query, num_results)
+
+
+def _search_searxng_legacy(query: str, num_results: int = 5) -> List[Dict]:
+    """
+    旧版单引擎搜索 (降级备用)
+
+    参数:
+        query: 搜索关键词
+        num_results: 返回结果数量
+
+    返回:
+        搜索结果列表
     """
     url = get_config('SEARXNG_URL')
 
@@ -196,11 +228,11 @@ def search_searxng(query: str, num_results: int = 5) -> List[Dict]:
     try:
         response = requests.get(url, params=params, verify=True, timeout=10)
         response.raise_for_status()
-        
+
         results = response.json().get("results", [])
         logger.info(f"搜索 '{query}' 获得 {len(results)} 个结果")
         return results
-        
+
     except requests.exceptions.RequestException as e:
         logger.error(f"搜索请求失败: {e}")
         return []  # 搜索失败时返回空列表，不中断流程

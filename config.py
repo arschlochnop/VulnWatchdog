@@ -59,7 +59,8 @@ def get_config(env: str):
         'MAX_PROMPT_CHARS': int(os.environ.get('MAX_PROMPT_CHARS', '24000')),
         # 搜索配置
         'ENABLE_SEARCH': ENABLE_SEARCH,
-        'SEARXNG_URL': os.environ.get('SEARXNG_URL'),
+        'SEARXNG_URL': os.environ.get('SEARXNG_URL'),  # 旧版单引擎配置 (已废弃)
+        'SEARXNG_URLS': os.environ.get('SEARXNG_URLS'),  # 新版多引擎配置 (逗号分隔)
         # 数据库配置
         'DB_URL': DB_URL,
         # 扩展搜索配置
