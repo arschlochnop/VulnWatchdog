@@ -242,8 +242,7 @@ def process_cve(cve_id: str, repo: Dict, engine) -> Dict:
         if enable_gpt:
             search_result = []
             if enable_search:
-                logger.info(f"搜索漏洞相关信息: {cve_id}")
-                search_result = search_searxng(f"{cve_id} Vulnerability Analysis")
+                search_result = search_searxng(f"{cve_id}")
 
             logger.info("构建GPT提示文本")
             # build_prompt内部会进行智能截断，不需要在这里预先截断
@@ -255,9 +254,7 @@ def process_cve(cve_id: str, repo: Dict, engine) -> Dict:
             logger.info("请求GPT分析")
             gpt_results = ask_gpt(prompt)
 
-            if gpt_results:
-                logger.info(f"GPT 分析结果长度: {len(gpt_results)}")
-                # 使用CVE年份作为目录结构 (YYYY/)
+            if gpt_results:                # 使用CVE年份作为目录结构 (YYYY/)
                 import re
                 match = re.match(r'CVE-(\d{4})-\d+', cve_id)
                 if match:
