@@ -76,7 +76,7 @@ on:
 #### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/yourusername/VulnWatchdog.git
+git clone https://github.com/arschlochnop/VulnWatchdog.git
 cd VulnWatchdog
 ```
 
@@ -231,4 +231,4 @@ MIT License
 
 ---
 
-如有问题，欢迎提交 [Issue](https://github.com/yourusername/VulnWatchdog/issues)
+如有问题，欢迎提交 [Issue](https://github.com/arschlochnop/VulnWatchdog/issues)
