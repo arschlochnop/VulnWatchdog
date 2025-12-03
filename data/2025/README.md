@@ -1,6 +1,6 @@
 # 2025年 CVE漏洞列表
 
-> 📊 共收录 **2412** 个CVE漏洞
+> 📊 共收录 **2413** 个CVE漏洞
 
 ---
 
@@ -1862,6 +1862,7 @@
 | [CVE-2025-54957](CVE-2025-54957-AlphabugX_CVE-2025-54957.md) | CVE-2025-54957-Dolby UDC-越界写 | ⚪ N/A | 0 |
 | [CVE-2025-54962](CVE-2025-54962-Eyodav_CVE-2025-54962.md) | CVE-2025-54962 - OpenPLC Runtime Webserver Insecure File Upl... | ⚪ N/A | 0 |
 | [CVE-2025-54988](CVE-2025-54988-mgthuramoemyint_POC-CVE-2025-54988.md) | CVE-2025-54988 - Apache Tika PDF parser module XXE | ⚪ N/A | 0 |
+| [CVE-2025-55182](CVE-2025-55182-BankkRoll_Quickcheck-CVE-2025-55182-React-and-CVE-2025-66478-Next.js.md) | CVE-2025-55182 (React RSC) & CVE-2025-66478 (Next.js RSC) | ⚪ N/A | 0 |
 | [CVE-2025-55188](CVE-2025-55188-Sh3ruman_CVE-2025-55188-7z-exploit.md) | CVE-2025-55188-7-Zip符号链接处理不当漏洞 | ⚪ N/A | 0 |
 | [CVE-2025-55188](CVE-2025-55188-hunters-sec_CVE-2025-55188-7z-exploit.md) | CVE-2025-55188-7-Zip符号链接任意文件写入漏洞 | ⚪ N/A | 0 |
 | [CVE-2025-55188](CVE-2025-55188-lunbun_CVE-2025-55188.md) | CVE-2025-55188 | ⚪ N/A | 0 |
