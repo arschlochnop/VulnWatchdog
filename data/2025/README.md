@@ -1,6 +1,6 @@
 # 2025年 CVE漏洞列表
 
-> 📊 共收录 **2431** 个CVE漏洞
+> 📊 共收录 **2436** 个CVE漏洞
 
 ---
 
@@ -46,7 +46,7 @@
 | [CVE-2025-0411](CVE-2025-0411-betulssahin_CVE-2025-0411-7-Zip-Mark-of-the-Web-Bypass.md) | CVE-2025-0411-7-Zip Mark-of-the-Web Bypass | ⚪ 高危 | 10 |
 | [CVE-2025-0411](CVE-2025-0411-cesarbtakeda_7-Zip-CVE-2025-0411-POC.md) | CVE-2025-0411-7-Zip-Mark-of-the-Web Bypass | ⚪ 中危 | 10 |
 | [CVE-2025-0411](CVE-2025-0411-dhmosfunk_7-Zip-CVE-2025-0411-POC.md) | CVE-2025-0411-7-Zip Mark-of-the-Web Bypass | ⚪ 高危 | 10 |
-| [CVE-2025-0411](CVE-2025-0411-dpextreme_7-Zip-CVE-2025-0411-POC.md) | CVE-2025-0411-7-Zip-MOTW绕过 | ⚪ 高危 | 10 |
+| [CVE-2025-0411](CVE-2025-0411-dpextreme_7-Zip-CVE-2025-0411-POC.md) | CVE-2025-0411 - 7-Zip MOTW绕过 | ⚪ 高危 | 10 |
 | [CVE-2025-0411](CVE-2025-0411-iSee857_CVE-2025-0411-PoC.md) | CVE-2025-0411 | ⚪ 高危 | 10 |
 | [CVE-2025-0411](CVE-2025-0411-ishwardeepp_CVE-2025-0411-MoTW-PoC.md) | CVE-2025-0411 7-Zip Mark-of-the-Web Bypass Vulnerability | ⚪ 高危 | 10 |
 | [CVE-2025-0868](CVE-2025-0868-aidana-gift_CVE-2025-0868.md) | CVE-2025-0868-DocsGPT-远程代码执行 | ⚪ 高危 | 2 |
@@ -1095,7 +1095,7 @@
 | [CVE-2025-32463](CVE-2025-32463-shazed-x_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
 | [CVE-2025-32463](CVE-2025-32463-susancodes55_CVE-2025-32463-sudo-poc.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
 | [CVE-2025-32463](CVE-2025-32463-y4ney_CVE-2025-32463-lab.md) | CVE-2025-32463-Sudo-chroot提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-yeremeu_CVE-2025-32463_chwoot.md) | CVE-2025-32463-sudo 本地提权 | ⚪ 高危 | 79 |
+| [CVE-2025-32463](CVE-2025-32463-yeremeu_CVE-2025-32463_chwoot.md) | CVE-2025-32463 - Sudo 本地提权 | ⚪ 高危 | 79 |
 | [CVE-2025-32463](CVE-2025-32463-zhaduchanhzz_CVE-2025-32463_POC.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
 | [CVE-2025-32463](CVE-2025-32463-zinzloun_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
 | [CVE-2025-3248](CVE-2025-3248-0-d3y_langflow-rce-exploit.md) | CVE-2025-3248-Langflow-RCE | ⚪ 严重 | 24 |
@@ -1450,22 +1450,22 @@
 | [CVE-2025-48129](CVE-2025-48129-Nxploited_CVE-2025-48129.md) | CVE-2025-48129 - WordPress Spreadsheet Price Changer Plugin ... | ⚪ 高危 | 1 |
 | [CVE-2025-48148](CVE-2025-48148-Nxploited_CVE-2025-48148.md) | CVE-2025-48148-StoreKeeper for WooCommerce-任意文件上传 | ⚪ 高危 | 1 |
 | [CVE-2025-4822](CVE-2025-4822-sahici_CVE-2025-4822.md) | CVE-2025-4822 | ⚪ 高危 | 1 |
-| [CVE-2025-48384](CVE-2025-48384-Anezatraa_CVE-2025-48384-submodule.md) | CVE-2025-48384-Git-任意代码执行 | ⚪ 高危 | 35 |
-| [CVE-2025-48384](CVE-2025-48384-ECHO6789_CVE-2025-48384-submodule.md) | CVE-2025-48384-Git-任意代码执行 | ⚪ 高危 | 35 |
-| [CVE-2025-48384](CVE-2025-48384-EdwardYeIntrix_CVE-2025-48384-Scanner.md) | CVE-2025-48384-Git代码执行 | ⚪ 高危 | 35 |
-| [CVE-2025-48384](CVE-2025-48384-MarcoTondolo_cve-2025-48384-poc.md) | CVE-2025-48384-Git-任意代码执行 | ⚪ 高危 | 35 |
-| [CVE-2025-48384](CVE-2025-48384-admin-ping_CVE-2025-48384-RCE.md) | CVE-2025-48384-Git配置引号处理缺陷导致任意代码执行 | ⚪ 高危 | 35 |
+| [CVE-2025-48384](CVE-2025-48384-Anezatraa_CVE-2025-48384-submodule.md) | CVE-2025-48384 - Git 任意文件写入 | ⚪ 高危 | 35 |
+| [CVE-2025-48384](CVE-2025-48384-ECHO6789_CVE-2025-48384-submodule.md) | CVE-2025-48384 - Git 任意文件写入 | ⚪ 高危 | 35 |
+| [CVE-2025-48384](CVE-2025-48384-EdwardYeIntrix_CVE-2025-48384-Scanner.md) | CVE-2025-48384 - Git 任意文件写入导致远程代码执行 | ⚪ 高危 | 35 |
+| [CVE-2025-48384](CVE-2025-48384-MarcoTondolo_cve-2025-48384-poc.md) | CVE-2025-48384 - Git 任意文件写入 | ⚪ 高危 | 35 |
+| [CVE-2025-48384](CVE-2025-48384-admin-ping_CVE-2025-48384-RCE.md) | CVE-2025-48384 - Git 任意文件写入 | ⚪ 高危 | 35 |
 | [CVE-2025-48384](CVE-2025-48384-airkewld_cve-2025-48384-submodule.md) | CVE-2025-48384-Git配置注入与RCE | ⚪ 高危 | 35 |
 | [CVE-2025-48384](CVE-2025-48384-altm4n_CVE-2025-48384-sub.md) | CVE-2025-48384-Git-任意代码执行 | ⚪ 高危 | 35 |
-| [CVE-2025-48384](CVE-2025-48384-altm4n_cve-2025-48384-hub.md) | CVE-2025-48384-Git配置注入/代码执行 | ⚪ 高危 | 35 |
-| [CVE-2025-48384](CVE-2025-48384-beishanxueyuan_CVE-2025-48384.md) | CVE-2025-48384 - Git Config 注入导致任意代码执行 | ⚪ 高危 | 35 |
+| [CVE-2025-48384](CVE-2025-48384-altm4n_cve-2025-48384-hub.md) | CVE-2025-48384 - Git 任意文件写入 | ⚪ 高危 | 35 |
+| [CVE-2025-48384](CVE-2025-48384-beishanxueyuan_CVE-2025-48384.md) | CVE-2025-48384 - Git 任意文件写入 | ⚪ 高危 | 35 |
 | [CVE-2025-48384](CVE-2025-48384-bummie_CVE-2025-48384-submodule.md) | CVE-2025-48384-git-代码执行 | ⚪ 高危 | 35 |
 | [CVE-2025-48384](CVE-2025-48384-butyraldehyde_CVE-2025-48384-PoC-Part2.md) | CVE-2025-48384-Git-任意代码执行 | ⚪ 高危 | 35 |
 | [CVE-2025-48384](CVE-2025-48384-butyraldehyde_CVE-2025-48384-PoC.md) | CVE-2025-48384-Git配置注入导致RCE | ⚪ 高危 | 35 |
 | [CVE-2025-48384](CVE-2025-48384-ceevase_CVE-2025-48384-main.md) | CVE-2025-48384-Git-任意代码执行 | ⚪ 高危 | 35 |
 | [CVE-2025-48384](CVE-2025-48384-ceevase_CVE-2025-48384-sub.md) | CVE-2025-48384-Git-任意代码执行 | ⚪ 高危 | 35 |
-| [CVE-2025-48384](CVE-2025-48384-eliox01_CVE-2025-48384.md) | CVE-2025-48384-Git-任意代码执行 | ⚪ 高危 | 35 |
-| [CVE-2025-48384](CVE-2025-48384-elprogramadorgt_CVE-2025-48384.md) | CVE-2025-48384-Git配置注入与任意代码执行 | ⚪ 高危 | 35 |
+| [CVE-2025-48384](CVE-2025-48384-eliox01_CVE-2025-48384.md) | CVE-2025-48384 - Git 任意文件写入 | ⚪ 高危 | 35 |
+| [CVE-2025-48384](CVE-2025-48384-elprogramadorgt_CVE-2025-48384.md) | CVE-2025-48384 - Git 任意文件写入 | ⚪ 高危 | 35 |
 | [CVE-2025-48384](CVE-2025-48384-fishyyh_CVE-2025-48384.md) | CVE-2025-48384 Git配置注入导致任意代码执行 | ⚪ 高危 | 35 |
 | [CVE-2025-48384](CVE-2025-48384-fluoworite_CVE-2025-48384-sub.md) | CVE-2025-48384-Git-任意代码执行 | ⚪ 高危 | 35 |
 | [CVE-2025-48384](CVE-2025-48384-fluoworite_CVE-2025-48384.md) | CVE-2025-48384 | ⚪ 高危 | 35 |
@@ -1473,11 +1473,11 @@
 | [CVE-2025-48384](CVE-2025-48384-jacobholtz_CVE-2025-48384-submodule.md) | CVE-2025-48384-Git Arbitrary Code Execution | ⚪ 高危 | 35 |
 | [CVE-2025-48384](CVE-2025-48384-kallydev_cve-2025-48384-hook.md) | CVE-2025-48384-Git任意代码执行 | ⚪ 高危 | 35 |
 | [CVE-2025-48384](CVE-2025-48384-liamg_CVE-2025-48384-submodule.md) | CVE-2025-48384-Git Config 注入 RCE | ⚪ 高危 | 35 |
-| [CVE-2025-48384](CVE-2025-48384-mukesh-610_cve-2025-48384-exploit.md) | CVE-2025-48384-Git-任意代码执行 | ⚪ 高危 | 35 |
+| [CVE-2025-48384](CVE-2025-48384-mukesh-610_cve-2025-48384-exploit.md) | CVE-2025-48384 - Git 任意文件写入 | ⚪ 高危 | 35 |
 | [CVE-2025-48384](CVE-2025-48384-nguyentranbaotran_cve-2025-48384-poc.md) | CVE-2025-48384-Git配置引用导致的任意代码执行 | ⚪ 高危 | 35 |
-| [CVE-2025-48384](CVE-2025-48384-replicatorbot_CVE-2025-48384.md) | CVE-2025-48384-Git-任意代码执行 | ⚪ 高危 | 35 |
-| [CVE-2025-48384](CVE-2025-48384-s41r4j_CVE-2025-48384-submodule.md) | CVE-2025-48384-Git允许通过损坏的配置引用执行任意代码 | ⚪ 高危 | 35 |
-| [CVE-2025-48384](CVE-2025-48384-s41r4j_CVE-2025-48384.md) | CVE-2025-48384-Git-任意代码执行 | ⚪ 高危 | 35 |
+| [CVE-2025-48384](CVE-2025-48384-replicatorbot_CVE-2025-48384.md) | CVE-2025-48384 - Git 任意文件写入 | ⚪ 高危 | 35 |
+| [CVE-2025-48384](CVE-2025-48384-s41r4j_CVE-2025-48384-submodule.md) | CVE-2025-48384 - Git 任意文件写入 | ⚪ 高危 | 35 |
+| [CVE-2025-48384](CVE-2025-48384-s41r4j_CVE-2025-48384.md) | CVE-2025-48384 - Git 任意文件写入 | ⚪ 高危 | 35 |
 | [CVE-2025-48384](CVE-2025-48384-sahar042_CVE-2025-48384-submodule.md) | CVE-2025-48384 | ⚪ 高危 | 35 |
 | [CVE-2025-48384](CVE-2025-48384-testdjshan_CVE-2025-48384.md) | CVE-2025-48384-Git-任意代码执行 | ⚪ 高危 | 35 |
 | [CVE-2025-48384](CVE-2025-48384-vinieger_CVE-2025-48384-bad-nginx-submodule.md) | CVE-2025-48384-Git配置注入导致任意代码执行 | ⚪ 高危 | 35 |
@@ -1863,21 +1863,26 @@
 | [CVE-2025-54957](CVE-2025-54957-AlphabugX_CVE-2025-54957.md) | CVE-2025-54957-Dolby UDC-越界写 | ⚪ 中危 | 1 |
 | [CVE-2025-54962](CVE-2025-54962-Eyodav_CVE-2025-54962.md) | CVE-2025-54962 - OpenPLC Runtime Webserver Insecure File Upl... | ⚪ 中危 | 1 |
 | [CVE-2025-54988](CVE-2025-54988-mgthuramoemyint_POC-CVE-2025-54988.md) | CVE-2025-54988 - Apache Tika PDF parser module XXE | ⚪ 高危 | 1 |
-| [CVE-2025-55182](CVE-2025-55182-BankkRoll_Quickcheck-CVE-2025-55182-React-and-CVE-2025-66478-Next.js.md) | CVE-2025-55182 (React RSC) & CVE-2025-66478 (Next.js RSC) | ⚪ 高危 | 15 |
-| [CVE-2025-55182](CVE-2025-55182-Chelsea486MHz_CVE-2025-55182-test.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 15 |
-| [CVE-2025-55182](CVE-2025-55182-Rsatan_CVE-2025-55182-Tools.md) | CVE-2025-55182-React/Next.js-RCE | ⚪ 高危 | 15 |
-| [CVE-2025-55182](CVE-2025-55182-aspen-labs_CVE-2025-55182-checker.md) | CVE-2025-55182 - React/Next.js Server Functions Deserializat... | ⚪ 高危 | 15 |
-| [CVE-2025-55182](CVE-2025-55182-assetnote_react2shell-scanner.md) | CVE-2025-55182 & CVE-2025-66478 - React/Next.js Server Compo... | ⚪ 高危 | 15 |
-| [CVE-2025-55182](CVE-2025-55182-callinston_CVE-2025-55182.md) | CVE-2025-55182-React Server Components远程代码执行 | ⚪ 高危 | 15 |
-| [CVE-2025-55182](CVE-2025-55182-dissy123_cve-2025-55182.md) | CVE-2025-55182 React Server Components 不安全反序列化漏洞 | ⚪ 高危 | 15 |
-| [CVE-2025-55182](CVE-2025-55182-dwisiswant0_CVE-2025-55182.md) | CVE-2025-55182-ReactServerComponents不安全反序列化RCE | ⚪ 严重 | 15 |
-| [CVE-2025-55182](CVE-2025-55182-fatguru_CVE-2025-55182-scanner.md) | CVE-2025-55182 React Server Components (RSC) 基础设施暴露 | ⚪ 高危 | 15 |
-| [CVE-2025-55182](CVE-2025-55182-gensecaihq_react2shell-scanner.md) | CVE-2025-55182 - React Server Components, Next.js RCE | 🔴 Critical | 15 |
-| [CVE-2025-55182](CVE-2025-55182-jf0x3a_CVE-2025-55182-exploit.md) | CVE-2025-55182 React/Next.js Server Functions Deserializatio... | ⚪ 高危 | 15 |
-| [CVE-2025-55182](CVE-2025-55182-joaonevess_rust-flight.md) | CVE-2025-55182 - React/Next.js Server Components Deserializa... | ⚪ 高危 | 15 |
-| [CVE-2025-55182](CVE-2025-55182-pyroxenites_CVE-2025-55182.md) | CVE-2025-55182 ReactServerComponents 不安全反序列化 RCE | 🔴 Critical (CVSSv3.1 评分 10.0) | 15 |
-| [CVE-2025-55182](CVE-2025-55182-sickwell_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components RCE | ⚪ 高危 | 15 |
-| [CVE-2025-55182](CVE-2025-55182-sudo-Yangziran_CVE-2025-55182POC.md) | CVE-2025-55182 React Server Components RCE | ⚪ 高危 | 15 |
+| [CVE-2025-55182](CVE-2025-55182-BankkRoll_Quickcheck-CVE-2025-55182-React-and-CVE-2025-66478-Next.js.md) | CVE-2025-55182 (React RSC) & CVE-2025-66478 (Next.js RSC) | ⚪ 高危 | 20 |
+| [CVE-2025-55182](CVE-2025-55182-Chelsea486MHz_CVE-2025-55182-test.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 20 |
+| [CVE-2025-55182](CVE-2025-55182-Rsatan_CVE-2025-55182-Tools.md) | CVE-2025-55182-React/Next.js-RCE | ⚪ 高危 | 20 |
+| [CVE-2025-55182](CVE-2025-55182-aspen-labs_CVE-2025-55182-checker.md) | CVE-2025-55182 - React/Next.js Server Functions Deserializat... | ⚪ 高危 | 20 |
+| [CVE-2025-55182](CVE-2025-55182-assetnote_react2shell-scanner.md) | CVE-2025-55182 & CVE-2025-66478 - React/Next.js Server Compo... | ⚪ 高危 | 20 |
+| [CVE-2025-55182](CVE-2025-55182-callinston_CVE-2025-55182.md) | CVE-2025-55182-React Server Components远程代码执行 | ⚪ 高危 | 20 |
+| [CVE-2025-55182](CVE-2025-55182-carlosaruy_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 20 |
+| [CVE-2025-55182](CVE-2025-55182-dissy123_cve-2025-55182.md) | CVE-2025-55182 React Server Components 不安全反序列化漏洞 | ⚪ 高危 | 20 |
+| [CVE-2025-55182](CVE-2025-55182-dwisiswant0_CVE-2025-55182.md) | CVE-2025-55182-ReactServerComponents不安全反序列化RCE | ⚪ 严重 | 20 |
+| [CVE-2025-55182](CVE-2025-55182-ejpir_CVE-2025-55182-poc.md) | CVE-2025-55182 - React Server Components (react-server-dom-w... | 🔴 Critical | 20 |
+| [CVE-2025-55182](CVE-2025-55182-fatguru_CVE-2025-55182-scanner.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 20 |
+| [CVE-2025-55182](CVE-2025-55182-gensecaihq_react2shell-scanner.md) | CVE-2025-55182 - React Server Components, Next.js RCE | 🔴 Critical | 20 |
+| [CVE-2025-55182](CVE-2025-55182-ivaavimusic_React19-fix-vibecoders.md) | CVE-2025-55182 - React RCE | 🔴 Critical | 20 |
+| [CVE-2025-55182](CVE-2025-55182-jf0x3a_CVE-2025-55182-exploit.md) | CVE-2025-55182 React/Next.js Server Functions Deserializatio... | ⚪ 高危 | 20 |
+| [CVE-2025-55182](CVE-2025-55182-joaonevess_rust-flight.md) | CVE-2025-55182 - React/Next.js Server Components Deserializa... | ⚪ 高危 | 20 |
+| [CVE-2025-55182](CVE-2025-55182-msanft_CVE-2025-55182.md) | CVE-2025-55182 - React 远程代码执行(RCE) | 🔴 Critical | 20 |
+| [CVE-2025-55182](CVE-2025-55182-oways_React2shell-CVE-2025-55182-checker.md) | CVE-2025-55182 - React, Next.js RCE (Remote Code Execution) | 🔴 Critical | 20 |
+| [CVE-2025-55182](CVE-2025-55182-pyroxenites_CVE-2025-55182.md) | CVE-2025-55182 ReactServerComponents 不安全反序列化 RCE | 🔴 Critical (CVSSv3.1 评分 10.0) | 20 |
+| [CVE-2025-55182](CVE-2025-55182-sickwell_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components RCE | ⚪ 高危 | 20 |
+| [CVE-2025-55182](CVE-2025-55182-sudo-Yangziran_CVE-2025-55182POC.md) | CVE-2025-55182 React Server Components RCE | ⚪ 高危 | 20 |
 | [CVE-2025-55188](CVE-2025-55188-Sh3ruman_CVE-2025-55188-7z-exploit.md) | CVE-2025-55188-7-Zip符号链接处理不当漏洞 | ⚪ 中危 | 6 |
 | [CVE-2025-55188](CVE-2025-55188-hunters-sec_CVE-2025-55188-7z-exploit.md) | CVE-2025-55188-7-Zip符号链接任意文件写入漏洞 | ⚪ 中危 | 6 |
 | [CVE-2025-55188](CVE-2025-55188-lunbun_CVE-2025-55188.md) | CVE-2025-55188 | ⚪ 中危 | 6 |
