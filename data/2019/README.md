@@ -1,6 +1,6 @@
 # 2019年 CVE漏洞列表
 
-> 📊 共收录 **438** 个CVE漏洞
+> 📊 共收录 **440** 个CVE漏洞
 
 ---
 
@@ -70,28 +70,30 @@
 | [CVE-2019-10743](CVE-2019-10743-albisorua_PoC-CVE-2019-10743.md) | CVE-2019-10743-archiver-Zip Slip | ⚪ 高危 | 1 |
 | [CVE-2019-10945](CVE-2019-10945-Snizi_CVE-2019-10945.md) | CVE-2019-10945-Joomla-目录遍历和任意文件删除 | ⚪ 高危 | 2 |
 | [CVE-2019-10945](CVE-2019-10945-dpgg101_CVE-2019-10945.md) | CVE-2019-10945 | ⚪ 高危 | 2 |
-| [CVE-2019-11043](CVE-2019-11043-0th3rs-Security-Team_CVE-2019-11043.md) | CVE-2019-11043 PHP-FPM 远程代码执行 | ⚪ 高危 | 22 |
-| [CVE-2019-11043](CVE-2019-11043-AleWong_PHP-FPM-Remote-Code-Execution-Vulnerability-CVE-2019-11043-.md) | CVE-2019-11043 - PHP-FPM 远程代码执行 | ⚪ 高危 | 22 |
-| [CVE-2019-11043](CVE-2019-11043-MRdoulestar_CVE-2019-11043.md) | CVE-2019-11043-PHP-FPM远程代码执行 | ⚪ 高危 | 22 |
-| [CVE-2019-11043](CVE-2019-11043-a1ex-var1amov_ctf-cve-2019-11043.md) | CVE-2019-11043-PHP-FPM远程代码执行 | ⚪ 高危 | 22 |
-| [CVE-2019-11043](CVE-2019-11043-akamajoris_CVE-2019-11043-Docker.md) | CVE-2019-11043-PHP-FPM-RCE | ⚪ 高危 | 22 |
-| [CVE-2019-11043](CVE-2019-11043-bayazid-bit_CVE-2019-11043-.md) | CVE-2019-11043 PHP-FPM 远程代码执行 | ⚪ 高危 | 22 |
-| [CVE-2019-11043](CVE-2019-11043-corifeo_CVE-2019-11043.md) | CVE-2019-11043-PHP-FPM远程代码执行 | ⚪ 高危 | 22 |
-| [CVE-2019-11043](CVE-2019-11043-fairyming_CVE-2019-11043.md) | CVE-2019-11043 | ⚪ 高危 | 22 |
-| [CVE-2019-11043](CVE-2019-11043-huowen_CVE-2019-11043.md) | CVE-2019-11043-PHP-FPM远程代码执行 | ⚪ 高危 | 22 |
-| [CVE-2019-11043](CVE-2019-11043-ianxtianxt_CVE-2019-11043.md) | CVE-2019-11043-PHP-FPM远程代码执行 | ⚪ 高危 | 22 |
-| [CVE-2019-11043](CVE-2019-11043-jas502n_CVE-2019-11043.md) | CVE-2019-11043 PHP-FPM 远程代码执行 | ⚪ 高危 | 22 |
-| [CVE-2019-11043](CVE-2019-11043-jas9reet_CVE-2019-11043.md) | CVE-2019-11043-PHP-FPM远程代码执行 | ⚪ 高危 | 22 |
-| [CVE-2019-11043](CVE-2019-11043-jptr218_php_hack.md) | CVE-2019-11043-PHP-FPM远程代码执行 | ⚪ 高危 | 22 |
-| [CVE-2019-11043](CVE-2019-11043-k8gege_CVE-2019-11043.md) | CVE-2019-11043-PHP-FPM远程代码执行 | ⚪ 高危 | 22 |
-| [CVE-2019-11043](CVE-2019-11043-kriskhub_CVE-2019-11043.md) | CVE-2019-11043 PHP-FPM 远程代码执行 | ⚪ 高危 | 22 |
-| [CVE-2019-11043](CVE-2019-11043-lindemer_CVE-2019-11043.md) | CVE-2019-11043 - PHP-FPM 远程代码执行 | ⚪ 高危 | 22 |
-| [CVE-2019-11043](CVE-2019-11043-moniik_CVE-2019-11043_env.md) | CVE-2019-11043 PHP-FPM 远程代码执行 | ⚪ 高危 | 22 |
-| [CVE-2019-11043](CVE-2019-11043-neex_phuip-fpizdam.md) | CVE-2019-11043 - PHP-FPM 远程代码执行 | ⚪ 高危 | 22 |
-| [CVE-2019-11043](CVE-2019-11043-shadow-horse_cve-2019-11043.md) | CVE-2019-11043 PHP-FPM远程代码执行漏洞 | ⚪ 高危 | 22 |
-| [CVE-2019-11043](CVE-2019-11043-theMiddleBlue_CVE-2019-11043.md) | CVE-2019-11043 - PHP-FPM 远程代码执行 | ⚪ 高危 | 22 |
-| [CVE-2019-11043](CVE-2019-11043-tinker-li_CVE-2019-11043.md) | CVE-2019-11043-PHP-FPM远程代码执行 | ⚪ 高危 | 22 |
-| [CVE-2019-11043](CVE-2019-11043-ypereirareis_docker-CVE-2019-11043.md) | CVE-2019-11043 PHP-FPM远程代码执行 | ⚪ 高危 | 22 |
+| [CVE-2019-11043](CVE-2019-11043-0th3rs-Security-Team_CVE-2019-11043.md) | CVE-2019-11043 - PHP-FPM 远程代码执行 | ⚪ 严重 | 24 |
+| [CVE-2019-11043](CVE-2019-11043-AleWong_PHP-FPM-Remote-Code-Execution-Vulnerability-CVE-2019-11043-.md) | CVE-2019-11043 - PHP-FPM RCE | 🔴 Critical | 24 |
+| [CVE-2019-11043](CVE-2019-11043-AndrewMas99_CVE-2019-11043-Vulnerability.md) | CVE-2019-11043 - PHP-FPM 远程代码执行 | ⚪ 高危 | 24 |
+| [CVE-2019-11043](CVE-2019-11043-CodeHex083_phuip-fpizdam.md) | CVE-2019-11043 - PHP-FPM 远程代码执行(RCE) | ⚪ 高危 | 24 |
+| [CVE-2019-11043](CVE-2019-11043-MRdoulestar_CVE-2019-11043.md) | CVE-2019-11043 - PHP-FPM 远程代码执行 | ⚪ 严重 | 24 |
+| [CVE-2019-11043](CVE-2019-11043-a1ex-var1amov_ctf-cve-2019-11043.md) | CVE-2019-11043 - PHP-FPM with specific Nginx configurations ... | 🔴 Critical | 24 |
+| [CVE-2019-11043](CVE-2019-11043-akamajoris_CVE-2019-11043-Docker.md) | CVE-2019-11043 - PHP-FPM Remote Code Execution (RCE) | 🔴 Critical | 24 |
+| [CVE-2019-11043](CVE-2019-11043-bayazid-bit_CVE-2019-11043-.md) | CVE-2019-11043 - PHP-FPM 远程代码执行 | ⚪ 高危 | 24 |
+| [CVE-2019-11043](CVE-2019-11043-corifeo_CVE-2019-11043.md) | CVE-2019-11043 - PHP-FPM RCE | 🔴 Critical | 24 |
+| [CVE-2019-11043](CVE-2019-11043-fairyming_CVE-2019-11043.md) | CVE-2019-11043 | ⚪ 高危 | 24 |
+| [CVE-2019-11043](CVE-2019-11043-huowen_CVE-2019-11043.md) | CVE-2019-11043 - PHP-FPM RCE | 🔴 Critical | 24 |
+| [CVE-2019-11043](CVE-2019-11043-ianxtianxt_CVE-2019-11043.md) | CVE-2019-11043 - PHP-FPM RCE | 🔴 Critical | 24 |
+| [CVE-2019-11043](CVE-2019-11043-jas502n_CVE-2019-11043.md) | CVE-2019-11043 - PHP-FPM RCE | 🔴 Critical | 24 |
+| [CVE-2019-11043](CVE-2019-11043-jas9reet_CVE-2019-11043.md) | CVE-2019-11043 - PHP-FPM Remote Code Execution (RCE) | 🔴 Critical | 24 |
+| [CVE-2019-11043](CVE-2019-11043-jptr218_php_hack.md) | CVE-2019-11043 - PHP-FPM 远程代码执行(RCE) | ⚪ 严重 | 24 |
+| [CVE-2019-11043](CVE-2019-11043-k8gege_CVE-2019-11043.md) | CVE-2019-11043 - PHP-FPM Remote Code Execution (RCE) | 🔴 Critical | 24 |
+| [CVE-2019-11043](CVE-2019-11043-kriskhub_CVE-2019-11043.md) | CVE-2019-11043 - PHP-FPM RCE | 🔴 Critical | 24 |
+| [CVE-2019-11043](CVE-2019-11043-lindemer_CVE-2019-11043.md) | CVE-2019-11043 - PHP-FPM RCE | 🔴 Critical | 24 |
+| [CVE-2019-11043](CVE-2019-11043-moniik_CVE-2019-11043_env.md) | CVE-2019-11043 - PHP-FPM RCE | 🔴 Critical | 24 |
+| [CVE-2019-11043](CVE-2019-11043-neex_phuip-fpizdam.md) | CVE-2019-11043 - PHP-FPM RCE | 🔴 Critical | 24 |
+| [CVE-2019-11043](CVE-2019-11043-shadow-horse_cve-2019-11043.md) | CVE-2019-11043 - PHP-FPM RCE | 🔴 Critical | 24 |
+| [CVE-2019-11043](CVE-2019-11043-theMiddleBlue_CVE-2019-11043.md) | CVE-2019-11043 - PHP-FPM 远程代码执行 | ⚪ 严重 | 24 |
+| [CVE-2019-11043](CVE-2019-11043-tinker-li_CVE-2019-11043.md) | CVE-待定-待定 - PHP RCE | ⚪ 严重 | 24 |
+| [CVE-2019-11043](CVE-2019-11043-ypereirareis_docker-CVE-2019-11043.md) | CVE-2019-11043 - PHP-FPM Remote Code Execution (RCE) | 🔴 Critical | 24 |
 | [CVE-2019-11287](CVE-2019-11287-mbadanoiu_CVE-2019-11287.md) | CVE-2019-11287-RabbitMQ Web Management Plugin-DoS | ⚪ 中危 | 1 |
 | [CVE-2019-11479](CVE-2019-11479-ibrahmsql_CVE-2019-11479.md) | CVE-2019-11479-Linux Kernel-TCP SACK Panic | ⚪ 中危 | 1 |
 | [CVE-2019-12185](CVE-2019-12185-Drew-Alleman_CVE-2019-12185.md) | CVE-2019-12185 | ⚪ 高危 | 2 |
