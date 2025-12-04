@@ -1895,7 +1895,7 @@
 | [CVE-2025-55182](CVE-2025-55182-joaonevess_rust-flight.md) | CVE-2025-55182 - React/Next.js Server Components Deserializa... | ⚪ 高危 | 42 |
 | [CVE-2025-55182](CVE-2025-55182-luskafaria_cve-2025-55182.md) | CVE-2025-55182 - React Server Components (react-server-dom-w... | 🔴 Critical | 42 |
 | [CVE-2025-55182](CVE-2025-55182-marginaldeer_CVE-2025-55182_scanner.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-msanft_CVE-2025-55182.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 42 |
+| [CVE-2025-55182](CVE-2025-55182-msanft_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components, Next.js 不安全反序列化导致的... | 🔴 Critical | 42 |
 | [CVE-2025-55182](CVE-2025-55182-nxgn-kd01_cve-2025-55182-scanner.md) | CVE-2025-55182 - React, React Server Components, Next.js RCE... | 🔴 Critical | 42 |
 | [CVE-2025-55182](CVE-2025-55182-oways_React2shell-CVE-2025-55182-checker.md) | CVE-2025-55182 - React, Next.js RCE (Remote Code Execution) | 🔴 Critical | 42 |
 | [CVE-2025-55182](CVE-2025-55182-ps-interactive_cve-2025-55182.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 42 |
@@ -2149,7 +2149,7 @@
 | [CVE-2025-6085](CVE-2025-6085-d0n601_CVE-2025-6085.md) | Make Connector <= 1.5.10 - Authenticated (Admin+) Arbitrary ... | ⚪ 高危 | 1 |
 | [CVE-2025-60854](CVE-2025-60854-K0n9-log_CVE-2025-60854.md) | CVE-2025-60854 - D-link AX1500 漏洞 | ⚪ 待评估 | 1 |
 | [CVE-2025-60880](CVE-2025-60880-Shenal01_CVE-2025-60880.md) | CVE-2025-60880 - Bagisto Admin Panel Stored XSS | ⚪ 高危 | 1 |
-| [CVE-2025-61155](CVE-2025-61155-pollotherunner_CVE-2025-61155.md) | CVE-2025-61155 - GameDriverX64.sys 本地拒绝服务漏洞 | ⚪ 高危 | 1 |
+| [CVE-2025-61155](CVE-2025-61155-pollotherunner_CVE-2025-61155.md) | CVE-2025-61155 - GameDriverX64.sys (anti-cheat kernel driver... | ⚪ 本地拒绝服务 | 1 |
 | [CVE-2025-61156](CVE-2025-61156-D7EAD_CVE-2025-61156.md) | CVE-2025-61156 - ThreatFire System Monitor Arbitrary Process... | ⚪ 高危 | 1 |
 | [CVE-2025-61183](CVE-2025-61183-thawphone_CVE-2025-61183.md) | CVE-2025-61183 - VaahCMS Stored XSS | ⚪ 高危 | 1 |
 | [CVE-2025-61196](CVE-2025-61196-zsamamah_CVE-2025-61196.md) | CVE-2025-61196-BusinessNext CRMnext-代码执行 | ⚪ 高危 | 1 |
