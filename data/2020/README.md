@@ -10,7 +10,7 @@
 |---------|------|----------|-----------|
 | [CVE-2020-0192](CVE-2020-0192-himanshu67111_CVE-2020-0192.md) | CVE-2020-0192 | ⚪ 中危 | 1 |
 | [CVE-2020-0423](CVE-2020-0423-sparrow-labz_CVE-2020-0423.md) | CVE-2020-0423-Android-Binder-UAF | ⚪ 高危 | 1 |
-| [CVE-2020-0610](CVE-2020-0610-ImBIOS_lab-cve-2020-0610.md) | CVE-2020-0610 - BlueGate RDP Gateway 远程代码执行漏洞 | ⚪ 高危 | 2 |
+| [CVE-2020-0610](CVE-2020-0610-ImBIOS_lab-cve-2020-0610.md) | CVE-2020-0610 | ⚪ 高危 | 2 |
 | [CVE-2020-0610](CVE-2020-0610-Riocipta75_lab-cve-2020-0610.md) | CVE-2020-0610 - BlueGate RDP Gateway 远程代码执行漏洞 | ⚪ 高危 | 2 |
 | [CVE-2020-0618](CVE-2020-0618-N3xtGenH4cker_CVE-2020-0618_DETECTION.md) | CVE-2020-0618 | ⚪ 高危 | 4 |
 | [CVE-2020-0618](CVE-2020-0618-euphrat1ca_CVE-2020-0618.md) | CVE-2020-0618 - Microsoft SQL Server Reporting Services Remo... | ⚪ 高危 | 4 |
@@ -98,16 +98,16 @@
 | [CVE-2020-11651](CVE-2020-11651-rossengeorgiev_salt-security-backports.md) | CVE-2020-11651 SaltStack 认证绕过和远程代码执行 | ⚪ 高危 | 13 |
 | [CVE-2020-11651](CVE-2020-11651-ssrsec_CVE-2020-11651-CVE-2020-11652-EXP.md) | CVE-2020-11651 | ⚪ 高危 | 13 |
 | [CVE-2020-11978](CVE-2020-11978-pberba_CVE-2020-11978.md) | CVE-2020-11978-Apache Airflow-远程代码执行 | ⚪ 高危 | 2 |
-| [CVE-2020-11978](CVE-2020-11978-stuxbench_mlflow-cve-2020-11978.md) | CVE-2020-11978-Apache Airflow-远程代码执行 | ⚪ 高危 | 2 |
+| [CVE-2020-11978](CVE-2020-11978-stuxbench_mlflow-cve-2020-11978.md) | CVE-2020-11978 | ⚪ 高危 | 2 |
 | [CVE-2020-11984](CVE-2020-11984-masahiro331_CVE-2020-11984.md) | CVE-2020-11984-Apache HTTP Server-mod_proxy_uwsgi 缓冲区溢出 | ⚪ 高危 | 1 |
-| [CVE-2020-11989](CVE-2020-11989-HYWZ36_HYWZ36-CVE-2020-11989-code.md) | CVE-2020-11989-Apache Shiro-身份验证绕过 | ⚪ 高危 | 2 |
+| [CVE-2020-11989](CVE-2020-11989-HYWZ36_HYWZ36-CVE-2020-11989-code.md) | CVE-2020-11989 | ⚪ 高危 | 2 |
 | [CVE-2020-11989](CVE-2020-11989-cuijiung_shiro-CVE-2020-11989.md) | CVE-2020-11989-Apache Shiro-身份验证绕过 | ⚪ 高危 | 2 |
 | [CVE-2020-11998](CVE-2020-11998-shoucheng3_apache__activemq_CVE-2020-11998_5-15-12.md) | CVE-2020-11998 Apache ActiveMQ JMX RCE | ⚪ 高危 | 1 |
 | [CVE-2020-13151](CVE-2020-13151-ByteMe1001_CVE-2020-13151-POC-Aerospike-Server-Host-Command-Execution-RCE-.md) | CVE-2020-13151-Aerospike-RCE | ⚪ 高危 | 2 |
-| [CVE-2020-13151](CVE-2020-13151-b4ny4n_CVE-2020-13151.md) | CVE-2020-13151-Aerospike-RCE | ⚪ 高危 | 2 |
+| [CVE-2020-13151](CVE-2020-13151-b4ny4n_CVE-2020-13151.md) | CVE-2020-13151 | ⚪ 高危 | 2 |
 | [CVE-2020-13398](CVE-2020-13398-SpiralBL0CK_PoC-crash-CVE-2020-13398-.md) | CVE-2020-13398-FreeRDP-OOB写入 | ⚪ 高危 | 1 |
 | [CVE-2020-13405](CVE-2020-13405-Moniruzzaman995_CVE-2020-13405.md) | CVE-2020-13405-Microweber-用户信息泄露 | ⚪ 中危 | 2 |
-| [CVE-2020-13405](CVE-2020-13405-mrnazu_CVE-2020-13405.md) | CVE-2020-13405-Microweber-用户信息泄露 | ⚪ 中危 | 2 |
+| [CVE-2020-13405](CVE-2020-13405-mrnazu_CVE-2020-13405.md) | CVE-2020-13405 | ⚪ 中危 | 2 |
 | [CVE-2020-13777](CVE-2020-13777-0xxon_cve-2020-13777.md) | CVE-2020-13777-GnuTLS会话票证漏洞 | ⚪ 高危 | 3 |
 | [CVE-2020-13777](CVE-2020-13777-prprhyt_PoC_TLS1_3_CVE-2020-13777.md) | CVE-2020-13777-GnuTLS-会话票证加密漏洞 | ⚪ 高危 | 3 |
 | [CVE-2020-13777](CVE-2020-13777-shigeki_challenge_CVE-2020-13777.md) | CVE-2020-13777 | ⚪ 高危 | 3 |
@@ -120,7 +120,7 @@
 | [CVE-2020-13942](CVE-2020-13942-lp008_CVE-2020-13942.md) | CVE-2020-13942 Apache Unomi RCE | ⚪ 高危 | 8 |
 | [CVE-2020-13942](CVE-2020-13942-shifa123_CVE-2020-13942-POC-.md) | CVE-2020-13942-Apache Unomi-远程代码执行 | ⚪ 高危 | 8 |
 | [CVE-2020-13942](CVE-2020-13942-yaunsky_Unomi-CVE-2020-13942.md) | CVE-2020-13942 Apache Unomi Remote Code Execution | ⚪ 高危 | 8 |
-| [CVE-2020-13973](CVE-2020-13973-epicosy_json-sanitizer.md) | CVE-2020-13973-OWASP json-sanitizer-XSS | ⚪ 中危 | 2 |
+| [CVE-2020-13973](CVE-2020-13973-epicosy_json-sanitizer.md) | CVE-2020-13973 | ⚪ 中危 | 2 |
 | [CVE-2020-13973](CVE-2020-13973-shoucheng3_OWASP__json-sanitizer_CVE-2020-13973_1-2-0.md) | CVE-2020-13973-OWASP json-sanitizer-XSS | ⚪ 中危 | 2 |
 | [CVE-2020-14008](CVE-2020-14008-JackHars_cve-2020-14008.md) | CVE-2020-14008 Zoho ManageEngine Applications Manager RCE | ⚪ 高危 | 1 |
 | [CVE-2020-1472](CVE-2020-1472-100HnoMeuNome_ZeroLogon-CVE-2020-1472-lab.md) | CVE-2020-1472 Zerologon | ⚪ 高危 | 31 |
@@ -188,7 +188,7 @@
 | [CVE-2020-15778](CVE-2020-15778-Neko-chanQwQ_CVE-2020-15778-Exploit.md) | CVE-2020-15778-OpenSSH-命令注入 | ⚪ 高危 | 4 |
 | [CVE-2020-15778](CVE-2020-15778-cpandya2909_CVE-2020-15778.md) | CVE-2020-15778 OpenSSH SCP 命令注入 | ⚪ 高危 | 4 |
 | [CVE-2020-15778](CVE-2020-15778-drackyjr_CVE-2020-15778-SCP-Command-Injection-Check.md) | CVE-2020-15778-OpenSSH-SCP命令注入 | ⚪ 高危 | 4 |
-| [CVE-2020-16012](CVE-2020-16012-aleksejspopovs_cve-2020-16012.md) | CVE-2020-16012-Chrome-侧信道信息泄露 | ⚪ 中危 | 2 |
+| [CVE-2020-16012](CVE-2020-16012-aleksejspopovs_cve-2020-16012.md) | CVE-2020-16012 | ⚪ 中危 | 2 |
 | [CVE-2020-16012](CVE-2020-16012-helidem_CVE-2020-16012-PoC.md) | CVE-2020-16012-Chrome-侧信道信息泄露 | ⚪ 中危 | 2 |
 | [CVE-2020-16898](CVE-2020-16898-0xeb-bp_cve-2020-16898.md) | CVE-2020-16898-Windows TCP/IP远程代码执行 | ⚪ 高危 | 14 |
 | [CVE-2020-16898](CVE-2020-16898-CPO-EH_CVE-2020-16898_Checker.md) | CVE-2020-16898 "Bad Neighbor" Windows TCP/IP 远程代码执行漏洞 | ⚪ 高危 | 14 |
@@ -234,7 +234,7 @@
 | [CVE-2020-21365](CVE-2020-21365-andrei2308_CVE-2020-21365.md) | CVE-2020-21365-wkhtmltopdf-目录遍历 | ⚪ 高危 | 3 |
 | [CVE-2020-21365](CVE-2020-21365-samaellovecraft_CVE-2020-21365.md) | CVE-2020-21365-wkhtmltopdf-目录遍历 | ⚪ 高危 | 3 |
 | [CVE-2020-2261](CVE-2020-2261-shoucheng3_jenkinsci__perfecto-plugin_CVE-2020-2261_1-17.md) | CVE-2020-2261 Jenkins Perfecto Plugin 命令注入 | ⚪ 高危 | 1 |
-| [CVE-2020-24913](CVE-2020-24913-agarma_CVE-2020-24913-PoC.md) | CVE-2020-24913-QCubed-SQL注入 | ⚪ 高危 | 2 |
+| [CVE-2020-24913](CVE-2020-24913-agarma_CVE-2020-24913-PoC.md) | CVE-2020-24913 | ⚪ 高危 | 2 |
 | [CVE-2020-24913](CVE-2020-24913-shpaw415_CVE-2020-24913-exploit.md) | CVE-2020-24913-QCubed-SQL注入 | ⚪ 高危 | 2 |
 | [CVE-2020-2551](CVE-2020-2551-B1ack4sh_Blackash-CVE-2020-2551.md) | CVE-2020-2551-WebLogic IIOP RCE | ⚪ 高危 | 8 |
 | [CVE-2020-2551](CVE-2020-2551-DaMinGshidashi_CVE-2020-2551.md) | CVE-2020-2551-WebLogic-IIOP反序列化RCE | ⚪ 高危 | 8 |
@@ -250,7 +250,7 @@
 | [CVE-2020-26217](CVE-2020-26217-novysodope_CVE-2020-26217-XStream-RCE-POC.md) | CVE-2020-26217 | ⚪ 高危 | 5 |
 | [CVE-2020-26217](CVE-2020-26217-shoucheng3_x-stream__xstream_CVE-2020-26217_1-4-14-java7.md) | CVE-2020-26217-XStream-远程代码执行 | ⚪ 高危 | 5 |
 | [CVE-2020-26258](CVE-2020-26258-Al1ex_CVE-2020-26258.md) | CVE-2020-26258-XStream-SSRF | ⚪ 中危 | 2 |
-| [CVE-2020-26258](CVE-2020-26258-cuijiung_xstream-CVE-2020-26258.md) | CVE-2020-26258-XStream-SSRF | ⚪ 中危 | 2 |
+| [CVE-2020-26258](CVE-2020-26258-cuijiung_xstream-CVE-2020-26258.md) | CVE-2020-26258 | ⚪ 中危 | 2 |
 | [CVE-2020-26259](CVE-2020-26259-Al1ex_CVE-2020-26259.md) | CVE-2020-26259 | ⚪ 中危 | 3 |
 | [CVE-2020-26259](CVE-2020-26259-cuijiung_xstream-CVE-2020-26259.md) | CVE-2020-26259-XStream-任意文件删除 | ⚪ 中危 | 3 |
 | [CVE-2020-26259](CVE-2020-26259-jas502n_CVE-2020-26259.md) | CVE-2020-26259-XStream-任意文件删除 | ⚪ 中危 | 3 |
@@ -304,14 +304,14 @@
 | [CVE-2020-3452](CVE-2020-3452-sujaygr8_CVE-2020-3452.md) | CVE-2020-3452-Cisco ASA/FTD 目录遍历漏洞 | ⚪ 高危 | 22 |
 | [CVE-2020-35460](CVE-2020-35460-shoucheng3_joniles__mpxj_CVE-2020-35460_8-3-4.md) | CVE-2020-35460 - MPXJ Directory Traversal | ⚪ 中危 | 1 |
 | [CVE-2020-35590](CVE-2020-35590-N4nj0_CVE-2020-35590.md) | CVE-2020-35590-Limit Login Attempts Reloaded-登录限制绕过 | ⚪ 中危 | 1 |
-| [CVE-2020-35667](CVE-2020-35667-Diekgbbtt_CVE-2020-35667-PoC.md) | CVE-2020-35667 - TeamCity IntelliJ IDEA Plugin SSRF 漏洞 | ⚪ 高危 | 2 |
+| [CVE-2020-35667](CVE-2020-35667-Diekgbbtt_CVE-2020-35667-PoC.md) | CVE-2020-35667 | ⚪ 高危 | 2 |
 | [CVE-2020-35667](CVE-2020-35667-stefan-500_teamcity-idea-cve-2020-35667-poc.md) | CVE-2020-35667 - TeamCity IntelliJ IDEA Plugin SSRF 漏洞 | ⚪ 高危 | 2 |
 | [CVE-2020-35848](CVE-2020-35848-sabbu143s_CVE_2020_35848.md) | CVE-2020-35848 - Agentejo Cockpit NoSQL注入 | ⚪ 高危 | 1 |
 | [CVE-2020-36180](CVE-2020-36180-cuijiung_jackson-CVE-2020-36180.md) | CVE-2020-36180 - Jackson-databind 反序列化漏洞 | ⚪ 高危 | 1 |
 | [CVE-2020-36708](CVE-2020-36708-b1g-b33f_CVE-2020-36708.md) | CVE-2020-36708 - WordPress Epsilon Framework Function Inject... | ⚪ 高危 | 1 |
 | [CVE-2020-36847](CVE-2020-36847-137f_PoC-CVE-2020-36847-WordPress-Plugin-4.2.2-RCE.md) | CVE-2020-36847-Simple File List-RCE | ⚪ 高危 | 1 |
 | [CVE-2020-5142](CVE-2020-5142-hackerlawyer_CVE-2020-5142-POC-MB.md) | CVE-2020-5142-SonicWall-SSLVPN-Stored-XSS | ⚪ 中危 | 1 |
-| [CVE-2020-5248](CVE-2020-5248-Mkway_CVE-2020-5248.md) | CVE-2020-5248 - GLPI 默认密钥解密漏洞 | ⚪ 高危 | 2 |
+| [CVE-2020-5248](CVE-2020-5248-Mkway_CVE-2020-5248.md) | CVE-2020-5248 | ⚪ 高危 | 2 |
 | [CVE-2020-5248](CVE-2020-5248-venomnis_CVE-2020-5248.md) | CVE-2020-5248 - GLPI 默认密钥解密漏洞 | ⚪ 高危 | 2 |
 | [CVE-2020-5377](CVE-2020-5377-h3x0v3rl0rd_CVE-2020-5377.md) | CVE-2020-5377 - Dell OpenManage Server Administrator Path Tr... | ⚪ 高危 | 1 |
 | [CVE-2020-5405](CVE-2020-5405-shoucheng3_spring-cloud__spring-cloud-config_CVE-2020-5405_2-1-6-RELEASE.md) | CVE-2020-5405-Spring Cloud Config-目录遍历 | ⚪ 中危 | 1 |
@@ -354,7 +354,7 @@
 | [CVE-2020-7247](CVE-2020-7247-presentdaypresenttime_shai_hulud.md) | CVE-2020-7247 - OpenSMTPD 远程命令执行 | ⚪ 高危 | 9 |
 | [CVE-2020-7247](CVE-2020-7247-r0lh_CVE-2020-7247.md) | CVE-2020-7247-OpenSMTPD-远程代码执行 | ⚪ 高危 | 9 |
 | [CVE-2020-7247](CVE-2020-7247-superzerosec_cve-2020-7247.md) | CVE-2020-7247-OpenSMTPD-远程命令执行 | ⚪ 高危 | 9 |
-| [CVE-2020-7378](CVE-2020-7378-loganpkinfosec_CVE-2020-7378.md) | CVE-2020-7378-OpenCRX-未验证密码更改 | ⚪ 高危 | 2 |
+| [CVE-2020-7378](CVE-2020-7378-loganpkinfosec_CVE-2020-7378.md) | CVE-2020-7378 | ⚪ 高危 | 2 |
 | [CVE-2020-7378](CVE-2020-7378-ruthvikvegunta_openCRX-CVE-2020-7378.md) | CVE-2020-7378-OpenCRX-未验证密码更改 | ⚪ 高危 | 2 |
 | [CVE-2020-7842](CVE-2020-7842-GangTaegyeong_CVE-2020-7842.md) | CVE-2020-7842-Netis Korea D'live AP-命令注入 | ⚪ 中危 | 1 |
 | [CVE-2020-7961](CVE-2020-7961-CrackerCat_CVE-2020-7961-Mass.md) | CVE-2020-7961-Liferay Portal反序列化RCE | ⚪ 高危 | 9 |
@@ -372,7 +372,7 @@
 | [CVE-2020-9483](CVE-2020-9483-tuaandatt_CVE-2020-9483---Apache-Skywalking-8.3.0.md) | CVE-2020-9483 - Apache SkyWalking SQL注入 | ⚪ 高危 | 3 |
 | [CVE-2020-9488](CVE-2020-9488-arsalanraja987_java-log4j-cve-2020-9488.md) | CVE-2020-9488 - Apache Log4j SMTP Appender证书验证绕过 | ⚪ 中危 | 1 |
 | [CVE-2020-9547](CVE-2020-9547-Pranjal6955_CVE-2020-9547.md) | CVE-2020-9547-jackson-databind反序列化RCE | ⚪ 高危 | 2 |
-| [CVE-2020-9547](CVE-2020-9547-fairyming_CVE-2020-9547.md) | CVE-2020-9547-jackson-databind反序列化RCE | ⚪ 高危 | 2 |
+| [CVE-2020-9547](CVE-2020-9547-fairyming_CVE-2020-9547.md) | CVE-2020-9547 | ⚪ 高危 | 2 |
 | [CVE-2020-9922](CVE-2020-9922-Wowfunhappy_Fix-Apple-Mail-CVE-2020-9922.md) | CVE-2020-9922 - macOS Mail 任意文件写入 | ⚪ 高危 | 1 |
 
 ---

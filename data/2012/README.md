@@ -30,7 +30,7 @@
 | [CVE-2012-2982](CVE-2012-2982-elliotosama_CVE-2012-2982.md) | CVE-2012-2982-Webmin-命令注入 | ⚪ 高危 | 17 |
 | [CVE-2012-2982](CVE-2012-2982-lpuv_CVE-2012-2982.md) | CVE-2012-2982-Webmin-命令注入 | ⚪ 高危 | 17 |
 | [CVE-2012-4869](CVE-2012-4869-bitc0de_Elastix-Remote-Code-Execution.md) | CVE-2012-4869-FreePBX-远程命令执行 | ⚪ 高危 | 2 |
-| [CVE-2012-4869](CVE-2012-4869-cyberdesu_Elastix-2.2.0-CVE-2012-4869.md) | CVE-2012-4869-FreePBX-远程命令执行 | ⚪ 高危 | 2 |
+| [CVE-2012-4869](CVE-2012-4869-cyberdesu_Elastix-2.2.0-CVE-2012-4869.md) | CVE-2012-4869 | ⚪ 高危 | 2 |
 
 ---
 

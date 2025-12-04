@@ -15,7 +15,7 @@
 | [CVE-2011-0762](CVE-2011-0762-Andreyfts7_CVE-2011-0762.md) | CVE-2011-0762-vsftpd-DoS | ⚪ 中危 | 7 |
 | [CVE-2011-0762](CVE-2011-0762-Freitandrey_CVE-2011-0762.md) | CVE-2011-0762-vsftpd-拒绝服务 | ⚪ 中危 | 7 |
 | [CVE-2011-0762](CVE-2011-0762-s3mPr1linux_CVE-2011-0762.md) | CVE-2011-0762-vsftpd-DoS | ⚪ 中危 | 7 |
-| [CVE-2011-1249](CVE-2011-1249-Madusanka99_OHTS.md) | CVE-2011-1249 - Windows AFD权限提升漏洞 | ⚪ 高危 | 2 |
+| [CVE-2011-1249](CVE-2011-1249-Madusanka99_OHTS.md) | CVE-2011-1249 | ⚪ 高危 | 2 |
 | [CVE-2011-1249](CVE-2011-1249-h3x0v3rl0rd_CVE-2011-1249.md) | CVE-2011-1249 - Windows AFD权限提升漏洞 | ⚪ 高危 | 2 |
 | [CVE-2011-2523](CVE-2011-2523-0xB0y426_CVE-2011-2523-PoC.md) | CVE-2011-2523 - vsftpd 2.3.4 后门 | ⚪ 高危 | 31 |
 | [CVE-2011-2523](CVE-2011-2523-0xSojalSec_-CVE-2011-2523.md) | CVE-2011-2523-vsftpd-后门命令执行 | ⚪ 高危 | 31 |

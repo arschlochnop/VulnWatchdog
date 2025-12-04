@@ -44,7 +44,7 @@
 | [CVE-2007-4559](CVE-2007-4559-depers-rus_CVE-2007-4559.md) | CVE-2007-4559-Python tarfile 目录遍历漏洞 | ⚪ 高危 | 5 |
 | [CVE-2007-4559](CVE-2007-4559-luigigubello_trellix-tarslip-patch-bypass.md) | CVE-2007-4559 Python tarfile 目录穿越漏洞 | ⚪ 高危 | 5 |
 | [CVE-2007-6750](CVE-2007-6750-Jeanpseven_slowl0ris.md) | CVE-2007-6750 - Apache HTTP Server Slowloris DoS | ⚪ 高危 | 2 |
-| [CVE-2007-6750](CVE-2007-6750-RhzVenom_CVE-2007-6750.md) | CVE-2007-6750 - Apache HTTP Server Slowloris DoS | ⚪ 高危 | 2 |
+| [CVE-2007-6750](CVE-2007-6750-RhzVenom_CVE-2007-6750.md) | CVE-2007-6750 | ⚪ 高危 | 2 |
 
 ---
 
