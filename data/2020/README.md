@@ -11,7 +11,7 @@
 | [CVE-2020-0192](CVE-2020-0192-himanshu67111_CVE-2020-0192.md) | CVE-2020-0192 | ⚪ 中危 | 1 |
 | [CVE-2020-0423](CVE-2020-0423-sparrow-labz_CVE-2020-0423.md) | CVE-2020-0423-Android-Binder-UAF | ⚪ 高危 | 1 |
 | [CVE-2020-0610](CVE-2020-0610-ImBIOS_lab-cve-2020-0610.md) | CVE-2020-0610 | ⚪ 超危 | 2 |
-| [CVE-2020-0610](CVE-2020-0610-Riocipta75_lab-cve-2020-0610.md) | CVE-2020-0610 - Microsoft Windows Remote Desktop Gateway 远程代... | ⚪ 超危 | 2 |
+| [CVE-2020-0610](CVE-2020-0610-Riocipta75_lab-cve-2020-0610.md) | CVE-2020-0610 - Windows Remote Desktop Gateway RCE | ⚪ 超危 | 2 |
 | [CVE-2020-0618](CVE-2020-0618-N3xtGenH4cker_CVE-2020-0618_DETECTION.md) | CVE-2020-0618 | ⚪ 高危 | 4 |
 | [CVE-2020-0618](CVE-2020-0618-euphrat1ca_CVE-2020-0618.md) | CVE-2020-0618 - Microsoft SQL Server Reporting Services Remo... | ⚪ 高危 | 4 |
 | [CVE-2020-0618](CVE-2020-0618-itstarsec_CVE-2020-0618.md) | CVE-2020-0618 - Microsoft SQL Server Reporting Services RCE | ⚪ 高危 | 4 |

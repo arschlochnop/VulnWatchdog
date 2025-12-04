@@ -72,14 +72,14 @@
 | [CVE-2019-10945](CVE-2019-10945-dpgg101_CVE-2019-10945.md) | CVE-2019-10945 | ⚪ 高危 | 2 |
 | [CVE-2019-11043](CVE-2019-11043-0th3rs-Security-Team_CVE-2019-11043.md) | CVE-2019-11043 - PHP-FPM 远程代码执行 | ⚪ 严重 | 24 |
 | [CVE-2019-11043](CVE-2019-11043-AleWong_PHP-FPM-Remote-Code-Execution-Vulnerability-CVE-2019-11043-.md) | CVE-2019-11043 - PHP-FPM RCE | 🔴 Critical | 24 |
-| [CVE-2019-11043](CVE-2019-11043-AndrewMas99_CVE-2019-11043-Vulnerability.md) | CVE-2019-11043 - PHP-FPM 远程代码执行 | ⚪ 高危 | 24 |
+| [CVE-2019-11043](CVE-2019-11043-AndrewMas99_CVE-2019-11043-Vulnerability.md) | CVE-2019-11043 - PHP-FPM 远程代码执行(RCE) | ⚪ 高危 | 24 |
 | [CVE-2019-11043](CVE-2019-11043-CodeHex083_phuip-fpizdam.md) | CVE-2019-11043 - PHP-FPM 远程代码执行(RCE) | ⚪ 高危 | 24 |
 | [CVE-2019-11043](CVE-2019-11043-MRdoulestar_CVE-2019-11043.md) | CVE-2019-11043 - PHP-FPM 远程代码执行 | ⚪ 严重 | 24 |
 | [CVE-2019-11043](CVE-2019-11043-a1ex-var1amov_ctf-cve-2019-11043.md) | CVE-2019-11043 - PHP-FPM with specific Nginx configurations ... | 🔴 Critical | 24 |
 | [CVE-2019-11043](CVE-2019-11043-akamajoris_CVE-2019-11043-Docker.md) | CVE-2019-11043 - PHP-FPM Remote Code Execution (RCE) | 🔴 Critical | 24 |
 | [CVE-2019-11043](CVE-2019-11043-bayazid-bit_CVE-2019-11043-.md) | CVE-2019-11043 - PHP-FPM 远程代码执行 | ⚪ 高危 | 24 |
 | [CVE-2019-11043](CVE-2019-11043-corifeo_CVE-2019-11043.md) | CVE-2019-11043 - PHP-FPM RCE | 🔴 Critical | 24 |
-| [CVE-2019-11043](CVE-2019-11043-fairyming_CVE-2019-11043.md) | CVE-2019-11043 | ⚪ 高危 | 24 |
+| [CVE-2019-11043](CVE-2019-11043-fairyming_CVE-2019-11043.md) | CVE-2019-11043 | 🔴 Critical | 24 |
 | [CVE-2019-11043](CVE-2019-11043-huowen_CVE-2019-11043.md) | CVE-2019-11043 - PHP-FPM RCE | 🔴 Critical | 24 |
 | [CVE-2019-11043](CVE-2019-11043-ianxtianxt_CVE-2019-11043.md) | CVE-2019-11043 - PHP-FPM RCE | 🔴 Critical | 24 |
 | [CVE-2019-11043](CVE-2019-11043-jas502n_CVE-2019-11043.md) | CVE-2019-11043 - PHP-FPM RCE | 🔴 Critical | 24 |
