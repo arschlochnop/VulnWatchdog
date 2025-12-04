@@ -1,6 +1,6 @@
 # 2025年 CVE漏洞列表
 
-> 📊 共收录 **2419** 个CVE漏洞
+> 📊 共收录 **2421** 个CVE漏洞
 
 ---
 
@@ -46,7 +46,7 @@
 | [CVE-2025-0411](CVE-2025-0411-betulssahin_CVE-2025-0411-7-Zip-Mark-of-the-Web-Bypass.md) | CVE-2025-0411-7-Zip Mark-of-the-Web Bypass | ⚪ 高危 | 10 |
 | [CVE-2025-0411](CVE-2025-0411-cesarbtakeda_7-Zip-CVE-2025-0411-POC.md) | CVE-2025-0411-7-Zip-Mark-of-the-Web Bypass | ⚪ 中危 | 10 |
 | [CVE-2025-0411](CVE-2025-0411-dhmosfunk_7-Zip-CVE-2025-0411-POC.md) | CVE-2025-0411-7-Zip Mark-of-the-Web Bypass | ⚪ 高危 | 10 |
-| [CVE-2025-0411](CVE-2025-0411-dpextreme_7-Zip-CVE-2025-0411-POC.md) | CVE-2025-0411-7-Zip-MotW绕过 | ⚪ 中危 | 10 |
+| [CVE-2025-0411](CVE-2025-0411-dpextreme_7-Zip-CVE-2025-0411-POC.md) | CVE-2025-0411-7-Zip-MOTW绕过 | ⚪ 高危 | 10 |
 | [CVE-2025-0411](CVE-2025-0411-iSee857_CVE-2025-0411-PoC.md) | CVE-2025-0411 | ⚪ 高危 | 10 |
 | [CVE-2025-0411](CVE-2025-0411-ishwardeepp_CVE-2025-0411-MoTW-PoC.md) | CVE-2025-0411 7-Zip Mark-of-the-Web Bypass Vulnerability | ⚪ 高危 | 10 |
 | [CVE-2025-0868](CVE-2025-0868-aidana-gift_CVE-2025-0868.md) | CVE-2025-0868-DocsGPT-远程代码执行 | ⚪ 高危 | 2 |
@@ -169,6 +169,7 @@
 | [CVE-2025-1323](CVE-2025-1323-p33d_cve-2025-1323.md) | CVE-2025-1323-WP-Recall-SQL注入 | ⚪ 高危 | 1 |
 | [CVE-2025-1337](CVE-2025-1337-ada-z3r0_CVE-2025-1337-PoC.md) | CVE-2025-1337-Eastnets PaymentSafe-XSS | ⚪ 中危 | 1 |
 | [CVE-2025-1338](CVE-2025-1338-jxcaxtc_CVE-2025-1338.md) | CVE-2025-1338-NUUO Camera-命令注入 | ⚪ 高危 | 1 |
+| [CVE-2025-13486](CVE-2025-13486-0xnemian_CVE-2025-13486.-CVE-2025-13486.md) | WordPress插件漏洞/任意文件读取漏洞/硬编码JWT密钥漏洞分析 | ⚪ 高危 | 1 |
 | [CVE-2025-13615](CVE-2025-13615-blossombutt4063_CVE-2025-13615.md) | CVE-2025-13615-StreamTube Core-Unauthenticated Arbitrary Use... | ⚪ 高危 | 1 |
 | [CVE-2025-1461](CVE-2025-1461-neverendingsupport_nes-vuetify-cve-2025-1461.md) | CVE-2025-1461-Vuetify-XSS | ⚪ 中危 | 1 |
 | [CVE-2025-1550](CVE-2025-1550-ChCh0i_cve-2025-1550.md) | CVE-2025-1550-Keras-RCE | ⚪ 高危 | 1 |
@@ -1862,11 +1863,12 @@
 | [CVE-2025-54957](CVE-2025-54957-AlphabugX_CVE-2025-54957.md) | CVE-2025-54957-Dolby UDC-越界写 | ⚪ 中危 | 1 |
 | [CVE-2025-54962](CVE-2025-54962-Eyodav_CVE-2025-54962.md) | CVE-2025-54962 - OpenPLC Runtime Webserver Insecure File Upl... | ⚪ 中危 | 1 |
 | [CVE-2025-54988](CVE-2025-54988-mgthuramoemyint_POC-CVE-2025-54988.md) | CVE-2025-54988 - Apache Tika PDF parser module XXE | ⚪ 高危 | 1 |
-| [CVE-2025-55182](CVE-2025-55182-BankkRoll_Quickcheck-CVE-2025-55182-React-and-CVE-2025-66478-Next.js.md) | CVE-2025-55182 (React RSC) & CVE-2025-66478 (Next.js RSC) | ⚪ 高危 | 5 |
-| [CVE-2025-55182](CVE-2025-55182-callinston_CVE-2025-55182.md) | CVE-2025-55182-React Server Components远程代码执行 | ⚪ 高危 | 5 |
-| [CVE-2025-55182](CVE-2025-55182-fatguru_CVE-2025-55182-scanner.md) | CVE-2025-55182 React Server Components (RSC) 基础设施暴露 | ⚪ 高危 | 5 |
-| [CVE-2025-55182](CVE-2025-55182-pyroxenites_CVE-2025-55182.md) | CVE-2025-55182 ReactServerComponents 不安全反序列化 RCE | 🔴 Critical (CVSSv3.1 评分 10.0) | 5 |
-| [CVE-2025-55182](CVE-2025-55182-sickwell_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical (CVSSv3.1 score 10.0) | 5 |
+| [CVE-2025-55182](CVE-2025-55182-BankkRoll_Quickcheck-CVE-2025-55182-React-and-CVE-2025-66478-Next.js.md) | CVE-2025-55182 (React RSC) & CVE-2025-66478 (Next.js RSC) | ⚪ 高危 | 6 |
+| [CVE-2025-55182](CVE-2025-55182-callinston_CVE-2025-55182.md) | CVE-2025-55182-React Server Components远程代码执行 | ⚪ 高危 | 6 |
+| [CVE-2025-55182](CVE-2025-55182-fatguru_CVE-2025-55182-scanner.md) | CVE-2025-55182 React Server Components (RSC) 基础设施暴露 | ⚪ 高危 | 6 |
+| [CVE-2025-55182](CVE-2025-55182-pyroxenites_CVE-2025-55182.md) | CVE-2025-55182 ReactServerComponents 不安全反序列化 RCE | 🔴 Critical (CVSSv3.1 评分 10.0) | 6 |
+| [CVE-2025-55182](CVE-2025-55182-sickwell_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical (CVSSv3.1 score 10.0) | 6 |
+| [CVE-2025-55182](CVE-2025-55182-sudo-Yangziran_CVE-2025-55182POC.md) | CVE-2025-55182 React Server Components RCE | ⚪ 高危 | 6 |
 | [CVE-2025-55188](CVE-2025-55188-Sh3ruman_CVE-2025-55188-7z-exploit.md) | CVE-2025-55188-7-Zip符号链接处理不当漏洞 | ⚪ 中危 | 6 |
 | [CVE-2025-55188](CVE-2025-55188-hunters-sec_CVE-2025-55188-7z-exploit.md) | CVE-2025-55188-7-Zip符号链接任意文件写入漏洞 | ⚪ 中危 | 6 |
 | [CVE-2025-55188](CVE-2025-55188-lunbun_CVE-2025-55188.md) | CVE-2025-55188 | ⚪ 中危 | 6 |
