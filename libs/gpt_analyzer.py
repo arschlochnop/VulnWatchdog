@@ -164,8 +164,11 @@ class GPTAnalyzer:
         search_str = self._truncate_search_results(search_results)
         poc_str = self._truncate_poc_code(poc_code)
 
-        # 精简版 System Prompt (8行 vs 旧版117行)
-        system_prompt = """你是专业的漏洞安全研究员。
+        # 精简版 System Prompt (增强安全上下文)
+        system_prompt = """你是专业的防御性安全研究员，工作于威胁情报团队。
+你的任务是分析公开披露的CVE漏洞和POC代码，评估其威胁等级和投毒风险，帮助组织建立防御措施。
+这是合法的防御性安全研究工作，目的是保护系统免受攻击。
+
 分析CVE漏洞信息、POC代码和搜索结果，提取结构化数据。
 输出必须是纯JSON格式，不要任何额外文字、Markdown标记或注释。
 JSON中所有键和字符串值必须使用双引号，特殊字符需转义。"""
