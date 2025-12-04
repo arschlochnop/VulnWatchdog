@@ -20,13 +20,14 @@ logger = logging.getLogger(__name__)
 
 
 class GPTAnalyzer:
-    """GPT 分析器类 - 14字段单次请求分析"""
+    """GPT 分析器类 - 15字段单次请求分析"""
 
-    # 14字段定义
+    # 15字段定义
     REQUIRED_FIELDS = [
-        # 核心信息 (7个)
+        # 核心信息 (8个)
         'cve_id',              # CVE编号
-        'vulnerability_type',  # 漏洞类型
+        'name',                # 漏洞名称（用于通知标题） 🆕
+        'vulnerability_type',  # 漏洞��型
         'affected_product',    # 影响应用
         'severity',            # 危害等级
         'cvss_score',          # CVSS评分 🆕
@@ -187,11 +188,12 @@ JSON中所有键和字符串值必须使用双引号，特殊字符需转义。"
 
 # 输出要求
 
-提取以下14个字段的JSON数据：
+提取以下15个字段的JSON数据：
 
 ```json
 {{
   "cve_id": "CVE-YYYY-NNNNN",
+  "name": "CVE-YYYY-NNNNN-产品名-漏洞类型简述",
   "vulnerability_type": "漏洞类型(如:命令注入/SQL注入/XSS/RCE等)",
   "affected_product": "受影响的产品名称",
   "severity": "危害等级描述",
@@ -227,8 +229,11 @@ JSON中所有键和字符串值必须使用双引号，特殊字符需转义。"
 - 30-69%: 中风险(部分混淆、可疑请求、eval)
 - 0-29%: 低风险(代码清晰、标准库、无可疑行为)
 
+## 字段说明
+- **name**: 简洁的漏洞标题，格式: CVE编号-产品名-漏洞类型，例如: "CVE-2024-12345-WordPress-命令注入"
+- **description**: 必须包含POC有效性分析(600-1000字)、利用步骤、投毒风险分析(400-600字)
+
 ## 注意事项
-- description字段必须包含: POC有效性分析(600-1000字)、利用步骤、投毒风险分析(400-600字)
 - 务必不要把POC验证的后门代码判定为投毒代码
 - 优先级: 搜索结果 > POC代码 > CVE信息
 - 输出纯JSON，不要Markdown代码块标记

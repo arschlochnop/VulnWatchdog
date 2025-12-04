@@ -169,6 +169,7 @@ def process_cve(cve_id: str, repo: Dict, engine) -> Dict:
                     f.write(analyzer_result['markdown'])
 
                 # 构建 gpt_results 用于向后兼容
+                data = analyzer_result['data']
                 gpt_results = {
                     'cve_id': cve_id,
                     'repo_name': repo_full_name,
@@ -176,8 +177,18 @@ def process_cve(cve_id: str, repo: Dict, engine) -> Dict:
                     'cve_url': f"https://nvd.nist.gov/vuln/detail/{cve_id}",
                     'action_log': '新增' if action_log == 'new' else '更新',
                     'git_url': f"{get_config('GIT_URL')}/blob/main/{filepath}" if get_config('GIT_URL') else '',
-                    # 添加14字段数据
-                    **analyzer_result['data']
+
+                    # 添加15字段原始数据
+                    **data,
+
+                    # 向后兼容映射（旧字段名 -> 新字段名）
+                    'type': data.get('vulnerability_type', ''),
+                    'app': data.get('affected_product', ''),
+                    'risk': data.get('severity', ''),
+                    'version': data.get('affected_versions', ''),
+                    'condition': data.get('exploit_conditions', ''),
+                    'poc_available': f"{data.get('poc_quality', 0)}/10",
+                    'poison': data.get('poisoning_risk', ''),
                 }
                 result['gpt'] = gpt_results
                 logger.info(f'生成分析报告: {filepath}')
