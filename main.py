@@ -6,6 +6,7 @@ import traceback
 from config import get_config
 from libs.utils import search_github, get_cve_info, ask_gpt, search_searxng, get_github_poc, write_to_markdown, get_latest_commit_sha
 from libs.webhook import send_webhook
+from libs.gpt_analyzer import GPTAnalyzer  # 新增: GPT分析器
 from models.models import get_db, CVE, Repository
 import logging
 import sys
@@ -30,127 +31,23 @@ enable_search = get_config('ENABLE_SEARCH')
 enable_extended = get_config('ENABLE_EXTENDED')
 enable_update_check = get_config('ENABLE_UPDATE_CHECK')
 
-def build_prompt(cve_info: Dict, search_results: List[Dict], poc_results_str: str) -> str:
-    """
-    构建发送给GPT的提示文本，智能控制总长度
-
-    Args:
-        cve_info: CVE漏洞信息字典
-        search_results: 搜索结果列表
-        poc_results_str: POC代码内容
-
-    Returns:
-        str: 格式化的提示文本
-    """
+# 初始化 GPT 分析器
+gpt_analyzer = None
+if enable_gpt:
     try:
-        # Token限制配置 (从配置文件读取)
-        MAX_CVE_INFO = get_config('MAX_CVE_INFO_CHARS')
-        MAX_SEARCH = get_config('MAX_SEARCH_CHARS')
-        MAX_POC_CODE = get_config('MAX_POC_CODE_CHARS')
-        MAX_PROMPT = get_config('MAX_PROMPT_CHARS')
+        gpt_analyzer = GPTAnalyzer(
+            api_key=get_config('GPT_API_KEY'),
+            api_url=get_config('GPT_SERVER_URL'),
+            model=get_config('GPT_MODEL'),
+            max_cve_info_chars=get_config('MAX_CVE_INFO_CHARS'),
+            max_search_chars=get_config('MAX_SEARCH_CHARS'),
+            max_poc_code_chars=get_config('MAX_POC_CODE_CHARS')
+        )
+        logger.info("✓ GPT分析器初始化成功")
+    except ValueError as e:
+        logger.error(f"✗ GPT分析器初始化失败: {e}")
+        enable_gpt = False
 
-        # 格式化搜索结果并限制长度
-        search_results_str = ""
-        for i, result in enumerate(search_results):
-            if len(search_results_str) >= MAX_SEARCH:
-                break
-            search_results_str += f"[webpage {i} begin] [title] {result.get('title', '')}\n [description] {result.get('content', '')}\n [link] {result.get('url', '')}\n [webpage {i} end]\n"
-
-        # 截断搜索结果
-        if len(search_results_str) > MAX_SEARCH:
-            search_results_str = search_results_str[:MAX_SEARCH] + "\n...(搜索结果已截断)"
-
-        if search_results_str:
-            search_results_str = f"""
-            ## 以下内容是基于此漏洞的搜索结果:
-                {search_results_str}
-            """
-
-        # 限制CVE信息长度
-        cve_info_str = json.dumps(cve_info)
-        if len(cve_info_str) > MAX_CVE_INFO:
-            # 保留关键字段
-            limited_cve = {
-                'id': cve_info.get('id', ''),
-                'summary': cve_info.get('summary', '')[:500] if cve_info.get('summary') else '',
-                'cvss': cve_info.get('cvss', ''),
-            }
-            cve_info_str = json.dumps(limited_cve)
-
-        # 限制POC代码长度
-        if len(poc_results_str) > MAX_POC_CODE:
-            poc_results_str = poc_results_str[:MAX_POC_CODE] + "\n...(POC代码已截断，仅显示前3000字符)"
-        
-        # 记录各部分长度
-        logger.info(f"Token控制 - CVE信息: {len(cve_info_str)} 字符")
-        logger.info(f"Token控制 - 搜索结果: {len(search_results_str)} 字符")
-        logger.info(f"Token控制 - POC代码: {len(poc_results_str)} 字符")
-
-        # 构建完整提示文本
-        prompt = f"""
-      请根据以下漏洞信息、搜索结果和漏洞利用代码，评估漏洞利用的有效性、是否存在投毒风险，并分析漏洞利用方式。请注意以下几点：
-
-    **信息来源：**
-
-    *   **漏洞库信息：**
-        ```
-        {cve_info_str}
-        ```
-    *   **搜索引擎结果：**
-        ```
-        {search_results_str}
-        ```
-    *   **漏洞利用代码：**
-        ```
-        {poc_results_str}
-        ```
-
-    **你的角色：** 你是一名搜索助理和网络漏洞研究员。
-
-    **任务：**
-
-    1.  **有效性：**  判断提供的POC代码是否有效。
-    2.  **投毒风险：**  分析POC代码内容,判断此仓库中是否存在作者隐藏的投毒代码,分析结果使用百分比。务必不要把POC验证的后门代码判定为投毒代码。
-    3.  **利用方式：**  分析并总结漏洞的利用方式。
-    4.  **排序优先级:** 搜索引擎结果 >  漏洞利用代码 > 漏洞库信息
-    5.  **输出内容:** 务必使用中文
-    6.  **markdown内容:** 务必使用markdown格式对提供的内容,围绕本次任务要求进行详细描述.
-    **输出格式：**  你**必须**严格按照以下 **JSON** 格式输出，**不要包含任何额外的文字、说明或前缀/后缀**。JSON中的**所有键和字符串类型的值必须使用双引号**。请务必对特殊字符进行转义。
-
-    **示例JSON:**```json
-    {{
-        "name": "CVE-2023-12345-ExampleApp-SQL注入",
-        "type": "SQL注入",
-        "app": "ExampleApp", 
-        "risk": "高危，可能导致数据泄露和远程代码执行",
-        "version": "<= 1.0",
-        "condition": "需要网络访问和数据库端口开放",
-        "poc_available": "是",
-        "poison": "90%",
-        "markdown": "该漏洞存在于ExampleApp的登录模块,攻击者可以通过构造恶意的SQL语句绕过身份验证..."
-    }}
-        """
-        
-        # 记录最终长度
-        prompt_length = len(prompt)
-        logger.info(f"最终提示文本长度: {prompt_length} 字符 (约 {prompt_length//4} tokens)")
-
-        # Token警告
-        if prompt_length > MAX_PROMPT:
-            logger.warning(f"提示文本超出配置限制: {prompt_length}/{MAX_PROMPT} 字符 (约 {prompt_length//4} tokens)")
-
-        # 调试日志
-        logger.debug("提示文本构建完成")
-        logger.debug(f"漏洞信息: {cve_info_str[:200]}...")
-        logger.debug(f"搜索结果: {search_results_str[:200]}...")
-        logger.debug(f"POC代码: {poc_results_str[:200]}...")
-        
-        return prompt
-        
-    except Exception as e:
-        logger.error(f"构建提示文本失败: {str(e)}")
-        logger.debug(traceback.format_exc())
-        return None
 
 def process_cve(cve_id: str, repo: Dict, engine) -> Dict:
     """
@@ -237,24 +134,21 @@ def process_cve(cve_id: str, repo: Dict, engine) -> Dict:
         result['cve'] = cve_info
         result['repo'] = repo
 
-        # GPT分析
+        # GPT分析 (使用新的 GPTAnalyzer)
         gpt_results = None
-        if enable_gpt:
+        if enable_gpt and gpt_analyzer:
             search_result = []
             if enable_search:
                 search_result = search_searxng(f"{cve_id}")
 
-            logger.info("构建GPT提示文本")
-            # build_prompt内部会进行智能截断，不需要在这里预先截断
-            prompt = build_prompt(cve_info, search_result, code_prompt)
-            if not prompt:
-                logger.error("构建提示文本失败")
-                return result
-                
-            logger.info("请求GPT分析")
-            gpt_results = ask_gpt(prompt)
+            logger.info("开始GPT分析 (GPTAnalyzer)")
+            # 使用新的 GPTAnalyzer 进行分析
+            analyzer_result = gpt_analyzer.analyze(cve_info, search_result, code_prompt)
 
-            if gpt_results:                # 使用CVE年份作为目录结构 (YYYY/)
+            if analyzer_result['success'] and analyzer_result['pass_quality_check']:
+                logger.info("✓ GPT分析成功且通过质量检查")
+
+                # 使用CVE年份作为目录结构 (YYYY/)
                 import re
                 match = re.match(r'CVE-(\d{4})-\d+', cve_id)
                 if match:
@@ -270,19 +164,27 @@ def process_cve(cve_id: str, repo: Dict, engine) -> Dict:
                 # 新的文件路径
                 filepath = f"data/{cve_year}/{cve_id}-{repo_full_name.replace('/', '_')}.md"
 
-                gpt_results.update({
+                # 直接写入 Markdown (GPTAnalyzer 已经生成好了)
+                with open(filepath, 'w', encoding='utf-8') as f:
+                    f.write(analyzer_result['markdown'])
+
+                # 构建 gpt_results 用于向后兼容
+                gpt_results = {
                     'cve_id': cve_id,
                     'repo_name': repo_full_name,
                     'repo_url': repo_link,
                     'cve_url': f"https://nvd.nist.gov/vuln/detail/{cve_id}",
                     'action_log': '新增' if action_log == 'new' else '更新',
-                    'git_url': f"{get_config('GIT_URL')}/blob/main/{filepath}" if get_config('GIT_URL') else ''
-                })
+                    'git_url': f"{get_config('GIT_URL')}/blob/main/{filepath}" if get_config('GIT_URL') else '',
+                    # 添加14字段数据
+                    **analyzer_result['data']
+                }
                 result['gpt'] = gpt_results
-                write_to_markdown(gpt_results, filepath)
                 logger.info(f'生成分析报告: {filepath}')
+            elif analyzer_result['success'] and not analyzer_result['pass_quality_check']:
+                logger.warning(f"✗ GPT分析完成但未通过质量检查: {'; '.join(analyzer_result['fail_reasons'])}")
             else:
-                logger.error(f"GPT分析失败,返回结果: {gpt_results}")
+                logger.error(f"✗ GPT分析失败: {analyzer_result.get('error', '未知错误')}")
                 
 
         # 获取最新commit SHA (如果还没有)
