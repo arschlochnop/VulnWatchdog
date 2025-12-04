@@ -1,6 +1,6 @@
 # 2024年 CVE漏洞列表
 
-> 📊 共收录 **1207** 个CVE漏洞
+> 📊 共收录 **1209** 个CVE漏洞
 
 ---
 
@@ -438,6 +438,8 @@
 | [CVE-2024-28995](CVE-2024-28995-ibrahimsql_CVE-2024-28995.md) | CVE-2024-28995 - SolarWinds Serv-U 目录遍历 | ⚪ 高危 | 11 |
 | [CVE-2024-28995](CVE-2024-28995-ibrahmsql_CVE-2024-28995.md) | CVE-2024-28995-SolarWinds Serv-U-目录遍历 | ⚪ 高危 | 11 |
 | [CVE-2024-28995](CVE-2024-28995-muhammetali20_CVE-2024-28995.md) | CVE-2024-28995 SolarWinds Serv-U 目录遍历漏洞 | ⚪ 高危 | 11 |
+| [CVE-2024-2928](CVE-2024-2928-nuridincersaygili_CVE-2024-2928.md) | CVE-2024-2928 - MLflow Local File Inclusion | 🟠 High | 2 |
+| [CVE-2024-2928](CVE-2024-2928-rain321654_sjtu_CVE-2024-2928.md) | CVE-2024-2928 - mlflow LFI | ⚪ 高 | 2 |
 | [CVE-2024-2961](CVE-2024-2961-4wayhandshake_CVE-2024-2961.md) | CVE-2024-2961-glibc-iconv缓冲区溢出 | ⚪ 高危 | 11 |
 | [CVE-2024-2961](CVE-2024-2961-absolutedesignltd_iconvfix.md) | CVE-2024-2961-glibc-iconv缓冲区溢出 | ⚪ 高危 | 11 |
 | [CVE-2024-2961](CVE-2024-2961-ambionics_cnext-exploits.md) | CVE-2024-2961-glibc-iconv缓冲区溢出 | ⚪ 高危 | 11 |

@@ -38,7 +38,7 @@
 | [CVE-2016-10924](CVE-2016-10924-808ale_cve-2016-10924-POC.md) | CVE-2016-10924 - WordPress ebook-download插件目录遍历 | ⚪ 中危 | 3 |
 | [CVE-2016-10924](CVE-2016-10924-LGenAgul_Wordpress-ebook-CVE-2016-10924.md) | CVE-2016-10924 | ⚪ 高危 | 3 |
 | [CVE-2016-10924](CVE-2016-10924-rvizx_CVE-2016-10924.md) | CVE-2016-10924-ebook-download-Directory Traversal | ⚪ 高危 | 3 |
-| [CVE-2016-15042](CVE-2016-15042-Aditya43621_lab-cve-2016-15042.md) | CVE-2016-15042 Node.js Remote Code Execution | ⚪ 高危 | 2 |
+| [CVE-2016-15042](CVE-2016-15042-Aditya43621_lab-cve-2016-15042.md) | CVE-2016-15042 - Node.js 命令注入 | ⚪ 高危 | 2 |
 | [CVE-2016-15042](CVE-2016-15042-ImBIOS_lab-cve-2016-15042.md) | CVE-2016-15042 | ⚪ 高危 | 2 |
 | [CVE-2016-20012](CVE-2016-20012-aztec-eagle_cve-2016-20012.md) | CVE-2016-20012-OpenSSH-用户名枚举 | ⚪ 低危 | 1 |
 | [CVE-2016-2098](CVE-2016-2098-0x00-0x00_CVE-2016-2098.md) | CVE-2016-2098 | ⚪ 高危 | 12 |
