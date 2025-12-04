@@ -1,6 +1,6 @@
 # 2009年 CVE漏洞列表
 
-> 📊 共收录 **4** 个CVE漏洞
+> 📊 共收录 **5** 个CVE漏洞
 
 ---
 
@@ -8,10 +8,11 @@
 
 | CVE编号 | 标题 | 严重程度 | POC仓库数 |
 |---------|------|----------|-----------|
-| [CVE-2009-2265](CVE-2009-2265-0xDTC_Adobe-ColdFusion-8-RCE-CVE-2009-2265.md) | CVE-2009-2265-FCKeditor-目录遍历 | ⚪ 高危 | 4 |
-| [CVE-2009-2265](CVE-2009-2265-h3x0v3rl0rd_CVE-2009-2265.md) | CVE-2009-2265-FCKeditor-目录遍历文件上传 | ⚪ 高危 | 4 |
-| [CVE-2009-2265](CVE-2009-2265-p1ckzi_CVE-2009-2265.md) | CVE-2009-2265-FCKeditor目录遍历 | ⚪ 高危 | 4 |
-| [CVE-2009-2265](CVE-2009-2265-zaphoxx_zaphoxx-coldfusion.md) | CVE-2009-2265-FCKeditor文件上传/目录遍历 | ⚪ 高危 | 4 |
+| [CVE-2009-2265](CVE-2009-2265-0xDTC_Adobe-ColdFusion-8-RCE-CVE-2009-2265.md) | CVE-2009-2265-FCKeditor-目录遍历 | ⚪ 高危 | 5 |
+| [CVE-2009-2265](CVE-2009-2265-h3x0v3rl0rd_CVE-2009-2265.md) | CVE-2009-2265-FCKeditor-目录遍历文件上传 | ⚪ 高危 | 5 |
+| [CVE-2009-2265](CVE-2009-2265-nika0x38_CVE-2009-2265.md) | CVE-2009-2265 | ⚪ 高危 | 5 |
+| [CVE-2009-2265](CVE-2009-2265-p1ckzi_CVE-2009-2265.md) | CVE-2009-2265-FCKeditor目录遍历 | ⚪ 高危 | 5 |
+| [CVE-2009-2265](CVE-2009-2265-zaphoxx_zaphoxx-coldfusion.md) | CVE-2009-2265-FCKeditor文件上传/目录遍历 | ⚪ 高危 | 5 |
 
 ---
 
