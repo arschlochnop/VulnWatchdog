@@ -1864,7 +1864,7 @@
 | [CVE-2025-54962](CVE-2025-54962-Eyodav_CVE-2025-54962.md) | CVE-2025-54962 - OpenPLC Runtime Webserver Insecure File Upl... | ⚪ 中危 | 1 |
 | [CVE-2025-54988](CVE-2025-54988-mgthuramoemyint_POC-CVE-2025-54988.md) | CVE-2025-54988 - Apache Tika PDF parser module XXE | ⚪ 高危 | 1 |
 | [CVE-2025-55182](CVE-2025-55182-BankkRoll_Quickcheck-CVE-2025-55182-React-and-CVE-2025-66478-Next.js.md) | CVE-2025-55182 (React RSC) & CVE-2025-66478 (Next.js RSC) | ⚪ 高危 | 15 |
-| [CVE-2025-55182](CVE-2025-55182-Chelsea486MHz_CVE-2025-55182-test.md) | CVE-2025-55182 React Server Components 不安全反序列化 RCE | ⚪ 高危 | 15 |
+| [CVE-2025-55182](CVE-2025-55182-Chelsea486MHz_CVE-2025-55182-test.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 15 |
 | [CVE-2025-55182](CVE-2025-55182-Rsatan_CVE-2025-55182-Tools.md) | CVE-2025-55182-React/Next.js-RCE | ⚪ 高危 | 15 |
 | [CVE-2025-55182](CVE-2025-55182-aspen-labs_CVE-2025-55182-checker.md) | CVE-2025-55182 - React/Next.js Server Functions Deserializat... | ⚪ 高危 | 15 |
 | [CVE-2025-55182](CVE-2025-55182-assetnote_react2shell-scanner.md) | CVE-2025-55182 & CVE-2025-66478 - React/Next.js Server Compo... | ⚪ 高危 | 15 |
@@ -1872,7 +1872,7 @@
 | [CVE-2025-55182](CVE-2025-55182-dissy123_cve-2025-55182.md) | CVE-2025-55182 React Server Components 不安全反序列化漏洞 | ⚪ 高危 | 15 |
 | [CVE-2025-55182](CVE-2025-55182-dwisiswant0_CVE-2025-55182.md) | CVE-2025-55182-ReactServerComponents不安全反序列化RCE | ⚪ 严重 | 15 |
 | [CVE-2025-55182](CVE-2025-55182-fatguru_CVE-2025-55182-scanner.md) | CVE-2025-55182 React Server Components (RSC) 基础设施暴露 | ⚪ 高危 | 15 |
-| [CVE-2025-55182](CVE-2025-55182-gensecaihq_react2shell-scanner.md) | CVE-2025-55182-ReactServerComponents-RCE | ⚪ 高危 | 15 |
+| [CVE-2025-55182](CVE-2025-55182-gensecaihq_react2shell-scanner.md) | CVE-2025-55182 - React Server Components, Next.js RCE | 🔴 Critical | 15 |
 | [CVE-2025-55182](CVE-2025-55182-jf0x3a_CVE-2025-55182-exploit.md) | CVE-2025-55182 React/Next.js Server Functions Deserializatio... | ⚪ 高危 | 15 |
 | [CVE-2025-55182](CVE-2025-55182-joaonevess_rust-flight.md) | CVE-2025-55182 - React/Next.js Server Components Deserializa... | ⚪ 高危 | 15 |
 | [CVE-2025-55182](CVE-2025-55182-pyroxenites_CVE-2025-55182.md) | CVE-2025-55182 ReactServerComponents 不安全反序列化 RCE | 🔴 Critical (CVSSv3.1 评分 10.0) | 15 |
