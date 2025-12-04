@@ -342,13 +342,25 @@ JSON中所有键和字符串值必须使用双引号，特殊字符需转义。"
 
         # 解析JSON
         try:
-            data = json.loads(json_str)
+            # 尝试使用strict=False来容忍控制字符
+            data = json.loads(json_str, strict=False)
             logger.info(f"JSON解析成功 - 字段数: {len(data)}")
             return data
         except json.JSONDecodeError as e:
-            logger.error(f"JSON解析失败: {e}")
-            logger.debug(f"尝试解析的内容: {json_str[:500]}...")
-            return None
+            logger.warning(f"JSON解析失败(strict=False): {e}")
+
+            # 尝试清理JSON字符串中的控制字符
+            try:
+                # 替换非法的控制字符
+                cleaned_json = json_str.replace('\n', '\\n').replace('\r', '\\r').replace('\t', '\\t')
+                data = json.loads(cleaned_json)
+                logger.info(f"JSON解析成功(清理后) - 字段数: {len(data)}")
+                return data
+            except json.JSONDecodeError as e2:
+                logger.error(f"JSON解析失败(清理后): {e2}")
+                logger.error(f"尝试解析的内容前500字符: {json_str[:500]}")
+                logger.error(f"原始响应前500字符: {content[:500]}")
+                return None
 
     def _quality_check(self, data: Dict) -> Tuple[bool, List[str]]:
         """
