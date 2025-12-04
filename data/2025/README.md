@@ -905,7 +905,7 @@
 | [CVE-2025-31200](CVE-2025-31200-serundengsapi_CVE-2025-31200-iOS-AudioConverter-RCE.md) | CVE-2025-31200 – iOS AudioConverterService Zero-Click RCE | ⚪ 高危 | 4 |
 | [CVE-2025-31200](CVE-2025-31200-zhuowei_apple-positional-audio-codec-invalid-header.md) | CVE-2025-31200-CoreAudio-内存损坏 | ⚪ 高危 | 4 |
 | [CVE-2025-31258](CVE-2025-31258-BODE987_CVE-2025-31258-PoC.md) | CVE-2025-31258-macOS-沙箱逃逸 | ⚪ 高危 | 3 |
-| [CVE-2025-31258](CVE-2025-31258-sureshkumarsat_CVE-2025-31258-PoC.md) | CVE-2025-31258 - macOS 沙箱逃逸 | ⚪ 高危 | 3 |
+| [CVE-2025-31258](CVE-2025-31258-sureshkumarsat_CVE-2025-31258-PoC.md) | CVE-2025-31258 | ⚪ 高危 | 3 |
 | [CVE-2025-31258](CVE-2025-31258-wh1te4ever_CVE-2025-31258-PoC.md) | CVE-2025-31258-macOS-SandboxEscape | ⚪ 高危 | 3 |
 | [CVE-2025-31324](CVE-2025-31324-Alizngnc_SAP-CVE-2025-31324.md) | CVE-2025-31324 - SAP NetWeaver Visual Composer Unauthenticat... | ⚪ 高危 | 22 |
 | [CVE-2025-31324](CVE-2025-31324-BlueOWL-overlord_Burp_CVE-2025-31324.md) | CVE-2025-31324-SAP NetWeaver Visual Composer-未授权文件上传 | ⚪ 高危 | 22 |
@@ -1163,7 +1163,7 @@
 | [CVE-2025-33073](CVE-2025-33073-matejsmycka_CVE-2025-33073-checker.md) | CVE-2025-33073 Windows SMB Client Elevation of Privilege Vul... | ⚪ 高危 | 12 |
 | [CVE-2025-33073](CVE-2025-33073-mverschu_CVE-2025-33073.md) | CVE-2025-33073-Windows SMB Client权限提升漏洞 | ⚪ 高危 | 12 |
 | [CVE-2025-33073](CVE-2025-33073-obscura-cert_CVE-2025-33073.md) | CVE-2025-33073 Windows SMB Client Elevation of Privilege Vul... | ⚪ 高危 | 12 |
-| [CVE-2025-33073](CVE-2025-33073-sleepasleepzzz_CVE-2025-33073.md) | CVE-2025-33073 | ⚪ 高危 | 12 |
+| [CVE-2025-33073](CVE-2025-33073-sleepasleepzzz_CVE-2025-33073.md) | CVE-2025-33073 - Windows SMB 权限提升 | ⚪ 高危 | 12 |
 | [CVE-2025-33073](CVE-2025-33073-uziii2208_CVE-2025-33073.md) | CVE-2025-33073 Windows SMB Client 权限提升漏洞 | ⚪ 高危 | 12 |
 | [CVE-2025-33073](CVE-2025-33073-yigitsql_CVE-2025-33073.md) | CVE-2025-33073-Windows SMB Client Elevation of Privilege | ⚪ 高危 | 12 |
 | [CVE-2025-34028](CVE-2025-34028-Mattb709_CVE-2025-34028-PoC-Commvault-RCE.md) | CVE-2025-34028 - Commvault Command Center Remote Code Execut... | ⚪ 严重 | 4 |
@@ -1565,7 +1565,7 @@
 | [CVE-2025-49144](CVE-2025-49144-65-75-65-83-72_CVE-2025-49144_PoC.md) | CVE-2025-49144-Notepad++-权限提升 | ⚪ 高危 | 12 |
 | [CVE-2025-49144](CVE-2025-49144-TheTorjanCaptain_CVE-2025-49144_PoC.md) | CVE-2025-49144 | ⚪ 高危 | 12 |
 | [CVE-2025-49144](CVE-2025-49144-Vr00mm_CVE-2025-49144.md) | CVE-2025-49144 - Notepad++ Installer Privilege Escalation | ⚪ 高危 | 12 |
-| [CVE-2025-49144](CVE-2025-49144-ammarm0010_CVE-2025-49144_PoC.md) | CVE-2025-49144 - Notepad++ 本地提权 | ⚪ 高危 | 12 |
+| [CVE-2025-49144](CVE-2025-49144-ammarm0010_CVE-2025-49144_PoC.md) | CVE-2025-49144 - Notepad++ 权限提升 | ⚪ 高危 | 12 |
 | [CVE-2025-49144](CVE-2025-49144-assad12341_notepad-v8.8.1-LPE-CVE-.md) | CVE-2025-49144-Notepad++-特权提升 | ⚪ 高危 | 12 |
 | [CVE-2025-49144](CVE-2025-49144-b0ySie7e_Notepad-8.8.1_CVE-2025-49144.md) | CVE-2025-49144-Notepad++-权限提升 | ⚪ 高危 | 12 |
 | [CVE-2025-49144](CVE-2025-49144-havertz2110_CVE-2025-49144.md) | CVE-2025-49144 - Notepad++ Installer Privilege Escalation | ⚪ 高危 | 12 |
@@ -1822,7 +1822,7 @@
 | [CVE-2025-54253](CVE-2025-54253-Shivshantp_CVE-2025-54253-Exploit-Demo.md) | CVE-2025-54253 - Adobe AEM Forms on JEE OGNL注入RCE | ⚪ 高危 | 7 |
 | [CVE-2025-54253](CVE-2025-54253-akujedanjedon_CVE-2025-54253-Exploit-Demo.md) | CVE-2025-54253 Adobe Experience Manager Misconfiguration | ⚪ 高危 | 7 |
 | [CVE-2025-54253](CVE-2025-54253-barbaraeivyu_CVE-2025-54253-e.md) | CVE-2025-54253 - Adobe Experience Manager 远程代码执行 | ⚪ 高危 | 7 |
-| [CVE-2025-54253](CVE-2025-54253-jm7knz_CVE-2025-54253-Exploit-Demo.md) | CVE-2025-54253 - Adobe Experience Manager (AEM) Forms on JEE... | ⚪ 严重/Critical | 7 |
+| [CVE-2025-54253](CVE-2025-54253-jm7knz_CVE-2025-54253-Exploit-Demo.md) | CVE-2025-54253 | ⚪ 高危 | 7 |
 | [CVE-2025-54253](CVE-2025-54253-netmatthew3771_CVE-2025-54253.md) | CVE-2025-54253-Adobe Experience Manager-Misconfiguration | ⚪ 高危 | 7 |
 | [CVE-2025-54309](CVE-2025-54309-blueisbeautiful_CVE-2025-54309.md) | CVE-2025-54309-CrushFTP-AS2认证绕过 | ⚪ 高危 | 5 |
 | [CVE-2025-54309](CVE-2025-54309-chin-tech_CrushFTP_CVE-2025-54309.md) | CVE-2025-54309 | ⚪ 高危 | 5 |
@@ -1840,7 +1840,7 @@
 | [CVE-2025-54381](CVE-2025-54381-rockmelodies_bentoml_CVE-2025-54381.md) | CVE-2025-54381 | ⚪ 高危 | 2 |
 | [CVE-2025-54424](CVE-2025-54424-Mr-xn_CVE-2025-54424.md) | CVE-2025-54424 - 1Panel Agent 证书验证绕过导致任意命令执行 | ⚪ 高危 | 3 |
 | [CVE-2025-54424](CVE-2025-54424-bejbitoilet5125521_CVE-2025-54424.md) | CVE-2025-54424-1Panel-RCE | ⚪ 高危 | 3 |
-| [CVE-2025-54424](CVE-2025-54424-hophtien_CVE-2025-54424.md) | CVE-2025-54424 - 1Panel 命令注入 | ⚪ 高 | 3 |
+| [CVE-2025-54424](CVE-2025-54424-hophtien_CVE-2025-54424.md) | CVE-2025-54424 | ⚪ 高 | 3 |
 | [CVE-2025-54554](CVE-2025-54554-Aman-Parmar_CVE-2025-54554.md) | CVE-2025-54554 - ticrypt tiaudit 未授权访问导致敏感信息泄露 | ⚪ 中危 | 1 |
 | [CVE-2025-54574](CVE-2025-54574-B1ack4sh_Blackash-CVE-2025-54574.md) | CVE-2025-54574 | ⚪ 高危 | 2 |
 | [CVE-2025-54574](CVE-2025-54574-starrynightsecurity_CVE-2025-54574-Squid-Heap-Buffer-Overflow.md) | CVE-2025-54574-Squid-Heap-Buffer-Overflow | ⚪ 高危 | 2 |
@@ -1885,7 +1885,7 @@
 | [CVE-2025-55182](CVE-2025-55182-ejpir_CVE-2025-55182-poc.md) | CVE-2025-55182 - React, Next.js 反序列化RCE | ⚪ 严重 | 35 |
 | [CVE-2025-55182](CVE-2025-55182-ejpir_CVE-2025-55182-research.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 35 |
 | [CVE-2025-55182](CVE-2025-55182-fatguru_CVE-2025-55182-scanner.md) | CVE-2025-55182 - React Server Components, Next.js RCE | 🔴 Critical | 35 |
-| [CVE-2025-55182](CVE-2025-55182-gensecaihq_react2shell-scanner.md) | CVE-2025-55182 - React Server Components, Next.js 反序列化RCE | 🔴 Critical | 35 |
+| [CVE-2025-55182](CVE-2025-55182-gensecaihq_react2shell-scanner.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 35 |
 | [CVE-2025-55182](CVE-2025-55182-ivaavimusic_React19-fix-vibecoders.md) | CVE-2025-55182 - React RCE | 🔴 Critical | 35 |
 | [CVE-2025-55182](CVE-2025-55182-jctommasi_react2shellVulnApp.md) | CVE-2025-55182 - React 不安全反序列化导致RCE | 🔴 Critical | 35 |
 | [CVE-2025-55182](CVE-2025-55182-jf0x3a_CVE-2025-55182-exploit.md) | CVE-2025-55182 React/Next.js Server Functions Deserializatio... | ⚪ 高危 | 35 |
