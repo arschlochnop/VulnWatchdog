@@ -1,6 +1,6 @@
 # 2025年 CVE漏洞列表
 
-> 📊 共收录 **2463** 个CVE漏洞
+> 📊 共收录 **2464** 个CVE漏洞
 
 ---
 
@@ -46,7 +46,7 @@
 | [CVE-2025-0411](CVE-2025-0411-betulssahin_CVE-2025-0411-7-Zip-Mark-of-the-Web-Bypass.md) | CVE-2025-0411-7-Zip Mark-of-the-Web Bypass | ⚪ 高危 | 10 |
 | [CVE-2025-0411](CVE-2025-0411-cesarbtakeda_7-Zip-CVE-2025-0411-POC.md) | CVE-2025-0411-7-Zip-Mark-of-the-Web Bypass | ⚪ 中危 | 10 |
 | [CVE-2025-0411](CVE-2025-0411-dhmosfunk_7-Zip-CVE-2025-0411-POC.md) | CVE-2025-0411-7-Zip Mark-of-the-Web Bypass | ⚪ 高危 | 10 |
-| [CVE-2025-0411](CVE-2025-0411-dpextreme_7-Zip-CVE-2025-0411-POC.md) | CVE-2025-0411 - 7-Zip MOTW绕过 | ⚪ 高危 | 10 |
+| [CVE-2025-0411](CVE-2025-0411-dpextreme_7-Zip-CVE-2025-0411-POC.md) | CVE-2025-0411 - 7-Zip MOTW Bypass | 🟠 High | 10 |
 | [CVE-2025-0411](CVE-2025-0411-iSee857_CVE-2025-0411-PoC.md) | CVE-2025-0411 | ⚪ 高危 | 10 |
 | [CVE-2025-0411](CVE-2025-0411-ishwardeepp_CVE-2025-0411-MoTW-PoC.md) | CVE-2025-0411 7-Zip Mark-of-the-Web Bypass Vulnerability | ⚪ 高危 | 10 |
 | [CVE-2025-0868](CVE-2025-0868-aidana-gift_CVE-2025-0868.md) | CVE-2025-0868-DocsGPT-远程代码执行 | ⚪ 高危 | 2 |
@@ -1822,7 +1822,7 @@
 | [CVE-2025-54253](CVE-2025-54253-Shivshantp_CVE-2025-54253-Exploit-Demo.md) | CVE-2025-54253 - Adobe AEM Forms on JEE OGNL注入RCE | ⚪ 高危 | 7 |
 | [CVE-2025-54253](CVE-2025-54253-akujedanjedon_CVE-2025-54253-Exploit-Demo.md) | CVE-2025-54253 Adobe Experience Manager Misconfiguration | ⚪ 高危 | 7 |
 | [CVE-2025-54253](CVE-2025-54253-barbaraeivyu_CVE-2025-54253-e.md) | CVE-2025-54253 - Adobe Experience Manager 远程代码执行 | ⚪ 高危 | 7 |
-| [CVE-2025-54253](CVE-2025-54253-jm7knz_CVE-2025-54253-Exploit-Demo.md) | CVE-2025-54253 | ⚪ 高危 | 7 |
+| [CVE-2025-54253](CVE-2025-54253-jm7knz_CVE-2025-54253-Exploit-Demo.md) | CVE-2025-54253 - Adobe Experience Manager (AEM) Forms on JEE... | 🔴 Critical | 7 |
 | [CVE-2025-54253](CVE-2025-54253-netmatthew3771_CVE-2025-54253.md) | CVE-2025-54253-Adobe Experience Manager-Misconfiguration | ⚪ 高危 | 7 |
 | [CVE-2025-54309](CVE-2025-54309-blueisbeautiful_CVE-2025-54309.md) | CVE-2025-54309-CrushFTP-AS2认证绕过 | ⚪ 高危 | 5 |
 | [CVE-2025-54309](CVE-2025-54309-chin-tech_CrushFTP_CVE-2025-54309.md) | CVE-2025-54309 | ⚪ 高危 | 5 |
@@ -1863,48 +1863,49 @@
 | [CVE-2025-54957](CVE-2025-54957-AlphabugX_CVE-2025-54957.md) | CVE-2025-54957-Dolby UDC-越界写 | ⚪ 中危 | 1 |
 | [CVE-2025-54962](CVE-2025-54962-Eyodav_CVE-2025-54962.md) | CVE-2025-54962 - OpenPLC Runtime Webserver Insecure File Upl... | ⚪ 中危 | 1 |
 | [CVE-2025-54988](CVE-2025-54988-mgthuramoemyint_POC-CVE-2025-54988.md) | CVE-2025-54988 - Apache Tika PDF parser module XXE | ⚪ 高危 | 1 |
-| [CVE-2025-55182](CVE-2025-55182-0xPThree_cve-2025-55182.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-Ashwesker_Blackash-CVE-2025-55182.md) | CVE-2025-55182 - React Server Components / Next.js Unauthent... | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-BankkRoll_Quickcheck-CVE-2025-55182-React-and-CVE-2025-66478-Next.js.md) | CVE-2025-55182 (React RSC) & CVE-2025-66478 (Next.js RSC) | ⚪ 高危 | 42 |
-| [CVE-2025-55182](CVE-2025-55182-Chelsea486MHz_CVE-2025-55182-test.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-CymulateResearch_React2Shell-Scanner.md) | CVE-2025-55182 - React RCE | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-Emiyelbarto_CVE-2025-55182-PoC.md) | CVE-2025-55182 - React RCE | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-EynaExp_CVE-2025-55182-POC.md) | CVE-2025-55182 - React Server Components 不安全反序列化导致的未认证远程代码执行... | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-MedusaSH_POC-CVE-2025-55182.md) | CVE-2025-55182 - React and Next.js RCE | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-MrR0b0t19_CVE-2025-55182-shellinteractive.md) | CVE-2025-55182 - React Server Components / Next.js RCE | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-Rsatan_CVE-2025-55182-Tools.md) | CVE-2025-55182-React/Next.js-RCE | ⚪ 高危 | 42 |
-| [CVE-2025-55182](CVE-2025-55182-Security-Phoenix-demo_freight-night-rce-react-next-CVE-2025-55182-CVE-2025-66478.md) | CVE-2025-55182 - React, Next.js, react-dom, react-server-dom... | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-acheong08_CVE-2025-55182-detection.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-acheong08_CVE-2025-55182-vite-rsc.md) | CVE-2025-55182 - React Server Components (RSC), Next.js (关联C... | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-aquinn-r7_CVE-2025-55182-VulnCheckPOC.md) | CVE-2025-55182 - Next.js (React Server Components) 不安全反序列化导致... | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-aspen-labs_CVE-2025-55182-checker.md) | CVE-2025-55182 - React/Next.js Server Functions Deserializat... | ⚪ 高危 | 42 |
-| [CVE-2025-55182](CVE-2025-55182-assetnote_react2shell-scanner.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-c0rydoras_CVE-2025-55182.md) | CVE-2025-55182 - React和Next.js 反序列化RCE | ⚪ 高危 | 42 |
-| [CVE-2025-55182](CVE-2025-55182-callinston_CVE-2025-55182.md) | CVE-2025-55182-React Server Components远程代码执行 | ⚪ 高危 | 42 |
-| [CVE-2025-55182](CVE-2025-55182-carlosaruy_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-cropnet_CVE-2025-55182-POC-SCANNER.md) | CVE-2025-55182 - React Server Components, Next.js 反序列化RCE | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-dissy123_cve-2025-55182.md) | CVE-2025-55182 React Server Components 不安全反序列化漏洞 | ⚪ 高危 | 42 |
-| [CVE-2025-55182](CVE-2025-55182-dwisiswant0_CVE-2025-55182.md) | CVE-2025-55182-ReactServerComponents不安全反序列化RCE | ⚪ 严重 | 42 |
-| [CVE-2025-55182](CVE-2025-55182-ejpir_CVE-2025-55182-poc.md) | CVE-2025-55182 - React, Next.js 反序列化RCE | ⚪ 严重 | 42 |
-| [CVE-2025-55182](CVE-2025-55182-ejpir_CVE-2025-55182-research.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-fatguru_CVE-2025-55182-scanner.md) | CVE-2025-55182 - React Server Components (RSC), Next.js 不安全反... | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-gensecaihq_react2shell-scanner.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-ivaavimusic_React19-fix-vibecoders.md) | CVE-2025-55182 - React RCE | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-jctommasi_react2shellVulnApp.md) | CVE-2025-55182 - React 不安全反序列化导致RCE | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-jf0x3a_CVE-2025-55182-exploit.md) | CVE-2025-55182 React/Next.js Server Functions Deserializatio... | ⚪ 高危 | 42 |
-| [CVE-2025-55182](CVE-2025-55182-joaonevess_rust-flight.md) | CVE-2025-55182 - React/Next.js Server Components Deserializa... | ⚪ 高危 | 42 |
-| [CVE-2025-55182](CVE-2025-55182-luskafaria_cve-2025-55182.md) | CVE-2025-55182 - React Server Components (react-server-dom-w... | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-marginaldeer_CVE-2025-55182_scanner.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-msanft_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components, Next.js 不安全反序列化导致的... | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-nxgn-kd01_cve-2025-55182-scanner.md) | CVE-2025-55182 - React, React Server Components, Next.js RCE... | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-oways_React2shell-CVE-2025-55182-checker.md) | CVE-2025-55182 - React, Next.js RCE (Remote Code Execution) | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-ps-interactive_cve-2025-55182.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-pyroxenites_CVE-2025-55182.md) | CVE-2025-55182 ReactServerComponents 不安全反序列化 RCE | 🔴 Critical (CVSSv3.1 评分 10.0) | 42 |
-| [CVE-2025-55182](CVE-2025-55182-santihabib_CVE-2025-55182-analysis.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-shamo0_react2shell-PoC.md) | CVE-2025-55182 - React Server Components, Next.js RCE | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-sickwell_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components, Next.js RCE | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-sudo-Yangziran_CVE-2025-55182POC.md) | CVE-2025-55182 React Server Components RCE | ⚪ 高危 | 42 |
-| [CVE-2025-55182](CVE-2025-55182-tobiasGuta_Next.js-RSC-RCE-Scanner-Burp-Suite-Extension.md) | CVE-2025-55182 - Next.js/React RCE | 🔴 Critical | 42 |
+| [CVE-2025-55182](CVE-2025-55182-0xPThree_cve-2025-55182.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 43 |
+| [CVE-2025-55182](CVE-2025-55182-Ashwesker_Blackash-CVE-2025-55182.md) | CVE-2025-55182 - React Server Components / Next.js Unauthent... | 🔴 Critical | 43 |
+| [CVE-2025-55182](CVE-2025-55182-BankkRoll_Quickcheck-CVE-2025-55182-React-and-CVE-2025-66478-Next.js.md) | CVE-2025-55182 (React RSC) & CVE-2025-66478 (Next.js RSC) | ⚪ 高危 | 43 |
+| [CVE-2025-55182](CVE-2025-55182-Chelsea486MHz_CVE-2025-55182-test.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 43 |
+| [CVE-2025-55182](CVE-2025-55182-CymulateResearch_React2Shell-Scanner.md) | CVE-2025-55182 - React RCE | 🔴 Critical | 43 |
+| [CVE-2025-55182](CVE-2025-55182-Emiyelbarto_CVE-2025-55182-PoC.md) | CVE-2025-55182 - React RCE | 🔴 Critical | 43 |
+| [CVE-2025-55182](CVE-2025-55182-EynaExp_CVE-2025-55182-POC.md) | CVE-2025-55182 - React Server Components 不安全反序列化导致的未认证远程代码执行... | 🔴 Critical | 43 |
+| [CVE-2025-55182](CVE-2025-55182-MedusaSH_POC-CVE-2025-55182.md) | CVE-2025-55182 - React and Next.js RCE | 🔴 Critical | 43 |
+| [CVE-2025-55182](CVE-2025-55182-MrR0b0t19_CVE-2025-55182-shellinteractive.md) | CVE-2025-55182 - React Server Components / Next.js RCE | 🔴 Critical | 43 |
+| [CVE-2025-55182](CVE-2025-55182-Rsatan_CVE-2025-55182-Tools.md) | CVE-2025-55182-React/Next.js-RCE | ⚪ 高危 | 43 |
+| [CVE-2025-55182](CVE-2025-55182-Security-Phoenix-demo_freight-night-rce-react-next-CVE-2025-55182-CVE-2025-66478.md) | CVE-2025-55182 - React, Next.js, react-dom, react-server-dom... | 🔴 Critical | 43 |
+| [CVE-2025-55182](CVE-2025-55182-acheong08_CVE-2025-55182-detection.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 43 |
+| [CVE-2025-55182](CVE-2025-55182-acheong08_CVE-2025-55182-vite-rsc.md) | CVE-2025-55182 - React Server Components (RSC), Next.js (关联C... | 🔴 Critical | 43 |
+| [CVE-2025-55182](CVE-2025-55182-aquinn-r7_CVE-2025-55182-VulnCheckPOC.md) | CVE-2025-55182 - Next.js (React Server Components) 不安全反序列化导致... | 🔴 Critical | 43 |
+| [CVE-2025-55182](CVE-2025-55182-aspen-labs_CVE-2025-55182-checker.md) | CVE-2025-55182 - React/Next.js Server Functions Deserializat... | ⚪ 高危 | 43 |
+| [CVE-2025-55182](CVE-2025-55182-assetnote_react2shell-scanner.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 43 |
+| [CVE-2025-55182](CVE-2025-55182-c0rydoras_CVE-2025-55182.md) | CVE-2025-55182 - React和Next.js 反序列化RCE | ⚪ 高危 | 43 |
+| [CVE-2025-55182](CVE-2025-55182-callinston_CVE-2025-55182.md) | CVE-2025-55182-React Server Components远程代码执行 | ⚪ 高危 | 43 |
+| [CVE-2025-55182](CVE-2025-55182-carlosaruy_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 43 |
+| [CVE-2025-55182](CVE-2025-55182-cropnet_CVE-2025-55182-POC-SCANNER.md) | CVE-2025-55182 - React Server Components, Next.js 反序列化RCE | 🔴 Critical | 43 |
+| [CVE-2025-55182](CVE-2025-55182-dissy123_cve-2025-55182.md) | CVE-2025-55182 React Server Components 不安全反序列化漏洞 | ⚪ 高危 | 43 |
+| [CVE-2025-55182](CVE-2025-55182-dwisiswant0_CVE-2025-55182.md) | CVE-2025-55182-ReactServerComponents不安全反序列化RCE | ⚪ 严重 | 43 |
+| [CVE-2025-55182](CVE-2025-55182-ejpir_CVE-2025-55182-poc.md) | CVE-2025-55182 - React, Next.js 反序列化RCE | ⚪ 严重 | 43 |
+| [CVE-2025-55182](CVE-2025-55182-ejpir_CVE-2025-55182-research.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 43 |
+| [CVE-2025-55182](CVE-2025-55182-fatguru_CVE-2025-55182-scanner.md) | CVE-2025-55182 - React Server Components (RSC), Next.js 不安全反... | 🔴 Critical | 43 |
+| [CVE-2025-55182](CVE-2025-55182-gensecaihq_react2shell-scanner.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 43 |
+| [CVE-2025-55182](CVE-2025-55182-im-hanzou_CVE-2025-55182-POC-SCANNER.md) | CVE-2025-55182 - React RCE | 🔴 Critical | 43 |
+| [CVE-2025-55182](CVE-2025-55182-ivaavimusic_React19-fix-vibecoders.md) | CVE-2025-55182 - React RCE | 🔴 Critical | 43 |
+| [CVE-2025-55182](CVE-2025-55182-jctommasi_react2shellVulnApp.md) | CVE-2025-55182 - React 不安全反序列化导致RCE | 🔴 Critical | 43 |
+| [CVE-2025-55182](CVE-2025-55182-jf0x3a_CVE-2025-55182-exploit.md) | CVE-2025-55182 React/Next.js Server Functions Deserializatio... | ⚪ 高危 | 43 |
+| [CVE-2025-55182](CVE-2025-55182-joaonevess_rust-flight.md) | CVE-2025-55182 - React/Next.js Server Components Deserializa... | ⚪ 高危 | 43 |
+| [CVE-2025-55182](CVE-2025-55182-luskafaria_cve-2025-55182.md) | CVE-2025-55182 - React Server Components (react-server-dom-w... | 🔴 Critical | 43 |
+| [CVE-2025-55182](CVE-2025-55182-marginaldeer_CVE-2025-55182_scanner.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 43 |
+| [CVE-2025-55182](CVE-2025-55182-msanft_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components (如Next.js) 不安全反序列化导... | 🔴 Critical | 43 |
+| [CVE-2025-55182](CVE-2025-55182-nxgn-kd01_cve-2025-55182-scanner.md) | CVE-2025-55182 - React, React Server Components, Next.js RCE... | 🔴 Critical | 43 |
+| [CVE-2025-55182](CVE-2025-55182-oways_React2shell-CVE-2025-55182-checker.md) | CVE-2025-55182 - React, Next.js RCE (Remote Code Execution) | 🔴 Critical | 43 |
+| [CVE-2025-55182](CVE-2025-55182-ps-interactive_cve-2025-55182.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 43 |
+| [CVE-2025-55182](CVE-2025-55182-pyroxenites_CVE-2025-55182.md) | CVE-2025-55182 ReactServerComponents 不安全反序列化 RCE | 🔴 Critical (CVSSv3.1 评分 10.0) | 43 |
+| [CVE-2025-55182](CVE-2025-55182-santihabib_CVE-2025-55182-analysis.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 43 |
+| [CVE-2025-55182](CVE-2025-55182-shamo0_react2shell-PoC.md) | CVE-2025-55182 - React Server Components, Next.js RCE | 🔴 Critical | 43 |
+| [CVE-2025-55182](CVE-2025-55182-sickwell_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components, Next.js RCE | 🔴 Critical | 43 |
+| [CVE-2025-55182](CVE-2025-55182-sudo-Yangziran_CVE-2025-55182POC.md) | CVE-2025-55182 React Server Components RCE | ⚪ 高危 | 43 |
+| [CVE-2025-55182](CVE-2025-55182-tobiasGuta_Next.js-RSC-RCE-Scanner-Burp-Suite-Extension.md) | CVE-2025-55182 - Next.js/React RCE | 🔴 Critical | 43 |
 | [CVE-2025-55188](CVE-2025-55188-Sh3ruman_CVE-2025-55188-7z-exploit.md) | CVE-2025-55188-7-Zip符号链接处理不当漏洞 | ⚪ 中危 | 6 |
 | [CVE-2025-55188](CVE-2025-55188-hunters-sec_CVE-2025-55188-7z-exploit.md) | CVE-2025-55188-7-Zip符号链接任意文件写入漏洞 | ⚪ 中危 | 6 |
 | [CVE-2025-55188](CVE-2025-55188-lunbun_CVE-2025-55188.md) | CVE-2025-55188 | ⚪ 中危 | 6 |
