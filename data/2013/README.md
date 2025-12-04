@@ -8,30 +8,30 @@
 
 | CVE编号 | 标题 | 严重程度 | POC仓库数 |
 |---------|------|----------|-----------|
-| [CVE-2013-0156](CVE-2013-0156-Jjdt12_kuang_grade_mk11.md) | CVE-2013-0156-Rails-XML参数处理对象注入 | ⚪ N/A | 0 |
-| [CVE-2013-0156](CVE-2013-0156-R3dKn33-zz_CVE-2013-0156.md) | CVE-2013-0156 | ⚪ N/A | 0 |
-| [CVE-2013-0156](CVE-2013-0156-bsodmike_rails-exploit-cve-2013-0156.md) | CVE-2013-0156 | ⚪ N/A | 0 |
-| [CVE-2013-0156](CVE-2013-0156-heroku_heroku-CVE-2013-0156.md) | CVE-2013-0156 - Ruby on Rails 对象注入漏洞 | ⚪ N/A | 0 |
-| [CVE-2013-0156](CVE-2013-0156-josal_crack-0.1.8-fixed.md) | CVE-2013-0156 | ⚪ N/A | 0 |
-| [CVE-2013-0156](CVE-2013-0156-oxben10_CVE-2013-0156.md) | CVE-2013-0156-Ruby on Rails-对象注入 | ⚪ N/A | 0 |
-| [CVE-2013-0156](CVE-2013-0156-terracatta_name_reverser.md) | CVE-2013-0156-Ruby on Rails-对象注入 | ⚪ N/A | 0 |
-| [CVE-2013-0269](CVE-2013-0269-heroku_heroku-CVE-2013-0269.md) | CVE-2013-0269-Ruby JSON gem-Unsafe Object Creation Vulnerabi... | ⚪ N/A | 0 |
-| [CVE-2013-0333](CVE-2013-0333-heroku_heroku-CVE-2013-0333.md) | CVE-2013-0333-Ruby on Rails-YAML Deserialization | ⚪ N/A | 0 |
-| [CVE-2013-2094](CVE-2013-2094-letsr00t_CVE-2013-2094.md) | CVE-2013-2094-Linux Kernel-perf_event_open权限提升 | ⚪ N/A | 0 |
-| [CVE-2013-2094](CVE-2013-2094-vnik5287_CVE-2013-2094.md) | CVE-Unknown-Ubuntu-12.04-perf_swevent_init-Local-Root-Exploi... | ⚪ N/A | 0 |
-| [CVE-2013-3900](CVE-2013-3900-AdenilsonSantos_WinVerifyTrust.md) | CVE-2013-3900 WinVerifyTrust Signature Validation Vulnerabil... | ⚪ N/A | 0 |
-| [CVE-2013-3900](CVE-2013-3900-CyberCondor_Fix-WinVerifyTrustSignatureValidationVuln.md) | CVE-2013-3900 WinVerifyTrust Signature Validation Vulnerabil... | ⚪ N/A | 0 |
-| [CVE-2013-3900](CVE-2013-3900-DavidBr27_CVE-2013-3900-Remediation-Script.md) | CVE-2013-3900 WinVerifyTrust Signature Validation Vulnerabil... | ⚪ N/A | 0 |
-| [CVE-2013-3900](CVE-2013-3900-Kramcov_CVE-2013-3900-PowerShell-PoC.md) | CVE-2013-3900 WinVerifyTrust Signature Validation Vulnerabil... | ⚪ N/A | 0 |
-| [CVE-2013-3900](CVE-2013-3900-OtisSymbos_CVE-2013-3900-WinTrustVerify.md) | CVE-2013-3900 WinVerifyTrust Signature Validation Vulnerabil... | ⚪ N/A | 0 |
-| [CVE-2013-3900](CVE-2013-3900-Sabecomoeh_CVE-2013-3900.md) | CVE-2013-3900 WinVerifyTrust Signature Validation Vulnerabil... | ⚪ N/A | 0 |
-| [CVE-2013-3900](CVE-2013-3900-Securenetology_CVE-2013-3900.md) | CVE-2013-3900 WinVerifyTrust Signature Validation Vulnerabil... | ⚪ N/A | 0 |
-| [CVE-2013-3900](CVE-2013-3900-malaya-m_cve-2013-3900-remediation-report.md) | CVE-2013-3900 WinVerifyTrust Signature Validation Vulnerabil... | ⚪ N/A | 0 |
-| [CVE-2013-3900](CVE-2013-3900-oukridrig772_-WinVerifyTrust-Signature-Validation-CVE-2013-3900-Mitigation.md) | CVE-2013-3900 WinVerifyTrust 签名验证漏洞 | ⚪ N/A | 0 |
-| [CVE-2013-3900](CVE-2013-3900-piranhap_CVE-2013-3900_Remediation_PowerShell.md) | CVE-2013-3900 WinVerifyTrust Signature Validation Vulnerabil... | ⚪ N/A | 0 |
-| [CVE-2013-3900](CVE-2013-3900-pkblanks_Remediating-CVE-2013-3900-EnableCertPaddingCheck-.md) | CVE-2013-3900 WinVerifyTrust Signature Validation Vulnerabil... | ⚪ N/A | 0 |
-| [CVE-2013-3900](CVE-2013-3900-snoopopsec_vulnerability-CVE-2013-3900.md) | CVE-2013-3900 | ⚪ N/A | 0 |
-| [CVE-2013-7285](CVE-2013-7285-shoucheng3_x-stream__xstream_CVE-2013-7285_1-4-6.md) | CVE-2013-7285-XStream-远程代码执行 | ⚪ N/A | 0 |
+| [CVE-2013-0156](CVE-2013-0156-Jjdt12_kuang_grade_mk11.md) | CVE-2013-0156-Rails-XML参数处理对象注入 | ⚪ 高危 | 7 |
+| [CVE-2013-0156](CVE-2013-0156-R3dKn33-zz_CVE-2013-0156.md) | CVE-2013-0156 | ⚪ 高危 | 7 |
+| [CVE-2013-0156](CVE-2013-0156-bsodmike_rails-exploit-cve-2013-0156.md) | CVE-2013-0156 | ⚪ 高危 | 7 |
+| [CVE-2013-0156](CVE-2013-0156-heroku_heroku-CVE-2013-0156.md) | CVE-2013-0156 - Ruby on Rails 对象注入漏洞 | ⚪ 高危 | 7 |
+| [CVE-2013-0156](CVE-2013-0156-josal_crack-0.1.8-fixed.md) | CVE-2013-0156 | ⚪ 高危 | 7 |
+| [CVE-2013-0156](CVE-2013-0156-oxben10_CVE-2013-0156.md) | CVE-2013-0156-Ruby on Rails-对象注入 | ⚪ 高危 | 7 |
+| [CVE-2013-0156](CVE-2013-0156-terracatta_name_reverser.md) | CVE-2013-0156-Ruby on Rails-对象注入 | ⚪ 高危 | 7 |
+| [CVE-2013-0269](CVE-2013-0269-heroku_heroku-CVE-2013-0269.md) | CVE-2013-0269-Ruby JSON gem-Unsafe Object Creation Vulnerabi... | ⚪ 高危 | 1 |
+| [CVE-2013-0333](CVE-2013-0333-heroku_heroku-CVE-2013-0333.md) | CVE-2013-0333-Ruby on Rails-YAML Deserialization | ⚪ 高危 | 1 |
+| [CVE-2013-2094](CVE-2013-2094-letsr00t_CVE-2013-2094.md) | CVE-2013-2094-Linux Kernel-perf_event_open权限提升 | ⚪ 高危 | 2 |
+| [CVE-2013-2094](CVE-2013-2094-vnik5287_CVE-2013-2094.md) | CVE-Unknown-Ubuntu-12.04-perf_swevent_init-Local-Root-Exploi... | ⚪ 高危 | 2 |
+| [CVE-2013-3900](CVE-2013-3900-AdenilsonSantos_WinVerifyTrust.md) | CVE-2013-3900 WinVerifyTrust Signature Validation Vulnerabil... | ⚪ 高危 | 12 |
+| [CVE-2013-3900](CVE-2013-3900-CyberCondor_Fix-WinVerifyTrustSignatureValidationVuln.md) | CVE-2013-3900 WinVerifyTrust Signature Validation Vulnerabil... | ⚪ 高危 | 12 |
+| [CVE-2013-3900](CVE-2013-3900-DavidBr27_CVE-2013-3900-Remediation-Script.md) | CVE-2013-3900 WinVerifyTrust Signature Validation Vulnerabil... | ⚪ 中危 | 12 |
+| [CVE-2013-3900](CVE-2013-3900-Kramcov_CVE-2013-3900-PowerShell-PoC.md) | CVE-2013-3900 WinVerifyTrust Signature Validation Vulnerabil... | ⚪ 中危 | 12 |
+| [CVE-2013-3900](CVE-2013-3900-OtisSymbos_CVE-2013-3900-WinTrustVerify.md) | CVE-2013-3900 WinVerifyTrust Signature Validation Vulnerabil... | ⚪ 中危 | 12 |
+| [CVE-2013-3900](CVE-2013-3900-Sabecomoeh_CVE-2013-3900.md) | CVE-2013-3900 WinVerifyTrust Signature Validation Vulnerabil... | ⚪ 中危/高危 (取决于上下文和CVSS评分) | 12 |
+| [CVE-2013-3900](CVE-2013-3900-Securenetology_CVE-2013-3900.md) | CVE-2013-3900 WinVerifyTrust Signature Validation Vulnerabil... | ⚪ 高危 | 12 |
+| [CVE-2013-3900](CVE-2013-3900-malaya-m_cve-2013-3900-remediation-report.md) | CVE-2013-3900 WinVerifyTrust Signature Validation Vulnerabil... | ⚪ 中危/高危 | 12 |
+| [CVE-2013-3900](CVE-2013-3900-oukridrig772_-WinVerifyTrust-Signature-Validation-CVE-2013-3900-Mitigation.md) | CVE-2013-3900 WinVerifyTrust 签名验证漏洞 | ⚪ 高危 | 12 |
+| [CVE-2013-3900](CVE-2013-3900-piranhap_CVE-2013-3900_Remediation_PowerShell.md) | CVE-2013-3900 WinVerifyTrust Signature Validation Vulnerabil... | ⚪ 中危 | 12 |
+| [CVE-2013-3900](CVE-2013-3900-pkblanks_Remediating-CVE-2013-3900-EnableCertPaddingCheck-.md) | CVE-2013-3900 WinVerifyTrust Signature Validation Vulnerabil... | ⚪ 中危 | 12 |
+| [CVE-2013-3900](CVE-2013-3900-snoopopsec_vulnerability-CVE-2013-3900.md) | CVE-2013-3900 | ⚪ 高危 | 12 |
+| [CVE-2013-7285](CVE-2013-7285-shoucheng3_x-stream__xstream_CVE-2013-7285_1-4-6.md) | CVE-2013-7285-XStream-远程代码执行 | ⚪ 高危 | 1 |
 
 ---
 

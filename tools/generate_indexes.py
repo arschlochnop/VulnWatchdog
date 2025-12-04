@@ -36,22 +36,33 @@ def parse_cve_file(filepath):
         with open(filepath, 'r', encoding='utf-8') as f:
             content = f.read()
 
-        # 提取标题（第一行）
+        # 提取标题（第一行或第二行的##标题）
         lines = content.split('\n')
-        title = lines[0].strip('#').strip() if lines else ''
+        title = ''
+        for line in lines[:10]:  # 在前10行查找标题
+            if line.startswith('##') and 'CVE-' in line:
+                title = line.strip('#').strip()
+                break
+        if not title:
+            title = lines[0].strip('#').strip() if lines else ''
 
         # 提取关键信息
         severity = 'N/A'
         description = ''
 
-        for line in lines:
-            if line.startswith('- **严重程度**:') or line.startswith('- **Severity**:'):
-                severity = line.split(':', 1)[1].strip()
-            elif line.startswith('## 漏洞描述') or line.startswith('## Description'):
-                idx = lines.index(line)
-                if idx + 1 < len(lines):
-                    description = lines[idx + 1].strip()
-                    break
+        for i, line in enumerate(lines):
+            # 匹配多种可能的严重程度字段
+            if ('**危害等级:**' in line or '**严重程度:**' in line or
+                '**Severity:**' in line or '- **严重程度**:' in line or
+                '- **Severity**:' in line):
+                # 提取冒号后的内容
+                parts = line.split(':', 1)
+                if len(parts) > 1:
+                    severity = parts[1].strip().split('，')[0].split(',')[0]  # 取第一个逗号前的部分
+                    severity = severity.replace('**', '').strip()  # 移除markdown标记
+            elif line.startswith('## 漏洞描述') or line.startswith('## Description') or line.startswith('## 详情'):
+                if i + 1 < len(lines):
+                    description = lines[i + 1].strip()
 
         return {
             'title': title,
@@ -67,7 +78,7 @@ def collect_cve_data():
     """收集所有CVE数据"""
     cve_by_year = defaultdict(list)
     cve_by_id = {}
-    total_repos = 0
+    total_files = 0
 
     # 遍历年份目录
     for year_dir in sorted(DATA_DIR.iterdir()):
@@ -84,17 +95,13 @@ def collect_cve_data():
 
             # 解析文件
             metadata = parse_cve_file(cve_file)
-
-            # 统计POC仓库数（通过文件名中的仓库链接）
-            repo_count = len(re.findall(r'github\.com/[\w-]+/[\w-]+', cve_file.name))
-            total_repos += repo_count
+            total_files += 1
 
             cve_info = {
                 'id': cve_id,
                 'year': year,
                 'filename': cve_file.name,
                 'filepath': cve_file,
-                'repo_count': repo_count,
                 **metadata
             }
 
@@ -105,7 +112,13 @@ def collect_cve_data():
                 cve_by_id[cve_id] = []
             cve_by_id[cve_id].append(cve_info)
 
-    return cve_by_year, cve_by_id, total_repos
+    # 计算每个CVE的POC仓库数
+    for cve_id, cve_list in cve_by_id.items():
+        repo_count = len(cve_list)  # 每个文件代表一个POC仓库
+        for cve_info in cve_list:
+            cve_info['repo_count'] = repo_count
+
+    return cve_by_year, cve_by_id, total_files
 
 
 def generate_year_readme(year, cves, output_dir):
@@ -194,7 +207,7 @@ def generate_by_cve_index(cve_by_id):
                 f.write(content)
 
 
-def generate_main_readme(cve_by_year, total_cves, total_repos):
+def generate_main_readme(cve_by_year, cve_by_id, total_cves, total_files):
     """生成主README"""
     output_file = DATA_DIR / "README.md"
 
@@ -205,7 +218,7 @@ def generate_main_readme(cve_by_year, total_cves, total_repos):
 
 > 🤖 自动化CVE漏洞监控与分析系统
 > 📅 最后更新: {datetime.now().strftime('%Y-%m-%d')}
-> 📊 已收录: **{total_cves}** 个CVE | **{total_repos}** 个POC仓库
+> 📊 已收录: **{total_cves}** 个CVE | **{total_files}** 个POC仓库
 
 ---
 
@@ -250,12 +263,18 @@ def generate_main_readme(cve_by_year, total_cves, total_repos):
 
 """
 
-    # 找出POC数量最多的CVE
-    all_cves = []
-    for year_cves in cve_by_year.values():
-        all_cves.extend(year_cves)
+    # 找出POC数量最多的CVE（使用去重后的cve_by_id）
+    top_cves_list = []
+    for cve_id, cve_list in cve_by_id.items():
+        repo_count = len(cve_list)
+        if repo_count > 0:
+            # 取第一个作为代表
+            cve_info = cve_list[0].copy()
+            cve_info['repo_count'] = repo_count
+            top_cves_list.append(cve_info)
 
-    top_cves = sorted(all_cves, key=lambda x: x['repo_count'], reverse=True)[:10]
+    # 按POC数量排序，取前10
+    top_cves = sorted(top_cves_list, key=lambda x: x['repo_count'], reverse=True)[:10]
 
     content += "| CVE编号 | POC仓库数 | 年份 |\n"
     content += "|---------|-----------|------|\n"
@@ -316,12 +335,12 @@ def main():
 
     # 收集数据
     print("📊 收集CVE数据...")
-    cve_by_year, cve_by_id, total_repos = collect_cve_data()
-    total_cves = sum(len(cves) for cves in cve_by_year.values())
+    cve_by_year, cve_by_id, total_files = collect_cve_data()
+    total_cves = len(cve_by_id)  # 去重后的CVE数量
 
-    print(f"  - 收集到 {total_cves} 个CVE")
+    print(f"  - 收集到 {total_cves} 个不同的CVE")
     print(f"  - 跨越 {len(cve_by_year)} 个年份")
-    print(f"  - 共 {total_repos} 个POC仓库")
+    print(f"  - 共 {total_files} 个POC仓库文件")
 
     # 生成年份README
     print("\n📝 生成年份索引...")
@@ -335,7 +354,7 @@ def main():
 
     # 生成主README
     print("\n📋 生成主索引...")
-    generate_main_readme(cve_by_year, total_cves, total_repos)
+    generate_main_readme(cve_by_year, cve_by_id, total_cves, total_files)
 
     print("\n✅ 索引生成完成!")
 

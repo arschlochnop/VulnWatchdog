@@ -8,8 +8,8 @@
 
 | CVE编号 | 标题 | 严重程度 | POC仓库数 |
 |---------|------|----------|-----------|
-| [CVE-2002-0082](CVE-2002-0082-ratiros01_CVE-2002-0082.md) | CVE-2002-0082 - Apache mod_ssl 缓冲区溢出 | ⚪ N/A | 0 |
-| [CVE-2002-2154](CVE-2002-2154-Hirainsingadia_CVE-2002-2154.md) | CVE-2002-2154 Monkey HTTP Daemon 0.1.4 目录遍历漏洞 | ⚪ N/A | 0 |
+| [CVE-2002-0082](CVE-2002-0082-ratiros01_CVE-2002-0082.md) | CVE-2002-0082 - Apache mod_ssl 缓冲区溢出 | ⚪ 高危 | 1 |
+| [CVE-2002-2154](CVE-2002-2154-Hirainsingadia_CVE-2002-2154.md) | CVE-2002-2154 Monkey HTTP Daemon 0.1.4 目录遍历漏洞 | ⚪ 高危 | 1 |
 
 ---
 

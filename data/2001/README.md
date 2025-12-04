@@ -8,7 +8,7 @@
 
 | CVE编号 | 标题 | 严重程度 | POC仓库数 |
 |---------|------|----------|-----------|
-| [CVE-2001-1473](CVE-2001-1473-alexandermoro_cve-2001-1473.md) | CVE-2001-1473 - SSH-1 Man-in-the-Middle 攻击 | ⚪ N/A | 0 |
+| [CVE-2001-1473](CVE-2001-1473-alexandermoro_cve-2001-1473.md) | CVE-2001-1473 - SSH-1 Man-in-the-Middle 攻击 | ⚪ 高危 | 1 |
 
 ---
 
