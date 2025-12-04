@@ -1,6 +1,6 @@
 # 2025年 CVE漏洞列表
 
-> 📊 共收录 **2462** 个CVE漏洞
+> 📊 共收录 **2463** 个CVE漏洞
 
 ---
 
@@ -1876,9 +1876,9 @@
 | [CVE-2025-55182](CVE-2025-55182-Security-Phoenix-demo_freight-night-rce-react-next-CVE-2025-55182-CVE-2025-66478.md) | CVE-2025-55182 - React, Next.js, react-dom, react-server-dom... | 🔴 Critical | 42 |
 | [CVE-2025-55182](CVE-2025-55182-acheong08_CVE-2025-55182-detection.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 42 |
 | [CVE-2025-55182](CVE-2025-55182-acheong08_CVE-2025-55182-vite-rsc.md) | CVE-2025-55182 - React Server Components (RSC), Next.js (关联C... | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-aquinn-r7_CVE-2025-55182-VulnCheckPOC.md) | CVE-2025-55182 - React Server Components (RSC) in Next.js 反序... | 🔴 Critical | 42 |
+| [CVE-2025-55182](CVE-2025-55182-aquinn-r7_CVE-2025-55182-VulnCheckPOC.md) | CVE-2025-55182 - Next.js (React Server Components) 不安全反序列化导致... | 🔴 Critical | 42 |
 | [CVE-2025-55182](CVE-2025-55182-aspen-labs_CVE-2025-55182-checker.md) | CVE-2025-55182 - React/Next.js Server Functions Deserializat... | ⚪ 高危 | 42 |
-| [CVE-2025-55182](CVE-2025-55182-assetnote_react2shell-scanner.md) | CVE-2025-55182 & CVE-2025-66478 - React/Next.js Server Compo... | ⚪ 高危 | 42 |
+| [CVE-2025-55182](CVE-2025-55182-assetnote_react2shell-scanner.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 42 |
 | [CVE-2025-55182](CVE-2025-55182-c0rydoras_CVE-2025-55182.md) | CVE-2025-55182 - React和Next.js 反序列化RCE | ⚪ 高危 | 42 |
 | [CVE-2025-55182](CVE-2025-55182-callinston_CVE-2025-55182.md) | CVE-2025-55182-React Server Components远程代码执行 | ⚪ 高危 | 42 |
 | [CVE-2025-55182](CVE-2025-55182-carlosaruy_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 42 |
@@ -1887,7 +1887,7 @@
 | [CVE-2025-55182](CVE-2025-55182-dwisiswant0_CVE-2025-55182.md) | CVE-2025-55182-ReactServerComponents不安全反序列化RCE | ⚪ 严重 | 42 |
 | [CVE-2025-55182](CVE-2025-55182-ejpir_CVE-2025-55182-poc.md) | CVE-2025-55182 - React, Next.js 反序列化RCE | ⚪ 严重 | 42 |
 | [CVE-2025-55182](CVE-2025-55182-ejpir_CVE-2025-55182-research.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-fatguru_CVE-2025-55182-scanner.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 42 |
+| [CVE-2025-55182](CVE-2025-55182-fatguru_CVE-2025-55182-scanner.md) | CVE-2025-55182 - React Server Components (RSC), Next.js 不安全反... | 🔴 Critical | 42 |
 | [CVE-2025-55182](CVE-2025-55182-gensecaihq_react2shell-scanner.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 42 |
 | [CVE-2025-55182](CVE-2025-55182-ivaavimusic_React19-fix-vibecoders.md) | CVE-2025-55182 - React RCE | 🔴 Critical | 42 |
 | [CVE-2025-55182](CVE-2025-55182-jctommasi_react2shellVulnApp.md) | CVE-2025-55182 - React 不安全反序列化导致RCE | 🔴 Critical | 42 |
@@ -1896,7 +1896,7 @@
 | [CVE-2025-55182](CVE-2025-55182-luskafaria_cve-2025-55182.md) | CVE-2025-55182 - React Server Components (react-server-dom-w... | 🔴 Critical | 42 |
 | [CVE-2025-55182](CVE-2025-55182-marginaldeer_CVE-2025-55182_scanner.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 42 |
 | [CVE-2025-55182](CVE-2025-55182-msanft_CVE-2025-55182.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 42 |
-| [CVE-2025-55182](CVE-2025-55182-nxgn-kd01_cve-2025-55182-scanner.md) | CVE-2025-55182 - React, React Server DOM Packages, Next.js R... | 🔴 Critical | 42 |
+| [CVE-2025-55182](CVE-2025-55182-nxgn-kd01_cve-2025-55182-scanner.md) | CVE-2025-55182 - React, React Server Components, Next.js RCE... | 🔴 Critical | 42 |
 | [CVE-2025-55182](CVE-2025-55182-oways_React2shell-CVE-2025-55182-checker.md) | CVE-2025-55182 - React, Next.js RCE (Remote Code Execution) | 🔴 Critical | 42 |
 | [CVE-2025-55182](CVE-2025-55182-ps-interactive_cve-2025-55182.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 42 |
 | [CVE-2025-55182](CVE-2025-55182-pyroxenites_CVE-2025-55182.md) | CVE-2025-55182 ReactServerComponents 不安全反序列化 RCE | 🔴 Critical (CVSSv3.1 评分 10.0) | 42 |
@@ -2183,7 +2183,7 @@
 | [CVE-2025-61882](CVE-2025-61882-allinsthon_CVE-2025-61882.md) | CVE-2025-61882 - Oracle E-Business Suite RCE | ⚪ 严重 | 18 |
 | [CVE-2025-61882](CVE-2025-61882-godnish_CVE-2025-61882.md) | CVE-2025-61882-Oracle Concurrent Processing-RCE | ⚪ 高危 | 18 |
 | [CVE-2025-61882](CVE-2025-61882-rxerium_CVE-2025-61882.md) | CVE-2025-61882-Oracle Concurrent Processing-远程代码执行 | ⚪ 高危 | 18 |
-| [CVE-2025-61882](CVE-2025-61882-siddu7575_CVE-2025-61882-CVE-2025-61884.md) | CVE-2025-61882 - Oracle E-Business Suite Remote Code Executi... | 🔴 Critical | 18 |
+| [CVE-2025-61882](CVE-2025-61882-siddu7575_CVE-2025-61882-CVE-2025-61884.md) | CVE-2025-61882 | ⚪ 高危 | 18 |
 | [CVE-2025-61882](CVE-2025-61882-watchtowrlabs_watchTowr-vs-Oracle-E-Business-Suite-CVE-2025-61882.md) | CVE-2025-61882 - Oracle Concurrent Processing Pre-Auth RCE | ⚪ 高危 | 18 |
 | [CVE-2025-61882](CVE-2025-61882-zerozenxlabs_CVE-2025-61882-Oracle-EBS.md) | CVE-2025-61882-Oracle Concurrent Processing-SSRF/RCE | ⚪ 高危 | 18 |
 | [CVE-2025-61884](CVE-2025-61884-AshrafZaryouh_CVE-2025-61884-At-a-Glance.md) | CVE-2025-61884-Oracle Configurator信息泄露 | ⚪ 高危 | 4 |
@@ -2321,8 +2321,9 @@
 | [CVE-2025-65681](CVE-2025-65681-Rivek619_CVE-2025-65681.md) | CVE-2025-65681-tutor-open-edx-信息泄露 | ⚪ 中危 | 1 |
 | [CVE-2025-65899](CVE-2025-65899-Noxurge_CVE-2025-65899.md) | CVE-2025-65899 - Kalmia CMS v0.2.0 用户枚举漏洞 | ⚪ 中危 | 1 |
 | [CVE-2025-65900](CVE-2025-65900-Noxurge_CVE-2025-65900.md) | CVE-2025-65900: Kalmia CMS v0.2.0 - 不正确的访问控制 | ⚪ 高危 | 1 |
-| [CVE-2025-66478](CVE-2025-66478-Malayke_Next.js-RSC-RCE-Scanner-CVE-2025-66478.md) | CVE-2025-66478 - Next.js RCE | 🔴 Critical | 2 |
-| [CVE-2025-66478](CVE-2025-66478-wangxso_CVE-2025-66478-POC.md) | CVE-2025-66478 - Next.js 远程代码执行 | ⚪ 高危 | 2 |
+| [CVE-2025-66478](CVE-2025-66478-Malayke_Next.js-RSC-RCE-Scanner-CVE-2025-66478.md) | CVE-2025-66478 - Next.js RCE | 🔴 Critical | 3 |
+| [CVE-2025-66478](CVE-2025-66478-mattcbarrett_check-cve-2025-66478.md) | CVE-2025-66478 - Next.js RCE | ⚪ 高危 | 3 |
+| [CVE-2025-66478](CVE-2025-66478-wangxso_CVE-2025-66478-POC.md) | CVE-2025-66478 - Next.js 远程代码执行 | ⚪ 高危 | 3 |
 | [CVE-2025-66666](CVE-2025-66666-anderruiz_CVE-2025-666666.md) | CVE-2025-666666-Datadog4Shell-JNDI注入 | ⚪ 高危 | 1 |
 | [CVE-2025-6713](CVE-2025-6713-c137req_CVE-2025-6713.md) | CVE-2025-6713-MongoDB-权限绕过 | ⚪ 高危 | 1 |
 | [CVE-2025-6758](CVE-2025-6758-Nxploited_CVE-2025-6758.md) | CVE-2025-6758 - Real Spaces WordPress Theme 未授权提权 | ⚪ 严重 | 1 |
