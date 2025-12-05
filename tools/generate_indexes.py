@@ -93,6 +93,17 @@ def collect_cve_data():
             if not cve_id:
                 continue
 
+            # 跳过索引文件（避免重复处理by-cve目录下的索引文件）
+            try:
+                with open(cve_file, 'r', encoding='utf-8') as f:
+                    first_100_lines = ''.join([next(f, '') for _ in range(100)])
+                    # 如果文件包含索引标记，跳过
+                    if '📦 该CVE有' in first_100_lines and '## 📋 POC仓库列表' in first_100_lines:
+                        print(f"  跳过索引文件: {cve_file.name}")
+                        continue
+            except Exception:
+                pass  # 文件读取失败，继续处理
+
             # 解析文件
             metadata = parse_cve_file(cve_file)
             total_files += 1
@@ -183,6 +194,12 @@ def generate_by_cve_index(cve_by_id):
             try:
                 with open(src_file, 'r', encoding='utf-8') as f:
                     content = f.read()
+
+                # 检查源文件是否为索引文件（二次验证）
+                if '📦 该CVE有' in content and '## 📋 POC仓库列表' in content:
+                    print(f"  ⚠️  警告: 源文件是索引文件，跳过复制: {src_file}")
+                    continue
+
                 with open(output_file, 'w', encoding='utf-8') as f:
                     f.write(content)
             except Exception as e:
