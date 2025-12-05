@@ -188,20 +188,26 @@ def generate_by_cve_index(cve_by_id):
             except Exception as e:
                 print(f"  警告: 创建索引失败 {cve_id}: {e}")
         else:
-            # 多个POC，合并到一个文件
+            # 多个POC，生成索引文件（仅链接，不复制内容）
             content = f"# {cve_id}\n\n"
-            content += f"> 📦 该CVE有 **{len(cve_list)}** 个相关POC仓库\n\n---\n\n"
+            content += f"> 📦 该CVE有 **{len(cve_list)}** 个相关POC仓库\n\n"
+            content += f"以下是该CVE的所有POC仓库分析，点击链接查看详情：\n\n"
+            content += "---\n\n"
+            content += "## 📋 POC仓库列表\n\n"
 
             for idx, cve in enumerate(cve_list, 1):
-                content += f"## POC #{idx}\n\n"
-                content += f"**来源**: [{cve['filename']}](../{cve['year']}/{cve['filename']})\n\n"
+                # 只添加链接，不复制完整内容
+                content += f"### [{idx}. {cve['filename']}](../{cve['year']}/{cve['filename']})\n\n"
 
-                try:
-                    with open(cve['filepath'], 'r', encoding='utf-8') as f:
-                        poc_content = f.read()
-                    content += poc_content + "\n\n---\n\n"
-                except Exception as e:
-                    content += f"_读取失败: {e}_\n\n---\n\n"
+                # 添加简要元数据（如果有）
+                if cve.get('title'):
+                    content += f"**标题**: {cve['title']}\n\n"
+                if cve.get('severity') and cve['severity'] != 'N/A':
+                    content += f"**严重程度**: {cve['severity']}\n\n"
+
+                content += "---\n\n"
+
+            content += f"\n*索引生成时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*\n"
 
             with open(output_file, 'w', encoding='utf-8') as f:
                 f.write(content)
