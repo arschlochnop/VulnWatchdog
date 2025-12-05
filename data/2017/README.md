@@ -221,25 +221,24 @@
 | [CVE-2017-7494](CVE-2017-7494-incredible1yu_CVE-2017-7494.md) | CVE-2017-7494-Samba-远程代码执行 | ⚪ 高危 | 16 |
 | [CVE-2017-7494](CVE-2017-7494-john-80_cve-2017-7494.md) | CVE-2017-7494-Samba-远程代码执行 | ⚪ 高危 | 16 |
 | [CVE-2017-7494](CVE-2017-7494-joxeankoret_CVE-2017-7494.md) | CVE-2017-7494-Samba-远程代码执行 | ⚪ 高危 | 16 |
-| [CVE-2017-7529](CVE-2017-7529-CalebFIN_EXP-CVE-2017-75.md) | CVE-2017-7529 - Nginx Integer Overflow, Information Leak | 🟠 High | 19 |
-| [CVE-2017-7529](CVE-2017-7529-Fenil2511_CVE-2017-7529-POC.md) | CVE-2017-7529 - Nginx Integer Overflow | 🟠 High | 19 |
-| [CVE-2017-7529](CVE-2017-7529-MaxSecurity_CVE-2017-7529-POC.md) | CVE-2017-7529-Nginx 整数溢出导致信息泄露 | ⚪ 中危 | 19 |
-| [CVE-2017-7529](CVE-2017-7529-Shehzadcyber_CVE-2017-7529.md) | CVE-2017-7529 - Nginx 信息泄露 | ⚪ 中 | 19 |
-| [CVE-2017-7529](CVE-2017-7529-SirEagIe_CVE-2017-7529.md) | CVE-2017-7529-Nginx范围过滤模块整数溢出 | ⚪ 中危 | 19 |
-| [CVE-2017-7529](CVE-2017-7529-coolman6942o_-Exploit-CVE-2017-7529.md) | CVE-2017-7529-Nginx Range Filter Integer Overflow | ⚪ 中危 | 19 |
-| [CVE-2017-7529](CVE-2017-7529-cved-sources_cve-2017-7529.md) | CVE-2017-7529-Nginx Range Filter Integer Overflow | ⚪ 中危 | 19 |
-| [CVE-2017-7529](CVE-2017-7529-cyberharsh_nginx-CVE-2017-7529.md) | CVE-2017-7529-Nginx越界读取缓存漏洞 | ⚪ 高危 | 19 |
-| [CVE-2017-7529](CVE-2017-7529-cyberk1w1_CVE-2017-7529.md) | CVE-2017-7529-Nginx-Integer Overflow | ⚪ 中危 | 19 |
-| [CVE-2017-7529](CVE-2017-7529-daehee_nginx-overflow.md) | CVE-2017-7529-Nginx-Integer Overflow | ⚪ 中危 | 19 |
-| [CVE-2017-7529](CVE-2017-7529-en0f_CVE-2017-7529_PoC.md) | CVE-2017-7529 - Nginx 信息泄露 | ⚪ 中 | 19 |
-| [CVE-2017-7529](CVE-2017-7529-fardeen-ahmed_Remote-Integer-Overflow-Vulnerability.md) | CVE-2017-7529 - Nginx Range Filter Integer Overflow | ⚪ 中危 | 19 |
-| [CVE-2017-7529](CVE-2017-7529-fu2x2000_CVE-2017-7529-Nginx---Remote-Integer-Overflow-Exploit.md) | CVE-2017-7529 - Nginx Integer Overflow | 🟠 High | 19 |
-| [CVE-2017-7529](CVE-2017-7529-gemboxteam_exploit-nginx-1.10.3.md) | CVE-2017-7529-Nginx-整数溢出 | ⚪ 中危 | 19 |
-| [CVE-2017-7529](CVE-2017-7529-insecrez_Remote-Integer-Overflow-Vulnerability.md) | CVE-2017-7529 - Nginx Integer Overflow | ⚪ Sensitive information leak | 19 |
-| [CVE-2017-7529](CVE-2017-7529-liusec_CVE-2017-7529.md) | CVE-2017-7529 - Nginx Range Filter Integer Overflow | ⚪ 中危 | 19 |
-| [CVE-2017-7529](CVE-2017-7529-mo3zj_Nginx-Remote-Integer-Overflow-Vulnerability.md) | CVE-2017-7529 - Nginx Range Filter Integer Overflow | ⚪ 中危 | 19 |
-| [CVE-2017-7529](CVE-2017-7529-portfolio10_nginx.md) | CVE-2017-7529 - Nginx 越界读取 | ⚪ 高危 | 19 |
-| [CVE-2017-7529](CVE-2017-7529-youngmin0104_CVE-2017-7529-.md) | CVE-2017-7529 - Nginx 信息泄露 | ⚪ 高 | 19 |
+| [CVE-2017-7529](CVE-2017-7529-Fenil2511_CVE-2017-7529-POC.md) | CVE-2017-7529 - Nginx Integer Overflow | 🟠 High | 18 |
+| [CVE-2017-7529](CVE-2017-7529-MaxSecurity_CVE-2017-7529-POC.md) | CVE-2017-7529-Nginx 整数溢出导致信息泄露 | ⚪ 中危 | 18 |
+| [CVE-2017-7529](CVE-2017-7529-Shehzadcyber_CVE-2017-7529.md) | CVE-2017-7529 - Nginx 信息泄露 | ⚪ 中 | 18 |
+| [CVE-2017-7529](CVE-2017-7529-SirEagIe_CVE-2017-7529.md) | CVE-2017-7529-Nginx范围过滤模块整数溢出 | ⚪ 中危 | 18 |
+| [CVE-2017-7529](CVE-2017-7529-coolman6942o_-Exploit-CVE-2017-7529.md) | CVE-2017-7529-Nginx Range Filter Integer Overflow | ⚪ 中危 | 18 |
+| [CVE-2017-7529](CVE-2017-7529-cved-sources_cve-2017-7529.md) | CVE-2017-7529-Nginx Range Filter Integer Overflow | ⚪ 中危 | 18 |
+| [CVE-2017-7529](CVE-2017-7529-cyberharsh_nginx-CVE-2017-7529.md) | CVE-2017-7529-Nginx越界读取缓存漏洞 | ⚪ 高危 | 18 |
+| [CVE-2017-7529](CVE-2017-7529-cyberk1w1_CVE-2017-7529.md) | CVE-2017-7529-Nginx-Integer Overflow | ⚪ 中危 | 18 |
+| [CVE-2017-7529](CVE-2017-7529-daehee_nginx-overflow.md) | CVE-2017-7529-Nginx-Integer Overflow | ⚪ 中危 | 18 |
+| [CVE-2017-7529](CVE-2017-7529-en0f_CVE-2017-7529_PoC.md) | CVE-2017-7529 - Nginx 信息泄露 | ⚪ 中 | 18 |
+| [CVE-2017-7529](CVE-2017-7529-fardeen-ahmed_Remote-Integer-Overflow-Vulnerability.md) | CVE-2017-7529 - Nginx Range Filter Integer Overflow | ⚪ 中危 | 18 |
+| [CVE-2017-7529](CVE-2017-7529-fu2x2000_CVE-2017-7529-Nginx---Remote-Integer-Overflow-Exploit.md) | CVE-2017-7529 - Nginx Integer Overflow | 🟠 High | 18 |
+| [CVE-2017-7529](CVE-2017-7529-gemboxteam_exploit-nginx-1.10.3.md) | CVE-2017-7529-Nginx-整数溢出 | ⚪ 中危 | 18 |
+| [CVE-2017-7529](CVE-2017-7529-insecrez_Remote-Integer-Overflow-Vulnerability.md) | CVE-2017-7529 - Nginx Integer Overflow | ⚪ Sensitive information leak | 18 |
+| [CVE-2017-7529](CVE-2017-7529-liusec_CVE-2017-7529.md) | CVE-2017-7529 - Nginx Range Filter Integer Overflow | ⚪ 中危 | 18 |
+| [CVE-2017-7529](CVE-2017-7529-mo3zj_Nginx-Remote-Integer-Overflow-Vulnerability.md) | CVE-2017-7529 - Nginx Range Filter Integer Overflow | ⚪ 中危 | 18 |
+| [CVE-2017-7529](CVE-2017-7529-portfolio10_nginx.md) | CVE-2017-7529 - Nginx 越界读取 | ⚪ 高危 | 18 |
+| [CVE-2017-7529](CVE-2017-7529-youngmin0104_CVE-2017-7529-.md) | CVE-2017-7529 - Nginx 信息泄露 | ⚪ 高 | 18 |
 | [CVE-2017-7679](CVE-2017-7679-Al-Lord0x_CVE-2017-7679.md) | CVE-2017-7679 Apache mod_mime 缓冲区溢出 | ⚪ 中危 | 1 |
 | [CVE-2017-7921](CVE-2017-7921-201646613_CVE-2017-7921.md) | CVE-2017-7921-Hikvision摄像机-不当身份验证 | ⚪ 高危 | 16 |
 | [CVE-2017-7921](CVE-2017-7921-AnonkiGroup_AnonHik.md) | CVE-2017-7921-Hikvision摄像机-不当身份验证 | ⚪ 高危 | 16 |
@@ -275,7 +274,8 @@
 | [CVE-2017-9248](CVE-2017-9248-cehamod_UI_CVE-2017-9248.md) | CVE-2017-9248 - Telerik UI for ASP.NET AJAX Cryptographic We... | ⚪ 高危 | 6 |
 | [CVE-2017-9248](CVE-2017-9248-ictnamanh_CVE-2017-9248.md) | CVE-2017-9248 - Telerik UI for ASP.NET AJAX Cryptographic We... | ⚪ 高危 | 6 |
 | [CVE-2017-9248](CVE-2017-9248-oldboysonnt_dp.md) | CVE-2017-9248 - Telerik UI for ASP.NET AJAX Cryptographic We... | ⚪ 高危 | 6 |
-| [CVE-2017-9822](CVE-2017-9822-Tnot123_cve-2017-9822.md) | CVE-2017-9822 DotNetNuke Cookie 反序列化 RCE | ⚪ 高危 | 1 |
+| [CVE-2017-9822](CVE-2017-9822-Tnot123_cve-2017-9822.md) | CVE-2017-9822 DotNetNuke Cookie 反序列化 RCE | ⚪ 高危 | 2 |
+| [CVE-2017-9822](CVE-2017-9822-murataydemir_CVE-2017-9822.md) | CVE-2017-9822 DotNetNuke Cookie 反序列化 RCE | ⚪ 高危 | 2 |
 | [CVE-2017-9841](CVE-2017-9841-Chocapikk_CVE-2017-9841.md) | CVE-2017-9841-PHPUnit-远程代码执行 | ⚪ 高危 | 17 |
 | [CVE-2017-9841](CVE-2017-9841-Habibullah1101_PHPUnit-GoScan.md) | CVE-2017-9841 PHPUnit 远程代码执行 | ⚪ 高危 | 17 |
 | [CVE-2017-9841](CVE-2017-9841-K3ysTr0K3R_CVE-2017-9841-EXPLOIT.md) | CVE-2017-9841-PHPUnit远程代码执行 | ⚪ 高危 | 17 |
