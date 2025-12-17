@@ -1,6 +1,6 @@
 # 2016年 CVE漏洞列表
 
-> 📊 共收录 **85** 个CVE漏洞
+> 📊 共收录 **90** 个CVE漏洞
 
 ---
 
@@ -11,8 +11,10 @@
 | [CVE-2016-0792](CVE-2016-0792-gonn4cry_CVE-2016-0792.md) | CVE-2016-0792-Jenkins-远程代码执行 | ⚪ 高危 | 2 |
 | [CVE-2016-0792](CVE-2016-0792-jpiechowka_jenkins-cve-2016-0792.md) | CVE-2016-0792 Jenkins XStream Groovy classpath Deserializati... | ⚪ 高危 | 2 |
 | [CVE-2016-0957](CVE-2016-0957-fuckwbored_CVE-2016-0957-payloads.md) | CVE-2016-0957 Adobe Experience Manager Dispatcher URL Filter... | ⚪ 中危 | 1 |
-| [CVE-2016-10002](CVE-2016-10002-ossf-cve-benchmark_CVE-2016-1000229.md) | CVE-2016-10002-Squid HTTP Proxy-信息泄露 | ⚪ 中危 | 1 |
-| [CVE-2016-10006](CVE-2016-10006-shoucheng3_nahsra__antisamy_CVE-2016-10006_1-5-3.md) | CVE-2016-10006-OWASP AntiSamy-XSS | ⚪ 中危 | 1 |
+| [CVE-2016-10002](CVE-2016-10002-barteeees_SwaggerUI-CVE-2016-1000229.md) | CVE-2016-10002-Squid HTTP Proxy-信息泄露 | ⚪ 中危 | 2 |
+| [CVE-2016-10002](CVE-2016-10002-ossf-cve-benchmark_CVE-2016-1000229.md) | CVE-2016-10002-Squid HTTP Proxy-信息泄露 | ⚪ 中危 | 2 |
+| [CVE-2016-10006](CVE-2016-10006-epicosy_VUL4J-60.md) | CVE-2016-10006-OWASP AntiSamy-XSS | ⚪ 中危 | 2 |
+| [CVE-2016-10006](CVE-2016-10006-shoucheng3_nahsra__antisamy_CVE-2016-10006_1-5-3.md) | CVE-2016-10006-OWASP AntiSamy-XSS | ⚪ 中危 | 2 |
 | [CVE-2016-10033](CVE-2016-10033-0x00-0x00_CVE-2016-10033.md) | CVE-2016-10033-PHPMailer-远程代码执行 | ⚪ 高危 | 15 |
 | [CVE-2016-10033](CVE-2016-10033-Astrowmist_POC-CVE-2016-10033.md) | CVE-2016-10033 - PHPMailer Remote Code Execution | ⚪ 高危 | 15 |
 | [CVE-2016-10033](CVE-2016-10033-Bajunan_CVE-2016-10033.md) | CVE-2016-10033 - PHPMailer远程代码执行 | ⚪ 高危 | 15 |
@@ -33,7 +35,8 @@
 | [CVE-2016-10726](CVE-2016-10726-shoucheng3_DSpace__DSpace_CVE-2016-10726_4-4.md) | CVE-2016-10726-DSpace-目录遍历 | ⚪ 中危 | 1 |
 | [CVE-2016-10924](CVE-2016-10924-808ale_cve-2016-10924-POC.md) | CVE-2016-10924 - WordPress ebook-download插件目录遍历 | ⚪ 中危 | 2 |
 | [CVE-2016-10924](CVE-2016-10924-rvizx_CVE-2016-10924.md) | CVE-2016-10924-ebook-download-Directory Traversal | ⚪ 高危 | 2 |
-| [CVE-2016-15042](CVE-2016-15042-Aditya43621_lab-cve-2016-15042.md) | CVE-2016-15042 - Node.js RCE | 🔴 Critical | 1 |
+| [CVE-2016-15042](CVE-2016-15042-Aditya43621_lab-cve-2016-15042.md) | CVE-2016-15042 - Node.js RCE | 🔴 Critical | 2 |
+| [CVE-2016-15042](CVE-2016-15042-ImBIOS_lab-cve-2016-15042.md) | CVE-2016-15042 - Node.js RCE | 🔴 Critical | 2 |
 | [CVE-2016-20012](CVE-2016-20012-aztec-eagle_cve-2016-20012.md) | CVE-2016-20012-OpenSSH-用户名枚举 | ⚪ 低危 | 1 |
 | [CVE-2016-2098](CVE-2016-2098-3rg1s_CVE-2016-2098.md) | CVE-2016-2098 - Ruby on Rails 远程代码执行 | ⚪ 高危 | 11 |
 | [CVE-2016-2098](CVE-2016-2098-Alejandro-MartinG_rails-PoC-CVE-2016-2098.md) | CVE-2016-2098 - Ruby on Rails Action Pack 远程代码执行 | ⚪ 高危 | 11 |
@@ -53,7 +56,8 @@
 | [CVE-2016-3088](CVE-2016-3088-cyberaguiar_CVE-2016-3088.md) | CVE-2016-3088 - Apache ActiveMQ 文件上传与执行 | ⚪ 高危 | 6 |
 | [CVE-2016-3088](CVE-2016-3088-vonderchild_CVE-2016-3088.md) | CVE-2016-3088 - Apache ActiveMQ 文件服务器任意文件上传和执行 | ⚪ 高危 | 6 |
 | [CVE-2016-3627](CVE-2016-3627-Oneton429_CVE-2016-3627.md) | CVE-2016-3627-libxml2-DoS | ⚪ 高危 | 1 |
-| [CVE-2016-4622](CVE-2016-4622-hdbreaker_WebKit-CVE-2016-4622.md) | CVE-2016-4622 WebKit JavaScriptCore 内存泄露 | ⚪ 中危 | 1 |
+| [CVE-2016-4622](CVE-2016-4622-hdbreaker_WebKit-CVE-2016-4622.md) | CVE-2016-4622 WebKit JavaScriptCore 内存泄露 | ⚪ 中危 | 2 |
+| [CVE-2016-4622](CVE-2016-4622-saelo_jscpwn.md) | CVE-2016-4622 WebKit JavaScriptCore 内存泄露 | ⚪ 中危 | 2 |
 | [CVE-2016-5180](CVE-2016-5180-pouriam23_CVE-2016-5180-docker-.md) | CVE-2016-5180-c-ares 堆缓冲区溢出 | ⚪ 高危 | 2 |
 | [CVE-2016-5180](CVE-2016-5180-pouriam23_final-CVE-2016-5180.md) | CVE-2016-5180-c-ares 堆缓冲区溢出 | ⚪ 高危 | 2 |
 | [CVE-2016-5195](CVE-2016-5195-0x3n19m4_CVE-2016-5195.md) | CVE-2016-5195 Dirty COW | ⚪ 高危 | 22 |
@@ -78,7 +82,8 @@
 | [CVE-2016-5195](CVE-2016-5195-th3-5had0w_DirtyCOW-PoC.md) | CVE-2016-5195 Dirty COW | ⚪ 高危 | 22 |
 | [CVE-2016-5195](CVE-2016-5195-timwr_CVE-2016-5195.md) | CVE-2016-5195 - Dirty COW | ⚪ 高危 | 22 |
 | [CVE-2016-5195](CVE-2016-5195-zakariamaaraki_Dirty-COW-CVE-2016-5195-.md) | CVE-2016-5195 - Dirty COW | ⚪ 高危 | 22 |
-| [CVE-2016-5394](CVE-2016-5394-shoucheng3_apache__sling-org-apache-sling-xss_CVE-2016-5394_1-0-8.md) | CVE-2016-5394-Apache Sling-XSS | ⚪ 中危 | 1 |
+| [CVE-2016-5394](CVE-2016-5394-epicosy_VUL4J-23.md) | CVE-2016-5394-Apache Sling-XSS | ⚪ 中危 | 2 |
+| [CVE-2016-5394](CVE-2016-5394-shoucheng3_apache__sling-org-apache-sling-xss_CVE-2016-5394_1-0-8.md) | CVE-2016-5394-Apache Sling-XSS | ⚪ 中危 | 2 |
 | [CVE-2016-6210](CVE-2016-6210-KiPhuong_cve-2016-6210.md) | CVE-2016-6210-OpenSSH-用户名枚举 | ⚪ 中危 | 5 |
 | [CVE-2016-6210](CVE-2016-6210-coolbabayaga_CVE-2016-6210.md) | CVE-2016-6210 - OpenSSH 用户枚举 | ⚪ 低危 | 5 |
 | [CVE-2016-6210](CVE-2016-6210-goomdan_CVE-2016-6210-exploit.md) | CVE-2016-6210-OpenSSH用户名枚举 | ⚪ 低危 | 5 |
