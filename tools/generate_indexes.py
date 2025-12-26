@@ -224,7 +224,8 @@ def generate_by_cve_index(cve_by_id):
 
                 content += "---\n\n"
 
-            content += f"\n*索引生成时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*\n"
+            # 移除动态时间戳,避免每次运行都重写所有索引文件
+            # content += f"\n*索引生成时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*\n"
 
             with open(output_file, 'w', encoding='utf-8') as f:
                 f.write(content)
