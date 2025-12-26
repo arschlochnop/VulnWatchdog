@@ -7,6 +7,7 @@ from config import get_config
 from libs.utils import search_github, get_cve_info, ask_gpt, search_searxng, get_github_poc, write_to_markdown, get_latest_commit_sha
 from libs.webhook import send_webhook
 from libs.gpt_analyzer import GPTAnalyzer  # 新增: GPT分析器
+from libs.blacklist_manager import BlacklistManager  # 新增: 黑名单管理器
 from models.models import get_db, CVE, Repository
 import logging
 import sys
@@ -48,6 +49,15 @@ if enable_gpt:
         logger.error(f"✗ GPT分析器初始化失败: {e}")
         enable_gpt = False
 
+# 初始化黑名单管理器
+blacklist_manager = None
+try:
+    blacklist_manager = BlacklistManager()
+    logger.info("✓ 黑名单管理器初始化成功")
+except Exception as e:
+    logger.error(f"✗ 黑名单管理器初始化失败: {e}")
+    blacklist_manager = None
+
 
 def process_cve(cve_id: str, repo: Dict, engine) -> Dict:
     """
@@ -66,8 +76,15 @@ def process_cve(cve_id: str, repo: Dict, engine) -> Dict:
         repo_name = repo.get('name', '')
         repo_description = repo.get('description', '')
         repo_full_name = repo.get('full_name', '')
-        
+
         logger.info(f"开始处理仓库: {repo_full_name}")
+
+        # 黑名单检查
+        if blacklist_manager:
+            allowed, reason = blacklist_manager.check_repository(repo)
+            if not allowed:
+                logger.warning(f"⚫ 仓库已被黑名单拦截: {repo_full_name} - {reason}")
+                return result
 
         # 检查仓库是否已存在
         repo_data = engine.query(Repository).filter(Repository.github_id == repo['id']).order_by(Repository.id.desc()).first()
@@ -194,6 +211,34 @@ def process_cve(cve_id: str, repo: Dict, engine) -> Dict:
                 logger.info(f'生成分析报告: {filepath}')
             elif analyzer_result['success'] and not analyzer_result['pass_quality_check']:
                 logger.warning(f"✗ GPT分析完成但未通过质量检查: {'; '.join(analyzer_result['fail_reasons'])}")
+
+                # 记录质量检查失败,可能触发自动拉黑
+                if blacklist_manager:
+                    data = analyzer_result.get('data', {})
+                    quality_score = data.get('poc_quality')
+                    poisoning_risk = data.get('poisoning_risk')
+
+                    # 提取数值
+                    import re
+                    quality_val = None
+                    risk_val = None
+
+                    if quality_score is not None:
+                        quality_match = re.search(r'(\d+)', str(quality_score))
+                        if quality_match:
+                            quality_val = int(quality_match.group(1))
+
+                    if poisoning_risk is not None:
+                        risk_match = re.search(r'(\d+)', str(poisoning_risk))
+                        if risk_match:
+                            risk_val = int(risk_match.group(1))
+
+                    blacklist_manager.record_quality_check_failure(
+                        repo,
+                        quality_val,
+                        risk_val,
+                        analyzer_result['fail_reasons']
+                    )
             else:
                 logger.error(f"✗ GPT分析失败: {analyzer_result.get('error', '未知错误')}")
                 
@@ -297,7 +342,11 @@ def main():
                     logger.error(f"处理CVE异常: {str(e)} {repo}")
                     logger.debug(traceback.format_exc())
         logger.info("搜索分析完成")
-        
+
+        # 打印黑名单统计信息
+        if blacklist_manager:
+            blacklist_manager.print_statistics()
+
     except Exception as e:
         logger.error(f"程序执行异常: {traceback.format_exc()}")
         sys.exit(1)
