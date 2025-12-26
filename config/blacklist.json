@@ -1,7 +1,7 @@
 {
   "$schema": "blacklist-schema.json",
   "version": "1.0.0",
-  "last_updated": "2025-12-26T17:10:47.685529Z",
+  "last_updated": "2025-12-26T20:15:29.770543Z",
   "description": "VulnWatchdog 黑名单配置文件 - 用于过滤低质量POC和恶意仓库",
   "settings": {
     "auto_blacklist_enabled": true,
@@ -264,6 +264,16 @@
         "last_quality_score": 2,
         "last_poisoning_risk": 95,
         "notes": "自动拉黑 - 失败原因: POC质量过低: 2/10, 投毒风险过高: 95%"
+      },
+      {
+        "username": "Ak-cybe",
+        "reason": "POC质量持续过低(最近评分: 2/10)",
+        "added_date": "2025-12-26",
+        "added_by": "auto",
+        "fail_count": 1,
+        "last_quality_score": 2,
+        "last_poisoning_risk": 5,
+        "notes": "自动拉黑 - 失败原因: POC质量过低: 2"
       }
     ],
     "repositories": [
@@ -299,11 +309,11 @@
     "repositories": []
   },
   "statistics": {
-    "total_blocked": 25,
-    "blocked_by_author": 24,
+    "total_blocked": 44,
+    "blocked_by_author": 43,
     "blocked_by_repository": 1,
     "blocked_by_cve": 0,
-    "auto_blacklisted_authors": 24,
+    "auto_blacklisted_authors": 25,
     "auto_blacklisted_repositories": 0
   }
 }
