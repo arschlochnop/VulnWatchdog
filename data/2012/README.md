@@ -1,6 +1,6 @@
 # 2012年 CVE漏洞列表
 
-> 📊 共收录 **21** 个CVE漏洞
+> 📊 共收录 **22** 个CVE漏洞
 
 ---
 
@@ -28,7 +28,8 @@
 | [CVE-2012-2982](CVE-2012-2982-cd6629_CVE-2012-2982-Python-PoC.md) | CVE-2012-2982 - Webmin file/show.cgi 命令执行 | ⚪ 高危 | 16 |
 | [CVE-2012-2982](CVE-2012-2982-elliotosama_CVE-2012-2982.md) | CVE-2012-2982-Webmin-命令注入 | ⚪ 高危 | 16 |
 | [CVE-2012-2982](CVE-2012-2982-lpuv_CVE-2012-2982.md) | CVE-2012-2982-Webmin-命令注入 | ⚪ 高危 | 16 |
-| [CVE-2012-4869](CVE-2012-4869-bitc0de_Elastix-Remote-Code-Execution.md) | CVE-2012-4869-FreePBX-远程命令执行 | ⚪ 高危 | 1 |
+| [CVE-2012-4869](CVE-2012-4869-bitc0de_Elastix-Remote-Code-Execution.md) | CVE-2012-4869-FreePBX-远程命令执行 | ⚪ 高危 | 2 |
+| [CVE-2012-4869](CVE-2012-4869-cyberdesu_Elastix-2.2.0-CVE-2012-4869.md) | CVE-2012-4869-FreePBX-远程命令执行 | ⚪ 高危 | 2 |
 
 ---
 
@@ -40,4 +41,4 @@
 
 ---
 
-*最后更新: 2025-12-25*
+*最后更新: 2025-12-26*

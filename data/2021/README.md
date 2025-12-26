@@ -1,6 +1,6 @@
 # 2021年 CVE漏洞列表
 
-> 📊 共收录 **530** 个CVE漏洞
+> 📊 共收录 **546** 个CVE漏洞
 
 ---
 
@@ -133,7 +133,8 @@
 | [CVE-2021-23017](CVE-2021-23017-moften_CVE-2021-23017.md) | CVE-2021-23017-Nginx Resolver 内存覆盖 | ⚪ 中危 | 8 |
 | [CVE-2021-23017](CVE-2021-23017-niandy_nginx-patch.md) | CVE-2021-23017-Nginx Resolver Memory Overwrite | ⚪ 高危 | 8 |
 | [CVE-2021-23017](CVE-2021-23017-z3usx01_CVE-2021-23017-POC.md) | CVE-2021-23017-Nginx Resolver 1-byte内存覆盖 | ⚪ 中危 | 8 |
-| [CVE-2021-24006](CVE-2021-24006-cnetsec_CVE-2021-24006.md) | CVE-2021-24006 - FortiManager 权限绕过 | ⚪ 中危 | 1 |
+| [CVE-2021-24006](CVE-2021-24006-cnetsec_CVE-2021-24006-Fortimanager-Exploit.md) | CVE-2021-24006 - FortiManager 权限绕过 | ⚪ 中危 | 2 |
+| [CVE-2021-24006](CVE-2021-24006-cnetsec_CVE-2021-24006.md) | CVE-2021-24006 - FortiManager 权限绕过 | ⚪ 中危 | 2 |
 | [CVE-2021-24019](CVE-2021-24019-cnetsec_CVE-2021-24019.md) | CVE-2021-24019 - FortiClientEMS 会话过期不足漏洞 | ⚪ 高危 | 1 |
 | [CVE-2021-24762](CVE-2021-24762-c4cnm_Exploit_CVE-2021-24762.md) | CVE-2021-24762-Perfect Survey-SQL注入 | ⚪ 高危 | 1 |
 | [CVE-2021-25646](CVE-2021-25646-1n7erface_PocList.md) | CVE-2021-25646-Apache Druid-RCE | ⚪ 高危 | 10 |
@@ -179,7 +180,8 @@
 | [CVE-2021-27905](CVE-2021-27905-RIZZZIOM_CVE-2021-27905.md) | CVE-2021-27905 - Apache Solr SSRF | ⚪ 高危 | 4 |
 | [CVE-2021-27905](CVE-2021-27905-W2Ning_Solr-SSRF.md) | CVE-2021-27905-Apache Solr-SSRF | ⚪ 高危 | 4 |
 | [CVE-2021-27905](CVE-2021-27905-murataydemir_CVE-2021-27905.md) | CVE-2021-27905 Apache Solr ReplicationHandler SSRF | ⚪ 高危 | 4 |
-| [CVE-2021-29425](CVE-2021-29425-arsalanraja987_java-cve-2021-29425-tika-xxe.md) | CVE-2021-29425-Apache Commons IO-路径遍历 | ⚪ 中危 | 1 |
+| [CVE-2021-29425](CVE-2021-29425-arsalanraja987_java-cve-2021-29425-tika-xxe.md) | CVE-2021-29425-Apache Commons IO-路径遍历 | ⚪ 中危 | 2 |
+| [CVE-2021-29425](CVE-2021-29425-shoucheng3_asf__commons-io_CVE-2021-29425_2-6.md) | CVE-2021-29425-Apache Commons IO-路径遍历 | ⚪ 中危 | 2 |
 | [CVE-2021-29427](CVE-2021-29427-arsalanraja987_gradle-cve-2021-29427-demo.md) | CVE-2021-29427-Gradle依赖投毒 | ⚪ 高危 | 1 |
 | [CVE-2021-29447](CVE-2021-29447-0xRar_CVE-2021-29447-PoC.md) | CVE-2021-29447-WordPress-XXE | ⚪ 高危 | 18 |
 | [CVE-2021-29447](CVE-2021-29447-0xricksanchez_CVE-2021-29447.md) | CVE-2021-29447 - WordPress Authenticated XXE attack in Media... | ⚪ 高危 | 18 |
@@ -199,7 +201,8 @@
 | [CVE-2021-29447](CVE-2021-29447-specializzazione-cyber-security_demo-CVE-2021-29447-lezione.md) | CVE-2021-29447-WordPress-XXE | ⚪ 高危 | 18 |
 | [CVE-2021-29447](CVE-2021-29447-thomas-osgood_CVE-2021-29447.md) | CVE-2021-29447-WordPress-XXE | ⚪ 高危 | 18 |
 | [CVE-2021-29447](CVE-2021-29447-viardant_CVE-2021-29447.md) | CVE-2021-29447-WordPress-XXE | ⚪ 高危 | 18 |
-| [CVE-2021-29505](CVE-2021-29505-cuijiung_xstream-CVE-2021-29505.md) | CVE-2021-29505 - XStream Remote Command Execution | ⚪ 高危 | 1 |
+| [CVE-2021-29505](CVE-2021-29505-MyBlackManba_CVE-2021-29505.md) | CVE-2021-29505 - XStream Remote Command Execution | ⚪ 高危 | 2 |
+| [CVE-2021-29505](CVE-2021-29505-cuijiung_xstream-CVE-2021-29505.md) | CVE-2021-29505 - XStream Remote Command Execution | ⚪ 高危 | 2 |
 | [CVE-2021-30047](CVE-2021-30047-AndreyFreitass_CVE-2021-30047.md) | CVE-2021-30047-vsftpd-拒绝服务 | ⚪ 中危 | 4 |
 | [CVE-2021-30047](CVE-2021-30047-Andreyfreis_CVE-2021-30047.md) | CVE-2021-30047-vsftpd-DoS | ⚪ 高危 | 4 |
 | [CVE-2021-30047](CVE-2021-30047-Andreyft7_CVE-2021-30047.md) | CVE-2021-30047 - VSFTPD Denial of Service | ⚪ 高危 | 4 |
@@ -207,7 +210,8 @@
 | [CVE-2021-3007](CVE-2021-3007-KrE80r_cve-2021-3007-vulnerable.md) | CVE-2021-3007 - Zend Framework 反序列化RCE | 🔴 Critical | 3 |
 | [CVE-2021-3007](CVE-2021-3007-Vulnmachines_ZF3_CVE-2021-3007.md) | CVE-2021-3007 - Zend Framework 反序列化漏洞 | ⚪ 高危 | 3 |
 | [CVE-2021-3007](CVE-2021-3007-yunus-a1i_CVE-2021-3007-docker-poc.md) | CVE-2021-3007 - Laminas/Zend HTTP Deserialization RCE | 🔴 Critical | 3 |
-| [CVE-2021-30180](CVE-2021-30180-shoucheng3_apache__dubbo_CVE-2021-30180_2-7-9.md) | CVE-2021-30180 Apache Dubbo RCE via Condition route poisonin... | ⚪ 高危 | 1 |
+| [CVE-2021-30180](CVE-2021-30180-shoucheng3_apache__dubbo_CVE-2021-30180_2-7-9.md) | CVE-2021-30180 Apache Dubbo RCE via Condition route poisonin... | ⚪ 高危 | 2 |
+| [CVE-2021-30180](CVE-2021-30180-shoucheng3_apache__dubbo_CVE-2021-30180_2.7.9.md) | CVE-2021-30180 Apache Dubbo RCE via Condition route poisonin... | ⚪ 高危 | 2 |
 | [CVE-2021-30181](CVE-2021-30181-shoucheng3_apache__incubator-dubbo_CVE-2021-30181_2-6-8.md) | CVE-2021-30181-Apache Dubbo-RCE | ⚪ 高危 | 1 |
 | [CVE-2021-30809](CVE-2021-30809-seregonwar_CVE-2021-30809-UAF.md) | CVE-2021-30809 - Apple WebKit Use-After-Free | ⚪ 高危 | 1 |
 | [CVE-2021-30862](CVE-2021-30862-3h6-1_CVE-2021-30862.md) | CVE-2021-30862-iTunes U-XSS | ⚪ 中危 | 1 |
@@ -271,8 +275,10 @@
 | [CVE-2021-32099](CVE-2021-32099-l3eol3eo_CVE-2021-32099_SQLi.md) | CVE-2021-32099 - Artica Pandora FMS SQL 注入导致登录绕过 | ⚪ 高危 | 4 |
 | [CVE-2021-32099](CVE-2021-32099-magicrc_CVE-2021-32099.md) | CVE-2021-32099-Artica Pandora FMS-SQL注入 | ⚪ 高危 | 4 |
 | [CVE-2021-32099](CVE-2021-32099-zjicmDarkWing_CVE-2021-32099.md) | CVE-2021-32099-Pandora FMS-SQL注入 | ⚪ 高危 | 4 |
-| [CVE-2021-33026](CVE-2021-33026-CarlosG13_CVE-2021-33026.md) | CVE-2021-33026 - Flask-Caching Pickle 反序列化导致远程代码执行 | ⚪ 高危 | 1 |
-| [CVE-2021-34371](CVE-2021-34371-tavgar_CVE-2021-34371.md) | CVE-2021-34371-Neo4j-RMI反序列化远程代码执行 | ⚪ 高危 | 1 |
+| [CVE-2021-33026](CVE-2021-33026-Agilevatester_FlaskCache_CVE-2021-33026_POC.md) | CVE-2021-33026 - Flask-Caching Pickle 反序列化导致远程代码执行 | ⚪ 高危 | 2 |
+| [CVE-2021-33026](CVE-2021-33026-CarlosG13_CVE-2021-33026.md) | CVE-2021-33026 - Flask-Caching Pickle 反序列化导致远程代码执行 | ⚪ 高危 | 2 |
+| [CVE-2021-34371](CVE-2021-34371-tavgar_CVE-2021-34371.md) | CVE-2021-34371-Neo4j-RMI反序列化远程代码执行 | ⚪ 高危 | 2 |
+| [CVE-2021-34371](CVE-2021-34371-zwjjustdoit_CVE-2021-34371.jar.md) | CVE-2021-34371-Neo4j-RMI反序列化远程代码执行 | ⚪ 高危 | 2 |
 | [CVE-2021-34527](CVE-2021-34527-0xirison_PrintNightmare-Patcher.md) | CVE-2021-34527 PrintNightmare | ⚪ 高危 | 17 |
 | [CVE-2021-34527](CVE-2021-34527-Amaranese_CVE-2021-34527.md) | CVE-2021-34527 - PrintNightmare | ⚪ 高危 | 17 |
 | [CVE-2021-34527](CVE-2021-34527-Eutectico_Printnightmare.md) | CVE-2021-34527 PrintNightmare | ⚪ 高危 | 17 |
@@ -333,8 +339,10 @@
 | [CVE-2021-3560](CVE-2021-3560-pashayogi_ROOT-CVE-2021-3560.md) | CVE-2021-3560-Polkit-本地提权 | ⚪ 高危 | 27 |
 | [CVE-2021-3560](CVE-2021-3560-secnigma_CVE-2021-3560-Polkit-Privilege-Esclation.md) | CVE-2021-3560-Polkit权限提升 | ⚪ 高危 | 27 |
 | [CVE-2021-3560](CVE-2021-3560-titusG85_SideWinder-Exploit.md) | CVE-2021-3560 Polkit 权限提升 | ⚪ 高危 | 27 |
-| [CVE-2021-38003](CVE-2021-38003-SpiralBL0CK_Chrome-V8-RCE-CVE-2021-38003.md) | CVE-2021-38003 - Chrome V8 堆损坏 | ⚪ 高危 | 1 |
-| [CVE-2021-38163](CVE-2021-38163-core1impact_CVE-2021-38163.md) | CVE-2021-38163 - SAP NetWeaver Visual Composer Unrestricted ... | ⚪ 高危 | 1 |
+| [CVE-2021-38003](CVE-2021-38003-SpiralBL0CK_Chrome-V8-RCE-CVE-2021-38003.md) | CVE-2021-38003 - Chrome V8 堆损坏 | ⚪ 高危 | 2 |
+| [CVE-2021-38003](CVE-2021-38003-caffeinedoom_CVE-2021-38003.md) | CVE-2021-38003 - Chrome V8 堆损坏 | ⚪ 高危 | 2 |
+| [CVE-2021-38163](CVE-2021-38163-core1impact_CVE-2021-38163.md) | CVE-2021-38163 - SAP NetWeaver Visual Composer Unrestricted ... | ⚪ 高危 | 2 |
+| [CVE-2021-38163](CVE-2021-38163-purpleteam-ru_CVE-2021-38163.md) | CVE-2021-38163 - SAP NetWeaver Visual Composer Unrestricted ... | ⚪ 高危 | 2 |
 | [CVE-2021-4034](CVE-2021-4034-12bijaya_CVE-2021-4034-PwnKit-.md) | CVE-2021-4034-Polkit-pkexec本地提权 | ⚪ 高危 | 33 |
 | [CVE-2021-4034](CVE-2021-4034-ASG-CASTLE_CVE-2021-4034.md) | CVE-2021-4034 - Polkit pkexec 本地提权 | ⚪ 高危 | 33 |
 | [CVE-2021-4034](CVE-2021-4034-BugVex_Poison-HTB-Report.md) | CVE-2021-4034 - Polkit pkexec 本地提权 | ⚪ 高危 | 33 |
@@ -382,7 +390,8 @@
 | [CVE-2021-40964](CVE-2021-40964-Z3R0-0x30_CVE-2021-40964.md) | CVE-2021-40964 - Tiny File Manager 路径遍历导致远程代码执行 | ⚪ 高危 | 1 |
 | [CVE-2021-4104](CVE-2021-4104-cuijiung_log4j-CVE-2021-4104.md) | CVE-2021-4104 - Apache Log4j 1.2 JMSAppender 反序列化漏洞 | ⚪ 高危 | 2 |
 | [CVE-2021-4104](CVE-2021-4104-open-AIMS_log4j.md) | CVE-2021-4104-Apache Log4j 1.2 JMSAppender反序列化漏洞 | ⚪ 高危 | 2 |
-| [CVE-2021-41163](CVE-2021-41163-ibrahmsql_discourse-CVE-2021-41163.md) | CVE-2021-41163-Discourse-RCE | ⚪ 高危 | 1 |
+| [CVE-2021-41163](CVE-2021-41163-ibrahmsql_CVE-2021-41163.md) | CVE-2021-41163-Discourse-RCE | ⚪ 高危 | 2 |
+| [CVE-2021-41163](CVE-2021-41163-ibrahmsql_discourse-CVE-2021-41163.md) | CVE-2021-41163-Discourse-RCE | ⚪ 高危 | 2 |
 | [CVE-2021-41269](CVE-2021-41269-shoucheng3_jmrozanec__cron-utils_CVE-2021-41269_9-1-5.md) | CVE-2021-41269-cron-utils-远程代码执行 | ⚪ 高危 | 1 |
 | [CVE-2021-41617](CVE-2021-41617-AdnanApriliyansyahh_CVE-2021-41617.md) | CVE-2021-41617-OpenSSH-权限提升 | ⚪ 中危 | 1 |
 | [CVE-2021-41773](CVE-2021-41773-0xGabe_Apache-CVEs.md) | CVE-2021-41773 - Apache HTTP Server Path Traversal and Remot... | ⚪ 高危 | 42 |
@@ -447,13 +456,18 @@
 | [CVE-2021-42013](CVE-2021-42013-viliuspovilaika_cve-2021-42013.md) | CVE-2021-42013 Apache HTTP Server Path Traversal and Remote ... | ⚪ 高危 | 19 |
 | [CVE-2021-42013](CVE-2021-42013-vudala_CVE-2021-42013.md) | CVE-2021-42013-Apache HTTP Server-路径遍历和远程代码执行 | ⚪ 高危 | 19 |
 | [CVE-2021-42013](CVE-2021-42013-walnutsecurity_cve-2021-42013.md) | CVE-2021-42013 - Apache HTTP Server Path Traversal 和 Remote ... | ⚪ 高危 | 19 |
-| [CVE-2021-42362](CVE-2021-42362-samiba6_CVE-2021-42362.md) | CVE-2021-42362-WordPress Popular Posts-任意文件上传 | ⚪ 高危 | 1 |
-| [CVE-2021-42392](CVE-2021-42392-Be-Innova_CVE-2021-42392-exploit-lab.md) | CVE-2021-42392-H2数据库-JNDI注入/远程代码执行 | ⚪ 高危 | 1 |
-| [CVE-2021-42694](CVE-2021-42694-k271266_CVE-2021-42694.md) | CVE-2021-42694-Unicode 欺骗 | ⚪ 高危 | 1 |
-| [CVE-2021-43008](CVE-2021-43008-p0dalirius_CVE-2021-43008-AdminerRead.md) | CVE-2021-43008-Adminer-任意文件读取 | ⚪ 高危 | 1 |
+| [CVE-2021-42362](CVE-2021-42362-samiba6_CVE-2021-42362.md) | CVE-2021-42362-WordPress Popular Posts-任意文件上传 | ⚪ 高危 | 2 |
+| [CVE-2021-42362](CVE-2021-42362-simonecris_CVE-2021-42362-PoC.md) | CVE-2021-42362-WordPress Popular Posts-任意文件上传 | ⚪ 高危 | 2 |
+| [CVE-2021-42392](CVE-2021-42392-Be-Innova_CVE-2021-42392-exploit-lab.md) | CVE-2021-42392-H2数据库-JNDI注入/远程代码执行 | ⚪ 高危 | 2 |
+| [CVE-2021-42392](CVE-2021-42392-cybersecurityworks553_CVE-2021-42392-Detect.md) | CVE-2021-42392-H2数据库-JNDI注入/远程代码执行 | ⚪ 高危 | 2 |
+| [CVE-2021-42694](CVE-2021-42694-k271266_CVE-2021-42694.md) | CVE-2021-42694-Unicode 欺骗 | ⚪ 高危 | 2 |
+| [CVE-2021-42694](CVE-2021-42694-simplylu_CVE-2021-42694.md) | CVE-2021-42694-Unicode 欺骗 | ⚪ 高危 | 2 |
+| [CVE-2021-43008](CVE-2021-43008-DaturaSaturated_Adminer-CVE-2021-43008.md) | CVE-2021-43008-Adminer-任意文件读取 | ⚪ 高危 | 2 |
+| [CVE-2021-43008](CVE-2021-43008-p0dalirius_CVE-2021-43008-AdminerRead.md) | CVE-2021-43008-Adminer-任意文件读取 | ⚪ 高危 | 2 |
 | [CVE-2021-43267](CVE-2021-43267-DarkSprings_CVE-2021-43267-POC.md) | CVE-2021-43267-Linux Kernel TIPC MSG_CRYPTO Stack Overflow | ⚪ 高危 | 2 |
 | [CVE-2021-43267](CVE-2021-43267-YunchoHang_CVE-2021-43267.md) | CVE-2021-43267-Linux Kernel TIPC-栈溢出 | ⚪ 高危 | 2 |
-| [CVE-2021-4374](CVE-2021-4374-Pranjal6955_cve-2021-4374-test.md) | CVE-2021-4374-WordPress Automatic Plugin-任意选项更新 | ⚪ 高危 | 1 |
+| [CVE-2021-4374](CVE-2021-4374-Pranjal6955_CVE-2021-4374-Testing-Package.md) | CVE-2021-4374-WordPress Automatic Plugin-任意选项更新 | ⚪ 高危 | 2 |
+| [CVE-2021-4374](CVE-2021-4374-Pranjal6955_cve-2021-4374-test.md) | CVE-2021-4374-WordPress Automatic Plugin-任意选项更新 | ⚪ 高危 | 2 |
 | [CVE-2021-43798](CVE-2021-43798-0xSAZZAD_Grafana-CVE-2021-43798.md) | CVE-2021-43798 - Grafana 目录遍历和密码解密 | ⚪ 高危 | 29 |
 | [CVE-2021-43798](CVE-2021-43798-A-D-Team_grafanaExp.md) | CVE-2021-43798 Grafana 目录遍历漏洞 | ⚪ 高危 | 29 |
 | [CVE-2021-43798](CVE-2021-43798-Bouquets-ai_CVE-2021-43798.md) | CVE-2021-43798-Grafana-目录遍历 | ⚪ 高危 | 29 |
@@ -486,7 +500,8 @@
 | [CVE-2021-43857](CVE-2021-43857-G4sp4rCS_CVE-2021-43857-POC.md) | CVE-2021-43857-Gerapy-远程代码执行 | ⚪ 高危 | 3 |
 | [CVE-2021-43857](CVE-2021-43857-LongWayHomie_CVE-2021-43857.md) | CVE-2021-43857-Gerapy-远程代码执行 | ⚪ 严重 | 3 |
 | [CVE-2021-43857](CVE-2021-43857-lowkey0808_CVE-2021-43857.md) | CVE-2021-43857-Gerapy-远程代码执行 | ⚪ 高危 | 3 |
-| [CVE-2021-44026](CVE-2021-44026-skyllpro_CVE-2021-44026-PoC.md) | CVE-2021-44026-Roundcube-SQL注入 | ⚪ 高危 | 1 |
+| [CVE-2021-44026](CVE-2021-44026-pentesttoolscom_roundcube-cve-2021-44026.md) | CVE-2021-44026-Roundcube-SQL注入 | ⚪ 高危 | 2 |
+| [CVE-2021-44026](CVE-2021-44026-skyllpro_CVE-2021-44026-PoC.md) | CVE-2021-44026-Roundcube-SQL注入 | ⚪ 高危 | 2 |
 | [CVE-2021-44142](CVE-2021-44142-WinDyAlphA_CVE-2021-44142-vulnerable-lab.md) | CVE-2021-44142-Samba vfs_fruit 模块堆溢出 | ⚪ 高危 | 3 |
 | [CVE-2021-44142](CVE-2021-44142-horizon3ai_CVE-2021-44142.md) | CVE-2021-44142-Samba-vfs_fruit-堆溢出 | ⚪ 高危 | 3 |
 | [CVE-2021-44142](CVE-2021-44142-hrsman_Samba-CVE-2021-44142.md) | CVE-2021-44142-Samba-vfs_fruit模块堆溢出 | ⚪ 高危 | 3 |
@@ -531,7 +546,8 @@
 | [CVE-2021-44228](CVE-2021-44228-winnpixie_log4noshell.md) | CVE-2021-44228 Log4Shell | ⚪ 严重 | 41 |
 | [CVE-2021-44228](CVE-2021-44228-x1ongsec_CVE-2021-44228-Log4j-JNDI.md) | CVE-2021-44228-Log4Shell | ⚪ 高危 | 41 |
 | [CVE-2021-44228](CVE-2021-44228-yadavmukesh_Log4Shell-vulnerability-CVE-2021-44228-.md) | CVE-2021-44228-Log4Shell | ⚪ 高危 | 41 |
-| [CVE-2021-4428](CVE-2021-4428-CERT-hr_Log4Shell.md) | CVE-2021-4428 - what3words Autosuggest Plugin 信息泄露 | ⚪ 低危 | 1 |
+| [CVE-2021-4428](CVE-2021-4428-CERT-hr_Log4Shell.md) | CVE-2021-4428 - what3words Autosuggest Plugin 信息泄露 | ⚪ 低危 | 2 |
+| [CVE-2021-4428](CVE-2021-4428-GianlucaSanfi_cve-2021-4428.md) | CVE-2021-4428 - what3words Autosuggest Plugin 信息泄露 | ⚪ 低危 | 2 |
 | [CVE-2021-4449](CVE-2021-4449-0xmoner_CVE-2021-4449.md) | CVE-2021-4449 - ZoomSounds WordPress插件未授权任意文件上传漏洞 | ⚪ 高危 | 1 |
 | [CVE-2021-44667](CVE-2021-44667-shoucheng3_alibaba__nacos_CVE-2021-44667_2-0-3.md) | CVE-2021-44667-Nacos-XSS | ⚪ 中危 | 1 |
 | [CVE-2021-44910](CVE-2021-44910-W000i_CVE-2021-44910_SpringBlade.md) | CVE-2021-44910-SpringBlade信息泄露 | ⚪ 中危 | 1 |
@@ -549,4 +565,4 @@
 
 ---
 
-*最后更新: 2025-12-25*
+*最后更新: 2025-12-26*

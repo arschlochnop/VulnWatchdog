@@ -1,6 +1,6 @@
 # 2018年 CVE漏洞列表
 
-> 📊 共收录 **327** 个CVE漏洞
+> 📊 共收录 **332** 个CVE漏洞
 
 ---
 
@@ -79,7 +79,8 @@
 | [CVE-2018-11776](CVE-2018-11776-tuxotron_cve-2018-11776-docker.md) | CVE-2018-11776-Apache Struts2-远程代码执行 | ⚪ 高危 | 16 |
 | [CVE-2018-11776](CVE-2018-11776-xfox64x_CVE-2018-11776.md) | CVE-2018-11776 - Apache Struts Remote Code Execution | ⚪ 高危 | 16 |
 | [CVE-2018-12036](CVE-2018-12036-shoucheng3_jeremylong__DependencyCheck_CVE-2018-12036_3-1-2.md) | CVE-2018-12036-OWASP Dependency-Check-Zip Slip | ⚪ 高危 | 1 |
-| [CVE-2018-1207](CVE-2018-1207-mgargiullo_cve-2018-1207.md) | CVE-2018-1207-Dell iDRAC7/iDRAC8 CGI 注入 | ⚪ 高危 | 1 |
+| [CVE-2018-1207](CVE-2018-1207-SYNKTeam_CVE-2018-1207.md) | CVE-2018-1207-Dell iDRAC7/iDRAC8 CGI 注入 | ⚪ 高危 | 2 |
+| [CVE-2018-1207](CVE-2018-1207-mgargiullo_cve-2018-1207.md) | CVE-2018-1207-Dell iDRAC7/iDRAC8 CGI 注入 | ⚪ 高危 | 2 |
 | [CVE-2018-12533](CVE-2018-12533-Pastea_CVE-2018-12533.md) | CVE-2018-12533-JBoss RichFaces-EL表达式注入 | ⚪ 高危 | 2 |
 | [CVE-2018-12533](CVE-2018-12533-llamaonsecurity_CVE-2018-12533.md) | CVE-2018-12533-RichFaces-EL表达式注入 | ⚪ 高危 | 2 |
 | [CVE-2018-12542](CVE-2018-12542-shoucheng3_vert-x3__vertx-web_CVE-2018-12542_3-5-3-CR1.md) | CVE-2018-12542-Eclipse Vert.x-路径遍历 | ⚪ 中危 | 1 |
@@ -101,7 +102,8 @@
 | [CVE-2018-13379](CVE-2018-13379-pwn3z_CVE-2018-13379-FortinetVPN.md) | CVE-2018-13379-FortinetVPN 路径遍历 | ⚪ 高危 | 10 |
 | [CVE-2018-13379](CVE-2018-13379-yukar1z0e_CVE-2018-13379.md) | CVE-2018-13379-Fortinet-Path Traversal | ⚪ 高危 | 10 |
 | [CVE-2018-14324](CVE-2018-14324-matejsmycka_CVE-2018-14324-Exploit.md) | CVE-2018-14324 - Oracle GlassFish Open Source Edition JMX RM... | ⚪ 高危 | 1 |
-| [CVE-2018-14498](CVE-2018-14498-h31md4llr_libjpeg_cve-2018-14498_2.md) | CVE-2018-14498-libjpeg-turbo/MozJPEG-堆缓冲区过读 | ⚪ 中危 | 1 |
+| [CVE-2018-14498](CVE-2018-14498-h31md4llr_libjpeg_cve-2018-14498.md) | CVE-2018-14498-libjpeg-turbo/MozJPEG-堆缓冲区过读 | ⚪ 中危 | 2 |
+| [CVE-2018-14498](CVE-2018-14498-h31md4llr_libjpeg_cve-2018-14498_2.md) | CVE-2018-14498-libjpeg-turbo/MozJPEG-堆缓冲区过读 | ⚪ 中危 | 2 |
 | [CVE-2018-14714](CVE-2018-14714-BTtea_CVE-2018-14714-RCE-exploit.md) | CVE-2018-14714-ASUS RT-AC3200-命令注入 | ⚪ 高危 | 3 |
 | [CVE-2018-14714](CVE-2018-14714-sunn1day_CVE-2018-14714-POC.md) | CVE-2018-14714-ASUS RT-AC3200 命令注入 | ⚪ 高危 | 3 |
 | [CVE-2018-14714](CVE-2018-14714-tin-z_CVE-2018-14714-POC.md) | CVE-2018-14714-ASUS RT-AC3200 appGet.cgi 命令注入 | ⚪ 高危 | 3 |
@@ -181,7 +183,8 @@
 | [CVE-2018-17179](CVE-2018-17179-CyberQuestor-infosec_CVE-2018-17179-OpenEMR.md) | CVE-2018-17179-OpenEMR-SQL注入 | ⚪ 高危 | 1 |
 | [CVE-2018-17229](CVE-2018-17229-zeeshangondal_c-cpp_CVE-2018-17229.md) | CVE-2018-17229-Exiv2-堆缓冲区溢出 | ⚪ 高危 | 1 |
 | [CVE-2018-17297](CVE-2018-17297-shoucheng3_dromara__hutool_CVE-2018-17297_4-1-11.md) | CVE-2018-17297-Hutool-目录遍历 | ⚪ 高危 | 1 |
-| [CVE-2018-18441](CVE-2018-18441-bayazid-bit_CVE-2018-18441-exploit.md) | CVE-2018-18441-D-Link DCS系列摄像头信息泄露 | ⚪ 中危 | 1 |
+| [CVE-2018-18441](CVE-2018-18441-AIDENTHOMASboi_CVE-2018-18441-exploit.md) | CVE-2018-18441-D-Link DCS系列摄像头信息泄露 | ⚪ 中危 | 2 |
+| [CVE-2018-18441](CVE-2018-18441-bayazid-bit_CVE-2018-18441-exploit.md) | CVE-2018-18441-D-Link DCS系列摄像头信息泄露 | ⚪ 中危 | 2 |
 | [CVE-2018-19207](CVE-2018-19207-Pwdnx1337_CVE-2018-19207.md) | CVE-2018-19207-WP GDPR Compliance-远程代码执行 | ⚪ 高危 | 2 |
 | [CVE-2018-19207](CVE-2018-19207-cved-sources_cve-2018-19207.md) | CVE-2018-19207-WP GDPR Compliance-远程代码执行 | ⚪ 高危 | 2 |
 | [CVE-2018-19323](CVE-2018-19323-blueisbeautiful_CVE-2018-19323.md) | CVE-2018-19323: GIGABYTE GDrv MSR 任意读写导致权限提升 | ⚪ 高危 | 1 |
@@ -301,8 +304,10 @@
 | [CVE-2018-7600](CVE-2018-7600-zhzyker_CVE-2018-7600-Drupal-POC-EXP.md) | CVE-2018-7600-Drupal-RCE | ⚪ 高危 | 33 |
 | [CVE-2018-7750](CVE-2018-7750-jm33-m0_CVE-2018-7750.md) | CVE-2018-7750-Paramiko-Authentication Bypass | ⚪ 高危 | 2 |
 | [CVE-2018-7750](CVE-2018-7750-tlavi00_CVE-2018-7750.md) | CVE-2018-7750 - Paramiko Authentication Bypass | ⚪ 高危 | 2 |
-| [CVE-2018-8097](CVE-2018-8097-StellarDriftLabs_CVE-2018-8097.md) | CVE-2018-8097 - Eve (pyeve) 代码注入 | ⚪ 高危 | 1 |
-| [CVE-2018-9159](CVE-2018-9159-shoucheng3_perwendel__spark_CVE-2018-9159_2-7-1.md) | CVE-2018-9159-spark-core-文件读取 | ⚪ 中危 | 1 |
+| [CVE-2018-8097](CVE-2018-8097-SilentVoid13_CVE-2018-8097.md) | CVE-2018-8097 - Eve (pyeve) 代码注入 | ⚪ 高危 | 2 |
+| [CVE-2018-8097](CVE-2018-8097-StellarDriftLabs_CVE-2018-8097.md) | CVE-2018-8097 - Eve (pyeve) 代码注入 | ⚪ 高危 | 2 |
+| [CVE-2018-9159](CVE-2018-9159-shoucheng3_perwendel__spark_CVE-2018-9159_2-7-1.md) | CVE-2018-9159-spark-core-文件读取 | ⚪ 中危 | 2 |
+| [CVE-2018-9159](CVE-2018-9159-shoucheng3_perwendel__spark_CVE-2018-9159_2_7_2_fixed.md) | CVE-2018-9159-spark-core-文件读取 | ⚪ 中危 | 2 |
 | [CVE-2018-9206](CVE-2018-9206-Den1al_CVE-2018-9206.md) | CVE-2018-9206 - Blueimp jQuery-File-Upload Unauthenticated A... | ⚪ 高危 | 5 |
 | [CVE-2018-9206](CVE-2018-9206-MikeyPPPPPPPP_CVE-2018-9206.md) | CVE-2018-9206 - Blueimp jQuery File Upload 未授权任意文件上传 | ⚪ 高危 | 5 |
 | [CVE-2018-9206](CVE-2018-9206-Stahlz_JQShell.md) | CVE-2018-9206 - Blueimp jQuery File Upload 未授权任意文件上传 | ⚪ 高危 | 5 |
@@ -346,4 +351,4 @@
 
 ---
 
-*最后更新: 2025-12-25*
+*最后更新: 2025-12-26*
