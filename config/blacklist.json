@@ -1,7 +1,7 @@
 {
   "$schema": "blacklist-schema.json",
   "version": "1.0.0",
-  "last_updated": "2025-12-27T14:13:09.666749Z",
+  "last_updated": "2025-12-27T18:20:03.903776Z",
   "description": "VulnWatchdog 黑名单配置文件 - 用于过滤低质量POC和恶意仓库",
   "settings": {
     "auto_blacklist_enabled": true,
@@ -354,6 +354,26 @@
         "last_quality_score": 2,
         "last_poisoning_risk": 95,
         "notes": "自动拉黑 - 失败原因: POC质量过低: 2/10, 投毒风险过高: 95%"
+      },
+      {
+        "username": "Prodigysec",
+        "reason": "POC质量持续过低(最近评分: 2/10)",
+        "added_date": "2025-12-27",
+        "added_by": "auto",
+        "fail_count": 1,
+        "last_quality_score": 2,
+        "last_poisoning_risk": 5,
+        "notes": "自动拉黑 - 失败原因: POC质量过低: 2/10"
+      },
+      {
+        "username": "Ashwesker",
+        "reason": "POC质量持续过低(最近评分: 1/10)",
+        "added_date": "2025-12-27",
+        "added_by": "auto",
+        "fail_count": 1,
+        "last_quality_score": 1,
+        "last_poisoning_risk": 10,
+        "notes": "自动拉黑 - 失败原因: POC质量过低: 1/10"
       }
     ],
     "repositories": [
@@ -389,11 +409,11 @@
     "repositories": []
   },
   "statistics": {
-    "total_blocked": 95,
-    "blocked_by_author": 94,
+    "total_blocked": 123,
+    "blocked_by_author": 122,
     "blocked_by_repository": 1,
     "blocked_by_cve": 0,
-    "auto_blacklisted_authors": 33,
+    "auto_blacklisted_authors": 35,
     "auto_blacklisted_repositories": 0
   }
 }
