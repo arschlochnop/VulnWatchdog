@@ -1,7 +1,7 @@
 {
   "$schema": "blacklist-schema.json",
   "version": "1.0.0",
-  "last_updated": "2025-12-27T18:20:03.903776Z",
+  "last_updated": "2025-12-27T23:14:20.959256Z",
   "description": "VulnWatchdog 黑名单配置文件 - 用于过滤低质量POC和恶意仓库",
   "settings": {
     "auto_blacklist_enabled": true,
@@ -374,6 +374,16 @@
         "last_quality_score": 1,
         "last_poisoning_risk": 10,
         "notes": "自动拉黑 - 失败原因: POC质量过低: 1/10"
+      },
+      {
+        "username": "Sneden",
+        "reason": "POC质量持续过低(最近评分: 2/10)",
+        "added_date": "2025-12-27",
+        "added_by": "auto",
+        "fail_count": 1,
+        "last_quality_score": 2,
+        "last_poisoning_risk": 0,
+        "notes": "自动拉黑 - 失败原因: POC质量过低: 2/10"
       }
     ],
     "repositories": [
@@ -409,11 +419,11 @@
     "repositories": []
   },
   "statistics": {
-    "total_blocked": 123,
-    "blocked_by_author": 122,
+    "total_blocked": 133,
+    "blocked_by_author": 132,
     "blocked_by_repository": 1,
     "blocked_by_cve": 0,
-    "auto_blacklisted_authors": 35,
+    "auto_blacklisted_authors": 36,
     "auto_blacklisted_repositories": 0
   }
 }
