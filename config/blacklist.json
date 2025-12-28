@@ -1,7 +1,7 @@
 {
   "$schema": "blacklist-schema.json",
   "version": "1.0.0",
-  "last_updated": "2025-12-27T23:14:20.959256Z",
+  "last_updated": "2025-12-28T03:31:40.727765Z",
   "description": "VulnWatchdog 黑名单配置文件 - 用于过滤低质量POC和恶意仓库",
   "settings": {
     "auto_blacklist_enabled": true,
@@ -384,6 +384,16 @@
         "last_quality_score": 2,
         "last_poisoning_risk": 0,
         "notes": "自动拉黑 - 失败原因: POC质量过低: 2/10"
+      },
+      {
+        "username": "MysticalHearts",
+        "reason": "投毒风险持续过高(最近风险: 95%)",
+        "added_date": "2025-12-28",
+        "added_by": "auto",
+        "fail_count": 1,
+        "last_quality_score": 3,
+        "last_poisoning_risk": 95,
+        "notes": "自动拉黑 - 失败原因: 投毒风险过高: 95%"
       }
     ],
     "repositories": [
@@ -419,11 +429,11 @@
     "repositories": []
   },
   "statistics": {
-    "total_blocked": 133,
-    "blocked_by_author": 132,
+    "total_blocked": 141,
+    "blocked_by_author": 140,
     "blocked_by_repository": 1,
     "blocked_by_cve": 0,
-    "auto_blacklisted_authors": 36,
+    "auto_blacklisted_authors": 37,
     "auto_blacklisted_repositories": 0
   }
 }
