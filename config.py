@@ -30,6 +30,12 @@ ENABLE_EXTENDED=True
 # 是否启用仓库更新检测(基于commit SHA)
 ENABLE_UPDATE_CHECK=True
 
+# 是否启用CVE去重推送(同一CVE每天只推送一次)
+ENABLE_CVE_DEDUP=True
+
+# 是否推送仓库更新通知(False=只推送新仓库,True=更新也推送)
+ENABLE_UPDATE_NOTIFY=False
+
 # GitHub API Token 配置说明:
 # 1. GH_TOKEN: 用户手工配置的 Personal Access Token (推荐，5000次/小时)
 # 2. GITHUB_TOKEN: GitHub Actions 自动提供的 Token (1000次/小时)
@@ -70,6 +76,10 @@ def get_config(env: str):
         'ENABLE_EXTENDED': ENABLE_EXTENDED,
         # 更新检测配置
         'ENABLE_UPDATE_CHECK': ENABLE_UPDATE_CHECK,
+        # CVE去重推送配置
+        'ENABLE_CVE_DEDUP': ENABLE_CVE_DEDUP,
+        # 仓库更新推送配置
+        'ENABLE_UPDATE_NOTIFY': ENABLE_UPDATE_NOTIFY,
         # GitHub配置 (优先使用 GH_TOKEN，其次 GITHUB_TOKEN)
         'GITHUB_TOKEN': os.environ.get('GH_TOKEN') or os.environ.get('GITHUB_TOKEN') or GITHUB_TOKEN,
         # 仓库地址

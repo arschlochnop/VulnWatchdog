@@ -31,6 +31,8 @@ enable_notify = get_config('ENABLE_NOTIFY')
 enable_search = get_config('ENABLE_SEARCH')
 enable_extended = get_config('ENABLE_EXTENDED')
 enable_update_check = get_config('ENABLE_UPDATE_CHECK')
+enable_cve_dedup = get_config('ENABLE_CVE_DEDUP')
+enable_update_notify = get_config('ENABLE_UPDATE_NOTIFY')
 
 # 初始化 GPT 分析器
 gpt_analyzer = None
@@ -59,7 +61,7 @@ except Exception as e:
     blacklist_manager = None
 
 
-def process_cve(cve_id: str, repo: Dict, engine) -> Dict:
+def process_cve(cve_id: str, repo: Dict, engine, notified_cves_today: set) -> Dict:
     """
     处理单个CVE信息
     
@@ -292,8 +294,20 @@ def process_cve(cve_id: str, repo: Dict, engine) -> Dict:
 
         # 只有GPT分析成功且当天推送才发送通知
         if enable_notify and push_today and gpt_results:
-            logger.info("发送通知")
-            send_webhook(result)
+            # 检查1: 仓库更新推送开关
+            if action_log == 'update' and not enable_update_notify:
+                logger.info(f"⊘ 仓库更新不推送通知 (ENABLE_UPDATE_NOTIFY=False): {repo_link}")
+            # 检查2: CVE去重开关
+            elif enable_cve_dedup and cve_id in notified_cves_today:
+                logger.info(f"⊘ CVE今日已推送,跳过重复推送 (ENABLE_CVE_DEDUP=True): {cve_id}")
+            # 通过所有检查,发送通知
+            else:
+                logger.info(f"✓ 发送飞书通知: {cve_id} ({action_log})")
+                send_webhook(result)
+                # 记录已推送的CVE
+                if enable_cve_dedup:
+                    notified_cves_today.add(cve_id)
+                    logger.debug(f"已推送CVE列表更新: {len(notified_cves_today)} 个CVE")
         elif enable_notify and push_today and not gpt_results:
             logger.warning(f"GPT分析失败，跳过通知推送: {repo_link}")
         return result
@@ -311,7 +325,11 @@ def main():
     try:
         query = "CVE-20"
         logger.info(f"开始搜索CVE: {query}")
-        
+
+        # 初始化今日已推送CVE集合(用于去重)
+        notified_cves_today = set()
+        logger.info(f"初始化CVE去重机制: ENABLE_CVE_DEDUP={enable_cve_dedup}, ENABLE_UPDATE_NOTIFY={enable_update_notify}")
+
         # 搜索GitHub仓库
         cve_list, repo_list = search_github(query)
         if not repo_list:
@@ -328,20 +346,28 @@ def main():
                 _, cve_items = search_github(cve_id)
                 for item in cve_items:
                     if cve_id == item['cve_id']:
-                        process_cve(cve_id, item['repo'], engine)
+                        process_cve(cve_id, item['repo'], engine, notified_cves_today)
                 time.sleep(10)
         else:
             # 处理每个仓库
             for repo in repo_list:
-                try:    
+                try:
                     cve_id = repo['cve_id']
                     logger.info(f"处理CVE: {cve_id}")
-                    result = process_cve(cve_id, repo['repo'], engine)
+                    result = process_cve(cve_id, repo['repo'], engine, notified_cves_today)
                     time.sleep(10)
                 except Exception as e:
                     logger.error(f"处理CVE异常: {str(e)} {repo}")
                     logger.debug(traceback.format_exc())
         logger.info("搜索分析完成")
+
+        # 打印推送统计信息
+        logger.info("=" * 50)
+        logger.info(f"📊 本次运行推送统计:")
+        logger.info(f"  - 已推送CVE数量: {len(notified_cves_today)}")
+        if notified_cves_today:
+            logger.info(f"  - 推送CVE列表: {', '.join(sorted(notified_cves_today))}")
+        logger.info("=" * 50)
 
         # 打印黑名单统计信息
         if blacklist_manager:
