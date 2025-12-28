@@ -1,7 +1,7 @@
 {
   "$schema": "blacklist-schema.json",
   "version": "1.0.0",
-  "last_updated": "2025-12-28T12:25:11.169253Z",
+  "last_updated": "2025-12-28T16:17:12.344384Z",
   "description": "VulnWatchdog 黑名单配置文件 - 用于过滤低质量POC和恶意仓库",
   "settings": {
     "auto_blacklist_enabled": true,
@@ -424,6 +424,56 @@
         "last_quality_score": 2,
         "last_poisoning_risk": 95,
         "notes": "自动拉黑 - 失败原因: POC质量过低: 2/10, 投毒风险过高: 95%"
+      },
+      {
+        "username": "Ikram124",
+        "reason": "POC质量持续过低(最近评分: 2/10)",
+        "added_date": "2025-12-28",
+        "added_by": "auto",
+        "fail_count": 1,
+        "last_quality_score": 2,
+        "last_poisoning_risk": 5,
+        "notes": "自动拉黑 - 失败原因: POC质量过低: 2/10"
+      },
+      {
+        "username": "DANO-AMP",
+        "reason": "POC质量持续过低(最近评分: 2/10); 投毒风险持续过高(最近风险: 95%)",
+        "added_date": "2025-12-28",
+        "added_by": "auto",
+        "fail_count": 1,
+        "last_quality_score": 2,
+        "last_poisoning_risk": 95,
+        "notes": "自动拉黑 - 失败原因: POC质量过低: 2/10, 投毒风险过高: 95%"
+      },
+      {
+        "username": "AndreaCicca",
+        "reason": "投毒风险持续过高(最近风险: 100%)",
+        "added_date": "2025-12-28",
+        "added_by": "auto",
+        "fail_count": 1,
+        "last_quality_score": 3,
+        "last_poisoning_risk": 100,
+        "notes": "自动拉黑 - 失败原因: 投毒风险过高: 100%"
+      },
+      {
+        "username": "zpxlz",
+        "reason": "投毒风险持续过高(最近风险: 95%)",
+        "added_date": "2025-12-28",
+        "added_by": "auto",
+        "fail_count": 1,
+        "last_quality_score": 4,
+        "last_poisoning_risk": 95,
+        "notes": "自动拉黑 - 失败原因: 投毒风险过高: 95%"
+      },
+      {
+        "username": "przemoc",
+        "reason": "投毒风险持续过高(最近风险: 100%)",
+        "added_date": "2025-12-28",
+        "added_by": "auto",
+        "fail_count": 1,
+        "last_quality_score": 4,
+        "last_poisoning_risk": 100,
+        "notes": "自动拉黑 - 失败原因: 投毒风险过高: 100%"
       }
     ],
     "repositories": [
@@ -459,11 +509,11 @@
     "repositories": []
   },
   "statistics": {
-    "total_blocked": 208,
-    "blocked_by_author": 207,
+    "total_blocked": 211,
+    "blocked_by_author": 210,
     "blocked_by_repository": 1,
     "blocked_by_cve": 0,
-    "auto_blacklisted_authors": 40,
+    "auto_blacklisted_authors": 45,
     "auto_blacklisted_repositories": 0
   }
 }
