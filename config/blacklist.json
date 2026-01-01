@@ -1,7 +1,7 @@
 {
   "$schema": "blacklist-schema.json",
   "version": "1.0.0",
-  "last_updated": "2026-01-01T11:11:54.732059Z",
+  "last_updated": "2026-01-01T21:12:16.537831Z",
   "description": "VulnWatchdog 黑名单配置文件 - 用于过滤低质量POC和恶意仓库",
   "settings": {
     "auto_blacklist_enabled": true,
@@ -684,6 +684,16 @@
         "last_quality_score": 2,
         "last_poisoning_risk": 10,
         "notes": "自动拉黑 - 失败原因: POC质量过低: 2/10"
+      },
+      {
+        "username": "osmancanvural",
+        "reason": "POC质量持续过低(最近评分: 2/10)",
+        "added_date": "2026-01-01",
+        "added_by": "auto",
+        "fail_count": 1,
+        "last_quality_score": 2,
+        "last_poisoning_risk": 15,
+        "notes": "自动拉黑 - 失败原因: POC质量过低: 2/10"
       }
     ],
     "repositories": [
@@ -719,11 +729,11 @@
     "repositories": []
   },
   "statistics": {
-    "total_blocked": 552,
-    "blocked_by_author": 551,
+    "total_blocked": 558,
+    "blocked_by_author": 557,
     "blocked_by_repository": 1,
     "blocked_by_cve": 0,
-    "auto_blacklisted_authors": 66,
+    "auto_blacklisted_authors": 67,
     "auto_blacklisted_repositories": 0
   }
 }
