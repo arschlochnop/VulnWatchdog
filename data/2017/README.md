@@ -1,6 +1,6 @@
 # 2017年 CVE漏洞列表
 
-> 📊 共收录 **285** 个CVE漏洞
+> 📊 共收录 **294** 个CVE漏洞
 
 ---
 
@@ -88,6 +88,16 @@
 | [CVE-2017-11882](CVE-2017-11882-starnightcyber_CVE-2017-11882.md) | CVE-2017-11882 Microsoft Office 内存破坏漏洞 | ⚪ 高危 | 20 |
 | [CVE-2017-11882](CVE-2017-11882-tzwlhack_CVE-2017-11882.md) | CVE-2017-11882-Microsoft Office Memory Corruption | ⚪ 高危 | 20 |
 | [CVE-2017-11882](CVE-2017-11882-xdrake1010_CVE-2017-11882-Preventer.md) | CVE-2017-11882-Microsoft Office 内存破坏漏洞 | ⚪ 高危 | 20 |
+| [CVE-2017-12149](CVE-2017-12149-1337g_CVE-2017-12149.md) | CVE-2017-12149 - JBoss Application Server RCE (远程代码执行) | 🔴 CRITICAL | 10 |
+| [CVE-2017-12149](CVE-2017-12149-JesseClarkND_CVE-2017-12149.md) | CVE-2017-12149 - JBoss Application Server (WildFly) RCE (远程代... | 🔴 CRITICAL | 10 |
+| [CVE-2017-12149](CVE-2017-12149-MrE-Fog_jboss-_CVE-2017-12149.md) | CVE-2017-12149 - Red Hat JBoss Application Server RCE/反序列化漏洞 | 🔴 CRITICAL | 10 |
+| [CVE-2017-12149](CVE-2017-12149-VVeakee_CVE-2017-12149.md) | CVE-2017-12149 - JBoss Application Server RCE/反序列化漏洞 | ⚪ 高危 | 10 |
+| [CVE-2017-12149](CVE-2017-12149-Xcatolin_jboss-deserialization.md) | CVE-2017-12149 - JBoss Application Server RCE (不安全的反序列化) | 🔴 CRITICAL | 10 |
+| [CVE-2017-12149](CVE-2017-12149-galois17_cve-2017-12149-playground.md) | CVE-2017-12149 - JBoss Application Server Java反序列化/RCE | 🔴 CRITICAL | 10 |
+| [CVE-2017-12149](CVE-2017-12149-jreppiks_CVE-2017-12149.md) | CVE-2017-12149 - JBoss Application Server RCE (远程代码执行) | 🔴 CRITICAL | 10 |
+| [CVE-2017-12149](CVE-2017-12149-sevck_CVE-2017-12149.md) | CVE-2017-12149 - JBoss Application Server 反序列化/RCE | ⚪ 高危 | 10 |
+| [CVE-2017-12149](CVE-2017-12149-yunxu1_jboss-_CVE-2017-12149.md) | CVE-2017-12149 - JBoss Application Server RCE (远程代码执行) | 🔴 CRITICAL | 10 |
+| [CVE-2017-12149](CVE-2017-12149-zesnd_cve-2017-12149.md) | CVE-2017-12149 - Red Hat JBoss Application Server (AS) 反序列化漏... | 🔴 CRITICAL | 10 |
 | [CVE-2017-12542](CVE-2017-12542-VijayShankar22_CVE-2017-12542.md) | CVE-2017-12542-HP iLO 4-身份验证绕过和代码执行 | ⚪ 高危 | 2 |
 | [CVE-2017-12542](CVE-2017-12542-skelsec_CVE-2017-12542.md) | CVE-2017-12542-HPE iLO 4-认证绕过与代码执行 | ⚪ 高危 | 2 |
 | [CVE-2017-12611](CVE-2017-12611-tcetin704_CVE-2017-12611.md) | CVE-2017-12611-Apache Struts-远程代码执行 | ⚪ 高危 | 2 |
@@ -274,8 +284,7 @@
 | [CVE-2017-9248](CVE-2017-9248-cehamod_UI_CVE-2017-9248.md) | CVE-2017-9248 - Telerik UI for ASP.NET AJAX Cryptographic We... | ⚪ 高危 | 6 |
 | [CVE-2017-9248](CVE-2017-9248-ictnamanh_CVE-2017-9248.md) | CVE-2017-9248 - Telerik UI for ASP.NET AJAX Cryptographic We... | ⚪ 高危 | 6 |
 | [CVE-2017-9248](CVE-2017-9248-oldboysonnt_dp.md) | CVE-2017-9248 - Telerik UI for ASP.NET AJAX Cryptographic We... | ⚪ 高危 | 6 |
-| [CVE-2017-9822](CVE-2017-9822-Tnot123_cve-2017-9822.md) | CVE-2017-9822 DotNetNuke Cookie 反序列化 RCE | ⚪ 高危 | 2 |
-| [CVE-2017-9822](CVE-2017-9822-murataydemir_CVE-2017-9822.md) | CVE-2017-9822 DotNetNuke Cookie 反序列化 RCE | ⚪ 高危 | 2 |
+| [CVE-2017-9822](CVE-2017-9822-Tnot123_cve-2017-9822.md) | CVE-2017-9822 DotNetNuke Cookie 反序列化 RCE | ⚪ 高危 | 1 |
 | [CVE-2017-9841](CVE-2017-9841-Chocapikk_CVE-2017-9841.md) | CVE-2017-9841-PHPUnit-远程代码执行 | ⚪ 高危 | 17 |
 | [CVE-2017-9841](CVE-2017-9841-Habibullah1101_PHPUnit-GoScan.md) | CVE-2017-9841 PHPUnit 远程代码执行 | ⚪ 高危 | 17 |
 | [CVE-2017-9841](CVE-2017-9841-K3ysTr0K3R_CVE-2017-9841-EXPLOIT.md) | CVE-2017-9841-PHPUnit远程代码执行 | ⚪ 高危 | 17 |
