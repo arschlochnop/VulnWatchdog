@@ -1,7 +1,7 @@
 {
   "$schema": "blacklist-schema.json",
   "version": "1.0.0",
-  "last_updated": "2026-01-02T06:23:16.855254Z",
+  "last_updated": "2026-01-02T18:21:24.365047Z",
   "description": "VulnWatchdog 黑名单配置文件 - 用于过滤低质量POC和恶意仓库",
   "settings": {
     "auto_blacklist_enabled": true,
@@ -744,6 +744,16 @@
         "last_quality_score": 2,
         "last_poisoning_risk": 5,
         "notes": "自动拉黑 - 失败原因: POC质量过低: 2/10"
+      },
+      {
+        "username": "captaincookie34",
+        "reason": "POC质量持续过低(最近评分: 2/10)",
+        "added_date": "2026-01-02",
+        "added_by": "auto",
+        "fail_count": 1,
+        "last_quality_score": 2,
+        "last_poisoning_risk": 5,
+        "notes": "自动拉黑 - 失败原因: POC质量过低: 2/10"
       }
     ],
     "repositories": [
@@ -779,11 +789,11 @@
     "repositories": []
   },
   "statistics": {
-    "total_blocked": 644,
-    "blocked_by_author": 643,
+    "total_blocked": 683,
+    "blocked_by_author": 682,
     "blocked_by_repository": 1,
     "blocked_by_cve": 0,
-    "auto_blacklisted_authors": 72,
+    "auto_blacklisted_authors": 73,
     "auto_blacklisted_repositories": 0
   }
 }
