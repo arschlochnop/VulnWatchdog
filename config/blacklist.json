@@ -1,7 +1,7 @@
 {
   "$schema": "blacklist-schema.json",
   "version": "1.0.0",
-  "last_updated": "2026-01-04T20:15:11.771501Z",
+  "last_updated": "2026-01-05T03:50:26.606627Z",
   "description": "VulnWatchdog 黑名单配置文件 - 用于过滤低质量POC和恶意仓库",
   "settings": {
     "auto_blacklist_enabled": true,
@@ -824,6 +824,16 @@
         "last_quality_score": 2,
         "last_poisoning_risk": 85,
         "notes": "自动拉黑 - 失败原因: POC质量过低: 2/10, 投毒风险过高: 85%"
+      },
+      {
+        "username": "KTN1990",
+        "reason": "POC质量持续过低(最近评分: 2/10); 投毒风险持续过高(最近风险: 85%)",
+        "added_date": "2026-01-05",
+        "added_by": "auto",
+        "fail_count": 1,
+        "last_quality_score": 2,
+        "last_poisoning_risk": 85,
+        "notes": "自动拉黑 - 失败原因: POC质量过低: 2/10, 投毒风险过高: 85%"
       }
     ],
     "repositories": [
@@ -859,11 +869,11 @@
     "repositories": []
   },
   "statistics": {
-    "total_blocked": 776,
-    "blocked_by_author": 775,
+    "total_blocked": 812,
+    "blocked_by_author": 811,
     "blocked_by_repository": 1,
     "blocked_by_cve": 0,
-    "auto_blacklisted_authors": 80,
+    "auto_blacklisted_authors": 81,
     "auto_blacklisted_repositories": 0
   }
 }
