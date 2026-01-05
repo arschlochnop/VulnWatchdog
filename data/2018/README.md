@@ -1,6 +1,6 @@
 # 2018年 CVE漏洞列表
 
-> 📊 共收录 **339** 个CVE漏洞
+> 📊 共收录 **346** 个CVE漏洞
 
 ---
 
@@ -32,33 +32,35 @@
 | [CVE-2018-10022](CVE-2018-10022-shoucheng3_zeroturnaround__zt-zip_CVE-2018-1002201_1-12.md) | CVE-2018-1002204 adm-zip 目录遍历漏洞 | ⚪ 高危 | 4 |
 | [CVE-2018-1047](CVE-2018-1047-shoucheng3_wildfly__wildfly_CVE-2018-1047_11-0-0-Final.md) | CVE-2018-1047-Wildfly-路径遍历 | ⚪ 高危 | 1 |
 | [CVE-2018-1049](CVE-2018-1049-lukehebe_CVE-2018-1049.md) | CVE-2018-1049-Systemd-DoS | ⚪ 中危 | 1 |
-| [CVE-2018-10933](CVE-2018-10933-0xadaw_libSSH-bypass.md) | CVE-2018-10933 - libssh Authentication Bypass | ⚪ 高危 | 27 |
-| [CVE-2018-10933](CVE-2018-10933-Bifrozt_CVE-2018-10933.md) | CVE-2018-10933-libssh-Authentication Bypass | ⚪ 高危 | 27 |
-| [CVE-2018-10933](CVE-2018-10933-HSw109_CVE-2018-10933.md) | CVE-2018-10933 - libssh Authentication Bypass | ⚪ 高危 | 27 |
-| [CVE-2018-10933](CVE-2018-10933-JoSecMx_CVE-2018-10933_Scanner.md) | CVE-2018-10933 - libssh 认证绕过 | ⚪ 高危 | 27 |
-| [CVE-2018-10933](CVE-2018-10933-Kurlee_LibSSH-exploit.md) | CVE-2018-10933-libssh-身份验证绕过 | ⚪ 高危 | 27 |
-| [CVE-2018-10933](CVE-2018-10933-Rubikcuv5_CVE-2018-10933.md) | CVE-2018-10933-libssh-身份验证绕过 | ⚪ 高危 | 27 |
-| [CVE-2018-10933](CVE-2018-10933-SilasSpringer_CVE-2018-10933.md) | CVE-2018-10933 - libssh Authentication Bypass | ⚪ 高危 | 27 |
-| [CVE-2018-10933](CVE-2018-10933-SoledaD208_CVE-2018-10933.md) | CVE-2018-10933-libssh认证绕过 | ⚪ 高危 | 27 |
-| [CVE-2018-10933](CVE-2018-10933-Virgula0_POC-CVE-2018-10933.md) | CVE-2018-10933-libssh-身份验证绕过 | ⚪ 高危 | 27 |
-| [CVE-2018-10933](CVE-2018-10933-bidaoui4905_CVE-2018-10933.md) | CVE-2018-10933 - libssh 认证绕过 | ⚪ 高危 | 27 |
-| [CVE-2018-10933](CVE-2018-10933-blacknbunny_CVE-2018-10933.md) | CVE-2018-10933 - libssh Authentication Bypass | ⚪ 高危 | 27 |
-| [CVE-2018-10933](CVE-2018-10933-crispy-peppers_Libssh-server-CVE-2018-10933.md) | CVE-2018-10933 - libssh 认证绕过 | ⚪ 高危 | 27 |
-| [CVE-2018-10933](CVE-2018-10933-cve-2018_cve-2018-10933.md) | CVE-2018-10933 - libssh 身份验证绕过 | ⚪ 高危 | 27 |
-| [CVE-2018-10933](CVE-2018-10933-cyberharsh_Libssh-server-CVE-2018-10933.md) | CVE-2018-10933-libssh-认证绕过 | ⚪ 高危 | 27 |
-| [CVE-2018-10933](CVE-2018-10933-ensimag-security_CVE-2018-10933.md) | CVE-2018-10933 - libssh Authentication Bypass | 🔴 Critical | 27 |
-| [CVE-2018-10933](CVE-2018-10933-hackerhouse-opensource_cve-2018-10933.md) | CVE-2018-10933-libssh认证绕过 | ⚪ 高危 | 27 |
-| [CVE-2018-10933](CVE-2018-10933-ivanacostarubio_libssh-scanner.md) | CVE-2018-10933-libssh-认证绕过 | ⚪ 高危 | 27 |
-| [CVE-2018-10933](CVE-2018-10933-jobroche_libssh-scanner.md) | CVE-2018-10933-libssh-认证绕过 | ⚪ 高危 | 27 |
-| [CVE-2018-10933](CVE-2018-10933-kristyna-mlcakova_CVE-2018-10933.md) | CVE-2018-10933 - libssh Authentication Bypass | ⚪ 高危 | 27 |
-| [CVE-2018-10933](CVE-2018-10933-nikhil1232_LibSSH-Authentication-Bypass.md) | CVE-2018-10933 - libssh Authentication Bypass | ⚪ 高危 | 27 |
-| [CVE-2018-10933](CVE-2018-10933-pghook_CVE-2018-10933_Scanner.md) | CVE-2018-10933-libssh身份验证绕过 | ⚪ 高危 | 27 |
-| [CVE-2018-10933](CVE-2018-10933-reanimat0r_bpnd-libssh.md) | CVE-2018-10933-libssh-认证绕过 | ⚪ 高危 | 27 |
-| [CVE-2018-10933](CVE-2018-10933-sambiyal_CVE-2018-10933-POC.md) | CVE-2018-10933-libssh身份验证绕过 | ⚪ 高危 | 27 |
-| [CVE-2018-10933](CVE-2018-10933-shifa123_pythonprojects-CVE-2018-10933.md) | CVE-2018-10933-libssh认证绕过 | ⚪ 高危 | 27 |
-| [CVE-2018-10933](CVE-2018-10933-throwawayaccount12312312_precompiled-CVE-2018-10933.md) | CVE-2018-10933-libssh-认证绕过 | ⚪ 高危 | 27 |
-| [CVE-2018-10933](CVE-2018-10933-xFreed0m_CVE-2018-10933.md) | CVE-2018-10933-libssh认证绕过 | ⚪ 高危 | 27 |
-| [CVE-2018-10933](CVE-2018-10933-youkergav_CVE-2018-10933.md) | CVE-2018-10933-libssh-Authentication Bypass | ⚪ 高危 | 27 |
+| [CVE-2018-10933](CVE-2018-10933-0xadaw_libSSH-bypass.md) | CVE-2018-10933 - libssh 身份验证绕过 (Authentication Bypass) | 🔴 CRITICAL | 29 |
+| [CVE-2018-10933](CVE-2018-10933-Bifrozt_CVE-2018-10933.md) | CVE-2018-10933 - libssh 身份验证绕过 (Authentication Bypass) | 🔴 CRITICAL | 29 |
+| [CVE-2018-10933](CVE-2018-10933-HSw109_CVE-2018-10933.md) | CVE-2018-10933 - libssh 身份验证绕过 (Authentication Bypass) | 🔴 CRITICAL | 29 |
+| [CVE-2018-10933](CVE-2018-10933-JoSecMx_CVE-2018-10933_Scanner.md) | CVE-2018-10933 - libssh 身份验证绕过 | 🔴 CRITICAL | 29 |
+| [CVE-2018-10933](CVE-2018-10933-Kurlee_LibSSH-exploit.md) | CVE-2018-10933 - libssh 身份验证绕过 (Authentication Bypass) | 🔴 CRITICAL | 29 |
+| [CVE-2018-10933](CVE-2018-10933-Rubikcuv5_CVE-2018-10933.md) | CVE-2018-10933 - libssh 身份验证绕过 (Authentication Bypass) | ⚪ 严重 (Critical) | 29 |
+| [CVE-2018-10933](CVE-2018-10933-SilasSpringer_CVE-2018-10933.md) | CVE-2018-10933 - libssh 身份验证绕过 (Authentication Bypass) | ⚪ 严重 (Critical) | 29 |
+| [CVE-2018-10933](CVE-2018-10933-SoledaD208_CVE-2018-10933.md) | CVE-2018-10933 - libssh 身份验证绕过 | 🔴 CRITICAL | 29 |
+| [CVE-2018-10933](CVE-2018-10933-Virgula0_POC-CVE-2018-10933.md) | CVE-2018-10933 - libssh 身份验证绕过 (Authentication Bypass) | 🔴 CRITICAL | 29 |
+| [CVE-2018-10933](CVE-2018-10933-bidaoui4905_CVE-2018-10933.md) | CVE-2018-10933 - libssh 认证绕过 | ⚪ 严重 (Critical) | 29 |
+| [CVE-2018-10933](CVE-2018-10933-blacknbunny_CVE-2018-10933.md) | CVE-2018-10933 - libssh 身份验证绕过 | 🔴 CRITICAL | 29 |
+| [CVE-2018-10933](CVE-2018-10933-crispy-peppers_Libssh-server-CVE-2018-10933.md) | CVE-2018-10933 - libssh 身份验证绕过 (Authentication Bypass) | 🔴 CRITICAL | 29 |
+| [CVE-2018-10933](CVE-2018-10933-cve-2018_cve-2018-10933.md) | CVE-2018-10933 - libssh 身份验证绕过 | ⚪ 高危 | 29 |
+| [CVE-2018-10933](CVE-2018-10933-cyberharsh_Libssh-server-CVE-2018-10933.md) | CVE-2018-10933 - libssh 身份验证绕过 (Authentication Bypass) | 🔴 CRITICAL | 29 |
+| [CVE-2018-10933](CVE-2018-10933-ensimag-security_CVE-2018-10933.md) | CVE-2018-10933 - libssh 身份验证绕过 | 🔴 CRITICAL | 29 |
+| [CVE-2018-10933](CVE-2018-10933-hackerhouse-opensource_cve-2018-10933.md) | CVE-2018-10933 - libssh 身份验证绕过 (Authentication Bypass) | 🔴 CRITICAL | 29 |
+| [CVE-2018-10933](CVE-2018-10933-ivanacostarubio_libssh-scanner.md) | CVE-2018-10933 - libssh 身份验证绕过 | 🔴 CRITICAL | 29 |
+| [CVE-2018-10933](CVE-2018-10933-jobroche_libssh-scanner.md) | CVE-2018-10933-libssh-认证绕过 | ⚪ 高危 | 29 |
+| [CVE-2018-10933](CVE-2018-10933-kristyna-mlcakova_CVE-2018-10933.md) | CVE-2018-10933 - libssh 身份验证绕过 (Authentication Bypass) | 🔴 CRITICAL | 29 |
+| [CVE-2018-10933](CVE-2018-10933-nikhil1232_LibSSH-Authentication-Bypass.md) | CVE-2018-10933 - libssh 身份验证绕过 (Authentication Bypass) | 🔴 CRITICAL | 29 |
+| [CVE-2018-10933](CVE-2018-10933-opsifiz_CVE-2018-10933.md) | CVE-2018-10933 - libssh 身份验证绕过 (Authentication Bypass) | 🔴 CRITICAL | 29 |
+| [CVE-2018-10933](CVE-2018-10933-pghook_CVE-2018-10933_Scanner.md) | CVE-2018-10933-libssh身份验证绕过 | ⚪ 高危 | 29 |
+| [CVE-2018-10933](CVE-2018-10933-r3dxpl0it_CVE-2018-10933.md) | CVE-2018-10933 - libssh 身份验证绕过 (Authentication Bypass) | 🔴 CRITICAL | 29 |
+| [CVE-2018-10933](CVE-2018-10933-reanimat0r_bpnd-libssh.md) | CVE-2018-10933 - libssh 身份验证绕过/RCE | 🔴 CRITICAL | 29 |
+| [CVE-2018-10933](CVE-2018-10933-sambiyal_CVE-2018-10933-POC.md) | CVE-2018-10933-libssh身份验证绕过 | ⚪ 高危 | 29 |
+| [CVE-2018-10933](CVE-2018-10933-shifa123_pythonprojects-CVE-2018-10933.md) | CVE-2018-10933 - libssh 身份验证绕过/远程代码执行 (RCE) | 🔴 CRITICAL | 29 |
+| [CVE-2018-10933](CVE-2018-10933-throwawayaccount12312312_precompiled-CVE-2018-10933.md) | CVE-2018-10933-libssh-认证绕过 | ⚪ 高危 | 29 |
+| [CVE-2018-10933](CVE-2018-10933-xFreed0m_CVE-2018-10933.md) | CVE-2018-10933 - libssh 身份验证绕过 (Authentication Bypass) | 🔴 CRITICAL | 29 |
+| [CVE-2018-10933](CVE-2018-10933-youkergav_CVE-2018-10933.md) | CVE-2018-10933 - libssh 身份认证绕过 | 🔴 CRITICAL | 29 |
 | [CVE-2018-1160](CVE-2018-1160-sergiovks_CVE-2018-1160-Netatalk-OpenSession-Authentication-Bypass.md) | CVE-2018-1160-Netatalk-OpenSession-远程代码执行 | ⚪ 高危 | 1 |
 | [CVE-2018-11714](CVE-2018-11714-mikelkarma_cve-2018-11714_POC.md) | CVE-2018-11714 - TP-Link TL-WR840N/TL-WR841N 身份验证绕过 | ⚪ 高危 | 1 |
 | [CVE-2018-11762](CVE-2018-11762-shoucheng3_apache__tika_CVE-2018-11762_1-18.md) | CVE-2018-11762-Apache Tika-Zip Slip | ⚪ 中危 | 1 |
@@ -79,7 +81,8 @@
 | [CVE-2018-11776](CVE-2018-11776-tuxotron_cve-2018-11776-docker.md) | CVE-2018-11776-Apache Struts2-远程代码执行 | ⚪ 高危 | 16 |
 | [CVE-2018-11776](CVE-2018-11776-xfox64x_CVE-2018-11776.md) | CVE-2018-11776 - Apache Struts Remote Code Execution | ⚪ 高危 | 16 |
 | [CVE-2018-12036](CVE-2018-12036-shoucheng3_jeremylong__DependencyCheck_CVE-2018-12036_3-1-2.md) | CVE-2018-12036-OWASP Dependency-Check-Zip Slip | ⚪ 高危 | 1 |
-| [CVE-2018-1207](CVE-2018-1207-mgargiullo_cve-2018-1207.md) | CVE-2018-1207-Dell iDRAC7/iDRAC8 CGI 注入 | ⚪ 高危 | 1 |
+| [CVE-2018-1207](CVE-2018-1207-SYNKTeam_CVE-2018-1207.md) | CVE-2018-1207-Dell iDRAC7/iDRAC8 CGI 注入 | ⚪ 高危 | 2 |
+| [CVE-2018-1207](CVE-2018-1207-mgargiullo_cve-2018-1207.md) | CVE-2018-1207-Dell iDRAC7/iDRAC8 CGI 注入 | ⚪ 高危 | 2 |
 | [CVE-2018-12533](CVE-2018-12533-Pastea_CVE-2018-12533.md) | CVE-2018-12533-JBoss RichFaces-EL表达式注入 | ⚪ 高危 | 2 |
 | [CVE-2018-12533](CVE-2018-12533-llamaonsecurity_CVE-2018-12533.md) | CVE-2018-12533-RichFaces-EL表达式注入 | ⚪ 高危 | 2 |
 | [CVE-2018-12542](CVE-2018-12542-shoucheng3_vert-x3__vertx-web_CVE-2018-12542_3-5-3-CR1.md) | CVE-2018-12542-Eclipse Vert.x-路径遍历 | ⚪ 中危 | 1 |
@@ -102,7 +105,8 @@
 | [CVE-2018-13379](CVE-2018-13379-pwn3z_CVE-2018-13379-FortinetVPN.md) | CVE-2018-13379-FortinetVPN 路径遍历 | ⚪ 高危 | 10 |
 | [CVE-2018-13379](CVE-2018-13379-yukar1z0e_CVE-2018-13379.md) | CVE-2018-13379-Fortinet-Path Traversal | ⚪ 高危 | 10 |
 | [CVE-2018-14324](CVE-2018-14324-matejsmycka_CVE-2018-14324-Exploit.md) | CVE-2018-14324 - Oracle GlassFish Open Source Edition JMX RM... | ⚪ 高危 | 1 |
-| [CVE-2018-14498](CVE-2018-14498-h31md4llr_libjpeg_cve-2018-14498_2.md) | CVE-2018-14498-libjpeg-turbo/MozJPEG-堆缓冲区过读 | ⚪ 中危 | 1 |
+| [CVE-2018-14498](CVE-2018-14498-h31md4llr_libjpeg_cve-2018-14498.md) | CVE-2018-14498-libjpeg-turbo/MozJPEG-堆缓冲区过读 | ⚪ 中危 | 2 |
+| [CVE-2018-14498](CVE-2018-14498-h31md4llr_libjpeg_cve-2018-14498_2.md) | CVE-2018-14498-libjpeg-turbo/MozJPEG-堆缓冲区过读 | ⚪ 中危 | 2 |
 | [CVE-2018-14714](CVE-2018-14714-BTtea_CVE-2018-14714-RCE-exploit.md) | CVE-2018-14714-ASUS RT-AC3200-命令注入 | ⚪ 高危 | 3 |
 | [CVE-2018-14714](CVE-2018-14714-sunn1day_CVE-2018-14714-POC.md) | CVE-2018-14714-ASUS RT-AC3200 命令注入 | ⚪ 高危 | 3 |
 | [CVE-2018-14714](CVE-2018-14714-tin-z_CVE-2018-14714-POC.md) | CVE-2018-14714-ASUS RT-AC3200 appGet.cgi 命令注入 | ⚪ 高危 | 3 |
@@ -183,7 +187,8 @@
 | [CVE-2018-17179](CVE-2018-17179-CyberQuestor-infosec_CVE-2018-17179-OpenEMR.md) | CVE-2018-17179-OpenEMR-SQL注入 | ⚪ 高危 | 1 |
 | [CVE-2018-17229](CVE-2018-17229-zeeshangondal_c-cpp_CVE-2018-17229.md) | CVE-2018-17229-Exiv2-堆缓冲区溢出 | ⚪ 高危 | 1 |
 | [CVE-2018-17297](CVE-2018-17297-shoucheng3_dromara__hutool_CVE-2018-17297_4-1-11.md) | CVE-2018-17297-Hutool-目录遍历 | ⚪ 高危 | 1 |
-| [CVE-2018-18441](CVE-2018-18441-bayazid-bit_CVE-2018-18441-exploit.md) | CVE-2018-18441-D-Link DCS系列摄像头信息泄露 | ⚪ 中危 | 1 |
+| [CVE-2018-18441](CVE-2018-18441-AIDENTHOMASboi_CVE-2018-18441-exploit.md) | CVE-2018-18441-D-Link DCS系列摄像头信息泄露 | ⚪ 中危 | 2 |
+| [CVE-2018-18441](CVE-2018-18441-bayazid-bit_CVE-2018-18441-exploit.md) | CVE-2018-18441-D-Link DCS系列摄像头信息泄露 | ⚪ 中危 | 2 |
 | [CVE-2018-18820](CVE-2018-18820-impulsiveness_CVE-2018-18820.md) | CVE-2018-18820 - Icecast 缓冲区溢出 | ⚪ 高危 | 1 |
 | [CVE-2018-19207](CVE-2018-19207-Pwdnx1337_CVE-2018-19207.md) | CVE-2018-19207-WP GDPR Compliance-远程代码执行 | ⚪ 高危 | 2 |
 | [CVE-2018-19207](CVE-2018-19207-cved-sources_cve-2018-19207.md) | CVE-2018-19207-WP GDPR Compliance-远程代码执行 | ⚪ 高危 | 2 |
@@ -308,12 +313,14 @@
 | [CVE-2018-7600](CVE-2018-7600-zhzyker_CVE-2018-7600-Drupal-POC-EXP.md) | CVE-2018-7600-Drupal-RCE | ⚪ 高危 | 33 |
 | [CVE-2018-7750](CVE-2018-7750-jm33-m0_CVE-2018-7750.md) | CVE-2018-7750-Paramiko-Authentication Bypass | ⚪ 高危 | 2 |
 | [CVE-2018-7750](CVE-2018-7750-tlavi00_CVE-2018-7750.md) | CVE-2018-7750 - Paramiko Authentication Bypass | ⚪ 高危 | 2 |
-| [CVE-2018-8097](CVE-2018-8097-StellarDriftLabs_CVE-2018-8097.md) | CVE-2018-8097 - Eve (pyeve) 代码注入 | ⚪ 高危 | 1 |
+| [CVE-2018-8097](CVE-2018-8097-SilentVoid13_CVE-2018-8097.md) | CVE-2018-8097 - Eve (pyeve) 代码注入 | ⚪ 高危 | 2 |
+| [CVE-2018-8097](CVE-2018-8097-StellarDriftLabs_CVE-2018-8097.md) | CVE-2018-8097 - Eve (pyeve) 代码注入 | ⚪ 高危 | 2 |
 | [CVE-2018-8581](CVE-2018-8581-Pranjal6955_CVE-2018-8581-testing.md) | CVE-2018-8581 - Microsoft Exchange Server 权限提升 (Elevation of... | ⚪ 重要 (Important) | 4 |
 | [CVE-2018-8581](CVE-2018-8581-Ridter_Exchange2domain.md) | CVE-2018-8581 - Microsoft Exchange Server 权限提升 (Elevation of... | ⚪ 重要 (Important) | 4 |
 | [CVE-2018-8581](CVE-2018-8581-WyAtu_CVE-2018-8581.md) | CVE-2018-8581 - Microsoft Exchange Server SSRF/权限提升 | ⚪ 重要 (Important) | 4 |
 | [CVE-2018-8581](CVE-2018-8581-qiantu88_CVE-2018-8581.md) | CVE-2018-8581 - Microsoft Exchange Server SSRF/权限提升 | ⚪ 高危 | 4 |
-| [CVE-2018-9159](CVE-2018-9159-shoucheng3_perwendel__spark_CVE-2018-9159_2-7-1.md) | CVE-2018-9159-spark-core-文件读取 | ⚪ 中危 | 1 |
+| [CVE-2018-9159](CVE-2018-9159-shoucheng3_perwendel__spark_CVE-2018-9159_2-7-1.md) | CVE-2018-9159-spark-core-文件读取 | ⚪ 中危 | 2 |
+| [CVE-2018-9159](CVE-2018-9159-shoucheng3_perwendel__spark_CVE-2018-9159_2_7_2_fixed.md) | CVE-2018-9159-spark-core-文件读取 | ⚪ 中危 | 2 |
 | [CVE-2018-9206](CVE-2018-9206-Den1al_CVE-2018-9206.md) | CVE-2018-9206 - blueimp jQuery File Upload 任意文件上传 (Arbitrary... | 🔴 CRITICAL | 6 |
 | [CVE-2018-9206](CVE-2018-9206-MikeyPPPPPPPP_CVE-2018-9206.md) | CVE-2018-9206 - Blueimp jQuery File Upload 未授权任意文件上传 | ⚪ 高危 | 6 |
 | [CVE-2018-9206](CVE-2018-9206-Stahlz_JQShell.md) | CVE-2018-9206 - blueimp jQuery File Upload 任意文件上传导致的远程代码执行 (... | 🔴 CRITICAL | 6 |
