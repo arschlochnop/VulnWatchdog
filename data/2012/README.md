@@ -1,6 +1,6 @@
 # 2012年 CVE漏洞列表
 
-> 📊 共收录 **26** 个CVE漏洞
+> 📊 共收录 **25** 个CVE漏洞
 
 ---
 
@@ -18,7 +18,7 @@
 | [CVE-2012-2982](CVE-2012-2982-Ari-Weinberg_CVE-2012-2982.md) | CVE-2012-2982 - Webmin 远程命令执行 (RCE) / 命令注入 | ⚪ 高 (High) | 20 |
 | [CVE-2012-2982](CVE-2012-2982-CpyRe_CVE-2012-2982.md) | CVE-2012-2982 - Webmin RCE/命令注入 | ⚪ 高危 | 20 |
 | [CVE-2012-2982](CVE-2012-2982-Gvmyz_CVE-2012-2982_Python.md) | CVE-2012-2982 - Webmin 命令注入/RCE | ⚪ 高危 (High) | 20 |
-| [CVE-2012-2982](CVE-2012-2982-JRrooot_CVE-2012-2982-Webmin-RCE.md) | CVE-2012-2982 - Webmin RCE (远程代码执行) | ⚪ 高危 (High) | 20 |
+| [CVE-2012-2982](CVE-2012-2982-JRrooot_CVE-2012-2982-Webmin-RCE.md) | CVE-2012-2982 - Webmin RCE (远程代码执行) | ⚪ 高危 (Critical) | 20 |
 | [CVE-2012-2982](CVE-2012-2982-JohnHammond_CVE-2012-2982.md) | CVE-2012-2982 - Webmin 远程代码执行 (RCE) / 命令注入 | ⚪ 高 (High) | 20 |
 | [CVE-2012-2982](CVE-2012-2982-LeDucKhiem_CVE-2012-2982.md) | CVE-2012-2982 - Webmin file/show.cgi 远程命令执行 | ⚪ 高危 | 20 |
 | [CVE-2012-2982](CVE-2012-2982-OstojaOfficial_CVE-2012-2982.md) | CVE-2012-2982 - Webmin 远程命令执行 (RCE) | ⚪ 高 (High) | 20 |
@@ -32,8 +32,7 @@
 | [CVE-2012-2982](CVE-2012-2982-elliotosama_CVE-2012-2982.md) | CVE-2012-2982 - Webmin 远程命令执行 (RCE) | ⚪ 高 (High) | 20 |
 | [CVE-2012-2982](CVE-2012-2982-lpuv_CVE-2012-2982.md) | CVE-2012-2982 - Webmin 命令注入/RCE | ⚪ 高危 (High) | 20 |
 | [CVE-2012-2982](CVE-2012-2982-varppi_CVE-2012-2982.md) | CVE-2012-2982 - Webmin 命令注入/RCE | ⚪ 高危 | 20 |
-| [CVE-2012-4869](CVE-2012-4869-bitc0de_Elastix-Remote-Code-Execution.md) | CVE-2012-4869-FreePBX-远程命令执行 | ⚪ 高危 | 2 |
-| [CVE-2012-4869](CVE-2012-4869-cyberdesu_Elastix-2.2.0-CVE-2012-4869.md) | CVE-2012-4869-FreePBX-远程命令执行 | ⚪ 高危 | 2 |
+| [CVE-2012-4869](CVE-2012-4869-bitc0de_Elastix-Remote-Code-Execution.md) | CVE-2012-4869-FreePBX-远程命令执行 | ⚪ 高危 | 1 |
 
 ---
 
