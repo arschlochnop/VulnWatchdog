@@ -1,6 +1,6 @@
 # 2024年 CVE漏洞列表
 
-> 📊 共收录 **1095** 个CVE漏洞
+> 📊 共收录 **1136** 个CVE漏洞
 
 ---
 
@@ -41,9 +41,11 @@
 | [CVE-2024-0582](CVE-2024-0582-ysanatomic_io_uring_LPE-CVE-2024-0582.md) | CVE-2024-0582 - Linux Kernel io_uring Use-After-Free | ⚪ 高危 | 4 |
 | [CVE-2024-0670](CVE-2024-0670-elsevar11_CVE-2024-0670---CheckMK-Agent-Local-Privilege-Escalation-Exploit.md) | CVE-2024-0670 - Checkmk Agent 本地提权 | ⚪ 高危 | 2 |
 | [CVE-2024-0670](CVE-2024-0670-magicrc_CVE-2024-0670.md) | CVE-2024-0670-Checkmk-Windows Agent权限提升 | ⚪ 高危 | 2 |
-| [CVE-2024-0684](CVE-2024-0684-limetimeline_cve-2024-0684.md) | CVE-2024-0684-coreutils-堆溢出 | ⚪ 中危 | 1 |
+| [CVE-2024-0684](CVE-2024-0684-Valentin-Metz_writeup_split.md) | CVE-2024-0684-coreutils-堆溢出 | ⚪ 中危 | 2 |
+| [CVE-2024-0684](CVE-2024-0684-limetimeline_cve-2024-0684.md) | CVE-2024-0684-coreutils-堆溢出 | ⚪ 中危 | 2 |
 | [CVE-2024-0760](CVE-2024-0760-SpiralBL0CK_CVE-2024-0760.md) | CVE-2024-0760-BIND 9-TCP Flood | ⚪ 高危 | 1 |
-| [CVE-2024-0762](CVE-2024-0762-tadash10_Detect-CVE-2024-0762.md) | CVE-2024-0762 - Phoenix SecureCore UEFI 缓冲区溢出 | ⚪ 高危 | 1 |
+| [CVE-2024-0762](CVE-2024-0762-abandon1337_CVE-2024-0762.md) | CVE-2024-0762 - Phoenix SecureCore UEFI 缓冲区溢出 | ⚪ 高危 | 2 |
+| [CVE-2024-0762](CVE-2024-0762-tadash10_Detect-CVE-2024-0762.md) | CVE-2024-0762 - Phoenix SecureCore UEFI 缓冲区溢出 | ⚪ 高危 | 2 |
 | [CVE-2024-10220](CVE-2024-10220-any2sec_cve-2024-10220.md) | CVE-2024-10220-Kubernetes-Kubelet任意命令执行 | ⚪ 高危 | 7 |
 | [CVE-2024-10220](CVE-2024-10220-candranapits_poc-CVE-2024-10220.md) | CVE-2024-10220 | ⚪ 高危 | 7 |
 | [CVE-2024-10220](CVE-2024-10220-filipzag_CVE-2024-10220.md) | CVE-2024-10220-Kubernetes-kubelet-gitRepo-命令执行 | ⚪ 高危 | 7 |
@@ -53,7 +55,8 @@
 | [CVE-2024-10220](CVE-2024-10220-saleha-muzammil_cve-2024-10220-git-on-git.md) | CVE-2024-10220-Kubernetes-kubelet-gitRepo命令执行 | ⚪ 高危 | 7 |
 | [CVE-2024-10441](CVE-2024-10441-hazzzein_CVE-2024-10441.md) | CVE-2024-10441-Synology-命令注入 | ⚪ 高危 | 1 |
 | [CVE-2024-10578](CVE-2024-10578-Nxploited_CVE-2024-10578.md) | CVE-2024-10578-Pubnews-任意插件安装 | ⚪ 高危 | 1 |
-| [CVE-2024-10629](CVE-2024-10629-Nxploited_CVE-2024-10629.md) | CVE-2024-10629 - GPX Viewer <= 2.2.8 - 任意文件创建 | ⚪ 高危 | 1 |
+| [CVE-2024-10629](CVE-2024-10629-Nxploited_CVE-2024-10629.md) | CVE-2024-10629 - GPX Viewer <= 2.2.8 - 任意文件创建 | ⚪ 高危 | 2 |
+| [CVE-2024-10629](CVE-2024-10629-RandomRobbieBF_CVE-2024-10629.md) | CVE-2024-10629 - GPX Viewer <= 2.2.8 - 任意文件创建 | ⚪ 高危 | 2 |
 | [CVE-2024-10673](CVE-2024-10673-Nxploited_CVE-2024-10673.md) | CVE-2024-10673-Top_Store-任意插件安装/激活 | ⚪ 高危 | 1 |
 | [CVE-2024-10674](CVE-2024-10674-Nxploited_CVE-2024-10674.md) | CVE-2024-10674-Th_Shop_Mania-任意插件安装/激活 | ⚪ 高危 | 1 |
 | [CVE-2024-10858](CVE-2024-10858-iamarit_CVE-2024-10858.md) | CVE-2024-10858 - Jetpack DOM-XSS | ⚪ 中危 | 1 |
@@ -97,7 +100,8 @@
 | [CVE-2024-11040](CVE-2024-11040-gothburz_CVE-2024-11040.md) | CVE-2024-11040-vllm-project/vllm-拒绝服务 | ⚪ 高危 | 1 |
 | [CVE-2024-11042](CVE-2024-11042-gothburz_CVE-2024-11042.md) | CVE-2024-11042-invokeai-Arbitrary File Delete | ⚪ 高危 | 1 |
 | [CVE-2024-11234](CVE-2024-11234-cyivor_CVE-2024-11234.md) | CVE-2024-11234-PHP HTTP Request Smuggling | ⚪ 中危 | 1 |
-| [CVE-2024-11392](CVE-2024-11392-Piyush-Bhor_CVE-2024-11392.md) | CVE-2024-11392-Hugging Face Transformers MobileViTV2反序列化远程代码... | ⚪ 高危 | 1 |
+| [CVE-2024-11392](CVE-2024-11392-Piyush-Bhor_CVE-2024-11392.md) | CVE-2024-11392-Hugging Face Transformers MobileViTV2反序列化远程代码... | ⚪ 高危 | 2 |
+| [CVE-2024-11392](CVE-2024-11392-stuxbench_vllm-cve-2024-11392.md) | CVE-2024-11392-Hugging Face Transformers MobileViTV2反序列化远程代码... | ⚪ 高危 | 2 |
 | [CVE-2024-11972](CVE-2024-11972-JunTakemura_exploit-CVE-2024-11972.md) | CVE-2024-11972-Hunk Companion-未授权插件安装 | ⚪ 高危 | 2 |
 | [CVE-2024-11972](CVE-2024-11972-RonF98_CVE-2024-11972-POC.md) | CVE-2024-11972-Hunk Companion WordPress插件未授权插件安装漏洞 | ⚪ 高危 | 2 |
 | [CVE-2024-12084](CVE-2024-12084-rxerium_CVE-2024-12084.md) | CVE-2024-12084-rsync-堆缓冲区溢出 | ⚪ 高危 | 2 |
@@ -106,14 +110,17 @@
 | [CVE-2024-1212](CVE-2024-1212-Rehan07-Human_Exploiting-RCE-Cyber_Project_CVE-2024-1212.md) | CVE-2024-1212-Kemp LoadMaster-OS命令注入 | ⚪ 高危 | 3 |
 | [CVE-2024-1212](CVE-2024-1212-nak000_CVE-2024-1212.md) | CVE-2024-1212 - Progress Kemp LoadMaster OS Command Injectio... | ⚪ 严重 | 3 |
 | [CVE-2024-1212](CVE-2024-1212-r0otk3r_CVE-2024-1212.md) | CVE-2024-1212 - Progress Kemp LoadMaster 未授权命令注入 | ⚪ 严重 | 3 |
-| [CVE-2024-12252](CVE-2024-12252-Nxploited_CVE-2024-12252.md) | CVE-2024-12252-SEO LAT Auto Post-远程代码执行 | ⚪ 高危 | 1 |
-| [CVE-2024-12583](CVE-2024-12583-pouriam23_CVE-2024-12583.md) | CVE-2024-12583-Dynamics 365 Integration-RCE/Arbitrary File R... | ⚪ 严重 | 1 |
+| [CVE-2024-12252](CVE-2024-12252-Nxploited_CVE-2024-12252.md) | CVE-2024-12252-SEO LAT Auto Post-远程代码执行 | ⚪ 高危 | 2 |
+| [CVE-2024-12252](CVE-2024-12252-RandomRobbieBF_CVE-2024-12252.md) | CVE-2024-12252-SEO LAT Auto Post-远程代码执行 | ⚪ 高危 | 2 |
+| [CVE-2024-12583](CVE-2024-12583-pouriam23_CVE-2024-12583-.md) | CVE-2024-12583-Dynamics 365 Integration-RCE/Arbitrary File R... | ⚪ 严重 | 2 |
+| [CVE-2024-12583](CVE-2024-12583-pouriam23_CVE-2024-12583.md) | CVE-2024-12583-Dynamics 365 Integration-RCE/Arbitrary File R... | ⚪ 严重 | 2 |
 | [CVE-2024-12641](CVE-2024-12641-Jimmy01240397_CVE-2024-12641_12642_12645.md) | CVE-2024-12641-Chunghwa Telecom TenderDocTransfer-Reflected ... | ⚪ 高危 | 1 |
 | [CVE-2024-12828](CVE-2024-12828-fanjm2025-jeremy_CVE-2024-12828-PoC.md) | CVE-2024-12828 - Webmin 命令注入 | ⚪ 高危 | 1 |
 | [CVE-2024-12877](CVE-2024-12877-soltanali0_CVE-2024-12877-Exploit.md) | CVE-2024-12877-GiveWP-PHP对象注入 | ⚪ 高危 | 1 |
 | [CVE-2024-12905](CVE-2024-12905-theMcSam_CVE-2024-12905-PoC.md) | CVE-2024-12905-tar-fs-文件写入/覆盖 | ⚪ 高危 | 1 |
 | [CVE-2024-13346](CVE-2024-13346-tausifzaman_CVE-2024-13346.md) | CVE-2024-13346-Avada Theme-任意短代码执行 | ⚪ 高危 | 1 |
-| [CVE-2024-13513](CVE-2024-13513-0axz-tools_CVE-2024-13513.py.md) | CVE-2024-13513 - Oliver POS 敏感信息泄露导致权限提升 | ⚪ 高危 | 1 |
+| [CVE-2024-13513](CVE-2024-13513-0axz-tools_CVE-2024-13513.py.md) | CVE-2024-13513 - Oliver POS 敏感信息泄露导致权限提升 | ⚪ 高危 | 2 |
+| [CVE-2024-13513](CVE-2024-13513-KTN1990_CVE-2024-13513.md) | CVE-2024-13513 - Oliver POS 敏感信息泄露导致权限提升 | ⚪ 高危 | 2 |
 | [CVE-2024-13800](CVE-2024-13800-RandomRobbieBF_CVE-2024-13800.md) | CVE-2024-13800-ConvertPlus-权限绕过导致DoS | ⚪ 高危 | 1 |
 | [CVE-2024-13869](CVE-2024-13869-d0n601_CVE-2024-13869.md) | CVE-2024-13869-WPvivid-Arbitrary File Upload | ⚪ 高危 | 1 |
 | [CVE-2024-1709](CVE-2024-1709-AMRICHASFUCK_Mass-CVE-2024-1709.md) | CVE-2024-1709-ConnectWise ScreenConnect-身份验证绕过 | ⚪ 高危 | 5 |
@@ -129,7 +136,8 @@
 | [CVE-2024-21006](CVE-2024-21006-d3fudd_CVE-2024-21006_POC.md) | CVE-2024-21006 - Oracle WebLogic Server 远程代码执行 | ⚪ 高危 | 3 |
 | [CVE-2024-21006](CVE-2024-21006-dadvlingd_CVE-2024-21006.md) | CVE-2024-21006 | ⚪ 高危 | 3 |
 | [CVE-2024-21006](CVE-2024-21006-lightr3d_CVE-2024-21006_jar.md) | CVE-2024-21006 - Oracle WebLogic Server 信息泄露漏洞 | ⚪ 高危 | 3 |
-| [CVE-2024-21182](CVE-2024-21182-k4it0k1d_CVE-2024-21182.md) | CVE-2024-21182 - Oracle WebLogic Server JNDI注入 | ⚪ 高危 | 1 |
+| [CVE-2024-21182](CVE-2024-21182-k4it0k1d_CVE-2024-21182.md) | CVE-2024-21182 - Oracle WebLogic Server JNDI注入 | ⚪ 高危 | 2 |
+| [CVE-2024-21182](CVE-2024-21182-kursadalsan_CVE-2024-21182.md) | CVE-2024-21182 - Oracle WebLogic Server JNDI注入 | ⚪ 高危 | 2 |
 | [CVE-2024-21262](CVE-2024-21262-Noah4Puppy_CVE-2024-21262.md) | CVE-2024-21262-MySQL Connectors | ⚪ 中危 | 1 |
 | [CVE-2024-21413](CVE-2024-21413-ArtemCyberLab_Project-NTLM-Hash-Capture-and-Phishing-Email-Exploitation-for-CVE-2024-21413.md) | CVE-2024-21413 Microsoft Outlook Remote Code Execution Vulne... | ⚪ 高危 | 22 |
 | [CVE-2024-21413](CVE-2024-21413-CMNatic_CVE-2024-21413.md) | CVE-2024-21413-Microsoft Outlook远程代码执行漏洞 | ⚪ 高危 | 22 |
@@ -153,7 +161,8 @@
 | [CVE-2024-21413](CVE-2024-21413-th3Hellion_CVE-2024-21413.md) | CVE-2024-21413 - Microsoft Outlook Remote Code Execution | ⚪ 高危 | 22 |
 | [CVE-2024-21413](CVE-2024-21413-xaitax_CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability.md) | CVE-2024-21413 - Microsoft Outlook 远程代码执行漏洞 | ⚪ 高危 | 22 |
 | [CVE-2024-21413](CVE-2024-21413-yass2400012_Email-exploit-Moniker-Link-CVE-2024-21413-.md) | CVE-2024-21413 - Microsoft Outlook RCE | ⚪ 高危 | 22 |
-| [CVE-2024-21513](CVE-2024-21513-nskath_CVE-2024-21513.md) | CVE-2024-21513-langchain-experimental-代码执行 | ⚪ 高危 | 1 |
+| [CVE-2024-21513](CVE-2024-21513-SavageSanta11_Reproduce-CVE-2024-21513.md) | CVE-2024-21513-langchain-experimental-代码执行 | ⚪ 高危 | 2 |
+| [CVE-2024-21513](CVE-2024-21513-nskath_CVE-2024-21513.md) | CVE-2024-21513-langchain-experimental-代码执行 | ⚪ 高危 | 2 |
 | [CVE-2024-21532](CVE-2024-21532-lirantal_CVE-2024-21532-PoC-ggit.md) | CVE-2024-21532-ggit-命令注入 | ⚪ 高危 | 1 |
 | [CVE-2024-21533](CVE-2024-21533-lirantal_CVE-2024-21533-PoC-ggit.md) | CVE-2024-21533-ggit-参数注入 | ⚪ 中危 | 1 |
 | [CVE-2024-21546](CVE-2024-21546-ajdumanhug_CVE-2024-21546.md) | CVE-2024-21546-laravel-filemanager-RCE | ⚪ 严重 | 1 |
@@ -180,9 +189,11 @@
 | [CVE-2024-21762](CVE-2024-21762-d0rb_CVE-2024-21762.md) | CVE-2024-21762-FortiOS/FortiProxy-Out-of-Bounds Write | ⚪ 高危 | 7 |
 | [CVE-2024-21762](CVE-2024-21762-h4x0r-dz_CVE-2024-21762.md) | CVE-2024-21762 FortiOS/FortiProxy 远程代码执行 | ⚪ 高危 | 7 |
 | [CVE-2024-21762](CVE-2024-21762-rdoix_cve-2024-21762-checker.md) | CVE-2024-21762 - Fortinet FortiOS/FortiProxy 越界写入 | ⚪ 高危 | 7 |
-| [CVE-2024-21893](CVE-2024-21893-h4x0r-dz_CVE-2024-21893.py.md) | CVE-2024-21893-Ivanti Connect Secure/Policy Secure-SSRF | ⚪ 高危 | 1 |
+| [CVE-2024-21893](CVE-2024-21893-Chocapikk_CVE-2024-21893-to-CVE-2024-21887.md) | CVE-2024-21893-Ivanti Connect Secure/Policy Secure-SSRF | ⚪ 高危 | 2 |
+| [CVE-2024-21893](CVE-2024-21893-h4x0r-dz_CVE-2024-21893.py.md) | CVE-2024-21893-Ivanti Connect Secure/Policy Secure-SSRF | ⚪ 高危 | 2 |
 | [CVE-2024-22371](CVE-2024-22371-vishalborkar7_POC_for_-CVE-2024-22371.md) | CVE-2024-22371-Apache Camel-敏感数据泄露 | ⚪ 中危 | 1 |
-| [CVE-2024-2242](CVE-2024-2242-RandomRobbieBF_CVE-2024-2242.md) | CVE-2024-2242-Contact Form 7-Reflected XSS | ⚪ 中危 | 1 |
+| [CVE-2024-2242](CVE-2024-2242-RandomRobbieBF_CVE-2024-2242.md) | CVE-2024-2242-Contact Form 7-Reflected XSS | ⚪ 中危 | 2 |
+| [CVE-2024-2242](CVE-2024-2242-Zzl0y_CVE-2024-2242.md) | CVE-2024-2242-Contact Form 7-Reflected XSS | ⚪ 中危 | 2 |
 | [CVE-2024-22899](CVE-2024-22899-Chocapikk_CVE-2024-22899-to-22903-ExploitChain.md) | CVE-2024-22899-Vinchin Backup & Recovery-RCE | ⚪ 高危 | 1 |
 | [CVE-2024-23113](CVE-2024-23113-CheckCve2_CVE-2024-23113.md) | CVE-2024-23113-Fortinet-格式字符串漏洞 | ⚪ 高危 | 7 |
 | [CVE-2024-23113](CVE-2024-23113-XiaomingX_cve-2024-23113-exp.md) | CVE-2024-23113-Fortinet-格式字符串漏洞 | ⚪ 高危 | 7 |
@@ -284,7 +295,8 @@
 | [CVE-2024-24919](CVE-2024-24919-starlox0_CVE-2024-24919-POC.md) | CVE-2024-24919 Check Point Security Gateway 信息泄露 | ⚪ 高危 | 30 |
 | [CVE-2024-24919](CVE-2024-24919-un9nplayer_CVE-2024-24919.md) | CVE-2024-24919-Check Point Security Gateway信息泄露 | ⚪ 高危 | 30 |
 | [CVE-2024-24919](CVE-2024-24919-verylazytech_CVE-2024-24919.md) | CVE-2024-24919 - Check Point Security Gateway 信息泄露 | ⚪ 高危 | 30 |
-| [CVE-2024-25092](CVE-2024-25092-Nxploited_CVE-2024-25092.md) | CVE-2024-25092-NextMove Lite-任意插件安装/激活 | ⚪ 高危 | 1 |
+| [CVE-2024-25092](CVE-2024-25092-Nxploited_CVE-2024-25092.md) | CVE-2024-25092-NextMove Lite-任意插件安装/激活 | ⚪ 高危 | 2 |
+| [CVE-2024-25092](CVE-2024-25092-RandomRobbieBF_CVE-2024-25092.md) | CVE-2024-25092-NextMove Lite-任意插件安装/激活 | ⚪ 高危 | 2 |
 | [CVE-2024-25180](CVE-2024-25180-dustblessnotdust_CVE-2024-25180.md) | CVE-2024-25180-pdfmake-远程代码执行 | ⚪ 高危 | 1 |
 | [CVE-2024-25600](CVE-2024-25600-Chocapikk_CVE-2024-25600.md) | CVE-2024-25600-Bricks Builder-代码注入 | ⚪ 高危 | 18 |
 | [CVE-2024-25600](CVE-2024-25600-Christbowel_CVE-2024-25600_Nuclei-Template.md) | CVE-2024-25600 - WordPress Bricks Builder RCE | ⚪ 高危 | 18 |
@@ -406,7 +418,8 @@
 | [CVE-2024-2961](CVE-2024-2961-regantemudo_PHP-file-read-to-RCE-CVE-2024-2961-.md) | CVE-2024-2961-glibc-iconv缓冲区溢出 | ⚪ 高危 | 10 |
 | [CVE-2024-2961](CVE-2024-2961-rvizx_CVE-2024-2961.md) | CVE-2024-2961-glibc-iconv缓冲区溢出 | ⚪ 高危 | 10 |
 | [CVE-2024-2961](CVE-2024-2961-tnishiox_cve-2024-2961.md) | CVE-2024-2961-glibc-iconv缓冲区溢出 | ⚪ 高危 | 10 |
-| [CVE-2024-29943](CVE-2024-29943-bjrjk_CVE-2024-29943.md) | CVE-2024-29943 - Firefox JavaScript引擎 Out-of-bounds Read/Wri... | ⚪ 高危 | 1 |
+| [CVE-2024-29943](CVE-2024-29943-bjrjk_CVE-2024-29943.md) | CVE-2024-29943 - Firefox JavaScript引擎 Out-of-bounds Read/Wri... | ⚪ 高危 | 2 |
+| [CVE-2024-29943](CVE-2024-29943-seadragnol_CVE-2024-29943.md) | CVE-2024-29943 - Firefox JavaScript引擎 Out-of-bounds Read/Wri... | ⚪ 高危 | 2 |
 | [CVE-2024-2997](CVE-2024-2997-lfillaz_CVE-2024-2997.md) | CVE-2024-2997 - Bdtask Multi-Store Inventory Management Syst... | ⚪ 低危 | 1 |
 | [CVE-2024-30088](CVE-2024-30088-Admin9961_CVE-2024-30088.md) | CVE-2024-30088 Windows Kernel 提权漏洞 | ⚪ 高危 | 5 |
 | [CVE-2024-30088](CVE-2024-30088-Justintroup85_exploits-forsale-collateral-damage.md) | CVE-2024-30088 Windows Kernel Elevation of Privilege Vulnera... | ⚪ 高危 | 5 |
@@ -596,7 +609,8 @@
 | [CVE-2024-36401](CVE-2024-36401-yisas93_CVE-2024-36401-PoC.md) | CVE-2024-36401-GeoServer-远程代码执行 | ⚪ 高危 | 22 |
 | [CVE-2024-36587](CVE-2024-36587-meeeeing_CVE-2024-36587.md) | CVE-2024-36587 - dnscrypt-proxy 本地权限提升 | ⚪ 高危 | 1 |
 | [CVE-2024-3660](CVE-2024-3660-aaryanbhujang_CVE-2024-3660-PoC.md) | CVE-2024-3660-Keras框架代码注入 | ⚪ 高危 | 1 |
-| [CVE-2024-3661](CVE-2024-3661-Wh1t3Fox_CVE-2024-3661.md) | CVE-2024-3661-VPN TunnelVision-DHCP路由劫持 | ⚪ 高危 | 1 |
+| [CVE-2024-3661](CVE-2024-3661-Roundthe-clock_CVE-2024-3661VPN.md) | CVE-2024-3661-VPN TunnelVision-DHCP路由劫持 | ⚪ 高危 | 2 |
+| [CVE-2024-3661](CVE-2024-3661-Wh1t3Fox_CVE-2024-3661.md) | CVE-2024-3661-VPN TunnelVision-DHCP路由劫持 | ⚪ 高危 | 2 |
 | [CVE-2024-36842](CVE-2024-36842-abbiy_CVE-2024-36842-Backdooring-Oncord-Android-Sterio-.md) | CVE-2024-36842-Oncord+Android Infotainment System-远程代码执行 | ⚪ 高危 | 1 |
 | [CVE-2024-36886](CVE-2024-36886-abubakar-shahid_CVE-2024-36886.md) | CVE-2024-36886 | ⚪ 高危 | 1 |
 | [CVE-2024-36971](CVE-2024-36971-Kronk-imp_CVE-2024-36971.md) | CVE-2024-36971-Linux Kernel __dst_negative_advice() UAF | ⚪ 高危 | 1 |
@@ -619,7 +633,8 @@
 | [CVE-2024-3721](CVE-2024-3721-vmhalt_CVE-2024-3721.md) | CVE-2024-3721-TBK DVR-4104/DVR-4216-OS命令注入 | ⚪ 高危 | 2 |
 | [CVE-2024-37388](CVE-2024-37388-Narsimhareddy28_cve-2024-37388.md) | CVE-2024-37388 - lxml XXE漏洞 | ⚪ 高危 | 1 |
 | [CVE-2024-37606](CVE-2024-37606-itwizardo_DCS932L-Emulation-CVE-2024-37606-Attack.md) | CVE-2024-37606-D-Link DCS-932L-栈溢出 | ⚪ 中危 | 1 |
-| [CVE-2024-38014](CVE-2024-38014-Naman2701B_DLL-for-2024-38014.md) | CVE-2024-38014-Windows Installer Elevation of Privilege | ⚪ 高危 | 1 |
+| [CVE-2024-38014](CVE-2024-38014-Naman2701B_CVE-2024-38014.md) | CVE-2024-38014-Windows Installer Elevation of Privilege | ⚪ 高危 | 2 |
+| [CVE-2024-38014](CVE-2024-38014-Naman2701B_DLL-for-2024-38014.md) | CVE-2024-38014-Windows Installer Elevation of Privilege | ⚪ 高危 | 2 |
 | [CVE-2024-38063](CVE-2024-38063-AdminPentester_CVE-2024-38063-.md) | CVE-2024-38063 - Windows TCP/IP Remote Code Execution Vulner... | ⚪ 严重 | 29 |
 | [CVE-2024-38063](CVE-2024-38063-AliHj98_cve-2024-38063-Anonyvader.md) | CVE-2024-38063-Windows TCP/IP 远程代码执行 | ⚪ 高危 | 29 |
 | [CVE-2024-38063](CVE-2024-38063-ArenaldyP_CVE-2024-38063-Medium.md) | CVE-2024-38063 Windows TCP/IP 远程代码执行漏洞 | ⚪ 高危 | 29 |
@@ -658,7 +673,8 @@
 | [CVE-2024-38819](CVE-2024-38819-masa42_CVE-2024-38819-POC.md) | CVE-2024-38819-SpringFramework-路径遍历 | ⚪ 高危 | 3 |
 | [CVE-2024-38819](CVE-2024-38819-vishalnoza_CVE-2024-38819-POC2.md) | CVE-2024-38819 - Spring Framework Path Traversal | ⚪ 高危 | 3 |
 | [CVE-2024-38820](CVE-2024-38820-kadamnayan_POC-CVE-2024-38820.md) | CVE-2024-38820 - Spring Framework DataBinder Locale Bypass | ⚪ 低危 | 1 |
-| [CVE-2024-38828](CVE-2024-38828-First-Roman_sprig-mvc-demo-patch.md) | CVE-2024-38828 - Spring MVC @RequestBody byte[] DoS | ⚪ 中危 | 1 |
+| [CVE-2024-38828](CVE-2024-38828-First-Roman_sprig-mvc-demo-patch.md) | CVE-2024-38828 - Spring MVC @RequestBody byte[] DoS | ⚪ 中危 | 2 |
+| [CVE-2024-38828](CVE-2024-38828-funcid_CVE-2024-38828.md) | CVE-2024-38828 - Spring MVC @RequestBody byte[] DoS | ⚪ 中危 | 2 |
 | [CVE-2024-38856](CVE-2024-38856-0x20c_CVE-2024-38856-EXP.md) | CVE-2024-38856-Apache OFBiz-RCE | ⚪ 高危 | 9 |
 | [CVE-2024-38856](CVE-2024-38856-AlissonFaoli_Apache-OFBiz-Exploit.md) | CVE-2024-38856-Apache OFBiz-未授权RCE | ⚪ 高危 | 9 |
 | [CVE-2024-38856](CVE-2024-38856-BBD-YZZ_CVE-2024-38856-RCE.md) | CVE-2024-38856-Apache OFBiz-不正确的授权 | ⚪ 高危 | 9 |
@@ -673,12 +689,15 @@
 | [CVE-2024-39722](CVE-2024-39722-srcx404_CVE-2024-39722.md) | CVE-2024-39722-Ollama-路径遍历 | ⚪ 高危 | 1 |
 | [CVE-2024-39840](CVE-2024-39840-writegsqword_CVE-2024-39840-POC.md) | CVE-2024-39840 - Factorio RCE | ⚪ 高危 | 1 |
 | [CVE-2024-39924](CVE-2024-39924-l4rm4nd_PoC-CVE-2024-39924.md) | CVE-2024-39924-Vaultwarden-权限提升 | ⚪ 高危 | 1 |
-| [CVE-2024-39929](CVE-2024-39929-michael-david-fry_CVE-2024-39929.md) | CVE-2024-39929 - Exim 邮件服务器文件扩展名绕过 | ⚪ 中危 | 1 |
+| [CVE-2024-39929](CVE-2024-39929-michael-david-fry_CVE-2024-39929.md) | CVE-2024-39929 - Exim 邮件服务器文件扩展名绕过 | ⚪ 中危 | 2 |
+| [CVE-2024-39929](CVE-2024-39929-rxerium_CVE-2024-39929.md) | CVE-2024-39929 - Exim 邮件服务器文件扩展名绕过 | ⚪ 中危 | 2 |
 | [CVE-2024-39930](CVE-2024-39930-alexander47777_-CVE-2024-39930.md) | CVE-2024-39930-Gogs-SSH参数注入导致RCE | ⚪ 严重 | 2 |
 | [CVE-2024-39930](CVE-2024-39930-theMcSam_CVE-2024-39930-PoC.md) | CVE-2024-39930-Gogs-远程代码执行 | ⚪ 高危 | 2 |
-| [CVE-2024-39943](CVE-2024-39943-JenmrR_Node.js-CVE-2024-39943.md) | CVE-2024-39943 - rejetto HFS RCE | ⚪ 高危 | 1 |
+| [CVE-2024-39943](CVE-2024-39943-JenmrR_Node.js-CVE-2024-39943.md) | CVE-2024-39943 - rejetto HFS RCE | ⚪ 高危 | 2 |
+| [CVE-2024-39943](CVE-2024-39943-truonghuuphuc_CVE-2024-39943-Poc.md) | CVE-2024-39943 - rejetto HFS RCE | ⚪ 高危 | 2 |
 | [CVE-2024-40094](CVE-2024-40094-ahmad-kabiri_CVE-2024-40094.md) | CVE-2024-40094-graphql-java-DoS | ⚪ 中危 | 1 |
-| [CVE-2024-40110](CVE-2024-40110-Abdurahmon3236_CVE-2024-40110.md) | CVE-2024-40110 - Sourcecodester Poultry Farm Management Syst... | ⚪ 高危 | 1 |
+| [CVE-2024-40110](CVE-2024-40110-Abdurahmon3236_CVE-2024-40110.md) | CVE-2024-40110 - Sourcecodester Poultry Farm Management Syst... | ⚪ 高危 | 2 |
+| [CVE-2024-40110](CVE-2024-40110-thiagosmith_CVE-2024-40110.md) | CVE-2024-40110 - Sourcecodester Poultry Farm Management Syst... | ⚪ 高危 | 2 |
 | [CVE-2024-4040](CVE-2024-4040-0xN7y_CVE-2024-4040.md) | CVE-2024-4040-CrushFTP-服务器端模板注入 | ⚪ 高危 | 17 |
 | [CVE-2024-4040](CVE-2024-4040-1ncendium_CVE-2024-4040.md) | CVE-2024-4040-CrushFTP-服务器端模板注入 | ⚪ 高危 | 17 |
 | [CVE-2024-4040](CVE-2024-4040-Mohammaddvd_CVE-2024-4040.md) | CVE-2024-4040 CrushFTP服务器端模板注入漏洞 | ⚪ 极高 | 17 |
@@ -703,7 +722,8 @@
 | [CVE-2024-40725](CVE-2024-40725-TAM-K592_CVE-2024-40725-CVE-2024-40898.md) | CVE-2024-40725/CVE-2024-40898 - Apache HTTP Server | ⚪ 高危 | 2 |
 | [CVE-2024-40725](CVE-2024-40725-soltanali0_CVE-2024-40725.md) | CVE-2024-40725-Apache HTTP Server-源码泄露 | ⚪ 中危 | 2 |
 | [CVE-2024-40815](CVE-2024-40815-w0wbox_CVE-2024-40815.md) | CVE-2024-40815 - Pointer Authentication Bypass | ⚪ 高危 | 1 |
-| [CVE-2024-40898](CVE-2024-40898-anilpatel199n_CVE-2024-40898.md) | CVE-2024-40898-Apache HTTP Server-SSRF | ⚪ 高危 | 1 |
+| [CVE-2024-40898](CVE-2024-40898-ForceEA001_CVE-2024-40898-SSL-Bypass-Detection.md) | CVE-2024-40898-Apache HTTP Server-SSRF | ⚪ 高危 | 2 |
+| [CVE-2024-40898](CVE-2024-40898-anilpatel199n_CVE-2024-40898.md) | CVE-2024-40898-Apache HTTP Server-SSRF | ⚪ 高危 | 2 |
 | [CVE-2024-4157](CVE-2024-4157-Ch4os1_CVE-2024-4157-SSRF-RCE.md) | CVE-2024-4157 - Contact Form Plugin by Fluent Forms - PHP Ob... | ⚪ 高危 | 1 |
 | [CVE-2024-41570](CVE-2024-41570-HimmeL-Byte_CVE-2024-41570-SSRF-RCE.md) | CVE-2024-41570-Havoc-C2-SSRF | ⚪ 高危 | 4 |
 | [CVE-2024-41570](CVE-2024-41570-kit4py_CVE-2024-41570.md) | CVE-2024-41570 - Havoc C2 未授权SSRF漏洞 | ⚪ 高危 | 4 |
@@ -733,7 +753,8 @@
 | [CVE-2024-42327](CVE-2024-42327-watchdog1337_CVE-2024-42327_Zabbix_SQLI.md) | CVE-2024-42327-Zabbix-SQL注入 | ⚪ 高危 | 8 |
 | [CVE-2024-42364](CVE-2024-42364-ibrahmsql_CVE-2024-42364.md) | CVE-2024-42364-homepage-DNS Rebinding | ⚪ 中危 | 1 |
 | [CVE-2024-42471](CVE-2024-42471-theMcSam_CVE-2024-42471-PoC.md) | CVE-2024-42471-actions/artifact-任意文件写入 | ⚪ 高危 | 1 |
-| [CVE-2024-42640](CVE-2024-42640-rvizx_CVE-2024-42640.md) | CVE-2024-42640 - angular-base64-upload 未授权远程代码执行 | ⚪ 高危 | 1 |
+| [CVE-2024-42640](CVE-2024-42640-KTN1990_CVE-2024-42640.md) | CVE-2024-42640 - angular-base64-upload 未授权远程代码执行 | ⚪ 高危 | 2 |
+| [CVE-2024-42640](CVE-2024-42640-rvizx_CVE-2024-42640.md) | CVE-2024-42640 - angular-base64-upload 未授权远程代码执行 | ⚪ 高危 | 2 |
 | [CVE-2024-43018](CVE-2024-43018-joaosilva21_CVE-2024-43018.md) | CVE-2024-43018-Piwigo-SQL注入 | ⚪ 高危 | 1 |
 | [CVE-2024-43202](CVE-2024-43202-ive57_yasa-cve-2024-43202.md) | CVE-2024-43202 - Apache DolphinScheduler RCE (远程代码执行) | 🔴 CRITICAL | 1 |
 | [CVE-2024-43400](CVE-2024-43400-rain321654_yasa-cve-2024-43400-main1.md) | CVE-2024-43400 - Jinja2 (Python 库) Jinja2 模板注入 (SSTI) | ⚪ 高危 (High) | 1 |
@@ -766,10 +787,12 @@
 | [CVE-2024-4367](CVE-2024-4367-spaceraccoon_detect-cve-2024-4367.md) | CVE-2024-4367-PDF.js-任意JavaScript执行 | ⚪ 中危 | 22 |
 | [CVE-2024-43768](CVE-2024-43768-Mahesh-970_CVE-2024-43768.md) | CVE-2024-43768-Android-Skia-OOB-Write | ⚪ 高危 | 1 |
 | [CVE-2024-43788](CVE-2024-43788-batzionb_webpack-cve-2024-43788.md) | CVE-2024-43788-Webpack-XSS | ⚪ 中危 | 1 |
-| [CVE-2024-43917](CVE-2024-43917-sug4r-wr41th_CVE-2024-43917.md) | CVE-2024-43917-TI WooCommerce Wishlist-SQL注入 | ⚪ 严重 | 1 |
+| [CVE-2024-43917](CVE-2024-43917-p33d_CVE-2024-43917.md) | CVE-2024-43917-TI WooCommerce Wishlist-SQL注入 | ⚪ 严重 | 2 |
+| [CVE-2024-43917](CVE-2024-43917-sug4r-wr41th_CVE-2024-43917.md) | CVE-2024-43917-TI WooCommerce Wishlist-SQL注入 | ⚪ 严重 | 2 |
 | [CVE-2024-44083](CVE-2024-44083-CrackerCat_CVE-2024-44083.md) | CVE-2024-44083 - Hex-Rays IDA Pro 拒绝服务 (DoS) | ⚪ 中等 | 2 |
 | [CVE-2024-44083](CVE-2024-44083-dynamicx64_CVE-2024-44083.md) | CVE-2024-44083 - Hex-Rays IDA Pro 拒绝服务 (DoS) / 资源耗尽 (CWE-770... | ⚪ 中等 (Medium) | 2 |
-| [CVE-2024-44258](CVE-2024-44258-missaels235_POC-CVE-2024-44258-Py.md) | CVE-2024-44258-iOS备份恢复Symlink漏洞 | ⚪ 高危 | 1 |
+| [CVE-2024-44258](CVE-2024-44258-ifpdz_CVE-2024-44258.md) | CVE-2024-44258-iOS备份恢复Symlink漏洞 | ⚪ 高危 | 2 |
+| [CVE-2024-44258](CVE-2024-44258-missaels235_POC-CVE-2024-44258-Py.md) | CVE-2024-44258-iOS备份恢复Symlink漏洞 | ⚪ 高危 | 2 |
 | [CVE-2024-44308](CVE-2024-44308-migopp_cve-2024-44308.md) | CVE-2024-44308-JavaScriptCore-RCE | ⚪ 高危 | 1 |
 | [CVE-2024-44313](CVE-2024-44313-cnetsec_CVE-2024-44313.md) | CVE-2024-44313-TastyIgniter-未授权访问 | ⚪ 中危 | 1 |
 | [CVE-2024-44349](CVE-2024-44349-AndreaF17_PoC-CVE-2024-44349.md) | CVE-2024-44349-AnteeoWMS-SQL注入 | ⚪ 高危 | 1 |
@@ -778,7 +801,8 @@
 | [CVE-2024-45195](CVE-2024-45195-wyyazjjl_CVE-2024-45195.md) | CVE-2024-45195-Apache OFBiz-强制浏览/远程代码执行 | ⚪ 高危 | 1 |
 | [CVE-2024-45352](CVE-2024-45352-Edwins907_-CVE-2024-45352.md) | CVE-2024-45352 - Xiaomi Smarthome Application Code Execution | ⚪ 高危 | 2 |
 | [CVE-2024-45352](CVE-2024-45352-Edwins907_xiaomi-cve-2024-45352.md) | CVE-2024-45352-Xiaomi Smarthome Application-代码执行 | ⚪ 高危 | 2 |
-| [CVE-2024-45436](CVE-2024-45436-srcx404_CVE-2024-45436.md) | CVE-2024-45436-Ollama-路径遍历 | ⚪ 高危 | 1 |
+| [CVE-2024-45436](CVE-2024-45436-XiaomingX_cve-2024-45436-exp.md) | CVE-2024-45436-Ollama-路径遍历 | ⚪ 高危 | 2 |
+| [CVE-2024-45436](CVE-2024-45436-srcx404_CVE-2024-45436.md) | CVE-2024-45436-Ollama-路径遍历 | ⚪ 高危 | 2 |
 | [CVE-2024-45496](CVE-2024-45496-fatcatresearch_cve-2024-45496.md) | CVE-2024-45496-Openshift-controller-manager-Node Compromise | ⚪ 高危 | 2 |
 | [CVE-2024-45496](CVE-2024-45496-pwnc4t_cve-2024-45496.md) | CVE-2024-45496-OpenShift节点权限提升 | ⚪ 高危 | 2 |
 | [CVE-2024-45519](CVE-2024-45519-Chocapikk_CVE-2024-45519.md) | CVE-2024-45519 - Zimbra Collaboration Suite 远程代码执行 | ⚪ 高危 | 4 |
@@ -845,8 +869,10 @@
 | [CVE-2024-46713](CVE-2024-46713-enlist12_CVE-2024-46713.md) | CVE-2024-46713-Linux kernel perf/aux 竞争条件UAF | ⚪ 高危 | 1 |
 | [CVE-2024-46982](CVE-2024-46982-CodePontiff_next_js_poisoning.md) | CVE-2024-46982 - Next.js 缓存投毒 | ⚪ 高危 | 2 |
 | [CVE-2024-46982](CVE-2024-46982-melmathari_CVE-2024-46982-NUCLEI.md) | CVE-2024-46982-Next.js Cache Poisoning | ⚪ 中危 | 2 |
-| [CVE-2024-4701](CVE-2024-4701-JinhyukKo_CVE-2024-4701-POC.md) | CVE-2024-4701-Netflix Genie-路径遍历导致远程代码执行 | ⚪ 高危 | 1 |
-| [CVE-2024-47051](CVE-2024-47051-hyeonyeonglee_CVE-2024-47051.md) | CVE-2024-47051-Mautic-RCE & 文件删除 | ⚪ 高危 | 1 |
+| [CVE-2024-4701](CVE-2024-4701-JinhyukKo_CVE-2024-4701-POC.md) | CVE-2024-4701-Netflix Genie-路径遍历导致远程代码执行 | ⚪ 高危 | 2 |
+| [CVE-2024-4701](CVE-2024-4701-JoeBeeton_CVE-2024-4701-POC.md) | CVE-2024-4701-Netflix Genie-路径遍历导致远程代码执行 | ⚪ 高危 | 2 |
+| [CVE-2024-47051](CVE-2024-47051-hyeonyeonglee_CVE-2024-47051.md) | CVE-2024-47051-Mautic-RCE & 文件删除 | ⚪ 高危 | 2 |
+| [CVE-2024-47051](CVE-2024-47051-mallo-m_CVE-2024-47051.md) | CVE-2024-47051-Mautic-RCE & 文件删除 | ⚪ 高危 | 2 |
 | [CVE-2024-47167](CVE-2024-47167-alexan011_CVE-2024-47167-Environment-Setup.md) | CVE-2024-47167-Gradio-SSRF | ⚪ 中危 | 1 |
 | [CVE-2024-47533](CVE-2024-47533-00xCanelo_CVE-2024-47533-PoC.md) | CVE-2024-47533 - Cobbler XMLRPC 未授权远程代码执行 | ⚪ 高危 | 4 |
 | [CVE-2024-47533](CVE-2024-47533-baph00met_CVE-2024-47533.md) | CVE-2024-47533-Cobbler-不当身份验证 | ⚪ 严重 | 4 |
@@ -869,7 +895,8 @@
 | [CVE-2024-48887](CVE-2024-48887-cybersecplayground_CVE-2024-48887-FortiSwitch-Exploit.md) | CVE-2024-48887-FortiSwitch-Unauthenticated Password Change | ⚪ 极危 | 2 |
 | [CVE-2024-48887](CVE-2024-48887-groshi215_CVE-2024-48887-Exploit.md) | CVE-2024-48887-FortiSwitch-未经验证的密码更改 | ⚪ 高危 | 2 |
 | [CVE-2024-4890](CVE-2024-4890-nekr0ff_needrestart-sudo-escalate-cve-2024-4890.md) | CVE-2024-4890-litellm-Blind SQL Injection | ⚪ 中危 | 1 |
-| [CVE-2024-48910](CVE-2024-48910-Mitchellzhou1_CVE-2024-48910-PoC.md) | CVE-2024-48910-DOMPurify-原型污染 | ⚪ 高危 | 1 |
+| [CVE-2024-48910](CVE-2024-48910-Alex-Acero-Security_CVE-2024-48910-POC.md) | CVE-2024-48910-DOMPurify-原型污染 | ⚪ 高危 | 2 |
+| [CVE-2024-48910](CVE-2024-48910-Mitchellzhou1_CVE-2024-48910-PoC.md) | CVE-2024-48910-DOMPurify-原型污染 | ⚪ 高危 | 2 |
 | [CVE-2024-48990](CVE-2024-48990-Cyb3rFr0g_CVE-2024-48990-PoC.md) | CVE-2024-48990-needrestart-PYTHONPATH提权 | ⚪ 高危 | 12 |
 | [CVE-2024-48990](CVE-2024-48990-CyberCrowCC_CVE-2024-48990.md) | CVE-2024-48990 - needrestart 本地提权漏洞 | ⚪ 高危 | 12 |
 | [CVE-2024-48990](CVE-2024-48990-Loaxert_CVE-2024-48990-PoC.md) | CVE-2024-48990-needrestart-权限提升 | ⚪ 高危 | 12 |
@@ -883,7 +910,8 @@
 | [CVE-2024-48990](CVE-2024-48990-pentestfunctions_CVE-2024-48990-PoC-Testing.md) | CVE-2024-48990-needrestart-权限提升 | ⚪ 高危 | 12 |
 | [CVE-2024-48990](CVE-2024-48990-ten-ops_CVE-2024-48990_needrestart.md) | CVE-2024-48990-needrestart-权限提升 | ⚪ 高危 | 12 |
 | [CVE-2024-49019](CVE-2024-49019-rayngnpc_CVE-2024-49019-rayng.md) | CVE-2024-49019 - Active Directory Certificate Services 提权漏洞 | ⚪ 高危 | 1 |
-| [CVE-2024-49039](CVE-2024-49039-je5442804_WPTaskScheduler_CVE-2024-49039.md) | CVE-2024-49039 - Windows Task Scheduler 权限提升漏洞 | ⚪ 高危 | 1 |
+| [CVE-2024-49039](CVE-2024-49039-Alexandr-bit253_CVE-2024-49039.md) | CVE-2024-49039 - Windows Task Scheduler 权限提升漏洞 | ⚪ 高危 | 2 |
+| [CVE-2024-49039](CVE-2024-49039-je5442804_WPTaskScheduler_CVE-2024-49039.md) | CVE-2024-49039 - Windows Task Scheduler 权限提升漏洞 | ⚪ 高危 | 2 |
 | [CVE-2024-49138](CVE-2024-49138-CyprianAtsyor_letsdefend-cve-2024-49138-investigation.md) | CVE-2024-49138 Windows CLFS 驱动程序提权漏洞 | ⚪ 高危 | 7 |
 | [CVE-2024-49138](CVE-2024-49138-DeividasTerechovas_SOC335-CVE-2024-49138-Exploitation-Detected.md) | CVE-2024-49138 Windows CLFS 驱动程序提权漏洞 | ⚪ 高危 | 7 |
 | [CVE-2024-49138](CVE-2024-49138-Glitch-ao_SOC335-CVE-2024-49138-Exploitation-Detected.md) | CVE-2024-49138 Windows CLFS 特权提升漏洞 | ⚪ 高危 | 7 |
@@ -892,7 +920,8 @@
 | [CVE-2024-49138](CVE-2024-49138-bananoname_CVE-2024-49138-POC.md) | CVE-2024-49138 - Windows CLFS 提权漏洞 | ⚪ 高危 | 7 |
 | [CVE-2024-49138](CVE-2024-49138-onixgod_SOC335-Event-ID-313-CVE-2024-49138-Exploitation-Detected--Lest-Defend-Writeup.md) | CVE-2024-49138 Windows CLFS 提权漏洞 | ⚪ 高危 | 7 |
 | [CVE-2024-49369](CVE-2024-49369-Quantum-Sicarius_CVE-2024-49369.md) | CVE-2024-49369-Icinga2-TLS证书验证绕过 | ⚪ 严重 | 1 |
-| [CVE-2024-4947](CVE-2024-4947-bjrjk_CVE-2024-4947.md) | CVE-2024-4947 - Google Chrome V8 类型混淆漏洞 | ⚪ 高危 | 1 |
+| [CVE-2024-4947](CVE-2024-4947-DiabloX90911_CVE-2024-4947.md) | CVE-2024-4947 - Google Chrome V8 类型混淆漏洞 | ⚪ 高危 | 2 |
+| [CVE-2024-4947](CVE-2024-4947-bjrjk_CVE-2024-4947.md) | CVE-2024-4947 - Google Chrome V8 类型混淆漏洞 | ⚪ 高危 | 2 |
 | [CVE-2024-4956](CVE-2024-4956-An00bRektn_shirocrack.md) | CVE-2024-4956-Sonatype Nexus Repository Manager 3-路径遍历 | ⚪ 高危 | 17 |
 | [CVE-2024-4956](CVE-2024-4956-Buff3st-0v3rfl0w_CVE-2024-4956.md) | CVE-2024-4956-Sonatype Nexus Repository 3-路径遍历 | ⚪ 高危 | 17 |
 | [CVE-2024-4956](CVE-2024-4956-Cappricio-Securities_CVE-2024-4956.md) | CVE-2024-4956-Nexus Repository Manager 3-路径遍历 | ⚪ 高危 | 17 |
@@ -968,16 +997,19 @@
 | [CVE-2024-53677](CVE-2024-53677-seoyoung-kang_CVE-2024-53677.md) | CVE-2024-53677 - Apache Struts 2 RCE/任意文件上传/路径穿越 | 🔴 CRITICAL | 17 |
 | [CVE-2024-53677](CVE-2024-53677-shishirghimir_CVE-2024-53677-Exploit.md) | CVE-2024-53677 - Apache Struts RCE (远程代码执行) | 🔴 CRITICAL | 17 |
 | [CVE-2024-53677](CVE-2024-53677-yangyanglo_CVE-2024-53677.md) | CVE-2024-53677 - Apache Struts2 RCE/路径穿越/文件上传 | 🔴 CRITICAL | 17 |
-| [CVE-2024-53900](CVE-2024-53900-www-spam_CVE-2024-53900.md) | CVE-2024-53900-Mongoose-Search注入 | ⚪ 高危 | 1 |
+| [CVE-2024-53900](CVE-2024-53900-Gokul-Krishnan-V-R_CVE-2024-53900.md) | CVE-2024-53900-Mongoose-Search注入 | ⚪ 高危 | 2 |
+| [CVE-2024-53900](CVE-2024-53900-www-spam_CVE-2024-53900.md) | CVE-2024-53900-Mongoose-Search注入 | ⚪ 高危 | 2 |
 | [CVE-2024-53924](CVE-2024-53924-aelmosalamy_CVE-2024-53924.md) | CVE-2024-53924-Pycel-代码执行 | ⚪ 高危 | 1 |
 | [CVE-2024-54085](CVE-2024-54085-Mr-Zapi_CVE-2024-54085.md) | CVE-2024-54085 - AMI MegaRAC SPx Redfish 认证绕过 | ⚪ 高危 | 1 |
 | [CVE-2024-54498](CVE-2024-54498-wh1te4ever_CVE-2024-54498-PoC.md) | CVE-2024-54498-macOS Sandbox Escape | ⚪ 高危 | 1 |
 | [CVE-2024-54761](CVE-2024-54761-nscan9_CVE-2024-54761.md) | CVE-2024-54761-BigAnt Office Messenger-SQL注入 | ⚪ 高危 | 1 |
-| [CVE-2024-54772](CVE-2024-54772-deauther890_CVE-2024-54772.md) | CVE-2024-54772 MikroTik RouterOS 用户名枚举漏洞 | ⚪ 中危 | 1 |
+| [CVE-2024-54772](CVE-2024-54772-Seven11Eleven_CVE-2024-54772.md) | CVE-2024-54772 MikroTik RouterOS 用户名枚举漏洞 | ⚪ 中危 | 2 |
+| [CVE-2024-54772](CVE-2024-54772-deauther890_CVE-2024-54772.md) | CVE-2024-54772 MikroTik RouterOS 用户名枚举漏洞 | ⚪ 中危 | 2 |
 | [CVE-2024-54951](CVE-2024-54951-Allevon412_CVE-2024-54951.md) | CVE-2024-54951-Monica-Stored XSS | ⚪ 中危 | 1 |
 | [CVE-2024-55210](CVE-2024-55210-c4cnm_CVE-2024-55210.md) | CVE-2024-55210 - TOTVS Protheus MFA Bypass | ⚪ 高危 | 1 |
 | [CVE-2024-55211](CVE-2024-55211-micaelmaciel_CVE-2024-55211.md) | CVE-2024-55211-Tk-Rt-Wr135G-Cookie认证绕过 | ⚪ 高危 | 1 |
-| [CVE-2024-55466](CVE-2024-55466-cybsecsid_ThingsBoard-IoT-Platform-CVE-2024-55466.md) | ThingsBoard Stored XSS Privilege Escalation | 🔴 CRITICAL (CVSS 8.8) | 1 |
+| [CVE-2024-55466](CVE-2024-55466-cybsecsid_ThingsBoard-CVE-2024-55466.md) | ThingsBoard Stored XSS Privilege Escalation | 🔴 CRITICAL (CVSS 8.8) | 2 |
+| [CVE-2024-55466](CVE-2024-55466-cybsecsid_ThingsBoard-IoT-Platform-CVE-2024-55466.md) | ThingsBoard Stored XSS Privilege Escalation | 🔴 CRITICAL (CVSS 8.8) | 2 |
 | [CVE-2024-55511](CVE-2024-55511-nikosecurity_CVE-2024-55511.md) | CVE-2024-55511-Macrium Reflect-空指针解引用 | ⚪ 高危 | 1 |
 | [CVE-2024-55555](CVE-2024-55555-Yucaerin_CVE-2024-55555.md) | CVE-2024-55555-InvoiceNinja-RCE | ⚪ 高危 | 1 |
 | [CVE-2024-55591](CVE-2024-55591-0x7556_CVE-2024-55591.md) | CVE-2024-55591 | ⚪ 严重 | 9 |
@@ -1010,9 +1042,11 @@
 | [CVE-2024-57394](CVE-2024-57394-cwjchoi01_CVE-2024-57394.md) | CVE-2024-57394 - Qi-ANXIN Tianqing Endpoint Security Managem... | ⚪ 高危 | 1 |
 | [CVE-2024-58239](CVE-2024-58239-khoatran107_cve-2024-58239.md) | CVE-2024-58239 | ⚪ 可能导致拒绝服务或信息泄露 (取决于具体利用方式) | 1 |
 | [CVE-2024-58258](CVE-2024-58258-Web3-Serializer_CVE-2024-58258.md) | CVE-2024-58258 - SugarCRM SSRF/Local File Disclosure | ⚪ 高危 | 1 |
-| [CVE-2024-5932](CVE-2024-5932-EQSTLab_CVE-2024-5932.md) | CVE-2024-5932 - GiveWP Unauthenticated PHP Object Injection ... | ⚪ 高危 | 3 |
-| [CVE-2024-5932](CVE-2024-5932-OxLmahdi_cve-2024-5932.md) | CVE-2024-5932 - GiveWP WordPress Plugin PHP Object Injection... | ⚪ 严重 | 3 |
-| [CVE-2024-5932](CVE-2024-5932-hlc23_CVE-2024-5932-web-ui.md) | CVE-2024-5932-GiveWP-PHP对象注入 | ⚪ 高危 | 3 |
+| [CVE-2024-5932](CVE-2024-5932-EQSTLab_CVE-2024-5932.md) | CVE-2024-5932 - GiveWP – Donation Plugin and Fundraising Pla... | 🔴 CRITICAL | 5 |
+| [CVE-2024-5932](CVE-2024-5932-OxLmahdi_cve-2024-5932.md) | CVE-2024-5932 - GiveWP WordPress Plugin PHP Object Injection... | ⚪ 严重 | 5 |
+| [CVE-2024-5932](CVE-2024-5932-autom4il_CVE-2024-5932.md) | CVE-2024-5932 - GiveWP WordPress Plugin PHP Object Injection... | 🔴 CRITICAL | 5 |
+| [CVE-2024-5932](CVE-2024-5932-hlc23_CVE-2024-5932-web-ui.md) | CVE-2024-5932-GiveWP-PHP对象注入 | ⚪ 高危 | 5 |
+| [CVE-2024-5932](CVE-2024-5932-nishant-kumar-5173_CVE-2024-5932.md) | CVE-2024-5932 - GiveWP – Donation Plugin and Fundraising Pla... | 🔴 CRITICAL | 5 |
 | [CVE-2024-6132](CVE-2024-6132-Nxploited_CVE-2024-6132.md) | CVE-2024-6132-Pexels Free Stock Photos-任意文件上传 | ⚪ 高危 | 1 |
 | [CVE-2024-6387](CVE-2024-6387-AzrDll_CVE-2024-6387.md) | CVE-2024-6387 OpenSSH 竞争条件导致 RCE/DoS | ⚪ 高危 | 28 |
 | [CVE-2024-6387](CVE-2024-6387-DimaMend_cve-2024-6387-poc.md) | CVE-2024-6387-OpenSSH-竞争条件RCE/DoS | ⚪ 高危 | 28 |
@@ -1044,15 +1078,20 @@
 | [CVE-2024-6387](CVE-2024-6387-zql-gif_CVE-2024-6387.md) | CVE-2024-6387 - OpenSSH regreSSHion 漏洞 | ⚪ 高危 | 28 |
 | [CVE-2024-6536](CVE-2024-6536-apena-ba_CVE-2024-6536.md) | CVE-2024-6536 - Zephyr Project Manager 插件 Editor+ XSS | ⚪ 中危 | 1 |
 | [CVE-2024-6648](CVE-2024-6648-n0d0n_CVE-2024-6648.md) | CVE-2024-6648-AP Page Builder-路径遍历 | ⚪ 高危 | 1 |
-| [CVE-2024-7014](CVE-2024-7014-absholi7ly_PoC-for-CVE-2024-7014-Exploit.md) | CVE-2024-7014-Telegram for Android-EvilVideo恶意软件安装 | ⚪ 高危 | 1 |
-| [CVE-2024-7120](CVE-2024-7120-jokeir07x_CVE-2024-7120-Exploit-by-Dark-07x.md) | CVE-2024-7120-Raisecom设备-OS命令注入 | ⚪ 高危 | 1 |
-| [CVE-2024-7387](CVE-2024-7387-tevelsho_cve-2024-7387.md) | CVE-2024-7387-Openshift/builder-命令注入 | ⚪ 高危 | 1 |
+| [CVE-2024-7014](CVE-2024-7014-absholi7ly_PoC-for-CVE-2024-7014-Exploit.md) | CVE-2024-7014-Telegram for Android-EvilVideo恶意软件安装 | ⚪ 高危 | 2 |
+| [CVE-2024-7014](CVE-2024-7014-hexspectrum1_CVE-2024-7014.md) | CVE-2024-7014-Telegram for Android-EvilVideo恶意软件安装 | ⚪ 高危 | 2 |
+| [CVE-2024-7120](CVE-2024-7120-gh-ost00_CVE-2024-7120.md) | CVE-2024-7120-Raisecom设备-OS命令注入 | ⚪ 高危 | 2 |
+| [CVE-2024-7120](CVE-2024-7120-jokeir07x_CVE-2024-7120-Exploit-by-Dark-07x.md) | CVE-2024-7120-Raisecom设备-OS命令注入 | ⚪ 高危 | 2 |
+| [CVE-2024-7387](CVE-2024-7387-fatcatresearch_cve-2024-7387.md) | CVE-2024-7387-Openshift/builder-命令注入 | ⚪ 高危 | 2 |
+| [CVE-2024-7387](CVE-2024-7387-tevelsho_cve-2024-7387.md) | CVE-2024-7387-Openshift/builder-命令注入 | ⚪ 高危 | 2 |
 | [CVE-2024-7399](CVE-2024-7399-davidxbors_CVE-2024-7399-POC.md) | CVE-2024-7399 - Samsung MagicINFO 9 Server 路径遍历与任意文件写入 | ⚪ 高危 | 1 |
-| [CVE-2024-7479](CVE-2024-7479-PeterGabaldon_CVE-2024-7479_CVE-2024-7481.md) | CVE-2024-7479 TeamViewer VPN驱动安装签名验证不当导致权限提升 | ⚪ 高危 | 1 |
+| [CVE-2024-7479](CVE-2024-7479-PeterGabaldon_CVE-2024-7479_CVE-2024-7481.md) | CVE-2024-7479 TeamViewer VPN驱动安装签名验证不当导致权限提升 | ⚪ 高危 | 2 |
+| [CVE-2024-7479](CVE-2024-7479-fortra_CVE-2024-7479.md) | CVE-2024-7479 TeamViewer VPN驱动安装签名验证不当导致权限提升 | ⚪ 高危 | 2 |
 | [CVE-2024-7591](CVE-2024-7591-butyraldehyde_CVE-2024-7591-PoC.md) | CVE-2024-7591 - Progress LoadMaster OS 命令注入 | ⚪ 严重 | 1 |
 | [CVE-2024-7593](CVE-2024-7593-0xlf_CVE-2024-7593.md) | CVE-2024-7593 - Ivanti vTM Authentication Bypass | ⚪ 严重 | 2 |
 | [CVE-2024-7593](CVE-2024-7593-D3N14LD15K_CVE-2024-7593_PoC_Exploit.md) | CVE-2024-7593 - Ivanti vTM Authentication Bypass | 🔴 Critical | 2 |
-| [CVE-2024-7627](CVE-2024-7627-siunam321_CVE-2024-7627-PoC.md) | CVE-2024-7627-Bit File Manager-远程代码执行 | ⚪ 高危 | 1 |
+| [CVE-2024-7627](CVE-2024-7627-lkmn1_CVE-2024-7627.md) | CVE-2024-7627-Bit File Manager-远程代码执行 | ⚪ 高危 | 2 |
+| [CVE-2024-7627](CVE-2024-7627-siunam321_CVE-2024-7627-PoC.md) | CVE-2024-7627-Bit File Manager-远程代码执行 | ⚪ 高危 | 2 |
 | [CVE-2024-7940](CVE-2024-7940-barbaraeivyu_CVE-2024-7940.md) | CVE-2024-7940 - Hitachi Energy MicroSCADA SYS600 身份验证绕过 | ⚪ 高危 | 1 |
 | [CVE-2024-7954](CVE-2024-7954-Arthikw3b_RCE-CVE-2024-7954.md) | CVE-2024-7954 SPIP porte_plume插件远程代码执行漏洞 | ⚪ 高危 | 9 |
 | [CVE-2024-7954](CVE-2024-7954-Chocapikk_CVE-2024-7954.md) | CVE-2024-7954-SPIP-porte_plume-RCE | ⚪ 高危 | 9 |
@@ -1073,10 +1112,12 @@
 | [CVE-2024-835](CVE-2024-835-melmathari_dockerCVE-2024-835.md) | WordPress Docker Compose 环境配置 | ⚪ 中危 | 1 |
 | [CVE-2024-8418](CVE-2024-8418-goma0x2_CVE-2024-8418.md) | CVE-2024-8418-aardvark-dns-DoS | ⚪ 高危 | 1 |
 | [CVE-2024-8425](CVE-2024-8425-KTN1990_CVE-2024-8425.md) | CVE-2024-8425-WooCommerce Ultimate Gift Card-任意文件上传 | ⚪ 高危 | 1 |
-| [CVE-2024-8517](CVE-2024-8517-saadhassan77_SPIP-BigUp-Unauthenticated-RCE-Exploit-CVE-2024-8517.md) | CVE-2024-8517 - SPIP BigUp Multipart File Upload OS Command ... | ⚪ 高危 | 1 |
+| [CVE-2024-8517](CVE-2024-8517-Chocapikk_CVE-2024-8517.md) | CVE-2024-8517 - SPIP BigUp Multipart File Upload OS Command ... | ⚪ 高危 | 2 |
+| [CVE-2024-8517](CVE-2024-8517-saadhassan77_SPIP-BigUp-Unauthenticated-RCE-Exploit-CVE-2024-8517.md) | CVE-2024-8517 - SPIP BigUp Multipart File Upload OS Command ... | ⚪ 高危 | 2 |
 | [CVE-2024-8636](CVE-2024-8636-HyHy100_Chrome-Skia-CVE-2024-8636.md) | CVE-2024-8636-Chrome-Skia堆缓冲区溢出 | ⚪ 高危 | 1 |
 | [CVE-2024-8682](CVE-2024-8682-4minx_CVE-2024-8682.md) | CVE-2024-8682 - JNews WordPress Theme Unauthorized User Regi... | ⚪ 中危 | 1 |
-| [CVE-2024-9014](CVE-2024-9014-r0otk3r_CVE-2024-9014.md) | CVE-2024-9014 - pgAdmin 4 OAuth2 认证绕过 | ⚪ 高危 | 1 |
+| [CVE-2024-9014](CVE-2024-9014-EQSTLab_CVE-2024-9014.md) | CVE-2024-9014 - pgAdmin 4 OAuth2 认证绕过 | ⚪ 高危 | 2 |
+| [CVE-2024-9014](CVE-2024-9014-r0otk3r_CVE-2024-9014.md) | CVE-2024-9014 - pgAdmin 4 OAuth2 认证绕过 | ⚪ 高危 | 2 |
 | [CVE-2024-9047](CVE-2024-9047-Nxploited_CVE-2024-9047-Exploit.md) | CVE-2024-9047 - WordPress File Upload Plugin Path Traversal | ⚪ 高危 | 3 |
 | [CVE-2024-9047](CVE-2024-9047-iSee857_CVE-2024-9047-PoC.md) | CVE-2024-9047-WordPress File Upload-Path Traversal | ⚪ 高危 | 3 |
 | [CVE-2024-9047](CVE-2024-9047-verylazytech_CVE-2024-9047.md) | CVE-2024-9047 - WordPress File Upload插件路径遍历漏洞 | ⚪ 高危 | 3 |
