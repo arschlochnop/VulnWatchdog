@@ -1,7 +1,7 @@
 {
   "$schema": "blacklist-schema.json",
   "version": "1.0.0",
-  "last_updated": "2026-01-05T21:16:17.540249Z",
+  "last_updated": "2026-01-06T03:02:33.029010Z",
   "description": "VulnWatchdog 黑名单配置文件 - 用于过滤低质量POC和恶意仓库",
   "settings": {
     "auto_blacklist_enabled": true,
@@ -894,6 +894,16 @@
         "last_quality_score": 1,
         "last_poisoning_risk": 10,
         "notes": "自动拉黑 - 失败原因: POC质量过低: 1/10"
+      },
+      {
+        "username": "LeHeron",
+        "reason": "POC质量持续过低(最近评分: 1/10)",
+        "added_date": "2026-01-06",
+        "added_by": "auto",
+        "fail_count": 1,
+        "last_quality_score": 1,
+        "last_poisoning_risk": 5,
+        "notes": "自动拉黑 - 失败原因: POC质量过低: 1/10"
       }
     ],
     "repositories": [
@@ -929,11 +939,11 @@
     "repositories": []
   },
   "statistics": {
-    "total_blocked": 890,
-    "blocked_by_author": 889,
+    "total_blocked": 895,
+    "blocked_by_author": 894,
     "blocked_by_repository": 1,
     "blocked_by_cve": 0,
-    "auto_blacklisted_authors": 87,
+    "auto_blacklisted_authors": 88,
     "auto_blacklisted_repositories": 0
   }
 }
