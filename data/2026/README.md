@@ -9,7 +9,7 @@
 | CVE编号 | 标题 | 严重程度 | POC仓库数 |
 |---------|------|----------|-----------|
 | [CVE-2026-21440](CVE-2026-21440-you-ssef9_CVE-2026-21440.md) | CVE-2026-21440 - AdonisJS BodyParser 路径穿越/任意文件写入 | ⚪ 高危 | 1 |
-| [CVE-2026-21876](CVE-2026-21876-daytriftnewgen_CVE-2026-21876.md) | CVE-2026-21876 - OWASP ModSecurity Core Rule Set (CRS) 绕过漏洞 ... | ⚪ 高 (High) | 1 |
+| [CVE-2026-21876](CVE-2026-21876-daytriftnewgen_CVE-2026-21876.md) | CVE-2026-21876 - OWASP ModSecurity Core Rule Set (CRS) WAF绕过... | 🔴 CRITICAL | 1 |
 
 ---
 
