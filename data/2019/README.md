@@ -1,6 +1,6 @@
 # 2019年 CVE漏洞列表
 
-> 📊 共收录 **413** 个CVE漏洞
+> 📊 共收录 **408** 个CVE漏洞
 
 ---
 
@@ -8,8 +8,7 @@
 
 | CVE编号 | 标题 | 严重程度 | POC仓库数 |
 |---------|------|----------|-----------|
-| [CVE-2019-0207](CVE-2019-0207-shoucheng3_asf__tapestry-5_CVE-2019-0207_5-4-4.md) | CVE-2019-0207-Apache Tapestry-路径遍历 | ⚪ 高危 | 2 |
-| [CVE-2019-0207](CVE-2019-0207-shoucheng3_tapestry-5-cve-2019-0207.md) | CVE-2019-0207-Apache Tapestry-路径遍历 | ⚪ 高危 | 2 |
+| [CVE-2019-0207](CVE-2019-0207-shoucheng3_asf__tapestry-5_CVE-2019-0207_5-4-4.md) | CVE-2019-0207-Apache Tapestry-路径遍历 | ⚪ 高危 | 1 |
 | [CVE-2019-0222](CVE-2019-0222-shoucheng3_apache__activemq_CVE-2019-0222_5-15-8.md) | CVE-2019-0222-Apache ActiveMQ-MQTT OOM DoS | ⚪ 高危 | 1 |
 | [CVE-2019-0225](CVE-2019-0225-shoucheng3_apache__jspwiki_CVE-2019-0225_2-11-0-M2.md) | CVE-2019-0225-Apache JSPWiki-本地文件包含 | ⚪ 高危 | 1 |
 | [CVE-2019-0708](CVE-2019-0708-AaronCaiii_CVE-2019-0708-POC.md) | CVE-2019-0708-BlueKeep | ⚪ 高危 | 22 |
@@ -37,8 +36,7 @@
 | [CVE-2019-10076](CVE-2019-10076-shoucheng3_apache__jspwiki_CVE-2019-10076_2-11-0-M3.md) | CVE-2019-10076-Apache JSPWiki-XSS | ⚪ 中危 | 1 |
 | [CVE-2019-10077](CVE-2019-10077-shoucheng3_apache__jspwiki_CVE-2019-10077_2-11-0-M3.md) | CVE-2019-10077-Apache JSPWiki-XSS | ⚪ 中危 | 2 |
 | [CVE-2019-10077](CVE-2019-10077-shoucheng3_apache__jspwiki_CVE-2019-10077_2_11_0_M4_fixed.md) | CVE-2019-10077 - Apache JSPWiki InterWiki XSS | ⚪ 中危 | 2 |
-| [CVE-2019-10078](CVE-2019-10078-shoucheng3_apache__jspwiki_CVE-2019-10078_2-11-0-M3.md) | CVE-2019-10078-Apache JSPWiki-XSS | ⚪ 中危 | 2 |
-| [CVE-2019-10078](CVE-2019-10078-shoucheng3_apache__jspwiki_CVE-2019-10078_2_11_0_M4_fixed.md) | CVE-2019-10078-Apache JSPWiki-XSS | ⚪ 中危 | 2 |
+| [CVE-2019-10078](CVE-2019-10078-shoucheng3_apache__jspwiki_CVE-2019-10078_2-11-0-M3.md) | CVE-2019-10078-Apache JSPWiki-XSS | ⚪ 中危 | 1 |
 | [CVE-2019-10089](CVE-2019-10089-shoucheng3_apache__jspwiki_CVE-2019-10089_2-11-0-M4.md) | CVE-2019-10089-Apache JSPWiki-XSS | ⚪ 中危 | 1 |
 | [CVE-2019-10102](CVE-2019-10102-RKX1209_CVE-2019-1010298.md) | CVE-2019-1010298 (与CVE-2019-10102相关) | ⚪ 中危 | 2 |
 | [CVE-2019-10102](CVE-2019-10102-Tonyynot14_CVE-2019-1010268.md) | CVE-2019-10102 - JetBrains Ktor Framework HTTP MITM | ⚪ 中危 | 2 |
@@ -58,13 +56,11 @@
 | [CVE-2019-10149](CVE-2019-10149-hyim0810_CVE-2019-10149.md) | CVE-2019-10149 - Exim deliver_message() Remote Command Execu... | ⚪ 高危 | 16 |
 | [CVE-2019-10149](CVE-2019-10149-qlusec_CVE-2019-10149.md) | CVE-2019-10149-Exim-RCE | ⚪ 高危 | 16 |
 | [CVE-2019-10149](CVE-2019-10149-uyerr_PoC_CVE-2019-10149--rce.md) | CVE-2019-10149 - Exim Remote Command Execution | ⚪ 高危 | 16 |
-| [CVE-2019-10219](CVE-2019-10219-shoucheng3_hibernate__hibernate-validator_CVE-2019-10219_6-0-17-Final.md) | CVE-2019-10219-Hibernate-Validator-XSS | ⚪ 中危 | 2 |
-| [CVE-2019-10219](CVE-2019-10219-shoucheng3_hibernate__hibernate-validator_CVE-2019-10219_6_0_18_Final_fixed.md) | CVE-2019-10219-Hibernate-Validator-XSS | ⚪ 中危 | 2 |
+| [CVE-2019-10219](CVE-2019-10219-shoucheng3_hibernate__hibernate-validator_CVE-2019-10219_6_0_18_Final_fixed.md) | CVE-2019-10219-Hibernate-Validator-XSS | ⚪ 中危 | 1 |
 | [CVE-2019-10392](CVE-2019-10392-jas502n_CVE-2019-10392.md) | CVE-2019-10392 Jenkins Git Client Plugin OS 命令注入 | ⚪ 高危 | 2 |
 | [CVE-2019-10392](CVE-2019-10392-shoucheng3_jenkinsci__git-client-plugin_CVE-2019-10392_2-8-4.md) | CVE-2019-10392-Jenkins Git Client Plugin-OS命令注入 | ⚪ 高危 | 2 |
 | [CVE-2019-10743](CVE-2019-10743-albisorua_PoC-CVE-2019-10743.md) | CVE-2019-10743-archiver-Zip Slip | ⚪ 高危 | 1 |
-| [CVE-2019-10945](CVE-2019-10945-Snizi_CVE-2019-10945.md) | CVE-2019-10945-Joomla-目录遍历和任意文件删除 | ⚪ 高危 | 2 |
-| [CVE-2019-10945](CVE-2019-10945-dpgg101_CVE-2019-10945.md) | CVE-2019-10945-Joomla-目录遍历和任意文件删除 | ⚪ 高危 | 2 |
+| [CVE-2019-10945](CVE-2019-10945-Snizi_CVE-2019-10945.md) | CVE-2019-10945-Joomla-目录遍历和任意文件删除 | ⚪ 高危 | 1 |
 | [CVE-2019-11043](CVE-2019-11043-0th3rs-Security-Team_CVE-2019-11043.md) | CVE-2019-11043 - PHP-FPM 远程代码执行 | ⚪ 严重 | 23 |
 | [CVE-2019-11043](CVE-2019-11043-AleWong_PHP-FPM-Remote-Code-Execution-Vulnerability-CVE-2019-11043-.md) | CVE-2019-11043 - PHP-FPM RCE | 🔴 Critical | 23 |
 | [CVE-2019-11043](CVE-2019-11043-AndrewMas99_CVE-2019-11043-Vulnerability.md) | CVE-2019-11043 - PHP-FPM 远程代码执行 | ⚪ 高危 | 23 |
@@ -90,11 +86,9 @@
 | [CVE-2019-11043](CVE-2019-11043-ypereirareis_docker-CVE-2019-11043.md) | CVE-2019-11043 - PHP-FPM Remote Code Execution (RCE) | 🔴 Critical | 23 |
 | [CVE-2019-11287](CVE-2019-11287-mbadanoiu_CVE-2019-11287.md) | CVE-2019-11287-RabbitMQ Web Management Plugin-DoS | ⚪ 中危 | 1 |
 | [CVE-2019-11479](CVE-2019-11479-ibrahmsql_CVE-2019-11479.md) | CVE-2019-11479-Linux Kernel-TCP SACK Panic | ⚪ 中危 | 1 |
-| [CVE-2019-12185](CVE-2019-12185-Drew-Alleman_CVE-2019-12185.md) | CVE-2019-12185-eLabFTW-Arbitrary File Upload | ⚪ 高危 | 2 |
-| [CVE-2019-12185](CVE-2019-12185-fuzzlove_eLabFTW-1.8.5-EntityController-Arbitrary-File-Upload-RCE.md) | CVE-2019-12185-eLabFTW-Arbitrary File Upload | ⚪ 高危 | 2 |
+| [CVE-2019-12185](CVE-2019-12185-fuzzlove_eLabFTW-1.8.5-EntityController-Arbitrary-File-Upload-RCE.md) | CVE-2019-12185-eLabFTW-Arbitrary File Upload | ⚪ 高危 | 1 |
 | [CVE-2019-12401](CVE-2019-12401-mbadanoiu_CVE-2019-12401.md) | CVE-2019-12401: Apache Solr XML Bomb 漏洞 | ⚪ 高危 | 1 |
-| [CVE-2019-12409](CVE-2019-12409-jas502n_CVE-2019-12409.md) | CVE-2019-12409: Apache Solr RCE via JMX | ⚪ 高危 | 2 |
-| [CVE-2019-12409](CVE-2019-12409-mbadanoiu_CVE-2019-12409.md) | CVE-2019-12409: Apache Solr RCE via JMX | ⚪ 高危 | 2 |
+| [CVE-2019-12409](CVE-2019-12409-mbadanoiu_CVE-2019-12409.md) | CVE-2019-12409: Apache Solr RCE via JMX | ⚪ 高危 | 1 |
 | [CVE-2019-12840](CVE-2019-12840-KrE80r_webmin_cve-2019-12840_poc.md) | CVE-2019-12840 - Webmin Package Updates 远程命令执行 | ⚪ 高危 | 5 |
 | [CVE-2019-12840](CVE-2019-12840-Pol-Ruiz_PoC-CVE-2019-12840.md) | CVE-2019-12840 - Webmin Package Updates Remote Command Execu... | ⚪ 高危 | 5 |
 | [CVE-2019-12840](CVE-2019-12840-WizzzStark_CVE-2019-12840.py.md) | CVE-2019-12840 - Webmin Package Updates 远程命令执行 | ⚪ 高危 | 5 |
@@ -188,18 +182,20 @@
 | [CVE-2019-17572](CVE-2019-17572-shoucheng3_apache__rocketmq_CVE-2019-17572_4-6-0.md) | CVE-2019-17572 - Apache RocketMQ 目录遍历 | ⚪ 高危 | 1 |
 | [CVE-2019-17573](CVE-2019-17573-shoucheng3_asf__cxf_CVE-2019-17573_3-2-11.md) | CVE-2019-17573-Apache CXF-Reflected XSS | ⚪ 中危 | 1 |
 | [CVE-2019-17640](CVE-2019-17640-shoucheng3_vert-x3__vertx-web_CVE-2019-17640_3-9-3.md) | CVE-2019-17640-Eclipse Vert.x-路径遍历 | ⚪ 高危 | 1 |
-| [CVE-2019-18634](CVE-2019-18634-DDayLuong_CVE-2019-18634.md) | CVE-2019-18634 - Sudo pwfeedback 缓冲区溢出 | ⚪ 高危 | 12 |
-| [CVE-2019-18634](CVE-2019-18634-N1et_CVE-2019-18634.md) | CVE-2019-18634-Sudo-Stack Buffer Overflow | ⚪ 高危 | 12 |
-| [CVE-2019-18634](CVE-2019-18634-Plazmaz_CVE-2019-18634.md) | CVE-2019-18634-Sudo-堆栈缓冲区溢出 | ⚪ 高危 | 12 |
-| [CVE-2019-18634](CVE-2019-18634-aesophor_CVE-2019-18634.md) | CVE-2019-18634-Sudo-Stack Buffer Overflow | ⚪ 高危 | 12 |
-| [CVE-2019-18634](CVE-2019-18634-chanbakjsd_CVE-2019-18634.md) | CVE-2019-18634-Sudo-Stack-Based Buffer Overflow | ⚪ 高危 | 12 |
-| [CVE-2019-18634](CVE-2019-18634-edsonjt81_sudo-cve-2019-18634.md) | CVE-2019-18634-Sudo-Stack-Based Buffer Overflow | ⚪ 高危 | 12 |
-| [CVE-2019-18634](CVE-2019-18634-l0w3_CVE-2019-18634.md) | CVE-2019-18634-Sudo-Stack-Based Buffer Overflow | ⚪ 高危 | 12 |
-| [CVE-2019-18634](CVE-2019-18634-letsr00t_-CVE-2019-18634-sudo-pwfeedback.md) | CVE-2019-18634-sudo-pwfeedback缓冲区溢出 | ⚪ 高危 | 12 |
-| [CVE-2019-18634](CVE-2019-18634-ngyinkit_cve-2019-18634.md) | CVE-2019-18634-sudo-缓冲区溢出 | ⚪ 高危 | 12 |
-| [CVE-2019-18634](CVE-2019-18634-paras1te-x_CVE-2019-18634.md) | CVE-2019-18634-Sudo-Stack Buffer Overflow | ⚪ 高危 | 12 |
-| [CVE-2019-18634](CVE-2019-18634-ptef_CVE-2019-18634.md) | CVE-2019-18634-Sudo-Stack Buffer Overflow | ⚪ 高危 | 12 |
-| [CVE-2019-18634](CVE-2019-18634-saleemrashid_sudo-cve-2019-18634.md) | CVE-2019-18634-Sudo-Stack Buffer Overflow | ⚪ 高危 | 12 |
+| [CVE-2019-18634](CVE-2019-18634-CyrusRazavi_CVE-2019-18634-.md) | CVE-2019-18634 - Sudo 缓冲区溢出 | ⚪ 高危 | 14 |
+| [CVE-2019-18634](CVE-2019-18634-DDayLuong_CVE-2019-18634.md) | CVE-2019-18634 - Sudo 栈缓冲区溢出 (Stack-based Buffer Overflow) | ⚪ 高 (High) | 14 |
+| [CVE-2019-18634](CVE-2019-18634-N1et_CVE-2019-18634.md) | CVE-2019-18634 - Sudo 栈缓冲区溢出 (Stack-based Buffer Overflow) | ⚪ 高危 | 14 |
+| [CVE-2019-18634](CVE-2019-18634-Plazmaz_CVE-2019-18634.md) | CVE-2019-18634 - Sudo 堆/栈缓冲区溢出 | ⚪ 高危 | 14 |
+| [CVE-2019-18634](CVE-2019-18634-TheJoyOfHacking_saleemrashid-sudo-cve-2019-18634.md) | CVE-2019-18634 - Sudo 栈溢出 (Stack-based Buffer Overflow) | ⚪ 高危 (High) | 14 |
+| [CVE-2019-18634](CVE-2019-18634-aesophor_CVE-2019-18634.md) | CVE-2019-18634 - Sudo 堆栈缓冲区溢出 | ⚪ 高危 | 14 |
+| [CVE-2019-18634](CVE-2019-18634-chanbakjsd_CVE-2019-18634.md) | CVE-2019-18634 - Sudo 栈缓冲区溢出 (Stack-based Buffer Overflow) | ⚪ 高危 | 14 |
+| [CVE-2019-18634](CVE-2019-18634-edsonjt81_sudo-cve-2019-18634.md) | CVE-2019-18634 - Sudo 栈溢出 (Stack-based Buffer Overflow) | ⚪ 高危 | 14 |
+| [CVE-2019-18634](CVE-2019-18634-l0w3_CVE-2019-18634.md) | CVE-2019-18634 - Sudo BSS缓冲区溢出 | ⚪ 高危 | 14 |
+| [CVE-2019-18634](CVE-2019-18634-letsr00t_-CVE-2019-18634-sudo-pwfeedback.md) | CVE-2019-18634-sudo-pwfeedback缓冲区溢出 | ⚪ 高危 | 14 |
+| [CVE-2019-18634](CVE-2019-18634-ngyinkit_cve-2019-18634.md) | CVE-2019-18634 - Sudo 栈缓冲区溢出(Stack-based Buffer Overflow) | ⚪ 高 (High) | 14 |
+| [CVE-2019-18634](CVE-2019-18634-paras1te-x_CVE-2019-18634.md) | CVE-2019-18634 - Sudo 栈缓冲区溢出 (Stack-based Buffer Overflow) | ⚪ 高 (High) | 14 |
+| [CVE-2019-18634](CVE-2019-18634-ptef_CVE-2019-18634.md) | CVE-2019-18634 - Sudo 栈溢出 (Stack-based Buffer Overflow) | ⚪ 高危 | 14 |
+| [CVE-2019-18634](CVE-2019-18634-saleemrashid_sudo-cve-2019-18634.md) | CVE-2019-18634 - Sudo 栈缓冲区溢出 (Stack-based Buffer Overflow) | ⚪ 高 (High) | 14 |
 | [CVE-2019-18935](CVE-2019-18935-0xAgun_CVE-2019-18935-checker.md) | CVE-2019-18935 - Progress Telerik UI for ASP.NET AJAX Deseri... | ⚪ 高危 | 13 |
 | [CVE-2019-18935](CVE-2019-18935-0xsharz_telerik-scanner-CVE-2019-18935.md) | CVE-2019-18935 - Telerik UI for ASP.NET AJAX 反序列化漏洞 | ⚪ 高危 | 13 |
 | [CVE-2019-18935](CVE-2019-18935-ThanHuuTuan_CVE_2019_18935.md) | CVE-2019-18935-Telerik UI for ASP.NET AJAX-反序列化漏洞 | ⚪ 高危 | 13 |
@@ -267,8 +263,7 @@
 | [CVE-2019-2215](CVE-2019-2215-stevejubx_CVE-2019-2215.md) | CVE-2019-2215 Android Binder Use-After-Free | ⚪ 高危 | 23 |
 | [CVE-2019-2215](CVE-2019-2215-timwr_CVE-2019-2215.md) | CVE-2019-2215 Android Binder Use-After-Free | ⚪ 高危 | 23 |
 | [CVE-2019-2215](CVE-2019-2215-willboka_CVE-2019-2215-HuaweiP20Lite.md) | CVE-2019-2215 Android Binder Use-After-Free | ⚪ 高危 | 23 |
-| [CVE-2019-25137](CVE-2019-25137-Ickarah_CVE-2019-25137-Version-Research.md) | CVE-2019-25137 - Umbraco CMS Remote Code Execution | ⚪ 高危 | 2 |
-| [CVE-2019-25137](CVE-2019-25137-dact91_CVE-2019-25137-RCE.md) | CVE-2019-25137 - Umbraco CMS Remote Code Execution | ⚪ 高危 | 2 |
+| [CVE-2019-25137](CVE-2019-25137-Ickarah_CVE-2019-25137-Version-Research.md) | CVE-2019-25137 - Umbraco CMS Remote Code Execution | ⚪ 高危 | 1 |
 | [CVE-2019-3396](CVE-2019-3396-0xNinjaCyclone_cve-2019-3396.md) | CVE-2019-3396-Confluence-RCE | ⚪ 高危 | 21 |
 | [CVE-2019-3396](CVE-2019-3396-46o60_CVE-2019-3396_Confluence.md) | CVE-2019-3396_Confluence Widget Connector Macro SSTI | ⚪ 高危 | 21 |
 | [CVE-2019-3396](CVE-2019-3396-Avento_CVE-2019-3396-Memshell-for-Behinder.md) | CVE-2019-3396-Atlassian Confluence Widget Connector Server-S... | ⚪ 高危 | 21 |

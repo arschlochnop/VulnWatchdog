@@ -10,7 +10,7 @@
 |---------|------|----------|-----------|
 | [CVE-2026-0628](CVE-2026-0628-fevar54_CVE-2026-0628-POC.md) | CVE-2026-0628 - Google Chrome (WebView组件) 权限绕过/脚本注入 | ⚪ 高 (High) | 1 |
 | [CVE-2026-21440](CVE-2026-21440-you-ssef9_CVE-2026-21440.md) | CVE-2026-21440 - AdonisJS BodyParser 路径穿越/任意文件写入 | ⚪ 高危 | 1 |
-| [CVE-2026-21858](CVE-2026-21858-Chocapikk_CVE-2026-21858.md) | CVE-2026-21858 - n8n (自动化工作流平台) 未授权远程代码执行 (RCE) | 🔴 CRITICAL (严重) | 2 |
+| [CVE-2026-21858](CVE-2026-21858-Chocapikk_CVE-2026-21858.md) | CVE-2026-21858 - n8n 远程代码执行 (RCE) | 🔴 CRITICAL | 2 |
 | [CVE-2026-21858](CVE-2026-21858-eduardorossi84_CVE-2026-21858-POC.md) | CVE-2026-21858 - n8n (工作流自动化平台) RCE (远程代码执行) | ⚪ 严重 (Critical) | 2 |
 | [CVE-2026-21876](CVE-2026-21876-daytriftnewgen_CVE-2026-21876.md) | CVE-2026-21876 - OWASP Core Rule Set (CRS) WAF绕过/跨站脚本(XSS) | ⚪ 严重 (Critical) | 1 |
 

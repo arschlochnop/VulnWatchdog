@@ -1,6 +1,6 @@
 # 2017年 CVE漏洞列表
 
-> 📊 共收录 **297** 个CVE漏洞
+> 📊 共收录 **296** 个CVE漏洞
 
 ---
 
@@ -241,7 +241,7 @@
 | [CVE-2017-7529](CVE-2017-7529-cyberharsh_nginx-CVE-2017-7529.md) | CVE-2017-7529-Nginx越界读取缓存漏洞 | ⚪ 高危 | 18 |
 | [CVE-2017-7529](CVE-2017-7529-cyberk1w1_CVE-2017-7529.md) | CVE-2017-7529-Nginx-Integer Overflow | ⚪ 中危 | 18 |
 | [CVE-2017-7529](CVE-2017-7529-daehee_nginx-overflow.md) | CVE-2017-7529-Nginx-Integer Overflow | ⚪ 中危 | 18 |
-| [CVE-2017-7529](CVE-2017-7529-en0f_CVE-2017-7529_PoC.md) | CVE-2017-7529 - Nginx 信息泄露 | ⚪ 中 | 18 |
+| [CVE-2017-7529](CVE-2017-7529-en0f_CVE-2017-7529_PoC.md) | CVE-2017-7529 - Nginx 整数溢出 (Integer Overflow) | ⚪ 中危 (Medium) | 18 |
 | [CVE-2017-7529](CVE-2017-7529-fardeen-ahmed_Remote-Integer-Overflow-Vulnerability.md) | CVE-2017-7529 - Nginx Range Filter Integer Overflow | ⚪ 中危 | 18 |
 | [CVE-2017-7529](CVE-2017-7529-fu2x2000_CVE-2017-7529-Nginx---Remote-Integer-Overflow-Exploit.md) | CVE-2017-7529 - Nginx Integer Overflow | 🟠 High | 18 |
 | [CVE-2017-7529](CVE-2017-7529-gemboxteam_exploit-nginx-1.10.3.md) | CVE-2017-7529-Nginx-整数溢出 | ⚪ 中危 | 18 |
@@ -286,8 +286,7 @@
 | [CVE-2017-9248](CVE-2017-9248-ictnamanh_CVE-2017-9248.md) | CVE-2017-9248 - Telerik UI for ASP.NET AJAX Cryptographic We... | ⚪ 高危 | 6 |
 | [CVE-2017-9248](CVE-2017-9248-oldboysonnt_dp.md) | CVE-2017-9248 - Telerik UI for ASP.NET AJAX Cryptographic We... | ⚪ 高危 | 6 |
 | [CVE-2017-9805](CVE-2017-9805-Fl5xia_CVE-2017-9805.md) | CVE-2017-9805 - Apache Struts 2 (REST Plugin) RCE (远程代码执行) | 🔴 CRITICAL | 1 |
-| [CVE-2017-9822](CVE-2017-9822-Tnot123_cve-2017-9822.md) | CVE-2017-9822 DotNetNuke Cookie 反序列化 RCE | ⚪ 高危 | 2 |
-| [CVE-2017-9822](CVE-2017-9822-murataydemir_CVE-2017-9822.md) | CVE-2017-9822 DotNetNuke Cookie 反序列化 RCE | ⚪ 高危 | 2 |
+| [CVE-2017-9822](CVE-2017-9822-Tnot123_cve-2017-9822.md) | CVE-2017-9822 DotNetNuke Cookie 反序列化 RCE | ⚪ 高危 | 1 |
 | [CVE-2017-9841](CVE-2017-9841-Chocapikk_CVE-2017-9841.md) | CVE-2017-9841-PHPUnit-远程代码执行 | ⚪ 高危 | 17 |
 | [CVE-2017-9841](CVE-2017-9841-Habibullah1101_PHPUnit-GoScan.md) | CVE-2017-9841 PHPUnit 远程代码执行 | ⚪ 高危 | 17 |
 | [CVE-2017-9841](CVE-2017-9841-K3ysTr0K3R_CVE-2017-9841-EXPLOIT.md) | CVE-2017-9841-PHPUnit远程代码执行 | ⚪ 高危 | 17 |
