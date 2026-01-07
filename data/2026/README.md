@@ -1,6 +1,6 @@
 # 2026年 CVE漏洞列表
 
-> 📊 共收录 **2** 个CVE漏洞
+> 📊 共收录 **3** 个CVE漏洞
 
 ---
 
@@ -9,6 +9,7 @@
 | CVE编号 | 标题 | 严重程度 | POC仓库数 |
 |---------|------|----------|-----------|
 | [CVE-2026-21440](CVE-2026-21440-you-ssef9_CVE-2026-21440.md) | CVE-2026-21440 - AdonisJS BodyParser 路径穿越/任意文件写入 | ⚪ 高危 | 1 |
+| [CVE-2026-21858](CVE-2026-21858-eduardorossi84_CVE-2026-21858-POC.md) | CVE-2026-21858 - n8n (工作流自动化平台) RCE (远程代码执行) | ⚪ 严重 (Critical) | 1 |
 | [CVE-2026-21876](CVE-2026-21876-daytriftnewgen_CVE-2026-21876.md) | CVE-2026-21876 - OWASP ModSecurity Core Rule Set (CRS) WAF绕过... | 🔴 CRITICAL | 1 |
 
 ---
