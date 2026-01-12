@@ -1,6 +1,6 @@
 # 2020年 CVE漏洞列表
 
-> 📊 共收录 **340** 个CVE漏洞
+> 📊 共收录 **346** 个CVE漏洞
 
 ---
 
@@ -39,35 +39,39 @@
 | [CVE-2020-0688](CVE-2020-0688-youncyb_CVE-2020-0688.md) | CVE-2020-0688 Microsoft Exchange Server 远程代码执行漏洞 | ⚪ 高危 | 23 |
 | [CVE-2020-0688](CVE-2020-0688-zcgonvh_CVE-2020-0688.md) | CVE-2020-0688 Microsoft Exchange Server Remote Code Executio... | ⚪ 高危 | 23 |
 | [CVE-2020-0688](CVE-2020-0688-zyn3rgy_ecp_slap.md) | CVE-2020-0688-Microsoft Exchange Server-远程代码执行 | ⚪ 高危 | 23 |
-| [CVE-2020-0796](CVE-2020-0796-AdamSonov_smbGhostCVE-2020-0796.md) | CVE-2020-0796-SMBGhost | ⚪ 高危 | 29 |
-| [CVE-2020-0796](CVE-2020-0796-Barriuso_SMBGhost_AutomateExploitation.md) | CVE-2020-0796-Windows SMBv3远程代码执行 | ⚪ 高危 | 29 |
-| [CVE-2020-0796](CVE-2020-0796-DannyRavi_nmap-scripts.md) | CVE-2020-0796 (SMBGhost) | ⚪ 高危 | 29 |
-| [CVE-2020-0796](CVE-2020-0796-F6JO_CVE-2020-0796-Batch-scanning.md) | CVE-2020-0796-SMBGhost | ⚪ 高危 | 29 |
-| [CVE-2020-0796](CVE-2020-0796-Jagadeesh7532_-CVE-2020-0796-SMBGhost-Windows-10-SMBv3-Remote-Code-Execution-Vulnerability.md) | CVE-2020-0796 SMBGhost 远程代码执行漏洞 | ⚪ 高危 | 29 |
-| [CVE-2020-0796](CVE-2020-0796-Kaizzzo1_CVE-2020-0796.md) | CVE-2020-0796-SMBGhost-远程代码执行 | ⚪ 高危 | 29 |
-| [CVE-2020-0796](CVE-2020-0796-Murasame-nc_CVE-2020-0796-LPE-POC.md) | CVE-2020-0796 (SMBGhost) 本地提权漏洞 | ⚪ 高危 | 29 |
-| [CVE-2020-0796](CVE-2020-0796-OldDream666_cve-2020-0796.md) | CVE-2020-0796 - SMBGhost 远程代码执行漏洞 | ⚪ 高危 | 29 |
-| [CVE-2020-0796](CVE-2020-0796-Opensitoo_cve-2020-0796.md) | CVE-2020-0796-SMBGhost-远程代码执行 | ⚪ 高危 | 29 |
-| [CVE-2020-0796](CVE-2020-0796-SEHandler_CVE-2020-0796.md) | CVE-2020-0796 SMBGhost 远程代码执行漏洞 | ⚪ 高危 | 29 |
-| [CVE-2020-0796](CVE-2020-0796-arzuozkan_CVE-2020-0796.md) | CVE-2020-0796 SMBGhost 远程代码执行漏洞 | ⚪ 高危 | 29 |
-| [CVE-2020-0796](CVE-2020-0796-awareseven_eternalghosttest.md) | CVE-2020-0796 (SMBGhost) | ⚪ 高危 | 29 |
-| [CVE-2020-0796](CVE-2020-0796-dungnm24_CVE-2020-0796.md) | CVE-2020-0796 SMBGhost RCE | ⚪ 高危 | 29 |
-| [CVE-2020-0796](CVE-2020-0796-eerykitty_CVE-2020-0796-PoC.md) | CVE-2020-0796 (SMBGhost) | ⚪ 高危 | 29 |
-| [CVE-2020-0796](CVE-2020-0796-esmwaSpyware_DoS-PoC-for-CVE-2020-0796-SMBGhost-.md) | CVE-2020-0796 - SMBGhost 远程代码执行漏洞 | ⚪ 高危 | 29 |
-| [CVE-2020-0796](CVE-2020-0796-hungdnvp_POC-CVE-2020-0796.md) | CVE-2020-0796 (SMBGhost) | ⚪ 严重 | 29 |
-| [CVE-2020-0796](CVE-2020-0796-julixsalas_CVE-2020-0796.md) | CVE-2020-0796 - SMBGhost 远程代码执行漏洞 | ⚪ 高危 | 29 |
-| [CVE-2020-0796](CVE-2020-0796-krizzz07_CVE-2020-0796.md) | CVE-2020-0796 (SMBGhost) | ⚪ 高危 | 29 |
-| [CVE-2020-0796](CVE-2020-0796-lisinan988_CVE-2020-0796-exp.md) | CVE-2020-0796 (SMBGhost) 远程代码执行漏洞 | ⚪ 高危 | 29 |
-| [CVE-2020-0796](CVE-2020-0796-madanokr001_CVE-2020-0796.md) | CVE-2020-0796 SMBGhost 远程代码执行漏洞 | ⚪ 高危 | 29 |
-| [CVE-2020-0796](CVE-2020-0796-maqeel-git_CVE-2020-0796-SMBGhost.md) | CVE-2020-0796 (SMBGhost) | ⚪ 高危 | 29 |
-| [CVE-2020-0796](CVE-2020-0796-monjheta_CVE-2020-0796.md) | CVE-2020-0796-SMBGhost-远程代码执行 | ⚪ 高危 | 29 |
-| [CVE-2020-0796](CVE-2020-0796-orangmuda_CVE-2020-0796.md) | CVE-2020-0796 SMBGhost 远程代码执行漏洞 | ⚪ 高危 | 29 |
-| [CVE-2020-0796](CVE-2020-0796-ran-sama_CVE-2020-0796.md) | CVE-2020-0796 (SMBGhost) | ⚪ 高危 | 29 |
-| [CVE-2020-0796](CVE-2020-0796-syadg123_CVE-2020-0796.md) | CVE-2020-0796-SMBGhost-RCE | ⚪ 高危 | 29 |
-| [CVE-2020-0796](CVE-2020-0796-tdevworks_CVE-2020-0796-SMBGhost-Exploit-Demo.md) | CVE-2020-0796 (SMBGhost) | ⚪ 高危 | 29 |
-| [CVE-2020-0796](CVE-2020-0796-vsai94_ECE9069_SMBGhost_Exploit_CVE-2020-0796-.md) | CVE-2020-0796 (SMBGhost) | ⚪ 高危 | 29 |
-| [CVE-2020-0796](CVE-2020-0796-w1ld3r_SMBGhost_Scanner.md) | CVE-2020-0796 (SMBGhost) | ⚪ 高危 | 29 |
-| [CVE-2020-0796](CVE-2020-0796-z3ena_Exploiting-and-Mitigating-CVE-2020-0796-SMBGhost-and-Print-Spooler-Vulnerabilities.md) | CVE-2020-0796-Windows SMBv3远程代码执行 | ⚪ 高危 | 29 |
+| [CVE-2020-0796](CVE-2020-0796-AdamSonov_smbGhostCVE-2020-0796.md) | CVE-2020-0796 - Microsoft Windows 10 和 Windows Server (SMBv3... | ⚪ 严重 (Critical) | 33 |
+| [CVE-2020-0796](CVE-2020-0796-Barriuso_SMBGhost_AutomateExploitation.md) | CVE-2020-0796 - Microsoft Windows 10, Windows Server (SMBv3)... | 🔴 CRITICAL | 33 |
+| [CVE-2020-0796](CVE-2020-0796-DannyRavi_nmap-scripts.md) | CVE-2020-0796 - Microsoft Windows Server Message Block 3.1.1... | 🔴 Critical | 33 |
+| [CVE-2020-0796](CVE-2020-0796-F6JO_CVE-2020-0796-Batch-scanning.md) | CVE-2020-0796-SMBGhost | ⚪ 高危 | 33 |
+| [CVE-2020-0796](CVE-2020-0796-Jagadeesh7532_-CVE-2020-0796-SMBGhost-Windows-10-SMBv3-Remote-Code-Execution-Vulnerability.md) | CVE-2020-0796 - Microsoft Windows RCE/LPE | 🔴 CRITICAL | 33 |
+| [CVE-2020-0796](CVE-2020-0796-Kaizzzo1_CVE-2020-0796.md) | CVE-2020-0796-SMBGhost-远程代码执行 | ⚪ 高危 | 33 |
+| [CVE-2020-0796](CVE-2020-0796-Murasame-nc_CVE-2020-0796-LPE-POC.md) | CVE-2020-0796 (SMBGhost) 本地提权漏洞 | ⚪ 高危 | 33 |
+| [CVE-2020-0796](CVE-2020-0796-OldDream666_cve-2020-0796.md) | CVE-2020-0796 - Microsoft Windows Server Message Block 3.1.1... | 🔴 CRITICAL | 33 |
+| [CVE-2020-0796](CVE-2020-0796-Opensitoo_cve-2020-0796.md) | CVE-2020-0796-SMBGhost-远程代码执行 | ⚪ 高危 | 33 |
+| [CVE-2020-0796](CVE-2020-0796-SEHandler_CVE-2020-0796.md) | CVE-2020-0796 - Microsoft Windows 10, Windows Server (SMB 3.... | 🔴 CRITICAL | 33 |
+| [CVE-2020-0796](CVE-2020-0796-arzuozkan_CVE-2020-0796.md) | CVE-2020-0796 - Microsoft Windows Server Message Block 3.1.1... | 🔴 Critical (紧急) | 33 |
+| [CVE-2020-0796](CVE-2020-0796-awareseven_eternalghosttest.md) | CVE-2020-0796 - Microsoft Windows / SMBv3 RCE (远程代码执行) | 🔴 CRITICAL (紧急) | 33 |
+| [CVE-2020-0796](CVE-2020-0796-bsec404_CVE-2020-0796.md) | CVE-2020-0796 - Microsoft Windows (SMBv3) RCE (远程代码执行) | 🔴 CRITICAL (紧急) | 33 |
+| [CVE-2020-0796](CVE-2020-0796-cybermads_CVE-2020-0796.md) | CVE-2020-0796 - Microsoft Windows Server Message Block 3.1.1... | 🔴 CRITICAL | 33 |
+| [CVE-2020-0796](CVE-2020-0796-dungnm24_CVE-2020-0796.md) | CVE-2020-0796 - Microsoft Windows 10 & Windows Server 2016/2... | 🔴 Critical | 33 |
+| [CVE-2020-0796](CVE-2020-0796-eerykitty_CVE-2020-0796-PoC.md) | CVE-2020-0796 - Microsoft Windows Server Message Block 3.1.1... | 🔴 CRITICAL | 33 |
+| [CVE-2020-0796](CVE-2020-0796-esmwaSpyware_DoS-PoC-for-CVE-2020-0796-SMBGhost-.md) | CVE-2020-0796 - Microsoft Windows 10 & Windows Server RCE/Do... | ⚪ 紧急 (Critical) | 33 |
+| [CVE-2020-0796](CVE-2020-0796-hungdnvp_POC-CVE-2020-0796.md) | CVE-2020-0796 - Microsoft Windows Server Message Block 3.1.1... | 🔴 CRITICAL | 33 |
+| [CVE-2020-0796](CVE-2020-0796-julixsalas_CVE-2020-0796.md) | CVE-2020-0796 - SMBGhost 远程代码执行漏洞 | ⚪ 高危 | 33 |
+| [CVE-2020-0796](CVE-2020-0796-krizzz07_CVE-2020-0796.md) | CVE-2020-0796 (SMBGhost) | ⚪ 高危 | 33 |
+| [CVE-2020-0796](CVE-2020-0796-lisinan988_CVE-2020-0796-exp.md) | CVE-2020-0796 (SMBGhost) 远程代码执行漏洞 | ⚪ 高危 | 33 |
+| [CVE-2020-0796](CVE-2020-0796-madanokr001_CVE-2020-0796.md) | CVE-2020-0796 SMBGhost 远程代码执行漏洞 | ⚪ 高危 | 33 |
+| [CVE-2020-0796](CVE-2020-0796-maqeel-git_CVE-2020-0796-SMBGhost.md) | CVE-2020-0796 (SMBGhost) | ⚪ 高危 | 33 |
+| [CVE-2020-0796](CVE-2020-0796-maqeel-git_CVE-2020-0796.md) | CVE-2020-0796 - Microsoft Windows (Windows 10 和 Windows Serv... | ⚪ 致命 (Critical) | 33 |
+| [CVE-2020-0796](CVE-2020-0796-monjheta_CVE-2020-0796.md) | CVE-2020-0796 - Microsoft Windows Server Message Block 3.1.1... | 🔴 CRITICAL | 33 |
+| [CVE-2020-0796](CVE-2020-0796-nyambiblaise_Microsoft-Windows-SMBGhost-Vulnerability-Checker---CVE-2020-0796---SMBv3-RCE.md) | CVE-2020-0796 - Microsoft Windows 10 / Windows Server (SMBv3... | 🔴 CRITICAL | 33 |
+| [CVE-2020-0796](CVE-2020-0796-orangmuda_CVE-2020-0796.md) | CVE-2020-0796 SMBGhost 远程代码执行漏洞 | ⚪ 高危 | 33 |
+| [CVE-2020-0796](CVE-2020-0796-ran-sama_CVE-2020-0796.md) | CVE-2020-0796 - Microsoft Server Message Block 3.1.1 (SMBv3)... | 🔴 CRITICAL | 33 |
+| [CVE-2020-0796](CVE-2020-0796-syadg123_CVE-2020-0796.md) | CVE-2020-0796-SMBGhost-RCE | ⚪ 高危 | 33 |
+| [CVE-2020-0796](CVE-2020-0796-tdevworks_CVE-2020-0796-SMBGhost-Exploit-Demo.md) | CVE-2020-0796 - Microsoft Windows (SMBv3) RCE | 🔴 CRITICAL | 33 |
+| [CVE-2020-0796](CVE-2020-0796-vsai94_ECE9069_SMBGhost_Exploit_CVE-2020-0796-.md) | CVE-2020-0796 (SMBGhost) | ⚪ 高危 | 33 |
+| [CVE-2020-0796](CVE-2020-0796-w1ld3r_SMBGhost_Scanner.md) | CVE-2020-0796 - Microsoft Windows 10 / Windows Server 2019 (... | 🔴 CRITICAL | 33 |
+| [CVE-2020-0796](CVE-2020-0796-z3ena_Exploiting-and-Mitigating-CVE-2020-0796-SMBGhost-and-Print-Spooler-Vulnerabilities.md) | CVE-2020-0796 - Microsoft Windows 10 (Version 1903, 1909), W... | 🔴 CRITICAL | 33 |
 | [CVE-2020-10199](CVE-2020-10199-aleenzz_CVE-2020-10199.md) | CVE-2020-10199-Sonatype Nexus Repository-JavaEL注入 | ⚪ 高危 | 6 |
 | [CVE-2020-10199](CVE-2020-10199-finn79426_CVE-2020-10199.md) | CVE-2020-10199-Sonatype Nexus Repository-JavaEL注入 | ⚪ 高危 | 6 |
 | [CVE-2020-10199](CVE-2020-10199-hugosg97_CVE-2020-10199-Nexus-3.21.01.md) | CVE-2020-10199-Sonatype Nexus Repository-JavaEL注入 | ⚪ 高危 | 6 |
@@ -116,36 +120,38 @@
 | [CVE-2020-13973](CVE-2020-13973-epicosy_json-sanitizer.md) | CVE-2020-13973-OWASP json-sanitizer-XSS | ⚪ 中危 | 2 |
 | [CVE-2020-13973](CVE-2020-13973-shoucheng3_OWASP__json-sanitizer_CVE-2020-13973_1-2-0.md) | CVE-2020-13973-OWASP json-sanitizer-XSS | ⚪ 中危 | 2 |
 | [CVE-2020-14008](CVE-2020-14008-JackHars_cve-2020-14008.md) | CVE-2020-14008 Zoho ManageEngine Applications Manager RCE | ⚪ 高危 | 1 |
-| [CVE-2020-1472](CVE-2020-1472-100HnoMeuNome_ZeroLogon-CVE-2020-1472-lab.md) | CVE-2020-1472 Zerologon | ⚪ 高危 | 30 |
-| [CVE-2020-1472](CVE-2020-1472-Akash7350_CVE-2020-1472.md) | CVE-2020-1472-Zerologon-特权提升 | ⚪ 高危 | 30 |
-| [CVE-2020-1472](CVE-2020-1472-Anonymous-Family_CVE-2020-1472.md) | CVE-2020-1472 Zerologon 特权提升漏洞 | ⚪ 高危 | 30 |
-| [CVE-2020-1472](CVE-2020-1472-Anonymous-Family_Zero-day-scanning.md) | CVE-2020-1472 Zerologon 权限提升漏洞 | ⚪ 高危 | 30 |
-| [CVE-2020-1472](CVE-2020-1472-B34MR_zeroscan.md) | CVE-2020-1472 (Zerologon) | ⚪ 高危 | 30 |
-| [CVE-2020-1472](CVE-2020-1472-CPO-EH_CVE-2020-1472_ZeroLogonChecker.md) | CVE-2020-1472 (Zerologon) 漏洞检测 | ⚪ 高危 | 30 |
-| [CVE-2020-1472](CVE-2020-1472-Fa1c0n35_CVE-2020-1472-02-.md) | CVE-2020-1472 (Zerologon) | ⚪ 高危 | 30 |
-| [CVE-2020-1472](CVE-2020-1472-JolynNgSC_Zerologon_CVE-2020-1472.md) | CVE-2020-1472 Netlogon Elevation of Privilege Vulnerability ... | ⚪ 高危 | 30 |
-| [CVE-2020-1472](CVE-2020-1472-PakwanSK_Simulating-and-preventing-Zerologon-CVE-2020-1472-vulnerability-attacks..md) | CVE-2020-1472 (Zerologon) | ⚪ 高危 | 30 |
-| [CVE-2020-1472](CVE-2020-1472-RicYaben_CVE-2020-1472-LAB.md) | CVE-2020-1472 Zerologon Netlogon 权限提升漏洞 | ⚪ 高危 | 30 |
-| [CVE-2020-1472](CVE-2020-1472-Rvn0xsy_ZeroLogon.md) | CVE-2020-1472 Zerologon | ⚪ 高危 | 30 |
-| [CVE-2020-1472](CVE-2020-1472-SecuraBV_CVE-2020-1472.md) | CVE-2020-1472 - Netlogon Elevation of Privilege Vulnerabilit... | ⚪ 高危 | 30 |
-| [CVE-2020-1472](CVE-2020-1472-TheJoyOfHacking_SecuraBV-CVE-2020-1472.md) | CVE-2020-1472 (Zerologon): Netlogon 特权提升漏洞 | ⚪ 高危 | 30 |
-| [CVE-2020-1472](CVE-2020-1472-TheJoyOfHacking_dirkjanm-CVE-2020-1472.md) | CVE-2020-1472 (Zerologon) | ⚪ 高危 | 30 |
-| [CVE-2020-1472](CVE-2020-1472-TuanCui22_ZerologonWithImpacket-CVE2020-1472.md) | CVE-2020-1472 (Zerologon) | ⚪ 高危 | 30 |
-| [CVE-2020-1472](CVE-2020-1472-bb00_zer0dump.md) | CVE-2020-1472 (Zerologon) 权限提升漏洞 | ⚪ 高危 | 30 |
-| [CVE-2020-1472](CVE-2020-1472-blackh00d_zerologon-poc.md) | CVE-2020-1472 Zerologon Netlogon 特权提升漏洞 | ⚪ 高危 | 30 |
-| [CVE-2020-1472](CVE-2020-1472-c3rrberu5_ZeroLogon-to-Shell.md) | CVE-2020-1472 Zerologon权限提升漏洞 | ⚪ 高危 | 30 |
-| [CVE-2020-1472](CVE-2020-1472-carlos55ml_zerologon.md) | CVE-2020-1472 Zerologon Netlogon特权提升漏洞 | ⚪ 高危 | 30 |
-| [CVE-2020-1472](CVE-2020-1472-dr4g0n23_CVE-2020-1472.md) | CVE-2020-1472 Zerologon 本地提权漏洞 | ⚪ 高危 | 30 |
-| [CVE-2020-1472](CVE-2020-1472-guglia001_MassZeroLogon.md) | CVE-2020-1472-Zerologon | ⚪ 高危 | 30 |
-| [CVE-2020-1472](CVE-2020-1472-itssmikefm_CVE-2020-1472.md) | CVE-2020-1472 Zerologon 权限提升漏洞 | ⚪ 高危 | 30 |
-| [CVE-2020-1472](CVE-2020-1472-likeww_MassZeroLogon.md) | CVE-2020-1472 (Zerologon) Netlogon 特权提升漏洞 | ⚪ 高危 | 30 |
-| [CVE-2020-1472](CVE-2020-1472-logg-1_0logon.md) | CVE-2020-1472 (Zerologon) | ⚪ 高危 | 30 |
-| [CVE-2020-1472](CVE-2020-1472-puckiestyle_CVE-2020-1472.md) | CVE-2020-1472 (Zerologon) Netlogon 权限提升漏洞 | ⚪ 高危 | 30 |
-| [CVE-2020-1472](CVE-2020-1472-sho-luv_zerologon.md) | CVE-2020-1472 Zerologon | ⚪ 高危 | 30 |
-| [CVE-2020-1472](CVE-2020-1472-sv3nbeast_CVE-2020-1472.md) | CVE-2020-1472 (Zerologon) Netlogon 特权提升漏洞 | ⚪ 高危 | 30 |
-| [CVE-2020-1472](CVE-2020-1472-tdevworks_CVE-2020-1472-ZeroLogon-Demo-Detection-Mitigation.md) | CVE-2020-1472 (Zerologon) Netlogon 权限提升漏洞 | ⚪ 高危 | 30 |
-| [CVE-2020-1472](CVE-2020-1472-whoami-chmod777_Zerologon-Attack-CVE-2020-1472-POC.md) | CVE-2020-1472 (Zerologon) | ⚪ 高危 | 30 |
-| [CVE-2020-1472](CVE-2020-1472-zeronetworks_zerologon.md) | CVE-2020-1472 Zerologon 本地提权漏洞 | ⚪ 高危 | 30 |
+| [CVE-2020-1472](CVE-2020-1472-100HnoMeuNome_ZeroLogon-CVE-2020-1472-lab.md) | CVE-2020-1472 Zerologon | ⚪ 高危 | 32 |
+| [CVE-2020-1472](CVE-2020-1472-Akash7350_CVE-2020-1472.md) | CVE-2020-1472-Zerologon-特权提升 | ⚪ 高危 | 32 |
+| [CVE-2020-1472](CVE-2020-1472-Anonymous-Family_CVE-2020-1472.md) | CVE-2020-1472 Zerologon 特权提升漏洞 | ⚪ 高危 | 32 |
+| [CVE-2020-1472](CVE-2020-1472-Anonymous-Family_Zero-day-scanning.md) | CVE-2020-1472 Zerologon 权限提升漏洞 | ⚪ 高危 | 32 |
+| [CVE-2020-1472](CVE-2020-1472-B34MR_zeroscan.md) | CVE-2020-1472 (Zerologon) | ⚪ 高危 | 32 |
+| [CVE-2020-1472](CVE-2020-1472-CPO-EH_CVE-2020-1472_ZeroLogonChecker.md) | CVE-2020-1472 (Zerologon) 漏洞检测 | ⚪ 高危 | 32 |
+| [CVE-2020-1472](CVE-2020-1472-Fa1c0n35_CVE-2020-1472-02-.md) | CVE-2020-1472 (Zerologon) | ⚪ 高危 | 32 |
+| [CVE-2020-1472](CVE-2020-1472-JeNilSE_CVE-2020-1472-ZeroLogon-Analysis.md) | CVE-2020-1472 - Microsoft Windows Server (Active Directory D... | 🔴 Critical | 32 |
+| [CVE-2020-1472](CVE-2020-1472-JolynNgSC_Zerologon_CVE-2020-1472.md) | CVE-2020-1472 Netlogon Elevation of Privilege Vulnerability ... | ⚪ 高危 | 32 |
+| [CVE-2020-1472](CVE-2020-1472-PakwanSK_Simulating-and-preventing-Zerologon-CVE-2020-1472-vulnerability-attacks..md) | CVE-2020-1472 (Zerologon) | ⚪ 高危 | 32 |
+| [CVE-2020-1472](CVE-2020-1472-RicYaben_CVE-2020-1472-LAB.md) | CVE-2020-1472 Zerologon Netlogon 权限提升漏洞 | ⚪ 高危 | 32 |
+| [CVE-2020-1472](CVE-2020-1472-Rvn0xsy_ZeroLogon.md) | CVE-2020-1472 Zerologon | ⚪ 高危 | 32 |
+| [CVE-2020-1472](CVE-2020-1472-SecuraBV_CVE-2020-1472.md) | CVE-2020-1472 - Netlogon Elevation of Privilege Vulnerabilit... | ⚪ 高危 | 32 |
+| [CVE-2020-1472](CVE-2020-1472-TheJoyOfHacking_SecuraBV-CVE-2020-1472.md) | CVE-2020-1472 (Zerologon): Netlogon 特权提升漏洞 | ⚪ 高危 | 32 |
+| [CVE-2020-1472](CVE-2020-1472-TheJoyOfHacking_dirkjanm-CVE-2020-1472.md) | CVE-2020-1472 (Zerologon) | ⚪ 高危 | 32 |
+| [CVE-2020-1472](CVE-2020-1472-TuanCui22_ZerologonWithImpacket-CVE2020-1472.md) | CVE-2020-1472 (Zerologon) | ⚪ 高危 | 32 |
+| [CVE-2020-1472](CVE-2020-1472-bb00_zer0dump.md) | CVE-2020-1472 (Zerologon) 权限提升漏洞 | ⚪ 高危 | 32 |
+| [CVE-2020-1472](CVE-2020-1472-blackh00d_zerologon-poc.md) | CVE-2020-1472 Zerologon Netlogon 特权提升漏洞 | ⚪ 高危 | 32 |
+| [CVE-2020-1472](CVE-2020-1472-c3rrberu5_ZeroLogon-to-Shell.md) | CVE-2020-1472 Zerologon权限提升漏洞 | ⚪ 高危 | 32 |
+| [CVE-2020-1472](CVE-2020-1472-carlos55ml_zerologon.md) | CVE-2020-1472 Zerologon Netlogon特权提升漏洞 | ⚪ 高危 | 32 |
+| [CVE-2020-1472](CVE-2020-1472-dr4g0n23_CVE-2020-1472.md) | CVE-2020-1472 Zerologon 本地提权漏洞 | ⚪ 高危 | 32 |
+| [CVE-2020-1472](CVE-2020-1472-guglia001_MassZeroLogon.md) | CVE-2020-1472-Zerologon | ⚪ 高危 | 32 |
+| [CVE-2020-1472](CVE-2020-1472-itssmikefm_CVE-2020-1472.md) | CVE-2020-1472 Zerologon 权限提升漏洞 | ⚪ 高危 | 32 |
+| [CVE-2020-1472](CVE-2020-1472-likeww_MassZeroLogon.md) | CVE-2020-1472 (Zerologon) Netlogon 特权提升漏洞 | ⚪ 高危 | 32 |
+| [CVE-2020-1472](CVE-2020-1472-logg-1_0logon.md) | CVE-2020-1472 (Zerologon) | ⚪ 高危 | 32 |
+| [CVE-2020-1472](CVE-2020-1472-mods20hh_ZeroLogon-PoC-DC-Pwn.md) | CVE-2020-1472 - Microsoft Windows Server 特权提升/加密实现缺陷 | ⚪ 紧急 (Critical) | 32 |
+| [CVE-2020-1472](CVE-2020-1472-puckiestyle_CVE-2020-1472.md) | CVE-2020-1472 (Zerologon) Netlogon 权限提升漏洞 | ⚪ 高危 | 32 |
+| [CVE-2020-1472](CVE-2020-1472-sho-luv_zerologon.md) | CVE-2020-1472 Zerologon | ⚪ 高危 | 32 |
+| [CVE-2020-1472](CVE-2020-1472-sv3nbeast_CVE-2020-1472.md) | CVE-2020-1472 (Zerologon) Netlogon 特权提升漏洞 | ⚪ 高危 | 32 |
+| [CVE-2020-1472](CVE-2020-1472-tdevworks_CVE-2020-1472-ZeroLogon-Demo-Detection-Mitigation.md) | CVE-2020-1472 (Zerologon) Netlogon 权限提升漏洞 | ⚪ 高危 | 32 |
+| [CVE-2020-1472](CVE-2020-1472-whoami-chmod777_Zerologon-Attack-CVE-2020-1472-POC.md) | CVE-2020-1472 (Zerologon) | ⚪ 高危 | 32 |
+| [CVE-2020-1472](CVE-2020-1472-zeronetworks_zerologon.md) | CVE-2020-1472 Zerologon 本地提权漏洞 | ⚪ 高危 | 32 |
 | [CVE-2020-14882](CVE-2020-14882-AleksaZatezalo_CVE-2020-14882.md) | CVE-2020-14882-Oracle WebLogic Server-远程代码执行 | ⚪ 高危 | 23 |
 | [CVE-2020-14882](CVE-2020-14882-AshrafZaryouh_CVE-2020-14882.md) | CVE-2020-14882 - Oracle WebLogic Server 远程代码执行 | ⚪ 高危 | 23 |
 | [CVE-2020-14882](CVE-2020-14882-B1ack4sh_Blackash-CVE-2020-14882.md) | CVE-2020-14882 - Oracle WebLogic Server RCE (Unauthenticated... | ⚪ 高危 | 23 |
@@ -359,4 +365,4 @@
 
 ---
 
-*最后更新: 2025-12-28*
+*最后更新: 2026-01-08*

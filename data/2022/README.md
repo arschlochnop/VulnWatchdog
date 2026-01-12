@@ -1,6 +1,6 @@
 # 2022年 CVE漏洞列表
 
-> 📊 共收录 **607** 个CVE漏洞
+> 📊 共收录 **627** 个CVE漏洞
 
 ---
 
@@ -11,7 +11,8 @@
 | [CVE-2022-0000](CVE-2022-0000-nullsquirtle_CVE-2022-0000-PoC.md) | CVE-2022-0000-PoC | ⚪ 低危 | 1 |
 | [CVE-2022-0001](CVE-2022-0001-Sabecomoeh_CVE-2022-0001.md) | CVE-2022-0001-Intel Processors-信息泄露 | ⚪ 中危 | 1 |
 | [CVE-2022-0169](CVE-2022-0169-X3RX3SSec_CVE-2022-0169.md) | CVE-2022-0169-Photo Gallery by 10Web-SQL注入 | ⚪ 高危 | 1 |
-| [CVE-2022-0324](CVE-2022-0324-ngtuonghung_cve-2022-0324.md) | CVE-2022-0324 - SONiC dhcp6relay 缓冲区溢出 | ⚪ 高危 | 1 |
+| [CVE-2022-0324](CVE-2022-0324-ngtuonghung_CVE-2022-0324.md) | CVE-2022-0324 - SONiC (Software for Open Networking in the C... | ⚪ 严重 (Critical) | 2 |
+| [CVE-2022-0324](CVE-2022-0324-ngtuonghung_cve-2022-0324.md) | CVE-2022-0324 - SONiC (Software for Open Networking in the C... | ⚪ 严重 (Critical) | 2 |
 | [CVE-2022-0492](CVE-2022-0492-PaloAltoNetworks_can-ctr-escape-cve-2022-0492.md) | CVE-2022-0492-Linux Kernel cgroup_release_agent 特权提升/容器逃逸 | ⚪ 高危 | 7 |
 | [CVE-2022-0492](CVE-2022-0492-Perimora_cve_2022_0492.md) | CVE-2022-0492-Linux Kernel-cgroup_release_agent特权提升 | ⚪ 高危 | 7 |
 | [CVE-2022-0492](CVE-2022-0492-SofianeHamlaoui_CVE-2022-0492-Checker.md) | CVE-2022-0492-Linux内核cgroup_release_agent权限提升 | ⚪ 高危 | 7 |
@@ -35,37 +36,38 @@
 | [CVE-2022-0824](CVE-2022-0824-gokul-ramesh_WebminRCE-exploit.md) | CVE-2022-0824 - Webmin Improper Access Control Remote Code E... | ⚪ 高危 | 4 |
 | [CVE-2022-0824](CVE-2022-0824-honypot_CVE-2022-0824.md) | CVE-2022-0824 - Webmin Improper Access Control RCE | ⚪ 高危 | 4 |
 | [CVE-2022-0824](CVE-2022-0824-pizza-power_golang-webmin-CVE-2022-0824-revshell.md) | CVE-2022-0824-Webmin-远程代码执行 | ⚪ 高危 | 4 |
-| [CVE-2022-0847](CVE-2022-0847-0xeremus_dirty-pipe-poc.md) | CVE-2022-0847 Dirty Pipe 本地提权 | ⚪ 高危 | 31 |
-| [CVE-2022-0847](CVE-2022-0847-AlexisAhmed_CVE-2022-0847-DirtyPipe-Exploits.md) | CVE-2022-0847 Dirty Pipe 本地提权漏洞 | ⚪ 高危 | 31 |
-| [CVE-2022-0847](CVE-2022-0847-Asbatel_CBDS_CVE-2022-0847_POC.md) | CVE-2022-0847-Dirty Pipe | ⚪ 高危 | 31 |
-| [CVE-2022-0847](CVE-2022-0847-JlSakuya_CVE-2022-0847-container-escape.md) | CVE-2022-0847 Dirty Pipe 本地提权漏洞 | ⚪ 高危 | 31 |
-| [CVE-2022-0847](CVE-2022-0847-JustinYe377_CTF-CVE-2022-0847.md) | CVE-2022-0847 Dirty Pipe 本地提权 | ⚪ 高危 | 31 |
-| [CVE-2022-0847](CVE-2022-0847-Mephierr_DirtyPipe_exploit.md) | CVE-2022-0847 (Dirty Pipe) Local Privilege Escalation | ⚪ 高危 | 31 |
-| [CVE-2022-0847](CVE-2022-0847-RogelioPumajulca_CVE-2022-0847.md) | CVE-2022-0847 (Dirty Pipe) 本地提权漏洞 | ⚪ 高危 | 31 |
-| [CVE-2022-0847](CVE-2022-0847-Scouserr_cve-2022-0847-poc-dockerimage.md) | CVE-2022-0847-Dirty Pipe | ⚪ 高危 | 31 |
-| [CVE-2022-0847](CVE-2022-0847-Shadow-Spinner_CVE-2022-0847.md) | CVE-2022-0847 | ⚪ 高危 | 31 |
-| [CVE-2022-0847](CVE-2022-0847-arttnba3_CVE-2022-0847.md) | CVE-2022-0847 (Dirty Pipe) | ⚪ 高危 | 31 |
-| [CVE-2022-0847](CVE-2022-0847-ayushx007_CVE-2022-0847-DirtyPipe-Exploits.md) | CVE-2022-0847-Dirty Pipe | ⚪ 高危 | 31 |
-| [CVE-2022-0847](CVE-2022-0847-ayushx007_CVE-2022-0847-dirty-pipe-checker.md) | CVE-2022-0847 Dirty Pipe 本地提权漏洞 | ⚪ 高危 | 31 |
-| [CVE-2022-0847](CVE-2022-0847-basharkey_CVE-2022-0847-dirty-pipe-checker.md) | CVE-2022-0847 Dirty Pipe 本地提权漏洞检测脚本 | ⚪ 高危 | 31 |
-| [CVE-2022-0847](CVE-2022-0847-byteReaper77_Dirty-Pipe.md) | CVE-2022-0847 - Dirty Pipe | ⚪ 高危 | 31 |
-| [CVE-2022-0847](CVE-2022-0847-cypherlobo_DirtyPipe-BSI.md) | CVE-2022-0847 - Dirty Pipe 本地提权漏洞 | ⚪ 高危 | 31 |
-| [CVE-2022-0847](CVE-2022-0847-h4ckm310n_CVE-2022-0847-eBPF.md) | CVE-2022-0847 (Dirty Pipe) | ⚪ 高危 | 31 |
-| [CVE-2022-0847](CVE-2022-0847-joeymeech_CVE-2022-0847-Exploit-Implementation.md) | CVE-2022-0847 Dirty Pipe本地提权 | ⚪ 高危 | 31 |
-| [CVE-2022-0847](CVE-2022-0847-jonathanbest7_cve-2022-0847.md) | CVE-2022-0847 | ⚪ 高危 | 31 |
-| [CVE-2022-0847](CVE-2022-0847-karanlvm_DirtyPipe-Exploit.md) | CVE-2022-0847 (Dirty Pipe) | ⚪ 高危 | 31 |
-| [CVE-2022-0847](CVE-2022-0847-letsr00t_CVE-2022-0847.md) | CVE-2022-0847 Dirty Pipe | ⚪ 高危 | 31 |
-| [CVE-2022-0847](CVE-2022-0847-mithunmadhukuttan_Dirty-Pipe-Exploit.md) | CVE-2022-0847 - Dirty Pipe 本地提权漏洞 | ⚪ 高危 | 31 |
-| [CVE-2022-0847](CVE-2022-0847-morgenm_dirtypipe.md) | CVE-2022-0847-Dirty Pipe-本地提权 | ⚪ 高危 | 31 |
-| [CVE-2022-0847](CVE-2022-0847-mrchucu1_CVE-2022-0847-Docker.md) | CVE-2022-0847 Dirty Pipe 本地提权漏洞 | ⚪ 高危 | 31 |
-| [CVE-2022-0847](CVE-2022-0847-muhammad1596_CVE-2022-0847-DirtyPipe-Exploits.md) | CVE-2022-0847 - Dirty Pipe 本地提权漏洞 | ⚪ 高危 | 31 |
-| [CVE-2022-0847](CVE-2022-0847-muhammad1596_CVE-2022-0847-dirty-pipe-checker.md) | CVE-2022-0847-Dirty Pipe | ⚪ 高危 | 31 |
-| [CVE-2022-0847](CVE-2022-0847-mutur4_CVE-2022-0847.md) | CVE-2022-0847 (Dirty Pipe) | ⚪ 高危 | 31 |
-| [CVE-2022-0847](CVE-2022-0847-n3rada_DirtyPipe.md) | CVE-2022-0847 (Dirty Pipe) | ⚪ 高危 | 31 |
-| [CVE-2022-0847](CVE-2022-0847-orsuprasad_CVE-2022-0847-DirtyPipe-Exploits.md) | CVE-2022-0847-Dirty Pipe | ⚪ 高危 | 31 |
-| [CVE-2022-0847](CVE-2022-0847-pashayogi_DirtyPipe.md) | CVE-2022-0847 - Dirty Pipe 本地权限提升 | ⚪ 高危 | 31 |
-| [CVE-2022-0847](CVE-2022-0847-solomon12354_LockingGirl-----CVE-2022-0847-Dirty_Pipe_virus.md) | CVE-2022-0847 Dirty Pipe 本地提权漏洞 | ⚪ 高危 | 31 |
-| [CVE-2022-0847](CVE-2022-0847-xsxtw_CVE-2022-0847.md) | CVE-2022-0847 Dirty Pipe 本地提权漏洞 | ⚪ 高危 | 31 |
+| [CVE-2022-0847](CVE-2022-0847-0xeremus_dirty-pipe-poc.md) | CVE-2022-0847 Dirty Pipe 本地提权 | ⚪ 高危 | 32 |
+| [CVE-2022-0847](CVE-2022-0847-AlexisAhmed_CVE-2022-0847-DirtyPipe-Exploits.md) | CVE-2022-0847 Dirty Pipe 本地提权漏洞 | ⚪ 高危 | 32 |
+| [CVE-2022-0847](CVE-2022-0847-Asbatel_CBDS_CVE-2022-0847_POC.md) | CVE-2022-0847-Dirty Pipe | ⚪ 高危 | 32 |
+| [CVE-2022-0847](CVE-2022-0847-JlSakuya_CVE-2022-0847-container-escape.md) | CVE-2022-0847 Dirty Pipe 本地提权漏洞 | ⚪ 高危 | 32 |
+| [CVE-2022-0847](CVE-2022-0847-JustinYe377_CTF-CVE-2022-0847.md) | CVE-2022-0847 Dirty Pipe 本地提权 | ⚪ 高危 | 32 |
+| [CVE-2022-0847](CVE-2022-0847-Mephierr_DirtyPipe_exploit.md) | CVE-2022-0847 (Dirty Pipe) Local Privilege Escalation | ⚪ 高危 | 32 |
+| [CVE-2022-0847](CVE-2022-0847-RogelioPumajulca_CVE-2022-0847.md) | CVE-2022-0847 (Dirty Pipe) 本地提权漏洞 | ⚪ 高危 | 32 |
+| [CVE-2022-0847](CVE-2022-0847-Scouserr_cve-2022-0847-poc-dockerimage.md) | CVE-2022-0847-Dirty Pipe | ⚪ 高危 | 32 |
+| [CVE-2022-0847](CVE-2022-0847-Shadow-Spinner_CVE-2022-0847.md) | CVE-2022-0847 | ⚪ 高危 | 32 |
+| [CVE-2022-0847](CVE-2022-0847-arttnba3_CVE-2022-0847.md) | CVE-2022-0847 (Dirty Pipe) | ⚪ 高危 | 32 |
+| [CVE-2022-0847](CVE-2022-0847-ayushx007_CVE-2022-0847-DirtyPipe-Exploits.md) | CVE-2022-0847-Dirty Pipe | ⚪ 高危 | 32 |
+| [CVE-2022-0847](CVE-2022-0847-ayushx007_CVE-2022-0847-dirty-pipe-checker.md) | CVE-2022-0847 Dirty Pipe 本地提权漏洞 | ⚪ 高危 | 32 |
+| [CVE-2022-0847](CVE-2022-0847-basharkey_CVE-2022-0847-dirty-pipe-checker.md) | CVE-2022-0847 Dirty Pipe 本地提权漏洞检测脚本 | ⚪ 高危 | 32 |
+| [CVE-2022-0847](CVE-2022-0847-byteReaper77_Dirty-Pipe.md) | CVE-2022-0847 - Dirty Pipe | ⚪ 高危 | 32 |
+| [CVE-2022-0847](CVE-2022-0847-cypherlobo_DirtyPipe-BSI.md) | CVE-2022-0847 - Dirty Pipe 本地提权漏洞 | ⚪ 高危 | 32 |
+| [CVE-2022-0847](CVE-2022-0847-h4ckm310n_CVE-2022-0847-eBPF.md) | CVE-2022-0847 (Dirty Pipe) | ⚪ 高危 | 32 |
+| [CVE-2022-0847](CVE-2022-0847-joeymeech_CVE-2022-0847-Exploit-Implementation.md) | CVE-2022-0847 Dirty Pipe本地提权 | ⚪ 高危 | 32 |
+| [CVE-2022-0847](CVE-2022-0847-jonathanbest7_cve-2022-0847.md) | CVE-2022-0847 | ⚪ 高危 | 32 |
+| [CVE-2022-0847](CVE-2022-0847-karanlvm_DirtyPipe-Exploit.md) | CVE-2022-0847 (Dirty Pipe) | ⚪ 高危 | 32 |
+| [CVE-2022-0847](CVE-2022-0847-letsr00t_CVE-2022-0847.md) | CVE-2022-0847 Dirty Pipe | ⚪ 高危 | 32 |
+| [CVE-2022-0847](CVE-2022-0847-mithunmadhukuttan_Dirty-Pipe-Exploit.md) | CVE-2022-0847 - Dirty Pipe 本地提权漏洞 | ⚪ 高危 | 32 |
+| [CVE-2022-0847](CVE-2022-0847-morgenm_dirtypipe.md) | CVE-2022-0847-Dirty Pipe-本地提权 | ⚪ 高危 | 32 |
+| [CVE-2022-0847](CVE-2022-0847-mrchucu1_CVE-2022-0847-Docker.md) | CVE-2022-0847 Dirty Pipe 本地提权漏洞 | ⚪ 高危 | 32 |
+| [CVE-2022-0847](CVE-2022-0847-muhammad1596_CVE-2022-0847-DirtyPipe-Exploits.md) | CVE-2022-0847 - Dirty Pipe 本地提权漏洞 | ⚪ 高危 | 32 |
+| [CVE-2022-0847](CVE-2022-0847-muhammad1596_CVE-2022-0847-dirty-pipe-checker.md) | CVE-2022-0847-Dirty Pipe | ⚪ 高危 | 32 |
+| [CVE-2022-0847](CVE-2022-0847-mutur4_CVE-2022-0847.md) | CVE-2022-0847 (Dirty Pipe) | ⚪ 高危 | 32 |
+| [CVE-2022-0847](CVE-2022-0847-n3rada_DirtyPipe.md) | CVE-2022-0847 (Dirty Pipe) | ⚪ 高危 | 32 |
+| [CVE-2022-0847](CVE-2022-0847-orsuprasad_CVE-2022-0847-DirtyPipe-Exploits.md) | CVE-2022-0847-Dirty Pipe | ⚪ 高危 | 32 |
+| [CVE-2022-0847](CVE-2022-0847-pashayogi_DirtyPipe.md) | CVE-2022-0847 - Dirty Pipe 本地权限提升 | ⚪ 高危 | 32 |
+| [CVE-2022-0847](CVE-2022-0847-solomon12354_LockingGirl-----CVE-2022-0847-Dirty_Pipe_virus.md) | CVE-2022-0847 Dirty Pipe 本地提权漏洞 | ⚪ 高危 | 32 |
+| [CVE-2022-0847](CVE-2022-0847-xiaoLvChen_CVE-2022-0847.md) | CVE-2022-0847 - Linux Kernel 本地权限提升 (LPE) | ⚪ 高 (High) | 32 |
+| [CVE-2022-0847](CVE-2022-0847-xsxtw_CVE-2022-0847.md) | CVE-2022-0847 Dirty Pipe 本地提权漏洞 | ⚪ 高危 | 32 |
 | [CVE-2022-0944](CVE-2022-0944-0xDTC_SQLPad-6.10.0-Exploit-CVE-2022-0944.md) | CVE-2022-0944 - SQLPad Template Injection RCE | ⚪ 高危 | 8 |
 | [CVE-2022-0944](CVE-2022-0944-Artemisxxx37_OverlayFS-PrivEsc-CVE-2022-0944.md) | CVE-2022-0944 - SQLPad Template Injection RCE | ⚪ 严重 | 8 |
 | [CVE-2022-0944](CVE-2022-0944-FlojBoj_CVE-2022-0944.md) | CVE-2022-0944-SQLPad-模板注入导致RCE | ⚪ 高危 | 8 |
@@ -321,6 +323,7 @@
 | [CVE-2022-26265](CVE-2022-26265-SystemVll_CVE-2022-26265.md) | CVE-2022-26265-Contao Managed Edition-RCE | ⚪ 高危 | 2 |
 | [CVE-2022-26265](CVE-2022-26265-redteamsecurity2023_CVE-2022-26265.md) | CVE-2022-26265-Contao Managed Edition-RCE | ⚪ 高危 | 2 |
 | [CVE-2022-26671](CVE-2022-26671-DefensiveOrigins_POC-CVE-2022-26671.md) | CVE-2022-26671 - TAIWAN SECOM CO., LTD. Personnel Attendance... | ⚪ 高危 | 1 |
+| [CVE-2022-26711](CVE-2022-26711-xpcmdshell_CVE-2022-26711.md) | CVE-2022-26711 - Apple ImageIO Framework 整数溢出导致的代码执行 (RCE) | 🔴 Critical | 1 |
 | [CVE-2022-26884](CVE-2022-26884-shoucheng3_apache__dolphinscheduler_CVE-2022-26884_2-0-5.md) | CVE-2022-26884-Apache DolphinScheduler-文件读取 | ⚪ 中危 | 1 |
 | [CVE-2022-27913](CVE-2022-27913-CamTechCoaching_Joomla-CVE-Detector-CVE-2022-27913-.md) | CVE-2022-27913-Joomla-RXSS | ⚪ 中危 | 1 |
 | [CVE-2022-27925](CVE-2022-27925-Chocapikk_CVE-2022-27925-Revshell.md) | CVE-2022-27925-Zimbra-路径遍历/任意文件上传 | ⚪ 高危 | 11 |
@@ -334,34 +337,37 @@
 | [CVE-2022-27925](CVE-2022-27925-sanan2004_CVE-2022-27925.md) | CVE-2022-27925 Zimbra Collaboration Suite 路径遍历漏洞 | ⚪ 高危 | 11 |
 | [CVE-2022-27925](CVE-2022-27925-touchmycrazyredhat_CVE-2022-27925-Revshell.md) | CVE-2022-27925-Zimbra-Path Traversal | ⚪ 高危 | 11 |
 | [CVE-2022-27925](CVE-2022-27925-vnhacker1337_CVE-2022-27925-PoC.md) | CVE-2022-27925-Zimbra-Path Traversal | ⚪ 高危 | 11 |
-| [CVE-2022-29464](CVE-2022-29464-000pp_WSOB.md) | CVE-2022-29464 - WSO2 任意文件上传导致远程代码执行 | ⚪ 高危 | 25 |
-| [CVE-2022-29464](CVE-2022-29464-Chocapikk_CVE-2022-29464.md) | CVE-2022-29464-WSO2-Unrestricted File Upload | ⚪ 高危 | 25 |
-| [CVE-2022-29464](CVE-2022-29464-LinJacck_CVE-2022-29464.md) | CVE-2022-29464 - WSO2 任意文件上传导致远程代码执行 | ⚪ 高危 | 25 |
-| [CVE-2022-29464](CVE-2022-29464-Pasch0_WSO2RCE.md) | CVE-2022-29464-WSO2-Unrestricted File Upload | ⚪ 严重 | 25 |
-| [CVE-2022-29464](CVE-2022-29464-Pushkarup_CVE-2022-29464.md) | CVE-2022-29464 - WSO2 Unrestricted File Upload RCE | ⚪ 高危 | 25 |
-| [CVE-2022-29464](CVE-2022-29464-SynixCyberCrimeMy_CVE-2022-29464.md) | CVE-2022-29464-WSO2-任意文件上传导致远程代码执行 | ⚪ 高危 | 25 |
-| [CVE-2022-29464](CVE-2022-29464-SystemVll_CVE-2022-29464-loader.md) | CVE-2022-29464-WSO2-任意文件上传导致远程代码执行 | ⚪ 高危 | 25 |
-| [CVE-2022-29464](CVE-2022-29464-ThatNotEasy_CVE-2022-29464.md) | CVE-2022-29464 - WSO2 Unrestricted File Upload | ⚪ 高危 | 25 |
-| [CVE-2022-29464](CVE-2022-29464-amit-pathak009_CVE-2022-29464-mass.md) | CVE-2022-29464 - WSO2 Unrestricted File Upload | ⚪ 高危 | 25 |
-| [CVE-2022-29464](CVE-2022-29464-amit-pathak009_CVE-2022-29464.md) | CVE-2022-29464 - WSO2 任意文件上传导致远程代码执行 | ⚪ 高危 | 25 |
-| [CVE-2022-29464](CVE-2022-29464-axin2019_CVE-2022-29464.md) | CVE-2022-29464-WSO2-任意文件上传导致远程代码执行 | ⚪ 高危 | 25 |
-| [CVE-2022-29464](CVE-2022-29464-c1ph3rbyt3_CVE-2022-29464.md) | CVE-2022-29464 - WSO2 任意文件上传导致远程代码执行 | ⚪ 高危 | 25 |
-| [CVE-2022-29464](CVE-2022-29464-cc3305_CVE-2022-29464.md) | CVE-2022-29464-WSO2-任意文件上传导致RCE | ⚪ 高危 | 25 |
-| [CVE-2022-29464](CVE-2022-29464-devengpk_CVE-2022-29464.md) | CVE-2022-29464 - WSO2 Unrestricted File Upload RCE | ⚪ 严重 | 25 |
-| [CVE-2022-29464](CVE-2022-29464-g0dxing_CVE-2022-29464.md) | CVE-2022-29464-WSO2-Unrestricted File Upload RCE | ⚪ 高危 | 25 |
-| [CVE-2022-29464](CVE-2022-29464-gbrsh_CVE-2022-29464.md) | CVE-2022-29464 - WSO2 任意文件上传导致远程代码执行 | ⚪ 高危 | 25 |
-| [CVE-2022-29464](CVE-2022-29464-hakivvi_CVE-2022-29464.md) | CVE-2022-29464 - WSO2 任意文件上传导致远程代码执行 | ⚪ 高危 | 25 |
-| [CVE-2022-29464](CVE-2022-29464-hev0x_CVE-2022-29464.md) | CVE-2022-29464-WSO2-任意文件上传导致RCE | ⚪ 高危 | 25 |
-| [CVE-2022-29464](CVE-2022-29464-hupe1980_CVE-2022-29464.md) | CVE-2022-29464 - WSO2 任意文件上传导致远程代码执行 | ⚪ 高危 | 25 |
-| [CVE-2022-29464](CVE-2022-29464-hxlxmj_Mass-exploit-CVE-2022-29464.md) | CVE-2022-29464-WSO2-任意文件上传导致远程代码执行 | ⚪ 高危 | 25 |
-| [CVE-2022-29464](CVE-2022-29464-lowkey0808_cve-2022-29464.md) | CVE-2022-29464 - WSO2 Unrestricted File Upload | ⚪ 高危 | 25 |
-| [CVE-2022-29464](CVE-2022-29464-mr-r3bot_WSO2-CVE-2022-29464.md) | CVE-2022-29464-WSO2-Unrestricted File Upload | ⚪ 高危 | 25 |
-| [CVE-2022-29464](CVE-2022-29464-n3rdh4x0r_CVE-2022-29464.md) | CVE-2022-29464 - WSO2 任意文件上传导致远程代码执行 | ⚪ 高危 | 25 |
-| [CVE-2022-29464](CVE-2022-29464-r4x0r1337_-CVE-2022-29464.md) | CVE-2022-29464 - WSO2 Unrestricted File Upload | ⚪ 高危 | 25 |
-| [CVE-2022-29464](CVE-2022-29464-superzerosec_CVE-2022-29464.md) | CVE-2022-29464 - WSO2 任意文件上传导致远程代码执行 | ⚪ 高危 | 25 |
+| [CVE-2022-29464](CVE-2022-29464-000pp_WSOB.md) | CVE-2022-29464 - WSO2 任意文件上传导致远程代码执行 | ⚪ 高危 | 28 |
+| [CVE-2022-29464](CVE-2022-29464-0xdsm_WSOB.md) | CVE-2022-29464 - WSO2 API Manager, Identity Server, Enterpri... | 🔴 CRITICAL | 28 |
+| [CVE-2022-29464](CVE-2022-29464-Chocapikk_CVE-2022-29464.md) | CVE-2022-29464 - WSO2 API Manager, Identity Server, Analytic... | 🔴 CRITICAL | 28 |
+| [CVE-2022-29464](CVE-2022-29464-LinJacck_CVE-2022-29464.md) | CVE-2022-29464 - WSO2 API Manager, Identity Server, Analytic... | 🔴 CRITICAL | 28 |
+| [CVE-2022-29464](CVE-2022-29464-Pasch0_WSO2RCE.md) | CVE-2022-29464 - WSO2 API Manager, Identity Server, Enterpri... | 🔴 CRITICAL | 28 |
+| [CVE-2022-29464](CVE-2022-29464-Pushkarup_CVE-2022-29464.md) | CVE-2022-29464 - WSO2 API Manager, WSO2 IS, WSO2 Enterprise ... | 🔴 CRITICAL | 28 |
+| [CVE-2022-29464](CVE-2022-29464-SynixCyberCrimeMy_CVE-2022-29464.md) | CVE-2022-29464 - WSO2 API Manager, WSO2 Identity Server, WSO... | 🔴 CRITICAL | 28 |
+| [CVE-2022-29464](CVE-2022-29464-SystemVll_CVE-2022-29464-loader.md) | CVE-2022-29464 - WSO2 API Manager, WSO2 Identity Server, WSO... | 🔴 CRITICAL | 28 |
+| [CVE-2022-29464](CVE-2022-29464-ThatNotEasy_CVE-2022-29464.md) | CVE-2022-29464 - WSO2 Identity Server / API Manager / Enterp... | 🔴 CRITICAL | 28 |
+| [CVE-2022-29464](CVE-2022-29464-amit-pathak009_CVE-2022-29464-mass.md) | CVE-2022-29464 - WSO2 Carbon Server (API Manager, Identity S... | 🔴 CRITICAL | 28 |
+| [CVE-2022-29464](CVE-2022-29464-amit-pathak009_CVE-2022-29464.md) | CVE-2022-29464 - WSO2 API Manager, WSO2 Identity Server, WSO... | 🔴 CRITICAL | 28 |
+| [CVE-2022-29464](CVE-2022-29464-axin2019_CVE-2022-29464.md) | CVE-2022-29464 - WSO2 API Manager / Identity Server / Enterp... | 🔴 CRITICAL | 28 |
+| [CVE-2022-29464](CVE-2022-29464-c1ph3rbyt3_CVE-2022-29464.md) | CVE-2022-29464 - WSO2 Identity Server, API Manager, Enterpri... | 🔴 CRITICAL | 28 |
+| [CVE-2022-29464](CVE-2022-29464-cc3305_CVE-2022-29464.md) | CVE-2022-29464 - WSO2 Identity Server / API Manager / Enterp... | 🔴 CRITICAL | 28 |
+| [CVE-2022-29464](CVE-2022-29464-devengpk_CVE-2022-29464.md) | CVE-2022-29464 - WSO2 API Manager, WSO2 Identity Server, WSO... | 🔴 CRITICAL | 28 |
+| [CVE-2022-29464](CVE-2022-29464-g0dxing_CVE-2022-29464.md) | CVE-2022-29464-WSO2-Unrestricted File Upload RCE | ⚪ 高危 | 28 |
+| [CVE-2022-29464](CVE-2022-29464-gbrsh_CVE-2022-29464.md) | CVE-2022-29464 - WSO2 API Manager, Identity Server, Enterpri... | 🔴 CRITICAL | 28 |
+| [CVE-2022-29464](CVE-2022-29464-gpiechnik2_nmap-CVE-2022-29464.md) | CVE-2022-29464 - WSO2 API Manager, Identity Server, Analytic... | 🔴 CRITICAL | 28 |
+| [CVE-2022-29464](CVE-2022-29464-h3x0v3rl0rd_CVE-2022-29464.md) | CVE-2022-29464 - WSO2 API Manager, Identity Server, Analytic... | 🔴 CRITICAL | 28 |
+| [CVE-2022-29464](CVE-2022-29464-hakivvi_CVE-2022-29464.md) | CVE-2022-29464 - WSO2 API Manager, Identity Server, Analytic... | 🔴 CRITICAL | 28 |
+| [CVE-2022-29464](CVE-2022-29464-hev0x_CVE-2022-29464.md) | CVE-2022-29464 - WSO2 API Manager, WSO2 Identity Server, WSO... | 🔴 CRITICAL | 28 |
+| [CVE-2022-29464](CVE-2022-29464-hupe1980_CVE-2022-29464.md) | CVE-2022-29464 - WSO2 API Manager, WSO2 Identity Server, WSO... | 🔴 CRITICAL | 28 |
+| [CVE-2022-29464](CVE-2022-29464-hxlxmj_Mass-exploit-CVE-2022-29464.md) | CVE-2022-29464-WSO2-任意文件上传导致远程代码执行 | ⚪ 高危 | 28 |
+| [CVE-2022-29464](CVE-2022-29464-lowkey0808_cve-2022-29464.md) | CVE-2022-29464 - WSO2 API Manager, WSO2 Identity Server, WSO... | 🔴 CRITICAL | 28 |
+| [CVE-2022-29464](CVE-2022-29464-mr-r3bot_WSO2-CVE-2022-29464.md) | CVE-2022-29464 - WSO2 API Manager, Identity Server, Enterpri... | 🔴 CRITICAL | 28 |
+| [CVE-2022-29464](CVE-2022-29464-n3rdh4x0r_CVE-2022-29464.md) | CVE-2022-29464 - WSO2 任意文件上传导致远程代码执行 | ⚪ 高危 | 28 |
+| [CVE-2022-29464](CVE-2022-29464-r4x0r1337_-CVE-2022-29464.md) | CVE-2022-29464 - WSO2 API Manager, WSO2 Identity Server, WSO... | 🔴 CRITICAL | 28 |
+| [CVE-2022-29464](CVE-2022-29464-superzerosec_CVE-2022-29464.md) | CVE-2022-29464 - WSO2 API Manager, WSO2 Identity Server, WSO... | 🔴 CRITICAL | 28 |
 | [CVE-2022-29577](CVE-2022-29577-shoucheng3_nahsra__antisamy_CVE-2022-29577_1-6-6-1.md) | CVE-2022-29577-OWASP AntiSamy-XSS | ⚪ 中危 | 1 |
 | [CVE-2022-29622](CVE-2022-29622-keymandll_CVE-2022-29622.md) | CVE-2022-29622-formidable-任意文件上传 | ⚪ 中危（取决于应用场景和配置） | 1 |
-| [CVE-2022-29800](CVE-2022-29800-ngtuonghung_nimbuspwn-CVE-2022-29800-CVE-2022-29799.md) | CVE-2022-29800 - networkd-dispatcher TOCTOU 竞争条件漏洞 | ⚪ 中危 | 1 |
+| [CVE-2022-29800](CVE-2022-29800-ngtuonghung_nimbuspwn-CVE-2022-29800-CVE-2022-29799.md) | CVE-2022-29799 - networkd-dispatcher (Linux system daemon) 目... | ⚪ 高危 (High) | 1 |
 | [CVE-2022-29806](CVE-2022-29806-OP3R4T0R_CVE-2022-29806.md) | CVE-2022-29806-ZoneMinder-远程代码执行 | ⚪ 高危 | 1 |
 | [CVE-2022-30190](CVE-2022-30190-AbdulRKB_Follina.md) | CVE-2022-30190 - Microsoft MSDT RCE (Follina) | ⚪ 高危 | 32 |
 | [CVE-2022-30190](CVE-2022-30190-Arkha-Corvus_LetsDefend-SOC173-Follina-0-Day-Detected.md) | CVE-2022-30190 - Microsoft MSDT 远程代码执行漏洞 (Follina) | ⚪ 高危 | 32 |
@@ -410,6 +416,13 @@
 | [CVE-2022-3141](CVE-2022-3141-Tomoe-12_CVE_2022_3141.md) | CVE-2022-3141 - WordPress TranslatePress插件SQL注入 | ⚪ 高危 | 1 |
 | [CVE-2022-31491](CVE-2022-31491-ready2disclose_CVE-2022-31491.md) | CVE-2022-31491 Voltronic Viewpower/Pro RCE | ⚪ 高危 | 1 |
 | [CVE-2022-31813](CVE-2022-31813-dodiorne_cve-2022-31813.md) | CVE-2022-31813-Apache HTTP Server-X-Forwarded-For绕过 | ⚪ 中危 | 1 |
+| [CVE-2022-31814](CVE-2022-31814-ArunHAtter_CVE-2022-31814.md) | CVE-2022-31814 - pfSense pfBlockerNG 插件 远程代码执行 (RCE) | ⚪ 严重 (CRITICAL) | 7 |
+| [CVE-2022-31814](CVE-2022-31814-Chocapikk_CVE-2022-31814.md) | CVE-2022-31814 - pfSense pfBlockerNG 插件 远程代码执行 (RCE) | ⚪ 严重 (Critical) | 7 |
+| [CVE-2022-31814](CVE-2022-31814-EvergreenCartoons_SenselessViolence.md) | CVE-2022-31814 - pfSense pfBlockerNG插件 RCE/命令注入 | 🔴 CRITICAL | 7 |
+| [CVE-2022-31814](CVE-2022-31814-SystemVll_CVE-2022-31814.md) | CVE-2022-31814 - pfSense pfBlockerNG 插件 RCE (远程命令执行) | 🔴 CRITICAL | 7 |
+| [CVE-2022-31814](CVE-2022-31814-TheUnknownSoul_CVE-2022-31814.md) | CVE-2022-31814 - pfSense pfBlockerNG 命令注入/RCE | 🔴 CRITICAL | 7 |
+| [CVE-2022-31814](CVE-2022-31814-dkstar11q_CVE-2022-31814.md) | CVE-2022-31814 - pfSense pfBlockerNG 远程代码执行 (RCE) | ⚪ 严重 (CRITICAL) | 7 |
+| [CVE-2022-31814](CVE-2022-31814-drcayber_RCE.md) | CVE-2022-31814 - pfSense pfBlockerNG 远程命令执行 (RCE) / 命令注入 | 🔴 CRITICAL | 7 |
 | [CVE-2022-32250](CVE-2022-32250-Kristal-g_CVE-2022-32250.md) | CVE-2022-32250 - Linux Kernel Use-After-Free in Netfilter | ⚪ 高危 | 5 |
 | [CVE-2022-32250](CVE-2022-32250-KuanKuanQAQ_cve-testing.md) | CVE-2022-32250-Linux Kernel Netfilter UAF 提权 | ⚪ 高危 | 5 |
 | [CVE-2022-32250](CVE-2022-32250-seadragnol_CVE-2022-32250.md) | CVE-2022-32250-Linux Kernel netfilter Use-After-Free | ⚪ 高危 | 5 |
@@ -463,6 +476,8 @@
 | [CVE-2022-38694](CVE-2022-38694-TomKing062_CVE-2022-38694_unlock_bootloader.md) | CVE-2022-38694-Unisoc BootROM Bootloader Unlock | ⚪ 高危 | 2 |
 | [CVE-2022-39299](CVE-2022-39299-KaztoRay_CVE-2022-39299-Research.md) | CVE-2022-39299 - passport-saml 签名绕过 | ⚪ 高危 | 2 |
 | [CVE-2022-39299](CVE-2022-39299-doyensec_CVE-2022-39299_PoC_Generator.md) | CVE-2022-39299 - passport-saml 签名绕过 | ⚪ 高危 | 2 |
+| [CVE-2022-40471](CVE-2022-40471-Dharan10_CVE-2022-40471.md) | CVE-2022-40471 - Clinic's Patient Management System (CPMS) R... | ⚪ 高危 (High) | 2 |
+| [CVE-2022-40471](CVE-2022-40471-RashidKhanPathan_CVE-2022-40471.md) | CVE-2022-40471 - Clinic's Patient Management System RCE (远程代... | 🔴 CRITICAL | 2 |
 | [CVE-2022-4065](CVE-2022-4065-shoucheng3_testng-team__testng_CVE-2022-4065_7-5.md) | CVE-2022-4065-testng-路径遍历 | ⚪ 中危 | 1 |
 | [CVE-2022-40684](CVE-2022-40684-Anthony1500_CVE-2022-40684.md) | CVE-2022-40684 - Fortinet身份验证绕过 | ⚪ 严重 | 29 |
 | [CVE-2022-40684](CVE-2022-40684-Bendalledj_CVE-2022-40684.md) | CVE-2022-40684-Fortinet身份验证绕过远程代码执行 | ⚪ 高危 | 29 |
@@ -515,33 +530,34 @@
 | [CVE-2022-41741](CVE-2022-41741-moften_CVE-2022-41741-742-Nginx-Vulnerability-Scanner.md) | CVE-2022-41741 - Nginx ngx_http_mp4_module 内存损坏漏洞 | ⚪ 高危 | 2 |
 | [CVE-2022-42092](CVE-2022-42092-ajdumanhug_CVE-2022-42092.md) | CVE-2022-42092-Backdrop CMS-Unrestricted File Upload | ⚪ 高危 | 1 |
 | [CVE-2022-4244](CVE-2022-4244-shoucheng3_codehaus-plexus__plexus-utils_CVE-2022-4244_3-0-23.md) | CVE-2022-4244 - Codehaus-plexus Directory Traversal | ⚪ 高危 | 1 |
-| [CVE-2022-42889](CVE-2022-42889-34006133_CVE-2022-42889.md) | CVE-2022-42889 Text4Shell RCE | ⚪ 高危 | 27 |
-| [CVE-2022-42889](CVE-2022-42889-808ale_CVE-2022-42889-Text4Shell-POC.md) | CVE-2022-42889-Apache Commons Text-RCE/SSRF | ⚪ 高危 | 27 |
-| [CVE-2022-42889](CVE-2022-42889-Dima2021_cve-2022-42889-text4shell.md) | CVE-2022-42889-Apache Commons Text-RCE | ⚪ 高危 | 27 |
-| [CVE-2022-42889](CVE-2022-42889-DimaMend_cve-2022-42889-text4shell.md) | CVE-2022-42889-Apache Commons Text-RCE | ⚪ 高危 | 27 |
-| [CVE-2022-42889](CVE-2022-42889-Gotcha1G_CVE-2022-42889.md) | CVE-2022-42889-Apache Commons Text-RCE | ⚪ 高危 | 27 |
-| [CVE-2022-42889](CVE-2022-42889-MendDemo-josh_cve-2022-42889-text4shell.md) | CVE-2022-42889 Text4Shell | ⚪ 高危 | 27 |
-| [CVE-2022-42889](CVE-2022-42889-QAInsights_cve-2022-42889-jmeter.md) | CVE-2022-42889: Apache Commons Text RCE | ⚪ 高危 | 27 |
-| [CVE-2022-42889](CVE-2022-42889-ReachabilityOrg_cve-2022-42889-text4shell-docker.md) | CVE-2022-42889 - Apache Commons Text RCE (Text4Shell) | ⚪ 高危 | 27 |
-| [CVE-2022-42889](CVE-2022-42889-Sic4rio_CVE-2022-42889.md) | CVE-2022-42889-Apache Commons Text-RCE | ⚪ 高危 | 27 |
-| [CVE-2022-42889](CVE-2022-42889-Syndicate27_text4shell-exploit.md) | CVE-2022-42889 - Apache Commons Text 远程代码执行 | ⚪ 高危 | 27 |
-| [CVE-2022-42889](CVE-2022-42889-aaronm-sysdig_text4shell-docker.md) | CVE-2022-42889-Apache Commons Text-RCE | ⚪ 高危 | 27 |
-| [CVE-2022-42889](CVE-2022-42889-adarshpv9746_Text4shell--Automated-exploit---CVE-2022-42889.md) | CVE-2022-42889-Apache Commons Text-RCE | ⚪ 高危 | 27 |
-| [CVE-2022-42889](CVE-2022-42889-chainguard-dev_text4shell-policy.md) | CVE-2022-42889 Apache Commons Text Text4Shell RCE | ⚪ 高危 | 27 |
-| [CVE-2022-42889](CVE-2022-42889-cryxnet_CVE-2022-42889-RCE.md) | CVE-2022-42889-Apache Commons Text RCE (Text4Shell) | ⚪ 高危 | 27 |
-| [CVE-2022-42889](CVE-2022-42889-cxzero_CVE-2022-42889-text4shell.md) | CVE-2022-42889 - Apache Commons Text RCE (Text4Shell) | ⚪ 高危 | 27 |
-| [CVE-2022-42889](CVE-2022-42889-devenes_text4shell-cve-2022-42889.md) | CVE-2022-42889-Apache Commons Text-RCE | ⚪ 高危 | 27 |
-| [CVE-2022-42889](CVE-2022-42889-f0ng_text4shellburpscanner.md) | CVE-2022-42889-Apache Commons Text-RCE | ⚪ 高危 | 27 |
-| [CVE-2022-42889](CVE-2022-42889-gokul-ramesh_text4shell-exploit.md) | CVE-2022-42889-Apache Commons Text-RCE | ⚪ 高危 | 27 |
-| [CVE-2022-42889](CVE-2022-42889-hotblac_text4shell.md) | CVE-2022-42889 - Apache Commons Text RCE (Text4Shell) | ⚪ 高危 | 27 |
-| [CVE-2022-42889](CVE-2022-42889-joshbnewton31080_cve-2022-42889-text4shell.md) | CVE-2022-42889-Apache Commons Text-RCE | ⚪ 高危 | 27 |
-| [CVE-2022-42889](CVE-2022-42889-kljunowsky_CVE-2022-42889-text4shell.md) | CVE-2022-42889 - Apache Commons Text 远程代码执行 | ⚪ 高危 | 27 |
-| [CVE-2022-42889](CVE-2022-42889-korteke_CVE-2022-42889-POC.md) | CVE-2022-42889-Apache Commons Text RCE | ⚪ 高危 | 27 |
-| [CVE-2022-42889](CVE-2022-42889-necroteddy_CVE-2022-42889.md) | CVE-2022-42889-Apache Commons Text RCE | ⚪ 高危 | 27 |
-| [CVE-2022-42889](CVE-2022-42889-shoucheng3_asf__commons-text_CVE-2022-42889_1-9.md) | CVE-2022-42889 - Apache Commons Text RCE | ⚪ 高危 | 27 |
-| [CVE-2022-42889](CVE-2022-42889-sunnyvale-it_CVE-2022-42889-PoC.md) | CVE-2022-42889-Text4Shell-RCE | ⚪ 高危 | 27 |
-| [CVE-2022-42889](CVE-2022-42889-tulhan_commons-text-goat.md) | CVE-2022-42889-Apache Commons Text-RCE | ⚪ 高危 | 27 |
-| [CVE-2022-42889](CVE-2022-42889-vickyaryan7_Text4shell-exploit.md) | CVE-2022-42889-Apache Commons Text RCE | ⚪ 高危 | 27 |
+| [CVE-2022-42889](CVE-2022-42889-34006133_CVE-2022-42889.md) | CVE-2022-42889 Text4Shell RCE | ⚪ 高危 | 28 |
+| [CVE-2022-42889](CVE-2022-42889-808ale_CVE-2022-42889-Text4Shell-POC.md) | CVE-2022-42889 - Apache Commons Text 远程代码执行 (RCE) | 🔴 CRITICAL | 28 |
+| [CVE-2022-42889](CVE-2022-42889-Dima2021_cve-2022-42889-text4shell.md) | CVE-2022-42889 - Apache Commons Text 远程代码执行 (RCE) | 🔴 CRITICAL | 28 |
+| [CVE-2022-42889](CVE-2022-42889-DimaMend_cve-2022-42889-text4shell.md) | CVE-2022-42889 - Apache Commons Text RCE | 🔴 Critical | 28 |
+| [CVE-2022-42889](CVE-2022-42889-Gotcha1G_CVE-2022-42889.md) | CVE-2022-42889-Apache Commons Text-RCE | ⚪ 高危 | 28 |
+| [CVE-2022-42889](CVE-2022-42889-Goultarde_CVE-2022-42889-text4shell.md) | CVE-2022-42889 - Apache Commons Text RCE (远程代码执行) | 🔴 CRITICAL | 28 |
+| [CVE-2022-42889](CVE-2022-42889-MendDemo-josh_cve-2022-42889-text4shell.md) | CVE-2022-42889 - Apache Commons Text RCE | 🔴 CRITICAL | 28 |
+| [CVE-2022-42889](CVE-2022-42889-QAInsights_cve-2022-42889-jmeter.md) | CVE-2022-42889 - Apache Commons Text 远程代码执行 (RCE) | 🔴 CRITICAL | 28 |
+| [CVE-2022-42889](CVE-2022-42889-ReachabilityOrg_cve-2022-42889-text4shell-docker.md) | CVE-2022-42889 - Apache Commons Text RCE (Remote Code Execut... | 🔴 Critical | 28 |
+| [CVE-2022-42889](CVE-2022-42889-Sic4rio_CVE-2022-42889.md) | CVE-2022-42889 - Apache Commons Text 远程代码执行 (RCE) | 🔴 CRITICAL | 28 |
+| [CVE-2022-42889](CVE-2022-42889-Syndicate27_text4shell-exploit.md) | CVE-2022-42889 - Apache Commons Text 远程代码执行 (RCE) | 🔴 CRITICAL | 28 |
+| [CVE-2022-42889](CVE-2022-42889-aaronm-sysdig_text4shell-docker.md) | CVE-2022-42889 - Apache Commons Text RCE (远程代码执行) | 🔴 CRITICAL | 28 |
+| [CVE-2022-42889](CVE-2022-42889-adarshpv9746_Text4shell--Automated-exploit---CVE-2022-42889.md) | CVE-2022-42889 - Apache Commons Text RCE (远程代码执行) | 🔴 CRITICAL | 28 |
+| [CVE-2022-42889](CVE-2022-42889-chainguard-dev_text4shell-policy.md) | CVE-2022-42889 - Apache Commons Text RCE (远程代码执行) | 🔴 CRITICAL | 28 |
+| [CVE-2022-42889](CVE-2022-42889-cryxnet_CVE-2022-42889-RCE.md) | CVE-2022-42889 - Apache Commons Text RCE (远程代码执行) | 🔴 CRITICAL | 28 |
+| [CVE-2022-42889](CVE-2022-42889-cxzero_CVE-2022-42889-text4shell.md) | CVE-2022-42889 - Apache Commons Text RCE | 🔴 CRITICAL | 28 |
+| [CVE-2022-42889](CVE-2022-42889-devenes_text4shell-cve-2022-42889.md) | CVE-2022-42889 - Apache Commons Text RCE (远程代码执行) | 🔴 CRITICAL | 28 |
+| [CVE-2022-42889](CVE-2022-42889-f0ng_text4shellburpscanner.md) | CVE-2022-42889 - Apache Commons Text RCE (远程代码执行) | 🔴 CRITICAL | 28 |
+| [CVE-2022-42889](CVE-2022-42889-gokul-ramesh_text4shell-exploit.md) | CVE-2022-42889 - Apache Commons Text RCE (远程代码执行) | 🔴 CRITICAL | 28 |
+| [CVE-2022-42889](CVE-2022-42889-hotblac_text4shell.md) | CVE-2022-42889 - Apache Commons Text 远程代码执行 (RCE) | 🔴 CRITICAL | 28 |
+| [CVE-2022-42889](CVE-2022-42889-joshbnewton31080_cve-2022-42889-text4shell.md) | CVE-2022-42889 - Apache Commons Text RCE (远程代码执行) | 🔴 CRITICAL | 28 |
+| [CVE-2022-42889](CVE-2022-42889-kljunowsky_CVE-2022-42889-text4shell.md) | CVE-2022-42889 - Apache Commons Text 远程代码执行 (RCE) | 🔴 CRITICAL | 28 |
+| [CVE-2022-42889](CVE-2022-42889-korteke_CVE-2022-42889-POC.md) | CVE-2022-42889 - Apache Commons Text 远程代码执行 (RCE) | 🔴 CRITICAL | 28 |
+| [CVE-2022-42889](CVE-2022-42889-necroteddy_CVE-2022-42889.md) | CVE-2022-42889 - Apache Commons Text 远程代码执行 (RCE) | 🔴 CRITICAL | 28 |
+| [CVE-2022-42889](CVE-2022-42889-shoucheng3_asf__commons-text_CVE-2022-42889_1-9.md) | CVE-2022-42889 - Apache Commons Text RCE | ⚪ 高危 | 28 |
+| [CVE-2022-42889](CVE-2022-42889-sunnyvale-it_CVE-2022-42889-PoC.md) | CVE-2022-42889 - Apache Commons Text 远程代码执行 (RCE) | 🔴 CRITICAL | 28 |
+| [CVE-2022-42889](CVE-2022-42889-tulhan_commons-text-goat.md) | CVE-2022-42889 - Apache Commons Text RCE (远程代码执行) | 🔴 CRITICAL | 28 |
+| [CVE-2022-42889](CVE-2022-42889-vickyaryan7_Text4shell-exploit.md) | CVE-2022-42889-Apache Commons Text RCE | ⚪ 高危 | 28 |
 | [CVE-2022-43110](CVE-2022-43110-ready2disclose_CVE-2022-43110.md) | CVE-2022-43110 Voltronic Viewpower/Pro 权限绕过漏洞 | ⚪ 高危 | 1 |
 | [CVE-2022-4361](CVE-2022-4361-faccimatteo_CVE-2022-4361.md) | CVE-2022-4361-Keycloak-XSS | ⚪ 高危 | 2 |
 | [CVE-2022-4361](CVE-2022-4361-shoucheng3_keycloak__keycloak_CVE-2022-4361_21-1-1.md) | CVE-2022-4361-Keycloak-XSS | ⚪ 高危 | 2 |
@@ -614,6 +630,10 @@
 | [CVE-2022-46604](CVE-2022-46604-CyberQuestor-infosec_CVE-2022-46604-Responsive-File-Manager.md) | CVE-2022-46604 - Responsive FileManager RCE | ⚪ 高危 | 2 |
 | [CVE-2022-46604](CVE-2022-46604-SakshiVelampudi_CVE-2022-46604-Responsive-File-Manager.md) | CVE-2022-46604-Responsive FileManager-RCE | ⚪ 高危 | 2 |
 | [CVE-2022-46907](CVE-2022-46907-shoucheng3_apache__jspwiki_CVE-2022-46907_2-11-3.md) | CVE-2022-46907 - Apache JSPWiki XSS漏洞 | ⚪ 中危 | 1 |
+| [CVE-2022-47966](CVE-2022-47966-SystemVll_CVE-2022-47966.md) | CVE-2022-47966 - Zoho ManageEngine (Multiple OnPremise produ... | 🔴 Critical | 4 |
+| [CVE-2022-47966](CVE-2022-47966-horizon3ai_CVE-2022-47966.md) | CVE-2022-47966 - Zoho ManageEngine (Multiple On-Premise Prod... | 🔴 CRITICAL | 4 |
+| [CVE-2022-47966](CVE-2022-47966-shameem-testing_PoC-for-ME-SAML-Vulnerability.md) | CVE-2022-47966 - Zoho ManageEngine 多款产品 (包括 ServiceDesk Plus... | 🔴 CRITICAL | 4 |
+| [CVE-2022-47966](CVE-2022-47966-vonahisec_CVE-2022-47966-Scan.md) | CVE-2022-47966 - Zoho ManageEngine (包括 ADAudit Plus, ADManag... | 🔴 CRITICAL | 4 |
 | [CVE-2022-49186](CVE-2022-49186-iamdarshana_cve-2022-49186-research.md) | CVE-2022-49186 - Linux Kernel Privilege Escalation | 🟠 High | 1 |
 
 ---
@@ -626,4 +646,4 @@
 
 ---
 
-*最后更新: 2025-12-28*
+*最后更新: 2026-01-08*

@@ -1,6 +1,6 @@
 # 2025年 CVE漏洞列表
 
-> 📊 共收录 **2446** 个CVE漏洞
+> 📊 共收录 **2554** 个CVE漏洞
 
 ---
 
@@ -33,6 +33,8 @@
 | [CVE-2025-0282](CVE-2025-0282-punitdarji_Ivanti-CVE-2025-0282.md) | CVE-2025-0282-Ivanti Connect Secure-栈溢出 | ⚪ 高危 | 9 |
 | [CVE-2025-0282](CVE-2025-0282-sfewer-r7_CVE-2025-0282.md) | CVE-2025-0282-Ivanti Connect Secure-栈溢出 | ⚪ 高危 | 9 |
 | [CVE-2025-0282](CVE-2025-0282-watchtowrlabs_CVE-2025-0282.md) | CVE-2025-0282 - Ivanti Connect Secure 堆栈缓冲区溢出 | ⚪ 高危 | 9 |
+| [CVE-2025-0288](CVE-2025-0288-MeisamEb_CVE-2025-0288.md) | CVE-2025-0288 - BioNTDrv.sys (Windows 驱动程序) 内存破坏 / 拒绝服务 | ⚪ 高危 | 2 |
+| [CVE-2025-0288](CVE-2025-0288-barhen12_CVE-2025-0288.md) | CVE-2025-0288 - Paragon Software Hard Disk Manager (BioNTdrv... | ⚪ 高危 | 2 |
 | [CVE-2025-0316](CVE-2025-0316-AvonBorn_CVE-2025-0316-Exploit.md) | CVE-2025-0316-WP Directorybox Manager-身份验证绕过 | ⚪ 高危 | 2 |
 | [CVE-2025-0316](CVE-2025-0316-zorvithonleon_CVE-2025-0316-Exploit.md) | CVE-2025-0316-WP Directorybox Manager-身份验证绕过 | ⚪ 高危 | 2 |
 | [CVE-2025-0401](CVE-2025-0401-CyberSecurityUP_CVE-2025-0401.md) | CVE-2025-0401 - Reggie 1.0 - 路径遍历漏洞 | ⚪ 中危 | 1 |
@@ -132,6 +134,7 @@
 | [CVE-2025-12654](CVE-2025-12654-ThreeMens_Anydesk-Exploit-CVE-2025-12654-RCE-Builder.md) | AnyDesk Exploit - RCE, DLL Injection, Authentication Bypass | ⚪ 高危 | 12 |
 | [CVE-2025-12654](CVE-2025-12654-Walekmw_Anydesk-Exploit-CVE-2025-12654-RCE-Builder.md) | AnyDesk Exploit (基于公开信息综合分析) | ⚪ 高危 | 12 |
 | [CVE-2025-12654](CVE-2025-12654-Yuweixn_Anydesk-Exploit-CVE-2025-12654-RCE-Builder.md) | AnyDesk Exploit - 多种漏洞集合 | ⚪ 高危 | 12 |
+| [CVE-2025-12674](CVE-2025-12674-Nxploited_CVE-2025-12674.md) | CVE-2025-12674 - KiotViet (Management Software) 任意文件上传 (Arbi... | ⚪ 严重 (Critical) | 1 |
 | [CVE-2025-12735](CVE-2025-12735-AN5I_cve-2025-12735-expr-eval-rce.md) | CVE-2025-12735 expr-eval 远程代码执行漏洞 | ⚪ 高危 | 2 |
 | [CVE-2025-12735](CVE-2025-12735-alnashawatirohwederb2167-max_cve-2025-12735-expr-eval-rce.md) | CVE-2025-12735 expr-eval 远程代码执行漏洞 | ⚪ 高危 | 2 |
 | [CVE-2025-12762](CVE-2025-12762-B1ack4sh_Blackash-CVE-2025-12762.md) | CVE-2025-12762 - pgAdmin 4 远程代码执行 | ⚪ 严重 | 1 |
@@ -152,20 +155,43 @@
 | [CVE-2025-1337](CVE-2025-1337-ada-z3r0_CVE-2025-1337-PoC.md) | CVE-2025-1337-Eastnets PaymentSafe-XSS | ⚪ 中危 | 1 |
 | [CVE-2025-13377](CVE-2025-13377-jessicasmithka_CVE-2025-13377-Exploit.md) | CVE-2025-13377 - 10Web Booster Arbitrary Directory Deletion | 🟠 High | 1 |
 | [CVE-2025-1338](CVE-2025-1338-jxcaxtc_CVE-2025-1338.md) | CVE-2025-1338-NUUO Camera-命令注入 | ⚪ 高危 | 1 |
+| [CVE-2025-13390](CVE-2025-13390-Nxploited_CVE-2025-13390.md) | CVE-2025-13390 - WordPress (及特定自动登录插件/配置) 身份认证绕过/远程代码执行(RCE) | ⚪ 高危 | 1 |
 | [CVE-2025-13486](CVE-2025-13486-0xgh057r3c0n_CVE-2025-13486.md) | CVE-2025-13486 - Advanced Custom Fields: Extended WordPress ... | 🔴 Critical | 4 |
 | [CVE-2025-13486](CVE-2025-13486-0xnemian_CVE-2025-13486.-CVE-2025-13486.md) | WordPress插件漏洞/任意文件读取漏洞/硬编码JWT密钥漏洞分析 | ⚪ 高危 | 4 |
 | [CVE-2025-13486](CVE-2025-13486-KrE80r_cve-2025-13486-vuln-setup.md) | CVE-2025-13486 - ACF Extended RCE | 🔴 Critical | 4 |
 | [CVE-2025-13486](CVE-2025-13486-MataKucing-OFC_CVE-2025-13486.md) | CVE-2025-13486 - Advanced Custom Fields: Extended Remote Cod... | 🔴 Critical | 4 |
 | [CVE-2025-13615](CVE-2025-13615-blossombutt4063_CVE-2025-13615.md) | CVE-2025-13615-StreamTube Core-Unauthenticated Arbitrary Use... | ⚪ 高危 | 1 |
+| [CVE-2025-14174](CVE-2025-14174-zeroxjf_CVE-2025-14174-analysis.md) | CVE-2025-14174 - Google Chrome (macOS), iOS Safari (WebKit v... | 🟠 High | 1 |
+| [CVE-2025-14558](CVE-2025-14558-JohannesLks_CVE-2025-14558.md) | CVE-2025-14558 - FreeBSD rtsold 命令注入/RCE | ⚪ 高危 | 1 |
 | [CVE-2025-1461](CVE-2025-1461-neverendingsupport_nes-vuetify-cve-2025-1461.md) | CVE-2025-1461-Vuetify-XSS | ⚪ 中危 | 1 |
+| [CVE-2025-14611](CVE-2025-14611-pl4tyz_CVE-2025-14611-CentreStack-and-Triofox-full-Poc-Exploit.md) | CVE-2025-14611 - Gladinet CentreStack, Triofox 不安全加密/本地文件读取(... | ⚪ 高危 (High) | 1 |
 | [CVE-2025-14765](CVE-2025-14765-InfoSecAntara_CVE-2025-14765-and-CVE-2025-14766.md) | CVE-2025-14765 - Google Chrome / Chromium Use After Free | 🟠 High | 1 |
-| [CVE-2025-14847](CVE-2025-14847-Black1hp_mongobleed-scanner.md) | CVE-2025-14847 - MongoDB Server 信息泄露/堆内存泄露 | ⚪ 高危 | 7 |
-| [CVE-2025-14847](CVE-2025-14847-KingHacker353_CVE-2025-14847_Expolit.md) | CVE-2025-14847 - MongoDB 内存泄露 / 堆溢出 (Heap Memory Disclosure) | ⚪ 高危 (High) | 7 |
-| [CVE-2025-14847](CVE-2025-14847-ProbiusOfficial_CVE-2025-14847.md) | CVE-2025-14847 - MongoDB Server 信息泄露/堆内存读取 | ⚪ 高危 | 7 |
-| [CVE-2025-14847](CVE-2025-14847-cybertechajju_CVE-2025-14847_Expolit.md) | CVE-2025-14847 - MongoDB Server 内存泄露 / 堆缓冲区过度读取 | ⚪ 高危 | 7 |
-| [CVE-2025-14847](CVE-2025-14847-nma-io_mongobleed.md) | CVE-2025-14847 - MongoDB Server 内存泄露 / 堆溢出 | ⚪ 高危 (High) | 7 |
-| [CVE-2025-14847](CVE-2025-14847-onewinner_CVE-2025-14847.md) | CVE-2025-14847 - MongoDB 信息泄露 | ⚪ 高危 | 7 |
-| [CVE-2025-14847](CVE-2025-14847-saereya_CVE-2025-14847---MongoBleed.md) | CVE-2025-14847 - MongoDB Server 内存泄露 / 信息泄露 | ⚪ 高危 (High) | 7 |
+| [CVE-2025-14783](CVE-2025-14783-ZeroEthical_CVE-2025-14783-POC.md) | CVE-2025-14783 - Easy Digital Downloads (EDD) Password Reset... | 🔴 CRITICAL | 1 |
+| [CVE-2025-14847](CVE-2025-14847-14mb1v45h_CYBERDUDEBIVASH-MONGODB-DETECTOR-v2026.md) | CVE-2025-14847 - MongoDB Server 信息泄露/内存读取 | ⚪ 高危 | 25 |
+| [CVE-2025-14847](CVE-2025-14847-Black1hp_mongobleed-scanner.md) | CVE-2025-14847 - MongoDB Server 信息泄露/堆内存泄露 | ⚪ 高危 (High) | 25 |
+| [CVE-2025-14847](CVE-2025-14847-CadGoose_MongoBleed-CVE-2025-14847-Fully-Automated-scanner.md) | CVE-2025-14847 - MongoDB Server 内存溢出/信息泄露 | ⚪ 高危 | 25 |
+| [CVE-2025-14847](CVE-2025-14847-ElJoamy_MongoBleed-exploit.md) | CVE-2025-14847 - MongoDB Server 内存泄露/敏感信息泄露 | ⚪ 高危 | 25 |
+| [CVE-2025-14847](CVE-2025-14847-FurkanKAYAPINAR_CVE-2025-14847-MongoBleed-Exploit.md) | CVE-2025-14847 - MongoDB Server 信息泄露/堆内存越界读取 | ⚪ 高危 | 25 |
+| [CVE-2025-14847](CVE-2025-14847-FurkanKAYAPINAR_CVE-2025-14847-MongoDB.md) | CVE-2025-14847 - MongoDB Server 内存泄露 / 信息泄露 | ⚪ 高危 (High) | 25 |
+| [CVE-2025-14847](CVE-2025-14847-KingHacker353_CVE-2025-14847_Expolit.md) | CVE-2025-14847 - MongoDB 内存泄露 / 堆溢出 (Heap Memory Disclosure) | ⚪ 高危 (High) | 25 |
+| [CVE-2025-14847](CVE-2025-14847-NoNameError_MongoBLEED---CVE-2025-14847-POC-.md) | CVE-2025-14847 - MongoDB Server 内存信息泄露 (Memory Leak / Inform... | ⚪ 高危 (High) | 25 |
+| [CVE-2025-14847](CVE-2025-14847-ProbiusOfficial_CVE-2025-14847.md) | CVE-2025-14847 - MongoDB Server 信息泄露/堆内存读取 | ⚪ 高危 | 25 |
+| [CVE-2025-14847](CVE-2025-14847-Security-Phoenix-demo_mongobleed-exploit-CVE-2025-14847.md) | CVE-2025-14847 - MongoDB Server 内存披露/堆内存泄露 | ⚪ 高危 (High) | 25 |
+| [CVE-2025-14847](CVE-2025-14847-Systemhaus-Schulz_MongoBleed-CVE-2025-14847.md) | CVE-2025-14847 - MongoDB 内存泄露 / 信息泄露 | ⚪ 高危 | 25 |
+| [CVE-2025-14847](CVE-2025-14847-cybertechajju_CVE-2025-14847_Expolit.md) | CVE-2025-14847 - MongoDB Server 内存泄露 / 堆缓冲区过度读取 | ⚪ 高危 | 25 |
+| [CVE-2025-14847](CVE-2025-14847-demetriusford_mongobleed.md) | CVE-2025-14847 - MongoDB Server 信息泄露 / 堆缓冲区越界读取 | ⚪ 高危 | 25 |
+| [CVE-2025-14847](CVE-2025-14847-franksec42_mongobleed-exploit-CVE-2025-14847.md) | CVE-2025-14847 - MongoDB Server 信息泄露 (Heap Memory Disclosure... | ⚪ 高危 (High) | 25 |
+| [CVE-2025-14847](CVE-2025-14847-j0lt-github_mongobleedburp.md) | CVE-2025-14847 - MongoDB Server 信息泄露/堆内存读取 | ⚪ 高危 | 25 |
+| [CVE-2025-14847](CVE-2025-14847-joshuavanderpoll_CVE-2025-14847.md) | CVE-2025-14847 - MongoDB Server 内存泄露/远程代码执行(RCE) | ⚪ 严重(Critical) | 25 |
+| [CVE-2025-14847](CVE-2025-14847-keraattin_Mongobleed-Detector-CVE-2025-14847.md) | CVE-2025-14847 - MongoDB Server 信息泄露 | ⚪ 高危 | 25 |
+| [CVE-2025-14847](CVE-2025-14847-lincemorado97_CVE-2025-14847.md) | CVE-2025-14847 - MongoDB 信息泄露 (Memory Leak) | ⚪ 高危 (High) | 25 |
+| [CVE-2025-14847](CVE-2025-14847-nma-io_mongobleed.md) | CVE-2025-14847 - MongoDB Server 内存泄露 / 堆溢出 | ⚪ 高危 (High) | 25 |
+| [CVE-2025-14847](CVE-2025-14847-ob1sec_mongobleeder.md) | CVE-2025-14847 - MongoDB Server 内存泄露/信息披露 (Information Discl... | ⚪ 高危 (High) | 25 |
+| [CVE-2025-14847](CVE-2025-14847-onewinner_CVE-2025-14847.md) | CVE-2025-14847 - MongoDB 信息泄露 | ⚪ 高危 | 25 |
+| [CVE-2025-14847](CVE-2025-14847-saereya_CVE-2025-14847---MongoBleed.md) | CVE-2025-14847 - MongoDB Server 内存泄露 / 信息泄露 | ⚪ 高危 (High) | 25 |
+| [CVE-2025-14847](CVE-2025-14847-tunahantekeoglu_MongoDeepDive.md) | CVE-2025-14847 - MongoDB Server 未授权内存泄露/远程代码执行(RCE) | ⚪ 严重 (Critical) | 25 |
+| [CVE-2025-14847](CVE-2025-14847-vfa-tuannt_CVE-2025-14847.md) | CVE-2025-14847 - MongoDB 内存泄露 / 信息泄露 | ⚪ 高危 (High) | 25 |
+| [CVE-2025-14847](CVE-2025-14847-waheeb71_CVE-2025-14847.md) | CVE-2025-14847 - MongoDB 信息泄露 (Information Leak / Memory Lea... | ⚪ 高危 | 25 |
 | [CVE-2025-1550](CVE-2025-1550-ChCh0i_cve-2025-1550.md) | CVE-2025-1550-Keras-RCE | ⚪ 高危 | 1 |
 | [CVE-2025-1562](CVE-2025-1562-maximo896_CVE-2025-1562.md) | CVE-2025-1562 - FunnelKit Automations WordPress 插件未授权插件安装漏洞 | ⚪ 严重 | 1 |
 | [CVE-2025-1639](CVE-2025-1639-Nxploited_CVE-2025-1639.md) | CVE-2025-1639-Animation Addons for Elementor Pro-任意插件安装/激活 | ⚪ 高危 | 1 |
@@ -174,6 +200,8 @@
 | [CVE-2025-1661](CVE-2025-1661-exploit-machine_PoC-EXPLOIT-CVE-2025-1661-Critical-Vulnerability-in-HUSKY-WooCommerce-Filter-Plugin.md) | CVE-2025-1661-HUSKY WooCommerce Filter Plugin-LFI | ⚪ 高危 | 2 |
 | [CVE-2025-1718](CVE-2025-1718-issamjr_CVE-2025-1718-Scanner.md) | CVE-2025-1718-Hitachi Energy Relion/SAM600-IO FTP 拒绝服务 | ⚪ 高危 | 1 |
 | [CVE-2025-1793](CVE-2025-1793-Usama-Figueira_-CVE-2025-1793-poc.md) | CVE-2025-1793-llama_index-SQL注入 | ⚪ 高危 | 1 |
+| [CVE-2025-1868](CVE-2025-1868-itres-labs_CVE-2025-1868.md) | CVE-2025-1868 - Advanced IP Scanner, Advanced Port Scanner 信... | ⚪ 中危 (Medium) | 1 |
+| [CVE-2025-1910](CVE-2025-1910-lutrasecurity_CVE-2025-1910-WatchGuard-Privilege-Escalation.md) | CVE-2025-1910 - WatchGuard Mobile VPN with SSL 本地权限提升 (LPE) | ⚪ 高危 (High) | 1 |
 | [CVE-2025-1913](CVE-2025-1913-S0haib518-KSA_CVE-2025-1913-PoC.md) | CVE-2025-1913 - WordPress (Import Export Suite for WooCommer... | ⚪ 高危 | 1 |
 | [CVE-2025-1974](CVE-2025-1974-0xBingo_CVE-2025-1974.md) | CVE-2025-1974-ingress-nginx-RCE | ⚪ 高危 | 21 |
 | [CVE-2025-1974](CVE-2025-1974-Armand2002_Exploit-CVE-2025-1974-Lab.md) | CVE-2025-1974-ingress-nginx RCE | ⚪ 严重 | 21 |
@@ -201,7 +229,7 @@
 | [CVE-2025-2005](CVE-2025-2005-Nxploited_CVE-2025-2005.md) | CVE-2025-2005 - WordPress Front End Users Plugin Arbitrary F... | ⚪ 高危 | 2 |
 | [CVE-2025-2005](CVE-2025-2005-h4ckxel_CVE-2025-2005.md) | CVE-2025-2005 - WordPress Front End Users Plugin Unauthentic... | ⚪ 高危 | 2 |
 | [CVE-2025-2011](CVE-2025-2011-X3RX3SSec_CVE-2025-2011.md) | CVE-2025-2011-WordPress Depicter插件-SQL注入 | ⚪ 高危 | 2 |
-| [CVE-2025-2011](CVE-2025-2011-datagoboom_CVE-2025-2011.md) | CVE-2025-2011-WordPress Depicter插件-SQL注入 | ⚪ 高危 | 2 |
+| [CVE-2025-2011](CVE-2025-2011-zsy107u_CVE-2025-2011-poc.md) | CVE-2025-2011 - Depicter Slider & Popup Builder (WordPress P... | ⚪ 高危 (High) | 2 |
 | [CVE-2025-20124](CVE-2025-20124-Yuri08loveElaina_CVE-2025-20124_and_CVE-2025-20125.md) | CVE-2025-20124 - Cisco ISE Java Deserialization RCE | ⚪ 高危 | 1 |
 | [CVE-2025-20188](CVE-2025-20188-Sratet_CVE-2025-20188.md) | CVE-2025-20188 - Cisco IOS XE 任意文件上传/RCE | ⚪ 严重 | 2 |
 | [CVE-2025-20188](CVE-2025-20188-takeshirisulu_CVE-2025-20188.md) | CVE-2025-20188: Cisco IOS XE WLC 未授权远程代码执行 | ⚪ 严重 | 2 |
@@ -271,6 +299,7 @@
 | [CVE-2025-2249](CVE-2025-2249-Nxploited_CVE-2025-2249.md) | WordPress SoJ SoundSlides Plugin 任意文件上传漏洞 | ⚪ 高危 | 1 |
 | [CVE-2025-22604](CVE-2025-22604-ishwardeepp_CVE-2025-22604-Cacti-RCE.md) | CVE-2025-22604-Cacti-RCE | ⚪ 高危 | 1 |
 | [CVE-2025-2266](CVE-2025-2266-Nxploited_CVE-2025-2266.md) | CVE-2025-2266 Checkout Mestres do WP for WooCommerce Unauthe... | ⚪ 高危 | 1 |
+| [CVE-2025-22777](CVE-2025-22777-RandomRobbieBF_CVE-2025-22777.md) | CVE-2025-22777 - GiveWP – Donation Plugin and Fundraising Pl... | 🔴 Critical | 1 |
 | [CVE-2025-22870](CVE-2025-22870-B1ack4sh_Blackash-CVE-2025-22870.md) | CVE-2025-22870-golang.org/x/net-HTTP代理绕过 | ⚪ 中危 | 2 |
 | [CVE-2025-22870](CVE-2025-22870-JoshuaProvoste_CVE-2025-22870.md) | CVE-2025-22870-golang.org/x/net-HTTP代理绕过 | ⚪ 中危 | 2 |
 | [CVE-2025-2294](CVE-2025-2294-0xWhoami35_CVE-2025-2294.md) | CVE-2025-2294-Kubio AI Page Builder-LFI | ⚪ 高危 | 8 |
@@ -367,98 +396,100 @@
 | [CVE-2025-24799](CVE-2025-24799-realcodeb0ss_CVE-2025-24799-PoC.md) | CVE-2025-24799-GLPI-SQL注入 | ⚪ 高危 | 6 |
 | [CVE-2025-24801](CVE-2025-24801-fatkz_CVE-2025-24801.md) | CVE-2025-24801-GLPI-远程代码执行 | ⚪ 高危 | 2 |
 | [CVE-2025-24801](CVE-2025-24801-r1beirin_CVE-2025-24801.md) | CVE-2025-24801-GLPI-远程代码执行 | ⚪ 高危 | 2 |
-| [CVE-2025-24813](CVE-2025-24813-137f_PoC-CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat RCE | 🔴 Critical | 54 |
-| [CVE-2025-24813](CVE-2025-24813-137f_Poc-CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat RCE | 🔴 Critical | 54 |
-| [CVE-2025-24813](CVE-2025-24813-Alaatk_CVE-2025-24813-POC.md) | CVE-2025-24813 Apache Tomcat 远程代码执行/信息泄露/文件篡改 | ⚪ 高危 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-AlperenY-cs_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat 路径等价性漏洞 | ⚪ 高危 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-AsaL1n_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat 路径等价性漏洞 | ⚪ 高危 (取决于配置和利用方式 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-B1gN0Se_Tomcat-CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat RCE | ⚪ 高危 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-CEAlbez_CVE-2025-24813-PoC.md) | CVE-2025-24813 - Apache Tomcat Path Equivalence/Partial PUT ... | ⚪ 高危 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-Eduardo-hardvester_CVE-2025-24813.md) | CVE-2025-24813-Apache Tomcat-路径遍历/反序列化RCE | ⚪ 高危 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-Erosion2020_CVE-2025-24813-vulhub.md) | CVE-2025-24813 - Apache Tomcat 远程代码执行(RCE) | ⚪ 严重 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-FY036_cve-2025-24813_poc.md) | CVE-2025-24813-Apache Tomcat-路径等价/反序列化 | ⚪ 高危 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-Franconyu_Poc_for_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat RCE | 🔴 Critical | 54 |
-| [CVE-2025-24813](CVE-2025-24813-GadaLuBau1337_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat RCE | 🔴 Critical | 54 |
-| [CVE-2025-24813](CVE-2025-24813-GongWook_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat 远程代码执行(RCE) | 🔴 Critical | 54 |
-| [CVE-2025-24813](CVE-2025-24813-Heimd411_CVE-2025-24813-noPoC.md) | CVE-2025-24813-Apache Tomcat Path Equivalence & Deserializat... | ⚪ 高危 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-La3B0z_CVE-2025-24813-POC.md) | CVE-2025-24813 - Apache Tomcat Remote Code Execution (RCE) | 🔴 Critical | 54 |
-| [CVE-2025-24813](CVE-2025-24813-Makavellik_POC-CVE-2025-24813-Apache-Tomcat-Remote-Code-Execution.md) | CVE-2025-24813 - Apache Tomcat Remote Code Execution (RCE) | 🔴 Critical | 54 |
-| [CVE-2025-24813](CVE-2025-24813-Mattb709_CVE-2025-24813-PoC-Apache-Tomcat-RCE.md) | CVE-2025-24813 - Apache Tomcat Remote Code Execution | 🔴 Critical | 54 |
-| [CVE-2025-24813](CVE-2025-24813-Mattb709_CVE-2025-24813-Scanner.md) | CVE-2025-24813 - Apache Tomcat Remote Code Execution (RCE) | 🔴 Critical | 54 |
-| [CVE-2025-24813](CVE-2025-24813-MuhammadWaseem29_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat 路径等价漏洞 | ⚪ 高危 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-N0c1or_CVE-2025-24813_POC.md) | CVE-2025-24813 Apache Tomcat Path Equivalence / Deserializat... | ⚪ 高危 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-Olabanji10_Apache-GOExploiter.md) | CVE-2025-24813 | ⚪ 高危 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-Shivshantp_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat RCE | 🔴 Critical | 54 |
-| [CVE-2025-24813](CVE-2025-24813-ThHardvester_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat Remote Code Execution (RCE) | 🔴 Critical | 54 |
-| [CVE-2025-24813](CVE-2025-24813-absholi7ly_POC-CVE-2025-24813.md) | CVE-2025-24813 Apache Tomcat Path Equivalence and Deserializ... | ⚪ 高危 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-beyond-devsecops_CVE-2025-24813.md) | CVE-2025-24813-Apache Tomcat RCE | ⚪ 高危 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-brs6412_CVE-2025-24813.md) | CVE-2025-24813-Apache Tomcat-Path Equivalence/Deserializatio... | ⚪ 高危 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-charis3306_CVE-2025-24813.md) | CVE-2025-24813 Apache Tomcat Path Equivalence and Deserializ... | ⚪ 高危 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-cyglegit_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat RCE | 🔴 Critical | 54 |
-| [CVE-2025-24813](CVE-2025-24813-drcrypterdotru_Apache-GOExploiter.md) | CVE-2025-24813 - Apache Tomcat Remote Code Execution (RCE) | 🔴 Critical | 54 |
-| [CVE-2025-24813](CVE-2025-24813-f8l124_CVE-2025-24813-POC.md) | CVE-2025-24813 - Apache Tomcat 远程代码执行(RCE) | ⚪ 高危 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-fatkz_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat Remote Code Execution | 🔴 Critical | 54 |
-| [CVE-2025-24813](CVE-2025-24813-gregk4sec_CVE-2025-24813.md) | CVE-2025-24813-Apache Tomcat-路径等价漏洞 | ⚪ 高危 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-hakankarabacak_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat RCE | 🔴 Critical | 54 |
-| [CVE-2025-24813](CVE-2025-24813-horsehacks_CVE-2025-24813-checker.md) | CVE-2025-24813 - Apache Tomcat Remote Code Execution (RCE) | 🔴 Critical | 54 |
-| [CVE-2025-24813](CVE-2025-24813-iSee857_CVE-2025-24813-PoC.md) | CVE-2025-24813-Apache Tomcat-路径等价漏洞 | ⚪ 高危 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-imbas007_CVE-2025-24813-apache-tomcat.md) | CVE-2025-24813-Apache Tomcat Path Equivalence-RCE/信息泄露 | ⚪ 高危 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-issamjr_CVE-2025-24813-Scanner.md) | CVE-2025-24813 - Apache Tomcat Path Equivalence / Deserializ... | ⚪ 高危 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-maliqto_PoC-CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat 路径等价和反序列化漏洞 | ⚪ 高危 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-manjula-aw_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat Remote Code Execution (RCE) | 🔴 Critical | 54 |
-| [CVE-2025-24813](CVE-2025-24813-mbanyamer_Apache-Tomcat---Remote-Code-Execution-via-Session-Deserialization-CVE-2025-24813-.md) | CVE-2025-24813 - Apache Tomcat 远程代码执行(RCE) | ⚪ 严重 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-michael-david-fry_Apache-Tomcat-Vulnerability-POC-CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat 路径等价和反序列化漏洞 | ⚪ 高危 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-msadeghkarimi_CVE-2025-24813-Exploit.md) | CVE-2025-24813 Apache Tomcat RCE | ⚪ 高危 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-n0n-zer0_Spring-Boot-Tomcat-CVE-2025-24813.md) | CVE-2025-24813-Apache Tomcat-RCE/信息泄露/恶意内容注入 | ⚪ 高危 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-naikordian_CVE-2025-24813.md) | CVE-2025-24813-Apache Tomcat-RCE/信息泄露/文件篡改 | ⚪ 高危 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-pirenga_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat Remote Code Execution (RCE) | 🔴 Critical | 54 |
-| [CVE-2025-24813](CVE-2025-24813-ps-interactive_lab-cve-2025-24813.md) | CVE-2025-24813 - Apache Tomcat Remote Code Execution (RCE) | 🔴 Critical | 54 |
-| [CVE-2025-24813](CVE-2025-24813-sentilaso1_CVE-2025-24813-Apache-Tomcat-RCE-PoC.md) | CVE-2025-24813 - Apache Tomcat Remote Code Execution (RCE) | 🔴 Critical | 54 |
-| [CVE-2025-24813](CVE-2025-24813-thebringerofdeath789_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat 远程代码执行(RCE) | ⚪ 严重 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-threadpoolx_CVE-2025-24813-Remote-Code-Execution-in-Apache-Tomcat.md) | CVE-2025-24813 - Apache Tomcat RCE | 🔴 Critical | 54 |
-| [CVE-2025-24813](CVE-2025-24813-tonyarris_CVE-2025-24813-PoC.md) | CVE-2025-24813-Apache Tomcat RCE | ⚪ 高危 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-u238_Tomcat-CVE_2025_24813.md) | CVE-2025-24813-Apache Tomcat-路径遍历/反序列化RCE | ⚪ 高危 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-x00byte_PutScanner.md) | CVE-2025-24813 - Apache Tomcat 任意文件上传 | ⚪ 严重 | 54 |
-| [CVE-2025-24813](CVE-2025-24813-x1ongsec_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat Remote Code Execution (RCE) | 🔴 Critical | 54 |
-| [CVE-2025-24813](CVE-2025-24813-yaleman_cve-2025-24813-poc.md) | CVE-2025-24813 - Apache Tomcat RCE | 🔴 Critical | 54 |
-| [CVE-2025-24893](CVE-2025-24893-570RMBR3AK3R_xwiki-cve-2025-24893-poc.md) | CVE-2025-24893 - XWiki RCE | ⚪ 严重 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-80Ottanta80_CVE-2025-24893-PoC.md) | CVE-2025-24893-XWiki-Unauthenticated-RCE | ⚪ 高危 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-AzureADTrent_CVE-2025-24893-Reverse-Shell.md) | CVE-2025-24893-XWiki-远程代码执行 | ⚪ 严重 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-B1ack4sh_Blackash-CVE-2025-24893.md) | CVE-2025-24893-XWiki-RCE | ⚪ 高危 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-Bishben_xwiki-15.10.8-reverse-shell-cve-2025-24893.md) | CVE-2025-24893 XWiki 远程代码执行漏洞 | ⚪ 高危 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-CMassa_CVE-2025-24893.md) | CVE-2025-24893-XWiki-RCE | ⚪ 高危 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-D3Ext_CVE-2025-24893.md) | CVE-2025-24893-XWiki-RCE | ⚪ 高危 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-Hex00-0x4_CVE-2025-24893-XWiki-RCE.md) | CVE-2025-24893 - XWiki Platform Remote Code Execution | ⚪ 高危 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-Hex00-1337_CVE-2025-24893-XWiki-Platform---Remote-Code-Execution.md) | CVE-2025-24893-XWiki-RCE | ⚪ 高危 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-Hex00-1337_CVE-2025-24893-XWiki-Platform-Remote-Code-Execution.md) | CVE-2025-24893-XWiki-RCE | ⚪ 高危 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-IIIeJlyXaKapToIIIKu_CVE-2025-24893-XWiki-unauthenticated-RCE-via-SolrSearch.md) | CVE-2025-24893-XWiki-RCE | ⚪ 严重 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-Infinit3i_CVE-2025-24893.md) | CVE-2025-24893 - XWiki SolrSearch Macro RCE | ⚪ 严重 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-Kai7788_CVE-2025-24893-RCE-PoC.md) | CVE-2025-24893-XWiki-RCE | ⚪ 高危 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-Retro023_CVE-2025-24893-POC.md) | CVE-2025-24893-XWiki-远程代码执行 | ⚪ 高危 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-Th3Gl0w_CVE-2025-24893-POC.md) | CVE-2025-24893-XWiki-RCE | ⚪ 高危 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-The-Red-Serpent_CVE-2025-24893.md) | CVE-2025-24893-XWiki-远程代码执行 | ⚪ 高危 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-Wormwdcold_CVE-2025-24893-EXP.md) | CVE-2025-24893-XWiki-远程代码执行 | ⚪ 高危 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-Y2F05p2w_CVE-2025-24893.md) | CVE-2025-24893-XWiki-RCE | ⚪ 高危 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-Yukik4z3_CVE-2025-24893.md) | CVE-2025-24893-XWiki-RCE | ⚪ 高危 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-alaxar_CVE-2025-24893.md) | CVE-2025-24893-XWiki-远程代码执行 | ⚪ 高危 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-andwati_CVE-2025-24893.md) | CVE-2025-24893-XWiki-RCE | ⚪ 高危 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-b0ySie7e_CVE-2025-24893.md) | CVE-2025-24893-XWiki-RCE | ⚪ 高危 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-dhiaZnaidi_CVE-2025-24893-PoC.md) | CVE-2025-24893-XWiki-远程代码执行 | ⚪ 高危 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-dollarboysushil_CVE-2025-24893-XWiki-Unauthenticated-RCE-Exploit-POC.md) | CVE-2025-24893 - XWiki SolrSearchMacros 远程代码执行 | ⚪ 高危 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-gotr00t0day_CVE-2025-24893.md) | CVE-2025-24893-XWiki-SSTI | ⚪ 高危 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-gunzf0x_CVE-2025-24893.md) | CVE-2025-24893-XWiki-远程代码执行 | ⚪ 高危 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-hackersonsteroids_cve-2025-24893.md) | CVE-2025-24893-XWiki-RCE | ⚪ 严重 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-iSee857_CVE-2025-24893-PoC.md) | CVE-2025-24893-XWiki-RCE | ⚪ 高危 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-ibrahimsql_cve-2025-24893.md) | CVE-2025-24893 - XWiki SolrSearch 远程代码执行 | ⚪ 高危 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-ibrahmsql_CVE-2025-24893.md) | CVE-2025-24893 - XWiki SolrSearch SSTI RCE | ⚪ 严重 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-investigato_cve-2025-24893-poc.md) | CVE-2025-24893 - XWiki Platform SolrSearchMacros 远程代码执行 | ⚪ 严重 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-kimtangker_CVE-2025-24893.md) | CVE-2025-24893 XWiki RCE | ⚪ 严重 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-mah4nzfr_CVE-2025-24893.md) | CVE-2025-24893-XWiki-RCE | ⚪ 高危 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-nopgadget_CVE-2025-24893.md) | CVE-2025-24893-XWiki-RCE | ⚪ 高危 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-rvizx_CVE-2025-24893.md) | CVE-2025-24893-XWiki-远程代码执行 | ⚪ 高危 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-torjan0_solrsearch-rce-exploit.md) | CVE-2025-24893-XWiki-远程代码执行 | ⚪ 高危 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-x0da6h_EXP-for-CVE-2025-24893.md) | CVE-2025-24893-XWiki-RCE | ⚪ 高危 | 38 |
-| [CVE-2025-24893](CVE-2025-24893-zs1n_CVE-2025-24893.md) | CVE-2025-24893 - XWiki Platform 远程代码执行 | ⚪ 严重 | 38 |
+| [CVE-2025-24813](CVE-2025-24813-137f_PoC-CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat RCE | 🔴 Critical | 55 |
+| [CVE-2025-24813](CVE-2025-24813-137f_Poc-CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat RCE | 🔴 Critical | 55 |
+| [CVE-2025-24813](CVE-2025-24813-Alaatk_CVE-2025-24813-POC.md) | CVE-2025-24813 Apache Tomcat 远程代码执行/信息泄露/文件篡改 | ⚪ 高危 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-AlperenY-cs_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat 路径等价性漏洞 | ⚪ 高危 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-AsaL1n_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat 路径等价性漏洞 | ⚪ 高危 (取决于配置和利用方式 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-B1gN0Se_Tomcat-CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat RCE | ⚪ 高危 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-CEAlbez_CVE-2025-24813-PoC.md) | CVE-2025-24813 - Apache Tomcat Path Equivalence/Partial PUT ... | ⚪ 高危 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-Eduardo-hardvester_CVE-2025-24813.md) | CVE-2025-24813-Apache Tomcat-路径遍历/反序列化RCE | ⚪ 高危 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-Erosion2020_CVE-2025-24813-vulhub.md) | CVE-2025-24813 - Apache Tomcat 远程代码执行(RCE) | ⚪ 严重 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-FY036_cve-2025-24813_poc.md) | CVE-2025-24813-Apache Tomcat-路径等价/反序列化 | ⚪ 高危 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-Franconyu_Poc_for_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat RCE | 🔴 Critical | 55 |
+| [CVE-2025-24813](CVE-2025-24813-GadaLuBau1337_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat RCE | 🔴 Critical | 55 |
+| [CVE-2025-24813](CVE-2025-24813-GongWook_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat 远程代码执行(RCE) | 🔴 Critical | 55 |
+| [CVE-2025-24813](CVE-2025-24813-Heimd411_CVE-2025-24813-noPoC.md) | CVE-2025-24813-Apache Tomcat Path Equivalence & Deserializat... | ⚪ 高危 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-La3B0z_CVE-2025-24813-POC.md) | CVE-2025-24813 - Apache Tomcat Remote Code Execution (RCE) | 🔴 Critical | 55 |
+| [CVE-2025-24813](CVE-2025-24813-Makavellik_POC-CVE-2025-24813-Apache-Tomcat-Remote-Code-Execution.md) | CVE-2025-24813 - Apache Tomcat Remote Code Execution (RCE) | 🔴 Critical | 55 |
+| [CVE-2025-24813](CVE-2025-24813-Mattb709_CVE-2025-24813-PoC-Apache-Tomcat-RCE.md) | CVE-2025-24813 - Apache Tomcat Remote Code Execution | 🔴 Critical | 55 |
+| [CVE-2025-24813](CVE-2025-24813-Mattb709_CVE-2025-24813-Scanner.md) | CVE-2025-24813 - Apache Tomcat Remote Code Execution (RCE) | 🔴 Critical | 55 |
+| [CVE-2025-24813](CVE-2025-24813-MuhammadWaseem29_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat 路径等价漏洞 | ⚪ 高危 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-N0c1or_CVE-2025-24813_POC.md) | CVE-2025-24813 Apache Tomcat Path Equivalence / Deserializat... | ⚪ 高危 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-Olabanji10_Apache-GOExploiter.md) | CVE-2025-24813 | ⚪ 高危 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-Shivshantp_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat RCE | 🔴 Critical | 55 |
+| [CVE-2025-24813](CVE-2025-24813-ThHardvester_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat Remote Code Execution (RCE) | 🔴 Critical | 55 |
+| [CVE-2025-24813](CVE-2025-24813-absholi7ly_POC-CVE-2025-24813.md) | CVE-2025-24813 Apache Tomcat Path Equivalence and Deserializ... | ⚪ 高危 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-beyond-devsecops_CVE-2025-24813.md) | CVE-2025-24813-Apache Tomcat RCE | ⚪ 高危 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-brs6412_CVE-2025-24813.md) | CVE-2025-24813-Apache Tomcat-Path Equivalence/Deserializatio... | ⚪ 高危 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-charis3306_CVE-2025-24813.md) | CVE-2025-24813 Apache Tomcat Path Equivalence and Deserializ... | ⚪ 高危 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-cyglegit_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat RCE | 🔴 Critical | 55 |
+| [CVE-2025-24813](CVE-2025-24813-drcrypterdotru_Apache-GOExploiter.md) | CVE-2025-24813 - Apache Tomcat Remote Code Execution (RCE) | 🔴 Critical | 55 |
+| [CVE-2025-24813](CVE-2025-24813-f8l124_CVE-2025-24813-POC.md) | CVE-2025-24813 - Apache Tomcat 远程代码执行(RCE) | ⚪ 高危 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-fatkz_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat Remote Code Execution | 🔴 Critical | 55 |
+| [CVE-2025-24813](CVE-2025-24813-gregk4sec_CVE-2025-24813.md) | CVE-2025-24813-Apache Tomcat-路径等价漏洞 | ⚪ 高危 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-hakankarabacak_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat RCE | 🔴 Critical | 55 |
+| [CVE-2025-24813](CVE-2025-24813-horsehacks_CVE-2025-24813-checker.md) | CVE-2025-24813 - Apache Tomcat Remote Code Execution (RCE) | 🔴 Critical | 55 |
+| [CVE-2025-24813](CVE-2025-24813-iSee857_CVE-2025-24813-PoC.md) | CVE-2025-24813-Apache Tomcat-路径等价漏洞 | ⚪ 高危 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-imbas007_CVE-2025-24813-apache-tomcat.md) | CVE-2025-24813-Apache Tomcat Path Equivalence-RCE/信息泄露 | ⚪ 高危 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-issamjr_CVE-2025-24813-Scanner.md) | CVE-2025-24813 - Apache Tomcat Path Equivalence / Deserializ... | ⚪ 高危 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-maliqto_PoC-CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat 路径等价和反序列化漏洞 | ⚪ 高危 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-manjula-aw_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat Remote Code Execution (RCE) | 🔴 Critical | 55 |
+| [CVE-2025-24813](CVE-2025-24813-mbanyamer_Apache-Tomcat---Remote-Code-Execution-via-Session-Deserialization-CVE-2025-24813-.md) | CVE-2025-24813 - Apache Tomcat 远程代码执行(RCE) | ⚪ 严重 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-michael-david-fry_Apache-Tomcat-Vulnerability-POC-CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat 路径等价和反序列化漏洞 | ⚪ 高危 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-msadeghkarimi_CVE-2025-24813-Exploit.md) | CVE-2025-24813 Apache Tomcat RCE | ⚪ 高危 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-n0n-zer0_Spring-Boot-Tomcat-CVE-2025-24813.md) | CVE-2025-24813-Apache Tomcat-RCE/信息泄露/恶意内容注入 | ⚪ 高危 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-naikordian_CVE-2025-24813.md) | CVE-2025-24813-Apache Tomcat-RCE/信息泄露/文件篡改 | ⚪ 高危 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-pirenga_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat Remote Code Execution (RCE) | 🔴 Critical | 55 |
+| [CVE-2025-24813](CVE-2025-24813-ps-interactive_lab-cve-2025-24813.md) | CVE-2025-24813 - Apache Tomcat Remote Code Execution (RCE) | 🔴 Critical | 55 |
+| [CVE-2025-24813](CVE-2025-24813-seahcy_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat RCE/路径等价性(Path Equivalence) | 🔴 CRITICAL | 55 |
+| [CVE-2025-24813](CVE-2025-24813-sentilaso1_CVE-2025-24813-Apache-Tomcat-RCE-PoC.md) | CVE-2025-24813 - Apache Tomcat Remote Code Execution (RCE) | 🔴 Critical | 55 |
+| [CVE-2025-24813](CVE-2025-24813-thebringerofdeath789_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat 远程代码执行(RCE) | ⚪ 严重 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-threadpoolx_CVE-2025-24813-Remote-Code-Execution-in-Apache-Tomcat.md) | CVE-2025-24813 - Apache Tomcat RCE | 🔴 Critical | 55 |
+| [CVE-2025-24813](CVE-2025-24813-tonyarris_CVE-2025-24813-PoC.md) | CVE-2025-24813-Apache Tomcat RCE | ⚪ 高危 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-u238_Tomcat-CVE_2025_24813.md) | CVE-2025-24813-Apache Tomcat-路径遍历/反序列化RCE | ⚪ 高危 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-x00byte_PutScanner.md) | CVE-2025-24813 - Apache Tomcat 任意文件上传 | ⚪ 严重 | 55 |
+| [CVE-2025-24813](CVE-2025-24813-x1ongsec_CVE-2025-24813.md) | CVE-2025-24813 - Apache Tomcat Remote Code Execution (RCE) | 🔴 Critical | 55 |
+| [CVE-2025-24813](CVE-2025-24813-yaleman_cve-2025-24813-poc.md) | CVE-2025-24813 - Apache Tomcat RCE | 🔴 Critical | 55 |
+| [CVE-2025-24893](CVE-2025-24893-570RMBR3AK3R_xwiki-cve-2025-24893-poc.md) | CVE-2025-24893 - XWiki RCE | ⚪ 严重 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-80Ottanta80_CVE-2025-24893-PoC.md) | CVE-2025-24893-XWiki-Unauthenticated-RCE | ⚪ 高危 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-AzureADTrent_CVE-2025-24893-Reverse-Shell.md) | CVE-2025-24893-XWiki-远程代码执行 | ⚪ 严重 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-B1ack4sh_Blackash-CVE-2025-24893.md) | CVE-2025-24893-XWiki-RCE | ⚪ 高危 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-Bishben_xwiki-15.10.8-reverse-shell-cve-2025-24893.md) | CVE-2025-24893 XWiki 远程代码执行漏洞 | ⚪ 高危 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-BreakingRohit_CVE-2025-24893-PoC.md) | CVE-2025-24893 - XWiki RCE (远程代码执行) | 🔴 CRITICAL | 39 |
+| [CVE-2025-24893](CVE-2025-24893-CMassa_CVE-2025-24893.md) | CVE-2025-24893-XWiki-RCE | ⚪ 高危 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-D3Ext_CVE-2025-24893.md) | CVE-2025-24893-XWiki-RCE | ⚪ 高危 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-Hex00-0x4_CVE-2025-24893-XWiki-RCE.md) | CVE-2025-24893 - XWiki Platform Remote Code Execution | ⚪ 高危 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-Hex00-1337_CVE-2025-24893-XWiki-Platform---Remote-Code-Execution.md) | CVE-2025-24893-XWiki-RCE | ⚪ 高危 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-Hex00-1337_CVE-2025-24893-XWiki-Platform-Remote-Code-Execution.md) | CVE-2025-24893-XWiki-RCE | ⚪ 高危 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-IIIeJlyXaKapToIIIKu_CVE-2025-24893-XWiki-unauthenticated-RCE-via-SolrSearch.md) | CVE-2025-24893-XWiki-RCE | ⚪ 严重 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-Infinit3i_CVE-2025-24893.md) | CVE-2025-24893 - XWiki SolrSearch Macro RCE | ⚪ 严重 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-Kai7788_CVE-2025-24893-RCE-PoC.md) | CVE-2025-24893-XWiki-RCE | ⚪ 高危 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-Retro023_CVE-2025-24893-POC.md) | CVE-2025-24893-XWiki-远程代码执行 | ⚪ 高危 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-Th3Gl0w_CVE-2025-24893-POC.md) | CVE-2025-24893-XWiki-RCE | ⚪ 高危 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-The-Red-Serpent_CVE-2025-24893.md) | CVE-2025-24893-XWiki-远程代码执行 | ⚪ 高危 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-Wormwdcold_CVE-2025-24893-EXP.md) | CVE-2025-24893-XWiki-远程代码执行 | ⚪ 高危 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-Y2F05p2w_CVE-2025-24893.md) | CVE-2025-24893-XWiki-RCE | ⚪ 高危 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-Yukik4z3_CVE-2025-24893.md) | CVE-2025-24893-XWiki-RCE | ⚪ 高危 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-alaxar_CVE-2025-24893.md) | CVE-2025-24893-XWiki-远程代码执行 | ⚪ 高危 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-andwati_CVE-2025-24893.md) | CVE-2025-24893-XWiki-RCE | ⚪ 高危 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-b0ySie7e_CVE-2025-24893.md) | CVE-2025-24893-XWiki-RCE | ⚪ 高危 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-dhiaZnaidi_CVE-2025-24893-PoC.md) | CVE-2025-24893-XWiki-远程代码执行 | ⚪ 高危 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-dollarboysushil_CVE-2025-24893-XWiki-Unauthenticated-RCE-Exploit-POC.md) | CVE-2025-24893 - XWiki SolrSearchMacros 远程代码执行 | ⚪ 高危 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-gotr00t0day_CVE-2025-24893.md) | CVE-2025-24893-XWiki-SSTI | ⚪ 高危 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-gunzf0x_CVE-2025-24893.md) | CVE-2025-24893-XWiki-远程代码执行 | ⚪ 高危 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-hackersonsteroids_cve-2025-24893.md) | CVE-2025-24893-XWiki-RCE | ⚪ 严重 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-iSee857_CVE-2025-24893-PoC.md) | CVE-2025-24893-XWiki-RCE | ⚪ 高危 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-ibrahimsql_cve-2025-24893.md) | CVE-2025-24893 - XWiki SolrSearch 远程代码执行 | ⚪ 高危 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-ibrahmsql_CVE-2025-24893.md) | CVE-2025-24893 - XWiki SolrSearch SSTI RCE | ⚪ 严重 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-investigato_cve-2025-24893-poc.md) | CVE-2025-24893 - XWiki Platform SolrSearchMacros 远程代码执行 | ⚪ 严重 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-kimtangker_CVE-2025-24893.md) | CVE-2025-24893 XWiki RCE | ⚪ 严重 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-mah4nzfr_CVE-2025-24893.md) | CVE-2025-24893-XWiki-RCE | ⚪ 高危 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-nopgadget_CVE-2025-24893.md) | CVE-2025-24893-XWiki-RCE | ⚪ 高危 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-rvizx_CVE-2025-24893.md) | CVE-2025-24893-XWiki-远程代码执行 | ⚪ 高危 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-torjan0_solrsearch-rce-exploit.md) | CVE-2025-24893-XWiki-远程代码执行 | ⚪ 高危 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-x0da6h_EXP-for-CVE-2025-24893.md) | CVE-2025-24893-XWiki-RCE | ⚪ 高危 | 39 |
+| [CVE-2025-24893](CVE-2025-24893-zs1n_CVE-2025-24893.md) | CVE-2025-24893 - XWiki Platform 远程代码执行 | ⚪ 严重 | 39 |
 | [CVE-2025-24963](CVE-2025-24963-0xdeviner_CVE-2025-24963.md) | CVE-2025-24963 - Vitest Browser Mode - Local File Read | ⚪ 中危 | 1 |
 | [CVE-2025-24990](CVE-2025-24990-moiz-2x_CVE-2025-24990_POC.md) | CVE-2025-24990 - Windows Agere Modem Driver 权限提升漏洞 | ⚪ 高危 | 1 |
 | [CVE-2025-25014](CVE-2025-25014-B1ack4sh_Blackash-CVE-2025-25014.md) | CVE-2025-25014-Kibana-原型污染导致远程代码执行 | ⚪ 高危 | 2 |
@@ -549,6 +580,7 @@
 | [CVE-2025-27415](CVE-2025-27415-jiseoung_CVE-2025-27415-PoC.md) | CVE-2025-27415-Nuxt3缓存投毒 | ⚪ 高危 | 1 |
 | [CVE-2025-27480](CVE-2025-27480-mrk336_CVE-2025-27480-The-Silent-Gateway-Risk.md) | CVE-2025-27480 Windows Remote Desktop Services RCE | ⚪ 高危 | 2 |
 | [CVE-2025-27480](CVE-2025-27480-mrk336_CVE-2025-27480.md) | CVE-2025-27480 Windows Remote Desktop Services RCE | ⚪ 高危 | 2 |
+| [CVE-2025-27515](CVE-2025-27515-joaovicdev_POC-CVE-2025-27515.md) | CVE-2025-27515 - Laravel Framework 文件上传验证绕过/RCE | ⚪ 中等/高 (Medium/High) | 1 |
 | [CVE-2025-27519](CVE-2025-27519-Diabl0xE_CVE-2025-27519.md) | CVE-2025-27519-Cognita-任意文件写入导致RCE | ⚪ 高危 | 1 |
 | [CVE-2025-27521](CVE-2025-27521-alialucas7_CVE-2025-27521_PoC.md) | CVE-2025-27521-HarmonyOS-权限提升 | ⚪ 中危 | 1 |
 | [CVE-2025-27533](CVE-2025-27533-absholi7ly_CVE-2025-27533-Exploit-for-Apache-ActiveMQ.md) | CVE-2025-27533-Apache ActiveMQ-内存分配拒绝服务 | ⚪ 中危 | 1 |
@@ -556,20 +588,24 @@
 | [CVE-2025-27580](CVE-2025-27580-TrustStackSecurity_CVE-2025-27580.md) | CVE-2025-27580-NIH BRICS-Token Prediction | ⚪ 高危 | 1 |
 | [CVE-2025-27581](CVE-2025-27581-Henryisnotavailable_CVE-2025-27581.md) | CVE-2025-27581-NIH BRICS-直接请求访问敏感模块 | ⚪ 中危 | 1 |
 | [CVE-2025-27590](CVE-2025-27590-fatkz_CVE-2025-27590.md) | CVE-2025-27590 - Oxidized Web RANCID 迁移页面命令注入 | ⚪ 高危 | 1 |
-| [CVE-2025-27591](CVE-2025-27591-00xCanelo_CVE-2025-27591-PoC.md) | CVE-2025-27591-below-权限提升 | ⚪ 高危 | 14 |
-| [CVE-2025-27591](CVE-2025-27591-0x00Jeff_CVE-2025-27591.md) | CVE-2025-27591-below-权限提升 | ⚪ 高危 | 14 |
-| [CVE-2025-27591](CVE-2025-27591-0xDTC_Below-Logger-Symlink-Attack_CVE-2025-27591.md) | CVE-2025-27591-below-权限提升 | ⚪ 中危 | 14 |
-| [CVE-2025-27591](CVE-2025-27591-BridgerAlderson_CVE-2025-27591-PoC.md) | CVE-2025-27591-below-权限提升 | ⚪ 高危 | 14 |
-| [CVE-2025-27591](CVE-2025-27591-Cythonic1_CVE-2025-27591.md) | CVE-2025-27591-below-权限提升 | ⚪ 高危 | 14 |
-| [CVE-2025-27591](CVE-2025-27591-DarksBlackSk_CVE-2025-27591.md) | CVE-2025-27591-Below-权限提升 | ⚪ 高危 | 14 |
-| [CVE-2025-27591](CVE-2025-27591-HOEUN-Visai_CVE-2025-27591-below-.md) | CVE-2025-27591-below-权限提升漏洞 | ⚪ 高危 | 14 |
-| [CVE-2025-27591](CVE-2025-27591-danil-koltsov_below-log-race-poc.md) | CVE-2025-27591-below-权限提升 | ⚪ 高危 | 14 |
-| [CVE-2025-27591](CVE-2025-27591-dollarboysushil_Linux-Privilege-Escalation-CVE-2025-27591.md) | CVE-2025-27591-below-特权提升 | ⚪ 高危 | 14 |
-| [CVE-2025-27591](CVE-2025-27591-incommatose_CVE-2025-27591-PoC.md) | CVE-2025-27591-Below-本地提权 | ⚪ 高危 | 14 |
-| [CVE-2025-27591](CVE-2025-27591-krn966_CVE-2025-27591.md) | CVE-2025-27591 - Below Privilege Escalation | ⚪ 高危 | 14 |
-| [CVE-2025-27591](CVE-2025-27591-obamalaolu_CVE-2025-27591.md) | CVE-2025-27591-below-权限提升 | ⚪ 高危 | 14 |
-| [CVE-2025-27591](CVE-2025-27591-rvizx_CVE-2025-27591.md) | CVE-2025-27591-Below-本地提权 | ⚪ 高危 | 14 |
-| [CVE-2025-27591](CVE-2025-27591-umutcamliyurt_CVE-2025-27591.md) | CVE-2025-27591-below-权限提升 | ⚪ 高危 | 14 |
+| [CVE-2025-27591](CVE-2025-27591-00xCanelo_CVE-2025-27591-PoC.md) | CVE-2025-27591-below-权限提升 | ⚪ 高危 | 18 |
+| [CVE-2025-27591](CVE-2025-27591-00xCanelo_CVE-2025-27591.md) | CVE-2025-27591 - below (Facebook performance monitoring tool... | ⚪ 高危 (High) | 18 |
+| [CVE-2025-27591](CVE-2025-27591-0x00Jeff_CVE-2025-27591.md) | CVE-2025-27591 - Below (Facebook/Meta 监控工具) 权限提升 (Privilege ... | ⚪ 高危 (High) | 18 |
+| [CVE-2025-27591](CVE-2025-27591-0xDTC_Below-Logger-Symlink-Attack_CVE-2025-27591.md) | CVE-2025-27591 - Below (Facebook/Meta 开源的资源监控工具) 权限提升 (Privi... | ⚪ 高 (High) | 18 |
+| [CVE-2025-27591](CVE-2025-27591-BridgerAlderson_CVE-2025-27591-PoC.md) | CVE-2025-27591 - Below (Facebook Incubator) 权限提升 (Privilege ... | ⚪ 高 (High) | 18 |
+| [CVE-2025-27591](CVE-2025-27591-Cythonic1_CVE-2025-27591.md) | CVE-2025-27591 - Below (Facebook/Meta 开源的系统监控工具) 权限提升 (Privi... | ⚪ 高 (High) | 18 |
+| [CVE-2025-27591](CVE-2025-27591-DarksBlackSk_CVE-2025-27591.md) | CVE-2025-27591 - Below (Facebook/Meta 监控工具) 本地权限提升 (Local Pr... | ⚪ 高危 (High) | 18 |
+| [CVE-2025-27591](CVE-2025-27591-HOEUN-Visai_CVE-2025-27591-below-.md) | CVE-2025-27591-below-权限提升漏洞 | ⚪ 高危 | 18 |
+| [CVE-2025-27591](CVE-2025-27591-Stp1t_CVE-2025-27591.md) | CVE-2025-27591 - Below (Facebook/Meta 开源的系统监控工具) 本地权限提升 (LPE... | ⚪ 高 (High) | 18 |
+| [CVE-2025-27591](CVE-2025-27591-VisaiCyber_CVE-2025-27591-below-.md) | CVE-2025-27591 - Below (facebookincubator/below) 权限提升 (Privi... | ⚪ 高 (High) | 18 |
+| [CVE-2025-27591](CVE-2025-27591-alialucas7_CVE-2025-27591_PoC.md) | CVE-2025-27591 - Facebook Below (系统监控工具) 权限提升 (Privilege Esc... | ⚪ 高 (High) | 18 |
+| [CVE-2025-27591](CVE-2025-27591-danil-koltsov_below-log-race-poc.md) | CVE-2025-27591 - Below 提权 (Privilege Escalation) | ⚪ 高 (High) | 18 |
+| [CVE-2025-27591](CVE-2025-27591-dollarboysushil_Linux-Privilege-Escalation-CVE-2025-27591.md) | CVE-2025-27591 - Below (Linux系统监控工具) 本地权限提升 (LPE) | ⚪ 高危 (High) | 18 |
+| [CVE-2025-27591](CVE-2025-27591-incommatose_CVE-2025-27591-PoC.md) | CVE-2025-27591 - Below (Facebook 监控工具) 本地权限提升 (Privilege Esc... | ⚪ 高 (High) | 18 |
+| [CVE-2025-27591](CVE-2025-27591-krn966_CVE-2025-27591.md) | CVE-2025-27591 - Below (Facebook 开源的系统监控工具) 权限提升 (Privilege ... | ⚪ 高 (High) | 18 |
+| [CVE-2025-27591](CVE-2025-27591-obamalaolu_CVE-2025-27591.md) | CVE-2025-27591 - Below (Linux 监控工具) 本地权限提升 (Privilege Escala... | ⚪ 高 (High) | 18 |
+| [CVE-2025-27591](CVE-2025-27591-rvizx_CVE-2025-27591.md) | CVE-2025-27591 - Facebook Below (系统监控工具) 权限提升 (Privilege Esc... | ⚪ 高危 (High) | 18 |
+| [CVE-2025-27591](CVE-2025-27591-umutcamliyurt_CVE-2025-27591.md) | CVE-2025-27591 - Below (Facebook/Meta 开源的系统监控工具) 权限提升 (Privi... | ⚪ 高 (High) | 18 |
 | [CVE-2025-2760](CVE-2025-2760-korden-c_CVE-2025-2760.md) | CVE-2025-2760 – GIMP XWD File Parsing Integer Overflow Remot... | ⚪ 高危 | 1 |
 | [CVE-2025-27636](CVE-2025-27636-akamai_CVE-2025-27636-Apache-Camel-PoC.md) | CVE-2025-27636-Apache Camel-Header注入 | ⚪ 高危 | 2 |
 | [CVE-2025-27636](CVE-2025-27636-enochgitgamefied_CVE-2025-27636-Pratctical-Lab.md) | CVE-2025-27636-Apache Camel-Header注入 | ⚪ 高危 | 2 |
@@ -611,10 +647,10 @@
 | [CVE-2025-29277](CVE-2025-29277-0xBl4nk_CVE-2025-29277.md) | CVE-2025-29277-Linksys E5600-命令注入 | ⚪ 高危 | 1 |
 | [CVE-2025-29278](CVE-2025-29278-0xBl4nk_CVE-2025-29278.md) | CVE-2025-29278 | ⚪ 高危 | 1 |
 | [CVE-2025-29279](CVE-2025-29279-0xBl4nk_CVE-2025-29279.md) | CVE-2025-29279 | ⚪ 高危 | 1 |
-| [CVE-2025-29306](CVE-2025-29306-Mattb709_CVE-2025-29306-PoC-FoxCMS-RCE.md) | CVE-2025-29306-FoxCMS-代码注入 | ⚪ 高危 | 4 |
-| [CVE-2025-29306](CVE-2025-29306-congdong007_CVE-2025-29306_poc.md) | CVE-2025-29306-FoxCMS-代码注入 | ⚪ 高危 | 4 |
-| [CVE-2025-29306](CVE-2025-29306-inok009_FOXCMS-CVE-2025-29306-POC.md) | CVE-2025-29306-FoxCMS-远程代码执行 | ⚪ 高危 | 4 |
-| [CVE-2025-29306](CVE-2025-29306-verylazytech_CVE-2025-29306.md) | CVE-2025-29306-FoxCMS-代码执行 | ⚪ 高危 | 4 |
+| [CVE-2025-29306](CVE-2025-29306-Mattb709_CVE-2025-29306-PoC-FoxCMS-RCE.md) | CVE-2025-29306 - FoxCMS 远程代码执行 (RCE) | 🔴 CRITICAL | 4 |
+| [CVE-2025-29306](CVE-2025-29306-congdong007_CVE-2025-29306_poc.md) | CVE-2025-29306 - FoxCMS (黔狐内容管理系统) RCE (Remote Code Executio... | 🔴 CRITICAL | 4 |
+| [CVE-2025-29306](CVE-2025-29306-inok009_FOXCMS-CVE-2025-29306-POC.md) | CVE-2025-29306 - FoxCMS 远程代码执行 (RCE) | 🔴 Critical (高危) | 4 |
+| [CVE-2025-29306](CVE-2025-29306-verylazytech_CVE-2025-29306.md) | CVE-2025-29306 - FoxCMS RCE (远程代码执行) | 🔴 CRITICAL | 4 |
 | [CVE-2025-29384](CVE-2025-29384-Otsmane-Ahmed_cve-2025-29384-poc.md) | CVE-2025-29384-Tenda AC9-/goform/AdvSetMacMtuWan 栈溢出 | ⚪ 高危 | 1 |
 | [CVE-2025-29448](CVE-2025-29448-Abdullah4eb_CVE-2025-29448.md) | CVE-2025-29448-Easy!Appointments-DoS | ⚪ 高危 | 1 |
 | [CVE-2025-2945](CVE-2025-2945-Cycloctane_cve-2025-2945-poc.md) | CVE-2025-2945-pgAdmin 4-远程代码执行 | ⚪ 高危 | 2 |
@@ -855,9 +891,10 @@
 | [CVE-2025-31161](CVE-2025-31161-ibrahmsql_CVE-2025-31161.md) | CVE-2025-31161-CrushFTP-身份验证绕过 | ⚪ 高危 | 15 |
 | [CVE-2025-31161](CVE-2025-31161-llussiess_CVE-2025-31161.md) | CVE-2025-31161-CrushFTP身份验证绕过 | ⚪ 高危 | 15 |
 | [CVE-2025-31161](CVE-2025-31161-r0otk3r_CVE-2025-31161.md) | CVE-2025-31161-CrushFTP-认证绕过 | ⚪ 高危 | 15 |
-| [CVE-2025-31200](CVE-2025-31200-JGoyd_CVE-2025-31200-iOS-AudioConverter-RCE.md) | CVE-2025-31200-iOS-AudioConverter-RCE | ⚪ 高危 | 3 |
-| [CVE-2025-31200](CVE-2025-31200-serundengsapi_CVE-2025-31200-iOS-AudioConverter-RCE.md) | CVE-2025-31200 – iOS AudioConverterService Zero-Click RCE | ⚪ 高危 | 3 |
-| [CVE-2025-31200](CVE-2025-31200-zhuowei_apple-positional-audio-codec-invalid-header.md) | CVE-2025-31200-CoreAudio-内存损坏 | ⚪ 高危 | 3 |
+| [CVE-2025-31200](CVE-2025-31200-JGoyd_CVE-2025-31200-iOS-AudioConverter-RCE.md) | CVE-2025-31200-iOS-AudioConverter-RCE | ⚪ 高危 | 4 |
+| [CVE-2025-31200](CVE-2025-31200-JGoyd_iOS-Attack-Chain-CVE-2025-31200-CVE-2025-31201.md) | CVE-2025-31200 - Apple iOS, iPadOS, macOS, tvOS, visionOS RC... | 🔴 Critical (紧急) | 4 |
+| [CVE-2025-31200](CVE-2025-31200-serundengsapi_CVE-2025-31200-iOS-AudioConverter-RCE.md) | CVE-2025-31200 – iOS AudioConverterService Zero-Click RCE | ⚪ 高危 | 4 |
+| [CVE-2025-31200](CVE-2025-31200-zhuowei_apple-positional-audio-codec-invalid-header.md) | CVE-2025-31200-CoreAudio-内存损坏 | ⚪ 高危 | 4 |
 | [CVE-2025-31258](CVE-2025-31258-BODE987_CVE-2025-31258-PoC.md) | CVE-2025-31258-macOS-沙箱逃逸 | ⚪ 高危 | 2 |
 | [CVE-2025-31258](CVE-2025-31258-wh1te4ever_CVE-2025-31258-PoC.md) | CVE-2025-31258-macOS-SandboxEscape | ⚪ 高危 | 2 |
 | [CVE-2025-31324](CVE-2025-31324-Alizngnc_SAP-CVE-2025-31324.md) | CVE-2025-31324 - SAP NetWeaver Visual Composer Unauthenticat... | ⚪ 高危 | 21 |
@@ -912,7 +949,8 @@
 | [CVE-2025-32421](CVE-2025-32421-zeroc00I_CVE-2025-32421.md) | CVE-2025-32421-Next.js-缓存投毒 | ⚪ 中危 | 2 |
 | [CVE-2025-32429](CVE-2025-32429-byteReaper77_CVE-2025-32429.md) | CVE-2025-32429-XWiki Platform-SQL注入 | ⚪ 高危 | 2 |
 | [CVE-2025-32429](CVE-2025-32429-imbas007_CVE-2025-32429-Checker.md) | CVE-2025-32429-XWiki-SQL注入 | ⚪ 高危 | 2 |
-| [CVE-2025-3243](CVE-2025-3243-TeneBrae93_CVE-2025-3243.md) | CVE-2025-3243 | ⚪ 中危 | 1 |
+| [CVE-2025-3243](CVE-2025-3243-TeneBrae93_CVE-2025-3243.md) | CVE-2025-3243 - Erlang/OTP SSH Client 缓冲区溢出 (Buffer Overflow... | 🔴 CRITICAL | 2 |
+| [CVE-2025-3243](CVE-2025-3243-ladosudeste_CVE-2025-3243.md) | CVE-2025-3243 - Erlang/OTP SSH Client 缓冲区溢出 (Buffer Overflow... | 🔴 CRITICAL | 2 |
 | [CVE-2025-32432](CVE-2025-32432-CTY-Research-1_CVE-2025-32432-PoC.md) | CVE-2025-32432-CraftCMS-远程代码执行 | ⚪ 高危 | 5 |
 | [CVE-2025-32432](CVE-2025-32432-Chocapikk_CVE-2025-32432.md) | CVE-2025-32432-Craft CMS-远程代码执行 | ⚪ 高危 | 5 |
 | [CVE-2025-32432](CVE-2025-32432-Sachinart_CVE-2025-32432.md) | CVE-2025-32432-CraftCMS-远程代码执行 | ⚪ 严重 | 5 |
@@ -969,85 +1007,87 @@
 | [CVE-2025-32462](CVE-2025-32462-j3r1ch0123_CVE-2025-32462.md) | CVE-2025-32462-Sudo-主机绕过 | ⚪ 中危 | 9 |
 | [CVE-2025-32462](CVE-2025-32462-mylovem313_CVE-2025-32462.md) | CVE-2025-32462 - Sudo 权限提升 | ⚪ 高 (High) | 9 |
 | [CVE-2025-32462](CVE-2025-32462-toohau_CVE-2025-32462-32463-Detection-Script-.md) | CVE-2025-32462 - Sudo 逻辑缺陷/权限提升 | ⚪ 中危 (Important) | 9 |
-| [CVE-2025-32463](CVE-2025-32463-0x3c4dfa1_CVE-2025-32463.md) | CVE-2025-32463-Sudo-权限提升 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-0xAkarii_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-0xb0rn3_CVE-2025-32463-EXPLOIT.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-4f-kira_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-92gmuz_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-9Insomnie_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-AC8999_CVE-2025-32463.md) | CVE-2025-32463 - Sudo 本地提权漏洞 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-AdityaBhatt3010_CVE-2025-32463-CVE-2025-32462-Sudo-Privilege-Escalation.md) | CVE-2025-32463-Sudo本地权限提升 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-Adonijah01_cve-2025-32463-lab.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-Alaric112_CVE-2025-32463-Chroot-Vulnerabilitity.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-At0mXploit_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-B1ack4sh_Blackash-CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-CIA911_sudo_patch_CVE-2025-32463.md) | CVE-2025-32463-Sudo本地提权漏洞 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-ChetanKomal_sudo_exploit.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-Chocapikk_CVE-2025-32463-lab.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-D3ltaFormation_CVE-2025-32463-Sudo-Chroot-Escape.md) | CVE-2025-32463-Sudo-Chroot权限提升 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-DaadaAyoze_CVE-2025-32463-lab.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-DensuLabs_CVE-2025-32463.md) | CVE-2025-32463-Sudo-chroot权限提升 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-Dlodlos_CVE-2025-32463-lab.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-Floodnut_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-FreeDurok_CVE-2025-32463-PoC.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-IC3-512_linux-root-kit.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-K1tt3h_CVE-2025-32463-POC.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-K3ysTr0K3R_CVE-2025-32463-EXPLOIT.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-KaiHT-Ladiant_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 严重 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-MGunturG_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-Mikivirus0_sudoinjection.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-MohamedKarrab_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-Mr-Alperen_CVE-2025-32463.md) | CVE-2025-32463 - Sudo 本地提权 (LPE) | ⚪ 高危 (High) | 79 |
-| [CVE-2025-32463](CVE-2025-32463-NewComrade12211_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-Nowafen_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-Rajneeshkarya_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-SkylerMC_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-SpongeBob-369_cve-2025-32463.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-SysMancer_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-Yuy0ung_CVE-2025-32463_chwoot.md) | CVE-2025-32463 Sudo 本地提权漏洞 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-abrewer251_CVE-2025-32463_Sudo_PoC.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-aldoClau98_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-ankitpandey383_CVE-2025-32463-Sudo-Privilege-Escalation.md) | CVE-2025-32463-Sudo-权限提升 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-ashardev002_CVE-2025-32463_chwoot.md) | CVE-2025-32463 - Sudo 本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-behnamvanda_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-blackcat4347_CVE-2025-32463_PoC.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-cyberajju_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-cyberpoul_CVE-2025-32463-POC.md) | CVE-2025-32463-Sudo本地提权漏洞 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-cybershaolin47_CVE-2025-32463_POC.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-danielsummerton12_sudo-zero-day-CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-daryllundy_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-dbarquero_cve-2025-32463-lab.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 严重 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-dr4x-c0d3r_sudo-chroot.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-dr4xp_sudo-chroot.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-ill-deed_CVE-2025-32463_illdeed.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-junxian428_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-justjoeyking_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-kh4sh3i_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-krypton-0x00_CVE-2025-32463-Chwoot-POC.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-lowercasenumbers_CVE-2025-32463_sudo_chroot.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-mihnasdsad_CVE-2025-32463.md) | CVE-2025-32463 - Sudo 本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-mirchr_CVE-2025-32463-sudo-chwoot.md) | CVE-2025-32463-Sudo chroot 权限提升 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-morgenm_sudo-chroot-CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-neko205-mx_CVE-2025-32463_Exploit.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-nelissandro_CVE-2025-32463-Sudo-Chroot-Escape.md) | CVE-2025-32463-Sudo-Chroot权限提升 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-nflatrea_CVE-2025-32463.md) | CVE-2025-32463 - Sudo 本地提权漏洞 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-no-speech-to-text_CVE-2025-32463.md) | CVE-2025-32463 - Sudo chroot 权限提升 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-onniio_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-painoob_CVE-2025-32463.md) | CVE-2025-32463 – Sudo chroot Escape | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-pevinkumar10_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-pr0v3rbs_CVE-2025-32463_chwoot.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-r3dBust3r_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-ricardomaia_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-robbert1978_CVE-2025-32463_POC.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-robbin0919_CVE-2025-32463.md) | CVE-2025-32463 Sudo 本地权限提升漏洞 | ⚪ 严重 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-san8383_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-sarthak4399_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-shazed-x_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-susancodes55_CVE-2025-32463-sudo-poc.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-y4ney_CVE-2025-32463-lab.md) | CVE-2025-32463-Sudo-chroot提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-yeremeu_CVE-2025-32463_chwoot.md) | CVE-2025-32463 - Sudo 权限提升 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-zhaduchanhzz_CVE-2025-32463_POC.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
-| [CVE-2025-32463](CVE-2025-32463-zinzloun_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 79 |
+| [CVE-2025-32463](CVE-2025-32463-0x3c4dfa1_CVE-2025-32463.md) | CVE-2025-32463-Sudo-权限提升 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-0xAkarii_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-0xb0rn3_CVE-2025-32463-EXPLOIT.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-4f-kira_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-92gmuz_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-9Insomnie_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-AC8999_CVE-2025-32463.md) | CVE-2025-32463 - Sudo 本地提权漏洞 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-AdityaBhatt3010_CVE-2025-32463-CVE-2025-32462-Sudo-Privilege-Escalation.md) | CVE-2025-32463-Sudo本地权限提升 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-Adonijah01_cve-2025-32463-lab.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-Alaric112_CVE-2025-32463-Chroot-Vulnerabilitity.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-At0mXploit_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-B1ack4sh_Blackash-CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-CIA911_sudo_patch_CVE-2025-32463.md) | CVE-2025-32463-Sudo本地提权漏洞 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-ChetanKomal_sudo_exploit.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-Chocapikk_CVE-2025-32463-lab.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-D3ltaFormation_CVE-2025-32463-Sudo-Chroot-Escape.md) | CVE-2025-32463-Sudo-Chroot权限提升 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-DaadaAyoze_CVE-2025-32463-lab.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-DensuLabs_CVE-2025-32463.md) | CVE-2025-32463-Sudo-chroot权限提升 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-Dlodlos_CVE-2025-32463-lab.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-Floodnut_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-FreeDurok_CVE-2025-32463-PoC.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-IC3-512_linux-root-kit.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-K1tt3h_CVE-2025-32463-POC.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-K3ysTr0K3R_CVE-2025-32463-EXPLOIT.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-KaiHT-Ladiant_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 严重 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-MGunturG_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-Mikivirus0_sudoinjection.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-MohamedKarrab_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-Mr-Alperen_CVE-2025-32463.md) | CVE-2025-32463 - Sudo 本地提权 (LPE) | ⚪ 高危 (High) | 81 |
+| [CVE-2025-32463](CVE-2025-32463-NewComrade12211_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-Nowafen_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-Rajneeshkarya_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-SkylerMC_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-SpongeBob-369_cve-2025-32463.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-SysMancer_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-Yuy0ung_CVE-2025-32463_chwoot.md) | CVE-2025-32463 Sudo 本地提权漏洞 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-abrewer251_CVE-2025-32463_Sudo_PoC.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-aexdyhaxor_CVE-2025-32463.md) | CVE-2025-32463 - Sudo 本地权限提升 (LPE) | ⚪ 高 (High) | 81 |
+| [CVE-2025-32463](CVE-2025-32463-aldoClau98_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-ankitpandey383_CVE-2025-32463-Sudo-Privilege-Escalation.md) | CVE-2025-32463-Sudo-权限提升 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-ashardev002_CVE-2025-32463_chwoot.md) | CVE-2025-32463 - Sudo 本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-behnamvanda_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-blackcat4347_CVE-2025-32463_PoC.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-cyberajju_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-cyberpoul_CVE-2025-32463-POC.md) | CVE-2025-32463-Sudo本地提权漏洞 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-cybershaolin47_CVE-2025-32463_POC.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-danielsummerton12_sudo-zero-day-CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-daryllundy_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-dbarquero_cve-2025-32463-lab.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 严重 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-dr4x-c0d3r_sudo-chroot.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-dr4xp_sudo-chroot.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-ill-deed_CVE-2025-32463_illdeed.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-junxian428_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-justjoeyking_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-kh4sh3i_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-krypton-0x00_CVE-2025-32463-Chwoot-POC.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-lowercasenumbers_CVE-2025-32463_sudo_chroot.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-mihnasdsad_CVE-2025-32463.md) | CVE-2025-32463 - Sudo 本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-mirchr_CVE-2025-32463-sudo-chwoot.md) | CVE-2025-32463-Sudo chroot 权限提升 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-morgenm_sudo-chroot-CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-neko205-mx_CVE-2025-32463_Exploit.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-nelissandro_CVE-2025-32463-Sudo-Chroot-Escape.md) | CVE-2025-32463-Sudo-Chroot权限提升 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-nflatrea_CVE-2025-32463.md) | CVE-2025-32463 - Sudo 本地提权漏洞 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-no-speech-to-text_CVE-2025-32463.md) | CVE-2025-32463 - Sudo chroot 权限提升 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-onniio_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-painoob_CVE-2025-32463.md) | CVE-2025-32463 – Sudo chroot Escape | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-pevinkumar10_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地权限提升 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-pr0v3rbs_CVE-2025-32463_chwoot.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-r3dBust3r_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-ricardomaia_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-robbert1978_CVE-2025-32463_POC.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-robbin0919_CVE-2025-32463.md) | CVE-2025-32463 Sudo 本地权限提升漏洞 | ⚪ 严重 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-san8383_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-sarthak4399_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-shazed-x_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-susancodes55_CVE-2025-32463-sudo-poc.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-wvverez_CVE-2025-32463.md) | CVE-2025-32463 - Sudo (Linux/Unix 系统通用组件) 本地权限提升 (Privilege ... | ⚪ 高 (High) | 81 |
+| [CVE-2025-32463](CVE-2025-32463-y4ney_CVE-2025-32463-lab.md) | CVE-2025-32463-Sudo-chroot提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-yeremeu_CVE-2025-32463_chwoot.md) | CVE-2025-32463 - Sudo 本地权限提升 (LPE) | ⚪ 高 (High) | 81 |
+| [CVE-2025-32463](CVE-2025-32463-zhaduchanhzz_CVE-2025-32463_POC.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
+| [CVE-2025-32463](CVE-2025-32463-zinzloun_CVE-2025-32463.md) | CVE-2025-32463-Sudo-本地提权 | ⚪ 高危 | 81 |
 | [CVE-2025-3248](CVE-2025-3248-0-d3y_langflow-rce-exploit.md) | CVE-2025-3248-Langflow-RCE | ⚪ 严重 | 23 |
 | [CVE-2025-3248](CVE-2025-3248-0xgh057r3c0n_CVE-2025-3248.md) | CVE-2025-3248 - Langflow AI Remote Code Execution (Unauthent... | ⚪ 高危 | 23 |
 | [CVE-2025-3248](CVE-2025-3248-B1ack4sh_Blackash-CVE-2025-3248.md) | CVE-2025-3248 – Langflow 未授权远程代码执行 | ⚪ 高危 | 23 |
@@ -1138,7 +1178,7 @@
 | [CVE-2025-34299](CVE-2025-34299-Chocapikk_CVE-2025-34299.md) | CVE-2025-34299 - Monsta FTP Unauthenticated Arbitrary File U... | ⚪ 高危 | 3 |
 | [CVE-2025-34299](CVE-2025-34299-crondenice_CVE-2025-34299.md) | CVE-2025-34299-Monsta FTP-未授权任意文件上传 | ⚪ 高危 | 3 |
 | [CVE-2025-34300](CVE-2025-34300-jisi-001_CVE-2025-34300POC.md) | CVE-2025-34300-Sawtooth Lighthouse Studio-模板注入 | ⚪ 高危 | 1 |
-| [CVE-2025-3464](CVE-2025-3464-jeffaf_CVE-2025-3464-AsIO3-LPE.md) | CVE-2025-3464 - ASUS Armoury Crate / AsIO3.sys Race Conditio... | 🟠 High | 1 |
+| [CVE-2025-3464](CVE-2025-3464-jeffaf_CVE-2025-3464-AsIO3-LPE.md) | CVE-2025-3464 - ASUS Armoury Crate 本地权限提升 (LPE) / 竞态条件 (TOCT... | ⚪ 高危 (High) | 1 |
 | [CVE-2025-3515](CVE-2025-3515-ImBIOS_lab-cve-2025-3515.md) | CVE-2025-3515 Drag and Drop Multiple File Upload for Contact... | ⚪ 高危 | 4 |
 | [CVE-2025-3515](CVE-2025-3515-MrSoules_lab-cve-2025-3515.md) | CVE-2025-3515-Drag and Drop Multiple File Upload for Contact... | ⚪ 高危 | 4 |
 | [CVE-2025-3515](CVE-2025-3515-Professor6T9_CVE-2025-3515.md) | CVE-2025-3515 - Drag and Drop Multiple File Upload for Conta... | ⚪ 高危 | 4 |
@@ -1151,6 +1191,7 @@
 | [CVE-2025-36250](CVE-2025-36250-B1ack4sh_Blackash-CVE-2025-36250.md) | CVE-2025-36250-AIX NIM nimesis RCE | ⚪ 严重 | 1 |
 | [CVE-2025-3639](CVE-2025-3639-6lj_CVE-2025-3639.md) | CVE-2025-3639-Liferay Portal/DXP 登录绕过 | ⚪ 低危 | 1 |
 | [CVE-2025-36535](CVE-2025-36535-korden-c_CVE-2025-36535.md) | CVE-2025-36535 – AutomationDirect MB-Gateway Unauthenticated... | ⚪ 高危 | 1 |
+| [CVE-2025-37164](CVE-2025-37164-LACHHAB-Anas_Exploit_CVE-2025-37164.md) | CVE-2025-37164 - HPE OneView 基础设施管理软件 远程代码执行 (RCE) | 🔴 CRITICAL | 1 |
 | [CVE-2025-3776](CVE-2025-3776-Nxploited_CVE-2025-3776.md) | CVE-2025-3776 - Verification SMS with TargetSMS <= 1.5 - Una... | ⚪ 高危 | 2 |
 | [CVE-2025-3776](CVE-2025-3776-Totunm_CVE-2025-3776.md) | CVE-2025-3776 - Verification SMS with TargetSMS <= 1.5 - Una... | ⚪ 高危 | 2 |
 | [CVE-2025-37899](CVE-2025-37899-SeanHeelan_o3_finds_cve-2025-37899.md) | CVE-2025-37899 - Linux Kernel ksmbd use-after-free | ⚪ 高危 | 2 |
@@ -1158,6 +1199,8 @@
 | [CVE-2025-37947](CVE-2025-37947-doyensec_KSMBD-CVE-2025-37947.md) | CVE-2025-37947-Linux Kernel-ksmbd Out-of-bounds Write | ⚪ 高危 | 1 |
 | [CVE-2025-38001](CVE-2025-38001-0xdevil_CVE-2025-38001.md) | CVE-2025-38001-Linux Kernel-HFSC Use-After-Free | ⚪ 高危 | 2 |
 | [CVE-2025-38001](CVE-2025-38001-khoatran107_cve-2025-38001.md) | CVE-2025-38001-Linux Kernel-HFSC Use-After-Free | ⚪ 高危 | 2 |
+| [CVE-2025-38352](CVE-2025-38352-farazsth98_chronomaly.md) | CVE-2025-38352 - Linux Kernel / Android Kernel 释放后重用 (Use-Af... | ⚪ 高危 | 2 |
+| [CVE-2025-38352](CVE-2025-38352-farazsth98_poc-CVE-2025-38352.md) | CVE-2025-38352 - Linux Kernel 释放后重用 (Use-After-Free) | ⚪ 高危 (High) | 2 |
 | [CVE-2025-38561](CVE-2025-38561-toshithh_CVE-2025-38561.md) | CVE-2025-38561-ksmbd-竞态条件 | ⚪ 高危 | 1 |
 | [CVE-2025-38676](CVE-2025-38676-14mb1v45h_CVE-2025-38676.md) | CVE-2025-38676-Linux Kernel-Stack Buffer Overflow | ⚪ 高危 | 1 |
 | [CVE-2025-38678](CVE-2025-38678-guard-wait_CVE-2025-38678_POC.md) | CVE-2025-38678-Linux Kernel-Netfilter Device Duplication | ⚪ 中危 | 1 |
@@ -1177,7 +1220,8 @@
 | [CVE-2025-39946](CVE-2025-39946-farazsth98_exploit-CVE-2025-39946.md) | CVE-2025-39946-Linux Kernel TLS堆溢出 | ⚪ 高危 | 1 |
 | [CVE-2025-39964](CVE-2025-39964-n1k0oowang_CVE-2025-39964_EXP.md) | CVE-2025-39964-Linux Kernel-af_alg并发写漏洞 | ⚪ 高危 | 1 |
 | [CVE-2025-39965](CVE-2025-39965-Shreyas-Penkar_CVE-2025-39965.md) | CVE-2025-39965-Linux Kernel-XFRM UAF | ⚪ 高危 | 1 |
-| [CVE-2025-40019](CVE-2025-40019-guard-wait_CVE-2025-40019_POC.md) | CVE-2025-40019 | ⚪ 中危 | 1 |
+| [CVE-2025-40019](CVE-2025-40019-guard-wait_CVE-2025-40019_POC.md) | CVE-2018-20250 - WinRAR 路径穿越/代码执行 | ⚪ 高危 | 2 |
+| [CVE-2025-40019](CVE-2025-40019-xooxo_CVE-2025-40019-Essiv.md) | CVE-2018-20250 - WinRAR 路径穿越/代码执行 | ⚪ 高危 | 2 |
 | [CVE-2025-4009](CVE-2025-4009-realcodeb0ss_CVE-2025-4009.md) | CVE-2025-4009-Evertz SDVN-命令注入和身份验证绕过 | ⚪ 极高危 | 1 |
 | [CVE-2025-40547](CVE-2025-40547-B1ack4sh_Blackash-CVE-2025-40547.md) | CVE-2025-40547 - SolarWinds Serv-U Administrative Pre-Authen... | ⚪ 高危 | 2 |
 | [CVE-2025-40547](CVE-2025-40547-zigzagymym1986_CVE-2025-40547.md) | CVE-2025-40547 - SolarWinds Serv-U Administrative Pre-Authen... | ⚪ 高危 | 2 |
@@ -1243,6 +1287,8 @@
 | [CVE-2025-4334](CVE-2025-4334-0xgh057r3c0n_CVE-2025-4334.md) | CVE-2025-4334-Simple User Registration-权限提升 | ⚪ 高危 | 2 |
 | [CVE-2025-4334](CVE-2025-4334-vinodwick_CVE-2025-4334.md) | CVE-2025-4334-Simple User Registration-权限提升 | ⚪ 高危 | 2 |
 | [CVE-2025-43372](CVE-2025-43372-allinsthon_CVE-2025-43372.md) | CVE-2025-43372-Apple-媒体文件处理漏洞 | ⚪ 中危 | 1 |
+| [CVE-2025-43529](CVE-2025-43529-jir4vv1t_CVE-2025-43529.md) | CVE-2025-43529 - Apple WebKit (iOS, iPadOS, macOS, watchOS, ... | ⚪ 关键 (Critical) | 2 |
+| [CVE-2025-43529](CVE-2025-43529-zeroxjf_CVE-2025-43529-analysis.md) | CVE-2025-43529 - Apple iOS, macOS (WebKit/JavaScriptCore) Us... | 🔴 Critical (严重) | 2 |
 | [CVE-2025-4380](CVE-2025-4380-r0otk3r_CVE-2025-4380.md) | CVE-2025-4380 - Ads Pro Plugin <= 4.89 - Unauthenticated Loc... | ⚪ 高危 | 1 |
 | [CVE-2025-43864](CVE-2025-43864-pouriam23_DoS-via-cache-poisoning-by-forcing-SPA-mode-CVE-2025-43864-.md) | CVE-2025-43864-react-router-缓存投毒DoS | ⚪ 高危 | 1 |
 | [CVE-2025-43865](CVE-2025-43865-pouriam23_Pre-render-data-spoofing-on-React-Router-framework-mode-CVE-2025-43865.md) | CVE-2025-43865-react-router-数据欺骗 | ⚪ 高危 | 1 |
@@ -1317,6 +1363,7 @@
 | [CVE-2025-46204](CVE-2025-46204-spbavarva_CVE-2025-46204.md) | Unifiedtransform v2.X Incorrect Access Control | ⚪ 中危 | 1 |
 | [CVE-2025-46206](CVE-2025-46206-Landw-hub_CVE-2025-46206.md) | CVE-2025-46206 - MuPDF Denial of Service | ⚪ 高危 | 1 |
 | [CVE-2025-46271](CVE-2025-46271-1Altruist_CVE-2025-46271-Reverse-Shell-PoC.md) | CVE-2025-46271-UNI-NMS-Lite-命令注入 | ⚪ 高危 | 1 |
+| [CVE-2025-46295](CVE-2025-46295-soliantconsulting_CVE-2025-46295-fix-fms.md) | CVE-2025-46295 - Apache Commons Text / FileMaker Server RCE ... | 🔴 Critical (严重) | 1 |
 | [CVE-2025-4631](CVE-2025-4631-Nxploited_CVE-2025-4631.md) | CVE-2025-4631-Profitori-权限提升 | ⚪ 高危 | 1 |
 | [CVE-2025-4632](CVE-2025-4632-MantisToboggan-git_CVE-2025-4632-POC.md) | CVE-2025-4632 - Samsung MagicINFO 9 Server 路径遍历漏洞 | ⚪ 高危 | 1 |
 | [CVE-2025-46408](CVE-2025-46408-shinyColumn_CVE-2025-46408.md) | CVE-2025-46408-EagleEyes Lite Android-不正确的Hostname验证 | ⚪ 中危 | 1 |
@@ -1372,6 +1419,7 @@
 | [CVE-2025-47917](CVE-2025-47917-byteReaper77_CVE-2025-47917.md) | CVE-2025-47917-mbedtls-Use-After-Free | ⚪ 高危 | 1 |
 | [CVE-2025-4796](CVE-2025-4796-Nxploited_CVE-2025-4796.md) | CVE-2025-4796-Eventin-权限提升/账户接管 | ⚪ 高危 | 2 |
 | [CVE-2025-4796](CVE-2025-4796-Pwdnx1337_CVE-2025-4796.md) | CVE-2025-4796-Eventin-权限提升/账户接管 | ⚪ 高危 | 2 |
+| [CVE-2025-47962](CVE-2025-47962-q1uf3ng_CVE-2025-47962-POC.md) | CVE-2025-47962 - Microsoft Windows SDK 权限提升 (DLL劫持) | ⚪ 高 (High) | 1 |
 | [CVE-2025-47981](CVE-2025-47981-barbaraogmgf_CVE-2025-47981-POC.md) | CVE-2025-47981 Windows SPNEGO Extended Negotiation RCE | ⚪ 高危 | 2 |
 | [CVE-2025-47981](CVE-2025-47981-detectrespondrepeat_CVE-2025-47981.md) | CVE-2025-47981 Windows SPNEGO Extended Negotiation RCE | ⚪ 高危 | 2 |
 | [CVE-2025-47987](CVE-2025-47987-Kryptoenix_CVE-2025-47987_PoC.md) | CVE-2025-47987-Windows CredSSP 堆缓冲区溢出 | ⚪ 高危 | 1 |
@@ -1448,6 +1496,7 @@
 | [CVE-2025-49002](CVE-2025-49002-Feng-Huang-0520_DataEase_Postgresql_JDBC_Bypass-CVE-2025-49002.md) | CVE-2025-49002-DataEase-RCE | ⚪ 高危 | 2 |
 | [CVE-2025-49002](CVE-2025-49002-jiuzui129-arch_CVE-2025-49002.md) | CVE-2025-49002-DataEase-RCE | ⚪ 高危 | 2 |
 | [CVE-2025-49029](CVE-2025-49029-Nxploited_CVE-2025-49029.md) | CVE-2025-49029-Custom Login And Signup Widget-代码注入 | ⚪ 高危 | 1 |
+| [CVE-2025-49071](CVE-2025-49071-xShadow-Here_CVE-2025-49071.md) | CVE-2025-49071 - WordPress Flozen Theme 任意文件上传 (RCE) | 🔴 CRITICAL | 1 |
 | [CVE-2025-49113](CVE-2025-49113-00xCanelo_CVE-2025-49113.md) | CVE-2025-49113 - Roundcube Webmail RCE | ⚪ 高危 | 23 |
 | [CVE-2025-49113](CVE-2025-49113-5kr1pt_Roundcube_CVE-2025-49113.md) | CVE-2025-49113 - Roundcube Webmail PHP对象反序列化导致RCE | ⚪ 高危 | 23 |
 | [CVE-2025-49113](CVE-2025-49113-5kr1pt_WriteUp-Roundcube_CVE-2025-49113.md) | CVE-2025-49113 - Roundcube Webmail PHP 对象反序列化 RCE | ⚪ 严重 | 23 |
@@ -1473,6 +1522,7 @@
 | [CVE-2025-49113](CVE-2025-49113-rxerium_CVE-2025-49113.md) | CVE-2025-49113-Roundcube Webmail-PHP Object Deserialization | ⚪ 高危 | 23 |
 | [CVE-2025-49125](CVE-2025-49125-detectrespondrepeat_CVE-2025-49125-Authentication-Bypass.md) | CVE-2025-49125-Apache Tomcat-身份验证绕过 | ⚪ 中危 | 2 |
 | [CVE-2025-49125](CVE-2025-49125-gregk4sec_CVE-2025-49125.md) | CVE-2025-49125-Apache Tomcat-身份验证绕过 | ⚪ 中危 | 2 |
+| [CVE-2025-49131](CVE-2025-49131-Wenura17125_cve-2025-49131-poc.md) | CVE-2025-49131 - FastGPT (fastgpt-sandbox container) 沙箱逃逸 (S... | ⚪ 中危 (Medium) | 1 |
 | [CVE-2025-49132](CVE-2025-49132-0xtensho_CVE-2025-49132-poc.md) | CVE-2025-49132 - Pterodactyl Panel 远程代码执行 | ⚪ 高危 | 9 |
 | [CVE-2025-49132](CVE-2025-49132-GRodolphe_CVE-2025-49132_poc.md) | CVE-2025-49132-Pterodactyl Panel-RCE | ⚪ 高危 | 9 |
 | [CVE-2025-49132](CVE-2025-49132-WebSafety-2tina_CVE-2025-49132.md) | CVE-2025-49132-Pterodactyl Panel-RCE | ⚪ 高危 | 9 |
@@ -1618,6 +1668,13 @@
 | [CVE-2025-52665](CVE-2025-52665-callinston_CVE-2025-52665.md) | CVE-2025-52665-UniFi Access-未授权访问 | ⚪ 高危 | 1 |
 | [CVE-2025-52688](CVE-2025-52688-joelczk_CVE-2025-52688.md) | CVE-2025-52688 - Alcatel OmniAccess Stellar Command Injectio... | ⚪ 严重 | 1 |
 | [CVE-2025-52689](CVE-2025-52689-UltimateHG_CVE-2025-52689-PoC.md) | CVE-2025-52689 Alcatel-Lucent OmniAccess Stellar AP 身份验证绕过 | ⚪ 严重 | 1 |
+| [CVE-2025-52691](CVE-2025-52691-DeathShotXD_CVE-2025-52691-APT-PoC.md) | CVE-2025-52691 - SmarterTools SmarterMail 任意文件上传 (Arbitrary ... | 🔴 CRITICAL | 6 |
+| [CVE-2025-52691](CVE-2025-52691-hilwa24_CVE-2025-52691.md) | CVE-2025-52691 - SmarterTools SmarterMail RCE/任意文件上传/路径穿越 | 🔴 CRITICAL | 6 |
+| [CVE-2025-52691](CVE-2025-52691-rxerium_CVE-2025-52691.md) | CVE-2025-52691 - SmarterTools SmarterMail 任意文件上传 (RCE) | 🔴 Critical (严重) | 6 |
+| [CVE-2025-52691](CVE-2025-52691-sajjadsiam_CVE-2025-52691-poc.md) | CVE-2025-52691 - SmarterMail RCE (远程代码执行) | 🔴 CRITICAL | 6 |
+| [CVE-2025-52691](CVE-2025-52691-you-ssef9_CVE-2025-52691.md) | CVE-2025-52691 - SmarterMail 任意文件上传/RCE | 🔴 CRITICAL | 6 |
+| [CVE-2025-52691](CVE-2025-52691-yt2w_CVE-2025-52691.md) | CVE-2025-52691 - SmarterMail 任意文件上传 (RCE) | ⚪ 关键 (Critical) | 6 |
+| [CVE-2025-52692](CVE-2025-52692-yt2w_CVE-2025-52692.md) | CVE-2025-52692 - Linksys E9450-SG 身份认证绕过 | ⚪ 高 (High) | 1 |
 | [CVE-2025-5280](CVE-2025-5280-voyagken_CVE-2025-5280-V8-OOB.md) | CVE-2025-5280-Chrome-V8-OOB-Write | ⚪ 高危 | 1 |
 | [CVE-2025-5287](CVE-2025-5287-Nxploited_CVE-2025-5287.md) | CVE-2025-5287-Likes and Dislikes Plugin-SQL注入 | ⚪ 高危 | 3 |
 | [CVE-2025-5287](CVE-2025-5287-RandomRobbieBF_CVE-2025-5287.md) | CVE-2025-5287-Likes and Dislikes Plugin-SQL注入 | ⚪ 高危 | 3 |
@@ -1712,6 +1769,10 @@
 | [CVE-2025-5394](CVE-2025-5394-Yucaerin_CVE-2025-5394.md) | CVE-2025-5394 - Alone WordPress Theme 未授权任意文件上传 | ⚪ 高危 | 2 |
 | [CVE-2025-5394](CVE-2025-5394-fokda-prodz_CVE-2025-5394.md) | CVE-2025-5394-Alone主题-任意文件上传导致RCE | ⚪ 高危 | 2 |
 | [CVE-2025-53964](CVE-2025-53964-tigr78_CVE-2025-53964.md) | CVE-2024-53964/CVE-2025-53964 - Adobe Experience Manager/Gol... | ⚪ 高危 | 1 |
+| [CVE-2025-54068](CVE-2025-54068-flame-11_CVE-2025-54068-livewire.md) | CVE-2025-54068 - Laravel Livewire 远程代码执行 (RCE) | 🔴 CRITICAL | 3 |
+| [CVE-2025-54068](CVE-2025-54068-synacktiv_Livepyre.md) | CVE-2025-54068 - Laravel Livewire RCE (远程命令执行) | 🔴 CRITICAL | 3 |
+| [CVE-2025-54068](CVE-2025-54068-z0d131482700x_Livewire2025CVE.md) | CVE-2025-54068 - Laravel Livewire 远程代码执行 (RCE) | ⚪ 严重 (Critical) | 3 |
+| [CVE-2025-54100](CVE-2025-54100-xiaoLvChen_CVE-2025-54100.md) | CVE-2025-54100 - PowerShell (Windows PowerShell 5.1) 远程代码执行 ... | ⚪ 高危 | 1 |
 | [CVE-2025-54106](CVE-2025-54106-DExplo1ted_CVE-2025-54106-POC.md) | CVE-2025-54106 - Windows RRAS 整数溢出远程代码执行漏洞 | ⚪ 高危 | 2 |
 | [CVE-2025-54106](CVE-2025-54106-callinston_CVE-2025-54106.md) | CVE-2025-54106 - Windows RRAS 整数溢出远程代码执行漏洞 | ⚪ 高危 | 2 |
 | [CVE-2025-54110](CVE-2025-54110-canomer_CVE-2025-54110-Kernel-EoP-PoC.md) | CVE-2025-54110 Windows Kernel Elevation of Privilege Vulnera... | ⚪ 高危 | 1 |
@@ -1724,8 +1785,9 @@
 | [CVE-2025-5419](CVE-2025-5419-riemannj_CVE-2025-5419.md) | CVE-2025-5419 V8引擎越界读写漏洞 | ⚪ 高危 | 8 |
 | [CVE-2025-5419](CVE-2025-5419-takerishunte_CVE-2025-5419.md) | CVE-2025-5419-Google Chrome V8 Out-of-Bounds Read/Write | ⚪ 高危 | 8 |
 | [CVE-2025-5419](CVE-2025-5419-takeshirisulu_CVE-2025-5419.md) | CVE-2025-5419-Google Chrome V8-Out-of-Bounds Read and Write | ⚪ 高危 | 8 |
-| [CVE-2025-54236](CVE-2025-54236-crondenice_CVE-2025-54236.md) | CVE-2025-54236 - Adobe Commerce Session Takeover and Remote ... | ⚪ 严重 | 2 |
-| [CVE-2025-54236](CVE-2025-54236-wubinworks_magento2-session-reaper-patch.md) | CVE-2025-54236-Adobe Commerce-Improper Input Validation | 🔴 Critical | 2 |
+| [CVE-2025-54236](CVE-2025-54236-Baba01hacker666_cve-2025-54236.md) | CVE-2025-54236 - Adobe Commerce, Magento Open Source RCE (不安... | 🔴 Critical | 3 |
+| [CVE-2025-54236](CVE-2025-54236-crondenice_CVE-2025-54236.md) | CVE-2025-54236 - Adobe Commerce Session Takeover and Remote ... | ⚪ 严重 | 3 |
+| [CVE-2025-54236](CVE-2025-54236-wubinworks_magento2-session-reaper-patch.md) | CVE-2025-54236-Adobe Commerce-Improper Input Validation | 🔴 Critical | 3 |
 | [CVE-2025-54253](CVE-2025-54253-AdityaBhatt3010_CVE-2025-54253-Inside-the-Adobe-AEM-Forms-Zero-Day.md) | CVE-2025-54253 - Adobe Experience Manager Misconfiguration R... | ⚪ 严重 | 6 |
 | [CVE-2025-54253](CVE-2025-54253-B1ack4sh_Blackash-CVE-2025-54253.md) | CVE-2025-54253 - Adobe Experience Manager RCE | ⚪ 严重 | 6 |
 | [CVE-2025-54253](CVE-2025-54253-Shivshantp_CVE-2025-54253-Exploit-Demo.md) | CVE-2025-54253 - Adobe AEM Forms on JEE OGNL注入RCE | ⚪ 高危 | 6 |
@@ -1743,14 +1805,16 @@
 | [CVE-2025-54313](CVE-2025-54313-nihilor_cve-2025-54313.md) | CVE-2025-54313-eslint-config-prettier-供应链投毒 | ⚪ 高危 | 2 |
 | [CVE-2025-54320](CVE-2025-54320-saykino_CVE-2025-54320.md) | CVE-2025-54320 | ⚪ 未明确（根据现有信息无法判断） | 1 |
 | [CVE-2025-54321](CVE-2025-54321-saykino_CVE-2025-54321.md) | CVE-2025-54321-SigningHub-Email轰炸 | ⚪ 高危 | 1 |
-| [CVE-2025-54322](CVE-2025-54322-Sachinart_CVE-2025-54322.md) | CVE-2025-54322 - XSpeeder SXZOS Firmware (SD-WAN/Edge Router... | 🔴 CRITICAL | 1 |
+| [CVE-2025-54322](CVE-2025-54322-Sachinart_CVE-2025-54322.md) | CVE-2025-54322 - XSpeeder SXZOS Firmware (SD-WAN/Edge Router... | 🔴 CRITICAL | 2 |
+| [CVE-2025-54322](CVE-2025-54322-nkuty_CVE-2025-54322-exploit.md) | CVE-2025-54322 - XSpeeder SXZOS Firmware (SD-WAN / Edge Rout... | 🔴 CRITICAL | 2 |
 | [CVE-2025-54352](CVE-2025-54352-ScarryParrot_-CVE-2025-54352.md) | CVE-2025-54352-WordPress-私有/草稿文章标题泄露 | ⚪ 低危 | 2 |
 | [CVE-2025-54352](CVE-2025-54352-limmmw_CVE-2025-54352.md) | CVE-2025-54352-WordPress-私有文章标题泄露 | ⚪ 低危 | 2 |
 | [CVE-2025-54381](CVE-2025-54381-B1ack4sh_Blackash-CVE-2025-54381.md) | CVE-2025-54381-BentoML-SSRF | ⚪ 高危 | 2 |
 | [CVE-2025-54381](CVE-2025-54381-rockmelodies_bentoml_CVE-2025-54381.md) | CVE-2025-54381-BentoML-SSRF | ⚪ 高危 | 2 |
-| [CVE-2025-54424](CVE-2025-54424-Mr-xn_CVE-2025-54424.md) | CVE-2025-54424 - 1Panel Agent 证书验证绕过导致任意命令执行 | ⚪ 高危 | 3 |
-| [CVE-2025-54424](CVE-2025-54424-anonnymous5_1Panel-CVE-2025-54424-.md) | CVE-2025-54424 - 1Panel (开源Linux面板) 身份验证绕过/RCE | ⚪ 严重 (Critical) | 3 |
-| [CVE-2025-54424](CVE-2025-54424-bejbitoilet5125521_CVE-2025-54424.md) | CVE-2025-54424-1Panel-RCE | ⚪ 高危 | 3 |
+| [CVE-2025-54424](CVE-2025-54424-Mr-xn_CVE-2025-54424.md) | CVE-2025-54424 - 1Panel Agent 证书验证绕过导致任意命令执行 | ⚪ 高危 | 4 |
+| [CVE-2025-54424](CVE-2025-54424-anonnymous5_1Panel-CVE-2025-54424-.md) | CVE-2025-54424 - 1Panel (开源Linux面板) 身份验证绕过/RCE | ⚪ 严重 (Critical) | 4 |
+| [CVE-2025-54424](CVE-2025-54424-bejbitoilet5125521_CVE-2025-54424.md) | CVE-2025-54424-1Panel-RCE | ⚪ 高危 | 4 |
+| [CVE-2025-54424](CVE-2025-54424-hophtien_CVE-2025-54424.md) | CVE-2025-54424 - 1Panel RCE | ⚪ 高危 (Critical) | 4 |
 | [CVE-2025-54554](CVE-2025-54554-Aman-Parmar_CVE-2025-54554.md) | CVE-2025-54554 - ticrypt tiaudit 未授权访问导致敏感信息泄露 | ⚪ 中危 | 1 |
 | [CVE-2025-54574](CVE-2025-54574-B1ack4sh_Blackash-CVE-2025-54574.md) | CVE-2025-54574-Squid-Heap-Buffer-Overflow | ⚪ 高危 | 2 |
 | [CVE-2025-54574](CVE-2025-54574-starrynightsecurity_CVE-2025-54574-Squid-Heap-Buffer-Overflow.md) | CVE-2025-54574-Squid-Heap-Buffer-Overflow | ⚪ 高危 | 2 |
@@ -1772,127 +1836,143 @@
 | [CVE-2025-54957](CVE-2025-54957-AlphabugX_CVE-2025-54957.md) | CVE-2025-54957-Dolby UDC-越界写 | ⚪ 中危 | 1 |
 | [CVE-2025-54962](CVE-2025-54962-Eyodav_CVE-2025-54962.md) | CVE-2025-54962 - OpenPLC Runtime Webserver Insecure File Upl... | ⚪ 中危 | 1 |
 | [CVE-2025-54988](CVE-2025-54988-mgthuramoemyint_POC-CVE-2025-54988.md) | CVE-2025-54988 - Apache Tika PDF parser module XXE | ⚪ 高危 | 1 |
-| [CVE-2025-55182](CVE-2025-55182-0xN7y_CVE-2025-55182.md) | CVE-2025-55182 - Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-0xPThree_cve-2025-55182.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-0xROI_CVE-2025-55182.md) | CVE-2025-55182 - React / Next.js RCE (远程代码执行) | 🔴 CRITICAL | 121 |
-| [CVE-2025-55182](CVE-2025-55182-ABCFabian_React2Shell-CVE-2025-55182-Testing-Environment.md) | CVE-2025-55182 - React Server Components, Next.js RCE (Remot... | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-AdityaBhatt3010_React2Shell-CVE-2025-55182-The-Deserialization-Bug-That-Broke-the-Web.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-Ashwesker_Blackash-CVE-2025-55182.md) | CVE-2025-55182 - React Server Components / Next.js 远程代码执行(RC... | ⚪ 超危 | 121 |
-| [CVE-2025-55182](CVE-2025-55182-Atlantis02-sec_Vulnerability-assessment.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-BankkRoll_Quickcheck-CVE-2025-55182-React-and-CVE-2025-66478-Next.js.md) | CVE-2025-55182 - React, react-dom, react-server-dom-webpack,... | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-Bashamega_react-CVE-2025-55182-fixer.md) | CVE-2025-55182 - React Server Components, Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-Chelsea486MHz_CVE-2025-55182-test.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-Chocapikk_CVE-2025-55182.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-Cillian-Collins_CVE-2025-55182.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-Cr4at0r_Next.js-RCE-Scanner-BurpSuite-Extension-.md) | CVE-2025-55182 - React Server Components, Next.js 远程代码执行 | ⚪ 高危 | 121 |
-| [CVE-2025-55182](CVE-2025-55182-CymulateResearch_React2Shell-Scanner.md) | CVE-2025-55182 - React RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-Emiyelbarto_CVE-2025-55182-PoC.md) | CVE-2025-55182 - React RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-EynaExp_CVE-2025-55182-POC.md) | CVE-2025-55182 - React 远程代码执行 | ⚪ 高危 | 121 |
-| [CVE-2025-55182](CVE-2025-55182-GelukCrab_React-Server-Components-RCE.md) | CVE-2025-55182 - React Server Components, Next.js RCE (Remot... | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-Ghost121111_Blackash-CVE-2025-55182.md) | CVE-2025-55182 - React / Next.js RCE (远程代码执行) | 🔴 CRITICAL | 121 |
-| [CVE-2025-55182](CVE-2025-55182-Golden-Secure_CVE-2025-55182.md) | CVE-2025-55182 - React 远程代码执行(RCE) | ⚪ 严重 | 121 |
-| [CVE-2025-55182](CVE-2025-55182-Hghost0x00_CVE-2025-55182.md) | CVE-2025-55182 - React/Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-INTELEON404_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components and Next.js App Rou... | 🔴 Critical Unauthenticated Remote Code Execution | 121 |
-| [CVE-2025-55182](CVE-2025-55182-KingHacker353_R2C-CVE-2025-55182-66478.md) | CVE-2025-55182 - React, Next.js RCE (远程代码执行) | 🔴 CRITICAL | 121 |
-| [CVE-2025-55182](CVE-2025-55182-Kryptopacy_Next.js-RCE-Patcher--CVE-2025-55182-.md) | CVE-2025-55182 - React Server Components / Next.js 远程代码执行(RC... | ⚪ 严重 | 121 |
-| [CVE-2025-55182](CVE-2025-55182-MedusaSH_POC-CVE-2025-55182.md) | CVE-2025-55182 - React and Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-MrR0b0t19_CVE-2025-55182-shellinteractive.md) | CVE-2025-55182 - React Server Components / Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-MrSol0_CVE-2025-55182-Terminal.md) | CVE-2025-55182 - React/Next.js 远程代码执行(RCE) | ⚪ 严重 | 121 |
-| [CVE-2025-55182](CVE-2025-55182-Pizz33_CVE-2025-55182-burpscanner.md) | CVE-2025-55182 - React Server Components, Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-Rat5ak_CVE-2025-55182-React2Shell-RCE-POC.md) | CVE-2025-55182 - React RSC, Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-Rsatan_CVE-2025-55182-Tools.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-RuoJi6_CVE-2025-55182-RCE-shell.md) | CVE-2025-55182 - React Server Components 远程代码执行 (RCE) | ⚪ 严重 | 121 |
-| [CVE-2025-55182](CVE-2025-55182-Saturate_CVE-2025-55182-Scanner.md) | CVE-2025-55182 - React/Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-Security-Phoenix-demo_freight-night-rce-react-next-CVE-2025-55182-CVE-2025-66478.md) | CVE-2025-55182 - React, Next.js, react-dom, react-server-dom... | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-Spritualkb_CVE-2025-55182-exp.md) | CVE-2025-55182 - React Server Components and Next.js RCE (Re... | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-StealthMoud_CVE-2025-55182-Scanner.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-StillSoul_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components, Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-ThemeHackers_CVE-2025-55182.md) | CVE-2025-55182 - React and Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-Updatelap_CVE-2025-55182.md) | CVE-2025-55182 - React / Next.js 远程代码执行 (RCE) | ⚪ 严重 (CRITICAL) | 121 |
-| [CVE-2025-55182](CVE-2025-55182-XiaomingX_CVE-2025-55182-poc.md) | CVE-2025-55182 - React Server Components 远程代码执行(RCE) | ⚪ 高危 | 121 |
-| [CVE-2025-55182](CVE-2025-55182-ZemarKhos_CVE-2025-55182-Exploit-PoC-Scanner.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-ZihxS_check-react-rce-cve-2025-55182.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-acheong08_CVE-2025-55182-detection.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-acheong08_CVE-2025-55182-poc.md) | CVE-2025-55182 - React, Next.js 反序列化RCE | ⚪ 严重 | 121 |
-| [CVE-2025-55182](CVE-2025-55182-acheong08_CVE-2025-55182-vite-rsc.md) | CVE-2025-55182 - React Server Components (RSC), Next.js (关联C... | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-alessiodos_react2shell-scanner.md) | CVE-2025-55182 - Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-alexandre-briongos-wavestone_react-cve-2025-55182-lab.md) | CVE-2025-55182 - React RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-aliclub0x00_CVE-2025-55182-POC-NEXTJS.md) | CVE-2025-55182 - React Server Components (RSC) and Next.js R... | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-alyaapm_CVE-2025-55182-shellinteractive.md) | CVE-2025-55182 - React, Next.js RCE (Remote Code Execution) | 🔴 CRITICAL | 121 |
-| [CVE-2025-55182](CVE-2025-55182-aquinn-r7_CVE-2025-55182-VulnCheckPOC.md) | CVE-2025-55182 - Next.js (React Server Components) 不安全反序列化导致... | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-aspen-labs_CVE-2025-55182-checker.md) | CVE-2025-55182 - React/Next.js Server Functions Deserializat... | ⚪ 高危 | 121 |
-| [CVE-2025-55182](CVE-2025-55182-assetnote_react2shell-scanner.md) | CVE-2025-55182 - React Server Components (react-server-dom-p... | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-c0rydoras_CVE-2025-55182.md) | CVE-2025-55182 - React和Next.js 反序列化RCE | ⚪ 高危 | 121 |
-| [CVE-2025-55182](CVE-2025-55182-callinston_CVE-2025-55182.md) | CVE-2025-55182-React Server Components远程代码执行 | ⚪ 高危 | 121 |
-| [CVE-2025-55182](CVE-2025-55182-carlosaruy_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-clevernyyyy_CVE-2025-55182-Dockerized.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-cropnet_CVE-2025-55182-POC-SCANNER.md) | CVE-2025-55182 - React Server Components, Next.js 反序列化RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-cypholab_evilact.md) | CVE-2025-55182 - React Server Components, Next.js 远程代码执行(RCE... | ⚪ 高危 | 121 |
-| [CVE-2025-55182](CVE-2025-55182-dissy123_cve-2025-55182.md) | CVE-2025-55182 React Server Components 不安全反序列化漏洞 | ⚪ 高危 | 121 |
-| [CVE-2025-55182](CVE-2025-55182-dwisiswant0_CVE-2025-55182.md) | CVE-2025-55182-ReactServerComponents不安全反序列化RCE | ⚪ 严重 | 121 |
-| [CVE-2025-55182](CVE-2025-55182-ejpir_CVE-2025-55182-poc.md) | CVE-2025-55182 - React, Next.js 反序列化RCE | ⚪ 严重 | 121 |
-| [CVE-2025-55182](CVE-2025-55182-ejpir_CVE-2025-55182-research.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-fatguru_CVE-2025-55182-scanner.md) | CVE-2025-55182 - React Server Components (RSC), Next.js 不安全反... | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-freeqaz_react2shell.md) | CVE-2025-55182 - React Server Components (React) and Next.js... | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-fullhunt_react2shell-test-server.md) | CVE-2025-55182 - React Server Components (RSC), Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-gensecaihq_react2shell-scanner.md) | CVE-2025-55182 - React Server Components 远程代码执行(RCE) | ⚪ 严重 | 121 |
-| [CVE-2025-55182](CVE-2025-55182-grp-ops_react2shell.md) | CVE-2025-55182 - React, Next.js 远程代码执行(RCE) | ⚪ 严重 | 121 |
-| [CVE-2025-55182](CVE-2025-55182-hualy13_CVE-2025-55182.md) | CVE-2025-55182 - React 远程代码执行 | ⚪ 高危 | 121 |
-| [CVE-2025-55182](CVE-2025-55182-iksanwkk_CVE-2025-55182-exp.md) | CVE-2025-55182 - React Server Components / Next.js RCE | 🔴 CRITICAL | 121 |
-| [CVE-2025-55182](CVE-2025-55182-im-hanzou_CVE-2025-55182-POC-SCANNER.md) | CVE-2025-55182 - React RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-itsismarcos_Bot-exploit-CVE-2025-55182.md) | CVE-2025-55182 - React / Next.js (React Server Components) R... | 🔴 CRITICAL | 121 |
-| [CVE-2025-55182](CVE-2025-55182-itumo-arigatone_study-CVE-2025-55182.md) | CVE-2025-55182 - React Server Components (RSC) RCE (远程代码执行) | 🔴 CRITICAL | 121 |
-| [CVE-2025-55182](CVE-2025-55182-ivaavimusic_React19-fix-vibecoders.md) | CVE-2025-55182 - React RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-jctommasi_react2shellVulnApp.md) | CVE-2025-55182 - React 不安全反序列化导致RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-jf0x3a_CVE-2025-55182-exploit.md) | CVE-2025-55182 React/Next.js Server Functions Deserializatio... | ⚪ 高危 | 121 |
-| [CVE-2025-55182](CVE-2025-55182-joaonevess_chain-reaction.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-joaonevess_rust-flight.md) | CVE-2025-55182 - React/Next.js Server Components Deserializa... | ⚪ 高危 | 121 |
-| [CVE-2025-55182](CVE-2025-55182-kOaDT_poc-cve-2025-55182.md) | CVE-2025-55182 - React Server Components 远程代码执行(RCE) | ⚪ 严重 | 121 |
-| [CVE-2025-55182](CVE-2025-55182-keklick1337_CVE-2025-55182-golang-PoC.md) | CVE-2025-55182 - React Server Components, Next.js 远程代码执行(RCE... | ⚪ 严重 | 121 |
-| [CVE-2025-55182](CVE-2025-55182-l0n3m4n_CVE-2025-55182.md) | CVE-2025-55182 - Next.js/React RSC RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-l4rm4nd_CVE-2025-55182.md) | CVE-2025-55182 - React/Next.js 反序列化RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-l8BL_CVE-2025-55182.md) | CVE-2025-55182 - React 远程代码执行 | ⚪ 严重 | 121 |
-| [CVE-2025-55182](CVE-2025-55182-lachlan2k_React2Shell-CVE-2025-55182-original-poc.md) | CVE-2025-55182 - React and Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-logesh-GIT001_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-luskafaria_cve-2025-55182.md) | CVE-2025-55182 - React Server Components (react-server-dom-w... | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-marginaldeer_CVE-2025-55182_scanner.md) | CVE-2025-55182 - React Server Components Remote Code Executi... | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-mrknow001_RSC_Detector.md) | CVE-2025-55182 - React RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-msanft_CVE-2025-55182.md) | CVE-2025-55182 - React Server Functions, Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-nanwinata_CVE-2025-55182-Scanner.md) | CVE-2025-55182 - React Server Components, Next.js, react-ser... | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-nehkark_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components (RSC) RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-nerium-security_CVE-2025-55182.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-ngvcanh_CVE-2025-55182-Attack-Analysis.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-nxgn-kd01_cve-2025-55182-scanner.md) | CVE-2025-55182 - React, React Server Components, Next.js RCE... | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-nxgn-kd01_react2shell-scanner.md) | CVE-2025-55182 - React, Next.js RCE (远程代码执行) | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-oways_React2shell-CVE-2025-55182-checker.md) | CVE-2025-55182 - React, Next.js RCE (Remote Code Execution) | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-philparzer_nextjs-react2shell-detect.md) | CVE-2025-55182 - React Server Components (react-server-dom-p... | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-prestonhashworth_cve-2025-55182.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-ps-interactive_cve-2025-55182.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-pyroxenites_CVE-2025-55182.md) | CVE-2025-55182 ReactServerComponents 不安全反序列化 RCE | 🔴 Critical (CVSSv3.1 评分 10.0) | 121 |
-| [CVE-2025-55182](CVE-2025-55182-pyroxenites_Nextjs_RCE_Exploit_Tool.md) | CVE-2025-55182 - React Server Components, Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-rix4uni_CVE-2025-55182.md) | CVE-2025-55182 - React Framework / Next.js RCE (远程代码执行) | 🔴 CRITICAL | 121 |
-| [CVE-2025-55182](CVE-2025-55182-rl0x01_CVE-2025-55182_PoC.md) | CVE-2025-55182 - React Server Components, Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-rocklambros_React2Shell_Hunter.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-rubensuxo-eh_react2shell-exploit.md) | CVE-2025-55182 - Next.js, React Server Components RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-santihabib_CVE-2025-55182-analysis.md) | CVE-2025-55182 - React RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-shamo0_react2shell-PoC.md) | CVE-2025-55182 - React Server Components, Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-sherlocksecurity_CVE-2025-55182-Exploit-scanner.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-shren207_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-sickwell_CVE-2025-55182.md) | CVE-2025-55182 - Next.js 远程代码执行 | ⚪ 严重 | 121 |
-| [CVE-2025-55182](CVE-2025-55182-sudo-Yangziran_CVE-2025-55182POC.md) | CVE-2025-55182 React Server Components RCE | ⚪ 高危 | 121 |
-| [CVE-2025-55182](CVE-2025-55182-sumanrox_rschunter.md) | CVE-2025-55182 - React Server Components, Next.js 远程代码执行(RCE... | ⚪ 超危 | 121 |
-| [CVE-2025-55182](CVE-2025-55182-tlfyyds_cve-2025-55182-getshell.md) | CVE-2025-55182 - React Server Components, Next.js 反序列化RCE | ⚪ 严重 | 121 |
-| [CVE-2025-55182](CVE-2025-55182-tobiasGuta_Next.js-RSC-RCE-Scanner-Burp-Suite-Extension.md) | CVE-2025-55182 - Next.js/React RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-w3irdo21_CVE-2025-55182-react2shell.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-whiteov3rflow_CVE-2025-55182-poc.md) | CVE-2025-55182 - react-server-dom-webpack RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-yanoshercohen_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-younesZdDz_CVE-2025-55182.md) | CVE-2025-55182 - Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-yunaranyancat_CVE-2025-55182-NSE.md) | CVE-2025-55182 - React/Next.js RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-zack0x01_CVE-2025-55182-advanced-scanner-.md) | CVE-2025-55182 - React Server Components 远程代码执行(RCE) | ⚪ 严重 | 121 |
-| [CVE-2025-55182](CVE-2025-55182-zack0x01_vuln-app-CVE-2025-55182.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-zamdevio_r2s.md) | CVE-2025-55182 - Next.js 远程代码执行 | ⚪ 超危 | 121 |
-| [CVE-2025-55182](CVE-2025-55182-zorejt_Rust_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components (react-server-dom-w... | ⚪ 严重/Critical | 121 |
-| [CVE-2025-55182](CVE-2025-55182-zzhorc_CVE-2025-55182.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 121 |
+| [CVE-2025-55182](CVE-2025-55182-0xN7y_CVE-2025-55182.md) | CVE-2025-55182 - Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-0xPThree_cve-2025-55182.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-0xROI_CVE-2025-55182.md) | CVE-2025-55182 - React / Next.js RCE (远程代码执行) | 🔴 CRITICAL | 137 |
+| [CVE-2025-55182](CVE-2025-55182-ABCFabian_React2Shell-CVE-2025-55182-Testing-Environment.md) | CVE-2025-55182 - React Server Components, Next.js RCE (Remot... | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-AdityaBhatt3010_React2Shell-CVE-2025-55182-The-Deserialization-Bug-That-Broke-the-Web.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-AdityaBhatt3010_React2Shell-CVE-2025-55182.md) | CVE-2025-55182 - React Server Components (RSC) 及基于其构建的框架 (如 ... | 🔴 CRITICAL | 137 |
+| [CVE-2025-55182](CVE-2025-55182-Ashwesker_Blackash-CVE-2025-55182.md) | CVE-2025-55182 - React Server Components / Next.js 远程代码执行(RC... | ⚪ 超危 | 137 |
+| [CVE-2025-55182](CVE-2025-55182-Atlantis02-sec_Vulnerability-assessment.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-BankkRoll_Quickcheck-CVE-2025-55182-React-and-CVE-2025-66478-Next.js.md) | CVE-2025-55182 - React, react-dom, react-server-dom-webpack,... | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-Bashamega_react-CVE-2025-55182-fixer.md) | CVE-2025-55182 - React Server Components, Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-Chelsea486MHz_CVE-2025-55182-test.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-Chocapikk_CVE-2025-55182.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-Cillian-Collins_CVE-2025-55182.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-Cr4at0r_Next.js-RCE-Scanner-BurpSuite-Extension-.md) | CVE-2025-55182 - React Server Components, Next.js 远程代码执行 | ⚪ 高危 | 137 |
+| [CVE-2025-55182](CVE-2025-55182-CymulateResearch_React2Shell-Scanner.md) | CVE-2025-55182 - React RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-Emiyelbarto_CVE-2025-55182-PoC.md) | CVE-2025-55182 - React RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-EynaExp_CVE-2025-55182-POC.md) | CVE-2025-55182 - React 远程代码执行 | ⚪ 高危 | 137 |
+| [CVE-2025-55182](CVE-2025-55182-GelukCrab_React-Server-Components-RCE.md) | CVE-2025-55182 - React Server Components, Next.js RCE (Remot... | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-Ghost121111_Blackash-CVE-2025-55182.md) | CVE-2025-55182 - Next.js / React Server Components (RSC) RCE... | 🔴 CRITICAL | 137 |
+| [CVE-2025-55182](CVE-2025-55182-Golden-Secure_CVE-2025-55182.md) | CVE-2025-55182 - React 远程代码执行(RCE) | ⚪ 严重 | 137 |
+| [CVE-2025-55182](CVE-2025-55182-Goultarde_CVE-2025-55182-React2Shell-Lab.md) | CVE-2025-55182 - React Server Components (RSC) / Next.js RCE | 🔴 CRITICAL | 137 |
+| [CVE-2025-55182](CVE-2025-55182-Hghost0x00_CVE-2025-55182.md) | CVE-2025-55182 - React/Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-INTELEON404_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components and Next.js App Rou... | 🔴 Critical Unauthenticated Remote Code Execution | 137 |
+| [CVE-2025-55182](CVE-2025-55182-KingHacker353_R2C-CVE-2025-55182-66478.md) | CVE-2025-55182 - React, Next.js RCE (远程代码执行) | 🔴 CRITICAL | 137 |
+| [CVE-2025-55182](CVE-2025-55182-Kryptopacy_Next.js-RCE-Patcher--CVE-2025-55182-.md) | CVE-2025-55182 - React Server Components / Next.js 远程代码执行(RC... | ⚪ 严重 | 137 |
+| [CVE-2025-55182](CVE-2025-55182-MedusaSH_POC-CVE-2025-55182.md) | CVE-2025-55182 - React and Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-MrR0b0t19_CVE-2025-55182-shellinteractive.md) | CVE-2025-55182 - React Server Components / Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-MrSol0_CVE-2025-55182-Terminal.md) | CVE-2025-55182 - React/Next.js 远程代码执行(RCE) | ⚪ 严重 | 137 |
+| [CVE-2025-55182](CVE-2025-55182-MyCompanyOrganization_React2Shell-Kingdom.md) | CVE-2025-55182 - React Server Components / Next.js 远程代码执行 (R... | 🔴 CRITICAL | 137 |
+| [CVE-2025-55182](CVE-2025-55182-Pizz33_CVE-2025-55182-burpscanner.md) | CVE-2025-55182 - React Server Components, Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-Rat5ak_CVE-2025-55182-React2Shell-RCE-POC.md) | CVE-2025-55182 - React RSC, Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-Rsatan_CVE-2025-55182-Tools.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-RuoJi6_CVE-2025-55182-RCE-shell.md) | CVE-2025-55182 - React Server Components 远程代码执行 (RCE) | ⚪ 严重 | 137 |
+| [CVE-2025-55182](CVE-2025-55182-Saturate_CVE-2025-55182-Scanner.md) | CVE-2025-55182 - React/Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-Security-Phoenix-demo_freight-night-rce-react-next-CVE-2025-55182-CVE-2025-66478.md) | CVE-2025-55182 - React, Next.js, react-dom, react-server-dom... | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-Spritualkb_CVE-2025-55182-exp.md) | CVE-2025-55182 - React Server Components and Next.js RCE (Re... | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-StealthMoud_CVE-2025-55182-Scanner.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-StillSoul_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components, Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-ThemeHackers_CVE-2025-55182.md) | CVE-2025-55182 - React and Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-Updatelap_CVE-2025-55182.md) | CVE-2025-55182 - React / Next.js 远程代码执行 (RCE) | ⚪ 严重 (CRITICAL) | 137 |
+| [CVE-2025-55182](CVE-2025-55182-XiaomingX_CVE-2025-55182-poc.md) | CVE-2025-55182 - React Server Components 远程代码执行(RCE) | ⚪ 高危 | 137 |
+| [CVE-2025-55182](CVE-2025-55182-Ya0h4cker_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components (RSC) RCE (远程代码执行) | 🔴 CRITICAL | 137 |
+| [CVE-2025-55182](CVE-2025-55182-ZemarKhos_CVE-2025-55182-Exploit-PoC-Scanner.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-ZihxS_check-react-rce-cve-2025-55182.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-acheong08_CVE-2025-55182-detection.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-acheong08_CVE-2025-55182-poc.md) | CVE-2025-55182 - React, Next.js 反序列化RCE | ⚪ 严重 | 137 |
+| [CVE-2025-55182](CVE-2025-55182-acheong08_CVE-2025-55182-vite-rsc.md) | CVE-2025-55182 - React Server Components (RSC), Next.js (关联C... | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-alessiodos_react2shell-scanner.md) | CVE-2025-55182 - Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-alexandre-briongos-wavestone_react-cve-2025-55182-lab.md) | CVE-2025-55182 - React RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-aliclub0x00_CVE-2025-55182-POC-NEXTJS.md) | CVE-2025-55182 - React Server Components (RSC) and Next.js R... | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-alyaapm_CVE-2025-55182-shellinteractive.md) | CVE-2025-55182 - React, Next.js RCE (Remote Code Execution) | 🔴 CRITICAL | 137 |
+| [CVE-2025-55182](CVE-2025-55182-aquinn-r7_CVE-2025-55182-VulnCheckPOC.md) | CVE-2025-55182 - Next.js (React Server Components) 不安全反序列化导致... | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-aspen-labs_CVE-2025-55182-checker.md) | CVE-2025-55182 - React/Next.js Server Functions Deserializat... | ⚪ 高危 | 137 |
+| [CVE-2025-55182](CVE-2025-55182-assetnote_react2shell-scanner.md) | CVE-2025-55182 - React Server Components (react-server-dom-p... | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-c0rydoras_CVE-2025-55182.md) | CVE-2025-55182 - React和Next.js 反序列化RCE | ⚪ 高危 | 137 |
+| [CVE-2025-55182](CVE-2025-55182-callinston_CVE-2025-55182.md) | CVE-2025-55182-React Server Components远程代码执行 | ⚪ 高危 | 137 |
+| [CVE-2025-55182](CVE-2025-55182-carlosaruy_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-clevernyyyy_CVE-2025-55182-Dockerized.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-cropnet_CVE-2025-55182-POC-SCANNER.md) | CVE-2025-55182 - React Server Components, Next.js 反序列化RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-cypholab_evilact.md) | CVE-2025-55182 - React Server Components, Next.js 远程代码执行(RCE... | ⚪ 高危 | 137 |
+| [CVE-2025-55182](CVE-2025-55182-dbwlsdnr95_CVE-2025-55182-React2Shell-Nextjs-RSC-Analysis.md) | CVE-2025-55182 - Next.js RCE (Remote Code Execution) | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-dissy123_cve-2025-55182.md) | CVE-2025-55182 React Server Components 不安全反序列化漏洞 | ⚪ 高危 | 137 |
+| [CVE-2025-55182](CVE-2025-55182-dwisiswant0_CVE-2025-55182.md) | CVE-2025-55182-ReactServerComponents不安全反序列化RCE | ⚪ 严重 | 137 |
+| [CVE-2025-55182](CVE-2025-55182-ejpir_CVE-2025-55182-poc.md) | CVE-2025-55182 - React, Next.js 反序列化RCE | ⚪ 严重 | 137 |
+| [CVE-2025-55182](CVE-2025-55182-ejpir_CVE-2025-55182-research.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-en0f_CVE-2025-55182-poc-json.md) | CVE-2025-55182 - React Server Components (RSC) RCE (远程代码执行) | 🔴 CRITICAL | 137 |
+| [CVE-2025-55182](CVE-2025-55182-fatguru_CVE-2025-55182-scanner.md) | CVE-2025-55182 - React Server Components (RSC), Next.js 不安全反... | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-freeqaz_react2shell.md) | CVE-2025-55182 - React Server Components (React) and Next.js... | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-fullhunt_react2shell-test-server.md) | CVE-2025-55182 - React Server Components (RSC), Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-gensecaihq_react2shell-scanner.md) | CVE-2025-55182 - React Server Components 远程代码执行(RCE) | ⚪ 严重 | 137 |
+| [CVE-2025-55182](CVE-2025-55182-git0xLai_React2ShellPoC.md) | CVE-2025-55182 - React Server Components (RSC) & Next.js RCE... | 🔴 CRITICAL | 137 |
+| [CVE-2025-55182](CVE-2025-55182-grp-ops_react2shell.md) | CVE-2025-55182 - React, Next.js 远程代码执行(RCE) | ⚪ 严重 | 137 |
+| [CVE-2025-55182](CVE-2025-55182-hndko_react2shell-rce-autobot.md) | CVE-2025-55182 - React Server Components (RSC) / Next.js RCE... | 🔴 CRITICAL | 137 |
+| [CVE-2025-55182](CVE-2025-55182-hualy13_CVE-2025-55182.md) | CVE-2025-55182 - React 远程代码执行 | ⚪ 高危 | 137 |
+| [CVE-2025-55182](CVE-2025-55182-iksanwkk_CVE-2025-55182-exp.md) | CVE-2025-55182 - React Server Components / Next.js RCE | 🔴 CRITICAL | 137 |
+| [CVE-2025-55182](CVE-2025-55182-im-hanzou_CVE-2025-55182-POC-SCANNER.md) | CVE-2025-55182 - React RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-itsismarcos_Bot-exploit-CVE-2025-55182.md) | CVE-2025-55182 - React / Next.js (React Server Components) R... | 🔴 CRITICAL | 137 |
+| [CVE-2025-55182](CVE-2025-55182-itumo-arigatone_study-CVE-2025-55182.md) | CVE-2025-55182 - React (Server Components) RCE (Remote Code ... | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-ivaavimusic_React19-fix-vibecoders.md) | CVE-2025-55182 - React RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-j0lt-github_react2shell-burp.md) | CVE-2025-55182 - React Server Components / Next.js RCE (不安全反... | 🔴 CRITICAL | 137 |
+| [CVE-2025-55182](CVE-2025-55182-jctommasi_react2shellVulnApp.md) | CVE-2025-55182 - React 不安全反序列化导致RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-jf0x3a_CVE-2025-55182-exploit.md) | CVE-2025-55182 React/Next.js Server Functions Deserializatio... | ⚪ 高危 | 137 |
+| [CVE-2025-55182](CVE-2025-55182-joaonevess_chain-reaction.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-joaonevess_rust-flight.md) | CVE-2025-55182 - React/Next.js Server Components Deserializa... | ⚪ 高危 | 137 |
+| [CVE-2025-55182](CVE-2025-55182-kOaDT_poc-cve-2025-55182.md) | CVE-2025-55182 - React Server Components 远程代码执行(RCE) | ⚪ 严重 | 137 |
+| [CVE-2025-55182](CVE-2025-55182-keklick1337_CVE-2025-55182-golang-PoC.md) | CVE-2025-55182 - React Server Components, Next.js 远程代码执行(RCE... | ⚪ 严重 | 137 |
+| [CVE-2025-55182](CVE-2025-55182-l0n3m4n_CVE-2025-55182.md) | CVE-2025-55182 - Next.js/React RSC RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-l4rm4nd_CVE-2025-55182.md) | CVE-2025-55182 - React/Next.js 反序列化RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-l8BL_CVE-2025-55182.md) | CVE-2025-55182 - React 远程代码执行 | ⚪ 严重 | 137 |
+| [CVE-2025-55182](CVE-2025-55182-lachlan2k_React2Shell-CVE-2025-55182-original-poc.md) | CVE-2025-55182 - React and Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-logesh-GIT001_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-lucyz1125_CVE-2025-55182-Next.js-RCE.md) | CVE-2025-55182 - Next.js RCE (远程代码执行) | 🔴 CRITICAL | 137 |
+| [CVE-2025-55182](CVE-2025-55182-luskafaria_cve-2025-55182.md) | CVE-2025-55182 - React Server Components (react-server-dom-w... | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-m3ngx1ng_CVE-2025-55182-GUI.md) | CVE-2025-55182 - React Server Components (RSC) / Next.js 远程代... | ⚪ 严重 (Critical) | 137 |
+| [CVE-2025-55182](CVE-2025-55182-marginaldeer_CVE-2025-55182_scanner.md) | CVE-2025-55182 - React Server Components Remote Code Executi... | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-mrknow001_RSC_Detector.md) | CVE-2025-55182 - React RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-msanft_CVE-2025-55182.md) | CVE-2025-55182 - React Server Functions, Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-nanwinata_CVE-2025-55182-Scanner.md) | CVE-2025-55182 - React Server Components, Next.js, react-ser... | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-nehkark_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components (RSC) RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-nerium-security_CVE-2025-55182.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-ngvcanh_CVE-2025-55182-Attack-Analysis.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-nxgn-kd01_cve-2025-55182-scanner.md) | CVE-2025-55182 - React, React Server Components, Next.js RCE... | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-nxgn-kd01_react2shell-scanner.md) | CVE-2025-55182 - React, Next.js RCE (远程代码执行) | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-ogpourya_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components (RSC) / Next.js RCE... | 🔴 CRITICAL | 137 |
+| [CVE-2025-55182](CVE-2025-55182-oways_React2shell-CVE-2025-55182-checker.md) | CVE-2025-55182 - React, Next.js RCE (Remote Code Execution) | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-philparzer_nextjs-react2shell-detect.md) | CVE-2025-55182 - React Server Components (react-server-dom-p... | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-prestonhashworth_cve-2025-55182.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-ps-interactive_cve-2025-55182.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-pyroxenites_CVE-2025-55182.md) | CVE-2025-55182 ReactServerComponents 不安全反序列化 RCE | 🔴 Critical (CVSSv3.1 评分 10.0) | 137 |
+| [CVE-2025-55182](CVE-2025-55182-pyroxenites_Nextjs_RCE_Exploit_Tool.md) | CVE-2025-55182 - React Server Components, Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-rahuulmiishra_react2shell-CVE-2025-55182.md) | CVE-2025-55182 - Next.js / React (React Server Actions) RCE ... | 🔴 CRITICAL | 137 |
+| [CVE-2025-55182](CVE-2025-55182-rapticore_ore_react2shell_scanner.md) | CVE-2025-55182 - React Server Components (RSC) / Next.js RCE... | 🔴 CRITICAL | 137 |
+| [CVE-2025-55182](CVE-2025-55182-rix4uni_CVE-2025-55182.md) | CVE-2025-55182 - React Framework / Next.js RCE (远程代码执行) | 🔴 CRITICAL | 137 |
+| [CVE-2025-55182](CVE-2025-55182-rl0x01_CVE-2025-55182_PoC.md) | CVE-2025-55182 - React Server Components, Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-rocklambros_React2Shell_Hunter.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-rubensuxo-eh_react2shell-exploit.md) | CVE-2025-55182 - Next.js, React Server Components RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-santihabib_CVE-2025-55182-analysis.md) | CVE-2025-55182 - React RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-shamo0_react2shell-PoC.md) | CVE-2025-55182 - React Server Components, Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-sherlocksecurity_CVE-2025-55182-Exploit-scanner.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-shren207_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-sickwell_CVE-2025-55182.md) | CVE-2025-55182 - Next.js 远程代码执行 | ⚪ 严重 | 137 |
+| [CVE-2025-55182](CVE-2025-55182-sudo-Yangziran_CVE-2025-55182POC.md) | CVE-2025-55182 React Server Components RCE | ⚪ 高危 | 137 |
+| [CVE-2025-55182](CVE-2025-55182-sumanrox_rschunter.md) | CVE-2025-55182 - React Server Components, Next.js 远程代码执行(RCE... | ⚪ 超危 | 137 |
+| [CVE-2025-55182](CVE-2025-55182-tlfyyds_cve-2025-55182-getshell.md) | CVE-2025-55182 - React Server Components, Next.js 反序列化RCE | ⚪ 严重 | 137 |
+| [CVE-2025-55182](CVE-2025-55182-tobiasGuta_Next.js-RSC-RCE-Scanner-Burp-Suite-Extension.md) | CVE-2025-55182 - Next.js/React RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-w3irdo21_CVE-2025-55182-react2shell.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-websecuritylabs_React2Shell-Library.md) | CVE-2025-55182 - React (Server Components), Next.js, react-s... | 🔴 CRITICAL | 137 |
+| [CVE-2025-55182](CVE-2025-55182-whiteov3rflow_CVE-2025-55182-poc.md) | CVE-2025-55182 - react-server-dom-webpack RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-xiaoLvChen_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components (RSC), Next.js RCE ... | 🔴 CRITICAL | 137 |
+| [CVE-2025-55182](CVE-2025-55182-yanoshercohen_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-younesZdDz_CVE-2025-55182.md) | CVE-2025-55182 - Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-yunaranyancat_CVE-2025-55182-NSE.md) | CVE-2025-55182 - React/Next.js RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-zack0x01_CVE-2025-55182-advanced-scanner-.md) | CVE-2025-55182 - React Server Components 远程代码执行(RCE) | ⚪ 严重 | 137 |
+| [CVE-2025-55182](CVE-2025-55182-zack0x01_vuln-app-CVE-2025-55182.md) | CVE-2025-55182 - React Server Components RCE | 🔴 Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-zamdevio_r2s.md) | CVE-2025-55182 - Next.js 远程代码执行 | ⚪ 超危 | 137 |
+| [CVE-2025-55182](CVE-2025-55182-zorejt_Rust_CVE-2025-55182.md) | CVE-2025-55182 - React Server Components (react-server-dom-w... | ⚪ 严重/Critical | 137 |
+| [CVE-2025-55182](CVE-2025-55182-zzhorc_CVE-2025-55182.md) | CVE-2025-55182 - React, Next.js RCE | 🔴 Critical | 137 |
 | [CVE-2025-55188](CVE-2025-55188-Sh3ruman_CVE-2025-55188-7z-exploit.md) | CVE-2025-55188-7-Zip符号链接处理不当漏洞 | ⚪ 中危 | 5 |
 | [CVE-2025-55188](CVE-2025-55188-hunters-sec_CVE-2025-55188-7z-exploit.md) | CVE-2025-55188-7-Zip符号链接任意文件写入漏洞 | ⚪ 中危 | 5 |
 | [CVE-2025-55188](CVE-2025-55188-rhllsingh_CVE-2025-55188-7z-exploit.md) | CVE-2025-55188-7-Zip符号链接处理不当漏洞 | ⚪ 中危 | 5 |
@@ -1980,6 +2060,7 @@
 | [CVE-2025-5701](CVE-2025-5701-Harley21211_CVE-2025-5701-Exploit.md) | CVE-2025-5701 - HyperComments WordPress 权限提升漏洞 | ⚪ 严重 | 2 |
 | [CVE-2025-5701](CVE-2025-5701-Nxploited_CVE-2025-5701.md) | CVE-2025-5701 - HyperComments Plugin Unauthenticated Privile... | ⚪ 高危 | 2 |
 | [CVE-2025-57055](CVE-2025-57055-thawphone_CVE-2025-57055.md) | CVE-2025-57055: WonderCMS 3.5.0 Authenticated Remote Code Ex... | ⚪ 高危 | 1 |
+| [CVE-2025-57105](CVE-2025-57105-yt2w_CVE-2025-57105.md) | CVE-2025-57105 - D-Link DI-7400G+ 企业级路由器 命令注入 (Command Injec... | 🔴 CRITICAL | 1 |
 | [CVE-2025-57174](CVE-2025-57174-semaja22_CVE-2025-57174.md) | CVE-2025-57174 - Siklu EtherHaul Series - Unauthenticated Re... | ⚪ 高危 | 1 |
 | [CVE-2025-57176](CVE-2025-57176-semaja22_CVE-2025-57176.md) | CVE-2025-57176 - Siklu EtherHaul Series - Unauthenticated Ar... | ⚪ 高危 | 1 |
 | [CVE-2025-57389](CVE-2025-57389-amalcew_CVE-2025-57389.md) | CVE-2025-57389 - OpenWRT Luci Reflected XSS | ⚪ 中危 | 1 |
@@ -2053,27 +2134,29 @@
 | [CVE-2025-59251](CVE-2025-59251-allinsthon_CVE-2025-59251.md) | CVE-2025-59251 Microsoft Edge (Chromium-based) Remote Code E... | ⚪ 高危 | 1 |
 | [CVE-2025-59253](CVE-2025-59253-zigzagymym1986_CVE-2025-59253.md) | CVE-2025-59253 - Windows Search Service Denial of Service | ⚪ 中危 | 1 |
 | [CVE-2025-59285](CVE-2025-59285-allinsthon_CVE-2025-59285.md) | CVE-2025-59285 - Azure Monitor Agent 提权漏洞 | ⚪ 高危 | 1 |
-| [CVE-2025-59287](CVE-2025-59287-0xBruno_WSUSploit.NET.md) | CVE-2025-59287 - Windows Server Update Service (WSUS) 远程代码执行... | ⚪ 高危 | 21 |
-| [CVE-2025-59287](CVE-2025-59287-17patmaks_CVE-2025-59287-Sigma-Rule.md) | CVE-2025-59287 - Windows Server Update Services (WSUS) Remot... | 🔴 Critical | 21 |
-| [CVE-2025-59287](CVE-2025-59287-Adel-kaka-dz_cve-2025-59287.md) | CVE-2025-59287-Windows Server Update Service (WSUS) 远程代码执行漏洞 | ⚪ 高危 | 21 |
-| [CVE-2025-59287](CVE-2025-59287-AdityaBhatt3010_CVE-2025-59287-When-your-patch-server-becomes-the-attack-vector.md) | CVE-2025-59287 - Windows Server Update Service (WSUS) 远程代码执行... | ⚪ 严重 | 21 |
-| [CVE-2025-59287](CVE-2025-59287-FurkanKAYAPINAR_CVE-2025-59287.md) | CVE-2025-59287-Windows Server Update Service (WSUS) 远程代码执行漏洞 | ⚪ 高危 | 21 |
-| [CVE-2025-59287](CVE-2025-59287-Lupovis_Honeypot-for-CVE-2025-59287-WSUS.md) | CVE-2025-59287-Windows Server Update Service (WSUS) Remote C... | ⚪ 高危 | 21 |
-| [CVE-2025-59287](CVE-2025-59287-M507_CVE-2025-59287-PoC.md) | CVE-2025-59287 - Windows Server Update Service (WSUS) Remote... | ⚪ 高危 | 21 |
-| [CVE-2025-59287](CVE-2025-59287-QurtiDev_WSUS-CVE-2025-59287-RCE.md) | CVE-2025-59287-Windows Server Update Service (WSUS) 远程代码执行漏洞 | ⚪ 高危 | 21 |
-| [CVE-2025-59287](CVE-2025-59287-RadzaRr_WSUSResponder.md) | CVE-2025-59287-WSUS-RCE | ⚪ 高危 | 21 |
-| [CVE-2025-59287](CVE-2025-59287-Sid6Effect_CVE-2025-59287.md) | CVE-2025-59287-Windows Server Update Service (WSUS) 远程代码执行漏洞 | ⚪ 高危 | 21 |
-| [CVE-2025-59287](CVE-2025-59287-crondenice_CVE-2025-59287.md) | CVE-2025-59287 Windows Server Update Service (WSUS) Remote C... | ⚪ 高危 | 21 |
-| [CVE-2025-59287](CVE-2025-59287-dexterm300_cve-2025-59287-exploit-poc.md) | CVE-2025-59287-Windows Server Update Service (WSUS) 远程代码执行漏洞 | ⚪ 高危 | 21 |
-| [CVE-2025-59287](CVE-2025-59287-esteban11121_WSUS-RCE-Mitigation-59287.md) | CVE-2025-59287-Windows Server Update Service (WSUS) Remote C... | ⚪ 高危 | 21 |
-| [CVE-2025-59287](CVE-2025-59287-fsanzmoya_wsus_CVE-2025-59287.md) | CVE-2025-59287-WSUS远程代码执行 | ⚪ 高危 | 21 |
-| [CVE-2025-59287](CVE-2025-59287-garvitv14_CVE-2025-59287.md) | CVE-2025-59287 WSUS RCE | ⚪ 高危 | 21 |
-| [CVE-2025-59287](CVE-2025-59287-jiansiting_CVE-2025-59287.md) | CVE-2025-59287-Windows Server Update Service (WSUS) Remote C... | ⚪ 高危 | 21 |
-| [CVE-2025-59287](CVE-2025-59287-keeganparr1_CVE-2025-59287-hawktrace.md) | CVE-2025-59287 - Windows Server Update Service (WSUS) Remote... | ⚪ 高危 | 21 |
-| [CVE-2025-59287](CVE-2025-59287-mrk336_Breaking-the-Update-Chain-Inside-CVE-2025-59287-and-the-WSUS-RCE-Threat.md) | CVE-2025-59287-Windows Server Update Service (WSUS) Remote C... | ⚪ 高危 | 21 |
-| [CVE-2025-59287](CVE-2025-59287-mubix_Find-WSUS.md) | CVE-2025-59287-Windows Server Update Service (WSUS) Remote C... | ⚪ 高危 | 21 |
-| [CVE-2025-59287](CVE-2025-59287-tecxx_CVE-2025-59287-WSUS.md) | CVE-2025-59287-WSUS 远程代码执行漏洞 | ⚪ 高危 | 21 |
-| [CVE-2025-59287](CVE-2025-59287-th1n0_CVE-2025-59287.md) | CVE-2025-59287-Windows Server Update Service (WSUS) Remote C... | ⚪ 高危 | 21 |
+| [CVE-2025-59287](CVE-2025-59287-0xBruno_WSUSploit.NET.md) | CVE-2025-59287 - Windows Server Update Service (WSUS) 远程代码执行... | ⚪ 高危 | 23 |
+| [CVE-2025-59287](CVE-2025-59287-17patmaks_CVE-2025-59287-Sigma-Rule.md) | CVE-2025-59287 - Windows Server Update Services (WSUS) Remot... | 🔴 Critical | 23 |
+| [CVE-2025-59287](CVE-2025-59287-Adel-kaka-dz_cve-2025-59287.md) | CVE-2025-59287-Windows Server Update Service (WSUS) 远程代码执行漏洞 | ⚪ 高危 | 23 |
+| [CVE-2025-59287](CVE-2025-59287-AdityaBhatt3010_CVE-2025-59287-When-your-patch-server-becomes-the-attack-vector.md) | CVE-2025-59287 - Windows Server Update Service (WSUS) 远程代码执行... | ⚪ 严重 | 23 |
+| [CVE-2025-59287](CVE-2025-59287-FurkanKAYAPINAR_CVE-2025-59287.md) | CVE-2025-59287-Windows Server Update Service (WSUS) 远程代码执行漏洞 | ⚪ 高危 | 23 |
+| [CVE-2025-59287](CVE-2025-59287-Lupovis_Honeypot-for-CVE-2025-59287-WSUS.md) | CVE-2025-59287-Windows Server Update Service (WSUS) Remote C... | ⚪ 高危 | 23 |
+| [CVE-2025-59287](CVE-2025-59287-M507_CVE-2025-59287-PoC.md) | CVE-2025-59287 - Windows Server Update Service (WSUS) Remote... | ⚪ 高危 | 23 |
+| [CVE-2025-59287](CVE-2025-59287-QurtiDev_WSUS-CVE-2025-59287-RCE.md) | CVE-2025-59287-Windows Server Update Service (WSUS) 远程代码执行漏洞 | ⚪ 高危 | 23 |
+| [CVE-2025-59287](CVE-2025-59287-RadzaRr_WSUSResponder.md) | CVE-2025-59287-WSUS-RCE | ⚪ 高危 | 23 |
+| [CVE-2025-59287](CVE-2025-59287-Sid6Effect_CVE-2025-59287.md) | CVE-2025-59287-Windows Server Update Service (WSUS) 远程代码执行漏洞 | ⚪ 高危 | 23 |
+| [CVE-2025-59287](CVE-2025-59287-crondenice_CVE-2025-59287.md) | CVE-2025-59287 Windows Server Update Service (WSUS) Remote C... | ⚪ 高危 | 23 |
+| [CVE-2025-59287](CVE-2025-59287-dexterm300_cve-2025-59287-exploit-poc.md) | CVE-2025-59287-Windows Server Update Service (WSUS) 远程代码执行漏洞 | ⚪ 高危 | 23 |
+| [CVE-2025-59287](CVE-2025-59287-esteban11121_WSUS-RCE-Mitigation-59287.md) | CVE-2025-59287-Windows Server Update Service (WSUS) Remote C... | ⚪ 高危 | 23 |
+| [CVE-2025-59287](CVE-2025-59287-fsanzmoya_wsus_CVE-2025-59287.md) | CVE-2025-59287-WSUS远程代码执行 | ⚪ 高危 | 23 |
+| [CVE-2025-59287](CVE-2025-59287-garvitv14_CVE-2025-59287.md) | CVE-2025-59287 WSUS RCE | ⚪ 高危 | 23 |
+| [CVE-2025-59287](CVE-2025-59287-gud425_gud425.github.io.md) | CVE-2025-59287 - Windows Server Update Services (WSUS) RCE (... | 🔴 CRITICAL | 23 |
+| [CVE-2025-59287](CVE-2025-59287-jiansiting_CVE-2025-59287.md) | CVE-2025-59287-Windows Server Update Service (WSUS) Remote C... | ⚪ 高危 | 23 |
+| [CVE-2025-59287](CVE-2025-59287-keeganparr1_CVE-2025-59287-hawktrace.md) | CVE-2025-59287 - Windows Server Update Service (WSUS) Remote... | ⚪ 高危 | 23 |
+| [CVE-2025-59287](CVE-2025-59287-mrk336_Breaking-the-Update-Chain-Inside-CVE-2025-59287-and-the-WSUS-RCE-Threat.md) | CVE-2025-59287-Windows Server Update Service (WSUS) Remote C... | ⚪ 高危 | 23 |
+| [CVE-2025-59287](CVE-2025-59287-mubix_Find-WSUS.md) | CVE-2025-59287-Windows Server Update Service (WSUS) Remote C... | ⚪ 高危 | 23 |
+| [CVE-2025-59287](CVE-2025-59287-tecxx_CVE-2025-59287-WSUS.md) | CVE-2025-59287-WSUS 远程代码执行漏洞 | ⚪ 高危 | 23 |
+| [CVE-2025-59287](CVE-2025-59287-th1n0_CVE-2025-59287.md) | CVE-2025-59287-Windows Server Update Service (WSUS) Remote C... | ⚪ 高危 | 23 |
+| [CVE-2025-59287](CVE-2025-59287-vtntkmfyyftrem_CVE-2025-59287.md) | CVE-2025-59287 - Microsoft Windows Server Update Service (WS... | 🔴 CRITICAL | 23 |
 | [CVE-2025-59295](CVE-2025-59295-usjnx72726w_CVE-2025-59295.md) | CVE-2025-59295 | ⚪ 高危 | 1 |
 | [CVE-2025-59342](CVE-2025-59342-byteReaper77_CVE-2025-59342.md) | CVE-2025-59342-esm.sh-路径遍历 | ⚪ 中危 | 1 |
 | [CVE-2025-59359](CVE-2025-59359-mrk336_Cluster-Chaos-Exploiting-CVE-2025-59359-for-Kubernetes-Takeover.md) | CVE-2025-59359-Chaos-Mesh-OS命令注入 | ⚪ 高危 | 1 |
@@ -2097,6 +2180,7 @@
 | [CVE-2025-59934](CVE-2025-59934-suriryuk_cve-2025-59934.md) | CVE-2025-59934-Formbricks-JWT签名绕过 | ⚪ 严重 | 1 |
 | [CVE-2025-6018](CVE-2025-6018-B1ack4sh_Blackash-CVE-2025-6018.md) | CVE-2025-6018 Pam-config 本地提权漏洞 | ⚪ 高危 | 2 |
 | [CVE-2025-6018](CVE-2025-6018-iamgithubber_CVE-2025-6018-19-exploit.md) | CVE-2025-6018-SUSE-PAM-LPE | ⚪ 高危 | 2 |
+| [CVE-2025-60188](CVE-2025-60188-m4sh-wacker_CVE-2025-60188-Atarim-Plugin-Exploit.md) | CVE-2025-60188 - Atarim Plugin (WordPress) 身份验证绕过 (Authentic... | ⚪ 高危 (High) | 1 |
 | [CVE-2025-6019](CVE-2025-6019-dreysanox_CVE-2025-6019_Poc.md) | CVE-2025-6019-libblockdev-本地提权 | ⚪ 高危 | 4 |
 | [CVE-2025-6019](CVE-2025-6019-guinea-offensive-security_CVE-2025-6019.md) | CVE-2025-6019-libblockdev-udisks-本地提权 | ⚪ 高危 | 4 |
 | [CVE-2025-6019](CVE-2025-6019-harshitvarma05_CVE-2025-6019.md) | CVE-2025-6019-libblockdev-LPE | ⚪ 高危 | 4 |
@@ -2135,6 +2219,7 @@
 | [CVE-2025-61183](CVE-2025-61183-thawphone_CVE-2025-61183.md) | CVE-2025-61183 - VaahCMS Stored XSS | ⚪ 高危 | 1 |
 | [CVE-2025-61196](CVE-2025-61196-zsamamah_CVE-2025-61196.md) | CVE-2025-61196-BusinessNext CRMnext-代码执行 | ⚪ 高危 | 1 |
 | [CVE-2025-61228](CVE-2025-61228-graypixel2121_CVE-2025-61228.md) | CVE-2025-61228 - SuperDuper 权限提升, 隐私信息泄露 | ⚪ 高危 | 1 |
+| [CVE-2025-61246](CVE-2025-61246-hackergovind_CVE-2025-61246.md) | CVE-2025-61246 - Online Shopping System PHP SQL注入 | 🔴 Critical | 1 |
 | [CVE-2025-61299](CVE-2025-61299-GovindPalakkal_CVE-2025-61299_POC.md) | CVE-2025-61299 - Nagios XI 2024R1 - 认证后的命令注入 | ⚪ 高危 | 1 |
 | [CVE-2025-61301](CVE-2025-61301-eGkritsis_CVE-2025-61301.md) | CVE-2025-61301 - CAPEv2: 拒绝分析服务漏洞 | ⚪ 高危 | 1 |
 | [CVE-2025-61303](CVE-2025-61303-eGkritsis_CVE-2025-61303.md) | CVE-2025-61303 - RecordedFuture Triage 沙箱拒绝服务漏洞 | ⚪ 高危 | 1 |
@@ -2170,7 +2255,8 @@
 | [CVE-2025-61884](CVE-2025-61884-AshrafZaryouh_CVE-2025-61884-At-a-Glance.md) | CVE-2025-61884-Oracle Configurator信息泄露 | ⚪ 高危 | 3 |
 | [CVE-2025-61884](CVE-2025-61884-shinyhunt_CVE-2025-61884.md) | CVE-2025-61884 - Oracle Configurator Unauthorized Data Acces... | ⚪ 高危 | 3 |
 | [CVE-2025-61884](CVE-2025-61884-shinyhunterz_CVE-2025-61884-61882.md) | CVE-2025-61884-Oracle Configurator-未授权数据访问 | ⚪ 高危 | 3 |
-| [CVE-2025-61922](CVE-2025-61922-captaincookie34_Vulnerability-Playground-CVE-2025-61922.md) | CVE-2025-61922-PrestaShop-Checkout-Account-Takeover | ⚪ 高危 | 1 |
+| [CVE-2025-61922](CVE-2025-61922-captaincookie34_Vulnerability-Playground-CVE-2025-61922.md) | CVE-2025-61922 - PrestaShop Checkout 模块 身份验证绕过 (Authenticati... | 🔴 CRITICAL | 2 |
+| [CVE-2025-61922](CVE-2025-61922-g0vguy_CVE-2025-61922-PoC.md) | CVE-2025-61922 - PrestaShop Checkout 模块 身份验证绕过 (Authenticati... | 🔴 CRITICAL | 2 |
 | [CVE-2025-61932](CVE-2025-61932-allinsthon_CVE-2025-61932.md) | CVE-2025-61932-Lanscope Endpoint Manager RCE | ⚪ 高危 | 2 |
 | [CVE-2025-61932](CVE-2025-61932-godfatherofexps_CVE-2025-61932-PoC.md) | CVE-2025-61932-Lanscope Endpoint Manager RCE | ⚪ 高危 | 2 |
 | [CVE-2025-61984](CVE-2025-61984-ThanhCT-CyX_Test-CVE-2025-61984.md) | CVE-2025-61984-OpenSSH-命令注入 | ⚪ 中危 | 2 |
@@ -2232,13 +2318,14 @@
 | [CVE-2025-63945](CVE-2025-63945-alexlee820_CVE-2025-63945-Tencent-iOA-EoP.md) | CVE-2025-63945 - Tencent iOA 本地提权 | ⚪ 高危 | 1 |
 | [CVE-2025-64027](CVE-2025-64027-cybercrewinc_CVE-2025-64027.md) | Unknown Vulnerability | ⚪ 低危 | 1 |
 | [CVE-2025-64087](CVE-2025-64087-AT190510-Cuong_CVE-2025-64087-SSTI-.md) | CVE-2025-64087 (SSTI FreeMarker) | ⚪ 严重 | 1 |
-| [CVE-2025-64095](CVE-2025-64095-NationalServices_CVE-2025-64095-DotNetNuke-DNN_PoC.md) | CVE-2025-64095-DNN-文件上传导致站点内容覆盖 | ⚪ 高危 | 3 |
+| [CVE-2025-64095](CVE-2025-64095-NationalServices_CVE-2025-64095-DotNetNuke-DNN_PoC.md) | CVE-2025-64095 - DNN Platform (formerly DotNetNuke) 不安全文件上传/... | ⚪ 高危 (High) | 3 |
 | [CVE-2025-64095](CVE-2025-64095-callinston_CVE-2025-64095.md) | CVE-2025-64095-DNN-任意文件上传/覆盖 | ⚪ 高危 | 3 |
-| [CVE-2025-64095](CVE-2025-64095-h4x0r-dz_CVE-2025-64095---DNN-Unauthenticated-arbitrary-file-upload.md) | CVE-2025-64095 - DNN Unauthenticated Arbitrary File Upload | ⚪ 高危 | 3 |
+| [CVE-2025-64095](CVE-2025-64095-h4x0r-dz_CVE-2025-64095---DNN-Unauthenticated-arbitrary-file-upload.md) | CVE-2025-64095 - DNN Platform (DotNetNuke) 任意文件上传/内容覆盖 | 🔴 CRITICAL | 3 |
 | [CVE-2025-64328](CVE-2025-64328-mcorybillington_CVE-2025-64328_FreePBX-framework-Command-Injection.md) | CVE-2025-64328-FreePBX-Authenticated Command Injection | ⚪ 高危 | 1 |
-| [CVE-2025-6440](CVE-2025-6440-Pwdnx1337_CVE-2025-6440.md) | CVE-2025-6440-WooCommerce Designer Pro-任意文件上传 | ⚪ 高危 | 3 |
-| [CVE-2025-6440](CVE-2025-6440-smuft1707_CVE-2025-6440.md) | CVE-2025-6440 - WooCommerce Designer Pro 未经验证的任意文件上传 | ⚪ 高危 | 3 |
-| [CVE-2025-6440](CVE-2025-6440-xxoprt_CVE-2025-6440.md) | CVE-2025-6440 - WooCommerce Designer Pro - 未授权任意文件上传 | ⚪ 高危 | 3 |
+| [CVE-2025-6440](CVE-2025-6440-Pwdnx1337_CVE-2025-6440.md) | CVE-2025-6440-WooCommerce Designer Pro-任意文件上传 | ⚪ 高危 | 4 |
+| [CVE-2025-6440](CVE-2025-6440-rimbadirgantara_CVE-2025-6440.md) | CVE-2025-6440 - WooCommerce Designer Pro (WordPress Plugin) ... | 🔴 CRITICAL | 4 |
+| [CVE-2025-6440](CVE-2025-6440-smuft1707_CVE-2025-6440.md) | CVE-2025-6440 - WooCommerce Designer Pro 未经验证的任意文件上传 | ⚪ 高危 | 4 |
+| [CVE-2025-6440](CVE-2025-6440-xxoprt_CVE-2025-6440.md) | CVE-2025-6440 - WooCommerce Designer Pro 插件 (WordPress) 任意文件... | 🔴 CRITICAL | 4 |
 | [CVE-2025-64403](CVE-2025-64403-makaroonbourne_CVE-2025-64403-Exploit.md) | CVE-2025-64403-Apache OpenOffice 远程文件加载 | ⚪ 高危 | 1 |
 | [CVE-2025-64446](CVE-2025-64446-AN5I_cve-2025-64446-fortiweb-exploit.md) | CVE-2025-64446 Fortinet FortiWeb Path Traversal RCE | ⚪ 高危 | 9 |
 | [CVE-2025-64446](CVE-2025-64446-B1ack4sh_Blackash-CVE-2025-64446.md) | CVE-2025-64446-FortiWeb-路径遍历-RCE | ⚪ 高危 | 9 |
@@ -2268,8 +2355,10 @@
 | [CVE-2025-65345](CVE-2025-65345-Theethat-Thamwasin_CVE-2025-65345.md) | CVE-2025-65345 - laravel-file-manager 文件系统泄露 | ⚪ 高危 | 2 |
 | [CVE-2025-65345](CVE-2025-65345-tlekrean_CVE-2025-65345.md) | CVE-2025-65345 – laravel-file-manager 文件系统披露漏洞 | ⚪ 高危 | 2 |
 | [CVE-2025-65346](CVE-2025-65346-Theethat-Thamwasin_CVE-2025-65346.md) | CVE-2025-65346 - laravel-file-manager 任意文件写入 | ⚪ 高危 | 1 |
+| [CVE-2025-65354](CVE-2025-65354-EarthAngel666_CVE-2025-65354.md) | CVE-2025-65354 - Grocery Store Management System SQL注入 | ⚪ 高危 (High) | 1 |
 | [CVE-2025-6543](CVE-2025-6543-abrewer251_CVE-2025-6543_CitrixNetScaler_PoC.md) | CVE-2025-6543 NetScaler ADC/Gateway 内存溢出 | ⚪ 高危 | 2 |
 | [CVE-2025-6543](CVE-2025-6543-grupooruss_Citrix-cve-2025-6543.md) | CVE-2025-6543-NetScaler ADC/Gateway-内存溢出 | ⚪ 高危 | 2 |
+| [CVE-2025-65442](CVE-2025-65442-zero-day348_CVE-2025-65442-DOM-based-Cross-Site-Scripting-XSS-Vulnerability-in-novel-V3.5.0-CWE-79-.md) | CVE-2025-27520 - BentoML 远程代码执行 (RCE) | 🔴 CRITICAL | 1 |
 | [CVE-2025-65482](CVE-2025-65482-AT190510-Cuong_CVE-2025-65482-XXE-.md) | CVE-2025-65482 (XXE) - XDocReport | ⚪ 高危 | 1 |
 | [CVE-2025-6554](CVE-2025-6554-9Insomnie_CVE-2025-6554.md) | CVE-2025-6554 - Google Chrome V8 类型混淆漏洞 | ⚪ 高危 | 8 |
 | [CVE-2025-6554](CVE-2025-6554-PwnToday_CVE-2025-6554.md) | CVE-2025-6554-Chrome-V8类型混淆 | ⚪ 高危 | 8 |
@@ -2287,33 +2376,49 @@
 | [CVE-2025-65675](CVE-2025-65675-Rivek619_CVE-2025-65675.md) | CVE-2025-65675-Classroomio-Stored XSS | ⚪ 中危 | 1 |
 | [CVE-2025-65676](CVE-2025-65676-Rivek619_CVE-2025-65676.md) | CVE-2025-65676-Classroomio LMS-存储型XSS | ⚪ 中危 | 1 |
 | [CVE-2025-65681](CVE-2025-65681-Rivek619_CVE-2025-65681.md) | CVE-2025-65681-tutor-open-edx-信息泄露 | ⚪ 中危 | 1 |
+| [CVE-2025-65741](CVE-2025-65741-vinicius-batistella_CVE-2025-65741.md) | CVE-2025-65741 - Sublime Text 3 Dylib Injection (动态库注入) | ⚪ 中到高 (取决于本地权限及后续利用路径) | 1 |
+| [CVE-2025-65790](CVE-2025-65790-hunterxxx_FuguHub-8.1-Reflected-SVG-XSS-CVE-2025-65790.md) | CVE-2025-65790 - FuguHub XSS (跨站脚本攻击) | ⚪ 高危 (High) | 1 |
 | [CVE-2025-65899](CVE-2025-65899-Noxurge_CVE-2025-65899.md) | CVE-2025-65899 - Kalmia CMS v0.2.0 用户枚举漏洞 | ⚪ 中危 | 1 |
 | [CVE-2025-65900](CVE-2025-65900-Noxurge_CVE-2025-65900.md) | CVE-2025-65900: Kalmia CMS v0.2.0 - 不正确的访问控制 | ⚪ 高危 | 1 |
-| [CVE-2025-66478](CVE-2025-66478-Malayke_Next.js-RSC-RCE-Scanner-CVE-2025-66478.md) | CVE-2025-55182 - Next.js RCE | 🔴 Critical | 5 |
-| [CVE-2025-66478](CVE-2025-66478-hackersatyamrastogi_react2shell-ultimate.md) | CVE-2025-66478 - Next.js RCE | 🔴 CRITICAL | 5 |
-| [CVE-2025-66478](CVE-2025-66478-mattcbarrett_check-cve-2025-66478.md) | CVE-2025-66478 - Next.js RCE | 🔴 Critical | 5 |
-| [CVE-2025-66478](CVE-2025-66478-namest504_CVE-2025-66478-Exploit-Poc.md) | CVE-2025-66478 - Next.js RCE | 🔴 Critical | 5 |
-| [CVE-2025-66478](CVE-2025-66478-wangxso_CVE-2025-66478-POC.md) | CVE-2025-66478 - Next.js 远程代码执行 | ⚪ 高危 | 5 |
+| [CVE-2025-66429](CVE-2025-66429-baseng1337_CVE-2025-66429.md) | CVE-2025-30208 - Vite (前端构建工具) 任意文件读取 | ⚪ 高危 | 1 |
+| [CVE-2025-66478](CVE-2025-66478-Malayke_Next.js-RSC-RCE-Scanner-CVE-2025-66478.md) | CVE-2025-55182 - Next.js RCE | 🔴 Critical | 6 |
+| [CVE-2025-66478](CVE-2025-66478-NAYLINNU_CVE-2025-66478.md) | CVE-2025-66478 - Next.js (App Router) RCE | 🔴 Critical | 6 |
+| [CVE-2025-66478](CVE-2025-66478-hackersatyamrastogi_react2shell-ultimate.md) | CVE-2025-66478 - Next.js RCE | 🔴 CRITICAL | 6 |
+| [CVE-2025-66478](CVE-2025-66478-mattcbarrett_check-cve-2025-66478.md) | CVE-2025-66478 - Next.js RCE | 🔴 Critical | 6 |
+| [CVE-2025-66478](CVE-2025-66478-namest504_CVE-2025-66478-Exploit-Poc.md) | CVE-2025-66478 - Next.js RCE | 🔴 Critical | 6 |
+| [CVE-2025-66478](CVE-2025-66478-wangxso_CVE-2025-66478-POC.md) | CVE-2025-66478 - Next.js 远程代码执行 | ⚪ 高危 | 6 |
 | [CVE-2025-66516](CVE-2025-66516-B1gh0rnn_CVE-2025-66516.md) | CVE-2025-66516 - Apache Tika XXE | 🔴 Critical | 2 |
 | [CVE-2025-66516](CVE-2025-66516-chasingimpact_CVE-2025-66516-Writeup-POC.md) | CVE-2025-66516 - Apache Tika XXE (XML External Entity Inject... | 🔴 CRITICAL | 2 |
 | [CVE-2025-66666](CVE-2025-66666-anderruiz_CVE-2025-666666.md) | CVE-2025-666666-Datadog4Shell-JNDI注入 | ⚪ 高危 | 1 |
+| [CVE-2025-66723](CVE-2025-66723-audiopump_cve-2025-66723.md) | CVE-2025-66723 - inMusic Brands Engine DJ 未授权访问/路径遍历 | ⚪ 高危 (High) | 1 |
 | [CVE-2025-66947](CVE-2025-66947-kabir0104k_CVE-2025-66947.md) | CVE-2025-66947 - krishanmuraiji Student Management System (S... | 🟠 High | 1 |
 | [CVE-2025-6713](CVE-2025-6713-c137req_CVE-2025-6713.md) | CVE-2025-6713-MongoDB-权限绕过 | ⚪ 高危 | 1 |
+| [CVE-2025-67315](CVE-2025-67315-r-pradyun_CVE-2025-67315.md) | CVE-2025-7315 - IrfanView CADImage Plugin RCE (远程代码执行) | ⚪ 高危 | 1 |
 | [CVE-2025-67435](CVE-2025-67435-RajChowdhury240_CVE-2025-67435.md) | CVE-2025-67436 - PluXml CMS RCE (远程代码执行) | 🔴 CRITICAL | 1 |
 | [CVE-2025-6758](CVE-2025-6758-Nxploited_CVE-2025-6758.md) | CVE-2025-6758 - Real Spaces WordPress Theme 未授权提权 | ⚪ 严重 | 1 |
+| [CVE-2025-67730](CVE-2025-67730-Dharan10_CVE-2025-67730.md) | CVE-2025-67730 - Frappe Learning Management System (LMS) 存储型... | ⚪ 中等至高 (Medium-High) | 1 |
 | [CVE-2025-6860](CVE-2025-6860-byteReaper77_CVE-2025-6860.md) | CVE-2025-6860-Best Salon Management System-SQL注入 | ⚪ 高危 | 1 |
-| [CVE-2025-68613](CVE-2025-68613-AbdulRKB_n8n-RCE.md) | CVE-2025-68613 - n8n (Workflow Automation Platform) 远程代码执行 (... | 🔴 Critical | 12 |
-| [CVE-2025-68613](CVE-2025-68613-Ashwesker_Blackash-CVE-2025-68613.md) | CVE-2025-68613 - n8n Workflow Automation RCE | 🔴 CRITICAL | 12 |
-| [CVE-2025-68613](CVE-2025-68613-Dlanang_homelab-CVE-2025-68613.md) | CVE-2025-68613 - n8n RCE (远程代码执行) | 🔴 CRITICAL | 12 |
-| [CVE-2025-68613](CVE-2025-68613-J4ck3LSyN-Gen2_n8n-CVE-2025-68613-TryHackMe.md) | CVE-2025-68613 - n8n (开源工作流自动化工具) 沙箱逃逸/RCE | ⚪ 关键 (Critical) | 12 |
-| [CVE-2025-68613](CVE-2025-68613-JohannesLks_CVE-2025-68613-Python-Exploit.md) | CVE-2025-68613 - n8n (开源工作流自动化工具) RCE/沙箱逃逸 | ⚪ 致命 (Critical) | 12 |
-| [CVE-2025-68613](CVE-2025-68613-Khin-96_n8n-cve-2025-68613-thm.md) | CVE-2025-68613 - n8n Workflow Automation Platform RCE (Remot... | 🔴 CRITICAL | 12 |
-| [CVE-2025-68613](CVE-2025-68613-LingerANR_n8n-CVE-2025-68613.md) | CVE-2025-68613 - n8n (工作流自动化工具) RCE/沙箱逃逸 | ⚪ 严重 (Critical) | 12 |
-| [CVE-2025-68613](CVE-2025-68613-TheStingR_CVE-2025-68613-POC.md) | CVE-2025-68613 - n8n (工作流自动化平台) RCE (沙箱逃逸/远程代码执行) | ⚪ 严重 (Critical) | 12 |
-| [CVE-2025-68613](CVE-2025-68613-hackersatyamrastogi_n8n-exploit-CVE-2025-68613-n8n-God-Mode-Ultimate.md) | CVE-2025-68613 - n8n (开源工作流自动化工具) RCE (远程代码执行) | 🔴 CRITICAL | 12 |
-| [CVE-2025-68613](CVE-2025-68613-intelligent-ears_CVE-2025-68613.md) | CVE-2025-68613 - n8n (开源工作流自动化平台) RCE (远程代码执行) | 🔴 CRITICAL | 12 |
-| [CVE-2025-68613](CVE-2025-68613-mbanyamer_n8n-Authenticated-Expression-Injection-RCE-CVE-2025-68613.md) | CVE-2025-68613 - n8n (开源工作流自动化工具) RCE (远程代码执行) | 🔴 CRITICAL | 12 |
-| [CVE-2025-68613](CVE-2025-68613-releaseown_Analysis-n8n-CVE-2025-68613.md) | CVE-2025-68613 - n8n (开源工作流自动化平台) 远程代码执行 (RCE) | 🔴 CRITICAL | 12 |
+| [CVE-2025-68613](CVE-2025-68613-AbdulRKB_n8n-RCE.md) | CVE-2025-68613 - n8n (Workflow Automation Platform) 远程代码执行 (... | 🔴 Critical | 18 |
+| [CVE-2025-68613](CVE-2025-68613-Ashwesker_Blackash-CVE-2025-68613.md) | CVE-2025-68613 - n8n Workflow Automation RCE | 🔴 CRITICAL | 18 |
+| [CVE-2025-68613](CVE-2025-68613-Dlanang_homelab-CVE-2025-68613.md) | CVE-2025-68613 - n8n RCE (远程代码执行) | 🔴 CRITICAL | 18 |
+| [CVE-2025-68613](CVE-2025-68613-J4ck3LSyN-Gen2_n8n-CVE-2025-68613-TryHackMe.md) | CVE-2025-68613 - n8n (开源工作流自动化工具) 沙箱逃逸/RCE | ⚪ 关键 (Critical) | 18 |
+| [CVE-2025-68613](CVE-2025-68613-JohannesLks_CVE-2025-68613-Python-Exploit.md) | CVE-2025-68613 - n8n (开源工作流自动化工具) RCE/沙箱逃逸 | ⚪ 致命 (Critical) | 18 |
+| [CVE-2025-68613](CVE-2025-68613-Khin-96_n8n-cve-2025-68613-thm.md) | CVE-2025-68613 - n8n Workflow Automation Platform RCE (Remot... | 🔴 CRITICAL | 18 |
+| [CVE-2025-68613](CVE-2025-68613-LingerANR_n8n-CVE-2025-68613.md) | CVE-2025-68613 - n8n (工作流自动化工具) RCE/沙箱逃逸 | ⚪ 严重 (Critical) | 18 |
+| [CVE-2025-68613](CVE-2025-68613-TheInterception_n8n_CVE-2025-68613_exploit_payloads.md) | CVE-2025-68613 - n8n RCE (远程代码执行) | ⚪ 严重 (CRITICAL) | 18 |
+| [CVE-2025-68613](CVE-2025-68613-TheStingR_CVE-2025-68613-POC.md) | CVE-2025-68613 - n8n (工作流自动化平台) RCE (沙箱逃逸/远程代码执行) | ⚪ 严重 (Critical) | 18 |
+| [CVE-2025-68613](CVE-2025-68613-ahmedshamsddin_n8n-RCE-CVE-2025-68613.md) | CVE-2025-68613 - n8n (开源工作流自动化平台) 远程代码执行 (RCE) | 🔴 CRITICAL | 18 |
+| [CVE-2025-68613](CVE-2025-68613-cv-sai-kamesh_n8n-CVE-2025-68613.md) | CVE-2025-68613 - n8n RCE (远程代码执行) | 🔴 CRITICAL | 18 |
+| [CVE-2025-68613](CVE-2025-68613-gagaltotal_n8n-cve-2025-68613.md) | CVE-2025-68613 - n8n Workflow Automation Platform RCE | 🔴 Critical | 18 |
+| [CVE-2025-68613](CVE-2025-68613-hackersatyamrastogi_n8n-exploit-CVE-2025-68613-n8n-God-Mode-Ultimate.md) | CVE-2025-68613 - n8n (开源工作流自动化工具) RCE (远程代码执行) | 🔴 CRITICAL | 18 |
+| [CVE-2025-68613](CVE-2025-68613-intelligent-ears_CVE-2025-68613.md) | CVE-2025-68613 - n8n (开源工作流自动化平台) RCE (远程代码执行) | 🔴 CRITICAL | 18 |
+| [CVE-2025-68613](CVE-2025-68613-mbanyamer_n8n-Authenticated-Expression-Injection-RCE-CVE-2025-68613.md) | CVE-2025-68613 - n8n (开源工作流自动化工具) RCE (远程代码执行) | 🔴 CRITICAL | 18 |
+| [CVE-2025-68613](CVE-2025-68613-reem-012_poc_CVE-2025-68613.md) | CVE-2025-68613 - n8n (工作流自动化平台) RCE (沙箱逃逸) | 🔴 CRITICAL | 18 |
+| [CVE-2025-68613](CVE-2025-68613-releaseown_Analysis-n8n-CVE-2025-68613.md) | CVE-2025-68613 - n8n (开源工作流自动化平台) 远程代码执行 (RCE) | 🔴 CRITICAL | 18 |
+| [CVE-2025-68613](CVE-2025-68613-shibaaa204_CVE-2025-68613.md) | CVE-2025-68613 - n8n 表达式注入 / 远程代码执行 (RCE) | 🔴 Critical (严重) | 18 |
+| [CVE-2025-68615](CVE-2025-68615-yt2w_CVE-2025-68615.md) | CVE-2025-68615 - Net-SNMP Stack Buffer Overflow / RCE | 🔴 Critical | 1 |
+| [CVE-2025-68860](CVE-2025-68860-Nxploited_CVE-2025-68860.md) | CVE-2025-68860 - WordPress Mobile builder 插件 认证绕过 (Broken Au... | 🔴 CRITICAL | 1 |
+| [CVE-2025-68926](CVE-2025-68926-Arcueld_CVE-2025-68926.md) | CVE-2025-68926 - RustFSgRPC 身份认证绕过 | ⚪ 高危 | 1 |
 | [CVE-2025-6907](CVE-2025-6907-byteReaper77_cve-2025-6907.md) | CVE-2025-6907-code-projects Car Rental System-SQL注入 | ⚪ 高危 | 1 |
 | [CVE-2025-6934](CVE-2025-6934-0xgh057r3c0n_CVE-2025-6934.md) | CVE-2025-6934 - Opal Estate Pro 未授权提权 | ⚪ 高危 | 6 |
 | [CVE-2025-6934](CVE-2025-6934-Jenderal92_WP-CVE-2025-6934.md) | CVE-2025-6934-Opal Estate Pro-权限提升 | ⚪ 高危 | 6 |
@@ -2405,7 +2510,8 @@
 | [CVE-2025-8088](CVE-2025-8088-travisbgreen_cve-2025-8088.md) | CVE-2025-8088-WinRAR-路径遍历 | ⚪ 高危 | 47 |
 | [CVE-2025-8088](CVE-2025-8088-walidpyh_CVE-2025-8088.md) | CVE-2025-8088-WinRAR路径遍历漏洞 | ⚪ 高危 | 47 |
 | [CVE-2025-8088](CVE-2025-8088-xi0onamdev_WinRAR-CVE-2025-8088-Exploitation-Toolkit.md) | CVE-2025-8088 WinRAR Path Traversal | ⚪ 高危 | 47 |
-| [CVE-2025-8191](CVE-2025-8191-byteReaper77_CVE-2025-8191.md) | CVE-2025-8191-macrozheng mall-XSS | ⚪ 中危 | 1 |
+| [CVE-2025-8191](CVE-2025-8191-YanC1e_CVE-2025-8191.md) | CVE-2019-2025 - Android Binder (水滴漏洞) / Swagger UI (关联展示组件) ... | ⚪ 高危 | 2 |
+| [CVE-2025-8191](CVE-2025-8191-byteReaper77_CVE-2025-8191.md) | CVE-2019-2025 - Android Binder (水滴漏洞) / Swagger UI (关联展示组件) ... | ⚪ 高危 | 2 |
 | [CVE-2025-8359](CVE-2025-8359-Nxploited_CVE-2025-8359.md) | CVE-2025-8359-AdForest-身份验证绕过 | ⚪ 高危 | 1 |
 | [CVE-2025-8471](CVE-2025-8471-byteReaper77_CVE-2025-8471.md) | CVE-2025-8471-projectworlds Online Admission System-SQL注入 | ⚪ 高危 | 1 |
 | [CVE-2025-8518](CVE-2025-8518-maestro-ant_Vvveb-CMS-CVE-2025-8518.md) | CVE-2025-8518-Vvveb-代码注入 | ⚪ 高危 | 1 |
@@ -2425,13 +2531,14 @@
 | [CVE-2025-8943](CVE-2025-8943-B1ack4sh_Blackash-CVE-2025-8943.md) | CVE-2025-8943-Flowise-远程代码执行 | ⚪ 高危 | 1 |
 | [CVE-2025-8971](CVE-2025-8971-byteReaper77_CVE-2025-8971.md) | CVE-2025-8971-Online Tour and Travel Management System-SQL注入 | ⚪ 高危 | 1 |
 | [CVE-2025-9043](CVE-2025-9043-Tiger3080_CVE-2025-9043.md) | CVE-2025-9043-Seagate Toolkit-权限提升 | ⚪ 高危 | 1 |
-| [CVE-2025-9074](CVE-2025-9074-OilSeller2001_PoC-for-CVE-2025-9074.md) | CVE-2025-9074 - Docker API 未授权访问 | ⚪ 高危 | 7 |
-| [CVE-2025-9074](CVE-2025-9074-Shaoshi17_-CVE-2025-9074-Docker-Exploit.md) | CVE-2025-9074 - Docker Desktop for Windows / macOS SSRF/未授权访... | ⚪ 致命 (Critical) | 7 |
-| [CVE-2025-9074](CVE-2025-9074-ThemeHackers_CVE-2025-9074.md) | CVE-2025-9074-Docker Desktop-API未授权访问 | ⚪ 高危 | 7 |
-| [CVE-2025-9074](CVE-2025-9074-XRayZen_cve-2025-9074-poc.md) | CVE-2025-9074 - Docker Desktop API未授权访问 | ⚪ 高危 | 7 |
-| [CVE-2025-9074](CVE-2025-9074-fortihack_CVE-2025-9074.md) | CVE-2025-9074 - Docker Desktop 远程API未授权访问 | ⚪ 高危 | 7 |
-| [CVE-2025-9074](CVE-2025-9074-pucagit_CVE-2025-9074.md) | CVE-2025-9074 Docker Desktop 本地提权/容器逃逸 | ⚪ 高危 | 7 |
-| [CVE-2025-9074](CVE-2025-9074-zenzue_CVE-2025-9074.md) | CVE-2025-9074 - Docker Desktop Container到Host写权限提升 | ⚪ 高危 | 7 |
+| [CVE-2025-9074](CVE-2025-9074-OilSeller2001_PoC-for-CVE-2025-9074.md) | CVE-2025-9074 - Docker API 未授权访问 | ⚪ 高危 | 8 |
+| [CVE-2025-9074](CVE-2025-9074-Shaoshi17_-CVE-2025-9074-Docker-Exploit.md) | CVE-2025-9074 - Docker Desktop for Windows / macOS SSRF/未授权访... | ⚪ 致命 (Critical) | 8 |
+| [CVE-2025-9074](CVE-2025-9074-ThemeHackers_CVE-2025-9074.md) | CVE-2025-9074-Docker Desktop-API未授权访问 | ⚪ 高危 | 8 |
+| [CVE-2025-9074](CVE-2025-9074-XRayZen_cve-2025-9074-poc.md) | CVE-2025-9074 - Docker Desktop API未授权访问 | ⚪ 高危 | 8 |
+| [CVE-2025-9074](CVE-2025-9074-fortihack_CVE-2025-9074.md) | CVE-2025-9074 - Docker Desktop 远程API未授权访问 | ⚪ 高危 | 8 |
+| [CVE-2025-9074](CVE-2025-9074-pucagit_CVE-2025-9074.md) | CVE-2025-9074 Docker Desktop 本地提权/容器逃逸 | ⚪ 高危 | 8 |
+| [CVE-2025-9074](CVE-2025-9074-x0da6h_POC-for-CVE-2025-9074.md) | CVE-2025-9074 - Docker Desktop 权限绕过/访问控制缺陷 | ⚪ 高危 | 8 |
+| [CVE-2025-9074](CVE-2025-9074-zenzue_CVE-2025-9074.md) | CVE-2025-9074 - Docker Desktop Container到Host写权限提升 | ⚪ 高危 | 8 |
 | [CVE-2025-9090](CVE-2025-9090-byteReaper77_CVE-2025-9090.md) | CVE-2025-9090-TendaAC20-命令注入 | ⚪ 中危 | 1 |
 | [CVE-2025-9132](CVE-2025-9132-barbaraeivyu_CVE-2025-9132.md) | CVE-2025-9132-Google Chrome V8 Out-of-Bounds Write | ⚪ 高危 | 1 |
 | [CVE-2025-9196](CVE-2025-9196-MooseLoveti_Trinity-Audio-CVE-Report.md) | CVE-2025-9196 - Trinity Audio <= 5.21.0 - 未授权信息泄露 | ⚪ 中危 | 2 |
@@ -2450,6 +2557,7 @@
 | [CVE-2025-9776](CVE-2025-9776-SnailSploit_CVE-2025-9776.md) | CVE-2025-9776 — CatFolders WordPress Plugin: Authenticated S... | ⚪ 中危 | 1 |
 | [CVE-2025-9784](CVE-2025-9784-drackyjr_CVE-2025-9784.md) | CVE-2025-9784 MadeYouReset HTTP/2 DoS | ⚪ 高危 | 1 |
 | [CVE-2025-9816](CVE-2025-9816-monzaviman_CVE-2025-9816.md) | CVE-2025-9816 - WP Statistics Plugin - Unauthenticated Store... | ⚪ 高危 | 1 |
+| [CVE-2025-9961](CVE-2025-9961-yt2w_CVE-2025-9961.md) | CVE-2025-9961 - TP-Link AX10, AX1500 栈溢出远程代码执行 (RCE) | ⚪ 高危 | 1 |
 | [CVE-2025-9967](CVE-2025-9967-OraclePatch_CVE-2025-9967.md) | CVE-2025-9967 - WordPress Orion SMS OTP Verification Account... | ⚪ 严重 | 2 |
 | [CVE-2025-9967](CVE-2025-9967-glitchhawks_CVE-2025-9967.md) | CVE-2025-9967 - WordPress Orion SMS OTP Verification Account... | ⚪ 严重 | 2 |
 | [CVE-2025-9983](CVE-2025-9983-sohaibeb_CVE-2025-9983.md) | CVE-2025-9983 - GALAYOU G2 RTSP 无认证访问 | ⚪ 高危 | 1 |
@@ -2465,4 +2573,4 @@
 
 ---
 
-*最后更新: 2025-12-28*
+*最后更新: 2026-01-08*

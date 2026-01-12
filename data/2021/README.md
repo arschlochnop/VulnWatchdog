@@ -1,6 +1,6 @@
 # 2021年 CVE漏洞列表
 
-> 📊 共收录 **546** 个CVE漏洞
+> 📊 共收录 **580** 个CVE漏洞
 
 ---
 
@@ -65,7 +65,8 @@
 | [CVE-2021-21980](CVE-2021-21980-gui2000guix-ui_cve-2021-21980-nuclei-poc.md) | CVE-2021-21980-VMware vCenter Server 文件读取 | ⚪ 高危 | 5 |
 | [CVE-2021-21980](CVE-2021-21980-pkxk5pr6m2-web_cve-2021-21980-nuclei-poc.md) | CVE-2021-21980-VMware vCenter Server 任意文件读取 | ⚪ 高危 | 5 |
 | [CVE-2021-21980](CVE-2021-21980-pratikjojode_vcenter-cve-2021-21980-lab.md) | CVE-2021-21980 - VMware vCenter Server Web Client 任意文件读取 | ⚪ 高危 | 5 |
-| [CVE-2021-2220](CVE-2021-2220-nyambiblaise_Walkthrough---Subrion-CMS-Web-Shell-Upload-to-Cron-Based-Privilege-Escalation-CVE-2021-2220-.md) | CVE-2021-2220 - Subrion CMS 文件上传/RCE/权限提升 | ⚪ 高危 | 1 |
+| [CVE-2021-2220](CVE-2021-2220-nyambiblaise_Exfiltrated-Machine-Walkthrough---Subrion-CMS-CVE-2021-2220-.md) | CVE-2021-21220 - Google Chrome (Chromium V8 Engine) 远程代码执行 (... | 🔴 CRITICAL | 2 |
+| [CVE-2021-2220](CVE-2021-2220-nyambiblaise_Walkthrough---Subrion-CMS-Web-Shell-Upload-to-Cron-Based-Privilege-Escalation-CVE-2021-2220-.md) | CVE-2021-2220 - Subrion CMS 文件上传/RCE/权限提升 | ⚪ 高危 | 2 |
 | [CVE-2021-22204](CVE-2021-22204-0xBruno_CVE-2021-22204.md) | CVE-2021-22204 ExifTool DjVu 远程代码执行 | ⚪ 高危 | 15 |
 | [CVE-2021-22204](CVE-2021-22204-Akash7350_CVE-2021-22204.md) | CVE-2021-22204-ExifTool-代码执行 | ⚪ 高危 | 15 |
 | [CVE-2021-22204](CVE-2021-22204-Asaad27_CVE-2021-22204-RSE.md) | CVE-2021-22204-ExifTool-DjVu代码执行 | ⚪ 高危 | 15 |
@@ -227,36 +228,64 @@
 | [CVE-2021-31166](CVE-2021-31166-y0g3sh-99_CVE-2021-31166-Exploit.md) | CVE-2021-31166-HTTP Protocol Stack Remote Code Execution Vul... | ⚪ 高危 | 11 |
 | [CVE-2021-31166](CVE-2021-31166-zecopro_CVE-2021-31166.md) | CVE-2021-31166 HTTP Protocol Stack Remote Code Execution Vul... | ⚪ 高危 | 11 |
 | [CVE-2021-31166](CVE-2021-31166-zha0gongz1_CVE-2021-31166.md) | CVE-2021-31166 - HTTP Protocol Stack Remote Code Execution V... | ⚪ 高危 | 11 |
-| [CVE-2021-3156](CVE-2021-3156-0x4ndy_clif.md) | CVE-2021-3156-Sudo-Heap-Based Buffer Overflow | ⚪ 高危 | 30 |
-| [CVE-2021-3156](CVE-2021-3156-Bad3r_CVE-2021-3156-without-ip-command.md) | CVE-2021-3156 (Baron Samedit) Sudo Heap-Based Buffer Overflo... | ⚪ 高危 | 30 |
-| [CVE-2021-3156](CVE-2021-3156-CptGibbon_CVE-2021-3156.md) | CVE-2021-3156-Sudo-Heap-Based缓冲区溢出 | ⚪ 高危 | 30 |
-| [CVE-2021-3156](CVE-2021-3156-DASICS-ICT_DASICS-CVE-2021-3156.md) | CVE-2021-3156 - Sudo Heap-Based Buffer Overflow | ⚪ 高危 | 30 |
-| [CVE-2021-3156](CVE-2021-3156-DDayLuong_CVE-2021-3156.md) | CVE-2021-3156-Sudo-Heap缓冲区溢出 | ⚪ 高危 | 30 |
-| [CVE-2021-3156](CVE-2021-3156-Maalfer_Sudo-CVE-2021-3156.md) | CVE-2021-3156-Sudo-堆缓冲区溢出 | ⚪ 高危 | 30 |
-| [CVE-2021-3156](CVE-2021-3156-Mhackiori_CVE-2021-3156.md) | CVE-2021-3156 (Baron Samedit) | ⚪ 高危 | 30 |
-| [CVE-2021-3156](CVE-2021-3156-PhuketIsland_CVE-2021-3156-centos7.md) | CVE-2021-3156-Sudo-堆缓冲区溢出 | ⚪ 高危 | 30 |
-| [CVE-2021-3156](CVE-2021-3156-PurpleOzone_PE_CVE-CVE-2021-3156.md) | CVE-2021-3156-Sudo-Heap-Based 缓冲区溢出 | ⚪ 高危 | 30 |
-| [CVE-2021-3156](CVE-2021-3156-RodricBr_CVE-2021-3156.md) | CVE-2021-3156-Sudo-Heap溢出 | ⚪ 高危 | 30 |
-| [CVE-2021-3156](CVE-2021-3156-Sebastianbedoya25_CVE-2021-3156.md) | CVE-2021-3156 - Sudo Heap-Based Buffer Overflow (Baron Samed... | ⚪ 高危 | 30 |
-| [CVE-2021-3156](CVE-2021-3156-Shuhaib88_Baron-Samedit-Heap-Buffer-Overflow-CVE-2021-3156.md) | CVE-2021-3156 (Baron Samedit) | ⚪ 高危 | 30 |
-| [CVE-2021-3156](CVE-2021-3156-Sornphut_CVE-2021-3156-Heap-Based-Buffer-Overflow-in-Sudo-Baron-Samedit-.md) | CVE-2021-3156 - Sudo Heap-Based Buffer Overflow | ⚪ 高危 | 30 |
-| [CVE-2021-3156](CVE-2021-3156-Superliverbun_cve-2021-3156-.md) | CVE-2021-3156 - Sudo Baron Samedit Heap-Based Buffer Overflo... | ⚪ 高危 | 30 |
-| [CVE-2021-3156](CVE-2021-3156-TopskiyPavelQwertyGang_Review.CVE-2021-3156.md) | CVE-2021-3156 (Baron Samedit) | ⚪ 高危 | 30 |
-| [CVE-2021-3156](CVE-2021-3156-Typical0day_CVE-2021-3156.md) | CVE-2021-3156 (Baron Samedit) | ⚪ 高危 | 30 |
-| [CVE-2021-3156](CVE-2021-3156-arvindshima_CVE-2021-3156.md) | CVE-2021-3156 - Sudo Baron Samedit | ⚪ 高危 | 30 |
-| [CVE-2021-3156](CVE-2021-3156-asepsaepdin_CVE-2021-3156.md) | CVE-2021-3156 - Sudo Heap-Based Buffer Overflow | ⚪ 高危 | 30 |
-| [CVE-2021-3156](CVE-2021-3156-chenaotian_CVE-2021-3156.md) | CVE-2021-3156 - Sudo Heap-Based Buffer Overflow | ⚪ 高危 | 30 |
-| [CVE-2021-3156](CVE-2021-3156-duongdz96_CVE-2021-3156-main.md) | CVE-2021-3156 (Sudo Baron Samedit) | ⚪ 高危 | 30 |
-| [CVE-2021-3156](CVE-2021-3156-hycheng15_CVE-2021-3156.md) | CVE-2021-3156 Sudo Baron Samedit 权限提升漏洞 | ⚪ 高危 | 30 |
-| [CVE-2021-3156](CVE-2021-3156-lypd0_CVE-2021-3156-checker.md) | CVE-2021-3156-Sudo-Heap 缓冲区溢出 | ⚪ 高危 | 30 |
-| [CVE-2021-3156](CVE-2021-3156-mutur4_CVE-2021-3156.md) | CVE-2021-3156 - Sudo Heap-Based Buffer Overflow | ⚪ 高危 | 30 |
-| [CVE-2021-3156](CVE-2021-3156-puckiestyle_CVE-2021-3156.md) | CVE-2021-3156 (Sudo Baron Samedit) | ⚪ 高危 | 30 |
-| [CVE-2021-3156](CVE-2021-3156-q77190858_CVE-2021-3156.md) | CVE-2021-3156 - Sudo Heap-Based Buffer Overflow (Baron Samed... | ⚪ 高危 | 30 |
-| [CVE-2021-3156](CVE-2021-3156-shishirpandey18_CVE-2021-3156.md) | CVE-2021-3156 - Sudo Baron Samedit 堆缓冲区溢出 | ⚪ 高危 | 30 |
-| [CVE-2021-3156](CVE-2021-3156-stong_CVE-2021-3156.md) | CVE-2021-3156 - Sudo Heap-Based Buffer Overflow | ⚪ 高危 | 30 |
-| [CVE-2021-3156](CVE-2021-3156-ten-ops_baron-samedit.md) | CVE-2021-3156 (Baron Samedit) | ⚪ 高危 | 30 |
-| [CVE-2021-3156](CVE-2021-3156-wurwur_CVE-2021-3156.md) | CVE-2021-3156-Sudo-Heap-Based Buffer Overflow | ⚪ 高危 | 30 |
-| [CVE-2021-3156](CVE-2021-3156-ypl6_heaplens.md) | CVE-2021-3156 - Sudo Heap-Based Buffer Overflow (Baron Samed... | ⚪ 高危 | 30 |
+| [CVE-2021-3129](CVE-2021-3129-0nion1_CVE-2021-3129.md) | CVE-2021-3129 - Laravel (Ignition组件) RCE (远程代码执行) | ⚪ 高危 (Critical) | 26 |
+| [CVE-2021-3129](CVE-2021-3129-0x0d3ad_CVE-2021-3129.md) | CVE-2021-3129 - Laravel (Ignition组件) 远程代码执行 (RCE) | ⚪ 严重 (Critical) | 26 |
+| [CVE-2021-3129](CVE-2021-3129-Axianke_CVE-2021-3129.md) | CVE-2021-3129 - Laravel (Ignition组件) RCE (远程代码执行) | 🔴 CRITICAL | 26 |
+| [CVE-2021-3129](CVE-2021-3129-FunPhishing_Laravel-8.4.2-rce-CVE-2021-3129.md) | CVE-2021-3129 - Laravel (Ignition组件) RCE (远程代码执行) | ⚪ 高危 | 26 |
+| [CVE-2021-3129](CVE-2021-3129-GodOfServer_CVE-2021-3129.md) | CVE-2021-3129 - Laravel (Ignition组件) RCE/反序列化漏洞 | ⚪ 严重 (Critical) | 26 |
+| [CVE-2021-3129](CVE-2021-3129-JacobEbben_CVE-2021-3129.md) | CVE-2021-3129 - Laravel (Ignition组件) RCE | ⚪ 严重 | 26 |
+| [CVE-2021-3129](CVE-2021-3129-MadExploits_Laravel-debug-Checker.md) | CVE-2021-3129 - Laravel (Ignition组件) RCE | ⚪ 严重 (Critical) | 26 |
+| [CVE-2021-3129](CVE-2021-3129-Prabesh01_hoh4.md) | CVE-2021-3129 - Laravel (Ignition组件) RCE (远程代码执行) | ⚪ 高危 | 26 |
+| [CVE-2021-3129](CVE-2021-3129-Y0s9_CVE-2021-3129.md) | CVE-2021-3129 - Laravel (Ignition组件) RCE | 🔴 CRITICAL | 26 |
+| [CVE-2021-3129](CVE-2021-3129-Zoo1sondv_CVE-2021-3129.md) | CVE-2021-3129 - Laravel (Ignition 组件) RCE | ⚪ 高危 | 26 |
+| [CVE-2021-3129](CVE-2021-3129-ajisai-babu_CVE-2021-3129-exp.md) | CVE-2021-3129 - Laravel (Ignition组件) RCE | ⚪ 高危 | 26 |
+| [CVE-2021-3129](CVE-2021-3129-banyaksepuh_Mass-CVE-2021-3129-Scanner.md) | CVE-2021-3129 - Laravel (Ignition组件) RCE (远程代码执行) | ⚪ 高危 | 26 |
+| [CVE-2021-3129](CVE-2021-3129-cc3305_CVE-2021-3129.md) | CVE-2021-3129 - Laravel (Ignition组件) RCE | ⚪ 高危 | 26 |
+| [CVE-2021-3129](CVE-2021-3129-cuongtop4598_CVE-2021-3129-Script.md) | CVE-2021-3129 - Laravel (Ignition组件) RCE | ⚪ 高危 | 26 |
+| [CVE-2021-3129](CVE-2021-3129-hupe1980_CVE-2021-3129.md) | CVE-2021-3129 - Laravel (Ignition组件) RCE (远程代码执行) | ⚪ 严重 (Critical) | 26 |
+| [CVE-2021-3129](CVE-2021-3129-idea-oss_laravel-CVE-2021-3129-EXP.md) | CVE-2021-3129 - Laravel (Ignition组件) RCE | 🔴 CRITICAL | 26 |
+| [CVE-2021-3129](CVE-2021-3129-joshuavanderpoll_CVE-2021-3129.md) | CVE-2021-3129 - Laravel (Ignition组件) RCE | ⚪ 高危 | 26 |
+| [CVE-2021-3129](CVE-2021-3129-keyuan15_CVE-2021-3129.md) | CVE-2021-3129 - Laravel (Ignition) RCE | 🔴 CRITICAL | 26 |
+| [CVE-2021-3129](CVE-2021-3129-knqyf263_CVE-2021-3129.md) | CVE-2021-3129 - Laravel (facade/ignition) 远程代码执行/反序列化漏洞 | ⚪ 高危 | 26 |
+| [CVE-2021-3129](CVE-2021-3129-lukwagoasuman_CVE-2021-3129---Laravel-RCE.md) | CVE-2021-3129 - Laravel / Ignition组件 远程代码执行/反序列化漏洞 | ⚪ 高危 | 26 |
+| [CVE-2021-3129](CVE-2021-3129-miko550_CVE-2021-3129.md) | CVE-2021-3129 - Laravel (Ignition组件) RCE | 🔴 CRITICAL | 26 |
+| [CVE-2021-3129](CVE-2021-3129-nth347_CVE-2021-3129_exploit.md) | CVE-2021-3129 - Laravel (facade/ignition) RCE (远程代码执行) | ⚪ 严重 (Critical) | 26 |
+| [CVE-2021-3129](CVE-2021-3129-piperpwn_CVE-2021-3129-piperpwn.md) | CVE-2021-3129 - Laravel (Ignition组件) RCE | ⚪ 高危 | 26 |
+| [CVE-2021-3129](CVE-2021-3129-shadowabi_Laravel-CVE-2021-3129.md) | CVE-2021-3129 - Laravel (Ignition组件) RCE (远程代码执行) | 🔴 CRITICAL | 26 |
+| [CVE-2021-3129](CVE-2021-3129-wmasday_CVE-2021-3129.md) | CVE-2021-3129 - Laravel (Ignition组件) RCE/反序列化 | ⚪ 严重 | 26 |
+| [CVE-2021-3129](CVE-2021-3129-zhzyker_CVE-2021-3129.md) | CVE-2021-3129 - Laravel (Ignition 组件) RCE (远程代码执行) | ⚪ 高危 | 26 |
+| [CVE-2021-3156](CVE-2021-3156-0x4ndy_clif.md) | CVE-2021-3156 - Sudo 本地提权 (LPE) / 堆缓冲区溢出 | ⚪ 高 (High) | 32 |
+| [CVE-2021-3156](CVE-2021-3156-Bad3r_CVE-2021-3156-without-ip-command.md) | CVE-2021-3156 - Sudo 提权 (Privilege Escalation) | ⚪ 高危 | 32 |
+| [CVE-2021-3156](CVE-2021-3156-CptGibbon_CVE-2021-3156.md) | CVE-2021-3156-Sudo-Heap-Based缓冲区溢出 | ⚪ 高危 | 32 |
+| [CVE-2021-3156](CVE-2021-3156-DASICS-ICT_DASICS-CVE-2021-3156.md) | CVE-2021-3156 - Sudo 堆缓冲区溢出 (Heap-based Buffer Overflow) | ⚪ 高危 (High) | 32 |
+| [CVE-2021-3156](CVE-2021-3156-DDayLuong_CVE-2021-3156.md) | CVE-2021-3156 - Sudo 堆缓冲区溢出 | ⚪ 高危 (High) | 32 |
+| [CVE-2021-3156](CVE-2021-3156-HuzaifaTariqAfzalKhan_CVE-Exploit-Research-Development-ITSOLERA.md) | CVE-2021-3156 - Sudo 堆缓冲区溢出 (Heap-based Buffer Overflow) | ⚪ 高危 (High) | 32 |
+| [CVE-2021-3156](CVE-2021-3156-Maalfer_Sudo-CVE-2021-3156.md) | CVE-2021-3156 - Sudo (类Unix系统通用工具) 堆缓冲区溢出 (Heap-based Buffer... | ⚪ 高危 (High) | 32 |
+| [CVE-2021-3156](CVE-2021-3156-Mhackiori_CVE-2021-3156.md) | CVE-2021-3156 - Sudo 堆缓冲区溢出 (Heap-based Buffer Overflow) | ⚪ 高危 (High) | 32 |
+| [CVE-2021-3156](CVE-2021-3156-PhuketIsland_CVE-2021-3156-centos7.md) | CVE-2021-3156 - Sudo 堆缓冲区溢出 (Heap-based Buffer Overflow) | ⚪ 高危 (High) | 32 |
+| [CVE-2021-3156](CVE-2021-3156-PurpleOzone_PE_CVE-CVE-2021-3156.md) | CVE-2021-3156 - Sudo 堆缓冲区溢出 (Heap-based Buffer Overflow) | ⚪ 高危 | 32 |
+| [CVE-2021-3156](CVE-2021-3156-RodricBr_CVE-2021-3156.md) | CVE-2021-3156 - Sudo 提权 (Privilege Escalation) | ⚪ 高危 (High) | 32 |
+| [CVE-2021-3156](CVE-2021-3156-Sebastianbedoya25_CVE-2021-3156.md) | CVE-2021-3156 - Sudo 堆缓冲区溢出 | ⚪ 高危 | 32 |
+| [CVE-2021-3156](CVE-2021-3156-Shuhaib88_Baron-Samedit-Heap-Buffer-Overflow-CVE-2021-3156.md) | CVE-2021-3156 - Sudo 堆缓冲区溢出 (Heap-based Buffer Overflow) | ⚪ 高危 (High) | 32 |
+| [CVE-2021-3156](CVE-2021-3156-Sornphut_CVE-2021-3156-Heap-Based-Buffer-Overflow-in-Sudo-Baron-Samedit-.md) | CVE-2021-3156 - Sudo 堆缓冲区溢出 (Heap-based Buffer Overflow) | ⚪ 高危 (High) | 32 |
+| [CVE-2021-3156](CVE-2021-3156-Superliverbun_cve-2021-3156-.md) | CVE-2021-3156 - Sudo 提权 (Privilege Escalation) / 堆缓冲区溢出 (Hea... | ⚪ 高危 (High) | 32 |
+| [CVE-2021-3156](CVE-2021-3156-TopskiyPavelQwertyGang_Review.CVE-2021-3156.md) | CVE-2021-3156 - Sudo 堆缓冲区溢出 (Heap-based Buffer Overflow) | ⚪ 高危 (High) | 32 |
+| [CVE-2021-3156](CVE-2021-3156-Typical0day_CVE-2021-3156.md) | CVE-2021-3156 (Baron Samedit) | ⚪ 高危 | 32 |
+| [CVE-2021-3156](CVE-2021-3156-VilmarTuminskii_cve-2021-3156-sudo-lab.md) | CVE-2021-3156 - Sudo 堆缓冲区溢出 (Heap-based Buffer Overflow) | ⚪ 高危 | 32 |
+| [CVE-2021-3156](CVE-2021-3156-arvindshima_CVE-2021-3156.md) | CVE-2021-3156 - Sudo 堆缓冲区溢出 (Heap-based Buffer Overflow) | ⚪ 高危 (High) | 32 |
+| [CVE-2021-3156](CVE-2021-3156-asepsaepdin_CVE-2021-3156.md) | CVE-2021-3156 - Sudo 堆缓冲区溢出 (Heap-based Buffer Overflow) | ⚪ 高危 (High) | 32 |
+| [CVE-2021-3156](CVE-2021-3156-chenaotian_CVE-2021-3156.md) | CVE-2021-3156 - Sudo 堆缓冲区溢出 (Heap-based Buffer Overflow) | ⚪ 高危 (High) | 32 |
+| [CVE-2021-3156](CVE-2021-3156-duongdz96_CVE-2021-3156-main.md) | CVE-2021-3156 (Sudo Baron Samedit) | ⚪ 高危 | 32 |
+| [CVE-2021-3156](CVE-2021-3156-hycheng15_CVE-2021-3156.md) | CVE-2021-3156 - Sudo 提权 (Privilege Escalation) | ⚪ 高危 (High) | 32 |
+| [CVE-2021-3156](CVE-2021-3156-lypd0_CVE-2021-3156-checker.md) | CVE-2021-3156 - Sudo (类Unix系统的权限管理工具) 堆溢出 (Heap-based Buffer... | ⚪ 高危 (High) | 32 |
+| [CVE-2021-3156](CVE-2021-3156-mutur4_CVE-2021-3156.md) | CVE-2021-3156 - Sudo 本地提权 (LPE) | ⚪ 高危 (High) | 32 |
+| [CVE-2021-3156](CVE-2021-3156-puckiestyle_CVE-2021-3156.md) | CVE-2021-3156 (Sudo Baron Samedit) | ⚪ 高危 | 32 |
+| [CVE-2021-3156](CVE-2021-3156-q77190858_CVE-2021-3156.md) | CVE-2021-3156 - Sudo (sudo/sudoedit) 本地提权 (Privilege Escalat... | ⚪ 高危 | 32 |
+| [CVE-2021-3156](CVE-2021-3156-shishirpandey18_CVE-2021-3156.md) | CVE-2021-3156 - Sudo 本地权限提升 (Local Privilege Escalation) | ⚪ 高危 (High) | 32 |
+| [CVE-2021-3156](CVE-2021-3156-stong_CVE-2021-3156.md) | CVE-2021-3156 - Sudo Heap-Based Buffer Overflow | ⚪ 高危 | 32 |
+| [CVE-2021-3156](CVE-2021-3156-ten-ops_baron-samedit.md) | CVE-2021-3156 - Sudo 提权 (Privilege Escalation) | ⚪ 高危 (High) | 32 |
+| [CVE-2021-3156](CVE-2021-3156-wurwur_CVE-2021-3156.md) | CVE-2021-3156-Sudo-Heap-Based Buffer Overflow | ⚪ 高危 | 32 |
+| [CVE-2021-3156](CVE-2021-3156-ypl6_heaplens.md) | CVE-2021-3156 - Sudo Heap-Based Buffer Overflow (Baron Samed... | ⚪ 高危 | 32 |
 | [CVE-2021-31630](CVE-2021-31630-FlojBoj_CVE-2021-31630.md) | CVE-2021-31630 - OpenPLC Webserver v3 远程命令执行 | ⚪ 高危 | 10 |
 | [CVE-2021-31630](CVE-2021-31630-Hunt3r0x_CVE-2021-31630-HTB.md) | CVE-2021-31630 - OpenPLC Webserver v3 命令注入 | ⚪ 高危 | 10 |
 | [CVE-2021-31630](CVE-2021-31630-behindsecurity_htb-wifinetictwo-exploit.md) | CVE-2021-31630 - OpenPLC Webserver v3 远程命令执行 | ⚪ 高危 | 10 |
@@ -343,39 +372,44 @@
 | [CVE-2021-38003](CVE-2021-38003-caffeinedoom_CVE-2021-38003.md) | CVE-2021-38003 - Chrome V8 堆损坏 | ⚪ 高危 | 2 |
 | [CVE-2021-38163](CVE-2021-38163-core1impact_CVE-2021-38163.md) | CVE-2021-38163 - SAP NetWeaver Visual Composer Unrestricted ... | ⚪ 高危 | 2 |
 | [CVE-2021-38163](CVE-2021-38163-purpleteam-ru_CVE-2021-38163.md) | CVE-2021-38163 - SAP NetWeaver Visual Composer Unrestricted ... | ⚪ 高危 | 2 |
-| [CVE-2021-4034](CVE-2021-4034-12bijaya_CVE-2021-4034-PwnKit-.md) | CVE-2021-4034-Polkit-pkexec本地提权 | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-ASG-CASTLE_CVE-2021-4034.md) | CVE-2021-4034 - Polkit pkexec 本地提权 | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-BugVex_Poison-HTB-Report.md) | CVE-2021-4034 - Polkit pkexec 本地提权 | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-CYB3RK1D_CVE-2021-4034-POC.md) | CVE-2021-4034-Polkit pkexec 本地提权漏洞 | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-EuJin03_CVE-2021-4034-PoC.md) | CVE-2021-4034-Polkit-pkexec本地提权 | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-FancySauce_PwnKit-CVE-2021-4034.md) | CVE-2021-4034 - polkit pkexec 本地提权漏洞 | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-JohnGilbert57_CVE-2021-4034-Capture-the-flag.md) | CVE-2021-4034-Polkit-pkexec本地提权 | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-LucasPDiniz_CVE-2021-4034.md) | CVE-2021-4034 - Polkit pkexec 本地提权漏洞 (Pwnkit) | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-Milad-Rafie_PwnKit-Local-Privilege-Escalation-Vulnerability-Discovered-in-polkit-s-pkexec-CVE-2021-4034-.md) | CVE-2021-4034-Polkit pkexec权限提升漏洞 | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-Part01-Pai_Polkit-Permission-promotion-compiled.md) | CVE-2021-4034-Polkit pkexec本地提权 | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-Pol-Ruiz_CVE-2021-4034.md) | CVE-2021-4034-Polkit-pkexec本地提权 | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-TheSermux_CVE-2021-4034.md) | CVE-2021-4034 - Polkit pkexec 本地提权 | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-Typical0day_CVE-2021-4034.md) | CVE-2021-4034-Polkit-pkexec本地提权 | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-X-Projetion_Exploiting-PwnKit-CVE-2021-4034-.md) | CVE-2021-4034 - Polkit pkexec 本地提权漏洞 (PwnKit) | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-Y3A_CVE-2021-4034.md) | CVE-2021-4034-Polkit-pkexec本地提权 | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-Z3R0-0x30_CVE-2021-4034.md) | CVE-2021-4034-Polkit-pkexec本地提权 | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-artemis-mike_cve-2021-4034.md) | CVE-2021-4034-polkit-pkexec本地提权 | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-asepsaepdin_CVE-2021-4034.md) | CVE-2021-4034 (PwnKit) | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-battleoverflow_CVE-2021-4034.md) | CVE-2021-4034-Polkit-pkexec本地提权 | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-cdxiaodong_CVE-2021-4034-touch.md) | CVE-2021-4034-Polkit pkexec 本地提权 | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-cerodah_CVE-2021-4034.md) | CVE-2021-4034 - polkit pkexec 本地提权漏洞 | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-dh4r4_PwnKit-CVE-2021-4034-.md) | CVE-2021-4034 Polkit pkexec 本地提权漏洞 | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-evkl1d_CVE-2021-4034.md) | CVE-2021-4034-polkit-pkexec 本地提权 | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-igonzalez357_CVE-2021-4034-PwnKit-.md) | CVE-2021-4034 (PwnKit) Polkit pkexec 本地提权漏洞 | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-ikerSandoval003_CVE-2021-4034.md) | CVE-2021-4034 Polkit pkexec 本地提权漏洞 | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-kali-guru_Pwnkit-CVE-2021-4034.md) | CVE-2021-4034-Polkit-pkexec 本地提权 | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-lsclsclsc_CVE-2021-4034.md) | CVE-2021-4034 Polkit pkexec 本地提权漏洞 | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-marcosChoucino_CVE-2021-4034.md) | CVE-2021-4034 - polkit pkexec 本地提权 | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-mutur4_CVE-2021-4034.md) | CVE-2021-4034-Polkit-pkexec 本地提权 | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-nagorealbisu_CVE-2021-4034.md) | CVE-2021-4034-Polkit-pkexec本地提权 | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-ps-interactive_lab_cve-2021-4034-polkit-emulation-and-detection.md) | CVE-2021-4034-Polkit-pkexec本地提权 | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-supportingmx_cve-2021-4034.md) | CVE-2021-4034-Polkit-pkexec本地提权漏洞 | ⚪ 高危 | 33 |
-| [CVE-2021-4034](CVE-2021-4034-wechicken456_CVE-2021-4034-CTF-writeup.md) | CVE-2021-4034 PwnKit 本地权限提升 | ⚪ 高危 | 33 |
+| [CVE-2021-4034](CVE-2021-4034-12bijaya_CVE-2021-4034-PwnKit-.md) | CVE-2021-4034 - Polkit (pkexec) 本地权限提升 (LPE) | ⚪ 高危 (High) | 38 |
+| [CVE-2021-4034](CVE-2021-4034-ASG-CASTLE_CVE-2021-4034.md) | CVE-2021-4034 - Polkit pkexec 本地提权 | ⚪ 高危 | 38 |
+| [CVE-2021-4034](CVE-2021-4034-BugVex_Poison-HTB-Report.md) | CVE-2021-4034 - polkit (pkexec) 本地权限提升 (LPE) | ⚪ 高危 | 38 |
+| [CVE-2021-4034](CVE-2021-4034-CYB3RK1D_CVE-2021-4034-POC.md) | CVE-2021-4034 - polkit (pkexec utility) 本地权限提升(LPE) | ⚪ 高危 | 38 |
+| [CVE-2021-4034](CVE-2021-4034-EuJin03_CVE-2021-4034-PoC.md) | CVE-2021-4034 - Polkit (pkexec) 本地权限提升 (LPE) | ⚪ 高危 | 38 |
+| [CVE-2021-4034](CVE-2021-4034-FancySauce_PwnKit-CVE-2021-4034.md) | CVE-2021-4034 - polkit pkexec 本地提权漏洞 | ⚪ 高危 | 38 |
+| [CVE-2021-4034](CVE-2021-4034-JohnGilbert57_CVE-2021-4034-Capture-the-flag.md) | CVE-2021-4034-Polkit-pkexec本地提权 | ⚪ 高危 | 38 |
+| [CVE-2021-4034](CVE-2021-4034-LucasPDiniz_CVE-2021-4034.md) | CVE-2021-4034 - Polkit (pkexec) 本地权限提升 (LPE) | ⚪ 高危 (High) | 38 |
+| [CVE-2021-4034](CVE-2021-4034-Milad-Rafie_PwnKit-Local-Privilege-Escalation-Vulnerability-Discovered-in-polkit-s-pkexec-CVE-2021-4034-.md) | CVE-2021-4034-Polkit pkexec权限提升漏洞 | ⚪ 高危 | 38 |
+| [CVE-2021-4034](CVE-2021-4034-Milad-Rafie_PwnKit-Local-Privilege-Escalation-Vulnerability-Discovered-in-polkit-s-pkexec-CVE-2021-4034.md) | CVE-2021-4034 - polkit (pkexec) 本地权限提升 (LPE) | ⚪ 高危 (High) | 38 |
+| [CVE-2021-4034](CVE-2021-4034-Part01-Pai_Polkit-Permission-promotion-compiled.md) | CVE-2021-4034-Polkit pkexec本地提权 | ⚪ 高危 | 38 |
+| [CVE-2021-4034](CVE-2021-4034-Pol-Ruiz_CVE-2021-4034.md) | CVE-2021-4034-Polkit-pkexec本地提权 | ⚪ 高危 | 38 |
+| [CVE-2021-4034](CVE-2021-4034-TheSermux_CVE-2021-4034.md) | CVE-2021-4034 - Polkit pkexec 本地提权 | ⚪ 高危 | 38 |
+| [CVE-2021-4034](CVE-2021-4034-Typical0day_CVE-2021-4034.md) | CVE-2021-4034-Polkit-pkexec本地提权 | ⚪ 高危 | 38 |
+| [CVE-2021-4034](CVE-2021-4034-X-Projetion_Exploiting-PwnKit-CVE-2021-4034-.md) | CVE-2021-4034 - Polkit pkexec 本地提权漏洞 (PwnKit) | ⚪ 高危 | 38 |
+| [CVE-2021-4034](CVE-2021-4034-Y3A_CVE-2021-4034.md) | CVE-2021-4034-Polkit-pkexec本地提权 | ⚪ 高危 | 38 |
+| [CVE-2021-4034](CVE-2021-4034-Z3R0-0x30_CVE-2021-4034.md) | CVE-2021-4034 - Polkit (pkexec) 本地提权 (LPE) | ⚪ 高危 (High) | 38 |
+| [CVE-2021-4034](CVE-2021-4034-artemis-mike_cve-2021-4034.md) | CVE-2021-4034-polkit-pkexec本地提权 | ⚪ 高危 | 38 |
+| [CVE-2021-4034](CVE-2021-4034-asepsaepdin_CVE-2021-4034.md) | CVE-2021-4034 (PwnKit) | ⚪ 高危 | 38 |
+| [CVE-2021-4034](CVE-2021-4034-battleoverflow_CVE-2021-4034.md) | CVE-2021-4034-Polkit-pkexec本地提权 | ⚪ 高危 | 38 |
+| [CVE-2021-4034](CVE-2021-4034-boro03_CVE-2021-4034.md) | CVE-2021-4034 - polkit (pkexec) 本地权限提升 (LPE) | ⚪ 高危 (High) | 38 |
+| [CVE-2021-4034](CVE-2021-4034-cdxiaodong_CVE-2021-4034-touch.md) | CVE-2021-4034-Polkit pkexec 本地提权 | ⚪ 高危 | 38 |
+| [CVE-2021-4034](CVE-2021-4034-cerodah_CVE-2021-4034.md) | CVE-2021-4034 - polkit pkexec 本地提权漏洞 | ⚪ 高危 | 38 |
+| [CVE-2021-4034](CVE-2021-4034-dh4r4_PwnKit-CVE-2021-4034-.md) | CVE-2021-4034 - Polkit (pkexec) 本地权限提升 (LPE) | ⚪ 高危 | 38 |
+| [CVE-2021-4034](CVE-2021-4034-dr4xp_pwnkit-helper.md) | CVE-2021-4034 - polkit (pkexec) 本地权限提升 (LPE) | ⚪ 高危 | 38 |
+| [CVE-2021-4034](CVE-2021-4034-evkl1d_CVE-2021-4034.md) | CVE-2021-4034 - Polkit (pkexec) 本地权限提升 (LPE) | ⚪ 高危 (High) | 38 |
+| [CVE-2021-4034](CVE-2021-4034-igonzalez357_CVE-2021-4034-PwnKit-.md) | CVE-2021-4034 - Polkit (pkexec) 本地权限提升 (LPE) | ⚪ 高危 | 38 |
+| [CVE-2021-4034](CVE-2021-4034-ikerSandoval003_CVE-2021-4034.md) | CVE-2021-4034 - Polkit (pkexec) 本地权限提升 (LPE) | ⚪ 高 (High) | 38 |
+| [CVE-2021-4034](CVE-2021-4034-jscamposx_hack.md) | CVE-2021-4034 - Polkit (pkexec) 本地权限提升 (LPE) | 🔴 CRITICAL | 38 |
+| [CVE-2021-4034](CVE-2021-4034-kali-guru_Pwnkit-CVE-2021-4034.md) | CVE-2021-4034 - Polkit (pkexec) 本地权限提升 (LPE) | ⚪ 高危 | 38 |
+| [CVE-2021-4034](CVE-2021-4034-lsclsclsc_CVE-2021-4034.md) | CVE-2021-4034 Polkit pkexec 本地提权漏洞 | ⚪ 高危 | 38 |
+| [CVE-2021-4034](CVE-2021-4034-marcosChoucino_CVE-2021-4034.md) | CVE-2021-4034 - polkit (pkexec) 本地权限提升 (LPE) | ⚪ 高危 (High) | 38 |
+| [CVE-2021-4034](CVE-2021-4034-mutur4_CVE-2021-4034.md) | CVE-2021-4034-Polkit-pkexec 本地提权 | ⚪ 高危 | 38 |
+| [CVE-2021-4034](CVE-2021-4034-nagorealbisu_CVE-2021-4034.md) | CVE-2021-4034 - Polkit (pkexec) 本地权限提升 (LPE) | ⚪ 高危 (High) | 38 |
+| [CVE-2021-4034](CVE-2021-4034-ps-interactive_lab_cve-2021-4034-polkit-emulation-and-detection.md) | CVE-2021-4034 - polkit (pkexec) 本地权限提升 (LPE) | ⚪ 高危 | 38 |
+| [CVE-2021-4034](CVE-2021-4034-supportingmx_cve-2021-4034.md) | CVE-2021-4034-Polkit-pkexec本地提权漏洞 | ⚪ 高危 | 38 |
+| [CVE-2021-4034](CVE-2021-4034-wechicken456_CVE-2021-4034-CTF-writeup.md) | CVE-2021-4034 - polkit (PolicyKit) 本地提权 (LPE) | ⚪ 高危 (High) | 38 |
+| [CVE-2021-4034](CVE-2021-4034-zaaraZiof0_pkexec-exploit-CVE.md) | CVE-2021-4034 - polkit (PolicyKit) 本地权限提升 (LPE) | ⚪ 高危 | 38 |
 | [CVE-2021-40438](CVE-2021-40438-BabyTeam1024_CVE-2021-40438.md) | CVE-2021-40438-Apache HTTP Server-SSRF | ⚪ 高危 | 10 |
 | [CVE-2021-40438](CVE-2021-40438-Cappricio-Securities_CVE-2021-40438.md) | CVE-2021-40438 - Apache HTTP Server SSRF | 🟠 High | 10 |
 | [CVE-2021-40438](CVE-2021-40438-Kashkovsky_CVE-2021-40438.md) | CVE-2021-40438 - Apache HTTP Server SSRF | 🟠 High | 10 |
@@ -565,4 +599,4 @@
 
 ---
 
-*最后更新: 2025-12-28*
+*最后更新: 2026-01-08*

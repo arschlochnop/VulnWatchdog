@@ -1,6 +1,6 @@
 # 2016年 CVE漏洞列表
 
-> 📊 共收录 **91** 个CVE漏洞
+> 📊 共收录 **93** 个CVE漏洞
 
 ---
 
@@ -38,6 +38,8 @@
 | [CVE-2016-15041](CVE-2016-15041-Pranjal6955_CVE-2016-15041-testing.md) | CVE-2016-15041 - MainWP Dashboard – The Private WordPress Ma... | 🔴 Critical (紧急) | 1 |
 | [CVE-2016-15042](CVE-2016-15042-Aditya43621_lab-cve-2016-15042.md) | CVE-2016-15042 - Node.js RCE | 🔴 Critical | 2 |
 | [CVE-2016-15042](CVE-2016-15042-ImBIOS_lab-cve-2016-15042.md) | CVE-2016-15042 - Node.js RCE | 🔴 Critical | 2 |
+| [CVE-2016-15048](CVE-2016-15048-Pranjal6955_test_CVE-2016-15048.md) | CVE-2016-15048 - AMTT Hotel Broadband Operation System (HiBO... | 🔴 CRITICAL | 1 |
+| [CVE-2016-16113](CVE-2016-16113-d3vn0mi_cve-2016-16113.md) | CVE-2019-16113 - Bludit CMS RCE/任意文件上传 | 🔴 CRITICAL | 1 |
 | [CVE-2016-20012](CVE-2016-20012-aztec-eagle_cve-2016-20012.md) | CVE-2016-20012-OpenSSH-用户名枚举 | ⚪ 低危 | 1 |
 | [CVE-2016-2098](CVE-2016-2098-3rg1s_CVE-2016-2098.md) | CVE-2016-2098 - Ruby on Rails 远程代码执行 | ⚪ 高危 | 11 |
 | [CVE-2016-2098](CVE-2016-2098-Alejandro-MartinG_rails-PoC-CVE-2016-2098.md) | CVE-2016-2098 - Ruby on Rails Action Pack 远程代码执行 | ⚪ 高危 | 11 |
@@ -110,4 +112,4 @@
 
 ---
 
-*最后更新: 2025-12-28*
+*最后更新: 2026-01-08*

@@ -1,6 +1,6 @@
 # 2019年 CVE漏洞列表
 
-> 📊 共收录 **410** 个CVE漏洞
+> 📊 共收录 **414** 个CVE漏洞
 
 ---
 
@@ -115,8 +115,10 @@
 | [CVE-2019-13272](CVE-2019-13272-oneoy_CVE-2019-13272.md) | CVE-2019-13272 - Linux Kernel PTRACE_TRACEME Local Root | ⚪ 高危 | 15 |
 | [CVE-2019-13272](CVE-2019-13272-polosec_CVE-2019-13272.md) | CVE-2019-13272 Linux Kernel PTRACE_TRACEME 本地提权漏洞 | ⚪ 高危 | 15 |
 | [CVE-2019-13272](CVE-2019-13272-sumedhaDharmasena_-Kernel-ptrace-c-mishandles-vulnerability-CVE-2019-13272.md) | CVE-2019-13272-Linux Kernel PTRACE_TRACEME Privilege Escalat... | ⚪ 高危 | 15 |
-| [CVE-2019-13288](CVE-2019-13288-Fineas_CVE-2019-13288-POC.md) | CVE-2019-13288 - Xpdf Parser::getObj() 无限递归 DoS | ⚪ 高危 | 2 |
-| [CVE-2019-13288](CVE-2019-13288-WildWestCyberSecurity_CVE-2019-13288.md) | CVE-2019-13288 - Xpdf Parser::getObj() 无限递归DoS | ⚪ 中危 | 2 |
+| [CVE-2019-13288](CVE-2019-13288-Fineas_CVE-2019-13288-POC.md) | CVE-2019-13288 - Xpdf 无限递归/拒绝服务(DoS) | ⚪ 中等 (Medium) | 3 |
+| [CVE-2019-13288](CVE-2019-13288-WildWestCyberSecurity_CVE-2019-13288.md) | CVE-2019-13288 - Xpdf 无限递归 (Uncontrolled Recursion) | ⚪ 中危 (Medium) | 3 |
+| [CVE-2019-13288](CVE-2019-13288-ngtuonghung_CVE-2019-13288.md) | CVE-2019-13288 - Xpdf 拒绝服务 (DoS) - 无限递归 | ⚪ 中危 | 3 |
+| [CVE-2019-14206](CVE-2019-14206-developerfred_cve-2019-14206-poc.md) | CVE-2019-14206 - Adaptive Images for WordPress (Nevma) Arbit... | 🟠 High (高危) | 1 |
 | [CVE-2019-14222](CVE-2019-14222-mbadanoiu_CVE-2019-14222.md) | CVE-2019-14222 Alfresco Solr Web Admin Interface 认证绕过漏洞 | ⚪ 高危 | 1 |
 | [CVE-2019-14223](CVE-2019-14223-mbadanoiu_CVE-2019-14223.md) | CVE-2019-14223-Alfresco Share-Open Redirect | ⚪ 中危 | 1 |
 | [CVE-2019-14224](CVE-2019-14224-mbadanoiu_CVE-2019-14224.md) | CVE-2019-14224-Alfresco-远程代码执行 | ⚪ 高危 | 1 |
@@ -186,18 +188,19 @@
 | [CVE-2019-17572](CVE-2019-17572-shoucheng3_apache__rocketmq_CVE-2019-17572_4-6-0.md) | CVE-2019-17572 - Apache RocketMQ 目录遍历 | ⚪ 高危 | 1 |
 | [CVE-2019-17573](CVE-2019-17573-shoucheng3_asf__cxf_CVE-2019-17573_3-2-11.md) | CVE-2019-17573-Apache CXF-Reflected XSS | ⚪ 中危 | 1 |
 | [CVE-2019-17640](CVE-2019-17640-shoucheng3_vert-x3__vertx-web_CVE-2019-17640_3-9-3.md) | CVE-2019-17640-Eclipse Vert.x-路径遍历 | ⚪ 高危 | 1 |
-| [CVE-2019-18634](CVE-2019-18634-DDayLuong_CVE-2019-18634.md) | CVE-2019-18634 - Sudo pwfeedback 缓冲区溢出 | ⚪ 高危 | 12 |
-| [CVE-2019-18634](CVE-2019-18634-N1et_CVE-2019-18634.md) | CVE-2019-18634-Sudo-Stack Buffer Overflow | ⚪ 高危 | 12 |
-| [CVE-2019-18634](CVE-2019-18634-Plazmaz_CVE-2019-18634.md) | CVE-2019-18634-Sudo-堆栈缓冲区溢出 | ⚪ 高危 | 12 |
-| [CVE-2019-18634](CVE-2019-18634-aesophor_CVE-2019-18634.md) | CVE-2019-18634-Sudo-Stack Buffer Overflow | ⚪ 高危 | 12 |
-| [CVE-2019-18634](CVE-2019-18634-chanbakjsd_CVE-2019-18634.md) | CVE-2019-18634-Sudo-Stack-Based Buffer Overflow | ⚪ 高危 | 12 |
-| [CVE-2019-18634](CVE-2019-18634-edsonjt81_sudo-cve-2019-18634.md) | CVE-2019-18634-Sudo-Stack-Based Buffer Overflow | ⚪ 高危 | 12 |
-| [CVE-2019-18634](CVE-2019-18634-l0w3_CVE-2019-18634.md) | CVE-2019-18634-Sudo-Stack-Based Buffer Overflow | ⚪ 高危 | 12 |
-| [CVE-2019-18634](CVE-2019-18634-letsr00t_-CVE-2019-18634-sudo-pwfeedback.md) | CVE-2019-18634-sudo-pwfeedback缓冲区溢出 | ⚪ 高危 | 12 |
-| [CVE-2019-18634](CVE-2019-18634-ngyinkit_cve-2019-18634.md) | CVE-2019-18634-sudo-缓冲区溢出 | ⚪ 高危 | 12 |
-| [CVE-2019-18634](CVE-2019-18634-paras1te-x_CVE-2019-18634.md) | CVE-2019-18634-Sudo-Stack Buffer Overflow | ⚪ 高危 | 12 |
-| [CVE-2019-18634](CVE-2019-18634-ptef_CVE-2019-18634.md) | CVE-2019-18634-Sudo-Stack Buffer Overflow | ⚪ 高危 | 12 |
-| [CVE-2019-18634](CVE-2019-18634-saleemrashid_sudo-cve-2019-18634.md) | CVE-2019-18634-Sudo-Stack Buffer Overflow | ⚪ 高危 | 12 |
+| [CVE-2019-18634](CVE-2019-18634-CyrusRazavi_CVE-2019-18634-.md) | CVE-2019-18634 - Sudo 缓冲区溢出 | ⚪ 高危 | 13 |
+| [CVE-2019-18634](CVE-2019-18634-DDayLuong_CVE-2019-18634.md) | CVE-2019-18634 - Sudo 栈缓冲区溢出 (Stack-based Buffer Overflow) | ⚪ 高 (High) | 13 |
+| [CVE-2019-18634](CVE-2019-18634-N1et_CVE-2019-18634.md) | CVE-2019-18634 - Sudo 栈缓冲区溢出 (Stack-based Buffer Overflow) | ⚪ 高危 | 13 |
+| [CVE-2019-18634](CVE-2019-18634-Plazmaz_CVE-2019-18634.md) | CVE-2019-18634 - Sudo 堆/栈缓冲区溢出 | ⚪ 高危 | 13 |
+| [CVE-2019-18634](CVE-2019-18634-aesophor_CVE-2019-18634.md) | CVE-2019-18634 - Sudo 堆栈缓冲区溢出 | ⚪ 高危 | 13 |
+| [CVE-2019-18634](CVE-2019-18634-chanbakjsd_CVE-2019-18634.md) | CVE-2019-18634 - Sudo 栈缓冲区溢出 (Stack-based Buffer Overflow) | ⚪ 高危 | 13 |
+| [CVE-2019-18634](CVE-2019-18634-edsonjt81_sudo-cve-2019-18634.md) | CVE-2019-18634 - Sudo 栈溢出 (Stack-based Buffer Overflow) | ⚪ 高危 | 13 |
+| [CVE-2019-18634](CVE-2019-18634-l0w3_CVE-2019-18634.md) | CVE-2019-18634 - Sudo BSS缓冲区溢出 | ⚪ 高危 | 13 |
+| [CVE-2019-18634](CVE-2019-18634-letsr00t_-CVE-2019-18634-sudo-pwfeedback.md) | CVE-2019-18634-sudo-pwfeedback缓冲区溢出 | ⚪ 高危 | 13 |
+| [CVE-2019-18634](CVE-2019-18634-ngyinkit_cve-2019-18634.md) | CVE-2019-18634 - Sudo 栈缓冲区溢出(Stack-based Buffer Overflow) | ⚪ 高 (High) | 13 |
+| [CVE-2019-18634](CVE-2019-18634-paras1te-x_CVE-2019-18634.md) | CVE-2019-18634 - Sudo 栈缓冲区溢出 (Stack-based Buffer Overflow) | ⚪ 高 (High) | 13 |
+| [CVE-2019-18634](CVE-2019-18634-ptef_CVE-2019-18634.md) | CVE-2019-18634 - Sudo 栈溢出 (Stack-based Buffer Overflow) | ⚪ 高危 | 13 |
+| [CVE-2019-18634](CVE-2019-18634-saleemrashid_sudo-cve-2019-18634.md) | CVE-2019-18634 - Sudo 栈缓冲区溢出 (Stack-based Buffer Overflow) | ⚪ 高 (High) | 13 |
 | [CVE-2019-18935](CVE-2019-18935-0xAgun_CVE-2019-18935-checker.md) | CVE-2019-18935 - Progress Telerik UI for ASP.NET AJAX Deseri... | ⚪ 高危 | 13 |
 | [CVE-2019-18935](CVE-2019-18935-0xsharz_telerik-scanner-CVE-2019-18935.md) | CVE-2019-18935 - Telerik UI for ASP.NET AJAX 反序列化漏洞 | ⚪ 高危 | 13 |
 | [CVE-2019-18935](CVE-2019-18935-ThanHuuTuan_CVE_2019_18935.md) | CVE-2019-18935-Telerik UI for ASP.NET AJAX-反序列化漏洞 | ⚪ 高危 | 13 |
@@ -407,17 +410,18 @@
 | [CVE-2019-9193](CVE-2019-9193-netw0rk7_CVE-2019-9193-Home-Lab.md) | CVE-2019-9193 - PostgreSQL COPY FROM PROGRAM RCE | ⚪ 高危 | 10 |
 | [CVE-2019-9193](CVE-2019-9193-paulotrindadec_CVE-2019-9193.md) | CVE-2019-9193 - PostgreSQL Authenticated Remote Code Executi... | ⚪ 高危 | 10 |
 | [CVE-2019-9193](CVE-2019-9193-wkjung0624_cve-2019-9193.md) | CVE-2019-9193 - PostgreSQL 任意代码执行 | ⚪ 高危 | 10 |
-| [CVE-2019-9978](CVE-2019-9978-0xMoonrise_cve-2019-9978.md) | CVE-2019-9978-Social-Warfare-Stored-XSS | ⚪ 中危 | 11 |
-| [CVE-2019-9978](CVE-2019-9978-KTN1990_CVE-2019-9978.md) | CVE-2019-9978-Social-Warfare-WordPress-Stored-XSS-RCE | ⚪ 高危 | 11 |
-| [CVE-2019-9978](CVE-2019-9978-MAHajian_CVE-2019-9978.md) | CVE-2019-9978-Social-Warfare-Stored-XSS-RCE | ⚪ 高危 | 11 |
-| [CVE-2019-9978](CVE-2019-9978-cved-sources_cve-2019-9978.md) | CVE-2019-9978-Social Warfare-存储型XSS | ⚪ 中危 | 11 |
-| [CVE-2019-9978](CVE-2019-9978-d3fudd_CVE-2019-9978_Exploit.md) | CVE-2019-9978 - WordPress Social Warfare Plugin 存储型XSS和远程代码执... | ⚪ 高危 | 11 |
-| [CVE-2019-9978](CVE-2019-9978-echoosso_CVE-2019-9978.md) | CVE-2019-9978-Social Warfare-Stored XSS / RCE | ⚪ 高危 | 11 |
-| [CVE-2019-9978](CVE-2019-9978-grimlockx_CVE-2019-9978.md) | CVE-2019-9978-Social Warfare-存储型XSS和RCE | ⚪ 高危 | 11 |
-| [CVE-2019-9978](CVE-2019-9978-h8handles_CVE-2019-9978-Python3.md) | CVE-2019-9978-Social Warfare-Stored XSS/RCE | ⚪ 高危 | 11 |
-| [CVE-2019-9978](CVE-2019-9978-hash3liZer_CVE-2019-9978.md) | CVE-2019-9978 Social Warfare Plugin Stored XSS | ⚪ 中危 | 11 |
-| [CVE-2019-9978](CVE-2019-9978-mpgn_CVE-2019-9978.md) | CVE-2019-9978 - Social Warfare WordPress Plugin RCE/XSS | ⚪ 高危 | 11 |
-| [CVE-2019-9978](CVE-2019-9978-xxoprt_payloadCVE-2019-9978.md) | CVE-2019-9978-Social-Warfare-Stored-XSS | ⚪ 中危 | 11 |
+| [CVE-2019-9978](CVE-2019-9978-0xMoonrise_cve-2019-9978.md) | CVE-2019-9978 - WordPress Social Warfare Plugin RCE/XSS | 🔴 CRITICAL | 12 |
+| [CVE-2019-9978](CVE-2019-9978-KTN1990_CVE-2019-9978.md) | CVE-2019-9978 - Social Warfare (WordPress Plugin) RCE/XSS | 🔴 CRITICAL | 12 |
+| [CVE-2019-9978](CVE-2019-9978-MAHajian_CVE-2019-9978.md) | CVE-2019-9978 - Social Warfare 插件 (WordPress) RCE/Stored XSS | 🔴 CRITICAL | 12 |
+| [CVE-2019-9978](CVE-2019-9978-Vaidehim55_CVE-2019-9978-RCE-PoC.md) | CVE-2019-9978 - WordPress Social Warfare Plugin RCE/RFI/XSS | 🔴 Critical | 12 |
+| [CVE-2019-9978](CVE-2019-9978-cved-sources_cve-2019-9978.md) | CVE-2019-9978 - Social Warfare (WordPress Plugin) RCE/XSS | 🔴 CRITICAL | 12 |
+| [CVE-2019-9978](CVE-2019-9978-d3fudd_CVE-2019-9978_Exploit.md) | CVE-2019-9978 - Social Warfare 插件 (WordPress) RCE/存储型XSS | 🔴 CRITICAL | 12 |
+| [CVE-2019-9978](CVE-2019-9978-echoosso_CVE-2019-9978.md) | CVE-2019-9978-Social Warfare-Stored XSS / RCE | ⚪ 高危 | 12 |
+| [CVE-2019-9978](CVE-2019-9978-grimlockx_CVE-2019-9978.md) | CVE-2019-9978 - Social Warfare 插件 (WordPress) RCE/存储型XSS | 🔴 CRITICAL | 12 |
+| [CVE-2019-9978](CVE-2019-9978-h8handles_CVE-2019-9978-Python3.md) | CVE-2019-9978 - Social Warfare 插件 (WordPress) RCE (远程代码执行) | 🔴 CRITICAL | 12 |
+| [CVE-2019-9978](CVE-2019-9978-hash3liZer_CVE-2019-9978.md) | CVE-2019-9978 Social Warfare Plugin Stored XSS | ⚪ 中危 | 12 |
+| [CVE-2019-9978](CVE-2019-9978-mpgn_CVE-2019-9978.md) | CVE-2019-9978 - Social Warfare WordPress Plugin RCE/XSS | ⚪ 高危 | 12 |
+| [CVE-2019-9978](CVE-2019-9978-xxoprt_payloadCVE-2019-9978.md) | CVE-2019-9978-Social-Warfare-Stored-XSS | ⚪ 中危 | 12 |
 
 ---
 
@@ -429,4 +433,4 @@
 
 ---
 
-*最后更新: 2025-12-28*
+*最后更新: 2026-01-08*

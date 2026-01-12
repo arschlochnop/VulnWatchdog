@@ -1,6 +1,6 @@
 # 2023年 CVE漏洞列表
 
-> 📊 共收录 **885** 个CVE漏洞
+> 📊 共收录 **898** 个CVE漏洞
 
 ---
 
@@ -70,9 +70,9 @@
 | [CVE-2023-20198](CVE-2023-20198-sanan2004_CVE-2023-20198.md) | CVE-2023-20198 - Cisco IOS XE Web UI 权限提升 | ⚪ 高危 | 27 |
 | [CVE-2023-20198](CVE-2023-20198-securityphoenix_cisco-CVE-2023-20198-tester.md) | CVE-2023-20198-Cisco IOS XE Web UI权限提升 | ⚪ 高危 | 27 |
 | [CVE-2023-20198](CVE-2023-20198-smokeintheshell_CVE-2023-20198.md) | CVE-2023-20198 - Cisco IOS XE Web UI 权限提升 | ⚪ 高危 | 27 |
-| [CVE-2023-20564](CVE-2023-20564-NtGabrielGomes_CVE-2023-20564.md) | CVE-2023-20564 - AMD Ryzen Master 驱动物理内存访问漏洞 | ⚪ 高危 | 1 |
+| [CVE-2023-20564](CVE-2023-20564-NtGabrielGomes_CVE-2023-20564.md) | CVE-2023-20564 - AMD Ryzen Master Driver 物理内存读写/权限提升 | ⚪ 高危 (High) | 1 |
 | [CVE-2023-20904](CVE-2023-20904-FishMan132_CVE-2023-20904.md) | CVE-2023-20904-Android-权限提升 | ⚪ 高危 | 1 |
-| [CVE-2023-20938](CVE-2023-20938-anansi2safe_CVE-2023-20938.md) | CVE-2023-20938 - Android Binder Use-After-Free | ⚪ 高危 | 1 |
+| [CVE-2023-20938](CVE-2023-20938-0xAtharv_CVE-2023-20938.md) | CVE-2023-20938 - Android OS (Binder Driver) 本地权限提升 | ⚪ 高危 (High) | 1 |
 | [CVE-2023-21125](CVE-2023-21125-Mahesh-970_Mahesh-970-CVE-2023-21125_bluedriod_repo.md) | CVE-2023-21125/CVE-2025-21125 Android Bluetooth RCE/InDesign... | ⚪ 高危/中危 | 1 |
 | [CVE-2023-21554](CVE-2023-21554-3tternp_CVE-2023-21554.md) | CVE-2023-21554-Microsoft Message Queuing (MSMQ) 远程代码执行漏洞 | ⚪ 高危 | 4 |
 | [CVE-2023-21554](CVE-2023-21554-leongxudong_MSMQ-Vulnerability.md) | CVE-2023-21554 - Microsoft Message Queuing (MSMQ) 远程代码执行漏洞 | ⚪ 高危 | 4 |
@@ -647,47 +647,50 @@
 | [CVE-2023-41892](CVE-2023-41892-zaenhaxor_CVE-2023-41892.md) | CVE-2023-41892 - Craft CMS 远程代码执行 | ⚪ 严重 | 5 |
 | [CVE-2023-41992](CVE-2023-41992-karzanWang_CVE-2023-41992.md) | CVE-2023-41992 - iOS/macOS 本地权限提升 | ⚪ 高危 | 2 |
 | [CVE-2023-41992](CVE-2023-41992-xcbjky_cve-2023-41992-test.md) | CVE-2023-41992 - iOS/macOS 本地权限提升 | ⚪ 高危 | 2 |
-| [CVE-2023-4220](CVE-2023-4220-0x00-null_Chamilo-CVE-2023-4220-RCE-Exploit.md) | CVE-2023-4220 Chamilo LMS Unauthenticated Big Upload File Re... | ⚪ 高危 | 24 |
-| [CVE-2023-4220](CVE-2023-4220-0xDTC_Chamilo-LMS-CVE-2023-4220-Exploit.md) | CVE-2023-4220-Chamilo LMS-RCE | ⚪ 高危 | 24 |
-| [CVE-2023-4220](CVE-2023-4220-Al3xGD_CVE-2023-4220-Exploit.md) | CVE-2023-4220-Chamilo-RCE | ⚪ 高危 | 24 |
-| [CVE-2023-4220](CVE-2023-4220-H4cking4All_CVE-2023-4220.md) | CVE-2023-4220-Chamilo-RCE | ⚪ 高危 | 24 |
-| [CVE-2023-4220](CVE-2023-4220-HO4XXX_cve-2023-4220-poc.md) | CVE-2023-4220 Chamilo LMS Unauthenticated Remote Code Execut... | ⚪ 高危 | 24 |
-| [CVE-2023-4220](CVE-2023-4220-LGenAgul_CVE-2023-4220-Proof-of-concept.md) | CVE-2023-4220-Chamilo LMS-远程代码执行 | ⚪ 高危 | 24 |
-| [CVE-2023-4220](CVE-2023-4220-MikeyPPPPPPPP_CVE-2023-4220.md) | CVE-2023-4220 Chamilo LMS Unauthenticated Big Upload File Re... | ⚪ 高危 | 24 |
-| [CVE-2023-4220](CVE-2023-4220-N1ghtfallXxX_CVE-2023-4220.md) | CVE-2023-4220-Chamilo LMS-远程代码执行 | ⚪ 高危 | 24 |
-| [CVE-2023-4220](CVE-2023-4220-Pr1or95_CVE-2023-4220-exploit.md) | CVE-2023-4220-Chamilo LMS 未授权文件上传导致RCE | ⚪ 高危 | 24 |
-| [CVE-2023-4220](CVE-2023-4220-VanishedPeople_CVE-2023-4220.md) | CVE-2023-4220-Chamilo-RCE | ⚪ 高危 | 24 |
-| [CVE-2023-4220](CVE-2023-4220-Ziad-Sakr_Chamilo-CVE-2023-4220-Exploit.md) | CVE-2023-4220 Chamilo LMS 远程代码执行 | ⚪ 高危 | 24 |
-| [CVE-2023-4220](CVE-2023-4220-bueno-armando_CVE-2023-4220-RCE.md) | CVE-2023-4220-Chamilo LMS Unauthenticated Remote Code Execut... | ⚪ 高危 | 24 |
-| [CVE-2023-4220](CVE-2023-4220-charchit-subedi_chamilo-lms-unauthenticated-rce-poc.md) | CVE-2023-4220-Chamilo-Unauthenticated-RCE | ⚪ 高危 | 24 |
-| [CVE-2023-4220](CVE-2023-4220-charlesgargasson_CVE-2023-4220.md) | CVE-2023-4220 Chamilo LMS Unauthenticated Remote Code Execut... | ⚪ 高危 | 24 |
-| [CVE-2023-4220](CVE-2023-4220-dollarboysushil_Chamilo-LMS-Unauthenticated-File-Upload-CVE-2023-4220.md) | CVE-2023-4220 - Chamilo LMS Unauthenticated Big Upload File ... | ⚪ 高危 | 24 |
-| [CVE-2023-4220](CVE-2023-4220-gmh5225_CVE-2023-4220.md) | CVE-2023-4220 - Chamilo LMS 未授权文件上传导致远程代码执行 | ⚪ 高危 | 24 |
-| [CVE-2023-4220](CVE-2023-4220-insomnia-jacob_CVE-2023-4220.md) | CVE-2023-4220-Chamilo LMS-RCE | ⚪ 高危 | 24 |
-| [CVE-2023-4220](CVE-2023-4220-m3m0o_chamilo-lms-unauthenticated-big-upload-rce-poc.md) | CVE-2023-4220-Chamilo-RCE | ⚪ 高危 | 24 |
-| [CVE-2023-4220](CVE-2023-4220-nr4x4_CVE-2023-4220.md) | CVE-2023-4220 - Chamilo LMS Unauthenticated RCE | ⚪ 高危 | 24 |
-| [CVE-2023-4220](CVE-2023-4220-numaan911098_CVE-2023-4220.md) | CVE-2023-4220-Chamilo-Unrestricted File Upload | ⚪ 高危 | 24 |
-| [CVE-2023-4220](CVE-2023-4220-oxapavan_CVE-2023-4220-HTB-PermX.md) | CVE-2023-4220-Chamilo LMS Unauthenticated RCE | ⚪ 高危 | 24 |
-| [CVE-2023-4220](CVE-2023-4220-qrxnz_CVE-2023-4220.md) | CVE-2023-4220-Chamilo LMS-未授权文件上传导致RCE | ⚪ 高危 | 24 |
-| [CVE-2023-4220](CVE-2023-4220-thefizzyfish_CVE-2023-4220_Chamilo_RCE.md) | CVE-2023-4220 - Chamilo LMS Unauthenticated Remote Code Exec... | ⚪ 高危 | 24 |
-| [CVE-2023-4220](CVE-2023-4220-zora-beep_CVE-2023-4220.md) | CVE-2023-4220-Chamilo-RCE | ⚪ 高危 | 24 |
+| [CVE-2023-4220](CVE-2023-4220-0x00-null_Chamilo-CVE-2023-4220-RCE-Exploit.md) | CVE-2023-4220 - Chamilo LMS RCE (Remote Code Execution) | 🔴 Critical | 25 |
+| [CVE-2023-4220](CVE-2023-4220-0xDTC_Chamilo-LMS-CVE-2023-4220-Exploit.md) | CVE-2023-4220-Chamilo LMS-RCE | ⚪ 高危 | 25 |
+| [CVE-2023-4220](CVE-2023-4220-Al3xGD_CVE-2023-4220-Exploit.md) | CVE-2023-4220 - Chamilo LMS RCE/任意文件上传 | 🔴 CRITICAL | 25 |
+| [CVE-2023-4220](CVE-2023-4220-H4cking4All_CVE-2023-4220.md) | CVE-2023-4220 - Chamilo LMS RCE (远程代码执行) | 🔴 CRITICAL | 25 |
+| [CVE-2023-4220](CVE-2023-4220-HO4XXX_cve-2023-4220-poc.md) | CVE-2023-4220 - Chamilo LMS RCE (远程代码执行) | 🔴 CRITICAL | 25 |
+| [CVE-2023-4220](CVE-2023-4220-LGenAgul_CVE-2023-4220-Proof-of-concept.md) | CVE-2023-4220 - Chamilo LMS 任意文件上传导致远程代码执行 (RCE) | 🔴 CRITICAL | 25 |
+| [CVE-2023-4220](CVE-2023-4220-MikeyPPPPPPPP_CVE-2023-4220.md) | CVE-2023-4220 Chamilo LMS Unauthenticated Big Upload File Re... | ⚪ 高危 | 25 |
+| [CVE-2023-4220](CVE-2023-4220-N1ghtfallXxX_CVE-2023-4220.md) | CVE-2023-4220-Chamilo LMS-远程代码执行 | ⚪ 高危 | 25 |
+| [CVE-2023-4220](CVE-2023-4220-Pr1or95_CVE-2023-4220-exploit.md) | CVE-2023-4220 - Chamilo LMS 任意文件上传导致的远程代码执行 (RCE) | 🔴 CRITICAL | 25 |
+| [CVE-2023-4220](CVE-2023-4220-Rai2en_CVE-2023-4220-Chamilo-LMS.md) | CVE-2023-4220 - Chamilo LMS RCE (远程代码执行) | 🔴 CRITICAL | 25 |
+| [CVE-2023-4220](CVE-2023-4220-VanishedPeople_CVE-2023-4220.md) | CVE-2023-4220 - Chamilo LMS RCE (远程代码执行) | 🟠 High (高危) | 25 |
+| [CVE-2023-4220](CVE-2023-4220-Ziad-Sakr_Chamilo-CVE-2023-4220-Exploit.md) | CVE-2023-4220 - Chamilo LMS RCE (远程代码执行) | ⚪ High/Critical | 25 |
+| [CVE-2023-4220](CVE-2023-4220-bueno-armando_CVE-2023-4220-RCE.md) | CVE-2023-4220 - Chamilo LMS 远程代码执行 (RCE) | ⚪ 高危 (High) | 25 |
+| [CVE-2023-4220](CVE-2023-4220-charchit-subedi_chamilo-lms-unauthenticated-rce-poc.md) | CVE-2023-4220 - Chamilo LMS RCE (远程代码执行) | 🔴 CRITICAL | 25 |
+| [CVE-2023-4220](CVE-2023-4220-charlesgargasson_CVE-2023-4220.md) | CVE-2023-4220 - Chamilo LMS RCE (远程代码执行) | 🔴 CRITICAL | 25 |
+| [CVE-2023-4220](CVE-2023-4220-dollarboysushil_Chamilo-LMS-Unauthenticated-File-Upload-CVE-2023-4220.md) | CVE-2023-4220 - Chamilo LMS RCE/文件上传漏洞 | ⚪ 高危 | 25 |
+| [CVE-2023-4220](CVE-2023-4220-gmh5225_CVE-2023-4220.md) | CVE-2023-4220 - Chamilo LMS 远程代码执行 (RCE) | ⚪ 高危 (Critical) | 25 |
+| [CVE-2023-4220](CVE-2023-4220-insomnia-jacob_CVE-2023-4220.md) | CVE-2023-4220-Chamilo LMS-RCE | ⚪ 高危 | 25 |
+| [CVE-2023-4220](CVE-2023-4220-m3m0o_chamilo-lms-unauthenticated-big-upload-rce-poc.md) | CVE-2023-4220 - Chamilo LMS RCE (远程代码执行) | 🔴 CRITICAL | 25 |
+| [CVE-2023-4220](CVE-2023-4220-nr4x4_CVE-2023-4220.md) | CVE-2023-4220 - Chamilo LMS 远程代码执行 (RCE) | 🔴 CRITICAL | 25 |
+| [CVE-2023-4220](CVE-2023-4220-numaan911098_CVE-2023-4220.md) | CVE-2023-4220 - Chamilo LMS RCE (远程代码执行) | 🟠 High | 25 |
+| [CVE-2023-4220](CVE-2023-4220-oxapavan_CVE-2023-4220-HTB-PermX.md) | CVE-2023-4220 - Chamilo LMS 任意文件上传 (Unrestricted File Upload... | 🔴 CRITICAL | 25 |
+| [CVE-2023-4220](CVE-2023-4220-qrxnz_CVE-2023-4220.md) | CVE-2023-4220-Chamilo LMS-未授权文件上传导致RCE | ⚪ 高危 | 25 |
+| [CVE-2023-4220](CVE-2023-4220-thefizzyfish_CVE-2023-4220_Chamilo_RCE.md) | CVE-2023-4220 - Chamilo LMS RCE (远程代码执行) | 🔴 CRITICAL | 25 |
+| [CVE-2023-4220](CVE-2023-4220-zora-beep_CVE-2023-4220.md) | CVE-2023-4220 - Chamilo LMS 任意文件上传 (Unrestricted File Upload... | ⚪ 高危 (High) | 25 |
 | [CVE-2023-4226](CVE-2023-4226-SkyW4r33x_CVE-2023-4226.md) | CVE-2023-4226-Chamilo-LMS-远程代码执行 | ⚪ 高危 | 2 |
 | [CVE-2023-4226](CVE-2023-4226-krishnan-tech_CVE-2023-4226-POC.md) | CVE-2023-4226-Chamilo-LMS-远程代码执行 | ⚪ 高危 | 2 |
-| [CVE-2023-42793](CVE-2023-42793-B4l3rI0n_CVE-2023-42793.md) | CVE-2023-42793 - TeamCity 身份验证绕过导致RCE | ⚪ 高危 | 15 |
-| [CVE-2023-42793](CVE-2023-42793-FlojBoj_CVE-2023-42793.md) | CVE-2023-42793-JetBrainsTeamCity-身份验证绕过导致RCE | ⚪ 高危 | 15 |
-| [CVE-2023-42793](CVE-2023-42793-H454NSec_CVE-2023-42793.md) | CVE-2023-42793 - JetBrains TeamCity 身份验证绕过导致RCE | ⚪ 高危 | 15 |
-| [CVE-2023-42793](CVE-2023-42793-HusenjanDev_CVE-2023-42793.md) | CVE-2023-42793-JetBrains TeamCity-RCE | ⚪ 高危 | 15 |
-| [CVE-2023-42793](CVE-2023-42793-LeHeron_TC_test.md) | CVE-2023-42793-JetBrains TeamCity-身份验证绕过导致RCE | ⚪ 高危 | 15 |
-| [CVE-2023-42793](CVE-2023-42793-StanleyJobsonAU_GhostTown.md) | CVE-2023-42793-JetBrains TeamCity-RCE | ⚪ 高危 | 15 |
-| [CVE-2023-42793](CVE-2023-42793-SwiftSecur_teamcity-exploit-cve-2023-42793.md) | CVE-2023-42793-JetBrains TeamCity-RCE | ⚪ 高危 | 15 |
-| [CVE-2023-42793](CVE-2023-42793-Zenmovie_CVE-2023-42793.md) | CVE-2023-42793 - JetBrains TeamCity 身份验证绕过导致RCE | ⚪ 严重 | 15 |
-| [CVE-2023-42793](CVE-2023-42793-becrevex_CVE-2023-42793.md) | CVE-2023-42793-JetBrains TeamCity-认证绕过RCE | ⚪ 高危 | 15 |
-| [CVE-2023-42793](CVE-2023-42793-hotplugin0x01_CVE-2023-42793.md) | CVE-2023-42793-JetBrains TeamCity-RCE | ⚪ 极高 | 15 |
-| [CVE-2023-42793](CVE-2023-42793-jakehomb_cve-2023-42793.md) | CVE-2023-42793-JetBrains TeamCity-身份验证绕过导致RCE | ⚪ 高危 | 15 |
-| [CVE-2023-42793](CVE-2023-42793-johnossawy_CVE-2023-42793_POC.md) | CVE-2023-42793-JetBrains TeamCity-认证绕过RCE | ⚪ 高危 | 15 |
-| [CVE-2023-42793](CVE-2023-42793-syaifulandy_Nuclei-Template-CVE-2023-42793.yaml.md) | CVE-2023-42793-JetBrains TeamCity RCE | ⚪ 高危 | 15 |
-| [CVE-2023-42793](CVE-2023-42793-syorik_CVE-2023-42793-poc.md) | CVE-2023-42793-JetBrains TeamCity-RCE | ⚪ 严重 | 15 |
-| [CVE-2023-42793](CVE-2023-42793-whoamins_CVE-2023-42793.md) | CVE-2023-42793-JetBrains-TeamCity-身份验证绕过RCE | ⚪ 严重 | 15 |
+| [CVE-2023-42793](CVE-2023-42793-B4l3rI0n_CVE-2023-42793.md) | CVE-2023-42793 - JetBrains TeamCity RCE (远程代码执行) | 🔴 CRITICAL | 17 |
+| [CVE-2023-42793](CVE-2023-42793-DDestinys_CVE-2023-42793.md) | CVE-2023-42793 - JetBrains TeamCity 认证绕过 / RCE | ⚪ 严重 (CRITICAL) | 17 |
+| [CVE-2023-42793](CVE-2023-42793-FlojBoj_CVE-2023-42793.md) | CVE-2023-42793 - JetBrains TeamCity 身份认证绕过/远程代码执行(RCE) | ⚪ 严重 (Critical) | 17 |
+| [CVE-2023-42793](CVE-2023-42793-H454NSec_CVE-2023-42793.md) | CVE-2023-42793 - JetBrains TeamCity 身份验证绕过/RCE | 🔴 CRITICAL | 17 |
+| [CVE-2023-42793](CVE-2023-42793-HusenjanDev_CVE-2023-42793.md) | CVE-2023-42793 - JetBrains TeamCity 身份验证绕过 / 远程代码执行 (RCE) | 🔴 CRITICAL | 17 |
+| [CVE-2023-42793](CVE-2023-42793-LeHeron_TC_test.md) | CVE-2023-42793-JetBrains TeamCity-身份验证绕过导致RCE | ⚪ 高危 | 17 |
+| [CVE-2023-42793](CVE-2023-42793-StanleyJobsonAU_GhostTown.md) | CVE-2023-42793 - JetBrains TeamCity RCE (远程代码执行) | 🔴 CRITICAL | 17 |
+| [CVE-2023-42793](CVE-2023-42793-SwiftSecur_teamcity-exploit-cve-2023-42793.md) | CVE-2023-42793 - JetBrains TeamCity 身份验证绕过导致的远程代码执行 (RCE) | 🔴 CRITICAL | 17 |
+| [CVE-2023-42793](CVE-2023-42793-Zenmovie_CVE-2023-42793.md) | CVE-2023-42793 - JetBrains TeamCity 身份验证绕过/远程代码执行(RCE) | ⚪ 严重 (CRITICAL) | 17 |
+| [CVE-2023-42793](CVE-2023-42793-becrevex_CVE-2023-42793.md) | CVE-2023-42793 - JetBrains TeamCity RCE/身份认证绕过 | 🔴 CRITICAL | 17 |
+| [CVE-2023-42793](CVE-2023-42793-hotplugin0x01_CVE-2023-42793.md) | CVE-2023-42793 - JetBrains TeamCity 身份验证绕过 (Authentication B... | 🔴 CRITICAL | 17 |
+| [CVE-2023-42793](CVE-2023-42793-jakehomb_cve-2023-42793.md) | CVE-2023-42793 - JetBrains TeamCity 身份验证绕过 | 🔴 CRITICAL | 17 |
+| [CVE-2023-42793](CVE-2023-42793-johnossawy_CVE-2023-42793_POC.md) | CVE-2023-42793 - JetBrains TeamCity 身份验证绕过 (Authentication B... | 🔴 CRITICAL | 17 |
+| [CVE-2023-42793](CVE-2023-42793-syaifulandy_Nuclei-Template-CVE-2023-42793.yaml.md) | CVE-2023-42793 - JetBrains TeamCity RCE (Remote Code Executi... | 🔴 CRITICAL | 17 |
+| [CVE-2023-42793](CVE-2023-42793-syorik_CVE-2023-42793-poc.md) | CVE-2023-42793-JetBrains TeamCity-RCE | ⚪ 严重 | 17 |
+| [CVE-2023-42793](CVE-2023-42793-syorik_CVE-2023-42793.md) | CVE-2023-42793 - JetBrains TeamCity RCE (远程代码执行) | ⚪ 严重 (CRITICAL) | 17 |
+| [CVE-2023-42793](CVE-2023-42793-whoamins_CVE-2023-42793.md) | CVE-2023-42793 - JetBrains TeamCity 身份验证绕过/远程代码执行 | 🔴 CRITICAL | 17 |
 | [CVE-2023-42931](CVE-2023-42931-d0rb_CVE-2023-42931.md) | CVE-2023-42931 - macOS Privilege Escalation | ⚪ 高危 | 2 |
 | [CVE-2023-42931](CVE-2023-42931-tageniu_CVE-2023-42931.md) | CVE-2023-42931 - macOS Privilege Escalation | ⚪ 高危 | 2 |
 | [CVE-2023-42961](CVE-2023-42961-windz3r0day_CVE-2023-42961.md) | CVE-2023-42961 - intents_helper.xpc 沙箱逃逸 | ⚪ 中危 | 1 |
@@ -776,6 +779,15 @@
 | [CVE-2023-46818](CVE-2023-46818-vulnerk0_CVE-2023-46818.md) | CVE-2023-46818-ISPConfig-PHP代码注入 | ⚪ 高危 | 8 |
 | [CVE-2023-46818](CVE-2023-46818-z7Akane_CVE-2023-46818.md) | CVE-2023-46818 - ISPConfig PHP 代码注入 | ⚪ 高危 | 8 |
 | [CVE-2023-48292](CVE-2023-48292-Mehran-Seifalinia_CVE-2023-48292.md) | CVE-2023-48292 - XWiki Admin Tools CSRF to RCE | ⚪ 严重 | 1 |
+| [CVE-2023-4863](CVE-2023-4863-CrackerCat_CVE-2023-4863-.md) | CVE-2023-4863 - Google Chrome / libwebp 堆缓冲区溢出 | ⚪ 高危 | 9 |
+| [CVE-2023-4863](CVE-2023-4863-GTGalaxi_ElectronVulnerableVersion.md) | CVE-2023-4863 - Google Chrome, Electron, libwebp 堆缓冲区溢出 | ⚪ 高危 | 9 |
+| [CVE-2023-4863](CVE-2023-4863-LiveOverflow_webp-CVE-2023-4863.md) | CVE-2023-4863 - libwebp (广泛应用于 Google Chrome, Android, 以及各种图... | ⚪ 高危 | 9 |
+| [CVE-2023-4863](CVE-2023-4863-OITApps_Find-VulnerableElectronVersion.md) | CVE-2023-4863 - Google Chrome, libwebp, Electron-based appli... | 🔴 CRITICAL | 9 |
+| [CVE-2023-4863](CVE-2023-4863-bbaranoff_CVE-2023-4863.md) | CVE-2023-4863 - Google Chrome / libwebp 堆缓冲区溢出 | ⚪ 高危 | 9 |
+| [CVE-2023-4863](CVE-2023-4863-caoweiquan322_NotEnough.md) | CVE-2023-4863 - libwebp Heap Buffer Overflow | 🔴 CRITICAL | 9 |
+| [CVE-2023-4863](CVE-2023-4863-huiwen-yayaya_CVE-2023-4863.md) | CVE-2023-4863 - Google Chrome / libwebp 堆缓冲区溢出 (Heap Buffer ... | ⚪ 高危 | 9 |
+| [CVE-2023-4863](CVE-2023-4863-mistymntncop_CVE-2023-4863.md) | CVE-2023-4863 - Google Chrome, libwebp, Microsoft Teams and ... | 🔴 Critical | 9 |
+| [CVE-2023-4863](CVE-2023-4863-murphysecurity_libwebp-checker.md) | CVE-2023-4863 - libwebp (广泛应用于 Google Chrome, Android, 以及包含 ... | ⚪ 高危 | 9 |
 | [CVE-2023-48795](CVE-2023-48795-Eros-Adrian-Figueroa-Cortes_CVE-2023-48795.md) | CVE-2023-48795 - SSH Terrapin攻击 | ⚪ 中危 | 2 |
 | [CVE-2023-48795](CVE-2023-48795-TrixSec_CVE-2023-48795.md) | CVE-2023-48795 - SSH Terrapin攻击 | ⚪ 中危 | 2 |
 | [CVE-2023-49103](CVE-2023-49103-d0rb_CVE-2023-49103.md) | CVE-2023-49103 - ownCloud graphapi 信息泄露 | ⚪ 高危 | 3 |
@@ -804,6 +816,7 @@
 | [CVE-2023-49440](CVE-2023-49440-KernelCipher_CVE-2023-49440-POC.md) | CVE-2023-49440-AhnLab EPP Management SQL注入 | ⚪ 高危 | 2 |
 | [CVE-2023-49440](CVE-2023-49440-NyaMeeEain_CVE-2023-49440.md) | CVE-2023-49440-AhnLab EPP Management-SQL注入 | ⚪ 高危 | 2 |
 | [CVE-2023-49496](CVE-2023-49496-HuangYanQwQ_CVE-2023-49496_PoC.md) | 未知漏洞 - GPL License分析 | ⚪ 低危 | 1 |
+| [CVE-2023-49785](CVE-2023-49785-hyunnna_NextChat_SSRF_CVE-2023-49785.md) | CVE-2023-49785 - NextChat (ChatGPT-Next-Web) SSRF | ⚪ 高危 | 1 |
 | [CVE-2023-50164](CVE-2023-50164-AsfandAliMemon25_CVE-2023-50164Analysis-.md) | CVE-2023-50164-Apache Struts 文件上传路径遍历与RCE | ⚪ 高危 | 14 |
 | [CVE-2023-50164](CVE-2023-50164-MKIRAHMET_CVE-2023-50164-HTB-strutted.md) | CVE-2023-50164: Apache Struts 文件上传路径遍历导致远程代码执行 | ⚪ 高危 | 14 |
 | [CVE-2023-50164](CVE-2023-50164-Pixel-DefaultBR_CVE-2023-50164.md) | CVE-2023-50164 - Apache Struts 文件上传路径遍历与远程代码执行 | ⚪ 高危 | 14 |
@@ -904,4 +917,4 @@
 
 ---
 
-*最后更新: 2025-12-28*
+*最后更新: 2026-01-08*
