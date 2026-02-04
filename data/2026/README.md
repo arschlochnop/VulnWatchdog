@@ -1,6 +1,6 @@
 # 2026年 CVE漏洞列表
 
-> 📊 共收录 **6** 个CVE漏洞
+> 📊 共收录 **8** 个CVE漏洞
 
 ---
 
@@ -14,6 +14,8 @@
 | [CVE-2026-21858](CVE-2026-21858-Chocapikk_CVE-2026-21858.md) | CVE-2026-21858 - n8n 远程代码执行 (RCE) | 🔴 CRITICAL | 2 |
 | [CVE-2026-21858](CVE-2026-21858-eduardorossi84_CVE-2026-21858-POC.md) | CVE-2026-21858 - n8n (工作流自动化平台) RCE (远程代码执行) | ⚪ 严重 (Critical) | 2 |
 | [CVE-2026-21876](CVE-2026-21876-daytriftnewgen_CVE-2026-21876.md) | CVE-2026-21876 - OWASP Core Rule Set (CRS) WAF绕过/跨站脚本(XSS) | ⚪ 严重 (Critical) | 1 |
+| [CVE-2026-24061](CVE-2026-24061-Moxxic1_Tell-Me-Root.md) | CVE-2026-24061 - GNU InetUtils telnetd 远程认证绕过, 权限提升, 环境变量注入,... | ⚪ 关键级 / 严重 | 2 |
+| [CVE-2026-24061](CVE-2026-24061-ibrahmsql_CVE-2026-24061-PoC.md) | CVE-2026-24061 - GNU InetUtils telnetd 远程身份验证绕过 | 🔴 Critical (高危) | 2 |
 
 ---
 
