@@ -13,9 +13,9 @@
 | [CVE-2026-21440](CVE-2026-21440-you-ssef9_CVE-2026-21440.md) | CVE-2026-21440 - AdonisJS BodyParser 路径穿越/任意文件写入 | ⚪ 高危 | 2 |
 | [CVE-2026-21858](CVE-2026-21858-Alhakim88_CVE-2026-21858.md) | CVE-2026-21858 - n8n (工作流自动化平台) 远程代码执行 (RCE) | ⚪ 严重 (Critical) | 5 |
 | [CVE-2026-21858](CVE-2026-21858-Chocapikk_CVE-2026-21858.md) | CVE-2026-21858 - n8n 远程代码执行 (RCE) | 🔴 CRITICAL | 5 |
-| [CVE-2026-21858](CVE-2026-21858-bgarz929_Ashwesker-CVE-2026-21858.md) | CVE-2026-21858 - n8n Workflow Automation Platform 远程代码执行 (RC... | 🔴 Critical | 5 |
+| [CVE-2026-21858](CVE-2026-21858-bgarz929_Ashwesker-CVE-2026-21858.md) | CVE-2026-21858 - n8n (工作流自动化平台) 远程代码执行 (RCE) | 🔴 Critical | 5 |
 | [CVE-2026-21858](CVE-2026-21858-eduardorossi84_CVE-2026-21858-POC.md) | CVE-2026-21858 - n8n (工作流自动化平台) RCE (远程代码执行) | ⚪ 严重 (Critical) | 5 |
-| [CVE-2026-21858](CVE-2026-21858-sastraadiwiguna-purpleeliteteaming_SASTRA-ADI-WIGUNA-CVE-2026-21858-Holistic-Audit.md) | CVE-2026-21858 - n8n Content-Type混淆导致远程代码执行 | ⚪ 高危 | 5 |
+| [CVE-2026-21858](CVE-2026-21858-sastraadiwiguna-purpleeliteteaming_SASTRA-ADI-WIGUNA-CVE-2026-21858-Holistic-Audit.md) | CVE-2026-21858 - n8n 远程代码执行 (RCE) | ⚪ 严重 | 5 |
 | [CVE-2026-21876](CVE-2026-21876-daytriftnewgen_CVE-2026-21876.md) | CVE-2026-21876 - OWASP Core Rule Set (CRS) WAF绕过/跨站脚本(XSS) | ⚪ 严重 (Critical) | 1 |
 | [CVE-2026-24061](CVE-2026-24061-0x7556_CVE-2026-24061.md) | CVE-2026-24061 - GNU InetUtils telnetd 认证绕过, 参数注入, 权限提升 (Roo... | ⚪ 严重 | 19 |
 | [CVE-2026-24061](CVE-2026-24061-0xXyc_telnet-inetutils-auth-bypass-CVE-2026-24061.md) | CVE-2026-24061 - GNU InetUtils telnetd 认证绕过 (参数注入) | ⚪ 严重 (Critical) | 19 |
