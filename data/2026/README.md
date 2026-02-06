@@ -24,7 +24,7 @@
 | [CVE-2026-24061](CVE-2026-24061-Good123321-bot_good123321-bot.github.io.md) | CVE-2026-24061 - GNU InetUtils telnetd 参数注入 (Argument Inject... | ⚪ 严重 (Critical) | 19 |
 | [CVE-2026-24061](CVE-2026-24061-Lingzesec_CVE-2026-24061-GUI.md) | CVE-2026-24061 - GNU InetUtils telnetd 参数注入 / 远程认证绕过 | ⚪ 严重 / Critical | 19 |
 | [CVE-2026-24061](CVE-2026-24061-MY0723_GNU-Inetutils-telnet-CVE-2026-24061-.md) | CVE-2026-24061 - GNU InetUtils telnetd 认证绕过, 环境变量注入, 权限提升 | ⚪ 严重 | 19 |
-| [CVE-2026-24061](CVE-2026-24061-Moxxic1_Tell-Me-Root.md) | CVE-2026-24061 - GNU InetUtils telnetd 远程认证绕过, 权限提升, 环境变量注入,... | ⚪ 关键级 / 严重 | 19 |
+| [CVE-2026-24061](CVE-2026-24061-Moxxic1_Tell-Me-Root.md) | CVE-2026-24061 - GNU InetUtils telnetd 远程认证绕过/权限提升 | ⚪ 严重 | 19 |
 | [CVE-2026-24061](CVE-2026-24061-Moxxic1_moxxic1.github.io.md) | CVE-2026-24061 - GNU InetUtils telnetd 远程身份验证绕过 (Argument In... | 🔴 Critical | 19 |
 | [CVE-2026-24061](CVE-2026-24061-Parad0x7e_CVE-2026-24061.md) | CVE-2026-24061 - GNU InetUtils telnetd 远程认证绕过, 参数注入 | ⚪ 严重 | 19 |
 | [CVE-2026-24061](CVE-2026-24061-SeptembersEND_CVE--2026-24061.md) | CVE-2026-24061 - GNU InetUtils telnetd 认证绕过/参数注入 (Authentica... | ⚪ 严重 (Critical) | 19 |
