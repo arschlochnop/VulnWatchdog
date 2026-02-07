@@ -1,7 +1,7 @@
 {
   "$schema": "blacklist-schema.json",
   "version": "1.0.0",
-  "last_updated": "2026-02-07T13:47:42.953571Z",
+  "last_updated": "2026-02-07T18:25:23.269652Z",
   "description": "VulnWatchdog 黑名单配置文件 - 用于过滤低质量POC和恶意仓库",
   "settings": {
     "auto_blacklist_enabled": true,
@@ -1284,6 +1284,16 @@
         "last_quality_score": 0,
         "last_poisoning_risk": 0,
         "notes": "自动拉黑 - 失败原因: POC质量过低: 0/10"
+      },
+      {
+        "username": "CQ-Tools",
+        "reason": "POC质量持续过低(最近评分: 0/10)",
+        "added_date": "2026-02-07",
+        "added_by": "auto",
+        "fail_count": 1,
+        "last_quality_score": 0,
+        "last_poisoning_risk": 0,
+        "notes": "自动拉黑 - 失败原因: POC质量过低: 0"
       }
     ],
     "repositories": [
@@ -1323,7 +1333,7 @@
     "blocked_by_author": 1309,
     "blocked_by_repository": 1,
     "blocked_by_cve": 0,
-    "auto_blacklisted_authors": 126,
+    "auto_blacklisted_authors": 127,
     "auto_blacklisted_repositories": 0
   }
 }
