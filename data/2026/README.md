@@ -1,6 +1,6 @@
 # 2026年 CVE漏洞列表
 
-> 📊 共收录 **29** 个CVE漏洞
+> 📊 共收录 **30** 个CVE漏洞
 
 ---
 
@@ -11,12 +11,13 @@
 | [CVE-2026-0628](CVE-2026-0628-fevar54_CVE-2026-0628-POC.md) | CVE-2026-0628 - Google Chrome (WebView组件) 权限绕过/脚本注入 | ⚪ 高 (High) | 1 |
 | [CVE-2026-21440](CVE-2026-21440-k0nnect_cve-2026-21440-writeup.md) | CVE-2026-21440 - AdonisJS (@adonisjs/bodyparser) 路径穿越 (Path ... | 🔴 CRITICAL | 2 |
 | [CVE-2026-21440](CVE-2026-21440-you-ssef9_CVE-2026-21440.md) | CVE-2026-21440 - AdonisJS BodyParser 路径穿越/任意文件写入 | ⚪ 高危 | 2 |
-| [CVE-2026-21858](CVE-2026-21858-Alhakim88_CVE-2026-21858.md) | CVE-2026-21858 - n8n (工作流自动化平台) 远程代码执行 (RCE) | ⚪ 严重 (Critical) | 6 |
-| [CVE-2026-21858](CVE-2026-21858-Chocapikk_CVE-2026-21858.md) | CVE-2026-21858 - n8n 远程代码执行 (RCE) | 🔴 CRITICAL | 6 |
-| [CVE-2026-21858](CVE-2026-21858-bgarz929_Ashwesker-CVE-2026-21858.md) | CVE-2026-21858 - n8n Workflow Automation Platform 远程代码执行 (RC... | 🔴 Critical | 6 |
-| [CVE-2026-21858](CVE-2026-21858-eduardorossi84_CVE-2026-21858-POC.md) | CVE-2026-21858 - n8n (工作流自动化平台) RCE (远程代码执行) | ⚪ 严重 (Critical) | 6 |
-| [CVE-2026-21858](CVE-2026-21858-sastraadiwiguna-purpleeliteteaming_SASTRA-ADI-WIGUNA-CVE-2026-21858-Holistic-Audit.md) | CVE-2026-21858 - n8n 远程代码执行 (RCE) | ⚪ 严重 | 6 |
-| [CVE-2026-21858](CVE-2026-21858-sec-dojo-com_CVE-2026-21858.md) | CVE-2026-21858 - n8n 远程代码执行 (RCE), Content-Type混淆, 任意文件读取, 表... | ⚪ 超高危 | 6 |
+| [CVE-2026-21858](CVE-2026-21858-Alhakim88_CVE-2026-21858.md) | CVE-2026-21858 - n8n (工作流自动化平台) 远程代码执行 (RCE) | ⚪ 严重 (Critical) | 7 |
+| [CVE-2026-21858](CVE-2026-21858-Chocapikk_CVE-2026-21858.md) | CVE-2026-21858 - n8n 远程代码执行 (RCE) | 🔴 CRITICAL | 7 |
+| [CVE-2026-21858](CVE-2026-21858-bgarz929_Ashwesker-CVE-2026-21858.md) | CVE-2026-21858 - n8n Workflow Automation Platform 远程代码执行 (RC... | 🔴 Critical | 7 |
+| [CVE-2026-21858](CVE-2026-21858-cropnet_ni8mare-scanner.md) | CVE-2026-21858 - n8n 远程代码执行 (RCE) | ⚪ 高危 | 7 |
+| [CVE-2026-21858](CVE-2026-21858-eduardorossi84_CVE-2026-21858-POC.md) | CVE-2026-21858 - n8n (工作流自动化平台) RCE (远程代码执行) | ⚪ 严重 (Critical) | 7 |
+| [CVE-2026-21858](CVE-2026-21858-sastraadiwiguna-purpleeliteteaming_SASTRA-ADI-WIGUNA-CVE-2026-21858-Holistic-Audit.md) | CVE-2026-21858 - n8n 远程代码执行 (RCE) | ⚪ 严重 | 7 |
+| [CVE-2026-21858](CVE-2026-21858-sec-dojo-com_CVE-2026-21858.md) | CVE-2026-21858 - n8n 远程代码执行 (RCE), Content-Type混淆, 任意文件读取, 表... | ⚪ 超高危 | 7 |
 | [CVE-2026-21876](CVE-2026-21876-daytriftnewgen_CVE-2026-21876.md) | CVE-2026-21876 - OWASP Core Rule Set (CRS) WAF绕过/跨站脚本(XSS) | ⚪ 严重 (Critical) | 1 |
 | [CVE-2026-24061](CVE-2026-24061-0x7556_CVE-2026-24061.md) | CVE-2026-24061 - GNU InetUtils telnetd 认证绕过, 参数注入, 权限提升 (Roo... | ⚪ 严重 | 19 |
 | [CVE-2026-24061](CVE-2026-24061-0xXyc_telnet-inetutils-auth-bypass-CVE-2026-24061.md) | CVE-2026-24061 - GNU InetUtils telnetd 认证绕过 (参数注入) | ⚪ 严重 (Critical) | 19 |
