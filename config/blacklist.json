@@ -1,7 +1,7 @@
 {
   "$schema": "blacklist-schema.json",
   "version": "1.0.0",
-  "last_updated": "2026-02-08T09:25:41.666567Z",
+  "last_updated": "2026-02-08T11:15:57.463252Z",
   "description": "VulnWatchdog 黑名单配置文件 - 用于过滤低质量POC和恶意仓库",
   "settings": {
     "auto_blacklist_enabled": true,
@@ -1314,6 +1314,16 @@
         "last_quality_score": 0,
         "last_poisoning_risk": 0,
         "notes": "自动拉黑 - 失败原因: POC质量过低: 0"
+      },
+      {
+        "username": "obrunolima1910",
+        "reason": "投毒风险持续过高(最近风险: 75%)",
+        "added_date": "2026-02-08",
+        "added_by": "auto",
+        "fail_count": 1,
+        "last_quality_score": 10,
+        "last_poisoning_risk": 75,
+        "notes": "自动拉黑 - 失败原因: 投毒风险过高: 75%"
       }
     ],
     "repositories": [
@@ -1353,7 +1363,7 @@
     "blocked_by_author": 1317,
     "blocked_by_repository": 1,
     "blocked_by_cve": 0,
-    "auto_blacklisted_authors": 129,
+    "auto_blacklisted_authors": 130,
     "auto_blacklisted_repositories": 0
   }
 }
