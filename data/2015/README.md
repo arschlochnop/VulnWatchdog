@@ -1,6 +1,6 @@
 # 2015年 CVE漏洞列表
 
-> 📊 共收录 **57** 个CVE漏洞
+> 📊 共收录 **59** 个CVE漏洞
 
 ---
 
@@ -10,7 +10,8 @@
 |---------|------|----------|-----------|
 | [CVE-2015-0009](CVE-2015-0009-PhoenixC46_ExploitPOC_MS15-014_CVE-2015-0009.md) | CVE-2015-0009 - Group Policy Security Feature Bypass | ⚪ 高危 | 1 |
 | [CVE-2015-10137](CVE-2015-10137-Kai-One001_-CVE-2015-10137-WordPress-N-Media-Website-Contact-Form-with-File-Upload-1.3.4.md) | CVE-2015-10137-WordPress-N-Media-Website-Contact-Form-with-F... | ⚪ 高危 | 1 |
-| [CVE-2015-10141](CVE-2015-10141-D3Ext_CVE-2015-10141.md) | CVE-2015-10141 - Xdebug Remote Debugger Unauthenticated OS C... | ⚪ 高危 | 1 |
+| [CVE-2015-10141](CVE-2015-10141-D3Ext_CVE-2015-10141.md) | CVE-2015-10141 - Xdebug Remote Debugger Unauthenticated OS C... | ⚪ 高危 | 2 |
+| [CVE-2015-10141](CVE-2015-10141-n0m4d22_PoC-CVE-2015-10141-Xdebug.md) | CVE-2015-10141 - Xdebug Remote Debugger Unauthenticated OS C... | ⚪ 高危 | 2 |
 | [CVE-2015-1328](CVE-2015-1328-0xf1d0_CVE-2015-1328.md) | CVE-2015-1328-Overlayfs本地提权 | ⚪ 高危 | 5 |
 | [CVE-2015-1328](CVE-2015-1328-1mgR00T_CVE-2015-1328.md) | CVE-2015-1328 - OverlayFS 本地提权 | ⚪ 高危 | 5 |
 | [CVE-2015-1328](CVE-2015-1328-devtz007_overlayfs_CVE-2015-1328.md) | CVE-2015-1328 - Overlayfs 本地提权 | ⚪ 高危 | 5 |
@@ -48,7 +49,8 @@
 | [CVE-2015-3306](CVE-2015-3306-nootropics_propane.md) | CVE-2015-3306-ProFTPD-任意文件读写 | ⚪ 高危 | 14 |
 | [CVE-2015-3306](CVE-2015-3306-shk0x_cpx_proftpd.md) | CVE-2015-3306 - ProFTPD mod_copy 文件访问控制漏洞 | ⚪ 高危 | 14 |
 | [CVE-2015-3306](CVE-2015-3306-t0kx_exploit-CVE-2015-3306.md) | CVE-2015-3306 ProFTPD mod_copy 任意文件读写 | ⚪ 高危 | 14 |
-| [CVE-2015-4133](CVE-2015-4133-sug4r-wr41th_CVE-2015-4133.md) | CVE-2015-4133-ReFlex Gallery-任意文件上传 | ⚪ 高危 | 1 |
+| [CVE-2015-4133](CVE-2015-4133-D3Ext_CVE-2015-4133.md) | CVE-2015-4133-ReFlex Gallery-任意文件上传 | ⚪ 高危 | 2 |
+| [CVE-2015-4133](CVE-2015-4133-sug4r-wr41th_CVE-2015-4133.md) | CVE-2015-4133-ReFlex Gallery-任意文件上传 | ⚪ 高危 | 2 |
 | [CVE-2015-5736](CVE-2015-5736-avielzecharia_CVE-2015-5736.md) | CVE-2015-5736 - Fortinet FortiClient 本地提权 | ⚪ 高危 | 1 |
 | [CVE-2015-6420](CVE-2015-6420-Leeziao_CVE-2015-6420.md) | CVE-2015-6420 - Cisco 产品 Java 反序列化漏洞 | ⚪ 高危 | 1 |
 | [CVE-2015-6668](CVE-2015-6668-G01d3nW01f_CVE-2015-6668.md) | CVE-2015-6668-Job Manager-Insecure Direct Object Reference | ⚪ 中危 | 4 |
@@ -76,4 +78,4 @@
 
 ---
 
-*最后更新: 2026-02-10*
+*最后更新: 2026-02-11*
