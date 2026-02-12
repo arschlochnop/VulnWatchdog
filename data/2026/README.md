@@ -18,7 +18,7 @@
 | [CVE-2026-21858](CVE-2026-21858-Alhakim88_CVE-2026-21858.md) | CVE-2026-21858 - n8n 远程代码执行 (RCE) | 🔴 Critical / 严重 | 10 |
 | [CVE-2026-21858](CVE-2026-21858-Chocapikk_CVE-2026-21858.md) | CVE-2026-21858 - n8n 远程代码执行 (RCE), 通过Content-Type混淆导致的任意文件读取... | ⚪ 严重 | 10 |
 | [CVE-2026-21858](CVE-2026-21858-EQSTLab_CVE-2026-21858.md) | CVE-2026-21858 - n8n 未授权远程代码执行 (RCE), 任意文件读取, Token伪造, 沙箱绕过 | ⚪ 超危漏洞 | 10 |
-| [CVE-2026-21858](CVE-2026-21858-SystemVll_CVE-2026-21858.md) | CVE-2026-21858 - n8n Workflow Automation Platform 远程代码执行 (RC... | ⚪ 高危/Critical | 10 |
+| [CVE-2026-21858](CVE-2026-21858-SystemVll_CVE-2026-21858.md) | CVE-2026-21858 - n8n Workflow Automation Platform 远程代码执行 (RC... | ⚪ 关键 (Critical) | 10 |
 | [CVE-2026-21858](CVE-2026-21858-bgarz929_Ashwesker-CVE-2026-21858.md) | CVE-2026-21858 - n8n Workflow Automation 远程代码执行 (RCE) | ⚪ 严重 (Critical) | 10 |
 | [CVE-2026-21858](CVE-2026-21858-cropnet_Ni8mare.md) | CVE-2026-21858 - n8n 远程代码执行 (RCE) | ⚪ 严重 | 10 |
 | [CVE-2026-21858](CVE-2026-21858-cropnet_ni8mare-scanner.md) | CVE-2026-21858 - n8n 远程代码执行 (RCE) | ⚪ 最高严重性漏洞 (Critical) | 10 |
