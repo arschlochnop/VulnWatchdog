@@ -1,7 +1,7 @@
 {
   "$schema": "blacklist-schema.json",
   "version": "1.0.0",
-  "last_updated": "2026-02-11T08:02:46.996423Z",
+  "last_updated": "2026-02-12T17:53:08.004450Z",
   "description": "VulnWatchdog 黑名单配置文件 - 用于过滤低质量POC和恶意仓库",
   "settings": {
     "auto_blacklist_enabled": true,
@@ -1374,6 +1374,16 @@
         "last_quality_score": 8,
         "last_poisoning_risk": 75,
         "notes": "自动拉黑 - 失败原因: 投毒风险过高: 75%"
+      },
+      {
+        "username": "Riquelme54322",
+        "reason": "POC质量持续过低(最近评分: 1/10); 投毒风险持续过高(最近风险: 90%)",
+        "added_date": "2026-02-12",
+        "added_by": "auto",
+        "fail_count": 1,
+        "last_quality_score": 1,
+        "last_poisoning_risk": 90,
+        "notes": "自动拉黑 - 失败原因: POC质量过低: 1/10, 投毒风险过高: 90%"
       }
     ],
     "repositories": [
@@ -1413,7 +1423,7 @@
     "blocked_by_author": 1356,
     "blocked_by_repository": 1,
     "blocked_by_cve": 0,
-    "auto_blacklisted_authors": 135,
+    "auto_blacklisted_authors": 136,
     "auto_blacklisted_repositories": 0
   }
 }
