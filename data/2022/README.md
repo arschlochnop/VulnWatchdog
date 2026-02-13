@@ -1,6 +1,6 @@
 # 2022年 CVE漏洞列表
 
-> 📊 共收录 **626** 个CVE漏洞
+> 📊 共收录 **614** 个CVE漏洞
 
 ---
 
@@ -11,7 +11,8 @@
 | [CVE-2022-0000](CVE-2022-0000-nullsquirtle_CVE-2022-0000-PoC.md) | CVE-2022-0000-PoC | ⚪ 低危 | 1 |
 | [CVE-2022-0001](CVE-2022-0001-Sabecomoeh_CVE-2022-0001.md) | CVE-2022-0001-Intel Processors-信息泄露 | ⚪ 中危 | 1 |
 | [CVE-2022-0169](CVE-2022-0169-X3RX3SSec_CVE-2022-0169.md) | CVE-2022-0169-Photo Gallery by 10Web-SQL注入 | ⚪ 高危 | 1 |
-| [CVE-2022-0324](CVE-2022-0324-ngtuonghung_CVE-2022-0324.md) | CVE-2022-0324 - SONiC (Software for Open Networking in the C... | ⚪ 严重 (Critical) | 1 |
+| [CVE-2022-0324](CVE-2022-0324-ngtuonghung_CVE-2022-0324.md) | CVE-2022-0324 - SONiC (Software for Open Networking in the C... | ⚪ 严重 (Critical) | 2 |
+| [CVE-2022-0324](CVE-2022-0324-ngtuonghung_cve-2022-0324.md) | CVE-2022-0324 - SONiC (Software for Open Networking in the C... | ⚪ 严重 (Critical) | 2 |
 | [CVE-2022-0492](CVE-2022-0492-PaloAltoNetworks_can-ctr-escape-cve-2022-0492.md) | CVE-2022-0492-Linux Kernel cgroup_release_agent 特权提升/容器逃逸 | ⚪ 高危 | 7 |
 | [CVE-2022-0492](CVE-2022-0492-Perimora_cve_2022_0492.md) | CVE-2022-0492-Linux Kernel-cgroup_release_agent特权提升 | ⚪ 高危 | 7 |
 | [CVE-2022-0492](CVE-2022-0492-SofianeHamlaoui_CVE-2022-0492-Checker.md) | CVE-2022-0492-Linux内核cgroup_release_agent权限提升 | ⚪ 高危 | 7 |
@@ -80,8 +81,7 @@
 | [CVE-2022-0995](CVE-2022-0995-Bonfee_CVE-2022-0995.md) | CVE-2022-0995-Linux Kernel watch_queue OOB Write | ⚪ 高危 | 3 |
 | [CVE-2022-1257](CVE-2022-1257-kayes817_CVE-2022-1257.md) | CVE-2022-1257-McAfee Agent-敏感信息泄露 | ⚪ 中危 | 1 |
 | [CVE-2022-1274](CVE-2022-1274-shoucheng3_keycloak__keycloak_CVE-2022-1274_20-0-3.md) | CVE-2022-1274-Keycloak-HTML注入 | ⚪ 中危 | 1 |
-| [CVE-2022-1364](CVE-2022-1364-A1Lin_cve-2022-1364.md) | CVE-2022-1364 - Chrome V8 Turbofan 类型混淆漏洞 | ⚪ 高危 | 2 |
-| [CVE-2022-1364](CVE-2022-1364-interruptlabs_uc_browser_poc_CVE-2022-1364.md) | CVE-2022-1364 - Chrome V8 Turbofan 类型混淆漏洞 | ⚪ 高危 | 2 |
+| [CVE-2022-1364](CVE-2022-1364-A1Lin_cve-2022-1364.md) | CVE-2022-1364 - Chrome V8 Turbofan 类型混淆漏洞 | ⚪ 高危 | 1 |
 | [CVE-2022-1386](CVE-2022-1386-cur1y-dev_CVE-2022-1386.md) | CVE-2022-1386-Fusion Builder-SSRF | ⚪ 高危 | 5 |
 | [CVE-2022-1386](CVE-2022-1386-fayassgit_CVE-2022-1386-FusionBuilder-SSRF.md) | CVE-2022-1386 – Fusion Builder < 3.6.2 - Unauthenticated SSR... | ⚪ 高危 | 5 |
 | [CVE-2022-1386](CVE-2022-1386-im-hanzou_fubucker.md) | CVE-2022-1386 - Fusion Builder Unauthenticated SSRF | ⚪ 高危 | 5 |
@@ -223,8 +223,7 @@
 | [CVE-2022-22978](CVE-2022-22978-umakant76705_CVE-2022-22978.md) | CVE-2022-22978: Spring Security RegexRequestMatcher 身份验证绕过 | ⚪ 高危 | 6 |
 | [CVE-2022-22978](CVE-2022-22978-wan9xx_CVE-2022-22978-demo.md) | CVE-2022-22978-Spring Security RegexRequestMatcher 身份验证绕过 | ⚪ 高危 | 6 |
 | [CVE-2022-23082](CVE-2022-23082-shoucheng3_whitesource__curekit_CVE-2022-23082_1-1-3.md) | CVE-2022-23082-CureKit-路径遍历 | ⚪ 高危 | 1 |
-| [CVE-2022-23093](CVE-2022-23093-Symbolexe_DrayTek-Exploit.md) | CVE-2022-23093-FreeBSD-ping-Stack Overflow | ⚪ 中危 | 2 |
-| [CVE-2022-23093](CVE-2022-23093-SystemVll_CVE-2022-23093.md) | CVE-2022-23093-FreeBSD-ping-Stack Overflow | ⚪ 中危 | 2 |
+| [CVE-2022-23093](CVE-2022-23093-SystemVll_CVE-2022-23093.md) | CVE-2022-23093-FreeBSD-ping-Stack Overflow | ⚪ 中危 | 1 |
 | [CVE-2022-23134](CVE-2022-23134-TheN00bBuilder_cve-2022-23134-poc-and-writeup.md) | CVE-2022-23134-Zabbix Frontend-身份验证绕过 | ⚪ 中危 | 1 |
 | [CVE-2022-23457](CVE-2022-23457-shoucheng3_ESAPI__esapi-java-legacy_CVE-2022-23457_2-2-3-1.md) | CVE-2022-23457-ESAPI-路径遍历 | ⚪ 高危 | 1 |
 | [CVE-2022-23940](CVE-2022-23940-manuelz120_CVE-2022-23940.md) | CVE-2022-23940 - SuiteCRM 远程代码执行 | ⚪ 高危 | 1 |
@@ -250,16 +249,13 @@
 | [CVE-2022-24706](CVE-2022-24706-ahmetsabrimert_Apache-CouchDB-CVE-2022-24706-RCE-Exploits-Blog-post-.md) | CVE-2022-24706-Apache CouchDB远程代码执行 | ⚪ 高危 | 3 |
 | [CVE-2022-24706](CVE-2022-24706-becrevex_CVE-2022-24706.md) | CVE-2022-24706-Apache CouchDB-远程代码执行 | ⚪ 高危 | 3 |
 | [CVE-2022-24706](CVE-2022-24706-sadshade_CVE-2022-24706-CouchDB-Exploit.md) | CVE-2022-24706 - Apache CouchDB Remote Code Execution | ⚪ 高危 | 3 |
-| [CVE-2022-24707](CVE-2022-24707-Altelus1_CVE-2022-24707.md) | CVE-2022-24707-Anuko Time Tracker-SQL注入 | ⚪ 高危 | 2 |
-| [CVE-2022-24707](CVE-2022-24707-thepiyushkumarshukla_CVE-2022-24707_AnukoTimeTracker_Version-1.20.0_POC.md) | CVE-2022-24707-Anuko Time Tracker-SQL注入 | ⚪ 高危 | 2 |
-| [CVE-2022-24834](CVE-2022-24834-DukeSec97_CVE-2022-24834-.md) | CVE-2022-24834-Redis-Lua cjson heap overflow | ⚪ 高危 | 2 |
-| [CVE-2022-24834](CVE-2022-24834-convisolabs_CVE-2022-24834.md) | CVE-2022-24834-Redis-Lua cjson heap overflow | ⚪ 高危 | 2 |
+| [CVE-2022-24707](CVE-2022-24707-Altelus1_CVE-2022-24707.md) | CVE-2022-24707-Anuko Time Tracker-SQL注入 | ⚪ 高危 | 1 |
+| [CVE-2022-24834](CVE-2022-24834-DukeSec97_CVE-2022-24834-.md) | CVE-2022-24834-Redis-Lua cjson heap overflow | ⚪ 高危 | 1 |
 | [CVE-2022-24891](CVE-2022-24891-shoucheng3_ESAPI__esapi-java-legacy_CVE-2022-24891_2-2-3-1.md) | CVE-2022-24891-ESAPI-XSS | ⚪ 中危 | 1 |
 | [CVE-2022-24897](CVE-2022-24897-shoucheng3_xwiki__xwiki-commons_CVE-2022-24897_12-6-6.md) | CVE-2022-24897-xwiki-commons-文件系统写入 | ⚪ 高危 | 1 |
 | [CVE-2022-24992](CVE-2022-24992-esistferry_CVE-2022-24992.md) | CVE-2022-24992-QRCDR-目录遍历 | ⚪ 中危 | 1 |
 | [CVE-2022-24999](CVE-2022-24999-n8tz_CVE-2022-24999.md) | CVE-2022-24999-qs-Prototype污染 | ⚪ 高危 | 1 |
-| [CVE-2022-25012](CVE-2022-25012-G4sp4rCS_CVE-2022-25012-POC.md) | CVE-2022-25012-Argus Surveillance DVR v4.0 弱密码加密 | ⚪ 中危 | 2 |
-| [CVE-2022-25012](CVE-2022-25012-s3l33_CVE-2022-25012.md) | CVE-2022-25012-Argus Surveillance DVR v4.0 弱密码加密 | ⚪ 中危 | 2 |
+| [CVE-2022-25012](CVE-2022-25012-G4sp4rCS_CVE-2022-25012-POC.md) | CVE-2022-25012-Argus Surveillance DVR v4.0 弱密码加密 | ⚪ 中危 | 1 |
 | [CVE-2022-25173](CVE-2022-25173-shoucheng3_jenkinsci__workflow-cps-plugin_CVE-2022-25173_2646-v6ed3b5b01ff1.md) | CVE-2022-25173 - Jenkins Pipeline: Groovy Plugin OS 命令注入 | ⚪ 高危 | 1 |
 | [CVE-2022-25174](CVE-2022-25174-shoucheng3_jenkinsci__workflow-cps-global-lib-plugin_CVE-2022-25174_544-vff04fa68714d.md) | CVE-2022-25174 - Jenkins Pipeline Shared Groovy Libraries Pl... | ⚪ 高危 | 1 |
 | [CVE-2022-25175](CVE-2022-25175-shoucheng3_jenkinsci__workflow-multibranch-plugin_CVE-2022-25175_706-vd43c65dec013.md) | CVE-2022-25175 - Jenkins Pipeline Multibranch Plugin 任意命令执行 | ⚪ 高危 | 1 |
@@ -319,8 +315,7 @@
 | [CVE-2022-26134](CVE-2022-26134-xsxtw_CVE-2022-26134.md) | CVE-2022-26134 - Confluence RCE | 🔴 Critical | 30 |
 | [CVE-2022-26134](CVE-2022-26134-yTxZx_CVE-2022-26134.md) | CVE-2022-26134 - Atlassian Confluence OGNL注入 | ⚪ 严重 | 30 |
 | [CVE-2022-26134](CVE-2022-26134-yyqxi_CVE-2022-26134.md) | CVE-2022-26134 - Atlassian Confluence OGNL 注入远程代码执行 | ⚪ 高危 | 30 |
-| [CVE-2022-26265](CVE-2022-26265-SystemVll_CVE-2022-26265.md) | CVE-2022-26265-Contao Managed Edition-RCE | ⚪ 高危 | 2 |
-| [CVE-2022-26265](CVE-2022-26265-redteamsecurity2023_CVE-2022-26265.md) | CVE-2022-26265-Contao Managed Edition-RCE | ⚪ 高危 | 2 |
+| [CVE-2022-26265](CVE-2022-26265-SystemVll_CVE-2022-26265.md) | CVE-2022-26265-Contao Managed Edition-RCE | ⚪ 高危 | 1 |
 | [CVE-2022-26671](CVE-2022-26671-DefensiveOrigins_POC-CVE-2022-26671.md) | CVE-2022-26671 - TAIWAN SECOM CO., LTD. Personnel Attendance... | ⚪ 高危 | 1 |
 | [CVE-2022-26711](CVE-2022-26711-xpcmdshell_CVE-2022-26711.md) | CVE-2022-26711 - Apple ImageIO Framework 整数溢出导致的代码执行 (RCE) | 🔴 Critical | 1 |
 | [CVE-2022-26884](CVE-2022-26884-shoucheng3_apache__dolphinscheduler_CVE-2022-26884_2-0-5.md) | CVE-2022-26884-Apache DolphinScheduler-文件读取 | ⚪ 中危 | 1 |
@@ -428,8 +423,7 @@
 | [CVE-2022-32250](CVE-2022-32250-theori-io_CVE-2022-32250-exploit.md) | CVE-2022-32250-Linux Kernel Privilege Escalation | ⚪ 高危 | 5 |
 | [CVE-2022-32250](CVE-2022-32250-ysanatomic_CVE-2022-32250-LPE.md) | CVE-2022-32250-Linux Kernel Netfilter UAF LPE | ⚪ 高危 | 5 |
 | [CVE-2022-32287](CVE-2022-32287-shoucheng3_apache__uima-uimaj_CVE-2022-32287_3-3-0.md) | CVE-2022-32287-Apache UIMA-路径遍历 | ⚪ 高危 | 1 |
-| [CVE-2022-32532](CVE-2022-32532-Lay0us_CVE-2022-32532.md) | CVE-2022-32532-Apache Shiro 身份验证绕过 | ⚪ 高危 | 2 |
-| [CVE-2022-32532](CVE-2022-32532-my0113_shiro-cve-2022-32532.md) | CVE-2022-32532-Apache Shiro 身份验证绕过 | ⚪ 高危 | 2 |
+| [CVE-2022-32532](CVE-2022-32532-Lay0us_CVE-2022-32532.md) | CVE-2022-32532-Apache Shiro 身份验证绕过 | ⚪ 高危 | 1 |
 | [CVE-2022-33140](CVE-2022-33140-shoucheng3_apache__nifi_CVE-2022-33140_1-16-2.md) | CVE-2022-33140-Apache NiFi/Registry-命令注入 | ⚪ 高危 | 1 |
 | [CVE-2022-33647](CVE-2022-33647-vpxuser_CVE-2022-33647.md) | CVE-2022-33647-Windows Kerberos 提权漏洞 | ⚪ 高危 | 1 |
 | [CVE-2022-33679](CVE-2022-33679-Bdenneu_CVE-2022-33679.md) | CVE-2022-33679 Windows Kerberos 权限提升漏洞 | ⚪ 高危 | 3 |
@@ -437,8 +431,7 @@
 | [CVE-2022-33679](CVE-2022-33679-soy-oreocato_CVE-2022-33679_Checker.md) | CVE-2022-33679 Windows Kerberos 权限提升漏洞 | ⚪ 高危 | 3 |
 | [CVE-2022-34155](CVE-2022-34155-vanh-88_CVE-2022-34155.md) | CVE-2022-34155 - miniOrange OAuth Single Sign-On Plugin Auth... | ⚪ 高危 | 1 |
 | [CVE-2022-34662](CVE-2022-34662-shoucheng3_apache__dolphinscheduler_CVE-2022-34662_2-0-9.md) | CVE-2022-34662 - Apache DolphinScheduler Path Traversal | ⚪ 中危 | 1 |
-| [CVE-2022-3552](CVE-2022-3552-0xk4b1r_CVE-2022-3552.md) | CVE-2022-3552 BoxBilling 文件上传漏洞 | ⚪ 高危 | 2 |
-| [CVE-2022-3552](CVE-2022-3552-BakalMode_CVE-2022-3552.md) | CVE-2022-3552 BoxBilling 文件上传漏洞 | ⚪ 高危 | 2 |
+| [CVE-2022-3552](CVE-2022-3552-0xk4b1r_CVE-2022-3552.md) | CVE-2022-3552 BoxBilling 文件上传漏洞 | ⚪ 高危 | 1 |
 | [CVE-2022-35583](CVE-2022-35583-Malayke_CVE-2022-35583-Pandoc-SSRF-POC.md) | CVE-2022-35583 wkhtmlTOpdf SSRF | ⚪ 高危 | 1 |
 | [CVE-2022-36007](CVE-2022-36007-shoucheng3_jlangch__venice_CVE-2022-36007_1-10-16.md) | CVE-2022-36007-venice-Partial Path Traversal | ⚪ 中危 | 1 |
 | [CVE-2022-36537](CVE-2022-36537-Malwareman007_CVE-2022-36537.md) | CVE-2022-36537-ZK Framework-信息泄露/RCE | ⚪ 高危 | 2 |
@@ -473,8 +466,7 @@
 | [CVE-2022-38691](CVE-2022-38691-TomKing062_CVE-2022-38691_38692.md) | CVE-2022-38691/38692 Unisoc ROM 漏洞利用 | ⚪ 高危 | 1 |
 | [CVE-2022-38694](CVE-2022-38694-TheGammaSqueeze_Bootloader_Unlock_Anbernic_T820.md) | CVE-2022-38694 - Unisoc BootROM 漏洞 | ⚪ 高危 | 2 |
 | [CVE-2022-38694](CVE-2022-38694-TomKing062_CVE-2022-38694_unlock_bootloader.md) | CVE-2022-38694-Unisoc BootROM Bootloader Unlock | ⚪ 高危 | 2 |
-| [CVE-2022-39299](CVE-2022-39299-KaztoRay_CVE-2022-39299-Research.md) | CVE-2022-39299 - passport-saml 签名绕过 | ⚪ 高危 | 2 |
-| [CVE-2022-39299](CVE-2022-39299-doyensec_CVE-2022-39299_PoC_Generator.md) | CVE-2022-39299 - passport-saml 签名绕过 | ⚪ 高危 | 2 |
+| [CVE-2022-39299](CVE-2022-39299-KaztoRay_CVE-2022-39299-Research.md) | CVE-2022-39299 - passport-saml 签名绕过 | ⚪ 高危 | 1 |
 | [CVE-2022-40471](CVE-2022-40471-Dharan10_CVE-2022-40471.md) | CVE-2022-40471 - Clinic's Patient Management System (CPMS) R... | ⚪ 高危 (High) | 2 |
 | [CVE-2022-40471](CVE-2022-40471-RashidKhanPathan_CVE-2022-40471.md) | CVE-2022-40471 - Clinic's Patient Management System RCE (远程代... | 🔴 CRITICAL | 2 |
 | [CVE-2022-4065](CVE-2022-4065-shoucheng3_testng-team__testng_CVE-2022-4065_7-5.md) | CVE-2022-4065-testng-路径遍历 | ⚪ 中危 | 1 |
@@ -522,11 +514,9 @@
 | [CVE-2022-4137](CVE-2022-4137-shoucheng3_keycloak__keycloak_CVE-2022-4137_20-0-3.md) | CVE-2022-4137-Keycloak-Reflected XSS | ⚪ 高危 | 1 |
 | [CVE-2022-41544](CVE-2022-41544-h3x0v3rl0rd_CVE-2022-41544.md) | CVE-2022-41544-GetSimple CMS-RCE | ⚪ 高危 | 2 |
 | [CVE-2022-41544](CVE-2022-41544-nopgadget_CVE-2022-41544.md) | CVE-2022-41544 - GetSimple CMS 远程代码执行 | ⚪ 高危 | 2 |
-| [CVE-2022-41678](CVE-2022-41678-URJACK2025_CVE-2022-41678.md) | CVE-2022-41678: Apache ActiveMQ Jolokia API 远程代码执行 | ⚪ 高危 | 2 |
-| [CVE-2022-41678](CVE-2022-41678-mbadanoiu_CVE-2022-41678.md) | CVE-2022-41678: Apache ActiveMQ Jolokia API 远程代码执行 | ⚪ 高危 | 2 |
+| [CVE-2022-41678](CVE-2022-41678-mbadanoiu_CVE-2022-41678.md) | CVE-2022-41678: Apache ActiveMQ Jolokia API 远程代码执行 | ⚪ 高危 | 1 |
 | [CVE-2022-4174](CVE-2022-4174-moften_CVE-2022-4174_CVE-2022-41742.md) | CVE-2022-4174 V8 类型混淆漏洞 | ⚪ 高危 | 1 |
-| [CVE-2022-41741](CVE-2022-41741-dumbbutt0_evilMP4.md) | CVE-2022-41741 - Nginx ngx_http_mp4_module 内存损坏漏洞 | ⚪ 高危 | 2 |
-| [CVE-2022-41741](CVE-2022-41741-moften_CVE-2022-41741-742-Nginx-Vulnerability-Scanner.md) | CVE-2022-41741 - Nginx ngx_http_mp4_module 内存损坏漏洞 | ⚪ 高危 | 2 |
+| [CVE-2022-41741](CVE-2022-41741-moften_CVE-2022-41741-742-Nginx-Vulnerability-Scanner.md) | CVE-2022-41741 - Nginx ngx_http_mp4_module 内存损坏漏洞 | ⚪ 高危 | 1 |
 | [CVE-2022-42092](CVE-2022-42092-ajdumanhug_CVE-2022-42092.md) | CVE-2022-42092-Backdrop CMS-Unrestricted File Upload | ⚪ 高危 | 1 |
 | [CVE-2022-4244](CVE-2022-4244-shoucheng3_codehaus-plexus__plexus-utils_CVE-2022-4244_3-0-23.md) | CVE-2022-4244 - Codehaus-plexus Directory Traversal | ⚪ 高危 | 1 |
 | [CVE-2022-42889](CVE-2022-42889-34006133_CVE-2022-42889.md) | CVE-2022-42889 Text4Shell RCE | ⚪ 高危 | 28 |
@@ -558,11 +548,9 @@
 | [CVE-2022-42889](CVE-2022-42889-tulhan_commons-text-goat.md) | CVE-2022-42889 - Apache Commons Text RCE (远程代码执行) | 🔴 CRITICAL | 28 |
 | [CVE-2022-42889](CVE-2022-42889-vickyaryan7_Text4shell-exploit.md) | CVE-2022-42889-Apache Commons Text RCE | ⚪ 高危 | 28 |
 | [CVE-2022-43110](CVE-2022-43110-ready2disclose_CVE-2022-43110.md) | CVE-2022-43110 Voltronic Viewpower/Pro 权限绕过漏洞 | ⚪ 高危 | 1 |
-| [CVE-2022-4361](CVE-2022-4361-faccimatteo_CVE-2022-4361.md) | CVE-2022-4361-Keycloak-XSS | ⚪ 高危 | 2 |
-| [CVE-2022-4361](CVE-2022-4361-shoucheng3_keycloak__keycloak_CVE-2022-4361_21-1-1.md) | CVE-2022-4361-Keycloak-XSS | ⚪ 高危 | 2 |
+| [CVE-2022-4361](CVE-2022-4361-faccimatteo_CVE-2022-4361.md) | CVE-2022-4361-Keycloak-XSS | ⚪ 高危 | 1 |
 | [CVE-2022-44136](CVE-2022-44136-Ch35h1r3c47_CVE-2022-44136-poc.md) | CVE-2022-44136-Zenar CMS 9.3 Remote Code Execution | ⚪ 高危 | 1 |
-| [CVE-2022-44262](CVE-2022-44262-shoucheng3_ff4j__ff4j_CVE-2022-44262_1-8-13.md) | CVE-2022-44262-ff4j-RCE | ⚪ 严重 | 2 |
-| [CVE-2022-44262](CVE-2022-44262-shoucheng3_ff4j__ff4j_CVE-2022-44262_1_8_13_fixed.md) | CVE-2022-44262-ff4j-RCE | ⚪ 严重 | 2 |
+| [CVE-2022-44262](CVE-2022-44262-shoucheng3_ff4j__ff4j_CVE-2022-44262_1_8_13_fixed.md) | CVE-2022-44262-ff4j-RCE | ⚪ 严重 | 1 |
 | [CVE-2022-44268](CVE-2022-44268-Ashifcoder_CVE-2022-44268-automated-poc.md) | CVE-2022-44268 ImageMagick Arbitrary File Read | ⚪ 高危 | 28 |
 | [CVE-2022-44268](CVE-2022-44268-Baikuya_CVE-2022-44268-PoC.md) | CVE-2022-44268-ImageMagick-任意文件读取 | ⚪ 高危 | 28 |
 | [CVE-2022-44268](CVE-2022-44268-CygnusX-26_CVE-2022-44268-fixed-PoC.md) | CVE-2022-44268-ImageMagick-任意文件读取 | ⚪ 高危 | 28 |
@@ -645,4 +633,4 @@
 
 ---
 
-*最后更新: 2026-02-12*
+*最后更新: 2026-02-13*
