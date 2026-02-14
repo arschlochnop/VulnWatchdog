@@ -1,7 +1,7 @@
 {
   "$schema": "blacklist-schema.json",
   "version": "1.0.0",
-  "last_updated": "2026-02-14T01:11:40.515408Z",
+  "last_updated": "2026-02-14T23:16:49.155271Z",
   "description": "VulnWatchdog 黑名单配置文件 - 用于过滤低质量POC和恶意仓库",
   "settings": {
     "auto_blacklist_enabled": true,
@@ -1424,6 +1424,16 @@
         "last_quality_score": 0,
         "last_poisoning_risk": 0,
         "notes": "自动拉黑 - 失败原因: POC质量过低: 0/10"
+      },
+      {
+        "username": "hyu164",
+        "reason": "投毒风险持续过高(最近风险: 80%)",
+        "added_date": "2026-02-14",
+        "added_by": "auto",
+        "fail_count": 1,
+        "last_quality_score": 9,
+        "last_poisoning_risk": 80,
+        "notes": "自动拉黑 - 失败原因: 投毒风险过高: 80%"
       }
     ],
     "repositories": [
@@ -1463,7 +1473,7 @@
     "blocked_by_author": 1360,
     "blocked_by_repository": 1,
     "blocked_by_cve": 0,
-    "auto_blacklisted_authors": 140,
+    "auto_blacklisted_authors": 141,
     "auto_blacklisted_repositories": 0
   }
 }
