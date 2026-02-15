@@ -28,7 +28,7 @@
 | [CVE-2026-21876](CVE-2026-21876-daytriftnewgen_CVE-2026-21876.md) | CVE-2026-21876 - OWASP Core Rule Set (CRS) WAF绕过/跨站脚本(XSS) | ⚪ 严重 (Critical) | 1 |
 | [CVE-2026-24061](CVE-2026-24061-0x7556_CVE-2026-24061.md) | CVE-2026-24061 - GNU InetUtils telnetd 认证绕过/权限提升/远程代码执行 (RCE... | ⚪ 高危 | 27 |
 | [CVE-2026-24061](CVE-2026-24061-0xXyc_telnet-inetutils-auth-bypass-CVE-2026-24061.md) | CVE-2026-24061 - GNU InetUtils Telnetd 远程认证绕过 | ⚪ 严重 | 27 |
-| [CVE-2026-24061](CVE-2026-24061-FurkanKAYAPINAR_CVE-2026-24061-telnet2root.md) | CVE-2026-24061 - GNU InetUtils telnetd 认证绕过 | ⚪ 严重 | 27 |
+| [CVE-2026-24061](CVE-2026-24061-FurkanKAYAPINAR_CVE-2026-24061-telnet2root.md) | CVE-2026-24061 - GNU Inetutils telnetd 远程认证绕过, 参数注入, 提权 (Pre... | ⚪ 严重 (Critical) | 27 |
 | [CVE-2026-24061](CVE-2026-24061-Good123321-bot_CVE-2026-24061-POC.md) | CVE-2026-24061 - GNU InetUtils telnetd 远程认证绕过, 提权 | ⚪ 严重 | 27 |
 | [CVE-2026-24061](CVE-2026-24061-Good123321-bot_good123321-bot.github.io.md) | CVE-2026-24061 - GNU InetUtils telnetd 参数注入 (Argument Inject... | ⚪ 严重 (Critical) | 27 |
 | [CVE-2026-24061](CVE-2026-24061-Lingzesec_CVE-2026-24061-GUI.md) | CVE-2026-24061 - GNU InetUtils telnetd 身份认证绕过/提权 | ⚪ 高危 | 27 |
