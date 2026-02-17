@@ -1,6 +1,6 @@
 # 2026年 CVE漏洞列表
 
-> 📊 共收录 **46** 个CVE漏洞
+> 📊 共收录 **47** 个CVE漏洞
 
 ---
 
@@ -26,6 +26,7 @@
 | [CVE-2026-21858](CVE-2026-21858-sastraadiwiguna-purpleeliteteaming_SASTRA-ADI-WIGUNA-CVE-2026-21858-Holistic-Audit.md) | CVE-2026-21858 - n8n 远程代码执行 (RCE) | ⚪ 最高严重级别 | 10 |
 | [CVE-2026-21858](CVE-2026-21858-sec-dojo-com_CVE-2026-21858.md) | CVE-2026-21858 - n8n 远程代码执行 (RCE), 任意文件读取, 权限绕过, 沙箱绕过 | ⚪ 危急/Critical | 10 |
 | [CVE-2026-21876](CVE-2026-21876-daytriftnewgen_CVE-2026-21876.md) | CVE-2026-21876 - OWASP Core Rule Set (CRS) WAF绕过/跨站脚本(XSS) | ⚪ 严重 (Critical) | 1 |
+| [CVE-2026-2406](CVE-2026-2406-ridpath_Terrminus-CVE-2026-2406.md) | CVE-2026-24061 - Telnet Daemon (telnetd) 认证绕过, 权限提升 | ⚪ 高危 | 1 |
 | [CVE-2026-24061](CVE-2026-24061-0x7556_CVE-2026-24061.md) | CVE-2026-24061 - GNU InetUtils telnetd 远程认证绕过, 提权, 远程代码执行 | ⚪ 严重 | 28 |
 | [CVE-2026-24061](CVE-2026-24061-0xXyc_telnet-inetutils-auth-bypass-CVE-2026-24061.md) | CVE-2026-24061 - GNU InetUtils Telnetd 远程认证绕过 | ⚪ 严重 | 28 |
 | [CVE-2026-24061](CVE-2026-24061-FurkanKAYAPINAR_CVE-2026-24061-telnet2root.md) | CVE-2026-24061 - GNU Inetutils telnetd 远程认证绕过, 参数注入, 提权 (Pre... | ⚪ 严重 (Critical) | 28 |
