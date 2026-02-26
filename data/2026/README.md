@@ -1,6 +1,6 @@
 # 2026年 CVE漏洞列表
 
-> 📊 共收录 **49** 个CVE漏洞
+> 📊 共收录 **52** 个CVE漏洞
 
 ---
 
@@ -11,7 +11,10 @@
 | [CVE-2026-0628](CVE-2026-0628-fevar54_CVE-2026-0628-POC.md) | CVE-2026-0628 - Google Chrome (WebView组件) 权限绕过/脚本注入 | ⚪ 高 (High) | 1 |
 | [CVE-2026-0770](CVE-2026-0770-affix_CVE-2026-0770-PoC.md) | CVE-2026-0770 - Langflow 远程代码执行 (RCE) | ⚪ 关键 (Critical) | 1 |
 | [CVE-2026-1560](CVE-2026-1560-Z3YR0xX_CVE-2026-1560-Authenticated-Remote-Code-Execution-in-Lazy-Blocks-4.2.0.md) | CVE-2026-1560 - Custom Block Builder – Lazy Blocks WordPress... | 🟠 High | 1 |
-| [CVE-2026-20841](CVE-2026-20841-BTtea_CVE-2026-20841-PoC.md) | CVE-2026-20841 - Windows Notepad App 命令注入/远程代码执行 (Command In... | ⚪ 高 | 1 |
+| [CVE-2026-20841](CVE-2026-20841-404godd_CVE-2026-20841-PoC.md) | CVE-2026-20841 - Windows 记事本 (Notepad) 远程代码执行 (RCE), 命令注入 | ⚪ 高危 (High) | 4 |
+| [CVE-2026-20841](CVE-2026-20841-BTtea_CVE-2026-20841-PoC.md) | CVE-2026-20841 - Windows Notepad App 命令注入/远程代码执行 (Command In... | ⚪ 高 | 4 |
+| [CVE-2026-20841](CVE-2026-20841-EleniChristopoulou_PoC-CVE-2026-20841.md) | CVE-2026-20841 - Windows 记事本 (Notepad) 远程代码执行 (RCE) | ⚪ 高危 | 4 |
+| [CVE-2026-20841](CVE-2026-20841-SecureWithUmer_CVE-2026-20841.md) | CVE-2026-20841 - Microsoft Windows 记事本 远程代码执行 (RCE) | ⚪ 高危 | 4 |
 | [CVE-2026-21440](CVE-2026-21440-k0nnect_cve-2026-21440-writeup.md) | CVE-2026-21440 - AdonisJS (@adonisjs/bodyparser) 路径穿越 (Path ... | 🔴 CRITICAL | 2 |
 | [CVE-2026-21440](CVE-2026-21440-you-ssef9_CVE-2026-21440.md) | CVE-2026-21440 - AdonisJS BodyParser 路径穿越/任意文件写入 | ⚪ 高危 | 2 |
 | [CVE-2026-21533](CVE-2026-21533-ghostroots_CVE-2026-21533.md) | CVE-2026-21533 - Microsoft Windows Remote Desktop Services 权... | ⚪ 高危 (High) | 1 |
