@@ -8,12 +8,12 @@
 
 | CVE编号 | 标题 | 严重程度 | POC仓库数 |
 |---------|------|----------|-----------|
+| [CVE-2014-0160](CVE-2014-0160-indrajeetmp11_Heartbleed-PoC-Exploit-Script.md) | CVE-2014-0160 - OpenSSL 缓冲区越界读 (Buffer Over-read) / 信息泄露 (In... | ⚪ 高危 | 1 |
 | [CVE-2014-0346](CVE-2014-0346-Songul-Kizilay_CVE-2014-0346-.md) | CVE-2014-0160 (Heartbleed) | ⚪ 高危 | 1 |
 | [CVE-2014-1303](CVE-2014-1303-RKX1209_CVE-2014-1303.md) | CVE-2014-1303-Apple Safari 7.0.2-堆缓冲区溢出 | ⚪ 高危 | 1 |
 | [CVE-2014-3576](CVE-2014-3576-shoucheng3_apache__activemq_CVE-2014-3576_5-10-1.md) | CVE-2014-3576-Apache ActiveMQ-DoS | ⚪ 中危 | 1 |
 | [CVE-2014-3656](CVE-2014-3656-shoucheng3_keycloak__keycloak_CVE-2014-3656_1-0-5-Final.md) | CVE-2014-3656-JBoss KeyCloak-XSS | ⚪ 中危 | 1 |
-| [CVE-2014-4688](CVE-2014-4688-andyfeili_CVE-2014-4688.md) | CVE-2014-4688-pfSense-命令注入 | ⚪ 高危 | 2 |
-| [CVE-2014-4688](CVE-2014-4688-fenix0499_CVE-2014-4688-NodeJs-Exploit.md) | CVE-2014-4688-pfSense-命令注入 | ⚪ 高危 | 2 |
+| [CVE-2014-4688](CVE-2014-4688-andyfeili_CVE-2014-4688.md) | CVE-2014-4688-pfSense-命令注入 | ⚪ 高危 | 1 |
 | [CVE-2014-4725](CVE-2014-4725-Pwdnx1337_MASS-CVE-2014-4725.md) | CVE-2014-4725 MailPoet Newsletters 插件远程代码执行 | ⚪ 高危 | 1 |
 | [CVE-2014-6271](CVE-2014-6271-0xN7y_CVE-2014-6271.md) | CVE-2014-6271 - Bash 命令注入 | ⚪ 高危 | 29 |
 | [CVE-2014-6271](CVE-2014-6271-AlissonFaoli_Shellshock.md) | CVE-2014-6271 - GNU Bash 命令注入 | ⚪ 高危 | 29 |
