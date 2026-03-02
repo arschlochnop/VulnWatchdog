@@ -1,7 +1,7 @@
 {
   "$schema": "blacklist-schema.json",
   "version": "1.0.0",
-  "last_updated": "2026-02-27T08:45:06.401955Z",
+  "last_updated": "2026-03-02T08:50:47.869692Z",
   "description": "VulnWatchdog 黑名单配置文件 - 用于过滤低质量POC和恶意仓库",
   "settings": {
     "auto_blacklist_enabled": true,
@@ -1534,6 +1534,16 @@
         "last_quality_score": 2,
         "last_poisoning_risk": 5,
         "notes": "自动拉黑 - 失败原因: POC质量过低: 2"
+      },
+      {
+        "username": "Network-Sec",
+        "reason": "POC质量持续过低(最近评分: 0/10)",
+        "added_date": "2026-03-02",
+        "added_by": "auto",
+        "fail_count": 1,
+        "last_quality_score": 0,
+        "last_poisoning_risk": 5,
+        "notes": "自动拉黑 - 失败原因: POC质量过低: 0, 有效性分析过短: 491 字符 (最少500字符)"
       }
     ],
     "repositories": [
@@ -1569,11 +1579,11 @@
     "repositories": []
   },
   "statistics": {
-    "total_blocked": 1398,
-    "blocked_by_author": 1397,
+    "total_blocked": 1413,
+    "blocked_by_author": 1412,
     "blocked_by_repository": 1,
     "blocked_by_cve": 0,
-    "auto_blacklisted_authors": 151,
+    "auto_blacklisted_authors": 152,
     "auto_blacklisted_repositories": 0
   }
 }
