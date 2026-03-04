@@ -1,7 +1,7 @@
 {
   "$schema": "blacklist-schema.json",
   "version": "1.0.0",
-  "last_updated": "2026-03-04T13:51:10.499518Z",
+  "last_updated": "2026-03-04T16:32:10.248942Z",
   "description": "VulnWatchdog 黑名单配置文件 - 用于过滤低质量POC和恶意仓库",
   "settings": {
     "auto_blacklist_enabled": true,
@@ -1574,6 +1574,16 @@
         "last_quality_score": 2,
         "last_poisoning_risk": 10,
         "notes": "自动拉黑 - 失败原因: POC质量过低: 2"
+      },
+      {
+        "username": "0xCZR1",
+        "reason": "投毒风险持续过高(最近风险: 85%)",
+        "added_date": "2026-03-04",
+        "added_by": "auto",
+        "fail_count": 1,
+        "last_quality_score": 9,
+        "last_poisoning_risk": 85,
+        "notes": "自动拉黑 - 失败原因: 投毒风险过高: 85%"
       }
     ],
     "repositories": [
@@ -1609,11 +1619,11 @@
     "repositories": []
   },
   "statistics": {
-    "total_blocked": 1440,
-    "blocked_by_author": 1439,
+    "total_blocked": 1445,
+    "blocked_by_author": 1444,
     "blocked_by_repository": 1,
     "blocked_by_cve": 0,
-    "auto_blacklisted_authors": 155,
+    "auto_blacklisted_authors": 156,
     "auto_blacklisted_repositories": 0
   }
 }
