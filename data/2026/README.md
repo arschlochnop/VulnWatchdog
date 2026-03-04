@@ -14,7 +14,7 @@
 | [CVE-2026-1560](CVE-2026-1560-Z3YR0xX_CVE-2026-1560-Authenticated-Remote-Code-Execution-in-Lazy-Blocks-4.2.0.md) | CVE-2026-1560 - Custom Block Builder – Lazy Blocks WordPress... | 🟠 High | 1 |
 | [CVE-2026-20841](CVE-2026-20841-404godd_CVE-2026-20841-PoC.md) | CVE-2026-20841 - Microsoft Windows 记事本 命令注入 | ⚪ 高严重性 | 8 |
 | [CVE-2026-20841](CVE-2026-20841-BTtea_CVE-2026-20841-PoC.md) | CVE-2026-20841 - Windows Notepad App 命令注入/远程代码执行 (Command In... | ⚪ 高 | 8 |
-| [CVE-2026-20841](CVE-2026-20841-EleniChristopoulou_PoC-CVE-2026-20841.md) | CVE-2026-20841 - Windows 记事本 (Notepad) 远程代码执行 (RCE) | ⚪ 高危 | 8 |
+| [CVE-2026-20841](CVE-2026-20841-EleniChristopoulou_PoC-CVE-2026-20841.md) | CVE-2026-20841 - Microsoft Windows 记事本 命令注入, 远程代码执行 (RCE) | ⚪ 高 | 8 |
 | [CVE-2026-20841](CVE-2026-20841-SecureWithUmer_CVE-2026-20841.md) | CVE-2026-20841 - Microsoft Windows 记事本 远程代码执行 (RCE) | ⚪ 高危 | 8 |
 | [CVE-2026-20841](CVE-2026-20841-atiilla_CVE-2026-20841.md) | CVE-2026-20841 - Microsoft Windows Notepad (新版，通过Microsoft S... | ⚪ 高危 | 8 |
 | [CVE-2026-20841](CVE-2026-20841-dogukankurnaz_CVE-2026-20841-PoC.md) | CVE-2026-20841 - Windows Notepad App (Microsoft Store versio... | ⚪ 高危 | 8 |
