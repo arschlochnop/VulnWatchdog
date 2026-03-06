@@ -68,7 +68,7 @@
 | [CVE-2026-24061](CVE-2026-24061-tiborscholtz_CVE-2026-24061.md) | CVE-2026-24061 - GNU InetUtils telnetd 远程身份验证绕过 | ⚪ 高危 (Critical) | 30 |
 | [CVE-2026-2441](CVE-2026-2441-D3b0j33t_CVE-2026-2441-PoC.md) | CVE-2026-2441 - Google Chrome, Chromium-based browsers (Micr... | 🟠 High | 6 |
 | [CVE-2026-2441](CVE-2026-2441-NetVanguard-cmd_CVE-2026-2441.md) | CVE-2026-2441 - Google Chrome, Microsoft Edge, Vivaldi, Brav... | ⚪ 高危 (High) | 6 |
-| [CVE-2026-2441](CVE-2026-2441-atiilla_CVE-2026-2441_PoC.md) | CVE-2026-2441 - Google Chrome, Microsoft Edge, Vivaldi, Brav... | ⚪ 高危 | 6 |
+| [CVE-2026-2441](CVE-2026-2441-atiilla_CVE-2026-2441_PoC.md) | CVE-2026-2441 - Google Chrome, Microsoft Edge (Chromium-base... | 🟠 High | 6 |
 | [CVE-2026-2441](CVE-2026-2441-fartlover37_CVE-2026-2441-PoC.md) | CVE-2026-2441 - Google Chrome, Microsoft Edge, Vivaldi, Brav... | ⚪ 高危 | 6 |
 | [CVE-2026-2441](CVE-2026-2441-huseyinstif_CVE-2026-2441-PoC.md) | CVE-2026-2441 - Google Chrome, Microsoft Edge, Vivaldi, Brav... | ⚪ 高危 (High) | 6 |
 | [CVE-2026-2441](CVE-2026-2441-theemperorspath_CVE-2026-2441-PoC.md) | CVE-2026-2441 - Google Chrome, Microsoft Edge, Vivaldi, Brav... | ⚪ 高危 | 6 |
