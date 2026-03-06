@@ -71,7 +71,7 @@
 | [CVE-2026-2441](CVE-2026-2441-atiilla_CVE-2026-2441_PoC.md) | CVE-2026-2441 - Google Chrome, Microsoft Edge (Chromium-base... | 🟠 High | 6 |
 | [CVE-2026-2441](CVE-2026-2441-fartlover37_CVE-2026-2441-PoC.md) | CVE-2026-2441 - Google Chrome, Microsoft Edge, Vivaldi, Brav... | ⚪ 高危 | 6 |
 | [CVE-2026-2441](CVE-2026-2441-huseyinstif_CVE-2026-2441-PoC.md) | CVE-2026-2441 - Google Chrome, Microsoft Edge, Vivaldi, Brav... | ⚪ 高危 (High) | 6 |
-| [CVE-2026-2441](CVE-2026-2441-theemperorspath_CVE-2026-2441-PoC.md) | CVE-2026-2441 - Google Chrome, Microsoft Edge, Vivaldi, Brav... | ⚪ 高危 | 6 |
+| [CVE-2026-2441](CVE-2026-2441-theemperorspath_CVE-2026-2441-PoC.md) | CVE-2026-2441 - Google Chrome (Blink rendering engine), Micr... | ⚪ 高风险 | 6 |
 
 ---
 
