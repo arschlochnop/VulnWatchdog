@@ -1,6 +1,6 @@
 # 2023年 CVE漏洞列表
 
-> 📊 共收录 **883** 个CVE漏洞
+> 📊 共收录 **901** 个CVE漏洞
 
 ---
 
@@ -72,8 +72,7 @@
 | [CVE-2023-20198](CVE-2023-20198-smokeintheshell_CVE-2023-20198.md) | CVE-2023-20198 - Cisco IOS XE Web UI 权限提升 | ⚪ 高危 | 27 |
 | [CVE-2023-20564](CVE-2023-20564-NtGabrielGomes_CVE-2023-20564.md) | CVE-2023-20564 - AMD Ryzen Master Driver 物理内存读写/权限提升 | ⚪ 高危 (High) | 1 |
 | [CVE-2023-20904](CVE-2023-20904-FishMan132_CVE-2023-20904.md) | CVE-2023-20904-Android-权限提升 | ⚪ 高危 | 1 |
-| [CVE-2023-20938](CVE-2023-20938-0xAtharv_CVE-2023-20938.md) | CVE-2023-20938 - Android OS (Binder Driver) 本地权限提升 | ⚪ 高危 (High) | 2 |
-| [CVE-2023-20938](CVE-2023-20938-anansi2safe_CVE-2023-20938.md) | CVE-2023-20938 - Android OS (Binder Driver) 本地权限提升 | ⚪ 高危 (High) | 2 |
+| [CVE-2023-20938](CVE-2023-20938-0xAtharv_CVE-2023-20938.md) | CVE-2023-20938 - Android OS (Binder Driver) 本地权限提升 | ⚪ 高危 (High) | 1 |
 | [CVE-2023-21125](CVE-2023-21125-Mahesh-970_Mahesh-970-CVE-2023-21125_bluedriod_repo.md) | CVE-2023-21125/CVE-2025-21125 Android Bluetooth RCE/InDesign... | ⚪ 高危/中危 | 1 |
 | [CVE-2023-21554](CVE-2023-21554-3tternp_CVE-2023-21554.md) | CVE-2023-21554-Microsoft Message Queuing (MSMQ) 远程代码执行漏洞 | ⚪ 高危 | 4 |
 | [CVE-2023-21554](CVE-2023-21554-leongxudong_MSMQ-Vulnerability.md) | CVE-2023-21554 - Microsoft Message Queuing (MSMQ) 远程代码执行漏洞 | ⚪ 高危 | 4 |
@@ -179,7 +178,8 @@
 | [CVE-2023-22809](CVE-2023-22809-n3m1sys_CVE-2023-22809-sudoedit-privesc.md) | CVE-2023-22809-sudo-权限提升 | ⚪ 高危 | 11 |
 | [CVE-2023-22809](CVE-2023-22809-pashayogi_CVE-2023-22809.md) | CVE-2023-22809-sudoedit权限提升 | ⚪ 高危 | 11 |
 | [CVE-2023-22809](CVE-2023-22809-spidoman_CVE-2023-22809-automated-python-exploits.md) | CVE-2023-22809-Sudoedit权限提升 | ⚪ 高危 | 11 |
-| [CVE-2023-22894](CVE-2023-22894-Saboor-Hakimi_CVE-2023-22894.md) | CVE-2023-22894-Strapi-敏感信息泄露 | ⚪ 中危 | 1 |
+| [CVE-2023-22894](CVE-2023-22894-Saboor-Hakimi_CVE-2023-22894.md) | CVE-2023-22894-Strapi-敏感信息泄露 | ⚪ 中危 | 2 |
+| [CVE-2023-22894](CVE-2023-22894-maxntv24_CVE-2023-22894-PoC.md) | CVE-2023-22894-Strapi-敏感信息泄露 | ⚪ 中危 | 2 |
 | [CVE-2023-23397](CVE-2023-23397-Agentgilspy_CVE-2023-23397.md) | CVE-2023-23397 - Microsoft Outlook 权限提升漏洞 | ⚪ 高危 | 27 |
 | [CVE-2023-23397](CVE-2023-23397-AiK1d_CVE-2023-23397-POC.md) | CVE-2023-23397 Microsoft Outlook 权限提升漏洞 | ⚪ 高危 | 27 |
 | [CVE-2023-23397](CVE-2023-23397-BillSkiCO_CVE-2023-23397_EXPLOIT.md) | CVE-2023-23397-Microsoft Outlook 权限提升漏洞 | ⚪ 高危 | 27 |
@@ -238,9 +238,11 @@
 | [CVE-2023-23752](CVE-2023-23752-shellvik_CVE-2023-23752.md) | CVE-2023-23752 - Joomla! Improper Access Control | ⚪ 中危 | 28 |
 | [CVE-2023-23752](CVE-2023-23752-svaltheim_CVE-2023-23752.md) | CVE-2023-23752 - Joomla! 未授权信息泄露 | ⚪ 中危 | 28 |
 | [CVE-2023-23752](CVE-2023-23752-yTxZx_CVE-2023-23752.md) | CVE-2023-23752 - Joomla! Improper Access Control | ⚪ 中危 | 28 |
-| [CVE-2023-24249](CVE-2023-24249-IDUZZEL_CVE-2023-24249-Exploit.md) | CVE-2023-24249-laravel-admin-任意文件上传 | ⚪ 高危 | 1 |
+| [CVE-2023-24249](CVE-2023-24249-IDUZZEL_CVE-2023-24249-Exploit.md) | CVE-2023-24249-laravel-admin-任意文件上传 | ⚪ 高危 | 2 |
+| [CVE-2023-24249](CVE-2023-24249-ldb33_CVE-2023-24249-PoC.md) | CVE-2023-24249-laravel-admin-任意文件上传 | ⚪ 高危 | 2 |
 | [CVE-2023-24422](CVE-2023-24422-shoucheng3_jenkinsci__script-security-plugin_CVE-2023-24422_1228.vd93135a_2fb_25.md) | CVE-2023-24422 - Jenkins Script Security Plugin Sandbox Bypa... | ⚪ 高危 | 1 |
-| [CVE-2023-24489](CVE-2023-24489-whalebone7_CVE-2023-24489-poc.md) | CVE-2023-24489-ShareFile Storage Zones Controller-远程代码执行 | ⚪ 高危 | 1 |
+| [CVE-2023-24489](CVE-2023-24489-adhikara13_CVE-2023-24489-ShareFile.md) | CVE-2023-24489-ShareFile Storage Zones Controller-远程代码执行 | ⚪ 高危 | 2 |
+| [CVE-2023-24489](CVE-2023-24489-whalebone7_CVE-2023-24489-poc.md) | CVE-2023-24489-ShareFile Storage Zones Controller-远程代码执行 | ⚪ 高危 | 2 |
 | [CVE-2023-24709](CVE-2023-24709-DRAGOWN_CVE-2023-24709-PoC.md) | CVE-2023-24709-Paradox Security Systems IPR512-DoS | ⚪ 高危 | 1 |
 | [CVE-2023-25136](CVE-2023-25136-Business1sg00d_CVE-2023-25136.md) | CVE-2023-25136-OpenSSH-double-free | ⚪ 高危 | 10 |
 | [CVE-2023-25136](CVE-2023-25136-Christbowel_CVE-2023-25136.md) | CVE-2023-25136-OpenSSH-Double-Free | ⚪ 高危 | 10 |
@@ -327,7 +329,8 @@
 | [CVE-2023-27372](CVE-2023-27372-izzz0_CVE-2023-27372-POC.md) | CVE-2023-27372 - SPIP RCE (远程代码执行) | 🔴 CRITICAL | 10 |
 | [CVE-2023-27372](CVE-2023-27372-nuts7_CVE-2023-27372.md) | CVE-2023-27372 - SPIP CMS RCE (远程代码执行) | 🔴 CRITICAL | 10 |
 | [CVE-2023-27372](CVE-2023-27372-redboltsec_CVE-2023-27372-PoC.md) | CVE-2023-27372 - SPIP RCE (反序列化) | 🔴 CRITICAL | 10 |
-| [CVE-2023-2745](CVE-2023-2745-fofovicfof-ai_cve-2023-2745.md) | CVE-2023-2745-WordPress-目录遍历 | ⚪ 中危 | 1 |
+| [CVE-2023-2745](CVE-2023-2745-fofovicfof-ai_cve-2023-2745.md) | CVE-2023-2745-WordPress-目录遍历 | ⚪ 中危 | 2 |
+| [CVE-2023-2745](CVE-2023-2745-spyizxa0day_WordPress-CVE-2023-2745.md) | CVE-2023-2745-WordPress-目录遍历 | ⚪ 中危 | 2 |
 | [CVE-2023-27997](CVE-2023-27997-BishopFox_CVE-2023-27997-check.md) | CVE-2023-27997 - FortiOS/FortiProxy SSL-VPN 堆缓冲区溢出 | ⚪ 高危 | 8 |
 | [CVE-2023-27997](CVE-2023-27997-TechinsightsPro_ShodanFortiOS.md) | CVE-2023-27997 - FortiOS SSL-VPN 堆缓冲区溢出 | ⚪ 高危 | 8 |
 | [CVE-2023-27997](CVE-2023-27997-imbas007_CVE-2023-27997-Check.md) | CVE-2023-27997-FortiOS/FortiProxy SSL-VPN 堆溢出 | ⚪ 高危 | 8 |
@@ -345,7 +348,8 @@
 | [CVE-2023-28293](CVE-2023-28293-CrazyDaveX86_CVE-2023-28293.md) | CVE-2023-28293 - Windows Kernel Elevation of Privilege | ⚪ 高危 | 1 |
 | [CVE-2023-28354](CVE-2023-28354-stormfleet_CVE-2023-28354.md) | CVE-2023-28354-Opsview Monitor Agent-命令注入 | ⚪ 高危 | 1 |
 | [CVE-2023-28465](CVE-2023-28465-shoucheng3_hapifhir__org_hl7_fhir_core_CVE-2023-28465_5-6-105.md) | CVE-2023-28465-HL7 FHIR Core Libraries-路径遍历 | ⚪ 高危 | 1 |
-| [CVE-2023-28771](CVE-2023-28771-JinParkmida_cve-2023-28771-demo.md) | CVE-2023-28771 - Zyxel防火墙远程命令注入 | ⚪ 严重 | 1 |
+| [CVE-2023-28771](CVE-2023-28771-JinParkmida_cve-2023-28771-demo.md) | CVE-2023-28771 - Zyxel防火墙远程命令注入 | ⚪ 严重 | 2 |
+| [CVE-2023-28771](CVE-2023-28771-benjaminhays_CVE-2023-28771-PoC.md) | CVE-2023-28771 - Zyxel防火墙远程命令注入 | ⚪ 严重 | 2 |
 | [CVE-2023-29201](CVE-2023-29201-shoucheng3_xwiki__xwiki-commons_CVE-2023-29201_14-5.md) | CVE-2023-29201-xwiki-commons-xml-XSS | ⚪ 高危 | 1 |
 | [CVE-2023-29357](CVE-2023-29357-Chocapikk_CVE-2023-29357.md) | CVE-2023-29357-Microsoft SharePoint Server-权限提升 | ⚪ 高危 | 5 |
 | [CVE-2023-29357](CVE-2023-29357-DeividasTerechovas_SOC227-Microsoft-SharePoint-Server-Elevation-of-Privilege-Possible-CVE-2023-29357-Exploitation.md) | CVE-2023-29357 - Microsoft SharePoint Server 权限提升漏洞 | ⚪ 高危 | 5 |
@@ -401,7 +405,8 @@
 | [CVE-2023-30861](CVE-2023-30861-fromitive_cve-2023-30861-poc.md) | CVE-2023-30861-Flask-会话Cookie泄露 | ⚪ 高危 | 1 |
 | [CVE-2023-30990](CVE-2023-30990-silentsignal_CVE-2023-30990.md) | CVE-2023-30990 - IBM i DDM 远程命令执行 | ⚪ 高危 | 1 |
 | [CVE-2023-31059](CVE-2023-31059-mbanyamer_CVE-2023-31059-Repetier-Server-1.4.10-Unauthenticated-Path-Traversal.md) | CVE-2023-31059 - Repetier-Server Path Traversal / Local File... | 🔴 Critical | 1 |
-| [CVE-2023-31126](CVE-2023-31126-shoucheng3_cov-int.md) | CVE-2023-31126-XWiki-XSS | ⚪ 高危 | 1 |
+| [CVE-2023-31126](CVE-2023-31126-shoucheng3_cov-int.md) | CVE-2023-31126-XWiki-XSS | ⚪ 高危 | 2 |
+| [CVE-2023-31126](CVE-2023-31126-shoucheng3_xwiki__xwiki-commons_CVE-2023-31126_14-10-3.md) | CVE-2023-31126-XWiki-XSS | ⚪ 高危 | 2 |
 | [CVE-2023-3128](CVE-2023-3128-spyata123_CVE-2023-3128.md) | CVE-2023-3128-Grafana-账户接管/身份验证绕过 | ⚪ 高危 | 1 |
 | [CVE-2023-32070](CVE-2023-32070-shoucheng3_xwiki__xwiki-rendering_CVE-2023-32070_14-5.md) | CVE-2023-32070-XWiki-XSS | ⚪ 高危 | 1 |
 | [CVE-2023-32233](CVE-2023-32233-Liuk3r_CVE-2023-32233.md) | CVE-2023-32233-Linux Kernel-Netfilter nf_tables Use-After-Fr... | ⚪ 高危 | 5 |
@@ -454,7 +459,8 @@
 | [CVE-2023-33246](CVE-2023-33246-d0rb_CVE-2023-33246.md) | CVE-2023-33246-Apache RocketMQ-远程代码执行 | ⚪ 高危 | 12 |
 | [CVE-2023-33246](CVE-2023-33246-shoucheng3_apache__rocketmq_CVE-2023-33246_5-1-0.md) | CVE-2023-33246 Apache RocketMQ 远程代码执行 | ⚪ 高危 | 12 |
 | [CVE-2023-33246](CVE-2023-33246-vulncheck-oss_fetch-broker-conf.md) | CVE-2023-33246-Apache RocketMQ-远程代码执行 | ⚪ 高危 | 12 |
-| [CVE-2023-33538](CVE-2023-33538-explxx_CVE-2023-33538.md) | CVE-2023-33538-TP-Link路由器-命令注入 | ⚪ 高危 | 1 |
+| [CVE-2023-33538](CVE-2023-33538-explxx_CVE-2023-33538.md) | CVE-2023-33538-TP-Link路由器-命令注入 | ⚪ 高危 | 2 |
+| [CVE-2023-33538](CVE-2023-33538-mrowkoob_CVE-2023-33538-msf.md) | CVE-2023-33538-TP-Link路由器-命令注入 | ⚪ 高危 | 2 |
 | [CVE-2023-33962](CVE-2023-33962-shoucheng3_jstachio__jstachio_CVE-2023-33962_1-0-0.md) | CVE-2023-33962-JStachio-XSS | ⚪ 中危 | 1 |
 | [CVE-2023-34233](CVE-2023-34233-nayankadamm_CVE-2023-34233_Proof_OF_Concept.md) | CVE-2023-34233-Snowflake Python Connector-命令注入 | ⚪ 高危 | 1 |
 | [CVE-2023-34362](CVE-2023-34362-Chinyemba-ck_MOVEit-CVE-2023-34362.md) | CVE-2023-34362-MOVEit Transfer-SQL注入 | ⚪ 高危 | 10 |
@@ -467,7 +473,8 @@
 | [CVE-2023-34362](CVE-2023-34362-lithuanian-g_cve-2023-34362-iocs.md) | CVE-2023-34362-MOVEit Transfer-SQL注入 | ⚪ 高危 | 10 |
 | [CVE-2023-34362](CVE-2023-34362-sfewer-r7_CVE-2023-34362.md) | CVE-2023-34362-MOVEit Transfer-SQL注入 | ⚪ 高危 | 10 |
 | [CVE-2023-34362](CVE-2023-34362-toorandom_moveit-payload-decrypt-CVE-2023-34362.md) | CVE-2023-34362-MOVEit Transfer-SQL注入 | ⚪ 高危 | 10 |
-| [CVE-2023-34468](CVE-2023-34468-shoucheng3_asf__nifi_CVE-2023-34468_1-21-0.md) | CVE-2023-34468-Apache NiFi-RCE | ⚪ 高危 | 1 |
+| [CVE-2023-34468](CVE-2023-34468-mbadanoiu_CVE-2023-34468.md) | CVE-2023-34468-Apache NiFi-RCE | ⚪ 高危 | 2 |
+| [CVE-2023-34468](CVE-2023-34468-shoucheng3_asf__nifi_CVE-2023-34468_1-21-0.md) | CVE-2023-34468-Apache NiFi-RCE | ⚪ 高危 | 2 |
 | [CVE-2023-34478](CVE-2023-34478-shoucheng3_apache__shiro_CVE-2023-34478_1-11-0.md) | CVE-2023-34478-Apache Shiro路径遍历导致认证绕过 | ⚪ 高危 | 1 |
 | [CVE-2023-34598](CVE-2023-34598-Zer0F8th_CVE-2023-34598.md) | CVE-2023-34598-Gibbon-LFI | ⚪ 高危 | 2 |
 | [CVE-2023-34598](CVE-2023-34598-maddsec_CVE-2023-34598.md) | CVE-2023-34598 - Gibbon v25.0.0 本地文件包含 | ⚪ 中危 | 2 |
@@ -530,7 +537,8 @@
 | [CVE-2023-37582](CVE-2023-37582-laishouchao_Apache-RocketMQ-RCE-CVE-2023-37582-poc.md) | CVE-2023-37582-Apache RocketMQ-远程代码执行 | ⚪ 高危 | 2 |
 | [CVE-2023-37582](CVE-2023-37582-shoucheng3_apache__rocketmq_CVE-2023-37582_4-9-6.md) | CVE-2023-37582-Apache RocketMQ-远程命令执行 | ⚪ 高危 | 2 |
 | [CVE-2023-37908](CVE-2023-37908-shoucheng3_xwiki__xwiki-rendering_CVE-2023-37908_14-10-3.md) | CVE-2023-37908-XWiki Rendering-XSS | ⚪ 高危 | 1 |
-| [CVE-2023-37979](CVE-2023-37979-d0rb_CVE-2023-37979.md) | CVE-2023-37979-Ninja Forms Contact Form-Reflected XSS | ⚪ 高危 | 1 |
+| [CVE-2023-37979](CVE-2023-37979-Mehran-Seifalinia_CVE-2023-37979.md) | CVE-2023-37979-Ninja Forms Contact Form-Reflected XSS | ⚪ 高危 | 2 |
+| [CVE-2023-37979](CVE-2023-37979-d0rb_CVE-2023-37979.md) | CVE-2023-37979-Ninja Forms Contact Form-Reflected XSS | ⚪ 高危 | 2 |
 | [CVE-2023-3824](CVE-2023-3824-bluefish3r_poc-cve.md) | CVE-2023-3824 - PHP Phar 堆栈缓冲区溢出 | ⚪ 高危 | 2 |
 | [CVE-2023-3824](CVE-2023-3824-dadosneurais_cve-2023-3824.md) | CVE-2023-3824-PHP-phar_dir_read栈缓冲区溢出 | ⚪ 高危 | 2 |
 | [CVE-2023-38408](CVE-2023-38408-LucasPDiniz_CVE-2023-38408.md) | CVE-2023-38408-OpenSSH-RCE | ⚪ 高危 | 7 |
@@ -596,7 +604,8 @@
 | [CVE-2023-38831](CVE-2023-38831-yezzfusl_cve_2023_38831_scanner.md) | CVE-2023-38831 WinRAR 远程代码执行 | ⚪ 高危 | 28 |
 | [CVE-2023-38831](CVE-2023-38831-youmulijiang_evil-winrar.md) | CVE-2023-38831-WinRAR远程代码执行 | ⚪ 高危 | 28 |
 | [CVE-2023-39141](CVE-2023-39141-MartiSabate_CVE-2023-39141-LFI-enumerator.md) | CVE-2023-39141-webui-aria2-路径遍历 | ⚪ 高危 | 1 |
-| [CVE-2023-39361](CVE-2023-39361-HPT-Intern-Task-Submission_CVE-2023-39361.md) | CVE-2023-39361-Cacti-SQL注入 | ⚪ 高危 | 1 |
+| [CVE-2023-39361](CVE-2023-39361-ChoDeokCheol_CVE-2023-39361.md) | CVE-2023-39361-Cacti-SQL注入 | ⚪ 高危 | 2 |
+| [CVE-2023-39361](CVE-2023-39361-HPT-Intern-Task-Submission_CVE-2023-39361.md) | CVE-2023-39361-Cacti-SQL注入 | ⚪ 高危 | 2 |
 | [CVE-2023-40000](CVE-2023-40000-iveresk_cve-2023-40000.md) | CVE-2023-40000-LiteSpeed Cache-存储型XSS | ⚪ 高危 | 2 |
 | [CVE-2023-40000](CVE-2023-40000-rxerium_CVE-2023-40000.md) | CVE-2023-40000 - WordPress LiteSpeed Cache 存储型XSS漏洞 | ⚪ 高危 | 2 |
 | [CVE-2023-40028](CVE-2023-40028-0xDTC_Ghost-5.58-Arbitrary-File-Read-CVE-2023-40028.md) | CVE-2023-40028-Ghost-任意文件读取 | ⚪ 中危 | 9 |
@@ -638,7 +647,8 @@
 | [CVE-2023-41892](CVE-2023-41892-diegaccio_Craft-CMS-Exploit.md) | CVE-2023-41892-Craft CMS-远程代码执行 | ⚪ 高危 | 5 |
 | [CVE-2023-41892](CVE-2023-41892-user01-1_CVE-2023-41892_poc.md) | CVE-2023-41892 Craft CMS 远程代码执行漏洞 | ⚪ 严重 | 5 |
 | [CVE-2023-41892](CVE-2023-41892-zaenhaxor_CVE-2023-41892.md) | CVE-2023-41892 - Craft CMS 远程代码执行 | ⚪ 严重 | 5 |
-| [CVE-2023-41992](CVE-2023-41992-karzanWang_CVE-2023-41992.md) | CVE-2023-41992 - iOS/macOS 本地权限提升 | ⚪ 高危 | 1 |
+| [CVE-2023-41992](CVE-2023-41992-karzanWang_CVE-2023-41992.md) | CVE-2023-41992 - iOS/macOS 本地权限提升 | ⚪ 高危 | 2 |
+| [CVE-2023-41992](CVE-2023-41992-xcbjky_cve-2023-41992-test.md) | CVE-2023-41992 - iOS/macOS 本地权限提升 | ⚪ 高危 | 2 |
 | [CVE-2023-4220](CVE-2023-4220-0x00-null_Chamilo-CVE-2023-4220-RCE-Exploit.md) | CVE-2023-4220 - Chamilo LMS RCE (Remote Code Execution) | 🔴 Critical | 25 |
 | [CVE-2023-4220](CVE-2023-4220-0xDTC_Chamilo-LMS-CVE-2023-4220-Exploit.md) | CVE-2023-4220-Chamilo LMS-RCE | ⚪ 高危 | 25 |
 | [CVE-2023-4220](CVE-2023-4220-Al3xGD_CVE-2023-4220-Exploit.md) | CVE-2023-4220 - Chamilo LMS RCE/任意文件上传 | 🔴 CRITICAL | 25 |
@@ -664,7 +674,8 @@
 | [CVE-2023-4220](CVE-2023-4220-qrxnz_CVE-2023-4220.md) | CVE-2023-4220-Chamilo LMS-未授权文件上传导致RCE | ⚪ 高危 | 25 |
 | [CVE-2023-4220](CVE-2023-4220-thefizzyfish_CVE-2023-4220_Chamilo_RCE.md) | CVE-2023-4220 - Chamilo LMS RCE (远程代码执行) | 🔴 CRITICAL | 25 |
 | [CVE-2023-4220](CVE-2023-4220-zora-beep_CVE-2023-4220.md) | CVE-2023-4220 - Chamilo LMS 任意文件上传 (Unrestricted File Upload... | ⚪ 高危 (High) | 25 |
-| [CVE-2023-4226](CVE-2023-4226-SkyW4r33x_CVE-2023-4226.md) | CVE-2023-4226-Chamilo-LMS-远程代码执行 | ⚪ 高危 | 1 |
+| [CVE-2023-4226](CVE-2023-4226-SkyW4r33x_CVE-2023-4226.md) | CVE-2023-4226-Chamilo-LMS-远程代码执行 | ⚪ 高危 | 2 |
+| [CVE-2023-4226](CVE-2023-4226-krishnan-tech_CVE-2023-4226-POC.md) | CVE-2023-4226-Chamilo-LMS-远程代码执行 | ⚪ 高危 | 2 |
 | [CVE-2023-42793](CVE-2023-42793-B4l3rI0n_CVE-2023-42793.md) | CVE-2023-42793 - JetBrains TeamCity RCE (远程代码执行) | 🔴 CRITICAL | 17 |
 | [CVE-2023-42793](CVE-2023-42793-DDestinys_CVE-2023-42793.md) | CVE-2023-42793 - JetBrains TeamCity 认证绕过 / RCE | ⚪ 严重 (CRITICAL) | 17 |
 | [CVE-2023-42793](CVE-2023-42793-FlojBoj_CVE-2023-42793.md) | CVE-2023-42793 - JetBrains TeamCity 身份认证绕过/远程代码执行(RCE) | ⚪ 严重 (Critical) | 17 |
@@ -682,7 +693,8 @@
 | [CVE-2023-42793](CVE-2023-42793-syorik_CVE-2023-42793-poc.md) | CVE-2023-42793-JetBrains TeamCity-RCE | ⚪ 严重 | 17 |
 | [CVE-2023-42793](CVE-2023-42793-syorik_CVE-2023-42793.md) | CVE-2023-42793 - JetBrains TeamCity RCE (远程代码执行) | ⚪ 严重 (CRITICAL) | 17 |
 | [CVE-2023-42793](CVE-2023-42793-whoamins_CVE-2023-42793.md) | CVE-2023-42793 - JetBrains TeamCity 身份验证绕过/远程代码执行 | 🔴 CRITICAL | 17 |
-| [CVE-2023-42931](CVE-2023-42931-d0rb_CVE-2023-42931.md) | CVE-2023-42931 - macOS Privilege Escalation | ⚪ 高危 | 1 |
+| [CVE-2023-42931](CVE-2023-42931-d0rb_CVE-2023-42931.md) | CVE-2023-42931 - macOS Privilege Escalation | ⚪ 高危 | 2 |
+| [CVE-2023-42931](CVE-2023-42931-tageniu_CVE-2023-42931.md) | CVE-2023-42931 - macOS Privilege Escalation | ⚪ 高危 | 2 |
 | [CVE-2023-42961](CVE-2023-42961-windz3r0day_CVE-2023-42961.md) | CVE-2023-42961 - intents_helper.xpc 沙箱逃逸 | ⚪ 中危 | 1 |
 | [CVE-2023-43208](CVE-2023-43208-jakabakos_CVE-2023-43208-mirth-connect-rce-poc.md) | CVE-2023-37679 - Nextgen Mirth Connect 远程代码执行 (RCE) | ⚪ 严重 (Critical) | 1 |
 | [CVE-2023-4357](CVE-2023-4357-CamillaFranceschini_CVE-2023-4357.md) | CVE-2023-4357-Google Chrome XML File Access Restriction Bypa... | ⚪ 中危 | 5 |
@@ -779,7 +791,8 @@
 | [CVE-2023-4863](CVE-2023-4863-huiwen-yayaya_CVE-2023-4863.md) | CVE-2023-4863 - Google Chrome / libwebp 堆缓冲区溢出 (Heap Buffer ... | ⚪ 高危 | 9 |
 | [CVE-2023-4863](CVE-2023-4863-mistymntncop_CVE-2023-4863.md) | CVE-2023-4863 - Google Chrome, libwebp, Microsoft Teams and ... | 🔴 Critical | 9 |
 | [CVE-2023-4863](CVE-2023-4863-murphysecurity_libwebp-checker.md) | CVE-2023-4863 - libwebp (广泛应用于 Google Chrome, Android, 以及包含 ... | ⚪ 高危 | 9 |
-| [CVE-2023-48795](CVE-2023-48795-TrixSec_CVE-2023-48795.md) | CVE-2023-48795 - SSH Terrapin攻击 | ⚪ 中危 | 1 |
+| [CVE-2023-48795](CVE-2023-48795-Eros-Adrian-Figueroa-Cortes_CVE-2023-48795.md) | CVE-2023-48795 - SSH Terrapin攻击 | ⚪ 中危 | 2 |
+| [CVE-2023-48795](CVE-2023-48795-TrixSec_CVE-2023-48795.md) | CVE-2023-48795 - SSH Terrapin攻击 | ⚪ 中危 | 2 |
 | [CVE-2023-49103](CVE-2023-49103-d0rb_CVE-2023-49103.md) | CVE-2023-49103 - ownCloud graphapi 信息泄露 | ⚪ 高危 | 3 |
 | [CVE-2023-49103](CVE-2023-49103-ibrahmsql_CVE-2023-49103.md) | CVE-2023-49103-ownCloud-敏感信息泄露 | ⚪ 高危 | 3 |
 | [CVE-2023-49103](CVE-2023-49103-merlin-ke_OwnCloud-CVE-2023-49103.md) | CVE-2023-49103-ownCloud-敏感信息泄露 | ⚪ 高危 | 3 |
@@ -848,10 +861,12 @@
 | [CVE-2023-51385](CVE-2023-51385-vin01_poc-proxycommand-vulnerable.md) | CVE-2023-51385-OpenSSH-命令注入 | ⚪ 高危 | 16 |
 | [CVE-2023-51385](CVE-2023-51385-watarium_poc-cve-2023-51385.md) | CVE-2023-51385-OpenSSH-命令注入 | ⚪ 高危 | 16 |
 | [CVE-2023-51444](CVE-2023-51444-iPlayForSG_CVE-2023-51444.md) | CVE-2023-51444-GeoServer-任意文件上传 | ⚪ 高危 | 1 |
-| [CVE-2023-51770](CVE-2023-51770-shoucheng3_apache__dolphinscheduler_CVE-2023-51770_3-2-0.md) | CVE-2023-51770 - Apache DolphinScheduler Arbitrary File Read | ⚪ 高危 | 1 |
+| [CVE-2023-51770](CVE-2023-51770-shoucheng3_apache__dolphinscheduler_CVE-2023-51770_3-2-0.md) | CVE-2023-51770 - Apache DolphinScheduler Arbitrary File Read | ⚪ 高危 | 2 |
+| [CVE-2023-51770](CVE-2023-51770-shoucheng3_apache__dolphinscheduler_CVE-2023-51770_3_2_1_fixed.md) | CVE-2023-51770 - Apache DolphinScheduler Arbitrary File Read | ⚪ 高危 | 2 |
 | [CVE-2023-52927](CVE-2023-52927-HoangNhoo_Reproduce-CVE-2023-52927.md) | CVE-2023-52927-Linux Kernel Netfilter Expectation Handling | ⚪ 中危 | 2 |
 | [CVE-2023-52927](CVE-2023-52927-seadragnol_CVE-2023-52927-private.md) | CVE-2023-52927 | ⚪ 高危 | 2 |
-| [CVE-2023-5359](CVE-2023-5359-enzocipher_CVE-2023-5359.md) | CVE-2023-5359 - W3 Total Cache Sensitive Information Exposur... | ⚪ 中危 | 1 |
+| [CVE-2023-5359](CVE-2023-5359-enzocipher_CVE-2023-5359.md) | CVE-2023-5359 - W3 Total Cache Sensitive Information Exposur... | ⚪ 中危 | 2 |
+| [CVE-2023-5359](CVE-2023-5359-spyata123_Cleartext-Storage-vulnerability-CVE-2023-5359-in-W3-Total-Cache.md) | CVE-2023-5359 - W3 Total Cache Sensitive Information Exposur... | ⚪ 中危 | 2 |
 | [CVE-2023-5360](CVE-2023-5360-Chocapikk_CVE-2023-5360.md) | CVE-2023-5360 - Royal Elementor Addons and Templates (WordPr... | 🔴 CRITICAL | 8 |
 | [CVE-2023-5360](CVE-2023-5360-Jenderal92_WP-CVE-2023-5360.md) | CVE-2023-5360 - Royal Elementor Addons and Templates (WordPr... | 🔴 CRITICAL | 8 |
 | [CVE-2023-5360](CVE-2023-5360-LaviruDilshan_CVE-2023-5360-exploit-with-native-libraries.md) | CVE-2023-5360 - Royal Elementor Addons and Templates (WordPr... | 🔴 CRITICAL | 8 |
@@ -863,17 +878,20 @@
 | [CVE-2023-5561](CVE-2023-5561-dthkhang_CVE-2023-5561-PoC.md) | CVE-2023-5561 - WordPress Unauthenticated Post Author Email ... | ⚪ 中危 | 2 |
 | [CVE-2023-5561](CVE-2023-5561-rootxsushant_CVE-2023-5561-POC-Updated.md) | CVE-2023-5561 - WordPress Unauthenticated Post Author Email ... | ⚪ 中危 | 2 |
 | [CVE-2023-5612](CVE-2023-5612-TopskiyPavelQwertyGang_Review.CVE-2023-5612.md) | CVE-2023-5612-GitLab-SSRF | ⚪ 中危 | 1 |
-| [CVE-2023-6000](CVE-2023-6000-rxerium_CVE-2023-6000.md) | CVE-2023-6000-Popup Builder-Stored XSS | ⚪ 高危 | 1 |
+| [CVE-2023-6000](CVE-2023-6000-RonF98_CVE-2023-6000-POC.md) | CVE-2023-6000-Popup Builder-Stored XSS | ⚪ 高危 | 2 |
+| [CVE-2023-6000](CVE-2023-6000-rxerium_CVE-2023-6000.md) | CVE-2023-6000-Popup Builder-Stored XSS | ⚪ 高危 | 2 |
 | [CVE-2023-6019](CVE-2023-6019-Clydeston_CVE-2023-6019.md) | CVE-2023-6019 Ray Command Injection in cpu_profile Parameter | ⚪ 高危 | 2 |
 | [CVE-2023-6019](CVE-2023-6019-FireWolfWang_CVE-2023-6019.md) | CVE-2023-6019 - Ray OS Command Injection | ⚪ 高危 | 2 |
 | [CVE-2023-6063](CVE-2023-6063-Eulex0x_CVE-2023-6063.md) | CVE-2023-6063 WP Fastest Cache SQL注入 | ⚪ 高危 | 3 |
 | [CVE-2023-6063](CVE-2023-6063-hackersroot_CVE-2023-6063-PoC.md) | CVE-2023-6063-WP Fastest Cache-SQL注入 | ⚪ 高危 | 3 |
 | [CVE-2023-6063](CVE-2023-6063-incommatose_CVE-2023-6063.md) | CVE-2023-6063-WP Fastest Cache-SQL注入 | ⚪ 高危 | 3 |
 | [CVE-2023-6241](CVE-2023-6241-ilGobbo00_CVE-2023-6241-Pixel7_Adaptation.md) | CVE-2023-6241-Arm Mali GPU Kernel Driver Use-After-Free | ⚪ 高危 | 1 |
-| [CVE-2023-6275](CVE-2023-6275-erickfernandox_CVE-2023-6275.md) | CVE-2023-6275 - TOTVS Fluig Platform 反射型XSS漏洞 | ⚪ 中危 | 1 |
+| [CVE-2023-6275](CVE-2023-6275-LelioCosta_FLUIG-Vulnerabilidade-CVE-2023-6275.md) | CVE-2023-6275 - TOTVS Fluig Platform 反射型XSS漏洞 | ⚪ 中危 | 2 |
+| [CVE-2023-6275](CVE-2023-6275-erickfernandox_CVE-2023-6275.md) | CVE-2023-6275 - TOTVS Fluig Platform 反射型XSS漏洞 | ⚪ 中危 | 2 |
 | [CVE-2023-6360](CVE-2023-6360-mr-won_CVE-2023-6360.md) | CVE-2023-6360-My Calendar-SQL注入 | ⚪ 高危 | 1 |
 | [CVE-2023-6401](CVE-2023-6401-mekitoci_CVE-2023-6401.md) | CVE-2023-6401-NotePad++-DLL劫持 | ⚪ 中危 | 1 |
-| [CVE-2023-6933](CVE-2023-6933-Trex96_vulnerable-bsr-lab-CVE-2023-6933.md) | CVE-2023-6933 - WordPress Better Search Replace Plugin PHP 对... | ⚪ 高危 | 1 |
+| [CVE-2023-6933](CVE-2023-6933-Trex96_vulnerable-bsr-lab-CVE-2023-6933.md) | CVE-2023-6933 - WordPress Better Search Replace Plugin PHP 对... | ⚪ 高危 | 2 |
+| [CVE-2023-6933](CVE-2023-6933-w2xim3_CVE-2023-6933.md) | CVE-2023-6933 - WordPress Better Search Replace Plugin PHP 对... | ⚪ 高危 | 2 |
 | [CVE-2023-7028](CVE-2023-7028-Esonhugh_gitlab_honeypot.md) | CVE-2023-7028-GitLab-账户接管 | ⚪ 高危 | 16 |
 | [CVE-2023-7028](CVE-2023-7028-KameliaZaman_Exploiting-GitLab-CVE-2023-7028.md) | CVE-2023-7028-GitLab-账户接管 | ⚪ 高危 | 16 |
 | [CVE-2023-7028](CVE-2023-7028-RandomRobbieBF_CVE-2023-7028.md) | CVE-2023-7028 - GitLab 弱密码恢复机制漏洞 | ⚪ 高危 | 16 |
@@ -902,4 +920,4 @@
 
 ---
 
-*最后更新: 2026-03-06*
+*最后更新: 2026-03-07*
