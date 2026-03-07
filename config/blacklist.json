@@ -1,7 +1,7 @@
 {
   "$schema": "blacklist-schema.json",
   "version": "1.0.0",
-  "last_updated": "2026-03-05T08:09:33.683843Z",
+  "last_updated": "2026-03-07T14:17:50.871563Z",
   "description": "VulnWatchdog 黑名单配置文件 - 用于过滤低质量POC和恶意仓库",
   "settings": {
     "auto_blacklist_enabled": true,
@@ -1594,6 +1594,16 @@
         "last_quality_score": 9,
         "last_poisoning_risk": 80,
         "notes": "自动拉黑 - 失败原因: 投毒风险过高: 80%"
+      },
+      {
+        "username": "0xAshwesker",
+        "reason": "POC质量持续过低(最近评分: 2/10)",
+        "added_date": "2026-03-07",
+        "added_by": "auto",
+        "fail_count": 1,
+        "last_quality_score": 2,
+        "last_poisoning_risk": 0,
+        "notes": "自动拉黑 - 失败原因: POC质量过低: 2/10"
       }
     ],
     "repositories": [
@@ -1629,11 +1639,11 @@
     "repositories": []
   },
   "statistics": {
-    "total_blocked": 1491,
-    "blocked_by_author": 1490,
+    "total_blocked": 1492,
+    "blocked_by_author": 1491,
     "blocked_by_repository": 1,
     "blocked_by_cve": 0,
-    "auto_blacklisted_authors": 157,
+    "auto_blacklisted_authors": 158,
     "auto_blacklisted_repositories": 0
   }
 }
