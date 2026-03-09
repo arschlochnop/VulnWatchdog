@@ -65,7 +65,7 @@
 | [CVE-2026-24061](CVE-2026-24061-obrunolima1910_CVE-2026-24061.md) | CVE-2026-24061 - GNU InetUtils telnetd 远程认证绕过/提权 | ⚪ 严重 | 30 |
 | [CVE-2026-24061](CVE-2026-24061-obrunolima1910_obrunolima1910.github.io.md) | CVE-2026-24061 - GNU InetUtils telnetd 远程认证绕过 / 参数注入 (Remote... | ⚪ 严重 (Critical) | 30 |
 | [CVE-2026-24061](CVE-2026-24061-scumfrog_cve-2026-24061.md) | CVE-2026-24061 - GNU InetUtils telnetd 身份认证绕过, 参数注入 | ⚪ 关键级 | 30 |
-| [CVE-2026-24061](CVE-2026-24061-tiborscholtz_CVE-2026-24061.md) | CVE-2026-24061 - GNU InetUtils telnetd 远程身份验证绕过 | ⚪ 高危 (Critical) | 30 |
+| [CVE-2026-24061](CVE-2026-24061-tiborscholtz_CVE-2026-24061.md) | CVE-2026-24061 - GNU InetUtils telnetd 认证绕过 | ⚪ 严重 | 30 |
 | [CVE-2026-2441](CVE-2026-2441-D3b0j33t_CVE-2026-2441-PoC.md) | CVE-2026-2441 - Google Chrome, Chromium-based browsers (Micr... | 🟠 High | 6 |
 | [CVE-2026-2441](CVE-2026-2441-NetVanguard-cmd_CVE-2026-2441.md) | CVE-2026-2441 - Google Chrome Use-after-free (UAF), Remote C... | ⚪ 高危 (High) | 6 |
 | [CVE-2026-2441](CVE-2026-2441-atiilla_CVE-2026-2441_PoC.md) | CVE-2026-2441 - Google Chrome, Microsoft Edge (Chromium-base... | 🟠 High | 6 |
@@ -86,4 +86,4 @@
 
 ---
 
-*最后更新: 2026-03-08*
+*最后更新: 2026-03-09*
