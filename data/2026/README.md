@@ -72,7 +72,7 @@
 | [CVE-2026-2441](CVE-2026-2441-fartlover37_CVE-2026-2441-PoC.md) | CVE-2026-2441 - Google Chrome, Microsoft Edge, Vivaldi, Brav... | ⚪ 高危 | 6 |
 | [CVE-2026-2441](CVE-2026-2441-huseyinstif_CVE-2026-2441-PoC.md) | CVE-2026-2441 - Google Chrome, Microsoft Edge, Vivaldi, Brav... | ⚪ 高危 (High) | 6 |
 | [CVE-2026-2441](CVE-2026-2441-theemperorspath_CVE-2026-2441-PoC.md) | CVE-2026-2441 - Google Chrome Use-After-Free (UAF) / 远程代码执行 ... | ⚪ 高危 (High) / 关键 (Critical) | 6 |
-| [CVE-2026-25643](CVE-2026-25643-DyniePro_CVE-2026-25643.md) | CVE-2026-25643 - Frigate NVR 配置操纵导致远程代码执行 (RCE) | ⚪ 高危 (Critical) | 3 |
+| [CVE-2026-25643](CVE-2026-25643-DyniePro_CVE-2026-25643.md) | CVE-2026-25643 - Frigate NVR 远程代码执行 (Remote Code Execution, ... | 🔴 Critical | 3 |
 | [CVE-2026-25643](CVE-2026-25643-jduardo2704_CVE-2026-25643-Frigate-RCE.md) | CVE-2026-25643 - Frigate NVR 远程代码执行 | ⚪ 高危 | 3 |
 | [CVE-2026-25643](CVE-2026-25643-joshuavanderpoll_CVE-2026-25643.md) | CVE-2026-25643 - Frigate NVR 远程代码执行 (RCE) / 配置操纵 | ⚪ 高危 | 3 |
 
