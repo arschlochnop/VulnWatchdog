@@ -12,7 +12,7 @@
 | [CVE-2026-0770](CVE-2026-0770-affix_CVE-2026-0770-PoC.md) | CVE-2026-0770 - Langflow 远程代码执行 (RCE) | ⚪ 关键 (Critical) | 1 |
 | [CVE-2026-1357](CVE-2026-1357-halilkirazkaya_CVE-2026-1357.md) | CVE-2026-1357 - WPvivid Backup & Migration 任意文件上传, 远程代码执行 (R... | 🔴 Critical | 1 |
 | [CVE-2026-1560](CVE-2026-1560-Z3YR0xX_CVE-2026-1560-Authenticated-Remote-Code-Execution-in-Lazy-Blocks-4.2.0.md) | CVE-2026-1560 - Custom Block Builder – Lazy Blocks WordPress... | 🟠 High | 1 |
-| [CVE-2026-20841](CVE-2026-20841-404godd_CVE-2026-20841-PoC.md) | CVE-2026-20841 - Microsoft Windows 记事本 命令注入 | ⚪ 高严重性 | 9 |
+| [CVE-2026-20841](CVE-2026-20841-404godd_CVE-2026-20841-PoC.md) | CVE-2026-20841 - Microsoft Windows 记事本 (现代/Microsoft Store 版... | ⚪ 高危 | 9 |
 | [CVE-2026-20841](CVE-2026-20841-BTtea_CVE-2026-20841-PoC.md) | CVE-2026-20841 - Microsoft Windows 记事本 远程代码执行 (RCE) | ⚪ 高危 | 9 |
 | [CVE-2026-20841](CVE-2026-20841-EleniChristopoulou_PoC-CVE-2026-20841.md) | CVE-2026-20841 - Microsoft Windows Notepad 远程代码执行 (RCE), 命令注... | ⚪ 高危 | 9 |
 | [CVE-2026-20841](CVE-2026-20841-RajaUzairAbdullah_CVE-2026-20841.md) | CVE-2026-20841 - Microsoft Windows Notepad 命令注入 (Command Inj... | ⚪ 高危 (High) | 9 |
