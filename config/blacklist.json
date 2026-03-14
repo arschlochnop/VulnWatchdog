@@ -1,7 +1,7 @@
 {
   "$schema": "blacklist-schema.json",
   "version": "1.0.0",
-  "last_updated": "2026-03-13T01:16:16.284988Z",
+  "last_updated": "2026-03-14T05:38:52.371755Z",
   "description": "VulnWatchdog 黑名单配置文件 - 用于过滤低质量POC和恶意仓库",
   "settings": {
     "auto_blacklist_enabled": true,
@@ -1654,6 +1654,16 @@
         "last_quality_score": 1,
         "last_poisoning_risk": 0,
         "notes": "自动拉黑 - 失败原因: POC质量过低: 1/10"
+      },
+      {
+        "username": "megafart1",
+        "reason": "投毒风险持续过高(最近风险: 75%)",
+        "added_date": "2026-03-14",
+        "added_by": "auto",
+        "fail_count": 1,
+        "last_quality_score": 8,
+        "last_poisoning_risk": 75,
+        "notes": "自动拉黑 - 失败原因: 投毒风险过高: 75%"
       }
     ],
     "repositories": [
@@ -1693,7 +1703,7 @@
     "blocked_by_author": 1524,
     "blocked_by_repository": 1,
     "blocked_by_cve": 0,
-    "auto_blacklisted_authors": 163,
+    "auto_blacklisted_authors": 164,
     "auto_blacklisted_repositories": 0
   }
 }

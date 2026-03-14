@@ -1,6 +1,6 @@
 # 2026年 CVE漏洞列表
 
-> 📊 共收录 **70** 个CVE漏洞
+> 📊 共收录 **71** 个CVE漏洞
 
 ---
 
@@ -74,6 +74,7 @@
 | [CVE-2026-2441](CVE-2026-2441-fartlover37_CVE-2026-2441-PoC.md) | CVE-2026-2441 - Google Chrome Use-after-free (UAF) | ⚪ 高危 (High) | 6 |
 | [CVE-2026-2441](CVE-2026-2441-huseyinstif_CVE-2026-2441-PoC.md) | CVE-2026-2441 - Google Chrome, Microsoft Edge, Vivaldi, Brav... | ⚪ 高危 (High) | 6 |
 | [CVE-2026-2441](CVE-2026-2441-theemperorspath_CVE-2026-2441-PoC.md) | CVE-2026-2441 - Google Chrome Use-After-Free (UAF) / 远程代码执行 ... | ⚪ 高危 (High) / 关键 (Critical) | 6 |
+| [CVE-2026-2472](CVE-2026-2472-JoshuaProvoste_CVE-2026-2472-Vertex-AI-SDK-Google-Cloud.md) | CVE-2026-2472 - Google Cloud Vertex AI SDK (google-cloud-aip... | ⚪ 高危 | 1 |
 | [CVE-2026-25253](CVE-2026-25253-EQSTLab_CVE-2026-25253.md) | CVE-2026-25253 - OpenClaw AI代理劫持 / 远程代码执行 / 令牌窃取 | ⚪ 高危 | 1 |
 | [CVE-2026-25643](CVE-2026-25643-DyniePro_CVE-2026-25643.md) | CVE-2026-25643 - Frigate NVR 远程代码执行 (RCE) | ⚪ 高危 | 3 |
 | [CVE-2026-25643](CVE-2026-25643-jduardo2704_CVE-2026-25643-Frigate-RCE.md) | CVE-2026-25643 - Frigate NVR 远程代码执行 | ⚪ 高危 | 3 |
