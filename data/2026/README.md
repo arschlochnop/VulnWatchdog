@@ -78,7 +78,7 @@
 | [CVE-2026-25253](CVE-2026-25253-EQSTLab_CVE-2026-25253.md) | CVE-2026-25253 - OpenClaw AI代理劫持 / 远程代码执行 / 令牌窃取 | ⚪ 高危 | 1 |
 | [CVE-2026-25643](CVE-2026-25643-DyniePro_CVE-2026-25643.md) | CVE-2026-25643 - Frigate NVR 远程代码执行 (RCE) | ⚪ 高危 | 3 |
 | [CVE-2026-25643](CVE-2026-25643-jduardo2704_CVE-2026-25643-Frigate-RCE.md) | CVE-2026-25643 - Frigate NVR 远程代码执行 (RCE) | ⚪ 关键 (Critical) | 3 |
-| [CVE-2026-25643](CVE-2026-25643-joshuavanderpoll_CVE-2026-25643.md) | CVE-2026-25643 - Frigate NVR 远程代码执行 (RCE) / 配置操纵 | ⚪ 高危 | 3 |
+| [CVE-2026-25643](CVE-2026-25643-joshuavanderpoll_CVE-2026-25643.md) | CVE-2026-25643 - Frigate NVR 远程代码执行 (RCE) | ⚪ 高危 | 3 |
 
 ---
 
