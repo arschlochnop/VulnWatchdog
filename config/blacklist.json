@@ -1,7 +1,7 @@
 {
   "$schema": "blacklist-schema.json",
   "version": "1.0.0",
-  "last_updated": "2026-03-14T07:39:08.393077Z",
+  "last_updated": "2026-03-15T07:13:53.995754Z",
   "description": "VulnWatchdog 黑名单配置文件 - 用于过滤低质量POC和恶意仓库",
   "settings": {
     "auto_blacklist_enabled": true,
@@ -1674,6 +1674,16 @@
         "last_quality_score": 2,
         "last_poisoning_risk": 0,
         "notes": "自动拉黑 - 失败原因: POC质量过低: 2"
+      },
+      {
+        "username": "esteban11121",
+        "reason": "POC质量持续过低(最近评分: 2/10)",
+        "added_date": "2026-03-15",
+        "added_by": "auto",
+        "fail_count": 1,
+        "last_quality_score": 2,
+        "last_poisoning_risk": 5,
+        "notes": "自动拉黑 - 失败原因: POC质量过低: 2"
       }
     ],
     "repositories": [
@@ -1709,11 +1719,11 @@
     "repositories": []
   },
   "statistics": {
-    "total_blocked": 1544,
-    "blocked_by_author": 1543,
+    "total_blocked": 1547,
+    "blocked_by_author": 1546,
     "blocked_by_repository": 1,
     "blocked_by_cve": 0,
-    "auto_blacklisted_authors": 165,
+    "auto_blacklisted_authors": 166,
     "auto_blacklisted_repositories": 0
   }
 }
