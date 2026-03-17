@@ -1,6 +1,6 @@
 # 2017年 CVE漏洞列表
 
-> 📊 共收录 **298** 个CVE漏洞
+> 📊 共收录 **297** 个CVE漏洞
 
 ---
 
@@ -287,8 +287,7 @@
 | [CVE-2017-9248](CVE-2017-9248-ictnamanh_CVE-2017-9248.md) | CVE-2017-9248 - Telerik UI for ASP.NET AJAX Cryptographic We... | ⚪ 高危 | 6 |
 | [CVE-2017-9248](CVE-2017-9248-oldboysonnt_dp.md) | CVE-2017-9248 - Telerik UI for ASP.NET AJAX Cryptographic We... | ⚪ 高危 | 6 |
 | [CVE-2017-9805](CVE-2017-9805-Fl5xia_CVE-2017-9805.md) | CVE-2017-9805 - Apache Struts 2 (REST Plugin) RCE (远程代码执行) | 🔴 CRITICAL | 1 |
-| [CVE-2017-9822](CVE-2017-9822-Tnot123_cve-2017-9822.md) | CVE-2017-9822 DotNetNuke Cookie 反序列化 RCE | ⚪ 高危 | 2 |
-| [CVE-2017-9822](CVE-2017-9822-murataydemir_CVE-2017-9822.md) | CVE-2017-9822 DotNetNuke Cookie 反序列化 RCE | ⚪ 高危 | 2 |
+| [CVE-2017-9822](CVE-2017-9822-Tnot123_cve-2017-9822.md) | CVE-2017-9822 DotNetNuke Cookie 反序列化 RCE | ⚪ 高危 | 1 |
 | [CVE-2017-9841](CVE-2017-9841-Chocapikk_CVE-2017-9841.md) | CVE-2017-9841-PHPUnit-远程代码执行 | ⚪ 高危 | 17 |
 | [CVE-2017-9841](CVE-2017-9841-Habibullah1101_PHPUnit-GoScan.md) | CVE-2017-9841 PHPUnit 远程代码执行 | ⚪ 高危 | 17 |
 | [CVE-2017-9841](CVE-2017-9841-K3ysTr0K3R_CVE-2017-9841-EXPLOIT.md) | CVE-2017-9841-PHPUnit远程代码执行 | ⚪ 高危 | 17 |
@@ -317,4 +316,4 @@
 
 ---
 
-*最后更新: 2026-03-16*
+*最后更新: 2026-03-17*
