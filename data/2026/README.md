@@ -51,7 +51,7 @@
 | [CVE-2026-24061](CVE-2026-24061-Parad0x7e_CVE-2026-24061.md) | CVE-2026-24061 - GNU InetUtils telnetd 远程认证绕过, 参数注入, 提权 (Rem... | 🔴 Critical | 32 |
 | [CVE-2026-24061](CVE-2026-24061-Remnant-DB_CVE-2026-24061.md) | CVE-2026-24061 - GNU InetUtils telnetd 认证绕过, 提权, 参数注入 | ⚪ 高危/关键 | 32 |
 | [CVE-2026-24061](CVE-2026-24061-SeptembersEND_CVE--2026-24061.md) | CVE-2026-24061 - GNU InetUtils telnetd 远程认证绕过 / 参数注入 | ⚪ 高危 / 严重 / Critical | 32 |
-| [CVE-2026-24061](CVE-2026-24061-X-croot_CVE-2026-24061_POC.md) | CVE-2026-24061 - GNU InetUtils telnetd 远程认证绕过, 参数注入, 提权 | 🔴 Critical | 32 |
+| [CVE-2026-24061](CVE-2026-24061-X-croot_CVE-2026-24061_POC.md) | CVE-2026-24061 - GNU InetUtils telnetd 参数注入认证绕过RCE | ⚪ 高危/严重 | 32 |
 | [CVE-2026-24061](CVE-2026-24061-buzz075_CVE-2026-24061.md) | CVE-2026-24061 - GNU InetUtils telnetd 参数注入 (Argument Inject... | ⚪ 高危 (Critical) | 32 |
 | [CVE-2026-24061](CVE-2026-24061-canpilayda_inetutils-telnetd-cve-2026-24061.md) | CVE-2026-24061 - GNU Inetutils Telnetd 参数注入 (Argument Inject... | ⚪ 高危 | 32 |
 | [CVE-2026-24061](CVE-2026-24061-cumakurt_tscan.md) | CVE-2026-24061 - GNU Inetutils telnetd 身份认证绕过 | ⚪ 严重 | 32 |
@@ -78,7 +78,7 @@
 | [CVE-2026-2441](CVE-2026-2441-theemperorspath_CVE-2026-2441-PoC.md) | CVE-2026-2441 - Google Chrome Use-After-Free (UAF), Memory C... | ⚪ 高危（High） | 6 |
 | [CVE-2026-2472](CVE-2026-2472-JoshuaProvoste_CVE-2026-2472-Vertex-AI-SDK-Google-Cloud.md) | CVE-2026-2472 - Google Cloud Vertex AI SDK (google-cloud-aip... | ⚪ 高危 | 1 |
 | [CVE-2026-25253](CVE-2026-25253-EQSTLab_CVE-2026-25253.md) | CVE-2026-25253 - OpenClaw AI代理劫持 / 远程代码执行 / 令牌窃取 | ⚪ 高危 | 1 |
-| [CVE-2026-25643](CVE-2026-25643-DyniePro_CVE-2026-25643.md) | CVE-2026-25643 - Frigate NVR 远程代码执行 (RCE) | ⚪ 高危 | 3 |
+| [CVE-2026-25643](CVE-2026-25643-DyniePro_CVE-2026-25643.md) | CVE-2026-25643 - Frigate NVR RCE (Remote Code Execution) | 🔴 Critical | 3 |
 | [CVE-2026-25643](CVE-2026-25643-jduardo2704_CVE-2026-25643-Frigate-RCE.md) | CVE-2026-25643 - Frigate NVR 远程代码执行 (RCE) | ⚪ 关键 (Critical) | 3 |
 | [CVE-2026-25643](CVE-2026-25643-joshuavanderpoll_CVE-2026-25643.md) | CVE-2026-25643 - Frigate NVR 远程代码执行 (RCE) | ⚪ 高危 | 3 |
 | [CVE-2026-30862](CVE-2026-30862-drkim-dev_CVE-2026-30862.md) | CVE-2026-30862 - Appsmith 存储型跨站脚本(XSS), 权限提升, 跨站请求伪造(CSRF) | ⚪ 严重 (Critical) | 1 |
