@@ -81,7 +81,7 @@
 | [CVE-2026-2441](CVE-2026-2441-theemperorspath_CVE-2026-2441-PoC.md) | CVE-2026-2441 - Google Chrome, Microsoft Edge Use-After-Free... | ⚪ 高 | 6 |
 | [CVE-2026-2472](CVE-2026-2472-JoshuaProvoste_CVE-2026-2472-Vertex-AI-SDK-Google-Cloud.md) | CVE-2026-2472 - Google Cloud Vertex AI SDK (google-cloud-aip... | ⚪ 高危：未认证攻击者可导致任意JavaScript代码执行 | 1 |
 | [CVE-2026-25253](CVE-2026-25253-EQSTLab_CVE-2026-25253.md) | CVE-2026-25253 - OpenClaw AI代理劫持 / 远程代码执行 / 令牌窃取 | ⚪ 高危 | 1 |
-| [CVE-2026-25643](CVE-2026-25643-DyniePro_CVE-2026-25643.md) | CVE-2026-25643 - Frigate NVR 远程代码执行 (RCE) | ⚪ 高危/关键 (Critical) | 3 |
+| [CVE-2026-25643](CVE-2026-25643-DyniePro_CVE-2026-25643.md) | CVE-2026-25643 - Frigate NVR 配置操纵导致的RCE (命令注入) | ⚪ 高危 (Critical) | 3 |
 | [CVE-2026-25643](CVE-2026-25643-jduardo2704_CVE-2026-25643-Frigate-RCE.md) | CVE-2026-25643 - Frigate NVR 远程代码执行 (RCE) | ⚪ 高危 | 3 |
 | [CVE-2026-25643](CVE-2026-25643-joshuavanderpoll_CVE-2026-25643.md) | CVE-2026-25643 - Frigate NVR 远程代码执行 (RCE) | ⚪ 高危 | 3 |
 | [CVE-2026-30862](CVE-2026-30862-drkim-dev_CVE-2026-30862.md) | CVE-2026-30862 - Appsmith 存储型跨站脚本(XSS), 权限提升, 跨站请求伪造(CSRF) | ⚪ 严重 (Critical) | 1 |
