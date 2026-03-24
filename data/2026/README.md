@@ -64,7 +64,7 @@
 | [CVE-2026-24061](CVE-2026-24061-ibrahmsql_CVE-2026-24061-PoC.md) | CVE-2026-24061 - GNU Inetutils telnetd Authentication Bypass | 🔴 Critical | 34 |
 | [CVE-2026-24061](CVE-2026-24061-killsystema_scan-cve-2026-24061.md) | CVE-2026-24061 - GNU InetUtils telnetd 认证绕过 (Authentication ... | ⚪ 高危 (Critical) | 34 |
 | [CVE-2026-24061](CVE-2026-24061-lavabyte_telnet-CVE-2026-24061.md) | CVE-2026-24061 - GNU InetUtils telnetd 认证绕过, 参数注入, 权限提升 | ⚪ 高危/关键 | 34 |
-| [CVE-2026-24061](CVE-2026-24061-madfxr_Twenty-Three-Scanner.md) | CVE-2026-24061 - GNU InetUtils telnetd 认证绕过 (Authentication ... | ⚪ 高危/严重 (Critical) | 34 |
+| [CVE-2026-24061](CVE-2026-24061-madfxr_Twenty-Three-Scanner.md) | CVE-2026-24061 - GNU InetUtils telnetd 远程认证绕过, 参数注入 | ⚪ 高危 | 34 |
 | [CVE-2026-24061](CVE-2026-24061-mbanyamer_CVE-2026-24061-GNU-Inetutils-telnetd-Remote-Authentication-Bypass-Root-Shell-.md) | CVE-2026-24061 - GNU InetUtils telnetd 认证绕过, 提权 | ⚪ 高危 | 34 |
 | [CVE-2026-24061](CVE-2026-24061-nrnw_CVE-2026-24061-GNU-inetutils-Telnet-Detector.md) | CVE-2026-24061 - GNU InetUtils Telnetd 认证绕过 | ⚪ 严重高危 | 34 |
 | [CVE-2026-24061](CVE-2026-24061-obrunolima1910_CVE-2026-24061.md) | CVE-2026-24061 - GNU InetUtils telnetd 远程认证绕过/提权 | ⚪ 严重 | 34 |
