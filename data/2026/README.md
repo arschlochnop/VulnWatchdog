@@ -17,7 +17,7 @@
 | [CVE-2026-20841](CVE-2026-20841-BTtea_CVE-2026-20841-PoC.md) | CVE-2026-20841 - Windows 记事本 (Notepad) 命令注入 (Command Injecti... | ⚪ 高危 | 11 |
 | [CVE-2026-20841](CVE-2026-20841-EleniChristopoulou_PoC-CVE-2026-20841.md) | CVE-2026-20841 - Microsoft Windows 记事本 远程代码执行 (RCE) | ⚪ 高 | 11 |
 | [CVE-2026-20841](CVE-2026-20841-RajaUzairAbdullah_CVE-2026-20841.md) | CVE-2026-20841 - Windows 记事本 (Notepad) 命令注入, 远程代码执行 | ⚪ 高危 | 11 |
-| [CVE-2026-20841](CVE-2026-20841-SecureWithUmer_CVE-2026-20841.md) | CVE-2026-20841 - Windows Notepad RCE (远程代码执行) | ⚪ 中低 | 11 |
+| [CVE-2026-20841](CVE-2026-20841-SecureWithUmer_CVE-2026-20841.md) | CVE-2026-20841 - Windows 记事本 (Notepad) 远程代码执行 (RCE), 命令注入 | ⚪ 高危 | 11 |
 | [CVE-2026-20841](CVE-2026-20841-atiilla_CVE-2026-20841.md) | CVE-2026-20841 - Microsoft Windows 记事本 (Notepad) 命令注入/远程代码执行... | ⚪ 高危 (High) | 11 |
 | [CVE-2026-20841](CVE-2026-20841-dogukankurnaz_CVE-2026-20841-PoC.md) | CVE-2026-20841 - Windows Notepad App (Microsoft Store版本) 远程代... | ⚪ 高危 (CVSS 8.8) | 11 |
 | [CVE-2026-20841](CVE-2026-20841-hackfaiz_CVE-2026-20841-PoC.md) | CVE-2026-20841 - Microsoft Windows 记事本 命令注入/远程代码执行 (Command ... | ⚪ 高危 | 11 |
