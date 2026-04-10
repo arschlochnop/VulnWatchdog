@@ -123,7 +123,7 @@ def process_cve(cve_id: str, repo: Dict, engine, notified_cves_today: set) -> Di
         code_prompt = get_github_poc(repo_link)
         if not code_prompt:
             logger.error(f"获取POC代码失败")
-            return
+            return result
 
         # 获取或创建CVE信息
         cve = engine.query(CVE).filter(CVE.cve_id == cve_id).first()
